@@ -1,0 +1,99 @@
+SCORING FOR SPEAKER: j-r
+     of amazon\j-rea1-f2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.4%   (  12)
+
+Percent Correct           =   95.2%   ( 178)
+
+Percent Substitution      =    4.3%   (   8)
+Percent Deletions         =    0.5%   (   1)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   93.6%
+
+
+Ref. words                =           ( 187)
+Hyp. words                =           ( 189)
+Aligned words             =           ( 190)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  ball ==> bull
+   2:    1  ->  cinders ==> this
+   3:    1  ->  messenger ==> message
+   4:    1  ->  poor ==> pausing
+   5:    1  ->  royal ==> world
+   6:    1  ->  they'd ==> they
+   7:    1  ->  thought ==> fought
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  all
+   3:    1  ->  her
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  that
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  ball
+   2:    1  ->  cinders
+   3:    1  ->  messenger
+   4:    1  ->  poor
+   5:    1  ->  royal
+   6:    1  ->  they'd
+   7:    1  ->  thought
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  bull
+   2:    1  ->  fought
+   3:    1  ->  message
+   4:    1  ->  pausing
+   5:    1  ->  they
+   6:    1  ->  this
+   7:    1  ->  world
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

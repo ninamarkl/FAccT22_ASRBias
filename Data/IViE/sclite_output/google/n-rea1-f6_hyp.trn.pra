@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\n-rea1-f6_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-f6_01)
+Scores: (#C #S #D #I) 103 49 28 6
+REF:  once upon a time there was a girl called cinderella but everyone called HER CINDERS CINDERS LIVED with HER MOTHER AND  two stepsisters CALLED LILY AND ROSA LILY AND  ROSA    WERE  very unfriendly and THEY WERE LAZY GIRLS they spent all of their time BUYING new clothes and GOING TO PARTIES POOR CINDERS HAD            to wear all THEIR OLD HAND   me DOWNS and she had to do the cleaning one day A ROYAL MESSENGER CAME TO ANNOUNCE A      BALL the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY   and ROSA thought this was DIVINE prince william was gorgeous and HE WAS LOOKING FOR A BRIDE they dreamt of wedding BELLS when the evening of the BALL ARRIVED   CINDERS    HAD to help HER SISTERS GET        ready they were in a bad mood they WANTED to buy some new GOWNS but **** THEIR MOTHER said THAT they had ENOUGH GOWNS SO   they started ******** SHOUTING AT CINDERS FIND MY JEWELS YELLED ONE  FIND   MY hat *** HOWLED the other they wanted **** 
+HYP:  once upon a time there was a girl called cinderella but everyone called HIS SON     DIES    LIVE  with HIM MORE   THAN two stepsisters ****** **** *** **** **** CALL LILIANA GROZA very unfriendly and **** **** HE   GOES  they spent all of their time BY     new clothes and ***** ** ******* **** ******* COUNTERPARTIES to wear all I'M   ALL TURNED me DOWN  and she had to do the cleaning one day * ***** ********* **** ** RIDER    ANSWER PAUL the ball WILL  be held at the royal palace in honour of the queen's only son prince william LILLEY and I    thought this was DEFINE prince william was gorgeous and ** *** ******* *** * ***** they dreamt of wedding VOWS  when the evening of the **** POLARIZED SUNGLASSES HOW to help *** A       CYSTOSCOPE ready they were in a bad mood they WANT   to buy some new GUNS  but THEN WHEN  I      said **** they had ****** ***** WERE they started CHATTING ATTEND   AS THEY    MADE US WHAT   YELLOW BORN FAMOUS A  hat OUT OF     the other they wanted HAIR 
+Eval:                                                                         S   S       S       S          S   S      S                    D      D    D   D    D    S    S       S                         D    D    S    S                                  S                      D     D  D       D    D       S                          S     S   S         S                                            D D     D         D    D  S        S      S             S                                                                                  S          S                     S                                      D  D   D       D   D D                            S                             D    S         S          S           D   S       S                                             S                      S         I    S     S           D             D      D     S                 I        S        S  S       S    S  S      S      S    S      S      I   S                            I    
+
+>> REF:  ***** *** HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  BRUSH HIS HAIR        PINS     and hairspray 
+>> Eval: I     I   S           S                      
+
+

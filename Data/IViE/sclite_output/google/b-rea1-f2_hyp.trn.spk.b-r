@@ -1,0 +1,208 @@
+SCORING FOR SPEAKER: b-r
+     of google\b-rea1-f2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   45.1%   (  82)
+
+Percent Correct           =   57.1%   ( 104)
+
+Percent Substitution      =   18.7%   (  34)
+Percent Deletions         =   24.2%   (  44)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   54.9%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 142)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  a ==> monday
+   2:    1  ->  a ==> ninety
+   3:    1  ->  and ==> her
+   4:    1  ->  and ==> liliana
+   5:    1  ->  buying ==> by
+   6:    1  ->  cinders ==> percentages
+   7:    1  ->  dreamed ==> dream
+   8:    1  ->  find ==> gleighteen
+   9:    1  ->  going ==> in
+  10:    1  ->  gowns ==> coins
+  11:    1  ->  gowns ==> guns
+  12:    1  ->  hairbrushes ==> happens
+  13:    1  ->  hairpins ==> in
+  14:    1  ->  hairspray ==> spray
+  15:    1  ->  help ==> santa's
+  16:    1  ->  her ==> helper
+  17:    1  ->  honour ==> anna
+  18:    1  ->  in ==> and
+  19:    1  ->  lily ==> call
+  20:    1  ->  lived ==> left
+  21:    1  ->  me ==> hackney
+  22:    1  ->  of ==> day
+  23:    1  ->  one ==> modules
+  24:    1  ->  rosa ==> liliana
+  25:    1  ->  their ==> the
+  26:    1  ->  they ==> a
+  27:    1  ->  they'd ==> did
+  28:    1  ->  to ==> the
+  29:    1  ->  to ==> two
+  30:    1  ->  wear ==> are
+  31:    1  ->  were ==> groza
+  32:    1  ->  were ==> never
+  33:    1  ->  were ==> there
+  34:    1  ->  would ==> will
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  braces
+   2:    1  ->  go
+   3:    1  ->  had
+   4:    1  ->  her
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  and
+   2:    2  ->  cinders
+   3:    2  ->  lily
+   4:    2  ->  rosa
+   5:    2  ->  the
+   6:    2  ->  they
+   7:    2  ->  was
+   8:    1  ->  announce
+   9:    1  ->  arrived
+  10:    1  ->  at
+  11:    1  ->  ball
+  12:    1  ->  called
+  13:    1  ->  day
+  14:    1  ->  divine
+  15:    1  ->  evening
+  16:    1  ->  go
+  17:    1  ->  gorgeous
+  18:    1  ->  had
+  19:    1  ->  hand
+  20:    1  ->  her
+  21:    1  ->  howled
+  22:    1  ->  jewels
+  23:    1  ->  my
+  24:    1  ->  of
+  25:    1  ->  one
+  26:    1  ->  only
+  27:    1  ->  poor
+  28:    1  ->  prince
+  29:    1  ->  shouting
+  30:    1  ->  si-
+  31:    1  ->  their
+  32:    1  ->  this
+  33:    1  ->  thought
+  34:    1  ->  to
+  35:    1  ->  when
+  36:    1  ->  william
+  37:    1  ->  yelled
+     -------
+        44
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  were
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  gowns
+   5:    2  ->  to
+   6:    1  ->  buying
+   7:    1  ->  cinders
+   8:    1  ->  dreamed
+   9:    1  ->  find
+  10:    1  ->  going
+  11:    1  ->  hairbrushes
+  12:    1  ->  hairpins
+  13:    1  ->  hairspray
+  14:    1  ->  help
+  15:    1  ->  her
+  16:    1  ->  honour
+  17:    1  ->  in
+  18:    1  ->  lily
+  19:    1  ->  lived
+  20:    1  ->  me
+  21:    1  ->  of
+  22:    1  ->  one
+  23:    1  ->  rosa
+  24:    1  ->  their
+  25:    1  ->  they
+  26:    1  ->  they'd
+  27:    1  ->  wear
+  28:    1  ->  would
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  in
+   2:    2  ->  liliana
+   3:    2  ->  the
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  anna
+   7:    1  ->  are
+   8:    1  ->  by
+   9:    1  ->  call
+  10:    1  ->  coins
+  11:    1  ->  day
+  12:    1  ->  did
+  13:    1  ->  dream
+  14:    1  ->  gleighteen
+  15:    1  ->  groza
+  16:    1  ->  guns
+  17:    1  ->  hackney
+  18:    1  ->  happens
+  19:    1  ->  helper
+  20:    1  ->  her
+  21:    1  ->  left
+  22:    1  ->  modules
+  23:    1  ->  monday
+  24:    1  ->  never
+  25:    1  ->  ninety
+  26:    1  ->  percentages
+  27:    1  ->  santa's
+  28:    1  ->  spray
+  29:    1  ->  there
+  30:    1  ->  two
+  31:    1  ->  will
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

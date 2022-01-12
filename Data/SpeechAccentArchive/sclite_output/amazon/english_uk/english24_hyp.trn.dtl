@@ -1,0 +1,99 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\english_uk\english24_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.5%   (  10)
+
+Percent Correct           =   85.5%   (  59)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   85.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  and ==> on
+   3:    1  ->  ask ==> asked
+   4:    1  ->  frog ==> flow
+   5:    1  ->  her ==> on
+   6:    1  ->  meet ==> metre
+   7:    1  ->  scoop ==> skip
+   8:    1  ->  snake ==> sneak
+   9:    1  ->  thick ==> fixed
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  will
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  and
+   2:    1  ->  ask
+   3:    1  ->  frog
+   4:    1  ->  her
+   5:    1  ->  meet
+   6:    1  ->  scoop
+   7:    1  ->  snake
+   8:    1  ->  thick
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  on
+   2:    1  ->  asked
+   3:    1  ->  fixed
+   4:    1  ->  flow
+   5:    1  ->  in
+   6:    1  ->  metre
+   7:    1  ->  skip
+   8:    1  ->  sneak
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

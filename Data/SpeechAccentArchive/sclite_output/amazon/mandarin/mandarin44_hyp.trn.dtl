@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin44_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  ask ==> asked
+   3:    1  ->  bags ==> backs
+   4:    1  ->  call ==> coast
+   5:    1  ->  can ==> cask
+   6:    1  ->  five ==> peace
+   7:    1  ->  peas ==> no
+   8:    1  ->  scoop ==> of
+   9:    1  ->  slabs ==> slobs
+  10:    1  ->  snake ==> snag
+  11:    1  ->  stella ==> allah
+  12:    1  ->  the ==> a
+  13:    1  ->  these ==> this
+  14:    1  ->  thick ==> fifty-six
+  15:    1  ->  things ==> sings
+  16:    1  ->  toy ==> pie
+  17:    1  ->  train ==> trans
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  snow
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  of
+   2:    1  ->  ask
+   3:    1  ->  bags
+   4:    1  ->  call
+   5:    1  ->  can
+   6:    1  ->  five
+   7:    1  ->  peas
+   8:    1  ->  scoop
+   9:    1  ->  slabs
+  10:    1  ->  snake
+  11:    1  ->  stella
+  12:    1  ->  the
+  13:    1  ->  these
+  14:    1  ->  thick
+  15:    1  ->  things
+  16:    1  ->  toy
+  17:    1  ->  train
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  off
+   2:    1  ->  a
+   3:    1  ->  allah
+   4:    1  ->  asked
+   5:    1  ->  backs
+   6:    1  ->  cask
+   7:    1  ->  coast
+   8:    1  ->  fifty-six
+   9:    1  ->  no
+  10:    1  ->  of
+  11:    1  ->  peace
+  12:    1  ->  pie
+  13:    1  ->  sings
+  14:    1  ->  slobs
+  15:    1  ->  snag
+  16:    1  ->  this
+  17:    1  ->  trans
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

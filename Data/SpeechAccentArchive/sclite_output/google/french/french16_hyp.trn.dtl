@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: french\french16_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =   17.4%   (  12)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  57)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  bags ==> eyes
+   3:    1  ->  bob ==> but
+   4:    1  ->  can ==> chicken
+   5:    1  ->  meet ==> me
+   6:    1  ->  scoop ==> coop
+   7:    1  ->  she ==> pasta
+   8:    1  ->  snack ==> not
+   9:    1  ->  spoons ==> 6-months
+  10:    1  ->  thick ==> 56
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  big
+   6:    1  ->  for
+   7:    1  ->  frog
+   8:    1  ->  kids
+   9:    1  ->  plastic
+  10:    1  ->  snake
+  11:    1  ->  the
+  12:    1  ->  toy
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  bags
+   3:    1  ->  bob
+   4:    1  ->  can
+   5:    1  ->  meet
+   6:    1  ->  scoop
+   7:    1  ->  she
+   8:    1  ->  snack
+   9:    1  ->  spoons
+  10:    1  ->  thick
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  56
+   2:    1  ->  6-months
+   3:    1  ->  but
+   4:    1  ->  chicken
+   5:    1  ->  coop
+   6:    1  ->  eyes
+   7:    1  ->  it's
+   8:    1  ->  me
+   9:    1  ->  not
+  10:    1  ->  pasta
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

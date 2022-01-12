@@ -1,0 +1,202 @@
+SCORING FOR SPEAKER: car
+     of google\car-rea1-f4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.4%   (  59)
+
+Percent Correct           =   71.8%   ( 135)
+
+Percent Substitution      =   22.3%   (  42)
+Percent Deletions         =    5.9%   (  11)
+Percent Insertions        =    3.2%   (   6)
+Percent Word Accuracy     =   68.6%
+
+
+Ref. words                =           ( 188)
+Hyp. words                =           ( 183)
+Aligned words             =           ( 194)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  one ==> when
+   2:    2  ->  their ==> the
+   3:    1  ->  a ==> an
+   4:    1  ->  a ==> are
+   5:    1  ->  and ==> into
+   6:    1  ->  ball ==> ansible
+   7:    1  ->  ball ==> bull
+   8:    1  ->  buying ==> a
+   9:    1  ->  cinders ==> has
+  10:    1  ->  day ==> they
+  11:    1  ->  dreamed ==> dream
+  12:    1  ->  girls ==> lazygirls
+  13:    1  ->  gowns ==> girls
+  14:    1  ->  gowns ==> gums
+  15:    1  ->  had ==> have
+  16:    1  ->  hairbrushes ==> hair
+  17:    1  ->  hairpins ==> pins
+  18:    1  ->  her ==> to
+  19:    1  ->  in ==> when
+  20:    1  ->  jewels ==> joules
+  21:    1  ->  lily ==> lilley
+  22:    1  ->  lived ==> live
+  23:    1  ->  mother ==> another
+  24:    1  ->  mother ==> they
+  25:    1  ->  of ==> day
+  26:    1  ->  other ==> healthier
+  27:    1  ->  poor ==> person
+  28:    1  ->  rosa ==> rosie
+  29:    1  ->  royal ==> real
+  30:    1  ->  said ==> never
+  31:    1  ->  son ==> sin
+  32:    1  ->  stepsisters ==> sister's
+  33:    1  ->  this ==> he
+  34:    1  ->  two ==> step
+  35:    1  ->  unfriendly ==> earlier
+  36:    1  ->  very ==> was
+  37:    1  ->  were ==> rosie
+  38:    1  ->  were ==> say
+  39:    1  ->  would ==> to
+  40:    1  ->  yelled ==> yard
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  brushes
+   3:    1  ->  by
+   4:    1  ->  had
+   5:    1  ->  hair
+   6:    1  ->  was
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  all
+   2:    1  ->  announce
+   3:    1  ->  her
+   4:    1  ->  howled
+   5:    1  ->  lazy
+   6:    1  ->  mood
+   7:    1  ->  oh
+   8:    1  ->  rosa
+   9:    1  ->  the
+  10:    1  ->  their
+  11:    1  ->  they
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  a
+   2:    2  ->  ball
+   3:    2  ->  gowns
+   4:    2  ->  mother
+   5:    2  ->  one
+   6:    2  ->  their
+   7:    2  ->  were
+   8:    1  ->  and
+   9:    1  ->  buying
+  10:    1  ->  cinders
+  11:    1  ->  day
+  12:    1  ->  dreamed
+  13:    1  ->  girls
+  14:    1  ->  had
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  her
+  18:    1  ->  in
+  19:    1  ->  jewels
+  20:    1  ->  lily
+  21:    1  ->  lived
+  22:    1  ->  of
+  23:    1  ->  other
+  24:    1  ->  poor
+  25:    1  ->  rosa
+  26:    1  ->  royal
+  27:    1  ->  said
+  28:    1  ->  son
+  29:    1  ->  stepsisters
+  30:    1  ->  this
+  31:    1  ->  two
+  32:    1  ->  unfriendly
+  33:    1  ->  very
+  34:    1  ->  would
+  35:    1  ->  yelled
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    3  ->  when
+   2:    2  ->  rosie
+   3:    2  ->  the
+   4:    2  ->  they
+   5:    2  ->  to
+   6:    1  ->  a
+   7:    1  ->  an
+   8:    1  ->  another
+   9:    1  ->  ansible
+  10:    1  ->  are
+  11:    1  ->  bull
+  12:    1  ->  day
+  13:    1  ->  dream
+  14:    1  ->  earlier
+  15:    1  ->  girls
+  16:    1  ->  gums
+  17:    1  ->  hair
+  18:    1  ->  has
+  19:    1  ->  have
+  20:    1  ->  he
+  21:    1  ->  healthier
+  22:    1  ->  into
+  23:    1  ->  joules
+  24:    1  ->  lazygirls
+  25:    1  ->  lilley
+  26:    1  ->  live
+  27:    1  ->  never
+  28:    1  ->  person
+  29:    1  ->  pins
+  30:    1  ->  real
+  31:    1  ->  say
+  32:    1  ->  sin
+  33:    1  ->  sister's
+  34:    1  ->  step
+  35:    1  ->  was
+  36:    1  ->  yard
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

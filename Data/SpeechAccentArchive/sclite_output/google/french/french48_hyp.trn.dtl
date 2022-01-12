@@ -1,0 +1,96 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: french\french48_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =    7.2%   (   5)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  frog ==> from
+   2:    1  ->  scoop ==> fill
+   3:    1  ->  slabs ==> loads
+   4:    1  ->  spoons ==> pounds
+   5:    1  ->  thick ==> bs56
+     -------
+         5
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  bob
+   4:    1  ->  brother
+   5:    1  ->  for
+   6:    1  ->  her
+   7:    1  ->  peas
+   8:    1  ->  snack
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  frog
+   2:    1  ->  scoop
+   3:    1  ->  slabs
+   4:    1  ->  spoons
+   5:    1  ->  thick
+     -------
+         5
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  bs56
+   2:    1  ->  fill
+   3:    1  ->  from
+   4:    1  ->  loads
+   5:    1  ->  pounds
+     -------
+         5
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

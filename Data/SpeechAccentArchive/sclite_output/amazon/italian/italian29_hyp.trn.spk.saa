@@ -1,0 +1,125 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\italian\italian29_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  ask ==> asked
+   3:    1  ->  cheese ==> flutie's
+   4:    1  ->  frog ==> for
+   5:    1  ->  into ==> thing's
+   6:    1  ->  red ==> bad
+   7:    1  ->  slabs ==> laps
+   8:    1  ->  spoons ==> £six
+   9:    1  ->  the ==> a
+  10:    1  ->  these ==> skip
+  11:    1  ->  these ==> this
+  12:    1  ->  thick ==> fifty-six
+  13:    1  ->  things ==> thinks
+  14:    1  ->  things ==> this
+  15:    1  ->  three ==> industry
+  16:    1  ->  will ==> little
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  blue
+   2:    1  ->  five
+   3:    1  ->  her
+   4:    1  ->  scoop
+   5:    1  ->  six
+   6:    1  ->  we
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  and
+   4:    1  ->  ask
+   5:    1  ->  cheese
+   6:    1  ->  frog
+   7:    1  ->  into
+   8:    1  ->  red
+   9:    1  ->  slabs
+  10:    1  ->  spoons
+  11:    1  ->  the
+  12:    1  ->  thick
+  13:    1  ->  three
+  14:    1  ->  will
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  this
+   2:    1  ->  a
+   3:    1  ->  asked
+   4:    1  ->  bad
+   5:    1  ->  fifty-six
+   6:    1  ->  flutie's
+   7:    1  ->  for
+   8:    1  ->  in
+   9:    1  ->  industry
+  10:    1  ->  laps
+  11:    1  ->  little
+  12:    1  ->  skip
+  13:    1  ->  thing's
+  14:    1  ->  thinks
+  15:    1  ->  £six
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

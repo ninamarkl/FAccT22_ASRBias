@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\l-rea1-m2_hyp.trn
+
+Speakers: 
+    0:  l-r
+
+Speaker sentences   0:  l-r   #utts: 1
+id: (l-rea1-m2_01)
+Scores: (#C #S #D #I) 155 24 5 5
+REF:  once upon a time there was a girl called cinderella BUT  everyone called her cinders *** CINDERS lived with her mother and two **** STEPSISTERS called lily and rosa LILY AND     ROSA were very unfriendly and they were lazy girls they spent all their time BUYING new clothes and GOING TO TO MA   going to parties POOR CINDERS    had to wear all THEIR old hand me downs and she had to do the cleaning one day a royal messenger came to announce A   ball the ball would be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived **** CINDERS had to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new GOWNS   but their MOTHER  said THAT that they had enough GOWNS   so they started shouting at cinders find my JEWELS yelled one ** find my hat HOWLED the other they wanted *** 
+HYP:  once upon a time there was a girl called cinderella WHAT everyone called her cinders SIN HAS     lived with her mother and two STEP SISTERS     called lily and rosa **** LILLIAN ROSE were very unfriendly and they were lazy girls they spent all their time BUY    new clothes and ***** ** GO INTO going to parties **** PASSENGERS had to wear all THAT  old hand me downs and she had to do the cleaning one day a royal messenger came to announce THE ball the ball would be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSE I    thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived SOON AS      had to help her sisters get ready they were in a bad mood THEY   wanted to buy some new GROUNDS but their MOTHERS said **** that they had enough GROUNDS so they started shouting at cinders find my GEORGE yelled one TO find my hat HELD   the other they wanted HOW 
+Eval:                                                     S                                I   S                                     I    S                                D    S       S                                                                            S                      D     D  S  S                     D    S                          S                                                                                                 S                                                                                                    S       S    S                                                                                                                                                          I    S                                                                 S                             S                 S            D                         S                                                   S                 I              S                            I   
+
+>> REF:  HAIRBRUSHES HAIRPINS AND hairspray 
+>> HYP:  BRUSHES     HAPPENS  IN  hairspray 
+>> Eval: S           S        S             
+
+

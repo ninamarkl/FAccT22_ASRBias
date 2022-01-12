@@ -1,0 +1,192 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\b-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   28.1%   (  52)
+
+Percent Correct           =   74.1%   ( 137)
+
+Percent Substitution      =   23.2%   (  43)
+Percent Deletions         =    2.7%   (   5)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   71.9%
+
+
+Ref. words                =           ( 185)
+Hyp. words                =           ( 184)
+Aligned words             =           ( 189)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  gowns ==> guns
+   2:    2  ->  had ==> how
+   3:    2  ->  my ==> family
+   4:    1  ->  a ==> the
+   5:    1  ->  and ==> lillian
+   6:    1  ->  and ==> rose
+   7:    1  ->  arrived ==> arrayed
+   8:    1  ->  at ==> his
+   9:    1  ->  ball ==> boil
+  10:    1  ->  bells ==> bills
+  11:    1  ->  buying ==> buy
+  12:    1  ->  cinders ==> centres
+  13:    1  ->  cinders ==> percenters
+  14:    1  ->  cinders ==> senders
+  15:    1  ->  divine ==> vein
+  16:    1  ->  girl ==> guard
+  17:    1  ->  girls ==> guards
+  18:    1  ->  going ==> go
+  19:    1  ->  had ==> have
+  20:    1  ->  hairbrushes ==> her
+  21:    1  ->  hairpins ==> pins
+  22:    1  ->  hat ==> had
+  23:    1  ->  lily ==> lillian
+  24:    1  ->  lived ==> left
+  25:    1  ->  lived ==> senators
+  26:    1  ->  old ==> hold
+  27:    1  ->  parties ==> partners
+  28:    1  ->  rosa ==> i
+  29:    1  ->  rosa ==> rose
+  30:    1  ->  she ==> you
+  31:    1  ->  shouting ==> sharing
+  32:    1  ->  stepsisters ==> sisters
+  33:    1  ->  their ==> there
+  34:    1  ->  this ==> that
+  35:    1  ->  to ==> into
+  36:    1  ->  to ==> they
+  37:    1  ->  wear ==> were
+  38:    1  ->  wedding ==> winning
+  39:    1  ->  would ==> will
+  40:    1  ->  yelled ==> yeah
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  brushes
+   2:    1  ->  hard
+   3:    1  ->  step
+   4:    1  ->  the
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  find
+   2:    1  ->  cinders
+   3:    1  ->  lily
+   4:    1  ->  poor
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  cinders
+   2:    3  ->  had
+   3:    2  ->  and
+   4:    2  ->  gowns
+   5:    2  ->  lived
+   6:    2  ->  my
+   7:    2  ->  rosa
+   8:    2  ->  to
+   9:    1  ->  a
+  10:    1  ->  arrived
+  11:    1  ->  at
+  12:    1  ->  ball
+  13:    1  ->  bells
+  14:    1  ->  buying
+  15:    1  ->  divine
+  16:    1  ->  girl
+  17:    1  ->  girls
+  18:    1  ->  going
+  19:    1  ->  hairbrushes
+  20:    1  ->  hairpins
+  21:    1  ->  hat
+  22:    1  ->  lily
+  23:    1  ->  old
+  24:    1  ->  parties
+  25:    1  ->  she
+  26:    1  ->  shouting
+  27:    1  ->  stepsisters
+  28:    1  ->  their
+  29:    1  ->  this
+  30:    1  ->  wear
+  31:    1  ->  wedding
+  32:    1  ->  would
+  33:    1  ->  yelled
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  family
+   2:    2  ->  guns
+   3:    2  ->  how
+   4:    2  ->  lillian
+   5:    2  ->  rose
+   6:    1  ->  arrayed
+   7:    1  ->  bills
+   8:    1  ->  boil
+   9:    1  ->  buy
+  10:    1  ->  centres
+  11:    1  ->  go
+  12:    1  ->  guard
+  13:    1  ->  guards
+  14:    1  ->  had
+  15:    1  ->  have
+  16:    1  ->  her
+  17:    1  ->  his
+  18:    1  ->  hold
+  19:    1  ->  i
+  20:    1  ->  into
+  21:    1  ->  left
+  22:    1  ->  partners
+  23:    1  ->  percenters
+  24:    1  ->  pins
+  25:    1  ->  senators
+  26:    1  ->  senders
+  27:    1  ->  sharing
+  28:    1  ->  sisters
+  29:    1  ->  that
+  30:    1  ->  the
+  31:    1  ->  there
+  32:    1  ->  they
+  33:    1  ->  vein
+  34:    1  ->  were
+  35:    1  ->  will
+  36:    1  ->  winning
+  37:    1  ->  yeah
+  38:    1  ->  you
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

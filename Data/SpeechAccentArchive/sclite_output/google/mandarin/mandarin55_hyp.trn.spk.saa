@@ -1,0 +1,129 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin55_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  5 ==> peace
+   3:    1  ->  and ==> anime
+   4:    1  ->  bob ==> but
+   5:    1  ->  brother ==> brothers
+   6:    1  ->  fresh ==> france
+   7:    1  ->  kids ==> frogs
+   8:    1  ->  maybe ==> being
+   9:    1  ->  meet ==> mate
+  10:    1  ->  peas ==> no
+  11:    1  ->  scoop ==> with
+  12:    1  ->  slabs ==> think
+  13:    1  ->  snow ==> is
+  14:    1  ->  spoons ==> boot
+  15:    1  ->  the ==> toy
+  16:    1  ->  thick ==> fire
+  17:    1  ->  things ==> eat
+  18:    1  ->  things ==> is
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  cope
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  for
+   2:    1  ->  frog
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  5
+   4:    1  ->  and
+   5:    1  ->  bob
+   6:    1  ->  brother
+   7:    1  ->  fresh
+   8:    1  ->  kids
+   9:    1  ->  maybe
+  10:    1  ->  meet
+  11:    1  ->  peas
+  12:    1  ->  scoop
+  13:    1  ->  slabs
+  14:    1  ->  snow
+  15:    1  ->  spoons
+  16:    1  ->  the
+  17:    1  ->  thick
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  is
+   2:    2  ->  this
+   3:    1  ->  anime
+   4:    1  ->  being
+   5:    1  ->  boot
+   6:    1  ->  brothers
+   7:    1  ->  but
+   8:    1  ->  eat
+   9:    1  ->  fire
+  10:    1  ->  france
+  11:    1  ->  frogs
+  12:    1  ->  mate
+  13:    1  ->  no
+  14:    1  ->  peace
+  15:    1  ->  think
+  16:    1  ->  toy
+  17:    1  ->  with
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

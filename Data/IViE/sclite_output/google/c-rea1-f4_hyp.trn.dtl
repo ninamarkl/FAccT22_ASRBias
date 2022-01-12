@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\c-rea1-f4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.8%   (  68)
+
+Percent Correct           =   62.2%   ( 112)
+
+Percent Substitution      =   13.9%   (  25)
+Percent Deletions         =   23.9%   (  43)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   62.2%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 137)
+Aligned words             =           ( 180)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  and ==> rose
+   2:    1  ->  cinders ==> since
+   3:    1  ->  clothes ==> nucleus
+   4:    1  ->  divine ==> devine
+   5:    1  ->  gowns ==> cans
+   6:    1  ->  gowns ==> girls
+   7:    1  ->  had ==> has
+   8:    1  ->  had ==> pawsons
+   9:    1  ->  jewels ==> joules
+  10:    1  ->  lily ==> lillian
+  11:    1  ->  lived ==> live
+  12:    1  ->  new ==> by
+  13:    1  ->  of ==> with
+  14:    1  ->  rosa ==> are
+  15:    1  ->  rosa ==> razor
+  16:    1  ->  sisters ==> assistance
+  17:    1  ->  started ==> it's
+  18:    1  ->  their ==> the
+  19:    1  ->  they'd ==> but
+  20:    1  ->  to ==> has
+  21:    1  ->  wear ==> worked
+  22:    1  ->  were ==> a
+  23:    1  ->  were ==> there
+  24:    1  ->  would ==> bowl
+  25:    1  ->  yelled ==> girls
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    5  ->  they
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  ball
+   5:    2  ->  the
+   6:    2  ->  to
+   7:    1  ->  announce
+   8:    1  ->  at
+   9:    1  ->  buying
+  10:    1  ->  came
+  11:    1  ->  cinders
+  12:    1  ->  day
+  13:    1  ->  dreamed
+  14:    1  ->  had
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  her
+  18:    1  ->  howled
+  19:    1  ->  lily
+  20:    1  ->  messenger
+  21:    1  ->  of
+  22:    1  ->  one
+  23:    1  ->  other
+  24:    1  ->  pal
+  25:    1  ->  poor
+  26:    1  ->  rosa
+  27:    1  ->  royal
+  28:    1  ->  that
+  29:    1  ->  this
+  30:    1  ->  thought
+  31:    1  ->  unfriendly
+  32:    1  ->  wanted
+  33:    1  ->  was
+  34:    1  ->  were
+     -------
+        43
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  gowns
+   2:    2  ->  had
+   3:    2  ->  rosa
+   4:    2  ->  were
+   5:    1  ->  and
+   6:    1  ->  cinders
+   7:    1  ->  clothes
+   8:    1  ->  divine
+   9:    1  ->  jewels
+  10:    1  ->  lily
+  11:    1  ->  lived
+  12:    1  ->  new
+  13:    1  ->  of
+  14:    1  ->  sisters
+  15:    1  ->  started
+  16:    1  ->  their
+  17:    1  ->  they'd
+  18:    1  ->  to
+  19:    1  ->  wear
+  20:    1  ->  would
+  21:    1  ->  yelled
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  girls
+   2:    2  ->  has
+   3:    1  ->  a
+   4:    1  ->  are
+   5:    1  ->  assistance
+   6:    1  ->  bowl
+   7:    1  ->  but
+   8:    1  ->  by
+   9:    1  ->  cans
+  10:    1  ->  devine
+  11:    1  ->  it's
+  12:    1  ->  joules
+  13:    1  ->  lillian
+  14:    1  ->  live
+  15:    1  ->  nucleus
+  16:    1  ->  pawsons
+  17:    1  ->  razor
+  18:    1  ->  rose
+  19:    1  ->  since
+  20:    1  ->  the
+  21:    1  ->  there
+  22:    1  ->  with
+  23:    1  ->  worked
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

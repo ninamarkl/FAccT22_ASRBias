@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\d-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   22.0%   (  40)
+
+Percent Correct           =   80.8%   ( 147)
+
+Percent Substitution      =   14.8%   (  27)
+Percent Deletions         =    4.4%   (   8)
+Percent Insertions        =    2.7%   (   5)
+Percent Word Accuracy     =   78.0%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 179)
+Aligned words             =           ( 187)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  and ==> lillian
+   2:    2  ->  their ==> the
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> linen
+   5:    1  ->  arrived ==> around
+   6:    1  ->  bride ==> ride
+   7:    1  ->  but ==> with
+   8:    1  ->  called ==> every
+   9:    1  ->  cinders ==> percenters
+  10:    1  ->  cinders ==> singers
+  11:    1  ->  find ==> for
+  12:    1  ->  gowns ==> guns
+  13:    1  ->  her ==> corner
+  14:    1  ->  honour ==> and
+  15:    1  ->  howled ==> held
+  16:    1  ->  lily ==> listen
+  17:    1  ->  new ==> their
+  18:    1  ->  of ==> under
+  19:    1  ->  one ==> on
+  20:    1  ->  rosa ==> rose
+  21:    1  ->  stepsisters ==> sisters
+  22:    1  ->  they ==> he
+  23:    1  ->  they ==> the
+  24:    1  ->  they'd ==> they
+  25:    1  ->  would ==> will
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  huh
+   2:    1  ->  listen
+   3:    1  ->  to
+   4:    1  ->  uh
+   5:    1  ->  with
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  lily
+   2:    1  ->  everyone
+   3:    1  ->  in
+   4:    1  ->  it
+   5:    1  ->  poor
+   6:    1  ->  stepdaughters
+   7:    1  ->  that
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  and
+   2:    2  ->  cinders
+   3:    2  ->  their
+   4:    2  ->  they
+   5:    1  ->  a
+   6:    1  ->  arrived
+   7:    1  ->  bride
+   8:    1  ->  but
+   9:    1  ->  called
+  10:    1  ->  find
+  11:    1  ->  gowns
+  12:    1  ->  her
+  13:    1  ->  honour
+  14:    1  ->  howled
+  15:    1  ->  lily
+  16:    1  ->  new
+  17:    1  ->  of
+  18:    1  ->  one
+  19:    1  ->  rosa
+  20:    1  ->  stepsisters
+  21:    1  ->  they'd
+  22:    1  ->  would
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  the
+   2:    2  ->  lillian
+   3:    1  ->  and
+   4:    1  ->  around
+   5:    1  ->  corner
+   6:    1  ->  every
+   7:    1  ->  for
+   8:    1  ->  guns
+   9:    1  ->  he
+  10:    1  ->  held
+  11:    1  ->  linen
+  12:    1  ->  listen
+  13:    1  ->  on
+  14:    1  ->  percenters
+  15:    1  ->  ride
+  16:    1  ->  rose
+  17:    1  ->  singers
+  18:    1  ->  sisters
+  19:    1  ->  their
+  20:    1  ->  they
+  21:    1  ->  under
+  22:    1  ->  will
+  23:    1  ->  with
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

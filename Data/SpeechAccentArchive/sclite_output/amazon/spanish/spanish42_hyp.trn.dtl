@@ -1,0 +1,166 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish42_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   52.2%   (  36)
+
+Percent Correct           =   55.1%   (  38)
+
+Percent Substitution      =   44.9%   (  31)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   47.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  74)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  and ==> on
+   2:    1  ->  a ==> i
+   3:    1  ->  ask ==> us
+   4:    1  ->  at ==> of
+   5:    1  ->  bags ==> box
+   6:    1  ->  big ==> break
+   7:    1  ->  five ==> is
+   8:    1  ->  for ==> tow
+   9:    1  ->  fresh ==> peace
+  10:    1  ->  frog ==> brock
+  11:    1  ->  her ==> here
+  12:    1  ->  her ==> herr
+  13:    1  ->  into ==> tow
+  14:    1  ->  kids ==> keys
+  15:    1  ->  of ==> no
+  16:    1  ->  peas ==> fix
+  17:    1  ->  red ==> with
+  18:    1  ->  scoop ==> this
+  19:    1  ->  slabs ==> lapse
+  20:    1  ->  snack ==> snapped
+  21:    1  ->  snake ==> luck
+  22:    1  ->  snow ==> freight
+  23:    1  ->  spoons ==> phrases
+  24:    1  ->  station ==> stage
+  25:    1  ->  stella ==> stiller
+  26:    1  ->  these ==> thing
+  27:    1  ->  thick ==> a
+  28:    1  ->  things ==> in
+  29:    1  ->  train ==> training
+  30:    1  ->  wednesday ==> moyzisch
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  ask
+   2:    1  ->  it's
+   3:    1  ->  off
+   4:    1  ->  points
+   5:    1  ->  up
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  and
+   2:    2  ->  her
+   3:    1  ->  a
+   4:    1  ->  ask
+   5:    1  ->  at
+   6:    1  ->  bags
+   7:    1  ->  big
+   8:    1  ->  five
+   9:    1  ->  for
+  10:    1  ->  fresh
+  11:    1  ->  frog
+  12:    1  ->  into
+  13:    1  ->  kids
+  14:    1  ->  of
+  15:    1  ->  peas
+  16:    1  ->  red
+  17:    1  ->  scoop
+  18:    1  ->  slabs
+  19:    1  ->  snack
+  20:    1  ->  snake
+  21:    1  ->  snow
+  22:    1  ->  spoons
+  23:    1  ->  station
+  24:    1  ->  stella
+  25:    1  ->  these
+  26:    1  ->  thick
+  27:    1  ->  things
+  28:    1  ->  train
+  29:    1  ->  wednesday
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  on
+   2:    2  ->  tow
+   3:    1  ->  a
+   4:    1  ->  box
+   5:    1  ->  break
+   6:    1  ->  brock
+   7:    1  ->  fix
+   8:    1  ->  freight
+   9:    1  ->  here
+  10:    1  ->  herr
+  11:    1  ->  i
+  12:    1  ->  in
+  13:    1  ->  is
+  14:    1  ->  keys
+  15:    1  ->  lapse
+  16:    1  ->  luck
+  17:    1  ->  moyzisch
+  18:    1  ->  no
+  19:    1  ->  of
+  20:    1  ->  peace
+  21:    1  ->  phrases
+  22:    1  ->  snapped
+  23:    1  ->  stage
+  24:    1  ->  stiller
+  25:    1  ->  thing
+  26:    1  ->  this
+  27:    1  ->  training
+  28:    1  ->  us
+  29:    1  ->  with
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

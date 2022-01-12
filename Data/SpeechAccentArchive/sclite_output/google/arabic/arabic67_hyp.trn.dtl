@@ -1,0 +1,109 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic67_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  6 ==> 6s
+   2:    1  ->  bob ==> but
+   3:    1  ->  frog ==> frogs
+   4:    1  ->  slabs ==> laps
+   5:    1  ->  snack ==> snacks
+   6:    1  ->  snake ==> snack
+   7:    1  ->  spoons ==> phones
+   8:    1  ->  stella ==> estella
+   9:    1  ->  the ==> their
+  10:    1  ->  thick ==> bs56
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  brother
+   3:    1  ->  the
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  5
+   2:    1  ->  peas
+   3:    1  ->  toy
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  6
+   2:    1  ->  bob
+   3:    1  ->  frog
+   4:    1  ->  slabs
+   5:    1  ->  snack
+   6:    1  ->  snake
+   7:    1  ->  spoons
+   8:    1  ->  stella
+   9:    1  ->  the
+  10:    1  ->  thick
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  6s
+   2:    1  ->  bs56
+   3:    1  ->  but
+   4:    1  ->  estella
+   5:    1  ->  frogs
+   6:    1  ->  laps
+   7:    1  ->  phones
+   8:    1  ->  snack
+   9:    1  ->  snacks
+  10:    1  ->  their
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

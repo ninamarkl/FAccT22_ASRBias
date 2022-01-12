@@ -1,0 +1,153 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish32_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.8%   (  33)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   39.1%   (  27)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   52.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  these ==> this
+   2:    2  ->  things ==> thing
+   3:    1  ->  and ==> on
+   4:    1  ->  at ==> when
+   5:    1  ->  bags ==> back
+   6:    1  ->  blue ==> luce
+   7:    1  ->  bob ==> about
+   8:    1  ->  brother ==> brought
+   9:    1  ->  cheese ==> is
+  10:    1  ->  five ==> fight
+  11:    1  ->  fresh ==> rest
+  12:    1  ->  frog ==> from
+  13:    1  ->  her ==> meant
+  14:    1  ->  of ==> off
+  15:    1  ->  of ==> ofthe
+  16:    1  ->  peas ==> pants
+  17:    1  ->  red ==> rex
+  18:    1  ->  scoop ==> school
+  19:    1  ->  slabs ==> slap
+  20:    1  ->  stella ==> tel
+  21:    1  ->  store ==> start
+  22:    1  ->  the ==> they
+  23:    1  ->  thick ==> trade
+  24:    1  ->  three ==> tree
+  25:    1  ->  wednesday ==> here
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  for
+   3:    1  ->  kid
+   4:    1  ->  the
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  meet
+   2:    1  ->  spoons
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    2  ->  things
+   4:    1  ->  and
+   5:    1  ->  at
+   6:    1  ->  bags
+   7:    1  ->  blue
+   8:    1  ->  bob
+   9:    1  ->  brother
+  10:    1  ->  cheese
+  11:    1  ->  five
+  12:    1  ->  fresh
+  13:    1  ->  frog
+  14:    1  ->  her
+  15:    1  ->  peas
+  16:    1  ->  red
+  17:    1  ->  scoop
+  18:    1  ->  slabs
+  19:    1  ->  stella
+  20:    1  ->  store
+  21:    1  ->  the
+  22:    1  ->  thick
+  23:    1  ->  three
+  24:    1  ->  wednesday
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  thing
+   2:    2  ->  this
+   3:    1  ->  about
+   4:    1  ->  back
+   5:    1  ->  brought
+   6:    1  ->  fight
+   7:    1  ->  from
+   8:    1  ->  here
+   9:    1  ->  is
+  10:    1  ->  luce
+  11:    1  ->  meant
+  12:    1  ->  off
+  13:    1  ->  ofthe
+  14:    1  ->  on
+  15:    1  ->  pants
+  16:    1  ->  rest
+  17:    1  ->  rex
+  18:    1  ->  school
+  19:    1  ->  slap
+  20:    1  ->  start
+  21:    1  ->  tel
+  22:    1  ->  they
+  23:    1  ->  trade
+  24:    1  ->  tree
+  25:    1  ->  when
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

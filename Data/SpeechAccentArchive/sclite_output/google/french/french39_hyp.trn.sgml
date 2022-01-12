@@ -1,0 +1,7 @@
+<SYSTEM title="french\french39_hyp.trn" ref_fname="saa_ref.trn" hyp_fname="french\french39_hyp.trn" creation_date="Fri May 21 11:38:18 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="69" sequence="0">
+C,"please","please":S,"call","go":C,"stella","stella":D,"ask",:D,"her",:D,"to",:D,"bring",:D,"these",:C,"things","things":D,"with",:S,"her","without":C,"from","from":C,"the","the":C,"store","store":D,"6",:S,"spoons","£6":C,"of","of":C,"fresh","fresh":S,"snow","no":C,"peas","peas":C,"5","5":D,"thick",:C,"slabs","slabs":C,"of","of":C,"blue","blue":C,"cheese","cheese":C,"and","and":D,"maybe",:S,"a","is":S,"snack","not":C,"for","for":S,"her","a":C,"brother","brother":S,"bob","but":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":S,"snake","nick":C,"and","and":D,"a",:D,"big",:S,"toy","victor":S,"frog","full":C,"for","for":C,"the","the":C,"kids","kids":C,"she","she":C,"can","can":S,"scoop","skip":S,"these","the":S,"things","thing":C,"into","into":C,"3","3":C,"red","red":C,"bags","bags":D,"and",:D,"we",:D,"will",:S,"go","to":C,"meet","meet":D,"her",:C,"wednesday","wednesday":D,"at",:D,"the",:S,"train","and":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

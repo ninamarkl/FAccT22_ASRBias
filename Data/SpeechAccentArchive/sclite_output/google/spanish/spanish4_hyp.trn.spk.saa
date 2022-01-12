@@ -1,0 +1,132 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  a ==> in
+   2:    1  ->  and ==> in
+   3:    1  ->  bob ==> for
+   4:    1  ->  can ==> is
+   5:    1  ->  fresh ==> each
+   6:    1  ->  frog ==> from
+   7:    1  ->  maybe ==> she's
+   8:    1  ->  red ==> three
+   9:    1  ->  scoop ==> cove
+  10:    1  ->  she ==> seeking
+  11:    1  ->  snack ==> aviation
+  12:    1  ->  snake ==> snack
+  13:    1  ->  stella ==> estella
+  14:    1  ->  store ==> for
+  15:    1  ->  the ==> that
+  16:    1  ->  thick ==> 56
+  17:    1  ->  we ==> he
+  18:    1  ->  we ==> in
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  her
+   2:    1  ->  meet
+   3:    1  ->  their
+   4:    1  ->  with
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  and
+   2:    1  ->  3
+   3:    1  ->  5
+   4:    1  ->  cheese
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  we
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  bob
+   5:    1  ->  can
+   6:    1  ->  fresh
+   7:    1  ->  frog
+   8:    1  ->  maybe
+   9:    1  ->  red
+  10:    1  ->  scoop
+  11:    1  ->  she
+  12:    1  ->  snack
+  13:    1  ->  snake
+  14:    1  ->  stella
+  15:    1  ->  store
+  16:    1  ->  the
+  17:    1  ->  thick
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  in
+   2:    2  ->  for
+   3:    1  ->  56
+   4:    1  ->  aviation
+   5:    1  ->  cove
+   6:    1  ->  each
+   7:    1  ->  estella
+   8:    1  ->  from
+   9:    1  ->  he
+  10:    1  ->  is
+  11:    1  ->  seeking
+  12:    1  ->  she's
+  13:    1  ->  snack
+  14:    1  ->  that
+  15:    1  ->  three
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

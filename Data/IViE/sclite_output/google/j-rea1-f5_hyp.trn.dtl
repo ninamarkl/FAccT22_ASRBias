@@ -1,0 +1,173 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\j-rea1-f5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.5%   (  45)
+
+Percent Correct           =   78.3%   ( 144)
+
+Percent Substitution      =   15.8%   (  29)
+Percent Deletions         =    6.0%   (  11)
+Percent Insertions        =    2.7%   (   5)
+Percent Word Accuracy     =   75.5%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 178)
+Aligned words             =           ( 189)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  a ==> where
+   2:    1  ->  and ==> i'm
+   3:    1  ->  bride ==> brides
+   4:    1  ->  buying ==> x
+   5:    1  ->  cinder ==> cindy
+   6:    1  ->  cinders ==> he's
+   7:    1  ->  cinders ==> to
+   8:    1  ->  divine ==> define
+   9:    1  ->  downs ==> hands
+  10:    1  ->  dreamed ==> drink
+  11:    1  ->  er ==> though
+  12:    1  ->  gowns ==> girls
+  13:    1  ->  had ==> said
+  14:    1  ->  hairbrushes ==> hair
+  15:    1  ->  hairpins ==> pins
+  16:    1  ->  hand ==> i
+  17:    1  ->  hand ==> there
+  18:    1  ->  lily ==> lilley
+  19:    1  ->  lived ==> live
+  20:    1  ->  me ==> was
+  21:    1  ->  message ==> messages
+  22:    1  ->  poor ==> portion
+  23:    1  ->  royal ==> your
+  24:    1  ->  they'd ==> they
+  25:    1  ->  was ==> william's
+  26:    1  ->  wear ==> wait
+  27:    1  ->  william ==> prince
+  28:    1  ->  yelled ==> head
+  29:    1  ->  yelled ==> old
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+   3:    1  ->  in
+   4:    1  ->  since
+   5:    1  ->  the
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  gowns
+   4:    1  ->  hat
+   5:    1  ->  lily
+   6:    1  ->  old
+   7:    1  ->  son
+   8:    1  ->  their
+   9:    1  ->  they
+  10:    1  ->  time
+  11:    1  ->  yelled
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  cinders
+   2:    2  ->  hand
+   3:    2  ->  yelled
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  bride
+   7:    1  ->  buying
+   8:    1  ->  cinder
+   9:    1  ->  divine
+  10:    1  ->  downs
+  11:    1  ->  dreamed
+  12:    1  ->  er
+  13:    1  ->  gowns
+  14:    1  ->  had
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  lily
+  18:    1  ->  lived
+  19:    1  ->  me
+  20:    1  ->  message
+  21:    1  ->  poor
+  22:    1  ->  royal
+  23:    1  ->  they'd
+  24:    1  ->  was
+  25:    1  ->  wear
+  26:    1  ->  william
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  brides
+   2:    1  ->  cindy
+   3:    1  ->  define
+   4:    1  ->  drink
+   5:    1  ->  girls
+   6:    1  ->  hair
+   7:    1  ->  hands
+   8:    1  ->  he's
+   9:    1  ->  head
+  10:    1  ->  i
+  11:    1  ->  i'm
+  12:    1  ->  lilley
+  13:    1  ->  live
+  14:    1  ->  messages
+  15:    1  ->  old
+  16:    1  ->  pins
+  17:    1  ->  portion
+  18:    1  ->  prince
+  19:    1  ->  said
+  20:    1  ->  there
+  21:    1  ->  they
+  22:    1  ->  though
+  23:    1  ->  to
+  24:    1  ->  wait
+  25:    1  ->  was
+  26:    1  ->  where
+  27:    1  ->  william's
+  28:    1  ->  x
+  29:    1  ->  your
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

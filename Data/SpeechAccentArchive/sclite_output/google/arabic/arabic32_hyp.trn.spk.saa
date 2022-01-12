@@ -1,0 +1,123 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic32_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =   15.9%   (  11)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  58)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  6 ==> six
+   2:    1  ->  and ==> in
+   3:    1  ->  big ==> bit
+   4:    1  ->  frog ==> right
+   5:    1  ->  her ==> little
+   6:    1  ->  meet ==> girl
+   7:    1  ->  plastic ==> classics
+   8:    1  ->  scoop ==> screw
+   9:    1  ->  slabs ==> lots
+  10:    1  ->  snake ==> now
+  11:    1  ->  spoons ==> tunes
+  12:    1  ->  thick ==> 56
+  13:    1  ->  toy ==> tired
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  her
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  ask
+   6:    1  ->  bob
+   7:    1  ->  brother
+   8:    1  ->  for
+   9:    1  ->  go
+  10:    1  ->  snack
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  6
+   2:    1  ->  and
+   3:    1  ->  big
+   4:    1  ->  frog
+   5:    1  ->  her
+   6:    1  ->  meet
+   7:    1  ->  plastic
+   8:    1  ->  scoop
+   9:    1  ->  slabs
+  10:    1  ->  snake
+  11:    1  ->  spoons
+  12:    1  ->  thick
+  13:    1  ->  toy
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  56
+   2:    1  ->  bit
+   3:    1  ->  classics
+   4:    1  ->  girl
+   5:    1  ->  in
+   6:    1  ->  little
+   7:    1  ->  lots
+   8:    1  ->  now
+   9:    1  ->  right
+  10:    1  ->  screw
+  11:    1  ->  six
+  12:    1  ->  tired
+  13:    1  ->  tunes
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

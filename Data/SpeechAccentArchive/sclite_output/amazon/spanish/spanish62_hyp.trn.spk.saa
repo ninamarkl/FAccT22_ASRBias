@@ -1,0 +1,91 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish62_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.1%   (   7)
+
+Percent Correct           =   91.3%   (  63)
+
+Percent Substitution      =    7.2%   (   5)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   89.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  of ==> or
+   2:    1  ->  slabs ==> labs
+   3:    1  ->  stella ==> estela
+   4:    1  ->  these ==> thes
+   5:    1  ->  thick ==> fifty-six
+     -------
+         5
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  five
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  of
+   2:    1  ->  slabs
+   3:    1  ->  stella
+   4:    1  ->  these
+   5:    1  ->  thick
+     -------
+         5
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  estela
+   2:    1  ->  fifty-six
+   3:    1  ->  labs
+   4:    1  ->  or
+   5:    1  ->  thes
+     -------
+         5
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

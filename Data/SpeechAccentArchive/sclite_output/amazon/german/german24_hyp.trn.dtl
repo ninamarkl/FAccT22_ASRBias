@@ -1,0 +1,109 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\german\german24_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bags ==> backs
+   2:    1  ->  call ==> cause
+   3:    1  ->  five ==> piece
+   4:    1  ->  frog ==> flock
+   5:    1  ->  her ==> a
+   6:    1  ->  her ==> metre
+   7:    1  ->  of ==> ofthe
+   8:    1  ->  of ==> or
+   9:    1  ->  slabs ==> laps
+  10:    1  ->  snack ==> snake
+  11:    1  ->  stella ==> della
+  12:    1  ->  thick ==> fifty-six
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  meet
+   2:    1  ->  peas
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  her
+   2:    2  ->  of
+   3:    1  ->  bags
+   4:    1  ->  call
+   5:    1  ->  five
+   6:    1  ->  frog
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  stella
+  10:    1  ->  thick
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  backs
+   3:    1  ->  cause
+   4:    1  ->  della
+   5:    1  ->  fifty-six
+   6:    1  ->  flock
+   7:    1  ->  laps
+   8:    1  ->  metre
+   9:    1  ->  ofthe
+  10:    1  ->  or
+  11:    1  ->  piece
+  12:    1  ->  snake
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

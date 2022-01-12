@@ -1,0 +1,135 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\thai\thai14_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  74)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  ask ==> asked
+   3:    1  ->  call ==> ayla
+   4:    1  ->  cheese ==> she's
+   5:    1  ->  five ==> fifty-six
+   6:    1  ->  fresh ==> breasts
+   7:    1  ->  frog ==> work
+   8:    1  ->  from ==> formed
+   9:    1  ->  kids ==> case
+  10:    1  ->  peas ==> peace
+  11:    1  ->  plastic ==> plastics
+  12:    1  ->  slabs ==> up
+  13:    1  ->  snake ==> next
+  14:    1  ->  snow ==> no
+  15:    1  ->  stella ==> i
+  16:    1  ->  store ==> door
+  17:    1  ->  the ==> this
+  18:    1  ->  thick ==> so
+  19:    1  ->  toy ==> for
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  big
+   3:    1  ->  const
+   4:    1  ->  five
+   5:    1  ->  toys
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  of
+   2:    1  ->  ask
+   3:    1  ->  call
+   4:    1  ->  cheese
+   5:    1  ->  five
+   6:    1  ->  fresh
+   7:    1  ->  frog
+   8:    1  ->  from
+   9:    1  ->  kids
+  10:    1  ->  peas
+  11:    1  ->  plastic
+  12:    1  ->  slabs
+  13:    1  ->  snake
+  14:    1  ->  snow
+  15:    1  ->  stella
+  16:    1  ->  store
+  17:    1  ->  the
+  18:    1  ->  thick
+  19:    1  ->  toy
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  off
+   2:    1  ->  asked
+   3:    1  ->  ayla
+   4:    1  ->  breasts
+   5:    1  ->  case
+   6:    1  ->  door
+   7:    1  ->  fifty-six
+   8:    1  ->  for
+   9:    1  ->  formed
+  10:    1  ->  i
+  11:    1  ->  next
+  12:    1  ->  no
+  13:    1  ->  peace
+  14:    1  ->  plastics
+  15:    1  ->  she's
+  16:    1  ->  so
+  17:    1  ->  this
+  18:    1  ->  up
+  19:    1  ->  work
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

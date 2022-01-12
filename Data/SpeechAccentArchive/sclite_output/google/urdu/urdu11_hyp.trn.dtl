@@ -1,0 +1,111 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: urdu\urdu11_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5 ==> nappies
+   2:    1  ->  a ==> it's
+   3:    1  ->  bob ==> but
+   4:    1  ->  frog ==> toys
+   5:    1  ->  her ==> metre
+   6:    1  ->  into ==> in
+   7:    1  ->  slabs ==> loads
+   8:    1  ->  snack ==> not
+   9:    1  ->  spoons ==> pounds
+  10:    1  ->  these ==> scooby's
+  11:    1  ->  thick ==> 56
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  meet
+   2:    1  ->  peas
+   3:    1  ->  scoop
+   4:    1  ->  snow
+   5:    1  ->  toy
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  bob
+   4:    1  ->  frog
+   5:    1  ->  her
+   6:    1  ->  into
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  spoons
+  10:    1  ->  these
+  11:    1  ->  thick
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  56
+   2:    1  ->  but
+   3:    1  ->  in
+   4:    1  ->  it's
+   5:    1  ->  loads
+   6:    1  ->  metre
+   7:    1  ->  nappies
+   8:    1  ->  not
+   9:    1  ->  pounds
+  10:    1  ->  scooby's
+  11:    1  ->  toys
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

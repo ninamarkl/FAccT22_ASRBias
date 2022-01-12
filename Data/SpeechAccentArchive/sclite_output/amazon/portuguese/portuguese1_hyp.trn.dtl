@@ -1,0 +1,192 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\portuguese\portuguese1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   82.6%   (  57)
+
+Percent Correct           =   39.1%   (  27)
+
+Percent Substitution      =   58.0%   (  40)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =   21.7%   (  15)
+Percent Word Accuracy     =   17.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  82)
+Aligned words             =           (  84)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  these ==> the
+   2:    1  ->  and ==> ah
+   3:    1  ->  and ==> knocking
+   4:    1  ->  and ==> may
+   5:    1  ->  bags ==> handbags
+   6:    1  ->  bob ==> it
+   7:    1  ->  bring ==> being
+   8:    1  ->  brother ==> is
+   9:    1  ->  call ==> go
+  10:    1  ->  can ==> in
+  11:    1  ->  five ==> ban
+  12:    1  ->  for ==> when
+  13:    1  ->  fresh ==> off
+  14:    1  ->  her ==> hand
+  15:    1  ->  her ==> have
+  16:    1  ->  her ==> when
+  17:    1  ->  into ==> tow
+  18:    1  ->  maybe ==> be
+  19:    1  ->  of ==> ofthe
+  20:    1  ->  of ==> spoon
+  21:    1  ->  peas ==> now
+  22:    1  ->  scoop ==> tow
+  23:    1  ->  she ==> think
+  24:    1  ->  slabs ==> labs
+  25:    1  ->  snack ==> bobby
+  26:    1  ->  snake ==> is
+  27:    1  ->  snow ==> fits
+  28:    1  ->  store ==> storey
+  29:    1  ->  the ==> this
+  30:    1  ->  thick ==> fifty-six
+  31:    1  ->  things ==> in
+  32:    1  ->  things ==> thing
+  33:    1  ->  to ==> toe
+  34:    1  ->  toy ==> toe
+  35:    1  ->  train ==> thing
+  36:    1  ->  we ==> when
+  37:    1  ->  we ==> where
+  38:    1  ->  wednesday ==> me
+  39:    1  ->  will ==> we'll
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  she's
+   2:    1  ->  a
+   3:    1  ->  broader
+   4:    1  ->  forehand
+   5:    1  ->  gone
+   6:    1  ->  i
+   7:    1  ->  is
+   8:    1  ->  kind
+   9:    1  ->  of
+  10:    1  ->  school
+  11:    1  ->  snacky
+  12:    1  ->  there
+  13:    1  ->  us
+  14:    1  ->  with
+     -------
+        15
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  red
+   2:    1  ->  spoons
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  and
+   2:    3  ->  her
+   3:    2  ->  of
+   4:    2  ->  these
+   5:    2  ->  things
+   6:    2  ->  we
+   7:    1  ->  bags
+   8:    1  ->  bob
+   9:    1  ->  bring
+  10:    1  ->  brother
+  11:    1  ->  call
+  12:    1  ->  can
+  13:    1  ->  five
+  14:    1  ->  for
+  15:    1  ->  fresh
+  16:    1  ->  into
+  17:    1  ->  maybe
+  18:    1  ->  peas
+  19:    1  ->  scoop
+  20:    1  ->  she
+  21:    1  ->  slabs
+  22:    1  ->  snack
+  23:    1  ->  snake
+  24:    1  ->  snow
+  25:    1  ->  store
+  26:    1  ->  the
+  27:    1  ->  thick
+  28:    1  ->  to
+  29:    1  ->  toy
+  30:    1  ->  train
+  31:    1  ->  wednesday
+  32:    1  ->  will
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  when
+   2:    2  ->  in
+   3:    2  ->  is
+   4:    2  ->  the
+   5:    2  ->  thing
+   6:    2  ->  toe
+   7:    2  ->  tow
+   8:    1  ->  ah
+   9:    1  ->  ban
+  10:    1  ->  be
+  11:    1  ->  being
+  12:    1  ->  bobby
+  13:    1  ->  fifty-six
+  14:    1  ->  fits
+  15:    1  ->  go
+  16:    1  ->  hand
+  17:    1  ->  handbags
+  18:    1  ->  have
+  19:    1  ->  it
+  20:    1  ->  knocking
+  21:    1  ->  labs
+  22:    1  ->  may
+  23:    1  ->  me
+  24:    1  ->  now
+  25:    1  ->  off
+  26:    1  ->  ofthe
+  27:    1  ->  spoon
+  28:    1  ->  storey
+  29:    1  ->  think
+  30:    1  ->  this
+  31:    1  ->  we'll
+  32:    1  ->  where
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

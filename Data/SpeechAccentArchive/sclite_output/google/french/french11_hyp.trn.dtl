@@ -1,0 +1,111 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: french\french11_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5 ==> snoopy's
+   2:    1  ->  a ==> older
+   3:    1  ->  also ==> it's
+   4:    1  ->  cheese ==> booties
+   5:    1  ->  need ==> an
+   6:    1  ->  spoons ==> pounds
+   7:    1  ->  store ==> storm
+   8:    1  ->  these ==> jesus
+   9:    1  ->  these ==> this
+  10:    1  ->  thick ==> 56
+  11:    1  ->  will ==> would
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  we
+   2:    1  ->  a
+   3:    1  ->  blue
+   4:    1  ->  peas
+   5:    1  ->  scoop
+   6:    1  ->  snow
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  also
+   5:    1  ->  cheese
+   6:    1  ->  need
+   7:    1  ->  spoons
+   8:    1  ->  store
+   9:    1  ->  thick
+  10:    1  ->  will
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  56
+   2:    1  ->  an
+   3:    1  ->  booties
+   4:    1  ->  it's
+   5:    1  ->  jesus
+   6:    1  ->  older
+   7:    1  ->  pounds
+   8:    1  ->  snoopy's
+   9:    1  ->  storm
+  10:    1  ->  this
+  11:    1  ->  would
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

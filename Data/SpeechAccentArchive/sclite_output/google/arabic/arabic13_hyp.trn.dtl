@@ -1,0 +1,99 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic13_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  red ==> bread
+   2:    1  ->  slabs ==> lab
+   3:    1  ->  snack ==> snake
+   4:    1  ->  spoons ==> pounds
+   5:    1  ->  these ==> the
+   6:    1  ->  thick ==> 56
+   7:    1  ->  things ==> saying
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    3  ->  a
+   2:    1  ->  3
+   3:    1  ->  5
+   4:    1  ->  big
+   5:    1  ->  toy
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  red
+   2:    1  ->  slabs
+   3:    1  ->  snack
+   4:    1  ->  spoons
+   5:    1  ->  these
+   6:    1  ->  thick
+   7:    1  ->  things
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  56
+   2:    1  ->  bread
+   3:    1  ->  lab
+   4:    1  ->  pounds
+   5:    1  ->  saying
+   6:    1  ->  snake
+   7:    1  ->  the
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

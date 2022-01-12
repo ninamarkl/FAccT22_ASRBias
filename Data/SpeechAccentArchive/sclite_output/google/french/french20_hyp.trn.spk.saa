@@ -1,0 +1,125 @@
+SCORING FOR SPEAKER: saa
+     of french\french20_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  5 ==> and
+   2:    1  ->  a ==> media
+   3:    1  ->  bob ==> but
+   4:    1  ->  frog ==> fight
+   5:    1  ->  peas ==> first
+   6:    1  ->  plastic ==> monster
+   7:    1  ->  red ==> with
+   8:    1  ->  scoop ==> screw
+   9:    1  ->  slabs ==> types
+  10:    1  ->  small ==> this
+  11:    1  ->  snake ==> plastics
+  12:    1  ->  spoons ==> grams
+  13:    1  ->  thick ==> bs56
+  14:    1  ->  toy ==> guy
+  15:    1  ->  will ==> we'll
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  fresh
+   3:    1  ->  her
+   4:    1  ->  maybe
+   5:    1  ->  snow
+   6:    1  ->  we
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  bob
+   4:    1  ->  frog
+   5:    1  ->  peas
+   6:    1  ->  plastic
+   7:    1  ->  red
+   8:    1  ->  scoop
+   9:    1  ->  slabs
+  10:    1  ->  small
+  11:    1  ->  snake
+  12:    1  ->  spoons
+  13:    1  ->  thick
+  14:    1  ->  toy
+  15:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  and
+   2:    1  ->  bs56
+   3:    1  ->  but
+   4:    1  ->  fight
+   5:    1  ->  first
+   6:    1  ->  grams
+   7:    1  ->  guy
+   8:    1  ->  media
+   9:    1  ->  monster
+  10:    1  ->  plastics
+  11:    1  ->  screw
+  12:    1  ->  this
+  13:    1  ->  types
+  14:    1  ->  we'll
+  15:    1  ->  with
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

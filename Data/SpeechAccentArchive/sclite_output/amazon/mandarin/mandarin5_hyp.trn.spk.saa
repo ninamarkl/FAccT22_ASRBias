@@ -1,0 +1,127 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  ask ==> as
+   3:    1  ->  bob ==> bog
+   4:    1  ->  go ==> vehicle
+   5:    1  ->  kids ==> keys
+   6:    1  ->  meet ==> me
+   7:    1  ->  of ==> off
+   8:    1  ->  of ==> over
+   9:    1  ->  red ==> right
+  10:    1  ->  scoop ==> screw
+  11:    1  ->  spoons ==> points
+  12:    1  ->  these ==> this
+  13:    1  ->  thick ==> sticks
+  14:    1  ->  things ==> scenes
+  15:    1  ->  things ==> sense
+  16:    1  ->  three ==> street
+  17:    1  ->  will ==> a
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  his
+   2:    1  ->  sprints
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  the
+   2:    1  ->  we
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  of
+   2:    2  ->  things
+   3:    1  ->  a
+   4:    1  ->  ask
+   5:    1  ->  bob
+   6:    1  ->  go
+   7:    1  ->  kids
+   8:    1  ->  meet
+   9:    1  ->  red
+  10:    1  ->  scoop
+  11:    1  ->  spoons
+  12:    1  ->  these
+  13:    1  ->  thick
+  14:    1  ->  three
+  15:    1  ->  will
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a
+   2:    1  ->  as
+   3:    1  ->  bog
+   4:    1  ->  keys
+   5:    1  ->  me
+   6:    1  ->  off
+   7:    1  ->  over
+   8:    1  ->  points
+   9:    1  ->  right
+  10:    1  ->  scenes
+  11:    1  ->  screw
+  12:    1  ->  sense
+  13:    1  ->  sticks
+  14:    1  ->  street
+  15:    1  ->  the
+  16:    1  ->  this
+  17:    1  ->  vehicle
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

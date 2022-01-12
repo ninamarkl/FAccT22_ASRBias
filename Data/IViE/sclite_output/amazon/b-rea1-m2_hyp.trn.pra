@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\b-rea1-m2_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-m2_01)
+Scores: (#C #S #D #I) 138 37 5 7
+REF:  once upon a time there was a girl called cinderella but everybody CALLED HER   CINDERS  CINDERS LIVED with her mother and ***** ***** ** TWO   STEPSISTERS called LILY AND  rosa LILY and ROSA  WERE very unfriendly and they were lazy girls they SPENT all their time buying new clothes and going to parties POOR CINDERS    had TO   WEAR all their old HAND ME   DOWNS and she had to do the cleaning one day a royal messenger came TO   ANNOUNCE A  BALL the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND     rosa thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball *** ARRIVED CINDERS  had to help her sisters get ready they WERE IN  a BAD mood they wanted to buy some new GOWNS but their mother said that they had enough GOWNS so they started SHOUTING AT cinders find my jewels yelled one FIND  my ***** HAT  HOWLED the other they WE wanted *** ******* 
+HYP:  once upon a time there was a girl called cinderella but everybody CALL   THEIR SENATORS SANDERS LIVE  with her mother and THREE STEPS AS THERE IS          called THE  LIEN rosa LAWS and RULES OVER very unfriendly and they were lazy girls they SPEND all their time buying new clothes and going to parties **** PERCENTERS had THEY WERE all their old **** HAMA TOWNS and she had to do the cleaning one day a royal messenger came DOWN OUT      OF ALL  the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** LILLIAN rosa thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball ARE EGGED   SENATORS had to help her sisters get ready they **** RUN a POD mood they wanted to buy some new KINDS but their mother said that they had enough GUNS  so they started SHEDDING A  cinders find my jewels yelled one FOUND my HEART HOLD ON     the other they ** wanted HER BRUSHES 
+Eval:                                                                   S      S     S        S       S                         I     I     I  S     S                  S    S         S        S     S                                                  S                                                            D    S              S    S                  D    S    S                                                                   S    S        S  S             S                                                                                  D    S                                                                                                                                                          I   S       S                                               D    S     S                                    S                                                S                     S        S                                    S        I     S    S                     D         I   I       
+
+>> REF:  HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  HER         PINS     and hairspray 
+>> Eval: S           S                      
+
+

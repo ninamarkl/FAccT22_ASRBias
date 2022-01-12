@@ -1,0 +1,128 @@
+SCORING FOR SPEAKER: saa
+     of french\french36_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   59.4%   (  41)
+
+Percent Correct           =   40.6%   (  28)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =   47.8%   (  33)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   40.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  36)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  bob ==> but
+   3:    1  ->  frog ==> front
+   4:    1  ->  of ==> the
+   5:    1  ->  slabs ==> 565
+   6:    1  ->  snack ==> not
+   7:    1  ->  thick ==> snoopy's
+   8:    1  ->  things ==> thanks
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  and
+   2:    2  ->  her
+   3:    2  ->  these
+   4:    1  ->  3
+   5:    1  ->  5
+   6:    1  ->  6
+   7:    1  ->  a
+   8:    1  ->  ask
+   9:    1  ->  bags
+  10:    1  ->  big
+  11:    1  ->  bring
+  12:    1  ->  can
+  13:    1  ->  fresh
+  14:    1  ->  go
+  15:    1  ->  into
+  16:    1  ->  meet
+  17:    1  ->  of
+  18:    1  ->  peas
+  19:    1  ->  plastic
+  20:    1  ->  red
+  21:    1  ->  scoop
+  22:    1  ->  she
+  23:    1  ->  snake
+  24:    1  ->  snow
+  25:    1  ->  spoons
+  26:    1  ->  things
+  27:    1  ->  to
+  28:    1  ->  toy
+  29:    1  ->  we
+  30:    1  ->  will
+     -------
+        33
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  bob
+   3:    1  ->  frog
+   4:    1  ->  of
+   5:    1  ->  slabs
+   6:    1  ->  snack
+   7:    1  ->  thick
+   8:    1  ->  things
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  565
+   2:    1  ->  but
+   3:    1  ->  front
+   4:    1  ->  it's
+   5:    1  ->  not
+   6:    1  ->  snoopy's
+   7:    1  ->  thanks
+   8:    1  ->  the
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

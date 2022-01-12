@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\german\german23_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  these ==> the
+   2:    1  ->  and ==> bag
+   3:    1  ->  call ==> called
+   4:    1  ->  can ==> khun
+   5:    1  ->  cheese ==> trees
+   6:    1  ->  go ==> o
+   7:    1  ->  her ==> when
+   8:    1  ->  meet ==> metre
+   9:    1  ->  please ==> place
+  10:    1  ->  scoop ==> scooped
+  11:    1  ->  we ==> some
+  12:    1  ->  wednesday ==> staying
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  be
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  bags
+   2:    1  ->  her
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  these
+   2:    1  ->  and
+   3:    1  ->  call
+   4:    1  ->  can
+   5:    1  ->  cheese
+   6:    1  ->  go
+   7:    1  ->  her
+   8:    1  ->  meet
+   9:    1  ->  please
+  10:    1  ->  scoop
+  11:    1  ->  we
+  12:    1  ->  wednesday
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  the
+   2:    1  ->  bag
+   3:    1  ->  called
+   4:    1  ->  khun
+   5:    1  ->  metre
+   6:    1  ->  o
+   7:    1  ->  place
+   8:    1  ->  scooped
+   9:    1  ->  some
+  10:    1  ->  staying
+  11:    1  ->  trees
+  12:    1  ->  when
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

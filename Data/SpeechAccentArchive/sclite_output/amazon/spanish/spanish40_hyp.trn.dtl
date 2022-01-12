@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish40_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   63.8%   (  44)
+
+Percent Correct           =   37.7%   (  26)
+
+Percent Substitution      =   50.7%   (  35)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   36.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  also ==> was
+   3:    1  ->  and ==> a
+   4:    1  ->  and ==> like
+   5:    1  ->  and ==> packs
+   6:    1  ->  ask ==> asked
+   7:    1  ->  bags ==> delivery
+   8:    1  ->  blue ==> bleach
+   9:    1  ->  bob ==> bride
+  10:    1  ->  brother ==> a
+  11:    1  ->  cheese ==> is
+  12:    1  ->  five ==> peace
+  13:    1  ->  frog ==> victory
+  14:    1  ->  from ==> happen
+  15:    1  ->  her ==> we
+  16:    1  ->  her ==> with
+  17:    1  ->  need ==> on
+  18:    1  ->  of ==> level
+  19:    1  ->  peas ==> no
+  20:    1  ->  scoop ==> exploit
+  21:    1  ->  slabs ==> ticks
+  22:    1  ->  small ==> more
+  23:    1  ->  snack ==> stamp
+  24:    1  ->  snake ==> is
+  25:    1  ->  spoons ==> points
+  26:    1  ->  stella ==> estella
+  27:    1  ->  store ==> stole
+  28:    1  ->  the ==> to
+  29:    1  ->  these ==> this
+  30:    1  ->  thick ==> by
+  31:    1  ->  things ==> thing
+  32:    1  ->  things ==> this
+  33:    1  ->  we ==> pop
+  34:    1  ->  wednesday ==> a
+  35:    1  ->  with ==> if
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  him
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  big
+   2:    1  ->  her
+   3:    1  ->  red
+   4:    1  ->  snow
+   5:    1  ->  these
+   6:    1  ->  three
+   7:    1  ->  toy
+   8:    1  ->  will
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  and
+   2:    2  ->  her
+   3:    2  ->  things
+   4:    1  ->  a
+   5:    1  ->  also
+   6:    1  ->  ask
+   7:    1  ->  bags
+   8:    1  ->  blue
+   9:    1  ->  bob
+  10:    1  ->  brother
+  11:    1  ->  cheese
+  12:    1  ->  five
+  13:    1  ->  frog
+  14:    1  ->  from
+  15:    1  ->  need
+  16:    1  ->  of
+  17:    1  ->  peas
+  18:    1  ->  scoop
+  19:    1  ->  slabs
+  20:    1  ->  small
+  21:    1  ->  snack
+  22:    1  ->  snake
+  23:    1  ->  spoons
+  24:    1  ->  stella
+  25:    1  ->  store
+  26:    1  ->  the
+  27:    1  ->  these
+  28:    1  ->  thick
+  29:    1  ->  we
+  30:    1  ->  wednesday
+  31:    1  ->  with
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  a
+   2:    2  ->  is
+   3:    2  ->  this
+   4:    1  ->  asked
+   5:    1  ->  bleach
+   6:    1  ->  bride
+   7:    1  ->  by
+   8:    1  ->  delivery
+   9:    1  ->  estella
+  10:    1  ->  exploit
+  11:    1  ->  happen
+  12:    1  ->  if
+  13:    1  ->  it's
+  14:    1  ->  level
+  15:    1  ->  like
+  16:    1  ->  more
+  17:    1  ->  no
+  18:    1  ->  on
+  19:    1  ->  packs
+  20:    1  ->  peace
+  21:    1  ->  points
+  22:    1  ->  pop
+  23:    1  ->  stamp
+  24:    1  ->  stole
+  25:    1  ->  thing
+  26:    1  ->  ticks
+  27:    1  ->  to
+  28:    1  ->  victory
+  29:    1  ->  was
+  30:    1  ->  we
+  31:    1  ->  with
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

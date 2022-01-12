@@ -1,0 +1,183 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin42_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   65.2%   (  45)
+
+Percent Correct           =   47.8%   (  33)
+
+Percent Substitution      =   52.2%   (  36)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   13.0%   (   9)
+Percent Word Accuracy     =   34.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  78)
+Aligned words             =           (  78)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  a ==> nyc
+   2:    1  ->  also ==> hourssleep
+   3:    1  ->  at ==> add
+   4:    1  ->  bags ==> backers
+   5:    1  ->  bob ==> poppy
+   6:    1  ->  bring ==> pry
+   7:    1  ->  call ==> cows
+   8:    1  ->  cheese ==> tees
+   9:    1  ->  for ==> all
+  10:    1  ->  fresh ==> is
+  11:    1  ->  frog ==> rock
+  12:    1  ->  her ==> off
+  13:    1  ->  of ==> for
+  14:    1  ->  of ==> rice
+  15:    1  ->  peas ==> peace
+  16:    1  ->  plastic ==> a
+  17:    1  ->  red ==> writer
+  18:    1  ->  scoop ==> go
+  19:    1  ->  she ==> c
+  20:    1  ->  six ==> boone's
+  21:    1  ->  slabs ==> slippers
+  22:    1  ->  snack ==> off
+  23:    1  ->  snow ==> no
+  24:    1  ->  spoons ==> off
+  25:    1  ->  stella ==> della
+  26:    1  ->  store ==> sixes
+  27:    1  ->  these ==> they
+  28:    1  ->  thick ==> think
+  29:    1  ->  to ==> toe
+  30:    1  ->  toy ==> toys
+  31:    1  ->  train ==> chain
+  32:    1  ->  we ==> they
+  33:    1  ->  we ==> weii
+  34:    1  ->  wednesday ==> they
+  35:    1  ->  will ==> all
+  36:    1  ->  with ==> ways
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  the
+   2:    1  ->  kik
+   3:    1  ->  plastique
+   4:    1  ->  stall
+   5:    1  ->  think
+   6:    1  ->  us
+   7:    1  ->  way
+   8:    1  ->  when
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  of
+   2:    2  ->  we
+   3:    1  ->  a
+   4:    1  ->  also
+   5:    1  ->  at
+   6:    1  ->  bags
+   7:    1  ->  bob
+   8:    1  ->  bring
+   9:    1  ->  call
+  10:    1  ->  cheese
+  11:    1  ->  for
+  12:    1  ->  fresh
+  13:    1  ->  frog
+  14:    1  ->  her
+  15:    1  ->  peas
+  16:    1  ->  plastic
+  17:    1  ->  red
+  18:    1  ->  scoop
+  19:    1  ->  she
+  20:    1  ->  six
+  21:    1  ->  slabs
+  22:    1  ->  snack
+  23:    1  ->  snow
+  24:    1  ->  spoons
+  25:    1  ->  stella
+  26:    1  ->  store
+  27:    1  ->  these
+  28:    1  ->  thick
+  29:    1  ->  to
+  30:    1  ->  toy
+  31:    1  ->  train
+  32:    1  ->  wednesday
+  33:    1  ->  will
+  34:    1  ->  with
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  off
+   2:    3  ->  they
+   3:    2  ->  all
+   4:    1  ->  a
+   5:    1  ->  add
+   6:    1  ->  backers
+   7:    1  ->  boone's
+   8:    1  ->  c
+   9:    1  ->  chain
+  10:    1  ->  cows
+  11:    1  ->  della
+  12:    1  ->  for
+  13:    1  ->  go
+  14:    1  ->  hourssleep
+  15:    1  ->  is
+  16:    1  ->  no
+  17:    1  ->  nyc
+  18:    1  ->  peace
+  19:    1  ->  poppy
+  20:    1  ->  pry
+  21:    1  ->  rice
+  22:    1  ->  rock
+  23:    1  ->  sixes
+  24:    1  ->  slippers
+  25:    1  ->  tees
+  26:    1  ->  think
+  27:    1  ->  toe
+  28:    1  ->  toys
+  29:    1  ->  ways
+  30:    1  ->  weii
+  31:    1  ->  writer
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,133 @@
+SCORING FOR SPEAKER: saa
+     of french\french37_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.9%   (  31)
+
+Percent Correct           =   55.1%   (  38)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =   21.7%   (  15)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   55.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  54)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  5 ==> please
+   3:    1  ->  and ==> can
+   4:    1  ->  ask ==> asked
+   5:    1  ->  at ==> of
+   6:    1  ->  bob ==> both
+   7:    1  ->  her ==> sniper
+   8:    1  ->  her ==> you
+   9:    1  ->  peas ==> no
+  10:    1  ->  slabs ==> loads
+  11:    1  ->  snake ==> 6ne
+  12:    1  ->  snow ==> breasts
+  13:    1  ->  spoons ==> story
+  14:    1  ->  thick ==> fix
+  15:    1  ->  will ==> we'll
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  can
+   4:    1  ->  for
+   5:    1  ->  fresh
+   6:    1  ->  frog
+   7:    1  ->  her
+   8:    1  ->  meet
+   9:    1  ->  plastic
+  10:    1  ->  scoop
+  11:    1  ->  she
+  12:    1  ->  snack
+  13:    1  ->  store
+  14:    1  ->  the
+  15:    1  ->  we
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  her
+   2:    2  ->  these
+   3:    1  ->  5
+   4:    1  ->  and
+   5:    1  ->  ask
+   6:    1  ->  at
+   7:    1  ->  bob
+   8:    1  ->  peas
+   9:    1  ->  slabs
+  10:    1  ->  snake
+  11:    1  ->  snow
+  12:    1  ->  spoons
+  13:    1  ->  thick
+  14:    1  ->  will
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  this
+   2:    1  ->  6ne
+   3:    1  ->  asked
+   4:    1  ->  both
+   5:    1  ->  breasts
+   6:    1  ->  can
+   7:    1  ->  fix
+   8:    1  ->  loads
+   9:    1  ->  no
+  10:    1  ->  of
+  11:    1  ->  please
+  12:    1  ->  sniper
+  13:    1  ->  story
+  14:    1  ->  we'll
+  15:    1  ->  you
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

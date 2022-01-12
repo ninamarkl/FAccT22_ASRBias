@@ -1,0 +1,145 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin8_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.0%   (  29)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   34.8%   (  24)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   58.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  and ==> on
+   3:    1  ->  at ==> with
+   4:    1  ->  bags ==> backs
+   5:    1  ->  brother ==> brera
+   6:    1  ->  call ==> course
+   7:    1  ->  five ==> fell
+   8:    1  ->  kids ==> case
+   9:    1  ->  peas ==> piece
+  10:    1  ->  please ==> police
+  11:    1  ->  red ==> dry
+  12:    1  ->  slabs ==> left
+  13:    1  ->  snow ==> slow
+  14:    1  ->  spoons ==> points
+  15:    1  ->  stella ==> then
+  16:    1  ->  store ==> restore
+  17:    1  ->  the ==> a
+  18:    1  ->  the ==> their
+  19:    1  ->  thick ==> things
+  20:    1  ->  to ==> toe
+  21:    1  ->  train ==> training
+  22:    1  ->  wednesday ==> metre
+  23:    1  ->  will ==> were
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  her
+   2:    1  ->  and
+   3:    1  ->  meet
+   4:    1  ->  the
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  of
+   2:    2  ->  the
+   3:    1  ->  and
+   4:    1  ->  at
+   5:    1  ->  bags
+   6:    1  ->  brother
+   7:    1  ->  call
+   8:    1  ->  five
+   9:    1  ->  kids
+  10:    1  ->  peas
+  11:    1  ->  please
+  12:    1  ->  red
+  13:    1  ->  slabs
+  14:    1  ->  snow
+  15:    1  ->  spoons
+  16:    1  ->  stella
+  17:    1  ->  store
+  18:    1  ->  thick
+  19:    1  ->  to
+  20:    1  ->  train
+  21:    1  ->  wednesday
+  22:    1  ->  will
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  off
+   2:    1  ->  a
+   3:    1  ->  backs
+   4:    1  ->  brera
+   5:    1  ->  case
+   6:    1  ->  course
+   7:    1  ->  dry
+   8:    1  ->  fell
+   9:    1  ->  left
+  10:    1  ->  metre
+  11:    1  ->  on
+  12:    1  ->  piece
+  13:    1  ->  points
+  14:    1  ->  police
+  15:    1  ->  restore
+  16:    1  ->  slow
+  17:    1  ->  their
+  18:    1  ->  then
+  19:    1  ->  things
+  20:    1  ->  toe
+  21:    1  ->  training
+  22:    1  ->  were
+  23:    1  ->  with
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

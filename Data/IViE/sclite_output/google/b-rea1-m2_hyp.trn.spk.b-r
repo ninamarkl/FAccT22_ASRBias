@@ -1,0 +1,195 @@
+SCORING FOR SPEAKER: b-r
+     of google\b-rea1-m2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.0%   (  72)
+
+Percent Correct           =   62.2%   ( 112)
+
+Percent Substitution      =   17.8%   (  32)
+Percent Deletions         =   20.0%   (  36)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   60.0%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 148)
+Aligned words             =           ( 184)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  all ==> expand
+   2:    1  ->  and ==> call
+   3:    1  ->  arrived ==> polarized
+   4:    1  ->  buying ==> bang
+   5:    1  ->  called ==> call
+   6:    1  ->  cinders ==> percentages
+   7:    1  ->  cinders ==> send
+   8:    1  ->  cinders ==> sunglasses
+   9:    1  ->  cinders ==> those
+  10:    1  ->  clothes ==> close
+  11:    1  ->  gowns ==> going
+  12:    1  ->  gowns ==> guys
+  13:    1  ->  hairbrushes ==> her
+  14:    1  ->  hairpins ==> friends
+  15:    1  ->  hairspray ==> spray
+  16:    1  ->  her ==> descenders
+  17:    1  ->  howled ==> heart
+  18:    1  ->  jewels ==> dual
+  19:    1  ->  lived ==> love
+  20:    1  ->  new ==> you
+  21:    1  ->  other ==> builder
+  22:    1  ->  rosa ==> liliana
+  23:    1  ->  royal ==> all
+  24:    1  ->  sisters ==> sister's
+  25:    1  ->  so ==> to
+  26:    1  ->  the ==> house
+  27:    1  ->  their ==> over
+  28:    1  ->  to ==> they
+  29:    1  ->  wear ==> were
+  30:    1  ->  were ==> groza
+  31:    1  ->  would ==> will
+  32:    1  ->  yelled ==> shield
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  her
+   2:    1  ->  brushes
+   3:    1  ->  down
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  a
+   2:    3  ->  and
+   3:    3  ->  lily
+   4:    2  ->  rosa
+   5:    2  ->  they
+   6:    2  ->  was
+   7:    1  ->  announce
+   8:    1  ->  at
+   9:    1  ->  ball
+  10:    1  ->  bells
+  11:    1  ->  bride
+  12:    1  ->  called
+  13:    1  ->  cinders
+  14:    1  ->  dreamed
+  15:    1  ->  for
+  16:    1  ->  gorgeous
+  17:    1  ->  hat
+  18:    1  ->  he
+  19:    1  ->  lazy
+  20:    1  ->  looking
+  21:    1  ->  of
+  22:    1  ->  poor
+  23:    1  ->  prince
+  24:    1  ->  spent
+  25:    1  ->  we
+  26:    1  ->  wedding
+  27:    1  ->  william
+     -------
+        36
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    4  ->  cinders
+   2:    2  ->  gowns
+   3:    1  ->  all
+   4:    1  ->  and
+   5:    1  ->  arrived
+   6:    1  ->  buying
+   7:    1  ->  called
+   8:    1  ->  clothes
+   9:    1  ->  hairbrushes
+  10:    1  ->  hairpins
+  11:    1  ->  hairspray
+  12:    1  ->  her
+  13:    1  ->  howled
+  14:    1  ->  jewels
+  15:    1  ->  lived
+  16:    1  ->  new
+  17:    1  ->  other
+  18:    1  ->  rosa
+  19:    1  ->  royal
+  20:    1  ->  sisters
+  21:    1  ->  so
+  22:    1  ->  the
+  23:    1  ->  their
+  24:    1  ->  to
+  25:    1  ->  wear
+  26:    1  ->  were
+  27:    1  ->  would
+  28:    1  ->  yelled
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  call
+   2:    1  ->  all
+   3:    1  ->  bang
+   4:    1  ->  builder
+   5:    1  ->  close
+   6:    1  ->  descenders
+   7:    1  ->  dual
+   8:    1  ->  expand
+   9:    1  ->  friends
+  10:    1  ->  going
+  11:    1  ->  groza
+  12:    1  ->  guys
+  13:    1  ->  heart
+  14:    1  ->  her
+  15:    1  ->  house
+  16:    1  ->  liliana
+  17:    1  ->  love
+  18:    1  ->  over
+  19:    1  ->  percentages
+  20:    1  ->  polarized
+  21:    1  ->  send
+  22:    1  ->  shield
+  23:    1  ->  sister's
+  24:    1  ->  spray
+  25:    1  ->  sunglasses
+  26:    1  ->  they
+  27:    1  ->  those
+  28:    1  ->  to
+  29:    1  ->  were
+  30:    1  ->  will
+  31:    1  ->  you
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

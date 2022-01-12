@@ -1,0 +1,113 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish46_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  5 ==> please
+   2:    1  ->  bags ==> backs
+   3:    1  ->  bob ==> but
+   4:    1  ->  her ==> here
+   5:    1  ->  meet ==> mate
+   6:    1  ->  peas ==> rational
+   7:    1  ->  red ==> right
+   8:    1  ->  slabs ==> lots
+   9:    1  ->  spoons ==> 6-months
+  10:    1  ->  these ==> fish
+  11:    1  ->  these ==> this
+  12:    1  ->  thick ==> 56
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  fresh
+   4:    1  ->  snow
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  bags
+   4:    1  ->  bob
+   5:    1  ->  her
+   6:    1  ->  meet
+   7:    1  ->  peas
+   8:    1  ->  red
+   9:    1  ->  slabs
+  10:    1  ->  spoons
+  11:    1  ->  thick
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  56
+   2:    1  ->  6-months
+   3:    1  ->  backs
+   4:    1  ->  but
+   5:    1  ->  fish
+   6:    1  ->  here
+   7:    1  ->  lots
+   8:    1  ->  mate
+   9:    1  ->  please
+  10:    1  ->  rational
+  11:    1  ->  right
+  12:    1  ->  this
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,208 @@
+SCORING FOR SPEAKER: b-r
+     of google\b-rea1-m5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   38.7%   (  70)
+
+Percent Correct           =   64.1%   ( 116)
+
+Percent Substitution      =   21.5%   (  39)
+Percent Deletions         =   14.4%   (  26)
+Percent Insertions        =    2.8%   (   5)
+Percent Word Accuracy     =   61.3%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 160)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  a ==> are
+   2:    1  ->  a ==> ninety-two
+   3:    1  ->  and ==> has
+   4:    1  ->  and ==> lane
+   5:    1  ->  announce ==> and
+   6:    1  ->  arrived ==> i've
+   7:    1  ->  ball ==> boiler
+   8:    1  ->  came ==> two
+   9:    1  ->  cinders ==> eastenders
+  10:    1  ->  cinders ==> just
+  11:    1  ->  cinders ==> percentages
+  12:    1  ->  cinders ==> sanders
+  13:    1  ->  clothes ==> close
+  14:    1  ->  day ==> one-day
+  15:    1  ->  divine ==> define
+  16:    1  ->  downs ==> times
+  17:    1  ->  dreamed ==> dream
+  18:    1  ->  gowns ==> coins
+  19:    1  ->  gowns ==> guys
+  20:    1  ->  had ==> and
+  21:    1  ->  hairbrushes ==> her
+  22:    1  ->  hairpins ==> pens
+  23:    1  ->  hand ==> how
+  24:    1  ->  hat ==> heart
+  25:    1  ->  howled ==> all
+  26:    1  ->  in ==> an
+  27:    1  ->  lived ==> left
+  28:    1  ->  me ==> many
+  29:    1  ->  new ==> you
+  30:    1  ->  once ==> what's
+  31:    1  ->  one ==> jules
+  32:    1  ->  royal ==> all
+  33:    1  ->  sisters ==> sister's
+  34:    1  ->  they ==> the
+  35:    1  ->  time ==> i'm
+  36:    1  ->  to ==> hundred
+  37:    1  ->  unfriendly ==> rosie
+  38:    1  ->  were ==> there
+  39:    1  ->  would ==> will
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  her
+   2:    1  ->  brushes
+   3:    1  ->  can
+   4:    1  ->  of
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  they
+   2:    2  ->  lily
+   3:    2  ->  rosa
+   4:    2  ->  were
+   5:    1  ->  all
+   6:    1  ->  and
+   7:    1  ->  girls
+   8:    1  ->  jewels
+   9:    1  ->  lazy
+  10:    1  ->  one
+  11:    1  ->  poor
+  12:    1  ->  spent
+  13:    1  ->  that
+  14:    1  ->  their
+  15:    1  ->  this
+  16:    1  ->  thought
+  17:    1  ->  to
+  18:    1  ->  very
+  19:    1  ->  was
+  20:    1  ->  wear
+  21:    1  ->  yelled
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    4  ->  cinders
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  gowns
+   5:    1  ->  announce
+   6:    1  ->  arrived
+   7:    1  ->  ball
+   8:    1  ->  came
+   9:    1  ->  clothes
+  10:    1  ->  day
+  11:    1  ->  divine
+  12:    1  ->  downs
+  13:    1  ->  dreamed
+  14:    1  ->  had
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  hand
+  18:    1  ->  hat
+  19:    1  ->  howled
+  20:    1  ->  in
+  21:    1  ->  lived
+  22:    1  ->  me
+  23:    1  ->  new
+  24:    1  ->  once
+  25:    1  ->  one
+  26:    1  ->  royal
+  27:    1  ->  sisters
+  28:    1  ->  they
+  29:    1  ->  time
+  30:    1  ->  to
+  31:    1  ->  unfriendly
+  32:    1  ->  were
+  33:    1  ->  would
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  all
+   2:    2  ->  and
+   3:    1  ->  an
+   4:    1  ->  are
+   5:    1  ->  boiler
+   6:    1  ->  close
+   7:    1  ->  coins
+   8:    1  ->  define
+   9:    1  ->  dream
+  10:    1  ->  eastenders
+  11:    1  ->  guys
+  12:    1  ->  has
+  13:    1  ->  heart
+  14:    1  ->  her
+  15:    1  ->  how
+  16:    1  ->  hundred
+  17:    1  ->  i'm
+  18:    1  ->  i've
+  19:    1  ->  jules
+  20:    1  ->  just
+  21:    1  ->  lane
+  22:    1  ->  left
+  23:    1  ->  many
+  24:    1  ->  ninety-two
+  25:    1  ->  one-day
+  26:    1  ->  pens
+  27:    1  ->  percentages
+  28:    1  ->  rosie
+  29:    1  ->  sanders
+  30:    1  ->  sister's
+  31:    1  ->  the
+  32:    1  ->  there
+  33:    1  ->  times
+  34:    1  ->  two
+  35:    1  ->  what's
+  36:    1  ->  will
+  37:    1  ->  you
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

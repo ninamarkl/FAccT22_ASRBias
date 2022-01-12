@@ -1,0 +1,147 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish43_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.9%   (  31)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   34.8%   (  24)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   55.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  ask ==> axe
+   3:    1  ->  big ==> best
+   4:    1  ->  call ==> please
+   5:    1  ->  can ==> put
+   6:    1  ->  five ==> fight
+   7:    1  ->  her ==> had
+   8:    1  ->  her ==> held
+   9:    1  ->  into ==> tow
+  10:    1  ->  kids ==> just
+  11:    1  ->  of ==> her
+  12:    1  ->  of ==> off
+  13:    1  ->  peas ==> species
+  14:    1  ->  she ==> guessed
+  15:    1  ->  slabs ==> loves
+  16:    1  ->  stella ==> costilla
+  17:    1  ->  the ==> key
+  18:    1  ->  these ==> thing's
+  19:    1  ->  thick ==> ix
+  20:    1  ->  things ==> in
+  21:    1  ->  to ==> toe
+  22:    1  ->  we ==> readbacks
+  23:    1  ->  will ==> way
+  24:    1  ->  with ==> we
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  this
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  bags
+   4:    1  ->  red
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  her
+   2:    2  ->  of
+   3:    1  ->  and
+   4:    1  ->  ask
+   5:    1  ->  big
+   6:    1  ->  call
+   7:    1  ->  can
+   8:    1  ->  five
+   9:    1  ->  into
+  10:    1  ->  kids
+  11:    1  ->  peas
+  12:    1  ->  she
+  13:    1  ->  slabs
+  14:    1  ->  stella
+  15:    1  ->  the
+  16:    1  ->  these
+  17:    1  ->  thick
+  18:    1  ->  things
+  19:    1  ->  to
+  20:    1  ->  we
+  21:    1  ->  will
+  22:    1  ->  with
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  in
+   2:    1  ->  axe
+   3:    1  ->  best
+   4:    1  ->  costilla
+   5:    1  ->  fight
+   6:    1  ->  guessed
+   7:    1  ->  had
+   8:    1  ->  held
+   9:    1  ->  her
+  10:    1  ->  ix
+  11:    1  ->  just
+  12:    1  ->  key
+  13:    1  ->  loves
+  14:    1  ->  off
+  15:    1  ->  please
+  16:    1  ->  put
+  17:    1  ->  readbacks
+  18:    1  ->  species
+  19:    1  ->  thing's
+  20:    1  ->  toe
+  21:    1  ->  tow
+  22:    1  ->  way
+  23:    1  ->  we
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

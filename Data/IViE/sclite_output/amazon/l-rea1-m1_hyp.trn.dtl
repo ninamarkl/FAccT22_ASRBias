@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\l-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.6%   (  19)
+
+Percent Correct           =   91.1%   ( 163)
+
+Percent Substitution      =    7.8%   (  14)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    1.7%   (   3)
+Percent Word Accuracy     =   89.4%
+
+
+Ref. words                =           ( 179)
+Hyp. words                =           ( 180)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  cinders ==> singers
+   2:    1  ->  and ==> liliom
+   3:    1  ->  and ==> lillian
+   4:    1  ->  cinder ==> cinda
+   5:    1  ->  hairbrushes ==> brushes
+   6:    1  ->  hairpins ==> happens
+   7:    1  ->  howled ==> all
+   8:    1  ->  lazy ==> laser
+   9:    1  ->  stepsisters ==> is
+  10:    1  ->  they ==> it
+  11:    1  ->  they'd ==> they
+  12:    1  ->  were ==> or
+  13:    1  ->  would ==> will
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  hair
+   2:    1  ->  how
+   3:    1  ->  sepsis
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  lily
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  and
+   2:    2  ->  cinders
+   3:    1  ->  cinder
+   4:    1  ->  hairbrushes
+   5:    1  ->  hairpins
+   6:    1  ->  howled
+   7:    1  ->  lazy
+   8:    1  ->  stepsisters
+   9:    1  ->  they
+  10:    1  ->  they'd
+  11:    1  ->  were
+  12:    1  ->  would
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  singers
+   2:    1  ->  all
+   3:    1  ->  brushes
+   4:    1  ->  cinda
+   5:    1  ->  happens
+   6:    1  ->  is
+   7:    1  ->  it
+   8:    1  ->  laser
+   9:    1  ->  liliom
+  10:    1  ->  lillian
+  11:    1  ->  or
+  12:    1  ->  they
+  13:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

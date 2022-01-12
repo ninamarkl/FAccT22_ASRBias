@@ -1,0 +1,92 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\l-rea1-f5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.4%   (  10)
+
+Percent Correct           =   95.1%   ( 175)
+
+Percent Substitution      =    3.8%   (   7)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =   94.6%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 183)
+Aligned words             =           ( 185)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  and ==> lillian
+   2:    1  ->  going ==> go
+   3:    1  ->  got ==> go
+   4:    1  ->  hairspray ==> spring
+   5:    1  ->  howled ==> how
+   6:    1  ->  to ==> into
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  hair
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  lily
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  and
+   2:    1  ->  going
+   3:    1  ->  got
+   4:    1  ->  hairspray
+   5:    1  ->  howled
+   6:    1  ->  to
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  go
+   2:    2  ->  lillian
+   3:    1  ->  how
+   4:    1  ->  into
+   5:    1  ->  spring
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

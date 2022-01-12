@@ -1,0 +1,111 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\d-rea1-f2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.2%   (  23)
+
+Percent Correct           =   89.9%   ( 170)
+
+Percent Substitution      =    7.4%   (  14)
+Percent Deletions         =    2.6%   (   5)
+Percent Insertions        =    2.1%   (   4)
+Percent Word Accuracy     =   87.8%
+
+
+Ref. words                =           ( 189)
+Hyp. words                =           ( 188)
+Aligned words             =           ( 193)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    3  ->  and ==> lillian
+   2:    2  ->  gowns ==> ganz
+   3:    1  ->  a ==> the
+   4:    1  ->  at ==> in
+   5:    1  ->  downs ==> dance
+   6:    1  ->  howled ==> count
+   7:    1  ->  howled ==> held
+   8:    1  ->  jewels ==> had
+   9:    1  ->  me ==> finally
+  10:    1  ->  their ==> the
+  11:    1  ->  were ==> we're
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  had
+   2:    1  ->  he
+   3:    1  ->  her
+   4:    1  ->  jules
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    3  ->  lily
+   2:    1  ->  a
+   3:    1  ->  find
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    3  ->  and
+   2:    2  ->  gowns
+   3:    2  ->  howled
+   4:    1  ->  a
+   5:    1  ->  at
+   6:    1  ->  downs
+   7:    1  ->  jewels
+   8:    1  ->  me
+   9:    1  ->  their
+  10:    1  ->  were
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    3  ->  lillian
+   2:    2  ->  ganz
+   3:    2  ->  the
+   4:    1  ->  count
+   5:    1  ->  dance
+   6:    1  ->  finally
+   7:    1  ->  had
+   8:    1  ->  held
+   9:    1  ->  in
+  10:    1  ->  we're
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

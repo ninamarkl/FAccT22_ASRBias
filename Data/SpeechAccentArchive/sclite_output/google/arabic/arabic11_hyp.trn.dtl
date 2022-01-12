@@ -1,0 +1,135 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic11_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   79.7%   (  55)
+
+Percent Correct           =   20.3%   (  14)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   69.6%   (  48)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   20.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  21)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  bags ==> hype
+   3:    1  ->  plastic ==> alternative
+   4:    1  ->  red ==> big
+   5:    1  ->  small ==> the
+   6:    1  ->  snack ==> not
+   7:    1  ->  snake ==> snap
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  her
+   2:    2  ->  a
+   3:    2  ->  of
+   4:    2  ->  these
+   5:    2  ->  things
+   6:    2  ->  we
+   7:    1  ->  3
+   8:    1  ->  5
+   9:    1  ->  6
+  10:    1  ->  also
+  11:    1  ->  ask
+  12:    1  ->  at
+  13:    1  ->  big
+  14:    1  ->  blue
+  15:    1  ->  bob
+  16:    1  ->  bring
+  17:    1  ->  can
+  18:    1  ->  cheese
+  19:    1  ->  for
+  20:    1  ->  fresh
+  21:    1  ->  frog
+  22:    1  ->  go
+  23:    1  ->  into
+  24:    1  ->  kids
+  25:    1  ->  meet
+  26:    1  ->  need
+  27:    1  ->  peas
+  28:    1  ->  please
+  29:    1  ->  scoop
+  30:    1  ->  she
+  31:    1  ->  slabs
+  32:    1  ->  snow
+  33:    1  ->  spoons
+  34:    1  ->  the
+  35:    1  ->  thick
+  36:    1  ->  to
+  37:    1  ->  toy
+  38:    1  ->  train
+  39:    1  ->  wednesday
+  40:    1  ->  will
+  41:    1  ->  with
+     -------
+        48
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  bags
+   3:    1  ->  plastic
+   4:    1  ->  red
+   5:    1  ->  small
+   6:    1  ->  snack
+   7:    1  ->  snake
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  alternative
+   2:    1  ->  big
+   3:    1  ->  hype
+   4:    1  ->  it's
+   5:    1  ->  not
+   6:    1  ->  snap
+   7:    1  ->  the
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

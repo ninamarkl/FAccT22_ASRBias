@@ -1,0 +1,119 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french42_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  at ==> and
+   2:    1  ->  bags ==> bike
+   3:    1  ->  bob ==> bug
+   4:    1  ->  fresh ==> sprays
+   5:    1  ->  of ==> off
+   6:    1  ->  of ==> ofthe
+   7:    1  ->  peas ==> piece
+   8:    1  ->  scoop ==> school
+   9:    1  ->  snake ==> snack
+  10:    1  ->  spoons ==> afraid
+  11:    1  ->  stella ==> costilla
+  12:    1  ->  thick ==> peaks
+  13:    1  ->  we ==> way
+  14:    1  ->  will ==> go
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  wounds
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  call
+   3:    1  ->  her
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  of
+   2:    1  ->  at
+   3:    1  ->  bags
+   4:    1  ->  bob
+   5:    1  ->  fresh
+   6:    1  ->  peas
+   7:    1  ->  scoop
+   8:    1  ->  snake
+   9:    1  ->  spoons
+  10:    1  ->  stella
+  11:    1  ->  thick
+  12:    1  ->  we
+  13:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  afraid
+   2:    1  ->  and
+   3:    1  ->  bike
+   4:    1  ->  bug
+   5:    1  ->  costilla
+   6:    1  ->  go
+   7:    1  ->  off
+   8:    1  ->  ofthe
+   9:    1  ->  peaks
+  10:    1  ->  piece
+  11:    1  ->  school
+  12:    1  ->  snack
+  13:    1  ->  sprays
+  14:    1  ->  way
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

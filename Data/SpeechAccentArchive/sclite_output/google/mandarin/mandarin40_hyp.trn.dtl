@@ -1,0 +1,130 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin40_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =   13.0%   (   9)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  60)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  a ==> some
+   2:    1  ->  bags ==> rubik's
+   3:    1  ->  bob ==> but
+   4:    1  ->  frog ==> victory
+   5:    1  ->  go ==> to
+   6:    1  ->  her ==> the
+   7:    1  ->  meet ==> win
+   8:    1  ->  need ==> are
+   9:    1  ->  slabs ==> 5/6
+  10:    1  ->  spoons ==> pounds
+  11:    1  ->  stella ==> stainer
+  12:    1  ->  the ==> her
+  13:    1  ->  these ==> this
+  14:    1  ->  we ==> we're
+  15:    1  ->  wednesday ==> stay
+  16:    1  ->  will ==> going
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  5
+   2:    1  ->  also
+   3:    1  ->  big
+   4:    1  ->  can
+   5:    1  ->  red
+   6:    1  ->  scoop
+   7:    1  ->  she
+   8:    1  ->  thick
+   9:    1  ->  toy
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  a
+   2:    1  ->  bags
+   3:    1  ->  bob
+   4:    1  ->  frog
+   5:    1  ->  go
+   6:    1  ->  her
+   7:    1  ->  meet
+   8:    1  ->  need
+   9:    1  ->  slabs
+  10:    1  ->  spoons
+  11:    1  ->  stella
+  12:    1  ->  the
+  13:    1  ->  these
+  14:    1  ->  we
+  15:    1  ->  wednesday
+  16:    1  ->  will
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  5/6
+   2:    1  ->  are
+   3:    1  ->  but
+   4:    1  ->  going
+   5:    1  ->  her
+   6:    1  ->  pounds
+   7:    1  ->  rubik's
+   8:    1  ->  some
+   9:    1  ->  stainer
+  10:    1  ->  stay
+  11:    1  ->  the
+  12:    1  ->  this
+  13:    1  ->  to
+  14:    1  ->  victory
+  15:    1  ->  we're
+  16:    1  ->  win
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

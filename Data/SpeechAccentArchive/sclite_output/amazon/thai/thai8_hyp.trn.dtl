@@ -1,0 +1,149 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\thai\thai8_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   43.5%   (  30)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   33.3%   (  23)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   56.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  a ==> uh
+   2:    1  ->  and ==> there
+   3:    1  ->  ask ==> era
+   4:    1  ->  at ==> and
+   5:    1  ->  bags ==> on
+   6:    1  ->  bob ==> up
+   7:    1  ->  bring ==> in
+   8:    1  ->  brother ==> bottom
+   9:    1  ->  call ==> this
+  10:    1  ->  five ==> snoopy
+  11:    1  ->  frog ==> for
+  12:    1  ->  her ==> after
+  13:    1  ->  of ==> about
+  14:    1  ->  peas ==> ofthis
+  15:    1  ->  red ==> back
+  16:    1  ->  slabs ==> staff
+  17:    1  ->  snake ==> snack
+  18:    1  ->  snow ==> point
+  19:    1  ->  stella ==> cost
+  20:    1  ->  these ==> school
+  21:    1  ->  thick ==> fighting
+  22:    1  ->  things ==> distinct
+  23:    1  ->  to ==> toby
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  less
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  fresh
+   2:    1  ->  of
+   3:    1  ->  please
+   4:    1  ->  scoop
+   5:    1  ->  spoons
+   6:    1  ->  will
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  at
+   5:    1  ->  bags
+   6:    1  ->  bob
+   7:    1  ->  bring
+   8:    1  ->  brother
+   9:    1  ->  call
+  10:    1  ->  five
+  11:    1  ->  frog
+  12:    1  ->  her
+  13:    1  ->  of
+  14:    1  ->  peas
+  15:    1  ->  red
+  16:    1  ->  slabs
+  17:    1  ->  snake
+  18:    1  ->  snow
+  19:    1  ->  stella
+  20:    1  ->  these
+  21:    1  ->  thick
+  22:    1  ->  things
+  23:    1  ->  to
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  about
+   2:    1  ->  after
+   3:    1  ->  and
+   4:    1  ->  back
+   5:    1  ->  bottom
+   6:    1  ->  cost
+   7:    1  ->  distinct
+   8:    1  ->  era
+   9:    1  ->  fighting
+  10:    1  ->  for
+  11:    1  ->  in
+  12:    1  ->  ofthis
+  13:    1  ->  on
+  14:    1  ->  point
+  15:    1  ->  school
+  16:    1  ->  snack
+  17:    1  ->  snoopy
+  18:    1  ->  staff
+  19:    1  ->  there
+  20:    1  ->  this
+  21:    1  ->  toby
+  22:    1  ->  uh
+  23:    1  ->  up
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

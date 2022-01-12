@@ -1,0 +1,128 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: portuguese\portuguese34_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  a ==> animators
+   3:    1  ->  and ==> in
+   4:    1  ->  and ==> the
+   5:    1  ->  ask ==> at
+   6:    1  ->  blue ==> 56
+   7:    1  ->  bring ==> ring
+   8:    1  ->  can ==> chicken
+   9:    1  ->  cheese ==> let
+  10:    1  ->  frog ==> throb
+  11:    1  ->  maybe ==> fruitties
+  12:    1  ->  scoop ==> coop
+  13:    1  ->  snack ==> connect
+  14:    1  ->  snow ==> no
+  15:    1  ->  spoons ==> pounds
+  16:    1  ->  things ==> thing
+  17:    1  ->  toy ==> toe
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  of
+   3:    1  ->  she
+   4:    1  ->  slabs
+   5:    1  ->  thick
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  and
+   2:    2  ->  these
+   3:    1  ->  a
+   4:    1  ->  ask
+   5:    1  ->  blue
+   6:    1  ->  bring
+   7:    1  ->  can
+   8:    1  ->  cheese
+   9:    1  ->  frog
+  10:    1  ->  maybe
+  11:    1  ->  scoop
+  12:    1  ->  snack
+  13:    1  ->  snow
+  14:    1  ->  spoons
+  15:    1  ->  things
+  16:    1  ->  toy
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  this
+   2:    1  ->  56
+   3:    1  ->  animators
+   4:    1  ->  at
+   5:    1  ->  chicken
+   6:    1  ->  connect
+   7:    1  ->  coop
+   8:    1  ->  fruitties
+   9:    1  ->  in
+  10:    1  ->  let
+  11:    1  ->  no
+  12:    1  ->  pounds
+  13:    1  ->  ring
+  14:    1  ->  the
+  15:    1  ->  thing
+  16:    1  ->  throb
+  17:    1  ->  toe
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

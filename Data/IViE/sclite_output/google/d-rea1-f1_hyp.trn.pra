@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\d-rea1-f1_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-f1_01)
+Scores: (#C #S #D #I) 133 25 25 4
+REF:  once upon a time there was a little girl called cinderella but everyone called her cinders cinders LIVED with her mother and two TE stepsisters CALLED LILY AND ROSA LILY AND     ROSA  WERE      very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties *** POOR CINDERS had to wear all THEIR old hand me downs and she had to do the cleaning ONE DAY A      royal messenger came to announce A   ball the ball would be HELD AT     the royal palace in honour of the queen's only son prince william LILY and ROSA THOUGHT THIS WAS A THIS WAS DIVINE prince william was gorgeous AND HE WAS looking for a bride they DREAMED OF  wedding bells when the evening of the BALL   arrived cinders HAD helped her sisters ** get ready THEY WERE  in a bad mood THEY'D WANTED to buy some NEW GOWNS but their mother said THAT they had enough GOWNS so they started shouting at cinders find my **** JEWELS YELLED  ONE FIND    my HAT   HOWLED the other they wanted **** 
+HYP:  once upon a time there was a little girl called cinderella but everyone called her cinders cinders LIVE  with her mother and two ** stepsisters ****** **** *** **** CALL CILLIAN ROSIE BRILLIANT very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties FOR SEND JUST    had to wear all THE   old hand me downs and she had to do the cleaning *** *** MONDAY royal messenger came to announce THE ball the ball would be **** HELPED the royal palace in honour of the queen's only son prince william **** and **** ******* **** *** * **** *** ****** prince william was gorgeous *** ** *** looking for a bride they DREAM   DAY wedding bells when the evening of the BOTTLE arrived cinders *** helped her sisters TO get ready **** THERE in a bad mood THEY   WANT   to buy some *** ***** but their mother said **** they had enough CANS  so they started shouting at cinders find my DUAL CL-TWO HUNDRED AND FIFTEEN my HEART HELP   the other they wanted HAIR 
+Eval:                                                                                                    S                             D              D      D    D   D    S    S       S     S                                                                                                                    I   S    S                       S                                                      D   D   S                                       S                          D    S                                                                        D        D    D       D    D   D D    D   D                                  D   D  D                            S       S                                         S                      D                      I            D    S                   S      S                  D   D                           D                    S                                                 I    S      S       S   S          S     S                            I    
+
+>> REF:  HAIRBRUSHES hairpins and hairspray 
+>> HYP:  BRUSHES     hairpins and hairspray 
+>> Eval: S                                  
+
+

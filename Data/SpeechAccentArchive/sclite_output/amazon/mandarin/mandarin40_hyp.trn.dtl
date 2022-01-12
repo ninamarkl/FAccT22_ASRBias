@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin40_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  ask ==> costinha
+   2:    1  ->  bags ==> pecs
+   3:    1  ->  five ==> piece
+   4:    1  ->  frog ==> fuck
+   5:    1  ->  her ==> oscar
+   6:    1  ->  of ==> off
+   7:    1  ->  of ==> ofthe
+   8:    1  ->  red ==> re
+   9:    1  ->  slabs ==> laps
+  10:    1  ->  spoons ==> points
+  11:    1  ->  the ==> her
+  12:    1  ->  these ==> this
+  13:    1  ->  thick ==> fifty-six
+  14:    1  ->  three ==> tree
+  15:    1  ->  toy ==> point
+  16:    1  ->  wednesday ==> state
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  the
+   2:    1  ->  when
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  call
+   2:    1  ->  peas
+   3:    1  ->  please
+   4:    1  ->  stella
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  of
+   2:    1  ->  ask
+   3:    1  ->  bags
+   4:    1  ->  five
+   5:    1  ->  frog
+   6:    1  ->  her
+   7:    1  ->  red
+   8:    1  ->  slabs
+   9:    1  ->  spoons
+  10:    1  ->  the
+  11:    1  ->  these
+  12:    1  ->  thick
+  13:    1  ->  three
+  14:    1  ->  toy
+  15:    1  ->  wednesday
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  costinha
+   2:    1  ->  fifty-six
+   3:    1  ->  fuck
+   4:    1  ->  her
+   5:    1  ->  laps
+   6:    1  ->  off
+   7:    1  ->  ofthe
+   8:    1  ->  oscar
+   9:    1  ->  pecs
+  10:    1  ->  piece
+  11:    1  ->  point
+  12:    1  ->  points
+  13:    1  ->  re
+  14:    1  ->  state
+  15:    1  ->  this
+  16:    1  ->  tree
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

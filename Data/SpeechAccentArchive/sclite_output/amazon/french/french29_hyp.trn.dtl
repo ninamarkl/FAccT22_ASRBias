@@ -1,0 +1,84 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\french\french29_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.6%   (   8)
+
+Percent Correct           =   92.8%   (  64)
+
+Percent Substitution      =    4.3%   (   3)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   88.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  her ==> metre
+     -------
+         3
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  don't
+   2:    1  ->  i
+   3:    1  ->  know
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  her
+   2:    1  ->  meet
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  of
+   2:    1  ->  her
+     -------
+         3
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  off
+   2:    1  ->  metre
+     -------
+         3
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

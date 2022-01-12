@@ -1,0 +1,145 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic18_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   50.7%   (  35)
+
+Percent Correct           =   49.3%   (  34)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =   21.7%   (  15)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   49.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  54)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  we ==> you
+   2:    1  ->  3 ==> just
+   3:    1  ->  a ==> it's
+   4:    1  ->  bags ==> bad
+   5:    1  ->  blue ==> loves
+   6:    1  ->  bob ==> but
+   7:    1  ->  frog ==> toys
+   8:    1  ->  from ==> on
+   9:    1  ->  go ==> call
+  10:    1  ->  her ==> till
+  11:    1  ->  meet ==> me
+  12:    1  ->  of ==> 56
+  13:    1  ->  red ==> reread
+  14:    1  ->  scoop ==> see
+  15:    1  ->  slabs ==> no
+  16:    1  ->  snack ==> not
+  17:    1  ->  these ==> this
+  18:    1  ->  thick ==> stop
+  19:    1  ->  things ==> thing
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  big
+   6:    1  ->  fresh
+   7:    1  ->  into
+   8:    1  ->  of
+   9:    1  ->  peas
+  10:    1  ->  she
+  11:    1  ->  snake
+  12:    1  ->  snow
+  13:    1  ->  spoons
+  14:    1  ->  store
+  15:    1  ->  toy
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  we
+   2:    1  ->  3
+   3:    1  ->  a
+   4:    1  ->  bags
+   5:    1  ->  blue
+   6:    1  ->  bob
+   7:    1  ->  frog
+   8:    1  ->  from
+   9:    1  ->  go
+  10:    1  ->  her
+  11:    1  ->  meet
+  12:    1  ->  of
+  13:    1  ->  red
+  14:    1  ->  scoop
+  15:    1  ->  slabs
+  16:    1  ->  snack
+  17:    1  ->  these
+  18:    1  ->  thick
+  19:    1  ->  things
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  you
+   2:    1  ->  56
+   3:    1  ->  bad
+   4:    1  ->  but
+   5:    1  ->  call
+   6:    1  ->  it's
+   7:    1  ->  just
+   8:    1  ->  loves
+   9:    1  ->  me
+  10:    1  ->  no
+  11:    1  ->  not
+  12:    1  ->  on
+  13:    1  ->  reread
+  14:    1  ->  see
+  15:    1  ->  stop
+  16:    1  ->  thing
+  17:    1  ->  this
+  18:    1  ->  till
+  19:    1  ->  toys
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

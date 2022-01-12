@@ -1,0 +1,193 @@
+SCORING FOR SPEAKER: liv
+     of google\liv-rea1-m3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.1%   (  56)
+
+Percent Correct           =   73.3%   ( 132)
+
+Percent Substitution      =   21.7%   (  39)
+Percent Deletions         =    5.0%   (   9)
+Percent Insertions        =    4.4%   (   8)
+Percent Word Accuracy     =   68.9%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 179)
+Aligned words             =           ( 188)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  cinders ==> this
+   2:    1  ->  a ==> answer
+   3:    1  ->  a ==> i
+   4:    1  ->  and ==> lynrose
+   5:    1  ->  and ==> than
+   6:    1  ->  announce ==> an
+   7:    1  ->  arrived ==> in
+   8:    1  ->  ball ==> ice
+   9:    1  ->  ball ==> paul
+  10:    1  ->  dreamed ==> dream
+  11:    1  ->  gowns ==> downs
+  12:    1  ->  hairbrushes ==> here
+  13:    1  ->  hairpins ==> things
+  14:    1  ->  hat ==> heart
+  15:    1  ->  her ==> a
+  16:    1  ->  howled ==> out
+  17:    1  ->  jewels ==> one
+  18:    1  ->  lily ==> rosie
+  19:    1  ->  lived ==> live
+  20:    1  ->  mother ==> more
+  21:    1  ->  mother ==> they
+  22:    1  ->  of ==> at
+  23:    1  ->  one ==> them
+  24:    1  ->  poor ==> posting
+  25:    1  ->  rosa ==> i
+  26:    1  ->  rosa ==> out
+  27:    1  ->  royal ==> will
+  28:    1  ->  so ==> gal
+  29:    1  ->  the ==> wendy
+  30:    1  ->  their ==> day
+  31:    1  ->  their ==> more
+  32:    1  ->  they ==> you
+  33:    1  ->  unfriendly ==> me
+  34:    1  ->  wear ==> wait
+  35:    1  ->  were ==> a
+  36:    1  ->  were ==> with
+  37:    1  ->  would ==> will
+  38:    1  ->  yelled ==> of
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bowl
+   2:    1  ->  but
+   3:    1  ->  here
+   4:    1  ->  of
+   5:    1  ->  own
+   6:    1  ->  send
+   7:    1  ->  she's
+   8:    1  ->  they
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  cleaning
+   2:    1  ->  find
+   3:    1  ->  gowns
+   4:    1  ->  lily
+   5:    1  ->  me
+   6:    1  ->  my
+   7:    1  ->  rosa
+   8:    1  ->  they
+   9:    1  ->  when
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  ball
+   4:    2  ->  cinders
+   5:    2  ->  mother
+   6:    2  ->  rosa
+   7:    2  ->  their
+   8:    2  ->  were
+   9:    1  ->  announce
+  10:    1  ->  arrived
+  11:    1  ->  dreamed
+  12:    1  ->  gowns
+  13:    1  ->  hairbrushes
+  14:    1  ->  hairpins
+  15:    1  ->  hat
+  16:    1  ->  her
+  17:    1  ->  howled
+  18:    1  ->  jewels
+  19:    1  ->  lily
+  20:    1  ->  lived
+  21:    1  ->  of
+  22:    1  ->  one
+  23:    1  ->  poor
+  24:    1  ->  royal
+  25:    1  ->  so
+  26:    1  ->  the
+  27:    1  ->  they
+  28:    1  ->  unfriendly
+  29:    1  ->  wear
+  30:    1  ->  would
+  31:    1  ->  yelled
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  a
+   2:    2  ->  i
+   3:    2  ->  more
+   4:    2  ->  out
+   5:    2  ->  this
+   6:    2  ->  will
+   7:    1  ->  an
+   8:    1  ->  answer
+   9:    1  ->  at
+  10:    1  ->  day
+  11:    1  ->  downs
+  12:    1  ->  dream
+  13:    1  ->  gal
+  14:    1  ->  heart
+  15:    1  ->  here
+  16:    1  ->  ice
+  17:    1  ->  in
+  18:    1  ->  live
+  19:    1  ->  lynrose
+  20:    1  ->  me
+  21:    1  ->  of
+  22:    1  ->  one
+  23:    1  ->  paul
+  24:    1  ->  posting
+  25:    1  ->  rosie
+  26:    1  ->  than
+  27:    1  ->  them
+  28:    1  ->  they
+  29:    1  ->  things
+  30:    1  ->  wait
+  31:    1  ->  wendy
+  32:    1  ->  with
+  33:    1  ->  you
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

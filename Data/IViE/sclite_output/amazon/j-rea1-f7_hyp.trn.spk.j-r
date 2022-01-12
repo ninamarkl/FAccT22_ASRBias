@@ -1,0 +1,109 @@
+SCORING FOR SPEAKER: j-r
+     of amazon\j-rea1-f7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.2%   (  13)
+
+Percent Correct           =   93.4%   ( 169)
+
+Percent Substitution      =    6.6%   (  12)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.6%   (   1)
+Percent Word Accuracy     =   92.8%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 182)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  ball ==> bull
+   3:    1  ->  buying ==> by
+   4:    1  ->  howled ==> how
+   5:    1  ->  lily ==> lady
+   6:    1  ->  lily ==> lee
+   7:    1  ->  parties ==> party
+   8:    1  ->  royal ==> wrong
+   9:    1  ->  stepsisters ==> sisters
+  10:    1  ->  their ==> the
+  11:    1  ->  wedding ==> reading
+  12:    1  ->  yelled ==> yard
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  step
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  lily
+   2:    1  ->  a
+   3:    1  ->  ball
+   4:    1  ->  buying
+   5:    1  ->  howled
+   6:    1  ->  parties
+   7:    1  ->  royal
+   8:    1  ->  stepsisters
+   9:    1  ->  their
+  10:    1  ->  wedding
+  11:    1  ->  yelled
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  the
+   2:    1  ->  bull
+   3:    1  ->  by
+   4:    1  ->  how
+   5:    1  ->  lady
+   6:    1  ->  lee
+   7:    1  ->  party
+   8:    1  ->  reading
+   9:    1  ->  sisters
+  10:    1  ->  wrong
+  11:    1  ->  yard
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

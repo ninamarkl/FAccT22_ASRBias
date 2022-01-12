@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: italian\italian16_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a ==> is
+   2:    2  ->  these ==> this
+   3:    1  ->  and ==> on
+   4:    1  ->  her ==> metre
+   5:    1  ->  of ==> 560
+   6:    1  ->  plastic ==> pluses
+   7:    1  ->  slabs ==> please
+   8:    1  ->  small ==> more
+   9:    1  ->  snack ==> next
+  10:    1  ->  snake ==> make
+  11:    1  ->  thick ==> freshener
+  12:    1  ->  things ==> thing
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  does
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  ask
+   3:    1  ->  fresh
+   4:    1  ->  her
+   5:    1  ->  meet
+   6:    1  ->  need
+   7:    1  ->  peas
+   8:    1  ->  snow
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    2  ->  these
+   3:    1  ->  and
+   4:    1  ->  her
+   5:    1  ->  of
+   6:    1  ->  plastic
+   7:    1  ->  slabs
+   8:    1  ->  small
+   9:    1  ->  snack
+  10:    1  ->  snake
+  11:    1  ->  thick
+  12:    1  ->  things
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  is
+   2:    2  ->  this
+   3:    1  ->  560
+   4:    1  ->  freshener
+   5:    1  ->  make
+   6:    1  ->  metre
+   7:    1  ->  more
+   8:    1  ->  next
+   9:    1  ->  on
+  10:    1  ->  please
+  11:    1  ->  pluses
+  12:    1  ->  thing
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

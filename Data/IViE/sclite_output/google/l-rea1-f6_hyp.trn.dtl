@@ -1,0 +1,184 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\l-rea1-f6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   51.3%   (  97)
+
+Percent Correct           =   49.2%   (  93)
+
+Percent Substitution      =   12.2%   (  23)
+Percent Deletions         =   38.6%   (  73)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =   48.7%
+
+
+Ref. words                =           ( 189)
+Hyp. words                =           ( 117)
+Aligned words             =           ( 190)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  and ==> lilian
+   2:    1  ->  and ==> rose
+   3:    1  ->  cinders ==> ace
+   4:    1  ->  cinders ==> enders
+   5:    1  ->  gowns ==> girls
+   6:    1  ->  hairbrushes ==> is
+   7:    1  ->  hairpins ==> happened
+   8:    1  ->  howled ==> how
+   9:    1  ->  jewels ==> jewellers
+  10:    1  ->  lily ==> lillian
+  11:    1  ->  lived ==> live
+  12:    1  ->  new ==> by
+  13:    1  ->  of ==> the
+  14:    1  ->  rosa ==> i
+  15:    1  ->  so ==> grounds
+  16:    1  ->  their ==> the
+  17:    1  ->  they ==> the
+  18:    1  ->  they'd ==> he
+  19:    1  ->  unfriendly ==> friendly
+  20:    1  ->  wanted ==> wants
+  21:    1  ->  were ==> the
+  22:    1  ->  were ==> there
+  23:    1  ->  yell ==> that
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  which
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    5  ->  and
+   2:    5  ->  the
+   3:    4  ->  had
+   4:    3  ->  ball
+   5:    3  ->  she
+   6:    3  ->  they
+   7:    3  ->  to
+   8:    2  ->  a
+   9:    2  ->  cinders
+  10:    2  ->  her
+  11:    2  ->  lily
+  12:    2  ->  of
+  13:    2  ->  royal
+  14:    2  ->  would
+  15:    1  ->  all
+  16:    1  ->  announce
+  17:    1  ->  at
+  18:    1  ->  be
+  19:    1  ->  buying
+  20:    1  ->  came
+  21:    1  ->  day
+  22:    1  ->  do
+  23:    1  ->  downs
+  24:    1  ->  dreamed
+  25:    1  ->  evening
+  26:    1  ->  gorgeous
+  27:    1  ->  gowns
+  28:    1  ->  hand
+  29:    1  ->  he
+  30:    1  ->  held
+  31:    1  ->  honour
+  32:    1  ->  in
+  33:    1  ->  look
+  34:    1  ->  me
+  35:    1  ->  messenger
+  36:    1  ->  old
+  37:    1  ->  one
+  38:    1  ->  palace
+  39:    1  ->  poor
+  40:    1  ->  prince
+  41:    1  ->  sisters
+  42:    1  ->  that
+  43:    1  ->  their
+  44:    1  ->  was
+  45:    1  ->  wear
+  46:    1  ->  when
+  47:    1  ->  william
+     -------
+        73
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  and
+   2:    2  ->  cinders
+   3:    2  ->  were
+   4:    1  ->  gowns
+   5:    1  ->  hairbrushes
+   6:    1  ->  hairpins
+   7:    1  ->  howled
+   8:    1  ->  jewels
+   9:    1  ->  lily
+  10:    1  ->  lived
+  11:    1  ->  new
+  12:    1  ->  of
+  13:    1  ->  rosa
+  14:    1  ->  so
+  15:    1  ->  their
+  16:    1  ->  they
+  17:    1  ->  they'd
+  18:    1  ->  unfriendly
+  19:    1  ->  wanted
+  20:    1  ->  yell
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  the
+   2:    1  ->  ace
+   3:    1  ->  by
+   4:    1  ->  enders
+   5:    1  ->  friendly
+   6:    1  ->  girls
+   7:    1  ->  grounds
+   8:    1  ->  happened
+   9:    1  ->  he
+  10:    1  ->  how
+  11:    1  ->  i
+  12:    1  ->  is
+  13:    1  ->  jewellers
+  14:    1  ->  lilian
+  15:    1  ->  lillian
+  16:    1  ->  live
+  17:    1  ->  rose
+  18:    1  ->  that
+  19:    1  ->  there
+  20:    1  ->  wants
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,136 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish20_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.7%   (  26)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   30.4%   (  21)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   62.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  her ==> here
+   2:    1  ->  a ==> it's
+   3:    1  ->  and ==> in
+   4:    1  ->  ask ==> as
+   5:    1  ->  bob ==> bo
+   6:    1  ->  five ==> think
+   7:    1  ->  kids ==> kid
+   8:    1  ->  of ==> more
+   9:    1  ->  of ==> ofthe
+  10:    1  ->  peas ==> fight
+  11:    1  ->  please ==> police
+  12:    1  ->  red ==> drip
+  13:    1  ->  slabs ==> love
+  14:    1  ->  snack ==> not
+  15:    1  ->  snow ==> peace
+  16:    1  ->  stella ==> estella
+  17:    1  ->  the ==> they
+  18:    1  ->  these ==> this
+  19:    1  ->  thick ==> it's
+  20:    1  ->  things ==> thing
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  is
+   3:    1  ->  no
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  spoons
+   2:    1  ->  three
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  her
+   2:    2  ->  of
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  ask
+   6:    1  ->  bob
+   7:    1  ->  five
+   8:    1  ->  kids
+   9:    1  ->  peas
+  10:    1  ->  please
+  11:    1  ->  red
+  12:    1  ->  slabs
+  13:    1  ->  snack
+  14:    1  ->  snow
+  15:    1  ->  stella
+  16:    1  ->  the
+  17:    1  ->  these
+  18:    1  ->  thick
+  19:    1  ->  things
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  here
+   2:    2  ->  it's
+   3:    1  ->  as
+   4:    1  ->  bo
+   5:    1  ->  drip
+   6:    1  ->  estella
+   7:    1  ->  fight
+   8:    1  ->  in
+   9:    1  ->  kid
+  10:    1  ->  love
+  11:    1  ->  more
+  12:    1  ->  not
+  13:    1  ->  ofthe
+  14:    1  ->  peace
+  15:    1  ->  police
+  16:    1  ->  they
+  17:    1  ->  thing
+  18:    1  ->  think
+  19:    1  ->  this
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

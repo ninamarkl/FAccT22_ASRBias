@@ -1,0 +1,111 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese40_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5 ==> no
+   2:    1  ->  a ==> mabel
+   3:    1  ->  and ==> in
+   4:    1  ->  bob ==> but
+   5:    1  ->  frog ==> frogs
+   6:    1  ->  meet ==> get
+   7:    1  ->  slabs ==> loads
+   8:    1  ->  spoons ==> pounds
+   9:    1  ->  these ==> sculptors
+  10:    1  ->  thick ==> bs56
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  maybe
+   3:    1  ->  need
+   4:    1  ->  peas
+   5:    1  ->  scoop
+   6:    1  ->  snow
+   7:    1  ->  the
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  bob
+   5:    1  ->  frog
+   6:    1  ->  meet
+   7:    1  ->  slabs
+   8:    1  ->  spoons
+   9:    1  ->  these
+  10:    1  ->  thick
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  bs56
+   2:    1  ->  but
+   3:    1  ->  frogs
+   4:    1  ->  get
+   5:    1  ->  in
+   6:    1  ->  loads
+   7:    1  ->  mabel
+   8:    1  ->  no
+   9:    1  ->  pounds
+  10:    1  ->  sculptors
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

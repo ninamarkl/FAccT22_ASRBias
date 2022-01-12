@@ -1,0 +1,93 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\english_uk\english215_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.6%   (   8)
+
+Percent Correct           =   89.9%   (  62)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   88.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  and ==> on
+   2:    1  ->  bob ==> book
+   3:    1  ->  into ==> the
+   4:    1  ->  peas ==> piece
+   5:    1  ->  scoop ==> scoot
+   6:    1  ->  these ==> thes
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  in
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  and
+   2:    1  ->  bob
+   3:    1  ->  into
+   4:    1  ->  peas
+   5:    1  ->  scoop
+   6:    1  ->  these
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  on
+   2:    1  ->  book
+   3:    1  ->  piece
+   4:    1  ->  scoot
+   5:    1  ->  the
+   6:    1  ->  thes
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

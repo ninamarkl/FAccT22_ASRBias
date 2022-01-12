@@ -1,0 +1,103 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic43_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   85.5%   (  59)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  ask ==> asked
+   3:    1  ->  bob ==> book
+   4:    1  ->  frog ==> from
+   5:    1  ->  spoons ==> points
+   6:    1  ->  these ==> thieves
+   7:    1  ->  thick ==> fifty-six
+   8:    1  ->  three ==> free
+   9:    1  ->  toy ==> time
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  five
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  ask
+   3:    1  ->  bob
+   4:    1  ->  frog
+   5:    1  ->  spoons
+   6:    1  ->  these
+   7:    1  ->  thick
+   8:    1  ->  three
+   9:    1  ->  toy
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  asked
+   2:    1  ->  book
+   3:    1  ->  fifty-six
+   4:    1  ->  free
+   5:    1  ->  from
+   6:    1  ->  points
+   7:    1  ->  the
+   8:    1  ->  thieves
+   9:    1  ->  time
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

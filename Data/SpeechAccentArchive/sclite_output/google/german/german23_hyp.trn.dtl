@@ -1,0 +1,136 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: german\german23_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.0%   (  29)
+
+Percent Correct           =   59.4%   (  41)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =   13.0%   (   9)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   58.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  these ==> the
+   2:    1  ->  a ==> trays
+   3:    1  ->  at ==> they
+   4:    1  ->  bob ==> bawburgh
+   5:    1  ->  call ==> called
+   6:    1  ->  her ==> metre
+   7:    1  ->  her ==> weather
+   8:    1  ->  into ==> a
+   9:    1  ->  need ==> night
+  10:    1  ->  please ==> place
+  11:    1  ->  scoop ==> skip
+  12:    1  ->  she ==> you
+  13:    1  ->  slabs ==> clouds
+  14:    1  ->  spoons ==> experience
+  15:    1  ->  the ==> of
+  16:    1  ->  thick ==> 56
+  17:    1  ->  wednesday ==> when
+  18:    1  ->  will ==> we'll
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  and
+   4:    1  ->  cheese
+   5:    1  ->  her
+   6:    1  ->  maybe
+   7:    1  ->  meet
+   8:    1  ->  we
+   9:    1  ->  with
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  her
+   2:    2  ->  these
+   3:    1  ->  a
+   4:    1  ->  at
+   5:    1  ->  bob
+   6:    1  ->  call
+   7:    1  ->  into
+   8:    1  ->  need
+   9:    1  ->  please
+  10:    1  ->  scoop
+  11:    1  ->  she
+  12:    1  ->  slabs
+  13:    1  ->  spoons
+  14:    1  ->  the
+  15:    1  ->  thick
+  16:    1  ->  wednesday
+  17:    1  ->  will
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  the
+   2:    1  ->  56
+   3:    1  ->  a
+   4:    1  ->  bawburgh
+   5:    1  ->  called
+   6:    1  ->  clouds
+   7:    1  ->  experience
+   8:    1  ->  metre
+   9:    1  ->  night
+  10:    1  ->  of
+  11:    1  ->  place
+  12:    1  ->  skip
+  13:    1  ->  they
+  14:    1  ->  trays
+  15:    1  ->  we'll
+  16:    1  ->  weather
+  17:    1  ->  when
+  18:    1  ->  you
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

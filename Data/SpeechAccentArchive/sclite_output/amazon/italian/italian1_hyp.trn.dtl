@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\italian\italian1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =   10.1%   (   7)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  75)
+Aligned words             =           (  76)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  ask ==> asked
+   3:    1  ->  can ==> school
+   4:    1  ->  her ==> a
+   5:    1  ->  kids ==> chic
+   6:    1  ->  meet ==> met
+   7:    1  ->  peas ==> peace
+   8:    1  ->  scoop ==> but
+   9:    1  ->  she ==> in
+  10:    1  ->  snack ==> snake
+  11:    1  ->  snow ==> no
+  12:    1  ->  spoons ==> points
+  13:    1  ->  the ==> kid's
+  14:    1  ->  with ==> to
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  go
+   3:    1  ->  is
+   4:    1  ->  thing
+   5:    1  ->  this
+   6:    1  ->  we
+   7:    1  ->  will
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  of
+   2:    1  ->  ask
+   3:    1  ->  can
+   4:    1  ->  her
+   5:    1  ->  kids
+   6:    1  ->  meet
+   7:    1  ->  peas
+   8:    1  ->  scoop
+   9:    1  ->  she
+  10:    1  ->  snack
+  11:    1  ->  snow
+  12:    1  ->  spoons
+  13:    1  ->  the
+  14:    1  ->  with
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  off
+   2:    1  ->  a
+   3:    1  ->  asked
+   4:    1  ->  but
+   5:    1  ->  chic
+   6:    1  ->  in
+   7:    1  ->  kid's
+   8:    1  ->  met
+   9:    1  ->  no
+  10:    1  ->  peace
+  11:    1  ->  points
+  12:    1  ->  school
+  13:    1  ->  snake
+  14:    1  ->  to
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

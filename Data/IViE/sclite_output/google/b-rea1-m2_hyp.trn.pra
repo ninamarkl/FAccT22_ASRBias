@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\b-rea1-m2_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-m2_01)
+Scores: (#C #S #D #I) 112 32 36 4
+REF:  once upon a time there was a girl called cinderella but everybody CALLED HER        CINDERS CINDERS LIVED with her mother and two stepsisters CALLED LILY AND ROSA LILY AND  ROSA    WERE  very unfriendly and they were LAZY girls THEY SPENT ALL    THEIR time BUYING NEW CLOTHES and going to parties POOR CINDERS     had TO   WEAR all their old hand me downs and she had to do the cleaning one day A ROYAL messenger came **** to ANNOUNCE A ball the ball WOULD be held AT the royal palace in honour of the queen's only son prince william LILY AND ROSA thought this was divine PRINCE WILLIAM WAS GORGEOUS AND HE WAS LOOKING FOR A BRIDE THEY DREAMED OF WEDDING BELLS when the evening of the BALL ARRIVED   CINDERS    had to help her SISTERS  get ready they were in a bad mood they wanted to buy some new GOWNS but their mother said that they had enough GOWNS SO they started shouting at CINDERS find my JEWELS YELLED one find my HAT HOWLED THE   OTHER   they WE wanted *** ******* HAIRBRUSHES 
+HYP:  once upon a time there was a girl called cinderella but everybody CALL   DESCENDERS SEND    THOSE   LOVE  with her mother and two stepsisters ****** **** *** **** **** CALL LILIANA GROZA very unfriendly and they were **** girls **** ***** EXPAND OVER  time BANG   YOU CLOSE   and going to parties **** PERCENTAGES had THEY WERE all their old hand me downs and she had to do the cleaning one day * ALL   messenger came DOWN to ******** * ball the ball WILL  be held ** the royal palace in honour of the queen's only son prince william **** *** **** thought this was divine ****** ******* *** ******** *** ** *** ******* *** * ***** **** ******* ** ******* ***** when the evening of the **** POLARIZED SUNGLASSES had to help her SISTER'S get ready they were in a bad mood they wanted to buy some new GUYS  but their mother said that they had enough GOING TO they started shouting at ******* find my DUAL   SHIELD one find my *** HEART  HOUSE BUILDER they ** wanted HER BRUSHES HER         
+Eval:                                                                   S      S          S       S       S                                         D      D    D   D    D    S    S       S                                   D          D    D     S      S          S      S   S                            D    S               S    S                                                                       D S                    I       D        D               S             D                                                                    D    D   D                            D      D       D   D        D   D  D   D       D   D D     D    D       D  D       D                             D    S         S                          S                                                                      S                                                S     S                           D               S      S                  D   S      S     S            D         I   I       S           
+
+>> REF:  HAIRPINS and *** HAIRSPRAY 
+>> HYP:  FRIENDS  and HER SPRAY     
+>> Eval: S            I   S         
+
+

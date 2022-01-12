@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\thai\thai8_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 40 23 6 1
+REF:  PLEASE CALL STELLA ASK HER   TO   BRING these things with her from the store six SPOONS OF FRESH SNOW  PEAS   FIVE   THICK    SLABS OF    blue cheese and maybe a snack for her BROTHER BOB we also need a small plastic SNAKE and A  big toy FROG for the kids she can SCOOP THESE  THINGS   into three **** RED  BAGS AND   we WILL go meet her wednesday AT  the train station 
+HYP:  ****** THIS COST   ERA AFTER TOBY IN    these things with her from the store six ****** ** ***** POINT OFTHIS SNOOPY FIGHTING STAFF ABOUT blue cheese and maybe a snack for her BOTTOM  UP  we also need a small plastic SNACK and UH big toy FOR  for the kids she can ***** SCHOOL DISTINCT into three LESS BACK ON   THERE we **** go meet her wednesday AND the train station 
+Eval: D      S    S      S   S     S    S                                              D      D  D     S     S      S      S        S     S                                           S       S                                S         S          S                         D     S      S                   I    S    S    S        D                          S                     
+
+

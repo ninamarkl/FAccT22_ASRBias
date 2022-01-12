@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\p-rea1-m3_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-m3_01)
+Scores: (#C #S #D #I) 142 34 11 5
+REF:  once upon a time there was a girl called cinderella but EVERYONE CALLED HER   cinders cinders lived with HER mother and two **** STEPSISTERS called lily and rosa LILY AND     ROSA were very unfriendly and they were lazy girls THEY SPENT all THEIR time BUYING NEW  clothes and going to parties POOR    CINDERS had to wear all THEIR old hand me downs and she had to be SHE HAD  to do the cleaning one day a royal messenger came to ANNOUNCE A    ball the ball WOULD  be held at the royal palace in honour of THE QUEEN'S queen's only son prince william LILY AND     rosa thought this was divine prince william was gorgeous and HE WAS  looking for a bride they dreamed of wedding bells when the evening of the ball arrived CINDERS had to help HER SISTERS get ready they were in a bad mood THEY'D wanted to buy some new gowns but their mother had THEIR mother said that they had enough GOWNS so they started SHOUTING AT      CINDERS    find my jewels YELLED ONE       find my hat ** HOWLED the 
+HYP:  once upon a time there was a girl called cinderella but ******** ERIN   CARLA cinders cinders lived with THE mother and two STEP SISTERS     called lily and rosa **** LILLIAN ROSE were very unfriendly and they were lazy girls **** SPEND all THE   time ****** MANY clothes and going to parties PAUSING THIS    had to wear all THE   old hand me downs and she had to be *** SHUT to do the cleaning one day a royal messenger came to AN       ANTI ball the ball SHOULD be held at the royal palace in honour of *** QUEEN   queen's only son prince william **** LILLIAN rosa thought this was divine prince william was gorgeous and ** HE'S looking for a bride they dreamed of wedding bells when the evening of the ball arrived SINGERS had to help US  TO      get ready they were in a bad mood THEY   wanted to buy some new gowns but their mother had ***** mother said that they had enough GUNS  so they started ******** SHOWING PASSENGERS find my jewels ****** GENTLEMEN find my hat HA ALL    the 
+Eval:                                                         D        S      S                                S                  I    S                                D    S       S                                                  D    S         S          D      S                                 S       S                       S                                         D   S                                                         S        S                  S                                               D   S                                       D    S                                                                    D  S                                                                                           S                   S   S                                         S                                                        D                                      S                     D        S       S                         D      S                     I  S          
+
+>> REF:  other ***** ***** **** THEY WANTED HAIRBRUSHES HAIRPINS AND HAIRSPRAY 
+>> HYP:  other THERE WOULD HAVE BEEN HIS    HAT         PINS     IN  HISTORY   
+>> Eval:       I     I     I    S    S      S           S        S   S         
+
+

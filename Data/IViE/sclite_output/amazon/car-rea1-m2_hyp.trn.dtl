@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\car-rea1-m2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.7%   (  26)
+
+Percent Correct           =   88.7%   ( 181)
+
+Percent Substitution      =    8.3%   (  17)
+Percent Deletions         =    2.9%   (   6)
+Percent Insertions        =    1.5%   (   3)
+Percent Word Accuracy     =   87.3%
+
+
+Ref. words                =           ( 204)
+Hyp. words                =           ( 201)
+Aligned words             =           ( 207)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  cinders ==> singers
+   2:    2  ->  gowns ==> guns
+   3:    2  ->  their ==> the
+   4:    1  ->  and ==> lillian
+   5:    1  ->  ball ==> bore
+   6:    1  ->  had ==> have
+   7:    1  ->  her ==> the
+   8:    1  ->  howled ==> hold
+   9:    1  ->  me ==> handmade
+  10:    1  ->  rosa ==> lillian
+  11:    1  ->  sorry ==> was
+  12:    1  ->  wanted ==> to
+  13:    1  ->  were ==> rose
+  14:    1  ->  would ==> will
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  i
+   2:    1  ->  this
+   3:    1  ->  went
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  lily
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  hand
+   5:    1  ->  oh
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  cinders
+   2:    2  ->  gowns
+   3:    2  ->  their
+   4:    1  ->  and
+   5:    1  ->  ball
+   6:    1  ->  had
+   7:    1  ->  her
+   8:    1  ->  howled
+   9:    1  ->  me
+  10:    1  ->  rosa
+  11:    1  ->  sorry
+  12:    1  ->  wanted
+  13:    1  ->  were
+  14:    1  ->  would
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  the
+   2:    2  ->  guns
+   3:    2  ->  lillian
+   4:    2  ->  singers
+   5:    1  ->  bore
+   6:    1  ->  handmade
+   7:    1  ->  have
+   8:    1  ->  hold
+   9:    1  ->  rose
+  10:    1  ->  to
+  11:    1  ->  was
+  12:    1  ->  will
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

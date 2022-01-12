@@ -1,0 +1,92 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: english_uk\english460_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.0%   (   9)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =    7.2%   (   5)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   87.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  bob ==> but
+   2:    1  ->  scoop ==> speak
+   3:    1  ->  spoons ==> 16th
+   4:    1  ->  the ==> and
+   5:    1  ->  thick ==> 56
+     -------
+         5
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  from
+   4:    1  ->  her
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  bob
+   2:    1  ->  scoop
+   3:    1  ->  spoons
+   4:    1  ->  the
+   5:    1  ->  thick
+     -------
+         5
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  16th
+   2:    1  ->  56
+   3:    1  ->  and
+   4:    1  ->  but
+   5:    1  ->  speak
+     -------
+         5
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

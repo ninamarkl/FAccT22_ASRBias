@@ -1,0 +1,115 @@
+SCORING FOR SPEAKER: saa
+     of french\french1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  5 ==> please
+   2:    1  ->  6 ==> six
+   3:    1  ->  a ==> media
+   4:    1  ->  big ==> bit
+   5:    1  ->  bob ==> but
+   6:    1  ->  peas ==> snow
+   7:    1  ->  scoop ==> scoops
+   8:    1  ->  slabs ==> lips
+   9:    1  ->  spoons ==> points
+  10:    1  ->  these ==> his
+  11:    1  ->  these ==> of
+  12:    1  ->  thick ==> 56
+  13:    1  ->  toy ==> tired
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  fresh
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  her
+   2:    1  ->  maybe
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  6
+   4:    1  ->  a
+   5:    1  ->  big
+   6:    1  ->  bob
+   7:    1  ->  peas
+   8:    1  ->  scoop
+   9:    1  ->  slabs
+  10:    1  ->  spoons
+  11:    1  ->  thick
+  12:    1  ->  toy
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  56
+   2:    1  ->  bit
+   3:    1  ->  but
+   4:    1  ->  his
+   5:    1  ->  lips
+   6:    1  ->  media
+   7:    1  ->  of
+   8:    1  ->  please
+   9:    1  ->  points
+  10:    1  ->  scoops
+  11:    1  ->  six
+  12:    1  ->  snow
+  13:    1  ->  tired
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

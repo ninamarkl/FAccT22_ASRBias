@@ -1,0 +1,297 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\urdu\saa_urdu_hyp2.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                          16
+ with errors                            100.0%   (  16)
+
+   with substitions                     100.0%   (  16)
+   with deletions                        75.0%   (  12)
+   with insertions                       43.8%   (   7)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.3%   ( 158)
+
+Percent Correct           =   86.9%   ( 959)
+
+Percent Substitution      =   11.3%   ( 125)
+Percent Deletions         =    1.8%   (  20)
+Percent Insertions        =    1.2%   (  13)
+Percent Word Accuracy     =   85.7%
+
+
+Ref. words                =           (1104)
+Hyp. words                =           (1097)
+Aligned words             =           (1117)
+
+CONFUSION PAIRS                  Total                 (83)
+                                 With >=  1 occurrences (83)
+
+   1:   10  ->  of ==> off
+   2:    8  ->  ask ==> asked
+   3:    3  ->  five ==> piece
+   4:    3  ->  frog ==> fraud
+   5:    3  ->  peas ==> peace
+   6:    3  ->  slabs ==> labs
+   7:    3  ->  snake ==> snack
+   8:    3  ->  snow ==> no
+   9:    3  ->  spoons ==> points
+  10:    3  ->  thick ==> fifty-six
+  11:    3  ->  wednesday ==> day
+  12:    2  ->  bob ==> but
+  13:    2  ->  call ==> called
+  14:    2  ->  of ==> are
+  15:    2  ->  of ==> ofthe
+  16:    2  ->  thick ==> take
+  17:    2  ->  thick ==> takes
+  18:    2  ->  wednesday ==> stay
+  19:    2  ->  will ==> we'll
+  20:    1  ->  a ==> my
+  21:    1  ->  and ==> on
+  22:    1  ->  bags ==> banks
+  23:    1  ->  bags ==> dirtbags
+  24:    1  ->  bags ==> readbacks
+  25:    1  ->  big ==> pick
+  26:    1  ->  blue ==> off
+  27:    1  ->  can ==> can't
+  28:    1  ->  can ==> khun
+  29:    1  ->  cheese ==> guccis
+  30:    1  ->  cheese ==> jeez
+  31:    1  ->  for ==> off
+  32:    1  ->  fresh ==> first
+  33:    1  ->  frog ==> from
+  34:    1  ->  her ==> after
+  35:    1  ->  her ==> hermanus
+  36:    1  ->  her ==> ho
+  37:    1  ->  her ==> metre
+  38:    1  ->  her ==> of
+  39:    1  ->  her ==> oscar
+  40:    1  ->  her ==> over
+  41:    1  ->  her ==> till
+  42:    1  ->  her ==> vents
+  43:    1  ->  into ==> the
+  44:    1  ->  into ==> tow
+  45:    1  ->  meet ==> matter
+  46:    1  ->  meet ==> me
+  47:    1  ->  meet ==> mi
+  48:    1  ->  meet ==> ter
+  49:    1  ->  need ==> needs
+  50:    1  ->  of ==> labs
+  51:    1  ->  of ==> left
+  52:    1  ->  peas ==> small
+  53:    1  ->  peas ==> snow's
+  54:    1  ->  please ==> piece
+  55:    1  ->  scoop ==> school
+  56:    1  ->  scoop ==> scooped
+  57:    1  ->  scoop ==> screw
+  58:    1  ->  slabs ==> fifty-six
+  59:    1  ->  slabs ==> lads
+  60:    1  ->  slabs ==> laps
+  61:    1  ->  slabs ==> slab
+  62:    1  ->  slabs ==> slaps
+  63:    1  ->  slabs ==> ticks
+  64:    1  ->  snack ==> snacks
+  65:    1  ->  spoons ==> forms
+  66:    1  ->  spoons ==> months
+  67:    1  ->  spoons ==> wounds
+  68:    1  ->  spoons ==> £six
+  69:    1  ->  station ==> transition
+  70:    1  ->  stella ==> stealer
+  71:    1  ->  stella ==> stellar
+  72:    1  ->  stella ==> terra
+  73:    1  ->  store ==> door
+  74:    1  ->  the ==> this
+  75:    1  ->  these ==> thes
+  76:    1  ->  thick ==> fixed
+  77:    1  ->  thick ==> piece
+  78:    1  ->  thick ==> ticks
+  79:    1  ->  to ==> toe
+  80:    1  ->  toy ==> joy
+  81:    1  ->  we ==> she
+  82:    1  ->  wednesday ==> amnesty
+  83:    1  ->  wednesday ==> vanished
+     -------
+       125
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  from
+   2:    2  ->  in
+   3:    1  ->  about
+   4:    1  ->  her
+   5:    1  ->  i
+   6:    1  ->  me
+   7:    1  ->  readiness
+   8:    1  ->  snack
+   9:    1  ->  van
+  10:    1  ->  when
+  11:    1  ->  with
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  ask
+   2:    2  ->  peas
+   3:    2  ->  red
+   4:    2  ->  snow
+   5:    2  ->  we
+   6:    1  ->  a
+   7:    1  ->  and
+   8:    1  ->  five
+   9:    1  ->  for
+  10:    1  ->  her
+  11:    1  ->  meet
+  12:    1  ->  six
+  13:    1  ->  the
+  14:    1  ->  thick
+  15:    1  ->  train
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:   16  ->  of
+   2:   10  ->  thick
+   3:    9  ->  her
+   4:    9  ->  slabs
+   5:    8  ->  ask
+   6:    7  ->  spoons
+   7:    7  ->  wednesday
+   8:    5  ->  peas
+   9:    4  ->  frog
+  10:    4  ->  meet
+  11:    3  ->  bags
+  12:    3  ->  five
+  13:    3  ->  scoop
+  14:    3  ->  snake
+  15:    3  ->  snow
+  16:    3  ->  stella
+  17:    2  ->  bob
+  18:    2  ->  call
+  19:    2  ->  can
+  20:    2  ->  cheese
+  21:    2  ->  into
+  22:    2  ->  will
+  23:    1  ->  a
+  24:    1  ->  and
+  25:    1  ->  big
+  26:    1  ->  blue
+  27:    1  ->  for
+  28:    1  ->  fresh
+  29:    1  ->  need
+  30:    1  ->  please
+  31:    1  ->  snack
+  32:    1  ->  station
+  33:    1  ->  store
+  34:    1  ->  the
+  35:    1  ->  these
+  36:    1  ->  to
+  37:    1  ->  toy
+  38:    1  ->  we
+     -------
+       125
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (76)
+                                 With >=  1 occurrences (76)
+
+   1:   12  ->  off
+   2:    8  ->  asked
+   3:    5  ->  piece
+   4:    4  ->  fifty-six
+   5:    4  ->  labs
+   6:    3  ->  day
+   7:    3  ->  fraud
+   8:    3  ->  no
+   9:    3  ->  peace
+  10:    3  ->  points
+  11:    3  ->  snack
+  12:    2  ->  are
+  13:    2  ->  but
+  14:    2  ->  called
+  15:    2  ->  ofthe
+  16:    2  ->  stay
+  17:    2  ->  take
+  18:    2  ->  takes
+  19:    2  ->  ticks
+  20:    2  ->  we'll
+  21:    1  ->  after
+  22:    1  ->  amnesty
+  23:    1  ->  banks
+  24:    1  ->  can't
+  25:    1  ->  dirtbags
+  26:    1  ->  door
+  27:    1  ->  first
+  28:    1  ->  fixed
+  29:    1  ->  forms
+  30:    1  ->  from
+  31:    1  ->  guccis
+  32:    1  ->  hermanus
+  33:    1  ->  ho
+  34:    1  ->  jeez
+  35:    1  ->  joy
+  36:    1  ->  khun
+  37:    1  ->  lads
+  38:    1  ->  laps
+  39:    1  ->  left
+  40:    1  ->  matter
+  41:    1  ->  me
+  42:    1  ->  metre
+  43:    1  ->  mi
+  44:    1  ->  months
+  45:    1  ->  my
+  46:    1  ->  needs
+  47:    1  ->  of
+  48:    1  ->  on
+  49:    1  ->  oscar
+  50:    1  ->  over
+  51:    1  ->  pick
+  52:    1  ->  readbacks
+  53:    1  ->  school
+  54:    1  ->  scooped
+  55:    1  ->  screw
+  56:    1  ->  she
+  57:    1  ->  slab
+  58:    1  ->  slaps
+  59:    1  ->  small
+  60:    1  ->  snacks
+  61:    1  ->  snow's
+  62:    1  ->  stealer
+  63:    1  ->  stellar
+  64:    1  ->  ter
+  65:    1  ->  terra
+  66:    1  ->  the
+  67:    1  ->  thes
+  68:    1  ->  this
+  69:    1  ->  till
+  70:    1  ->  toe
+  71:    1  ->  tow
+  72:    1  ->  transition
+  73:    1  ->  vanished
+  74:    1  ->  vents
+  75:    1  ->  wounds
+  76:    1  ->  £six
+     -------
+       125
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

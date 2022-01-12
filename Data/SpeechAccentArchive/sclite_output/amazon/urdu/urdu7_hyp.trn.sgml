@@ -1,0 +1,7 @@
+<SYSTEM title=" amazon\urdu\urdu7_hyp.trn" ref_fname=" saa_ref.trn" hyp_fname=" amazon\urdu\urdu7_hyp.trn" creation_date="Wed May 26 07:58:16 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="72" sequence="0">
+C,"please","please":C,"call","call":C,"stella","stella":S,"ask","asked":C,"her","her":S,"to","toe":C,"bring","bring":C,"these","these":C,"things","things":C,"with","with":C,"her","her":C,"from","from":C,"the","the":C,"store","store":C,"six","six":S,"spoons","points":C,"of","of":C,"fresh","fresh":D,"snow",:S,"peas","snow's":S,"five","piece":S,"thick","fifty-six":S,"slabs","slab":C,"of","of":C,"blue","blue":C,"cheese","cheese":C,"and","and":C,"maybe","maybe":C,"a","a":C,"snack","snack":C,"for","for":C,"her","her":C,"brother","brother":S,"bob","but":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":S,"snake","snack":C,"and","and":C,"a","a":C,"big","big":C,"toy","toy":C,"frog","frog":C,"for","for":C,"the","the":C,"kids","kids":C,"she","she":C,"can","can":C,"scoop","scoop":C,"these","these":C,"things","things":I,,"in":S,"into","tow":C,"three","three":C,"red","red":C,"bags","bags":C,"and","and":C,"we","we":C,"will","will":C,"go","go":C,"meet","meet":I,,"with":C,"her","her":I,,"van":S,"wednesday","stay":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

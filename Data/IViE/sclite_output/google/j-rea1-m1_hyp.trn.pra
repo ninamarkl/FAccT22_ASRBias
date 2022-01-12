@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\j-rea1-m1_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-m1_01)
+Scores: (#C #S #D #I) 150 27 12 4
+REF:  once upon a time there was a girl called cinderella but everybody CALLED her cinders **** CINDERS CINDERS lived with her mother and two stepsisters CALLED LILY AND     ROSA  lily and ROSA  were very UNFRIENDLY and they were LAZY GIRLS     they spent all THEIR time buying new clothes and going to parties POOR CINDERS  had to wear all THEIR old hand me downs and she had to do all the cleaning and she had to do the cleaning one day a royal messenger came to ANNOUNCE a BALL       the BALL WOULD be held at the royal palace ** in honour of the queen's only son prince william LILY   and rosa thought this was divine prince william WAS gorgeous and he was looking for a BRIDE  they DREAMED of wedding bells when the evening of the ball ARRIVED cinder had to help the her sisters get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but THEIR mother said that they had enough GOWNS so they started shouting at cinders FIND MY JEWELS YELLED one FIND MY HAT HOWLED the other they 
+HYP:  once upon a time there was a girl called cinderella but everybody CALLS  her cinders SEND IT      SINCE   lived with her mother and two stepsisters ****** CALL LILIANA GROZA lily and ROSIE were very WINDY      and they were **** LAZYGIRLS they spent all THE   time buying new clothes and going to parties **** POLICIES had to wear all THE   old hand me downs and she had to do all the cleaning and she had to do the cleaning one day a royal messenger came to ******** a NOTICEABLE the **** BOWL  be held at the royal palace IN in honour of the queen's only son prince william LILLEY and rosa thought this was divine prince william *** gorgeous and he was looking for a BRIGHT they DREAM   of wedding bells when the evening of the ball AROUND  cinder had to help the her sisters get ready they were in a bad mood THEY   wanted to buy some new GIRLS but THE   mother said that they had enough GAMES so they started shouting at cinders **** ** THE    OLD    one **** ** *** ****** the other they 
+Eval:                                                                   S                  I    S       S                                                 D      S    S       S              S               S                        D    S                        S                                                  D    S                        S                                                                                                                           D          S              D    S                                 I                                                   S                                                      D                                     S           S                                                     S                                                                            S                             S         S                                      S                                         D    D  S      S          D    D  D   D                     
+
+>> REF:  wanted **** ******* HAIRBRUSHES HAIRPINS and HAIRSPRAYS 
+>> HYP:  wanted HAIR BRUSHES HAIR        PINS     and HISTORIES  
+>> Eval:        I    I       S           S            S          
+
+

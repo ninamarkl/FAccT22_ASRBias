@@ -1,0 +1,135 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish25_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  and ==> thinking
+   2:    1  ->  ask ==> i
+   3:    1  ->  bob ==> but
+   4:    1  ->  call ==> because
+   5:    1  ->  five ==> by
+   6:    1  ->  for ==> from
+   7:    1  ->  frog ==> from
+   8:    1  ->  from ==> front
+   9:    1  ->  her ==> in
+  10:    1  ->  her ==> search
+  11:    1  ->  meet ==> men
+  12:    1  ->  peas ==> piece
+  13:    1  ->  slabs ==> laugh
+  14:    1  ->  store ==> stores
+  15:    1  ->  the ==> of
+  16:    1  ->  thick ==> thinks
+  17:    1  ->  to ==> you
+  18:    1  ->  wednesday ==> stay
+  19:    1  ->  with ==> this
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  when
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  go
+   2:    1  ->  please
+   3:    1  ->  snake
+   4:    1  ->  these
+   5:    1  ->  things
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  her
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  bob
+   5:    1  ->  call
+   6:    1  ->  five
+   7:    1  ->  for
+   8:    1  ->  frog
+   9:    1  ->  from
+  10:    1  ->  meet
+  11:    1  ->  peas
+  12:    1  ->  slabs
+  13:    1  ->  store
+  14:    1  ->  the
+  15:    1  ->  thick
+  16:    1  ->  to
+  17:    1  ->  wednesday
+  18:    1  ->  with
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  from
+   2:    1  ->  because
+   3:    1  ->  but
+   4:    1  ->  by
+   5:    1  ->  front
+   6:    1  ->  i
+   7:    1  ->  in
+   8:    1  ->  laugh
+   9:    1  ->  men
+  10:    1  ->  of
+  11:    1  ->  piece
+  12:    1  ->  search
+  13:    1  ->  stay
+  14:    1  ->  stores
+  15:    1  ->  thinking
+  16:    1  ->  thinks
+  17:    1  ->  this
+  18:    1  ->  you
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,117 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =   10.1%   (   7)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  75)
+Aligned words             =           (  76)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  a ==> that
+   3:    1  ->  at ==> and
+   4:    1  ->  bob ==> but
+   5:    1  ->  fresh ==> no
+   6:    1  ->  frog ==> from
+   7:    1  ->  peas ==> queen's
+   8:    1  ->  red ==> 300
+   9:    1  ->  scoop ==> cope
+  10:    1  ->  slabs ==> love
+  11:    1  ->  snake ==> snack
+  12:    1  ->  thick ==> things
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  go
+   3:    1  ->  is
+   4:    1  ->  phrase
+   5:    1  ->  to
+   6:    1  ->  we
+   7:    1  ->  will
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  3
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  these
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  bob
+   5:    1  ->  fresh
+   6:    1  ->  frog
+   7:    1  ->  peas
+   8:    1  ->  red
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  snake
+  12:    1  ->  thick
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  this
+   2:    1  ->  300
+   3:    1  ->  and
+   4:    1  ->  but
+   5:    1  ->  cope
+   6:    1  ->  from
+   7:    1  ->  love
+   8:    1  ->  no
+   9:    1  ->  queen's
+  10:    1  ->  snack
+  11:    1  ->  that
+  12:    1  ->  things
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

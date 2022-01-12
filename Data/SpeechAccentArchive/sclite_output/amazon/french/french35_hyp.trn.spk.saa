@@ -1,0 +1,103 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french35_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  five ==> faith
+   2:    1  ->  her ==> a
+   3:    1  ->  her ==> heard
+   4:    1  ->  peas ==> peace
+   5:    1  ->  snow ==> no
+   6:    1  ->  store ==> tour
+   7:    1  ->  the ==> this
+   8:    1  ->  these ==> this
+   9:    1  ->  will ==> we'll
+  10:    1  ->  with ==> we
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  we
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  her
+   2:    1  ->  five
+   3:    1  ->  peas
+   4:    1  ->  snow
+   5:    1  ->  store
+   6:    1  ->  the
+   7:    1  ->  these
+   8:    1  ->  will
+   9:    1  ->  with
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  this
+   2:    1  ->  a
+   3:    1  ->  faith
+   4:    1  ->  heard
+   5:    1  ->  no
+   6:    1  ->  peace
+   7:    1  ->  tour
+   8:    1  ->  we
+   9:    1  ->  we'll
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,100 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\portuguese\portuguese18_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bags ==> becks
+   3:    1  ->  fresh ==> point
+   4:    1  ->  of ==> off
+   5:    1  ->  peas ==> piece
+   6:    1  ->  snack ==> snake
+   7:    1  ->  snow ==> professional
+   8:    1  ->  will ==> we'll
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  of
+   2:    1  ->  spoons
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ask
+   2:    1  ->  bags
+   3:    1  ->  fresh
+   4:    1  ->  of
+   5:    1  ->  peas
+   6:    1  ->  snack
+   7:    1  ->  snow
+   8:    1  ->  will
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  asked
+   2:    1  ->  becks
+   3:    1  ->  off
+   4:    1  ->  piece
+   5:    1  ->  point
+   6:    1  ->  professional
+   7:    1  ->  snake
+   8:    1  ->  we'll
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

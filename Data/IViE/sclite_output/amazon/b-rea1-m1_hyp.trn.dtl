@@ -1,0 +1,134 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\b-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.2%   (  31)
+
+Percent Correct           =   84.4%   ( 152)
+
+Percent Substitution      =   11.7%   (  21)
+Percent Deletions         =    3.9%   (   7)
+Percent Insertions        =    1.7%   (   3)
+Percent Word Accuracy     =   82.8%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 176)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  cinders ==> senders
+   2:    2  ->  and ==> lillian
+   3:    1  ->  and ==> out
+   4:    1  ->  at ==> the
+   5:    1  ->  bride ==> bread
+   6:    1  ->  cinders ==> percenters
+   7:    1  ->  downs ==> hamid
+   8:    1  ->  gowns ==> guns
+   9:    1  ->  hairbrushes ==> her
+  10:    1  ->  hairpins ==> pins
+  11:    1  ->  hairspray ==> heartbreak
+  12:    1  ->  howled ==> hand
+  13:    1  ->  shouting ==> shooting
+  14:    1  ->  stepsisters ==> sisters
+  15:    1  ->  the ==> holy
+  16:    1  ->  they'd ==> they
+  17:    1  ->  would ==> will
+  18:    1  ->  yelled ==> gold
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  brushes
+   2:    1  ->  her
+   3:    1  ->  step
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  lily
+   2:    1  ->  hand
+   3:    1  ->  hat
+   4:    1  ->  me
+   5:    1  ->  poor
+   6:    1  ->  that
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    4  ->  cinders
+   2:    3  ->  and
+   3:    1  ->  at
+   4:    1  ->  bride
+   5:    1  ->  downs
+   6:    1  ->  gowns
+   7:    1  ->  hairbrushes
+   8:    1  ->  hairpins
+   9:    1  ->  hairspray
+  10:    1  ->  howled
+  11:    1  ->  shouting
+  12:    1  ->  stepsisters
+  13:    1  ->  the
+  14:    1  ->  they'd
+  15:    1  ->  would
+  16:    1  ->  yelled
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  senders
+   2:    2  ->  lillian
+   3:    1  ->  bread
+   4:    1  ->  gold
+   5:    1  ->  guns
+   6:    1  ->  hamid
+   7:    1  ->  hand
+   8:    1  ->  heartbreak
+   9:    1  ->  her
+  10:    1  ->  holy
+  11:    1  ->  out
+  12:    1  ->  percenters
+  13:    1  ->  pins
+  14:    1  ->  shooting
+  15:    1  ->  sisters
+  16:    1  ->  the
+  17:    1  ->  they
+  18:    1  ->  will
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

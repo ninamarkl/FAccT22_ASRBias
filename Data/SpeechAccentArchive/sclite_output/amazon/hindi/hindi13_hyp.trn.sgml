@@ -1,0 +1,7 @@
+<SYSTEM title=" amazon\hindi\hindi13_hyp.trn" ref_fname=" saa_ref.trn" hyp_fname=" amazon\hindi\hindi13_hyp.trn" creation_date="Wed May 26 07:58:07 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="72" sequence="0">
+S,"please","he's":S,"call","called":C,"stella","stella":S,"ask","asked":C,"her","her":C,"to","to":C,"bring","bring":C,"these","these":C,"things","things":C,"with","with":C,"her","her":C,"from","from":C,"the","the":S,"store","studio":C,"six","six":S,"spoons","points":S,"of","off":S,"fresh","rest":C,"snow","snow":C,"peas","peas":S,"five","fight":S,"thick","tick":S,"slabs","slaps":S,"of","off":C,"blue","blue":S,"cheese","tees":C,"and","and":C,"maybe","maybe":C,"a","a":C,"snack","snack":C,"for","for":C,"her","her":C,"brother","brother":C,"bob","bob":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":S,"and","on":C,"a","a":C,"big","big":C,"toy","toy":C,"frog","frog":C,"for","for":C,"the","the":I,,"kid":S,"kids","seeking":S,"she","a":S,"can","small":S,"scoop","tea":S,"these","stains":S,"things","in":S,"into","tow":C,"three","three":S,"red","that":C,"bags","bags":C,"and","and":S,"we","they":C,"will","will":C,"go","go":C,"meet","meet":I,,"herb":I,,"in":S,"her","his":S,"wednesday","day":S,"at","and":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

@@ -1,0 +1,145 @@
+SCORING FOR SPEAKER: liv
+     of amazon\liv-rea1-f2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.3%   (  33)
+
+Percent Correct           =   84.4%   ( 152)
+
+Percent Substitution      =   15.0%   (  27)
+Percent Deletions         =    0.6%   (   1)
+Percent Insertions        =    2.8%   (   5)
+Percent Word Accuracy     =   81.7%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 184)
+Aligned words             =           ( 185)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  a ==> the
+   2:    2  ->  cinders ==> singers
+   3:    2  ->  find ==> fire
+   4:    2  ->  her ==> his
+   5:    1  ->  and ==> rose
+   6:    1  ->  at ==> as
+   7:    1  ->  bride ==> bread
+   8:    1  ->  buying ==> bang
+   9:    1  ->  cinders ==> has
+  10:    1  ->  cleaning ==> and
+  11:    1  ->  divine ==> driven
+  12:    1  ->  hat ==> has
+  13:    1  ->  her ==> him
+  14:    1  ->  howled ==> held
+  15:    1  ->  lily ==> lillian
+  16:    1  ->  mum ==> one
+  17:    1  ->  rosa ==> have
+  18:    1  ->  rosa ==> that
+  19:    1  ->  stepsisters ==> sisters
+  20:    1  ->  their ==> here
+  21:    1  ->  they'd ==> had
+  22:    1  ->  wear ==> wait
+  23:    1  ->  would ==> will
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  clean
+   2:    1  ->  rose
+   3:    1  ->  since
+   4:    1  ->  step
+   5:    1  ->  they
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  that
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  cinders
+   2:    3  ->  her
+   3:    2  ->  a
+   4:    2  ->  find
+   5:    2  ->  rosa
+   6:    1  ->  and
+   7:    1  ->  at
+   8:    1  ->  bride
+   9:    1  ->  buying
+  10:    1  ->  cleaning
+  11:    1  ->  divine
+  12:    1  ->  hat
+  13:    1  ->  howled
+  14:    1  ->  lily
+  15:    1  ->  mum
+  16:    1  ->  stepsisters
+  17:    1  ->  their
+  18:    1  ->  they'd
+  19:    1  ->  wear
+  20:    1  ->  would
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  fire
+   2:    2  ->  has
+   3:    2  ->  his
+   4:    2  ->  singers
+   5:    2  ->  the
+   6:    1  ->  and
+   7:    1  ->  as
+   8:    1  ->  bang
+   9:    1  ->  bread
+  10:    1  ->  driven
+  11:    1  ->  had
+  12:    1  ->  have
+  13:    1  ->  held
+  14:    1  ->  here
+  15:    1  ->  him
+  16:    1  ->  lillian
+  17:    1  ->  one
+  18:    1  ->  rose
+  19:    1  ->  sisters
+  20:    1  ->  that
+  21:    1  ->  wait
+  22:    1  ->  will
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

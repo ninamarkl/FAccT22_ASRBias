@@ -1,0 +1,89 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\italian\italian12_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.7%   (   6)
+
+Percent Correct           =   92.8%   (  64)
+
+Percent Substitution      =    7.2%   (   5)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   91.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  of ==> off
+   3:    1  ->  peas ==> peace
+   4:    1  ->  snow ==> no
+   5:    1  ->  spoons ==> points
+     -------
+         5
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  talk
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  of
+   3:    1  ->  peas
+   4:    1  ->  snow
+   5:    1  ->  spoons
+     -------
+         5
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  no
+   2:    1  ->  off
+   3:    1  ->  peace
+   4:    1  ->  points
+   5:    1  ->  the
+     -------
+         5
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

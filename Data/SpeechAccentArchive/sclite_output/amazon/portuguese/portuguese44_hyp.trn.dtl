@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\portuguese\portuguese44_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> in
+   4:    1  ->  ask ==> that's
+   5:    1  ->  call ==> cause
+   6:    1  ->  frog ==> front
+   7:    1  ->  her ==> how
+   8:    1  ->  of ==> off
+   9:    1  ->  peas ==> peace
+  10:    1  ->  snack ==> not
+  11:    1  ->  snow ==> no
+  12:    1  ->  spoons ==> points
+  13:    1  ->  stella ==> tower
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  is
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  call
+   5:    1  ->  frog
+   6:    1  ->  her
+   7:    1  ->  of
+   8:    1  ->  peas
+   9:    1  ->  snack
+  10:    1  ->  snow
+  11:    1  ->  spoons
+  12:    1  ->  stella
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  cause
+   2:    1  ->  front
+   3:    1  ->  how
+   4:    1  ->  in
+   5:    1  ->  it's
+   6:    1  ->  no
+   7:    1  ->  not
+   8:    1  ->  off
+   9:    1  ->  peace
+  10:    1  ->  points
+  11:    1  ->  that's
+  12:    1  ->  the
+  13:    1  ->  tower
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,90 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.5%   (  10)
+
+Percent Correct           =   95.7%   (  66)
+
+Percent Substitution      =    4.3%   (   3)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   10.1%   (   7)
+Percent Word Accuracy     =   85.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  76)
+Aligned words             =           (  76)
+
+CONFUSION PAIRS                  Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  bob ==> box
+   3:    1  ->  red ==> bread
+     -------
+         3
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  asked
+   2:    1  ->  bring
+   3:    1  ->  from
+   4:    1  ->  her
+   5:    1  ->  these
+   6:    1  ->  things
+   7:    1  ->  to
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  bob
+   3:    1  ->  red
+     -------
+         3
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  box
+   2:    1  ->  bread
+   3:    1  ->  the
+     -------
+         3
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

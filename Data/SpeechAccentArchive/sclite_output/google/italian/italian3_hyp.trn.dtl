@@ -1,0 +1,113 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: italian\italian3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  a ==> the
+   3:    1  ->  also ==> show
+   4:    1  ->  and ==> in
+   5:    1  ->  her ==> metre
+   6:    1  ->  need ==> me
+   7:    1  ->  slabs ==> lives
+   8:    1  ->  snack ==> not
+   9:    1  ->  spoons ==> 6-months
+  10:    1  ->  the ==> this
+  11:    1  ->  thick ==> 56
+  12:    1  ->  we ==> bop
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  bob
+   4:    1  ->  meet
+   5:    1  ->  will
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    1  ->  also
+   3:    1  ->  and
+   4:    1  ->  her
+   5:    1  ->  need
+   6:    1  ->  slabs
+   7:    1  ->  snack
+   8:    1  ->  spoons
+   9:    1  ->  the
+  10:    1  ->  thick
+  11:    1  ->  we
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  56
+   2:    1  ->  6-months
+   3:    1  ->  bop
+   4:    1  ->  in
+   5:    1  ->  it's
+   6:    1  ->  lives
+   7:    1  ->  me
+   8:    1  ->  metre
+   9:    1  ->  not
+  10:    1  ->  show
+  11:    1  ->  the
+  12:    1  ->  this
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\p-rea1-m2_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-m2_01)
+Scores: (#C #S #D #I) 146 33 5 4
+REF:  once upon a time there was a girl called cinderella but everyone called her CINDERS CINDERS  lived with HER mother and two **** STEPSISTERS called lily and rosa lily and rosa were very unfriendly and they were lazy girls they SPENT all their time BUYING new clothes and going to parties POOR CINDERS    had to wear all THEIR OLD  hand me DOWNS and she had to do all the cleaning one day a royal messenger came to ANNOUNCE A      ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY   and ROSA   thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells WHEN the evening of the ball arrived CINDERS had to help HER SISTERS   get ready they were in a bad mood THEY'D wanted to buy some new GOWNS   BUT THEIR mother said that they had TO that they had enough GOWNS so they STARTED shouting ** AT CINDERS find my jewels YELLED ONE    find my HAT HOWLED THE    other they wanted *** ******* 
+HYP:  once upon a time there was a girl called cinderella but everyone called her SINGERS CENTER'S lived with A   mother and two STEP SISTERS     called lily and rosa lily and rosa were very unfriendly and they were lazy girls they SPEND all their time BUY    new clothes and going to parties **** PASSENGERS had to wear all THEY  WILL hand me DOWN  and she had to do all the cleaning one day a royal messenger came to AN       ANSWER ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william REALLY and RATHER thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells WITH the evening of the ball arrived SINGERS had to help *** INVESTORS get ready they were in a bad mood THEY   wanted to buy some new GROUNDS BY  THE   mother said that they had ** that they had enough COUNT so they STAYED  shouting US IN TO      find my jewels ****** YELLOW find my *** HEART  WHOLLY other they wanted HER BRUSHES 
+Eval:                                                                             S       S                   S                  I    S                                                                                                 S                    S                                       D    S                          S     S            S                                                                          S        S                    S                                                                                  S          S                                                                                                                       S                                    S                   D   S                                           S                             S       S   S                               D                       S             S                I  S  S                      D      S              D   S      S                        I   I       
+
+>> REF:  HAIRBRUSHES HAIRPINS AND HAIRSPRAY 
+>> HYP:  HAPPENS     ON       HER SPREAD    
+>> Eval: S           S        S   S         
+
+

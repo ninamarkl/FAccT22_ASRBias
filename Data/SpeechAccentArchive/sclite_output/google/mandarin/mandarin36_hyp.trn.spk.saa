@@ -1,0 +1,123 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin36_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  5 ==> fast
+   2:    1  ->  6 ==> wa66
+   3:    1  ->  and ==> a
+   4:    1  ->  at ==> as
+   5:    1  ->  bags ==> redbacks
+   6:    1  ->  fresh ==> fright
+   7:    1  ->  kids ==> keys
+   8:    1  ->  red ==> australian
+   9:    1  ->  scoop ==> the
+  10:    1  ->  slabs ==> slopes
+  11:    1  ->  store ==> fondest
+  12:    1  ->  the ==> a
+  13:    1  ->  thick ==> 6-in
+  14:    1  ->  we ==> then
+  15:    1  ->  will ==> we'll
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  in
+   2:    1  ->  scrub
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  3
+   2:    1  ->  from
+   3:    1  ->  the
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  and
+   4:    1  ->  at
+   5:    1  ->  bags
+   6:    1  ->  fresh
+   7:    1  ->  kids
+   8:    1  ->  red
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  store
+  12:    1  ->  the
+  13:    1  ->  thick
+  14:    1  ->  we
+  15:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  a
+   2:    1  ->  6-in
+   3:    1  ->  as
+   4:    1  ->  australian
+   5:    1  ->  fast
+   6:    1  ->  fondest
+   7:    1  ->  fright
+   8:    1  ->  keys
+   9:    1  ->  redbacks
+  10:    1  ->  slopes
+  11:    1  ->  the
+  12:    1  ->  then
+  13:    1  ->  wa66
+  14:    1  ->  we'll
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

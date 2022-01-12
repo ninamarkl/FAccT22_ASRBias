@@ -1,0 +1,97 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\english_uk\english225_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    8.7%   (   6)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  75)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  can ==> could
+   3:    1  ->  her ==> a
+   4:    1  ->  her ==> without
+   5:    1  ->  peas ==> piece
+   6:    1  ->  we ==> i
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  thank
+   2:    2  ->  you
+   3:    1  ->  it
+   4:    1  ->  that's
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  and
+   2:    1  ->  with
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  her
+   2:    1  ->  and
+   3:    1  ->  can
+   4:    1  ->  peas
+   5:    1  ->  we
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  could
+   3:    1  ->  i
+   4:    1  ->  on
+   5:    1  ->  piece
+   6:    1  ->  without
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

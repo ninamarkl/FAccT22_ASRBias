@@ -1,0 +1,100 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin12_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bags ==> backs
+   2:    1  ->  five ==> piece
+   3:    1  ->  frog ==> front
+   4:    1  ->  her ==> also
+   5:    1  ->  of ==> off
+   6:    1  ->  slabs ==> laps
+   7:    1  ->  thick ==> fifty-six
+   8:    1  ->  will ==> we'll
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  ask
+   2:    1  ->  peas
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bags
+   2:    1  ->  five
+   3:    1  ->  frog
+   4:    1  ->  her
+   5:    1  ->  of
+   6:    1  ->  slabs
+   7:    1  ->  thick
+   8:    1  ->  will
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  also
+   2:    1  ->  backs
+   3:    1  ->  fifty-six
+   4:    1  ->  front
+   5:    1  ->  laps
+   6:    1  ->  off
+   7:    1  ->  piece
+   8:    1  ->  we'll
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

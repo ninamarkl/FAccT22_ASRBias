@@ -1,0 +1,147 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese33_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.6%   (  28)
+
+Percent Correct           =   60.9%   (  42)
+
+Percent Substitution      =   34.8%   (  24)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   59.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  a ==> his
+   2:    1  ->  a ==> more
+   3:    1  ->  ask ==> as
+   4:    1  ->  bob ==> board
+   5:    1  ->  call ==> go
+   6:    1  ->  five ==> peace
+   7:    1  ->  her ==> his
+   8:    1  ->  maybe ==> made
+   9:    1  ->  of ==> off
+  10:    1  ->  of ==> ofthe
+  11:    1  ->  peas ==> no
+  12:    1  ->  plastic ==> a
+  13:    1  ->  slabs ==> labs
+  14:    1  ->  small ==> past
+  15:    1  ->  snack ==> neck
+  16:    1  ->  spoons ==> points
+  17:    1  ->  stella ==> stellar
+  18:    1  ->  the ==> front
+  19:    1  ->  these ==> two
+  20:    1  ->  thick ==> fifty-six
+  21:    1  ->  three ==> tree
+  22:    1  ->  toy ==> victor
+  23:    1  ->  we ==> then
+  24:    1  ->  will ==> you
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  this
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  big
+   2:    1  ->  from
+   3:    1  ->  snow
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  a
+   2:    2  ->  of
+   3:    1  ->  ask
+   4:    1  ->  bob
+   5:    1  ->  call
+   6:    1  ->  five
+   7:    1  ->  her
+   8:    1  ->  maybe
+   9:    1  ->  peas
+  10:    1  ->  plastic
+  11:    1  ->  slabs
+  12:    1  ->  small
+  13:    1  ->  snack
+  14:    1  ->  spoons
+  15:    1  ->  stella
+  16:    1  ->  the
+  17:    1  ->  these
+  18:    1  ->  thick
+  19:    1  ->  three
+  20:    1  ->  toy
+  21:    1  ->  we
+  22:    1  ->  will
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  his
+   2:    1  ->  a
+   3:    1  ->  as
+   4:    1  ->  board
+   5:    1  ->  fifty-six
+   6:    1  ->  front
+   7:    1  ->  go
+   8:    1  ->  labs
+   9:    1  ->  made
+  10:    1  ->  more
+  11:    1  ->  neck
+  12:    1  ->  no
+  13:    1  ->  off
+  14:    1  ->  ofthe
+  15:    1  ->  past
+  16:    1  ->  peace
+  17:    1  ->  points
+  18:    1  ->  stellar
+  19:    1  ->  then
+  20:    1  ->  tree
+  21:    1  ->  two
+  22:    1  ->  victor
+  23:    1  ->  you
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

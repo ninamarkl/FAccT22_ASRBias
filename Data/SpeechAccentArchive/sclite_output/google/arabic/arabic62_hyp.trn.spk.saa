@@ -1,0 +1,109 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic62_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  6 ==> six
+   2:    1  ->  frog ==> dog
+   3:    1  ->  peas ==> of
+   4:    1  ->  snake ==> snack
+   5:    1  ->  spoons ==> points
+   6:    1  ->  station ==> trans
+   7:    1  ->  train ==> a
+   8:    1  ->  wednesday ==> stay
+   9:    1  ->  will ==> would
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  and
+   3:    1  ->  feet
+   4:    1  ->  one
+   5:    1  ->  trying
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  bob
+   3:    1  ->  scoop
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  6
+   2:    1  ->  frog
+   3:    1  ->  peas
+   4:    1  ->  snake
+   5:    1  ->  spoons
+   6:    1  ->  station
+   7:    1  ->  train
+   8:    1  ->  wednesday
+   9:    1  ->  will
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  dog
+   3:    1  ->  of
+   4:    1  ->  points
+   5:    1  ->  six
+   6:    1  ->  snack
+   7:    1  ->  stay
+   8:    1  ->  trans
+   9:    1  ->  would
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

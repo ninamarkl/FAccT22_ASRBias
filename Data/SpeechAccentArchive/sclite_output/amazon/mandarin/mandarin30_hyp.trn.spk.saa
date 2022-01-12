@@ -1,0 +1,112 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin30_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bags ==> backs
+   3:    1  ->  big ==> back
+   4:    1  ->  for ==> full
+   5:    1  ->  meet ==> met
+   6:    1  ->  of ==> off
+   7:    1  ->  of ==> ofthe
+   8:    1  ->  peas ==> piece
+   9:    1  ->  red ==> rat
+  10:    1  ->  slabs ==> laps
+  11:    1  ->  spoons ==> points
+  12:    1  ->  the ==> of
+  13:    1  ->  thick ==> things
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  of
+   2:    1  ->  ask
+   3:    1  ->  bags
+   4:    1  ->  big
+   5:    1  ->  for
+   6:    1  ->  meet
+   7:    1  ->  peas
+   8:    1  ->  red
+   9:    1  ->  slabs
+  10:    1  ->  spoons
+  11:    1  ->  the
+  12:    1  ->  thick
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  asked
+   2:    1  ->  back
+   3:    1  ->  backs
+   4:    1  ->  full
+   5:    1  ->  laps
+   6:    1  ->  met
+   7:    1  ->  of
+   8:    1  ->  off
+   9:    1  ->  ofthe
+  10:    1  ->  piece
+  11:    1  ->  points
+  12:    1  ->  rat
+  13:    1  ->  things
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

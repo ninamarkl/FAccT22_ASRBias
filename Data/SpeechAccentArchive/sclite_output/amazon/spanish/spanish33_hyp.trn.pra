@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\spanish\spanish33_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 51 13 5 2
+REF:  please call stella ask her to bring ** THESE things with her from the store six SPOONS OF  fresh snow peas FIVE THICK     SLABS of blue CHEESE AND maybe a snack for her brother bob we also need a small ***** PLASTIC snake and a big TOY  frog for THE kids she can SCOOP THESE things into three RED BAGS AND WE        WILL  go meet her wednesday at the train station 
+HYP:  please call stella ask her to bring IN THIS  things with her from the store six POINTS OFF fresh snow peas **** FIFTY-SIX LAPS  of blue SHE'S  ON  maybe a snack for her brother bob we also need a small PLACE A       snake and a big TREE frog for *** kids she can SKIP  THIS  things into three *** **** *** READBACKS WE'LL go meet her wednesday at the train station 
+Eval:                                     I  S                                        S      S                   D    S         S             S      S                                                          I     S                       S             D                S     S                       D   D    D   S         S                                                
+
+

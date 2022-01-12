@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\b-rea1-f2_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-f2_01)
+Scores: (#C #S #D #I) 151 24 7 5
+REF:  once upon a time there was a GIRL  called cinderella but everyone called HER SI- CINDERS cinders lived with her mother and two stepsisters called LILY AND     rosa LILY AND     ROSA    were very unfriendly and they were lazy girls they spent ALL THEIR  time buying new clothes and going to parties POOR CINDERS    had to WEAR all their old hand me downs and she had to do all the cleaning one day a royal messenger came to announce A   ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND   rosa thought this was *** DIVINE prince william was gorgeous and he was looking for a bride they dreamed of wedding bells WHEN the evening of the ball arrived cinders had to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new GO GOWNS but their mother said that they *** had enough GOWNS so they started SHOUTING at CINDERS  find my jewels yelled one find MY hat HOWLED the other they wanted **** ******* HAIRBRUSHES 
+HYP:  once upon a time there was a GUARD called cinderella but everyone called *** US  SENDERS cinders lived with her mother and two stepsisters called **** LILLIAN rosa **** LILLIAN RUSSELL were very unfriendly and they were lazy girls they spent *** DOLLAR time buying new clothes and going to parties **** PERCENTERS had to ARE  all their old hand me downs and she had to do all the cleaning one day a royal messenger came to announce THE ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** ELLEN rosa thought this was THE VINE   prince william was gorgeous and he was looking for a bride they dreamed of wedding bells IN   the evening of the ball arrived cinders had to help her sisters get ready they were in a bad mood THEY   wanted to buy some new ** GUNS  but their mother said that they HAD had enough GUNS  so they started SHOOTING at TINDER'S find my jewels yelled one find A  hat ALL    the other they wanted HARD BRUSHES HEART       
+Eval:                              S                                           D   S   S                                                                D    S            D    S       S                                                                D   S                                                   D    S                 S                                                                                                              S                 S                                                                                  D    S                           I   S                                                                                               S                                                                                                      S                             D  S                                     I              S                     S           S                                       S      S                            I    I       S           
+
+>> REF:  HAIRPINS and ***** HAIRSPRAY 
+>> HYP:  PINS     and HARSH SPRAY     
+>> Eval: S            I     S         
+
+

@@ -1,0 +1,124 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin50_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   55.1%   (  38)
+
+Percent Correct           =   44.9%   (  31)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   44.9%   (  31)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   44.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  38)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a ==> are
+   2:    1  ->  bob ==> rather
+   3:    1  ->  brother ==> arsenal
+   4:    1  ->  for ==> p
+   5:    1  ->  frog ==> from
+   6:    1  ->  her ==> v
+   7:    1  ->  wednesday ==> cheese
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  and
+   2:    2  ->  these
+   3:    1  ->  3
+   4:    1  ->  5
+   5:    1  ->  a
+   6:    1  ->  also
+   7:    1  ->  bags
+   8:    1  ->  blue
+   9:    1  ->  can
+  10:    1  ->  cheese
+  11:    1  ->  go
+  12:    1  ->  her
+  13:    1  ->  into
+  14:    1  ->  kids
+  15:    1  ->  maybe
+  16:    1  ->  meet
+  17:    1  ->  need
+  18:    1  ->  of
+  19:    1  ->  peas
+  20:    1  ->  red
+  21:    1  ->  scoop
+  22:    1  ->  she
+  23:    1  ->  slabs
+  24:    1  ->  snack
+  25:    1  ->  snake
+  26:    1  ->  thick
+  27:    1  ->  things
+  28:    1  ->  we
+  29:    1  ->  will
+     -------
+        31
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  for
+   5:    1  ->  frog
+   6:    1  ->  her
+   7:    1  ->  wednesday
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  are
+   2:    1  ->  arsenal
+   3:    1  ->  cheese
+   4:    1  ->  from
+   5:    1  ->  p
+   6:    1  ->  rather
+   7:    1  ->  v
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

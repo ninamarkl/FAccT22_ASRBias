@@ -1,0 +1,149 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\arabic\arabic24_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   49.3%   (  34)
+
+Percent Correct           =   62.3%   (  43)
+
+Percent Substitution      =   34.8%   (  24)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =   11.6%   (   8)
+Percent Word Accuracy     =   50.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  75)
+Aligned words             =           (  77)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  her ==> here
+   2:    1  ->  and ==> day
+   3:    1  ->  bags ==> on
+   4:    1  ->  blue ==> off
+   5:    1  ->  bob ==> book
+   6:    1  ->  brother ==> puzzle
+   7:    1  ->  call ==> a
+   8:    1  ->  cheese ==> pollution
+   9:    1  ->  for ==> all
+  10:    1  ->  into ==> tow
+  11:    1  ->  need ==> needs
+  12:    1  ->  of ==> off
+  13:    1  ->  of ==> slipped
+  14:    1  ->  peas ==> is
+  15:    1  ->  please ==> called
+  16:    1  ->  slabs ==> think
+  17:    1  ->  snack ==> off
+  18:    1  ->  spoons ==> points
+  19:    1  ->  stella ==> settler
+  20:    1  ->  these ==> sense
+  21:    1  ->  thick ==> i
+  22:    1  ->  things ==> in
+  23:    1  ->  to ==> herto
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  biggs
+   3:    1  ->  for
+   4:    1  ->  it's
+   5:    1  ->  meet
+   6:    1  ->  snake
+   7:    1  ->  thing
+   8:    1  ->  thiss
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  her
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  her
+   2:    2  ->  of
+   3:    1  ->  and
+   4:    1  ->  bags
+   5:    1  ->  blue
+   6:    1  ->  bob
+   7:    1  ->  brother
+   8:    1  ->  call
+   9:    1  ->  cheese
+  10:    1  ->  for
+  11:    1  ->  into
+  12:    1  ->  need
+  13:    1  ->  peas
+  14:    1  ->  please
+  15:    1  ->  slabs
+  16:    1  ->  snack
+  17:    1  ->  spoons
+  18:    1  ->  stella
+  19:    1  ->  these
+  20:    1  ->  thick
+  21:    1  ->  things
+  22:    1  ->  to
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  off
+   2:    2  ->  here
+   3:    1  ->  a
+   4:    1  ->  all
+   5:    1  ->  book
+   6:    1  ->  called
+   7:    1  ->  day
+   8:    1  ->  herto
+   9:    1  ->  i
+  10:    1  ->  in
+  11:    1  ->  is
+  12:    1  ->  needs
+  13:    1  ->  on
+  14:    1  ->  points
+  15:    1  ->  pollution
+  16:    1  ->  puzzle
+  17:    1  ->  sense
+  18:    1  ->  settler
+  19:    1  ->  slipped
+  20:    1  ->  think
+  21:    1  ->  tow
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,154 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\p-rea1-f7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   19.8%   (  36)
+
+Percent Correct           =   81.3%   ( 148)
+
+Percent Substitution      =   14.3%   (  26)
+Percent Deletions         =    4.4%   (   8)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   80.2%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 176)
+Aligned words             =           ( 184)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> rose
+   3:    1  ->  at ==> a
+   4:    1  ->  buying ==> buy
+   5:    1  ->  called ==> cause
+   6:    1  ->  cinders ==> seniors
+   7:    1  ->  cinders ==> singers
+   8:    1  ->  gowns ==> guns
+   9:    1  ->  hairpins ==> happens
+  10:    1  ->  hat ==> heart
+  11:    1  ->  her ==> calls
+  12:    1  ->  howled ==> how
+  13:    1  ->  lily ==> lillian
+  14:    1  ->  rosa ==> i
+  15:    1  ->  rosa ==> lillian
+  16:    1  ->  shouting ==> sharing
+  17:    1  ->  started ==> stein
+  18:    1  ->  stepsisters ==> sisters
+  19:    1  ->  their ==> that
+  20:    1  ->  they ==> the
+  21:    1  ->  they'd ==> they
+  22:    1  ->  unfriendly ==> friendly
+  23:    1  ->  very ==> one
+  24:    1  ->  were ==> rose
+  25:    1  ->  were ==> they're
+  26:    1  ->  william ==> principally
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  step
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  bell
+   3:    1  ->  called
+   4:    1  ->  di
+   5:    1  ->  er
+   6:    1  ->  lily
+   7:    1  ->  prince
+   8:    1  ->  they
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  cinders
+   2:    2  ->  rosa
+   3:    2  ->  were
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  at
+   7:    1  ->  buying
+   8:    1  ->  called
+   9:    1  ->  gowns
+  10:    1  ->  hairpins
+  11:    1  ->  hat
+  12:    1  ->  her
+  13:    1  ->  howled
+  14:    1  ->  lily
+  15:    1  ->  shouting
+  16:    1  ->  started
+  17:    1  ->  stepsisters
+  18:    1  ->  their
+  19:    1  ->  they
+  20:    1  ->  they'd
+  21:    1  ->  unfriendly
+  22:    1  ->  very
+  23:    1  ->  william
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  lillian
+   2:    2  ->  rose
+   3:    2  ->  the
+   4:    1  ->  a
+   5:    1  ->  buy
+   6:    1  ->  calls
+   7:    1  ->  cause
+   8:    1  ->  friendly
+   9:    1  ->  guns
+  10:    1  ->  happens
+  11:    1  ->  heart
+  12:    1  ->  how
+  13:    1  ->  i
+  14:    1  ->  one
+  15:    1  ->  principally
+  16:    1  ->  seniors
+  17:    1  ->  sharing
+  18:    1  ->  singers
+  19:    1  ->  sisters
+  20:    1  ->  stein
+  21:    1  ->  that
+  22:    1  ->  they
+  23:    1  ->  they're
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

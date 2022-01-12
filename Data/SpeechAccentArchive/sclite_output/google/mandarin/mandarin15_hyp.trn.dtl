@@ -1,0 +1,107 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin15_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   20.3%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  55)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  blue ==> absolute
+   2:    1  ->  her ==> worker
+   3:    1  ->  of ==> 639562
+   4:    1  ->  the ==> a
+   5:    1  ->  the ==> ever
+   6:    1  ->  things ==> the
+   7:    1  ->  with ==> same
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  at
+   5:    1  ->  fresh
+   6:    1  ->  go
+   7:    1  ->  of
+   8:    1  ->  peas
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  snow
+  12:    1  ->  spoons
+  13:    1  ->  these
+  14:    1  ->  thick
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  the
+   2:    1  ->  blue
+   3:    1  ->  her
+   4:    1  ->  of
+   5:    1  ->  things
+   6:    1  ->  with
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  639562
+   2:    1  ->  a
+   3:    1  ->  absolute
+   4:    1  ->  ever
+   5:    1  ->  same
+   6:    1  ->  the
+   7:    1  ->  worker
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

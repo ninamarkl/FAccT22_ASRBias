@@ -1,0 +1,143 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\english_uk\english108_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.9%   (  31)
+
+Percent Correct           =   60.9%   (  42)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   55.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  a ==> ah
+   2:    1  ->  and ==> or
+   3:    1  ->  brother ==> boar
+   4:    1  ->  call ==> cost
+   5:    1  ->  five ==> snoopy's
+   6:    1  ->  fresh ==> sex
+   7:    1  ->  her ==> a
+   8:    1  ->  her ==> over
+   9:    1  ->  of ==> and
+  10:    1  ->  peas ==> afraid
+  11:    1  ->  red ==> bad
+  12:    1  ->  scoop ==> skip
+  13:    1  ->  slabs ==> labs
+  14:    1  ->  snow ==> parents
+  15:    1  ->  stella ==> our
+  16:    1  ->  these ==> his
+  17:    1  ->  thick ==> fifty-six
+  18:    1  ->  to ==> ray
+  19:    1  ->  wednesday ==> stay
+  20:    1  ->  will ==> we'll
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  and
+   2:    1  ->  bring
+   3:    1  ->  to
+   4:    1  ->  way
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  her
+   2:    1  ->  of
+   3:    1  ->  six
+   4:    1  ->  spoons
+   5:    1  ->  the
+   6:    1  ->  we
+   7:    1  ->  with
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  her
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  brother
+   5:    1  ->  call
+   6:    1  ->  five
+   7:    1  ->  fresh
+   8:    1  ->  of
+   9:    1  ->  peas
+  10:    1  ->  red
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  snow
+  14:    1  ->  stella
+  15:    1  ->  these
+  16:    1  ->  thick
+  17:    1  ->  to
+  18:    1  ->  wednesday
+  19:    1  ->  will
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  a
+   2:    1  ->  afraid
+   3:    1  ->  ah
+   4:    1  ->  and
+   5:    1  ->  bad
+   6:    1  ->  boar
+   7:    1  ->  cost
+   8:    1  ->  fifty-six
+   9:    1  ->  his
+  10:    1  ->  labs
+  11:    1  ->  or
+  12:    1  ->  our
+  13:    1  ->  over
+  14:    1  ->  parents
+  15:    1  ->  ray
+  16:    1  ->  sex
+  17:    1  ->  skip
+  18:    1  ->  snoopy's
+  19:    1  ->  stay
+  20:    1  ->  we'll
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

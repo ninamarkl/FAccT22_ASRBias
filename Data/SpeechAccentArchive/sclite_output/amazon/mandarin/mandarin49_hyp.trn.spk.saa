@@ -1,0 +1,135 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin49_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   60.9%   (  42)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  these ==> the
+   2:    1  ->  a ==> on
+   3:    1  ->  and ==> on
+   4:    1  ->  and ==> steak
+   5:    1  ->  ask ==> costa
+   6:    1  ->  bags ==> backs
+   7:    1  ->  bob ==> ball
+   8:    1  ->  five ==> by
+   9:    1  ->  go ==> were
+  10:    1  ->  her ==> mito
+  11:    1  ->  her ==> us
+  12:    1  ->  meet ==> going
+  13:    1  ->  slabs ==> slab
+  14:    1  ->  snack ==> snap
+  15:    1  ->  spoons ==> teaspoons
+  16:    1  ->  station ==> translation
+  17:    1  ->  stella ==> this
+  18:    1  ->  to ==> could
+  19:    1  ->  wednesday ==> winston
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  call
+   2:    1  ->  frog
+   3:    1  ->  please
+   4:    1  ->  snake
+   5:    1  ->  the
+   6:    1  ->  train
+   7:    1  ->  will
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  and
+   2:    2  ->  her
+   3:    2  ->  these
+   4:    1  ->  a
+   5:    1  ->  ask
+   6:    1  ->  bags
+   7:    1  ->  bob
+   8:    1  ->  five
+   9:    1  ->  go
+  10:    1  ->  meet
+  11:    1  ->  slabs
+  12:    1  ->  snack
+  13:    1  ->  spoons
+  14:    1  ->  station
+  15:    1  ->  stella
+  16:    1  ->  to
+  17:    1  ->  wednesday
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  on
+   2:    2  ->  the
+   3:    1  ->  backs
+   4:    1  ->  ball
+   5:    1  ->  by
+   6:    1  ->  costa
+   7:    1  ->  could
+   8:    1  ->  going
+   9:    1  ->  mito
+  10:    1  ->  slab
+  11:    1  ->  snap
+  12:    1  ->  steak
+  13:    1  ->  teaspoons
+  14:    1  ->  this
+  15:    1  ->  translation
+  16:    1  ->  us
+  17:    1  ->  were
+  18:    1  ->  winston
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

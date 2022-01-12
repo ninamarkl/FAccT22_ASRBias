@@ -1,0 +1,105 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\italian\italian10_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  at ==> once
+   3:    1  ->  her ==> a
+   4:    1  ->  of ==> so
+   5:    1  ->  peas ==> peace
+   6:    1  ->  snow ==> no
+   7:    1  ->  to ==> espirito
+   8:    1  ->  we ==> they
+   9:    1  ->  wednesday ==> there
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  me
+   2:    1  ->  to
+   3:    1  ->  with
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  ask
+   2:    1  ->  her
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  and
+   2:    1  ->  at
+   3:    1  ->  her
+   4:    1  ->  of
+   5:    1  ->  peas
+   6:    1  ->  snow
+   7:    1  ->  to
+   8:    1  ->  we
+   9:    1  ->  wednesday
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  espirito
+   3:    1  ->  in
+   4:    1  ->  no
+   5:    1  ->  once
+   6:    1  ->  peace
+   7:    1  ->  so
+   8:    1  ->  there
+   9:    1  ->  they
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,172 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\liv-rea1-f4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.2%   (  47)
+
+Percent Correct           =   77.3%   ( 150)
+
+Percent Substitution      =   17.5%   (  34)
+Percent Deletions         =    5.2%   (  10)
+Percent Insertions        =    1.5%   (   3)
+Percent Word Accuracy     =   75.8%
+
+
+Ref. words                =           ( 194)
+Hyp. words                =           ( 187)
+Aligned words             =           ( 197)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  gowns ==> guns
+   2:    2  ->  rosa ==> rosie
+   3:    2  ->  their ==> the
+   4:    1  ->  a ==> and
+   5:    1  ->  at ==> in
+   6:    1  ->  ball ==> support
+   7:    1  ->  buying ==> by
+   8:    1  ->  cinders ==> cylinders
+   9:    1  ->  cinders ==> knows
+  10:    1  ->  dreamed ==> dream
+  11:    1  ->  girls ==> lazygirls
+  12:    1  ->  had ==> hadn't
+  13:    1  ->  had ==> how
+  14:    1  ->  hairbrushes ==> brushes
+  15:    1  ->  honour ==> in
+  16:    1  ->  howled ==> household
+  17:    1  ->  in ==> at
+  18:    1  ->  jewels ==> dual
+  19:    1  ->  lily ==> lilley
+  20:    1  ->  lived ==> live
+  21:    1  ->  of ==> and
+  22:    1  ->  poor ==> for
+  23:    1  ->  the ==> have
+  24:    1  ->  the ==> to
+  25:    1  ->  they ==> a
+  26:    1  ->  they ==> play
+  27:    1  ->  they'd ==> they
+  28:    1  ->  wear ==> wait
+  29:    1  ->  were ==> radio
+  30:    1  ->  would ==> will
+  31:    1  ->  yelled ==> old
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  an
+   2:    1  ->  hair
+   3:    1  ->  she
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  b
+   4:    1  ->  ball
+   5:    1  ->  hat
+   6:    1  ->  lazy
+   7:    1  ->  of
+   8:    1  ->  son
+   9:    1  ->  were
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  cinders
+   2:    2  ->  gowns
+   3:    2  ->  had
+   4:    2  ->  rosa
+   5:    2  ->  the
+   6:    2  ->  their
+   7:    2  ->  they
+   8:    1  ->  a
+   9:    1  ->  at
+  10:    1  ->  ball
+  11:    1  ->  buying
+  12:    1  ->  dreamed
+  13:    1  ->  girls
+  14:    1  ->  hairbrushes
+  15:    1  ->  honour
+  16:    1  ->  howled
+  17:    1  ->  in
+  18:    1  ->  jewels
+  19:    1  ->  lily
+  20:    1  ->  lived
+  21:    1  ->  of
+  22:    1  ->  poor
+  23:    1  ->  they'd
+  24:    1  ->  wear
+  25:    1  ->  were
+  26:    1  ->  would
+  27:    1  ->  yelled
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  and
+   2:    2  ->  guns
+   3:    2  ->  in
+   4:    2  ->  rosie
+   5:    2  ->  the
+   6:    1  ->  a
+   7:    1  ->  at
+   8:    1  ->  brushes
+   9:    1  ->  by
+  10:    1  ->  cylinders
+  11:    1  ->  dream
+  12:    1  ->  dual
+  13:    1  ->  for
+  14:    1  ->  hadn't
+  15:    1  ->  have
+  16:    1  ->  household
+  17:    1  ->  how
+  18:    1  ->  knows
+  19:    1  ->  lazygirls
+  20:    1  ->  lilley
+  21:    1  ->  live
+  22:    1  ->  old
+  23:    1  ->  play
+  24:    1  ->  radio
+  25:    1  ->  support
+  26:    1  ->  they
+  27:    1  ->  to
+  28:    1  ->  wait
+  29:    1  ->  will
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

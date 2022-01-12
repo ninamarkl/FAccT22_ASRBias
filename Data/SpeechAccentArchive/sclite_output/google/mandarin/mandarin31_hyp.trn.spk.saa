@@ -1,0 +1,119 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin31_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  5 ==> please
+   2:    1  ->  bob ==> but
+   3:    1  ->  for ==> with
+   4:    1  ->  her ==> beta
+   5:    1  ->  need ==> made
+   6:    1  ->  of ==> the
+   7:    1  ->  peas ==> freshener
+   8:    1  ->  slabs ==> let
+   9:    1  ->  spoons ==> 60s
+  10:    1  ->  stella ==> spell
+  11:    1  ->  these ==> big
+  12:    1  ->  thick ==> 56
+  13:    1  ->  will ==> we'll
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  6
+   2:    1  ->  for
+   3:    1  ->  fresh
+   4:    1  ->  meet
+   5:    1  ->  snow
+   6:    1  ->  we
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  5
+   2:    1  ->  bob
+   3:    1  ->  for
+   4:    1  ->  her
+   5:    1  ->  need
+   6:    1  ->  of
+   7:    1  ->  peas
+   8:    1  ->  slabs
+   9:    1  ->  spoons
+  10:    1  ->  stella
+  11:    1  ->  these
+  12:    1  ->  thick
+  13:    1  ->  will
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  56
+   2:    1  ->  60s
+   3:    1  ->  beta
+   4:    1  ->  big
+   5:    1  ->  but
+   6:    1  ->  freshener
+   7:    1  ->  let
+   8:    1  ->  made
+   9:    1  ->  please
+  10:    1  ->  spell
+  11:    1  ->  the
+  12:    1  ->  we'll
+  13:    1  ->  with
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,133 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese19_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  3 ==> playing
+   2:    1  ->  a ==> is
+   3:    1  ->  and ==> in
+   4:    1  ->  ask ==> skelly
+   5:    1  ->  bob ==> brothers
+   6:    1  ->  bring ==> ring
+   7:    1  ->  frog ==> frank
+   8:    1  ->  from ==> around
+   9:    1  ->  her ==> add
+  10:    1  ->  her ==> metre
+  11:    1  ->  into ==> please
+  12:    1  ->  kids ==> keys
+  13:    1  ->  of ==> and
+  14:    1  ->  red ==> and
+  15:    1  ->  snack ==> not
+  16:    1  ->  spoons ==> sixbones
+  17:    1  ->  thick ==> laughing
+  18:    1  ->  things ==> school
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  brother
+   4:    1  ->  meet
+   5:    1  ->  scoop
+   6:    1  ->  stella
+   7:    1  ->  these
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  her
+   2:    1  ->  3
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  ask
+   6:    1  ->  bob
+   7:    1  ->  bring
+   8:    1  ->  frog
+   9:    1  ->  from
+  10:    1  ->  into
+  11:    1  ->  kids
+  12:    1  ->  of
+  13:    1  ->  red
+  14:    1  ->  snack
+  15:    1  ->  spoons
+  16:    1  ->  thick
+  17:    1  ->  things
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  and
+   2:    1  ->  add
+   3:    1  ->  around
+   4:    1  ->  brothers
+   5:    1  ->  frank
+   6:    1  ->  in
+   7:    1  ->  is
+   8:    1  ->  keys
+   9:    1  ->  laughing
+  10:    1  ->  metre
+  11:    1  ->  not
+  12:    1  ->  playing
+  13:    1  ->  please
+  14:    1  ->  ring
+  15:    1  ->  school
+  16:    1  ->  sixbones
+  17:    1  ->  skelly
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

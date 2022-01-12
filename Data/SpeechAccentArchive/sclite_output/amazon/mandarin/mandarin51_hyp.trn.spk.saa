@@ -1,0 +1,141 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin51_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   33.3%   (  23)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  and ==> on
+   2:    1  ->  a ==> us
+   3:    1  ->  ask ==> asked
+   4:    1  ->  bags ==> backs
+   5:    1  ->  bob ==> but
+   6:    1  ->  call ==> cost
+   7:    1  ->  five ==> beings
+   8:    1  ->  kids ==> keys
+   9:    1  ->  of ==> are
+  10:    1  ->  of ==> off
+  11:    1  ->  plastic ==> classic
+  12:    1  ->  please ==> police
+  13:    1  ->  red ==> right
+  14:    1  ->  slabs ==> slaps
+  15:    1  ->  small ==> more
+  16:    1  ->  stella ==> allah
+  17:    1  ->  the ==> her
+  18:    1  ->  these ==> scene's
+  19:    1  ->  thick ==> fifty-six
+  20:    1  ->  things ==> who
+  21:    1  ->  toy ==> twi
+  22:    1  ->  with ==> is
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  this
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  peas
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  and
+   2:    2  ->  of
+   3:    1  ->  a
+   4:    1  ->  ask
+   5:    1  ->  bags
+   6:    1  ->  bob
+   7:    1  ->  call
+   8:    1  ->  five
+   9:    1  ->  kids
+  10:    1  ->  plastic
+  11:    1  ->  please
+  12:    1  ->  red
+  13:    1  ->  slabs
+  14:    1  ->  small
+  15:    1  ->  stella
+  16:    1  ->  the
+  17:    1  ->  these
+  18:    1  ->  thick
+  19:    1  ->  things
+  20:    1  ->  toy
+  21:    1  ->  with
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  on
+   2:    1  ->  allah
+   3:    1  ->  are
+   4:    1  ->  asked
+   5:    1  ->  backs
+   6:    1  ->  beings
+   7:    1  ->  but
+   8:    1  ->  classic
+   9:    1  ->  cost
+  10:    1  ->  fifty-six
+  11:    1  ->  her
+  12:    1  ->  is
+  13:    1  ->  keys
+  14:    1  ->  more
+  15:    1  ->  off
+  16:    1  ->  police
+  17:    1  ->  right
+  18:    1  ->  scene's
+  19:    1  ->  slaps
+  20:    1  ->  twi
+  21:    1  ->  us
+  22:    1  ->  who
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

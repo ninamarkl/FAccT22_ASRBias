@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\liv-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  liv
+
+Speaker sentences   0:  liv   #utts: 1
+id: (liv-rea1-m4_01)
+Scores: (#C #S #D #I) 131 32 26 2
+REF:  once upon a time there was a girl called cinderella but everyone called HER cinders cinders LIVED with HER   mother and two stepsisters called LILY AND ROSA lily and ROSA  were very unfriendly and they were LAZY GIRLS THEY      spent all THEIR time BUYING new clothes and going to parties POOR    CINDERS had to WEAR all their old hand me downs and SHE HAD  to do the cleaning one day a royal messenger came to ANNOUNCE A BALL THE    ball WOULD be held AT the royal PAL    palace the ball WOULD be held at the royal palace IN HONOUR of the queen's only son prince william LILY   and ROSA THOUGHT this was divine prince william was gorgeous AND HE WAS LOOKING FOR A   BRIDE THEY DREAMED  OF  wedding bells WHEN the evening of the BALL ARRIVED   cinders had to help her sisters get ready they were in a bad mood they wanted to buy some new GOWNS but their mother said that they HAD ENOUGH GOWNS SO   they started shouting at cinders FIND MY JEWELS YELLED ONE   find my hat HOWLED THE OTHER they 
+HYP:  once upon a time there was a girl called cinderella but everyone called ARE cinders cinders LIVE  with THEIR mother and two stepsisters called **** *** **** lily and ROSIE were very unfriendly and they were **** ***** LAZYGIRLS spent all THE   time BY     new clothes and going to parties FORCING THIS    had to WAIT all their old hand me downs and *** CHAT to do the cleaning one day a royal messenger came to ******** * AN   ANSWER ball WILL  be held ** the royal PALACE palace the ball WILL  be held at the royal palace ** NONE   of the queen's only son prince william LILLEY and **** ******* this was divine prince william was gorgeous *** ** *** ******* *** YOU LOOK  UP   DAYDREAM THE wedding bells ON   the evening of the **** POLARIZED cinders had to help her sisters get ready they were in a bad mood they wanted to buy some new CANS  but their mother said that they *** ****** ***** HAVE they started shouting at cinders **** ** ****** ****** YDONE find my hat ****** HOW DO    they 
+Eval:                                                                         S                   S          S                                       D    D   D             S                                        D    D     S                   S          S                                       S       S              S                                    D   S                                                         D        D S    S           S             D            S                      S                                 D  S                                             S          D    D                                                   D   D  D   D       D   S   S     S    S        S                 S                       D    S                                                                                                       S                                     D   D      D     S                                     D    D  D      D      S                 D      S   S          
+
+>> REF:  wanted **** ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  wanted HAIR BRUSHES HAIR        PINS     and hairspray 
+>> Eval:        I    I       S           S                      
+
+

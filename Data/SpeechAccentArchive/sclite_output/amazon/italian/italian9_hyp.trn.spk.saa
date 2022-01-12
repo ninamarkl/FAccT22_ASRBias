@@ -1,0 +1,116 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\italian\italian9_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bags ==> readbacks
+   3:    1  ->  bob ==> buck
+   4:    1  ->  bring ==> take
+   5:    1  ->  call ==> place
+   6:    1  ->  five ==> piers
+   7:    1  ->  fresh ==> rare
+   8:    1  ->  frog ==> for
+   9:    1  ->  of ==> off
+  10:    1  ->  red ==> free
+  11:    1  ->  slabs ==> laps
+  12:    1  ->  stella ==> costa
+  13:    1  ->  thick ==> fifty-six
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  peas
+   2:    1  ->  please
+   3:    1  ->  three
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  ask
+   2:    1  ->  bags
+   3:    1  ->  bob
+   4:    1  ->  bring
+   5:    1  ->  call
+   6:    1  ->  five
+   7:    1  ->  fresh
+   8:    1  ->  frog
+   9:    1  ->  of
+  10:    1  ->  red
+  11:    1  ->  slabs
+  12:    1  ->  stella
+  13:    1  ->  thick
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  asked
+   2:    1  ->  buck
+   3:    1  ->  costa
+   4:    1  ->  fifty-six
+   5:    1  ->  for
+   6:    1  ->  free
+   7:    1  ->  laps
+   8:    1  ->  off
+   9:    1  ->  piers
+  10:    1  ->  place
+  11:    1  ->  rare
+  12:    1  ->  readbacks
+  13:    1  ->  take
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

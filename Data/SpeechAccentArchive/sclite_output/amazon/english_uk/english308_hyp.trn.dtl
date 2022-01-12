@@ -1,0 +1,96 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\english_uk\english308_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    3  ->  and ==> on
+   2:    2  ->  her ==> the
+   3:    1  ->  bob ==> apart
+   4:    1  ->  brother ==> bread
+   5:    1  ->  can ==> could
+   6:    1  ->  her ==> asked
+   7:    1  ->  peas ==> piece
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  ask
+   2:    1  ->  her
+   3:    1  ->  with
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  and
+   2:    3  ->  her
+   3:    1  ->  bob
+   4:    1  ->  brother
+   5:    1  ->  can
+   6:    1  ->  peas
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    3  ->  on
+   2:    2  ->  the
+   3:    1  ->  apart
+   4:    1  ->  asked
+   5:    1  ->  bread
+   6:    1  ->  could
+   7:    1  ->  piece
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

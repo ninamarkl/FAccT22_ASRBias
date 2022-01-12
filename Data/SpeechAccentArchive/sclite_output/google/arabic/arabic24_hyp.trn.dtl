@@ -1,0 +1,150 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic24_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   50.7%   (  35)
+
+Percent Correct           =   55.1%   (  38)
+
+Percent Substitution      =   36.2%   (  25)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   49.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  these ==> this
+   2:    2  ->  things ==> sentence
+   3:    1  ->  5 ==> 5%
+   4:    1  ->  a ==> much
+   5:    1  ->  ask ==> cold
+   6:    1  ->  bags ==> beads
+   7:    1  ->  bob ==> pop
+   8:    1  ->  cheese ==> lucy's
+   9:    1  ->  her ==> hair
+  10:    1  ->  her ==> me
+  11:    1  ->  her ==> similar
+  12:    1  ->  peas ==> is
+  13:    1  ->  plastic ==> the
+  14:    1  ->  scoop ==> cope
+  15:    1  ->  slabs ==> sleep
+  16:    1  ->  small ==> does
+  17:    1  ->  snack ==> or
+  18:    1  ->  snake ==> christmas
+  19:    1  ->  spoons ==> pounds
+  20:    1  ->  stella ==> bit
+  21:    1  ->  thick ==> and
+  22:    1  ->  toy ==> a
+  23:    1  ->  will ==> you
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  as
+   2:    1  ->  boy
+   3:    1  ->  for
+   4:    1  ->  snake
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  blue
+   3:    1  ->  bring
+   4:    1  ->  call
+   5:    1  ->  please
+   6:    1  ->  we
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  her
+   2:    2  ->  these
+   3:    2  ->  things
+   4:    1  ->  5
+   5:    1  ->  a
+   6:    1  ->  ask
+   7:    1  ->  bags
+   8:    1  ->  bob
+   9:    1  ->  cheese
+  10:    1  ->  peas
+  11:    1  ->  plastic
+  12:    1  ->  scoop
+  13:    1  ->  slabs
+  14:    1  ->  small
+  15:    1  ->  snack
+  16:    1  ->  snake
+  17:    1  ->  spoons
+  18:    1  ->  stella
+  19:    1  ->  thick
+  20:    1  ->  toy
+  21:    1  ->  will
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  sentence
+   2:    2  ->  this
+   3:    1  ->  5%
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  beads
+   7:    1  ->  bit
+   8:    1  ->  christmas
+   9:    1  ->  cold
+  10:    1  ->  cope
+  11:    1  ->  does
+  12:    1  ->  hair
+  13:    1  ->  is
+  14:    1  ->  lucy's
+  15:    1  ->  me
+  16:    1  ->  much
+  17:    1  ->  or
+  18:    1  ->  pop
+  19:    1  ->  pounds
+  20:    1  ->  similar
+  21:    1  ->  sleep
+  22:    1  ->  the
+  23:    1  ->  you
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

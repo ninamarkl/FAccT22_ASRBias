@@ -1,0 +1,139 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\thai\thai6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   30.4%   (  21)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  bags ==> backs
+   2:    1  ->  blue ==> off
+   3:    1  ->  brother ==> the
+   4:    1  ->  call ==> cause
+   5:    1  ->  cheese ==> bushes
+   6:    1  ->  fresh ==> fish
+   7:    1  ->  frog ==> for
+   8:    1  ->  her ==> asked
+   9:    1  ->  of ==> off
+  10:    1  ->  of ==> slaps
+  11:    1  ->  peas ==> piece
+  12:    1  ->  plastic ==> plastics
+  13:    1  ->  please ==> peace
+  14:    1  ->  red ==> late
+  15:    1  ->  snake ==> neck
+  16:    1  ->  spoons ==> points
+  17:    1  ->  these ==> this
+  18:    1  ->  things ==> thing
+  19:    1  ->  to ==> tto
+  20:    1  ->  toy ==> tie
+  21:    1  ->  train ==> tail
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  by
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  ask
+   2:    1  ->  slabs
+   3:    1  ->  thick
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  of
+   2:    1  ->  bags
+   3:    1  ->  blue
+   4:    1  ->  brother
+   5:    1  ->  call
+   6:    1  ->  cheese
+   7:    1  ->  fresh
+   8:    1  ->  frog
+   9:    1  ->  her
+  10:    1  ->  peas
+  11:    1  ->  plastic
+  12:    1  ->  please
+  13:    1  ->  red
+  14:    1  ->  snake
+  15:    1  ->  spoons
+  16:    1  ->  these
+  17:    1  ->  things
+  18:    1  ->  to
+  19:    1  ->  toy
+  20:    1  ->  train
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  off
+   2:    1  ->  asked
+   3:    1  ->  backs
+   4:    1  ->  bushes
+   5:    1  ->  cause
+   6:    1  ->  fish
+   7:    1  ->  for
+   8:    1  ->  late
+   9:    1  ->  neck
+  10:    1  ->  peace
+  11:    1  ->  piece
+  12:    1  ->  plastics
+  13:    1  ->  points
+  14:    1  ->  slaps
+  15:    1  ->  tail
+  16:    1  ->  the
+  17:    1  ->  thing
+  18:    1  ->  this
+  19:    1  ->  tie
+  20:    1  ->  tto
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

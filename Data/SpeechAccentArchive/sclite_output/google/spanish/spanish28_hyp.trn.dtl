@@ -1,0 +1,110 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish28_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  5 ==> now
+   3:    1  ->  a ==> in
+   4:    1  ->  and ==> in
+   5:    1  ->  bob ==> but
+   6:    1  ->  can ==> chickens
+   7:    1  ->  frog ==> the
+   8:    1  ->  peas ==> is
+   9:    1  ->  scoop ==> coupe
+  10:    1  ->  thick ==> pcs562
+  11:    1  ->  toy ==> from
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  is
+   2:    1  ->  toys
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  and
+   2:    1  ->  she
+   3:    1  ->  snow
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  bob
+   6:    1  ->  can
+   7:    1  ->  frog
+   8:    1  ->  peas
+   9:    1  ->  scoop
+  10:    1  ->  thick
+  11:    1  ->  toy
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  in
+   2:    2  ->  this
+   3:    1  ->  but
+   4:    1  ->  chickens
+   5:    1  ->  coupe
+   6:    1  ->  from
+   7:    1  ->  is
+   8:    1  ->  now
+   9:    1  ->  pcs562
+  10:    1  ->  the
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

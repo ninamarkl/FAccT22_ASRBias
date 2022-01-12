@@ -1,0 +1,124 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic33_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =   13.0%   (   9)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  77)
+Aligned words             =           (  78)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bob ==> book
+   3:    1  ->  call ==> cost
+   4:    1  ->  five ==> please
+   5:    1  ->  of ==> a
+   6:    1  ->  of ==> off
+   7:    1  ->  scoop ==> sculpt
+   8:    1  ->  slabs ==> slaps
+   9:    1  ->  snake ==> neck
+  10:    1  ->  spoons ==> off
+  11:    1  ->  stella ==> ella
+  12:    1  ->  these ==> thes
+  13:    1  ->  thick ==> fifty-six
+  14:    1  ->  toy ==> type
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  and
+   2:    1  ->  ever
+   3:    1  ->  go
+   4:    1  ->  into
+   5:    1  ->  kid's
+   6:    1  ->  points
+   7:    1  ->  she
+   8:    1  ->  will
+   9:    1  ->  you
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  peas
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  of
+   2:    1  ->  ask
+   3:    1  ->  bob
+   4:    1  ->  call
+   5:    1  ->  five
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  snake
+   9:    1  ->  spoons
+  10:    1  ->  stella
+  11:    1  ->  these
+  12:    1  ->  thick
+  13:    1  ->  toy
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  off
+   2:    1  ->  a
+   3:    1  ->  asked
+   4:    1  ->  book
+   5:    1  ->  cost
+   6:    1  ->  ella
+   7:    1  ->  fifty-six
+   8:    1  ->  neck
+   9:    1  ->  please
+  10:    1  ->  sculpt
+  11:    1  ->  slaps
+  12:    1  ->  thes
+  13:    1  ->  type
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

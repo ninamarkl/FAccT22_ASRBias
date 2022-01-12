@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\n-rea1-m2_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-m2_01)
+Scores: (#C #S #D #I) 126 37 16 5
+REF:  once upon a time there was a girl called cinderella but everyone called her **** ** CINDERS CINDERS lived with her mother and two stepsisters called lily and ROSA  lily and ROSA  were very unfriendly and THEY WERE LAZY GIRLS     they SPENT all THEIR time BUYING new clothes AND going to parties POOR CINDERS HAD TO   WEAR      all THEIR old hand me downs and she had to do the cleaning ONE DAY A ROYAL       MESSENGER CAME    to ANNOUNCE A BALL the ball WOULD be held at the royal palace in honour of the queen's only son ** prince william LILY   and rosa thought this was divine prince william was gorgeous and HE WAS LOOKING FOR A bride THEY DREAMED of wedding bells when the evening of the ball ARRIVED cinders had to help her sisters get ready they were in a bad mood THEY'D WANTED to buy some new GOWNS   but **** THEIR MOTHER said that they had enough GOWNS SO THEY   started SHOUTING at CINDERS find my jewels YELLED one FIND my HAT   HOWLED the other they wanted ********* HAIRBRUSHES 
+HYP:  once upon a time there was a girl called cinderella but everyone called her SEND AS SOON    AS      lived with her mother and two stepsisters called lily and ROSIE lily and ROSIE were very unfriendly and **** **** **** LAZYGIRLS they SPEND all THAT  time BY     new clothes I'M going to parties **** PLUS    IN  THAT UNDERWEAR all THE   old hand me downs and she had to do the cleaning *** *** * TWELVE-YEAR OLD       MESSAGE to ******** * PAUL the ball WILL  be held at the royal palace in honour of the queen's only son AT prince william LILLEY and rosa thought this was divine prince william was gorgeous and ** *** ******* *** * bride THE  DREAMS  of wedding bells when the evening of the ball ARRIVES cinders had to help her sisters get ready they were in a bad mood DID    WANT   to buy some new ACCOUNT but THEN WHEN  I      said that they had enough ***** ** GROUND started SHOWING  at CINEMAS find my jewels HELD   one BY   my HEART HOW    the other they wanted HAIRBRUSH IT          
+Eval:                                                                             I    I  S       S                                                                 S              S                              D    D    D    S              S         S          S                  S                    D    S       S   S    S             S                                                      D   D   D S           S         S          D        D S             S                                                                   I                 S                                                                       D  D   D       D   D       S    S                                                     S                                                                         S      S                      S           I    S     S                                D     D  S              S           S                      S          S       S     S                            I         S           
+
+>> REF:  HAIRPINS and hairspray 
+>> HYP:  HAPPENS  and hairspray 
+>> Eval: S                      
+
+

@@ -1,0 +1,114 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish34_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and ==> on
+   2:    2  ->  these ==> this
+   3:    1  ->  at ==> had
+   4:    1  ->  five ==> fight
+   5:    1  ->  frog ==> up
+   6:    1  ->  scoop ==> skip
+   7:    1  ->  six ==> see
+   8:    1  ->  slabs ==> laughs
+   9:    1  ->  spoons ==> expose
+  10:    1  ->  thick ==> fixed
+  11:    1  ->  toy ==> for
+  12:    1  ->  wednesday ==> they
+  13:    1  ->  will ==> would
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  once
+   2:    1  ->  tight
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and
+   2:    2  ->  these
+   3:    1  ->  at
+   4:    1  ->  five
+   5:    1  ->  frog
+   6:    1  ->  scoop
+   7:    1  ->  six
+   8:    1  ->  slabs
+   9:    1  ->  spoons
+  10:    1  ->  thick
+  11:    1  ->  toy
+  12:    1  ->  wednesday
+  13:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  on
+   2:    2  ->  this
+   3:    1  ->  expose
+   4:    1  ->  fight
+   5:    1  ->  fixed
+   6:    1  ->  for
+   7:    1  ->  had
+   8:    1  ->  laughs
+   9:    1  ->  see
+  10:    1  ->  skip
+  11:    1  ->  they
+  12:    1  ->  up
+  13:    1  ->  would
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

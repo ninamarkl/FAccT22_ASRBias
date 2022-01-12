@@ -1,0 +1,93 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\hindi\hindi18_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.0%   (   9)
+
+Percent Correct           =   88.4%   (  61)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   87.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  and ==> on
+   2:    1  ->  can ==> khun
+   3:    1  ->  peas ==> peace
+   4:    1  ->  scoop ==> school
+   5:    1  ->  snow ==> no
+   6:    1  ->  spoons ==> points
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  i
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  and
+   2:    1  ->  can
+   3:    1  ->  peas
+   4:    1  ->  scoop
+   5:    1  ->  snow
+   6:    1  ->  spoons
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  on
+   2:    1  ->  khun
+   3:    1  ->  no
+   4:    1  ->  peace
+   5:    1  ->  points
+   6:    1  ->  school
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

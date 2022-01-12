@@ -1,0 +1,125 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese28_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =   14.5%   (  10)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  60)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5 ==> 56
+   2:    1  ->  and ==> in
+   3:    1  ->  bags ==> 3rd
+   4:    1  ->  bob ==> but
+   5:    1  ->  fresh ==> threats
+   6:    1  ->  her ==> google
+   7:    1  ->  peas ==> please
+   8:    1  ->  red ==> in
+   9:    1  ->  slabs ==> in
+  10:    1  ->  snow ==> know
+  11:    1  ->  stella ==> estella
+  12:    1  ->  these ==> this
+  13:    1  ->  thick ==> lives
+  14:    1  ->  will ==> we'll
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  one
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  3
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  can
+   5:    1  ->  into
+   6:    1  ->  maybe
+   7:    1  ->  scoop
+   8:    1  ->  she
+   9:    1  ->  snack
+  10:    1  ->  we
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5
+   2:    1  ->  and
+   3:    1  ->  bags
+   4:    1  ->  bob
+   5:    1  ->  fresh
+   6:    1  ->  her
+   7:    1  ->  peas
+   8:    1  ->  red
+   9:    1  ->  slabs
+  10:    1  ->  snow
+  11:    1  ->  stella
+  12:    1  ->  these
+  13:    1  ->  thick
+  14:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  in
+   2:    1  ->  3rd
+   3:    1  ->  56
+   4:    1  ->  but
+   5:    1  ->  estella
+   6:    1  ->  google
+   7:    1  ->  know
+   8:    1  ->  lives
+   9:    1  ->  please
+  10:    1  ->  this
+  11:    1  ->  threats
+  12:    1  ->  we'll
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

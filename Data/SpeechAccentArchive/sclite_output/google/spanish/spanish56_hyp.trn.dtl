@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish56_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =   14.5%   (  10)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  5 ==> help
+   2:    1  ->  and ==> in
+   3:    1  ->  bob ==> but
+   4:    1  ->  can ==> chicken
+   5:    1  ->  frog ==> toys
+   6:    1  ->  of ==> a
+   7:    1  ->  scoop ==> soup
+   8:    1  ->  slabs ==> labs
+   9:    1  ->  spoons ==> piece
+  10:    1  ->  these ==> azkaban
+  11:    1  ->  these ==> this
+  12:    1  ->  thick ==> ys56
+  13:    1  ->  things ==> distance
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  ask
+   3:    1  ->  bring
+   4:    1  ->  her
+   5:    1  ->  peas
+   6:    1  ->  she
+   7:    1  ->  small
+   8:    1  ->  snow
+   9:    1  ->  to
+  10:    1  ->  toy
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  and
+   4:    1  ->  bob
+   5:    1  ->  can
+   6:    1  ->  frog
+   7:    1  ->  of
+   8:    1  ->  scoop
+   9:    1  ->  slabs
+  10:    1  ->  spoons
+  11:    1  ->  thick
+  12:    1  ->  things
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  azkaban
+   3:    1  ->  but
+   4:    1  ->  chicken
+   5:    1  ->  distance
+   6:    1  ->  help
+   7:    1  ->  in
+   8:    1  ->  labs
+   9:    1  ->  piece
+  10:    1  ->  soup
+  11:    1  ->  this
+  12:    1  ->  toys
+  13:    1  ->  ys56
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

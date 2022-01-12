@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  5 ==> peace
+   2:    1  ->  at ==> and
+   3:    1  ->  bob ==> but
+   4:    1  ->  bring ==> green
+   5:    1  ->  can ==> can't
+   6:    1  ->  fresh ==> or
+   7:    1  ->  her ==> hair
+   8:    1  ->  kids ==> keys
+   9:    1  ->  peas ==> no
+  10:    1  ->  scoop ==> escape
+  11:    1  ->  slabs ==> slough
+  12:    1  ->  snow ==> francis
+  13:    1  ->  stella ==> estella
+  14:    1  ->  these ==> teas
+  15:    1  ->  these ==> this
+  16:    1  ->  thick ==> 56
+  17:    1  ->  we ==> green
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  of
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  at
+   4:    1  ->  bob
+   5:    1  ->  bring
+   6:    1  ->  can
+   7:    1  ->  fresh
+   8:    1  ->  her
+   9:    1  ->  kids
+  10:    1  ->  peas
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  snow
+  14:    1  ->  stella
+  15:    1  ->  thick
+  16:    1  ->  we
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  green
+   2:    1  ->  56
+   3:    1  ->  and
+   4:    1  ->  but
+   5:    1  ->  can't
+   6:    1  ->  escape
+   7:    1  ->  estella
+   8:    1  ->  francis
+   9:    1  ->  hair
+  10:    1  ->  keys
+  11:    1  ->  no
+  12:    1  ->  or
+  13:    1  ->  peace
+  14:    1  ->  slough
+  15:    1  ->  teas
+  16:    1  ->  this
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

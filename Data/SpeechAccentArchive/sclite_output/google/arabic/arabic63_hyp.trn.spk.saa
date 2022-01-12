@@ -1,0 +1,109 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic63_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =   26.1%   (  18)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  51)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  5 ==> five
+   2:    1  ->  a ==> up
+   3:    1  ->  for ==> of
+   4:    1  ->  slabs ==> 5-6
+   5:    1  ->  spoons ==> pounds
+   6:    1  ->  thick ==> things
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  we
+   2:    1  ->  a
+   3:    1  ->  also
+   4:    1  ->  and
+   5:    1  ->  at
+   6:    1  ->  bob
+   7:    1  ->  can
+   8:    1  ->  go
+   9:    1  ->  her
+  10:    1  ->  meet
+  11:    1  ->  need
+  12:    1  ->  plastic
+  13:    1  ->  scoop
+  14:    1  ->  she
+  15:    1  ->  small
+  16:    1  ->  snake
+  17:    1  ->  will
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  for
+   4:    1  ->  slabs
+   5:    1  ->  spoons
+   6:    1  ->  thick
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  5-6
+   2:    1  ->  five
+   3:    1  ->  of
+   4:    1  ->  pounds
+   5:    1  ->  things
+   6:    1  ->  up
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

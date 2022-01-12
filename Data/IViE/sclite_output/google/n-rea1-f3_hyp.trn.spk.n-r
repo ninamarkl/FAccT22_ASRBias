@@ -1,0 +1,227 @@
+SCORING FOR SPEAKER: n-r
+     of google\n-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.0%   (  72)
+
+Percent Correct           =   61.1%   ( 110)
+
+Percent Substitution      =   27.2%   (  49)
+Percent Deletions         =   11.7%   (  21)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   60.0%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 161)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    1  ->  a ==> i
+   2:    1  ->  a ==> pronouncer
+   3:    1  ->  and ==> call
+   4:    1  ->  and ==> lillian
+   5:    1  ->  and ==> than
+   6:    1  ->  buying ==> by
+   7:    1  ->  cinders ==> send
+   8:    1  ->  cinders ==> us
+   9:    1  ->  downs ==> jones
+  10:    1  ->  dreamed ==> dreams
+  11:    1  ->  evening ==> evenings
+  12:    1  ->  find ==> dlfifteen
+  13:    1  ->  girls ==> lazygirls
+  14:    1  ->  gowns ==> guns
+  15:    1  ->  had ==> shut
+  16:    1  ->  had ==> singers
+  17:    1  ->  hairbrushes ==> hair
+  18:    1  ->  hairpins ==> pins
+  19:    1  ->  hand ==> level
+  20:    1  ->  hat ==> heart
+  21:    1  ->  her ==> them
+  22:    1  ->  howled ==> how
+  23:    1  ->  lazy ==> will
+  24:    1  ->  lily ==> groza
+  25:    1  ->  lived ==> live
+  26:    1  ->  me ==> tom
+  27:    1  ->  mother ==> more
+  28:    1  ->  one ==> jules
+  29:    1  ->  rosa ==> liliana
+  30:    1  ->  rosa ==> rose
+  31:    1  ->  royal ==> won't
+  32:    1  ->  s ==> mothers
+  33:    1  ->  shouting ==> showing
+  34:    1  ->  sisters ==> sister's
+  35:    1  ->  so ==> guns
+  36:    1  ->  spent ==> spend
+  37:    1  ->  started ==> start
+  38:    1  ->  their ==> that
+  39:    1  ->  they ==> their
+  40:    1  ->  they ==> to
+  41:    1  ->  they ==> you
+  42:    1  ->  to ==> that
+  43:    1  ->  to ==> the
+  44:    1  ->  wanted ==> brushes
+  45:    1  ->  wanted ==> want
+  46:    1  ->  wear ==> are
+  47:    1  ->  were ==> are
+  48:    1  ->  william ==> when
+  49:    1  ->  would ==> will
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  send
+   2:    1  ->  us
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  cinders
+   2:    2  ->  lily
+   3:    2  ->  to
+   4:    1  ->  announce
+   5:    1  ->  called
+   6:    1  ->  gorgeous
+   7:    1  ->  gowns
+   8:    1  ->  had
+   9:    1  ->  he
+  10:    1  ->  jewels
+  11:    1  ->  mother
+  12:    1  ->  old
+  13:    1  ->  poor
+  14:    1  ->  she
+  15:    1  ->  their
+  16:    1  ->  they
+  17:    1  ->  were
+  18:    1  ->  yelled
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  and
+   2:    3  ->  they
+   3:    2  ->  a
+   4:    2  ->  cinders
+   5:    2  ->  had
+   6:    2  ->  rosa
+   7:    2  ->  to
+   8:    2  ->  wanted
+   9:    1  ->  buying
+  10:    1  ->  downs
+  11:    1  ->  dreamed
+  12:    1  ->  evening
+  13:    1  ->  find
+  14:    1  ->  girls
+  15:    1  ->  gowns
+  16:    1  ->  hairbrushes
+  17:    1  ->  hairpins
+  18:    1  ->  hand
+  19:    1  ->  hat
+  20:    1  ->  her
+  21:    1  ->  howled
+  22:    1  ->  lazy
+  23:    1  ->  lily
+  24:    1  ->  lived
+  25:    1  ->  me
+  26:    1  ->  mother
+  27:    1  ->  one
+  28:    1  ->  royal
+  29:    1  ->  s
+  30:    1  ->  shouting
+  31:    1  ->  sisters
+  32:    1  ->  so
+  33:    1  ->  spent
+  34:    1  ->  started
+  35:    1  ->  their
+  36:    1  ->  wear
+  37:    1  ->  were
+  38:    1  ->  william
+  39:    1  ->  would
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  are
+   2:    2  ->  guns
+   3:    2  ->  that
+   4:    2  ->  will
+   5:    1  ->  brushes
+   6:    1  ->  by
+   7:    1  ->  call
+   8:    1  ->  dlfifteen
+   9:    1  ->  dreams
+  10:    1  ->  evenings
+  11:    1  ->  groza
+  12:    1  ->  hair
+  13:    1  ->  heart
+  14:    1  ->  how
+  15:    1  ->  i
+  16:    1  ->  jones
+  17:    1  ->  jules
+  18:    1  ->  lazygirls
+  19:    1  ->  level
+  20:    1  ->  liliana
+  21:    1  ->  lillian
+  22:    1  ->  live
+  23:    1  ->  more
+  24:    1  ->  mothers
+  25:    1  ->  pins
+  26:    1  ->  pronouncer
+  27:    1  ->  rose
+  28:    1  ->  send
+  29:    1  ->  showing
+  30:    1  ->  shut
+  31:    1  ->  singers
+  32:    1  ->  sister's
+  33:    1  ->  spend
+  34:    1  ->  start
+  35:    1  ->  than
+  36:    1  ->  the
+  37:    1  ->  their
+  38:    1  ->  them
+  39:    1  ->  to
+  40:    1  ->  tom
+  41:    1  ->  us
+  42:    1  ->  want
+  43:    1  ->  when
+  44:    1  ->  won't
+  45:    1  ->  you
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

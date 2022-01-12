@@ -1,0 +1,114 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\hindi\hindi5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  at ==> today
+   2:    1  ->  brother ==> president
+   3:    1  ->  five ==> fry
+   4:    1  ->  her ==> a
+   5:    1  ->  her ==> metre
+   6:    1  ->  of ==> off
+   7:    1  ->  snack ==> snake
+   8:    1  ->  spoons ==> points
+   9:    1  ->  the ==> a
+  10:    1  ->  thick ==> tick
+  11:    1  ->  train ==> different
+  12:    1  ->  wednesday ==> when
+  13:    1  ->  will ==> we'll
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  meet
+   2:    1  ->  red
+   3:    1  ->  toy
+   4:    1  ->  we
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  her
+   2:    1  ->  at
+   3:    1  ->  brother
+   4:    1  ->  five
+   5:    1  ->  of
+   6:    1  ->  snack
+   7:    1  ->  spoons
+   8:    1  ->  the
+   9:    1  ->  thick
+  10:    1  ->  train
+  11:    1  ->  wednesday
+  12:    1  ->  will
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    1  ->  different
+   3:    1  ->  fry
+   4:    1  ->  metre
+   5:    1  ->  off
+   6:    1  ->  points
+   7:    1  ->  president
+   8:    1  ->  snake
+   9:    1  ->  tick
+  10:    1  ->  today
+  11:    1  ->  we'll
+  12:    1  ->  when
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

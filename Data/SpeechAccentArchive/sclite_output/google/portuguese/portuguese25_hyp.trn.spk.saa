@@ -1,0 +1,111 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese25_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a ==> as
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> in
+   4:    1  ->  can ==> chicken
+   5:    1  ->  of ==> after
+   6:    1  ->  snack ==> naked
+   7:    1  ->  snake ==> place
+   8:    1  ->  stella ==> and
+   9:    1  ->  store ==> stone
+  10:    1  ->  the ==> father
+  11:    1  ->  thick ==> 56
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  spell
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  5
+   2:    1  ->  for
+   3:    1  ->  plastic
+   4:    1  ->  she
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  can
+   4:    1  ->  of
+   5:    1  ->  snack
+   6:    1  ->  snake
+   7:    1  ->  stella
+   8:    1  ->  store
+   9:    1  ->  the
+  10:    1  ->  thick
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  56
+   2:    1  ->  after
+   3:    1  ->  and
+   4:    1  ->  as
+   5:    1  ->  chicken
+   6:    1  ->  father
+   7:    1  ->  in
+   8:    1  ->  naked
+   9:    1  ->  place
+  10:    1  ->  stone
+  11:    1  ->  the
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

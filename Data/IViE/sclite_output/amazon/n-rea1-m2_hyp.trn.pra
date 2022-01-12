@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\n-rea1-m2_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-m2_01)
+Scores: (#C #S #D #I) 143 33 3 7
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived **** *** with her MOTHER and two stepsisters called LILY AND     rosa LILY AND     ROSA were very unfriendly and THEY    WERE   LAZY girls they spent all THEIR time BUYING new clothes and going to parties POOR     CINDERS HAD to wear all THEIR old hand me downs and she had to do the CLEANING one DAY  a royal messenger came to announce A   ball the ball WOULD be held at the royal palace in honour of the queen's only son ** prince william lily and **** ROSA thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball ARRIVED CINDERS  had to help her sisters get ready they were in a bad mood THEY'D WANTED to buy some new gowns *** BUT  THEIR MOTHER said that they had enough GOWNS   so they started SHOUTING at **** CINDERS find my jewels yelled one find my HAT   HOWLED the other they wanted **** 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived WITH HIM with her ****** and two stepsisters called **** LILLIAN rosa **** LILLIAN ROSE were very unfriendly and THEY'RE REALLY EASY girls they spent all THAT  time BUY    new clothes and going to parties OPPOSING US      HOW to wear all THE   old hand me downs and she had to do the CLEAN    one DEER a royal messenger came to announce THE ball the ball WILL  be held at the royal palace in honour of the queen's only son OF prince william lily and ROSE I    thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball ARRIVES SENDAI'S had to help her sisters get ready they were in a bad mood DID    WANT   to buy some new gowns PUT THEM WITH  US     said that they had enough GROUNDS so they started SHOPPING at SEND US      find my jewels yelled one find my HEART HOLD   the other they wanted HAIR 
+Eval:                                                                                                   I    I            D                                 D    S            D    S       S                             S       S      S                         S          S                                       S        S       S               S                                             S            S                                       S                 S                                                                   I                          I    S                                                                                                                                                  S       S                                                                  S      S                            I   S    S     S                                S                       S           I    S                                         S     S                            I    
+
+>> REF:  HAIRBRUSHES HAIRPINS AND HAIRSPRAY 
+>> HYP:  BRUSHES     HAPPENS  IN  HESPERIA  
+>> Eval: S           S        S   S         
+
+

@@ -1,0 +1,122 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish27_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bags ==> backs
+   2:    1  ->  blue ==> laptop
+   3:    1  ->  bob ==> bra
+   4:    1  ->  cheese ==> roaches
+   5:    1  ->  frog ==> from
+   6:    1  ->  her ==> hair
+   7:    1  ->  meet ==> make
+   8:    1  ->  of ==> figures
+   9:    1  ->  red ==> right
+  10:    1  ->  scoop ==> cook
+  11:    1  ->  snow ==> fresno
+  12:    1  ->  spoons ==> sixbones
+  13:    1  ->  these ==> this
+  14:    1  ->  train ==> trainer
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  6
+   2:    1  ->  at
+   3:    1  ->  brother
+   4:    1  ->  fresh
+   5:    1  ->  slabs
+   6:    1  ->  the
+   7:    1  ->  thick
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bags
+   2:    1  ->  blue
+   3:    1  ->  bob
+   4:    1  ->  cheese
+   5:    1  ->  frog
+   6:    1  ->  her
+   7:    1  ->  meet
+   8:    1  ->  of
+   9:    1  ->  red
+  10:    1  ->  scoop
+  11:    1  ->  snow
+  12:    1  ->  spoons
+  13:    1  ->  these
+  14:    1  ->  train
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  backs
+   2:    1  ->  bra
+   3:    1  ->  cook
+   4:    1  ->  figures
+   5:    1  ->  fresno
+   6:    1  ->  from
+   7:    1  ->  hair
+   8:    1  ->  laptop
+   9:    1  ->  make
+  10:    1  ->  right
+  11:    1  ->  roaches
+  12:    1  ->  sixbones
+  13:    1  ->  this
+  14:    1  ->  trainer
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,107 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =   13.0%   (   9)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  77)
+Aligned words             =           (  78)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  of ==> are
+   2:    1  ->  of ==> ofthe
+   3:    1  ->  slabs ==> laps
+   4:    1  ->  snake ==> snack
+   5:    1  ->  spoons ==> schools
+   6:    1  ->  thick ==> fifty-six
+   7:    1  ->  toy ==> tie
+   8:    1  ->  wednesday ==> day
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  from
+   2:    1  ->  her
+   3:    1  ->  me
+   4:    1  ->  of
+   5:    1  ->  stay
+   6:    1  ->  stole
+   7:    1  ->  to
+   8:    1  ->  west
+   9:    1  ->  when
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  five
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  of
+   2:    1  ->  slabs
+   3:    1  ->  snake
+   4:    1  ->  spoons
+   5:    1  ->  thick
+   6:    1  ->  toy
+   7:    1  ->  wednesday
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  are
+   2:    1  ->  day
+   3:    1  ->  fifty-six
+   4:    1  ->  laps
+   5:    1  ->  ofthe
+   6:    1  ->  schools
+   7:    1  ->  snack
+   8:    1  ->  tie
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

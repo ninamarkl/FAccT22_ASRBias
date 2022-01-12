@@ -1,0 +1,84 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\english_uk\english14_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.2%   (   5)
+
+Percent Correct           =   94.2%   (  65)
+
+Percent Substitution      =    5.8%   (   4)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   92.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  her ==> a
+   2:    1  ->  ask ==> asked
+   3:    1  ->  can ==> could
+     -------
+         4
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  to
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  her
+   2:    1  ->  ask
+   3:    1  ->  can
+     -------
+         4
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  a
+   2:    1  ->  asked
+   3:    1  ->  could
+     -------
+         4
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

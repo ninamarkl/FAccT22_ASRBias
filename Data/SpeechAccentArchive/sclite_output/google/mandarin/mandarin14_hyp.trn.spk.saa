@@ -1,0 +1,134 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin14_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   71.0%   (  49)
+
+Percent Correct           =   29.0%   (  20)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =   59.4%   (  41)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   29.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  28)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and ==> school
+   2:    1  ->  her ==> grow
+   3:    1  ->  the ==> mead
+   4:    1  ->  these ==> movie
+   5:    1  ->  things ==> scenes
+   6:    1  ->  we ==> in
+   7:    1  ->  will ==> to
+   8:    1  ->  with ==> which
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  for
+   4:    2  ->  her
+   5:    2  ->  of
+   6:    1  ->  3
+   7:    1  ->  5
+   8:    1  ->  6
+   9:    1  ->  at
+  10:    1  ->  bags
+  11:    1  ->  big
+  12:    1  ->  blue
+  13:    1  ->  bob
+  14:    1  ->  brother
+  15:    1  ->  cheese
+  16:    1  ->  fresh
+  17:    1  ->  frog
+  18:    1  ->  into
+  19:    1  ->  kids
+  20:    1  ->  maybe
+  21:    1  ->  meet
+  22:    1  ->  peas
+  23:    1  ->  plastic
+  24:    1  ->  red
+  25:    1  ->  scoop
+  26:    1  ->  slabs
+  27:    1  ->  small
+  28:    1  ->  snack
+  29:    1  ->  snow
+  30:    1  ->  spoons
+  31:    1  ->  the
+  32:    1  ->  these
+  33:    1  ->  thick
+  34:    1  ->  things
+  35:    1  ->  toy
+  36:    1  ->  wednesday
+     -------
+        41
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  her
+   3:    1  ->  the
+   4:    1  ->  these
+   5:    1  ->  things
+   6:    1  ->  we
+   7:    1  ->  will
+   8:    1  ->  with
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  grow
+   2:    1  ->  in
+   3:    1  ->  mead
+   4:    1  ->  movie
+   5:    1  ->  scenes
+   6:    1  ->  school
+   7:    1  ->  to
+   8:    1  ->  which
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,99 @@
+SCORING FOR SPEAKER: saa
+     of english_uk\english363_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =    4.3%   (   3)
+Percent Deletions         =   26.1%   (  18)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  51)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  bags ==> bag
+   2:    1  ->  her ==> a
+   3:    1  ->  thick ==> 56
+     -------
+         3
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  her
+   2:    2  ->  we
+   3:    1  ->  5
+   4:    1  ->  6
+   5:    1  ->  ask
+   6:    1  ->  bring
+   7:    1  ->  can
+   8:    1  ->  from
+   9:    1  ->  of
+  10:    1  ->  scoop
+  11:    1  ->  she
+  12:    1  ->  spoons
+  13:    1  ->  store
+  14:    1  ->  the
+  15:    1  ->  these
+  16:    1  ->  to
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  bags
+   2:    1  ->  her
+   3:    1  ->  thick
+     -------
+         3
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  56
+   2:    1  ->  a
+   3:    1  ->  bag
+     -------
+         3
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

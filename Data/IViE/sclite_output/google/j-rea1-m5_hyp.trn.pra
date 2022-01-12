@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\j-rea1-m5_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-m5_01)
+Scores: (#C #S #D #I) 147 22 18 4
+REF:  once upon a time there was a girl called cinderella but everyone knew her as ******* **** CINDERS CINDERS LIVED with her mother and two stepsisters CALLED LEA  and rosa or rose lea and ROSA were very unfriendly and WERE LAZY girls they SPENT all THEIR time buying new clothes AND going to parties POOR cinders HAD had to wear ALL THEIR OLD THEIR OLD hand me downs *** and she had to clean TO do the cleaning one day a ROYAL messenger CAME to announce a ball the ball would be held at the royal palace in honour of the queen's only son prince william LEA AND ROSE THOUGHT this was divine prince william was gorgeous and he was looking for a bride they dreamed of a WEDDING BELLS when the evening of the ball ARRIVED cinders had to help her SISTERS  get ready they were in a bad mood they'd wanted to buy some new GOWNS but THEIR mother said that they had enough GOWNS so they started shouting at cinders find my jewellery YELLED ONE FIND MY HAT YELLED    the other they wanted **** HAIRBRUSHES 
+HYP:  once upon a time there was a girl called cinderella but everyone knew her as SINGLES SEND US      A       LIFT  with her mother and two stepsisters CALL   LEAH and rosa or rose lea and ROSE were very unfriendly and **** **** girls they SPEND all THE   time buying new clothes I'M going to parties FOR  cinders *** had to wear *** ***** *** ***** THE hand me downs AND and she had to clean ** do the cleaning one day a ROLL  messenger **** to announce a ball the ball would be held at the royal palace in honour of the queen's only son prince william *** *** **** ANDROS  this was divine prince william was gorgeous and he was looking for a bride they dreamed of a ******* WAY   when the evening of the ball ARRIVE  cinders had to help her SISTER'S get ready they were in a bad mood they'd wanted to buy some new GUNS  but THE   mother said that they had enough GAL   so they started shouting at cinders find my jewellery ****** *** **** ** *** YDFIFTEEN the other they wanted HAIR BRUSHES     
+Eval:                                                                              I       I    S       S       S                                         S      S                             S                             D    D               S         S                             S                    S            D               D   D     D   D     S                 I                        D                            S               D                                                                                                                   D   D   D    S                                                                                                    D       S                                  S                               S                                                                        S         S                                      S                                                           D      D   D    D  D   S                               I    S           
+
+>> REF:  HAIRPINS and hairspray 
+>> HYP:  HAIRPIN  and hairspray 
+>> Eval: S                      
+
+

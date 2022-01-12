@@ -1,0 +1,175 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish40_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   63.8%   (  44)
+
+Percent Correct           =   36.2%   (  25)
+
+Percent Substitution      =   44.9%   (  31)
+Percent Deletions         =   18.8%   (  13)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   36.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  56)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  3 ==> to
+   2:    1  ->  5 ==> please
+   3:    1  ->  6 ==> fn2
+   4:    1  ->  a ==> pop
+   5:    1  ->  also ==> the
+   6:    1  ->  and ==> every
+   7:    1  ->  and ==> neck
+   8:    1  ->  bags ==> attacks
+   9:    1  ->  can ==> shaking
+  10:    1  ->  frog ==> day
+  11:    1  ->  her ==> was
+  12:    1  ->  into ==> thing
+  13:    1  ->  meet ==> meeting
+  14:    1  ->  need ==> bride
+  15:    1  ->  of ==> expensive
+  16:    1  ->  of ==> lovely
+  17:    1  ->  peas ==> no
+  18:    1  ->  plastic ==> on
+  19:    1  ->  red ==> your
+  20:    1  ->  scoop ==> his
+  21:    1  ->  slabs ==> this
+  22:    1  ->  small ==> wears
+  23:    1  ->  snack ==> stand
+  24:    1  ->  snake ==> his
+  25:    1  ->  spoons ==> so
+  26:    1  ->  stella ==> estella
+  27:    1  ->  store ==> civic
+  28:    1  ->  these ==> food
+  29:    1  ->  thick ==> buy
+  30:    1  ->  things ==> this
+  31:    1  ->  wednesday ==> there
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  her
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  from
+   5:    1  ->  she
+   6:    1  ->  snow
+   7:    1  ->  these
+   8:    1  ->  things
+   9:    1  ->  toy
+  10:    1  ->  we
+  11:    1  ->  will
+  12:    1  ->  with
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  and
+   2:    2  ->  of
+   3:    1  ->  3
+   4:    1  ->  5
+   5:    1  ->  6
+   6:    1  ->  a
+   7:    1  ->  also
+   8:    1  ->  bags
+   9:    1  ->  can
+  10:    1  ->  frog
+  11:    1  ->  her
+  12:    1  ->  into
+  13:    1  ->  meet
+  14:    1  ->  need
+  15:    1  ->  peas
+  16:    1  ->  plastic
+  17:    1  ->  red
+  18:    1  ->  scoop
+  19:    1  ->  slabs
+  20:    1  ->  small
+  21:    1  ->  snack
+  22:    1  ->  snake
+  23:    1  ->  spoons
+  24:    1  ->  stella
+  25:    1  ->  store
+  26:    1  ->  these
+  27:    1  ->  thick
+  28:    1  ->  things
+  29:    1  ->  wednesday
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  his
+   2:    2  ->  this
+   3:    1  ->  attacks
+   4:    1  ->  bride
+   5:    1  ->  buy
+   6:    1  ->  civic
+   7:    1  ->  day
+   8:    1  ->  estella
+   9:    1  ->  every
+  10:    1  ->  expensive
+  11:    1  ->  fn2
+  12:    1  ->  food
+  13:    1  ->  lovely
+  14:    1  ->  meeting
+  15:    1  ->  neck
+  16:    1  ->  no
+  17:    1  ->  on
+  18:    1  ->  please
+  19:    1  ->  pop
+  20:    1  ->  shaking
+  21:    1  ->  so
+  22:    1  ->  stand
+  23:    1  ->  the
+  24:    1  ->  there
+  25:    1  ->  thing
+  26:    1  ->  to
+  27:    1  ->  was
+  28:    1  ->  wears
+  29:    1  ->  your
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

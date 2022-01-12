@@ -1,0 +1,106 @@
+SCORING FOR SPEAKER: saa
+     of italian\italian11_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  frog ==> prop
+   2:    1  ->  her ==> matter
+   3:    1  ->  her ==> sweetheart
+   4:    1  ->  red ==> 3rd
+   5:    1  ->  slabs ==> laps
+   6:    1  ->  snow ==> no
+   7:    1  ->  thick ==> 56
+   8:    1  ->  things ==> this
+   9:    1  ->  with ==> thing
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  3
+   2:    1  ->  5
+   3:    1  ->  her
+   4:    1  ->  meet
+   5:    1  ->  need
+   6:    1  ->  these
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  her
+   2:    1  ->  frog
+   3:    1  ->  red
+   4:    1  ->  slabs
+   5:    1  ->  snow
+   6:    1  ->  thick
+   7:    1  ->  things
+   8:    1  ->  with
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  3rd
+   2:    1  ->  56
+   3:    1  ->  laps
+   4:    1  ->  matter
+   5:    1  ->  no
+   6:    1  ->  prop
+   7:    1  ->  sweetheart
+   8:    1  ->  thing
+   9:    1  ->  this
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,122 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin59_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5 ==> piece
+   2:    1  ->  6 ==> six
+   3:    1  ->  and ==> snack
+   4:    1  ->  for ==> of
+   5:    1  ->  from ==> form
+   6:    1  ->  peas ==> snowing
+   7:    1  ->  scoop ==> screw
+   8:    1  ->  slabs ==> spellings
+   9:    1  ->  small ==> s'more
+  10:    1  ->  spoons ==> points
+  11:    1  ->  store ==> story
+  12:    1  ->  thick ==> 566
+  13:    1  ->  toy ==> tough
+  14:    1  ->  we ==> we're
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  into
+   2:    1  ->  logo
+   3:    1  ->  made
+   4:    1  ->  the
+   5:    1  ->  to
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  snake
+   2:    1  ->  snow
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  and
+   4:    1  ->  for
+   5:    1  ->  from
+   6:    1  ->  peas
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  small
+  10:    1  ->  spoons
+  11:    1  ->  store
+  12:    1  ->  thick
+  13:    1  ->  toy
+  14:    1  ->  we
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  566
+   2:    1  ->  form
+   3:    1  ->  of
+   4:    1  ->  piece
+   5:    1  ->  points
+   6:    1  ->  s'more
+   7:    1  ->  screw
+   8:    1  ->  six
+   9:    1  ->  snack
+  10:    1  ->  snowing
+  11:    1  ->  spellings
+  12:    1  ->  story
+  13:    1  ->  tough
+  14:    1  ->  we're
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

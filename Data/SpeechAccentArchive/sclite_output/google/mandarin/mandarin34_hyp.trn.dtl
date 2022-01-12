@@ -1,0 +1,107 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin34_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.6%   (  28)
+
+Percent Correct           =   59.4%   (  41)
+
+Percent Substitution      =    5.8%   (   4)
+Percent Deletions         =   34.8%   (  24)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   59.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  45)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  kids ==> keys
+   2:    1  ->  meet ==> make
+   3:    1  ->  of ==> please
+   4:    1  ->  these ==> is
+     -------
+         4
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  her
+   2:    2  ->  we
+   3:    1  ->  5
+   4:    1  ->  6
+   5:    1  ->  also
+   6:    1  ->  ask
+   7:    1  ->  bob
+   8:    1  ->  bring
+   9:    1  ->  brother
+  10:    1  ->  can
+  11:    1  ->  fresh
+  12:    1  ->  go
+  13:    1  ->  need
+  14:    1  ->  of
+  15:    1  ->  peas
+  16:    1  ->  scoop
+  17:    1  ->  slabs
+  18:    1  ->  snow
+  19:    1  ->  spoons
+  20:    1  ->  these
+  21:    1  ->  thick
+  22:    1  ->  to
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  kids
+   2:    1  ->  meet
+   3:    1  ->  of
+   4:    1  ->  these
+     -------
+         4
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  is
+   2:    1  ->  keys
+   3:    1  ->  make
+   4:    1  ->  please
+     -------
+         4
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

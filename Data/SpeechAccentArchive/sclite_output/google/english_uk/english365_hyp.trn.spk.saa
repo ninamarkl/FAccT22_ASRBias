@@ -1,0 +1,98 @@
+SCORING FOR SPEAKER: saa
+     of english_uk\english365_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and ==> are
+   2:    1  ->  her ==> metre
+   3:    1  ->  she ==> you
+   4:    1  ->  slabs ==> loads
+   5:    1  ->  spoons ==> planes
+   6:    1  ->  thick ==> 56
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  5
+   2:    1  ->  ask
+   3:    1  ->  bring
+   4:    1  ->  her
+   5:    1  ->  meet
+   6:    1  ->  to
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  her
+   3:    1  ->  she
+   4:    1  ->  slabs
+   5:    1  ->  spoons
+   6:    1  ->  thick
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  56
+   2:    1  ->  are
+   3:    1  ->  loads
+   4:    1  ->  metre
+   5:    1  ->  planes
+   6:    1  ->  you
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

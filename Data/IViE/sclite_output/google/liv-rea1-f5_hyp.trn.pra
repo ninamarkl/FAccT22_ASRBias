@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\liv-rea1-f5_hyp.trn
+
+Speakers: 
+    0:  liv
+
+Speaker sentences   0:  liv   #utts: 1
+id: (liv-rea1-f5_01)
+Scores: (#C #S #D #I) 108 46 28 3
+REF:  once upon a time there was a girl called cinderella BUT EVERYONE CALLED HER CINDERS CIND    CINDERS   LIVED with HER   mother and two stepsisters called lily and ROSA LILY AND   ROSA    WERE very unfriendly and they were LAZY girls THEY SPENT  all THEIR time buying new clothes and going to parties POOR CINDERS HAD TO    WEAR     THEIR old hand me downs and she HAD  to do THE cleaning one day A ROYAL messenger CAME TO  ANNOUNCE A   BALL CAME TO  ANNOUNCE A  BALL  the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND ROSA thought THIS was divine prince william was gorgeous AND looking for a bride THEY DREAMED of wedding bells when THE evening of the ball arrived CINDERS HAD    to help HER SISTERS  get ready THEY WERE  in a bad mood THEY'D wanted to buy a new GOWN BUT THEIR MOTHER said that they had enough GOWNS so they STARTED SHOUTING AT CINDERS find MY JEWELS  YELLED one FIND MY HAT HOWLED the other *** ***** ** THEY WANTED 
+HYP:  once upon a time there was a girl called cinderella *** ******** ****** *** SEVEN   QUALITY STANDARDS LIVE  with THEIR mother and two stepsisters called lily and **** **** ROSIE LILLIAN ROSE very unfriendly and they were **** girls HE   SPENDS all THE   time buying new clothes and going to parties **** ******* FOR SINCE SATURDAY THE   old hand me downs and she HAVE to do *** cleaning one day * OR    messenger **** CAN YOU      TOO AND  CAN  YOU TURN     ON SYBIL the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** *** **** thought IT   was divine prince william was gorgeous *** looking for a bride THE  DREAMS  of wedding bells when *** evening of the ball arrived SINCE   DECIDE to help MY  SISTER'S get ready **** THERE in a bad mood THEY   wanted to buy a new **** CAR THEN  THEY   said that they had enough G     so they ******* ******** ** ******* find ** MODULES YOURS  one **** ** *** ****** the other DAY WANTS TO HEAR BUT    
+Eval:                                                     D   D        D      D   S       S       S         S          S                                                D    D    S     S       S                                  D          S    S          S                                                  D    D       S   S     S        S                               S          D                    D S               D    S   S        S   S    S    S   S        S  S              S                                                                                  D    D   D            S                                           D                       S    S                             D                               S       S              S   S                  D    S                   S                          D    S   S     S                                S             D       D        D  D            D  S       S          D    D  D   D                I   I     I  S    S      
+
+>> REF:  HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  IT          HAPPENS  and hairspray 
+>> Eval: S           S                      
+
+

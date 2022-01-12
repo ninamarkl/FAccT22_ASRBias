@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\d-rea1-m3_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-m3_01)
+Scores: (#C #S #D #I) 132 32 17 2
+REF:  once upon a time there was a girl called cinderella BUT EVERYONE CALLED   HER     CINDERS CINDERS LIVED with her mother and two **** ****** STEPSISTERS called lily and ROSA LILY  AND     ROSA WERE very unfriendly and they were lazy girls they spent all THEIR time BUYING new clothes and going to parties POOR CINDERS had to wear all their old hand me downs and she had to do all the cleaning one day A royal messenger came to announce A BALL  the ball would be held in the royal palace in honour of the queen's only son prince william LILY AND ROSA THOUGHT THIS WAS DIVINE PRINCE william was gorgeous and HE  was looking for a bride they DREAMED of wedding bells when the EVENING OF       the ball ARRIVED CINDERS had to help her SISTERS  get ready THEY WERE  in a bad mood THEY'D wanted to buy some new GOWNS but their mother said THAT they had had enough GOWNS so they started shouting at cinders find MY      JEWELS YELLED one find my HAT HOWLED THE     other they wanted HAIRBRUSHES 
+HYP:  once upon a time there was a girl called cinderella *** ******** WHATEVER COLOURS SANDERS SANDERS LIVE  with her mother and two STEP SISTER IS          called lily and **** ROSIE LILLIAN ROSE ARE  very unfriendly and they were lazy girls they spent all THE   time BY     new clothes and going to parties FOR  SANDERS had to wear all their old hand me downs and she had to do all the cleaning one day * royal messenger came to announce * ABOUT the ball would be held in the royal palace in honour of the queen's only son prince william **** *** **** ******* **** *** ****** ****** william was gorgeous and YOU was looking for a bride they DREAM   of wedding bells when the ******* EVENINGS the ball ARRIVE  CENTRES had to help her SISTER'S get ready **** THERE in a bad mood THEY   wanted to buy some new GAMES but their mother said **** they had had enough GIRLS so they started shouting at cinders find MODULES THE    OLD    one find my *** HEART  HEALTHY other they wanted HAIR        
+Eval:                                                     D   D        S        S       S       S       S                             I    I      S                           D    S     S       S    S                                                            S          S                                       S    S                                                                                          D                                  D S                                                                                                 D    D   D    D       D    D   D      D                               S                                S                                 D       S                 S       S                       S                  D    S                   S                             S                           D                        S                                              S       S      S                  D   S      S                         S           
+
+>> REF:  HAIRPINS and hairspray 
+>> HYP:  BRUSHES  and hairspray 
+>> Eval: S                      
+
+

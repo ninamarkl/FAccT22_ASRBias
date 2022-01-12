@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\b-rea1-f6_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-f6_01)
+Scores: (#C #S #D #I) 91 26 65 3
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders CINDERS LIVED with her mother and two stepsisters called LILY AND ROSA lily and ROSA  WERE  very unfriendly and they were lazy GIRLS THEY SPENT ALL THEIR TIME BUYING NEW CLOTHES AND  going to parties POOR CINDERS had to wear all THEIR old HAND ME      downs and she had to do ALL the cleaning ONE DAY A     royal messenger CAME TO ANNOUNCE A BALL THE BALL WOULD BE HELD AT THE ROYAL PALACE IN HONOUR OF THE QUEEN'S ONLY SON PRINCE WILLIAM LILY AND ROSA THOUGHT THIS WAS DIVINE PRINCE WILLIAM WAS gorgeous AND HE  was looking for A bride THEY dreamed of the wedding bells WHEN the evening of the BALL ARRIVED CINDERS   had to HELP her sisters GET READY THEY   WERE  in a bad mood THEY'D wanted to BUY SOME NEW GOWNS   but THEIR MOTHER HAD  said THAT they had enough GOWNS so they started shouting at CINDERS find my **** JEWELS YELLED one FIND MY HAT HOWLED the other they wanted *** ******* HAIRBRUSHES 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders WINDOWS LIVE  with her mother and two stepsisters called **** *** **** lily and ROSIE ROSIE very unfriendly and they were lazy ***** **** ***** *** ***** **** ****** *** GIRL    IT'S going to parties **** ******* had to wear all THE   old **** HACKNEY downs and she had to do *** the cleaning *** *** SARAH royal messenger **** ** ******** * **** *** **** ***** ** **** ** *** ***** ****** ** ****** ** *** ******* **** *** ****** ******* **** *** **** ******* **** *** ****** ****** ******* IS  gorgeous *** SHE was looking for * bride IT   dreamed of the wedding bells IN   the evening of the **** ******* POLARIZED had to HAVE her sisters *** ***** KARATE THERE in a bad mood THAT   wanted to *** **** MY  ACCOUNT but ***** ****** THEY said **** they had enough ***** so they started shouting at SANDERS find my DUAL SHE    HAD    one **** ** *** ****** the other they wanted HER BRUSHES HER         
+Eval:                                                                                     S       S                                                D    D   D             S     S                                        D     D    D     D   D     D    D      D   S       S                     D    D                       S         D    S                               D                D   D   S                     D    D  D        D D    D   D    D     D  D    D  D   D     D      D  D      D  D   D       D    D   D      D       D    D   D    D       D    D   D      D      D       S            D   S                   D       S                                 S                       D    D       S                S                D   D     S      S                   S                D   D    S   S           D     D      S         D                    D                                 S               I    S      S          D    D  D   D                            I   I       S           
+
+>> REF:  HAIRPINS and hairspray 
+>> HYP:  PANTS    and hairspray 
+>> Eval: S                      
+
+

@@ -1,0 +1,164 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\j-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   22.8%   (  42)
+
+Percent Correct           =   81.0%   ( 149)
+
+Percent Substitution      =   17.9%   (  33)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    3.8%   (   7)
+Percent Word Accuracy     =   77.2%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 189)
+Aligned words             =           ( 191)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  cinders ==> is
+   2:    1  ->  a ==> it
+   3:    1  ->  all ==> only
+   4:    1  ->  all ==> where
+   5:    1  ->  and ==> happens
+   6:    1  ->  and ==> lillian
+   7:    1  ->  and ==> rose
+   8:    1  ->  and ==> was
+   9:    1  ->  ball ==> bull
+  10:    1  ->  bride ==> right
+  11:    1  ->  called ==> calls
+  12:    1  ->  cinders ==> sanders
+  13:    1  ->  cinders ==> this
+  14:    1  ->  gowns ==> guns
+  15:    1  ->  had ==> set
+  16:    1  ->  hairbrushes ==> hair
+  17:    1  ->  hairpins ==> brushes
+  18:    1  ->  her ==> as
+  19:    1  ->  howled ==> how
+  20:    1  ->  lily ==> lillian
+  21:    1  ->  lily ==> this
+  22:    1  ->  lived ==> left
+  23:    1  ->  poor ==> posing
+  24:    1  ->  rosa ==> a
+  25:    1  ->  rosa ==> i
+  26:    1  ->  spent ==> been
+  27:    1  ->  stepsisters ==> sisters
+  28:    1  ->  their ==> a
+  29:    1  ->  their ==> the
+  30:    1  ->  they ==> a
+  31:    1  ->  they ==> it's
+  32:    1  ->  thought ==> divine
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  cindy
+   3:    1  ->  foot
+   4:    1  ->  lillian
+   5:    1  ->  rose
+   6:    1  ->  seeing
+   7:    1  ->  step
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  lily
+   2:    1  ->  wear
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    4  ->  and
+   2:    4  ->  cinders
+   3:    2  ->  all
+   4:    2  ->  lily
+   5:    2  ->  rosa
+   6:    2  ->  their
+   7:    2  ->  they
+   8:    1  ->  a
+   9:    1  ->  ball
+  10:    1  ->  bride
+  11:    1  ->  called
+  12:    1  ->  gowns
+  13:    1  ->  had
+  14:    1  ->  hairbrushes
+  15:    1  ->  hairpins
+  16:    1  ->  her
+  17:    1  ->  howled
+  18:    1  ->  lived
+  19:    1  ->  poor
+  20:    1  ->  spent
+  21:    1  ->  stepsisters
+  22:    1  ->  thought
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  a
+   2:    2  ->  is
+   3:    2  ->  lillian
+   4:    2  ->  this
+   5:    1  ->  as
+   6:    1  ->  been
+   7:    1  ->  brushes
+   8:    1  ->  bull
+   9:    1  ->  calls
+  10:    1  ->  divine
+  11:    1  ->  guns
+  12:    1  ->  hair
+  13:    1  ->  happens
+  14:    1  ->  how
+  15:    1  ->  i
+  16:    1  ->  it
+  17:    1  ->  it's
+  18:    1  ->  left
+  19:    1  ->  only
+  20:    1  ->  posing
+  21:    1  ->  right
+  22:    1  ->  rose
+  23:    1  ->  sanders
+  24:    1  ->  set
+  25:    1  ->  sisters
+  26:    1  ->  the
+  27:    1  ->  was
+  28:    1  ->  where
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

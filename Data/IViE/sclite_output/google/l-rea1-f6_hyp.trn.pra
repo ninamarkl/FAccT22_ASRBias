@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\l-rea1-f6_hyp.trn
+
+Speakers: 
+    0:  l-r
+
+Speaker sentences   0:  l-r   #utts: 1
+id: (l-rea1-f6_01)
+Scores: (#C #S #D #I) 93 23 73 1
+REF:  once upon a time there was a girl called cinderella but everyone called HER CINDERS CINDERS LIVED with her mother and two stepsisters called LILY AND    rosa LILY AND rosa were very UNFRIENDLY and THEY WERE lazy girls they spent all THEIR time BUYING NEW clothes and going to parties POOR CINDERS HAD TO WEAR ALL THEIR OLD HAND ME DOWNS AND SHE HAD AND SHE and SHE HAD TO DO THE cleaning ONE DAY A ROYAL MESSENGER CAME TO ANNOUNCE A BALL THE BALL WOULD BE HELD AT THE ROYAL PALACE IN HONOUR OF the queen's only son prince william LILY    AND  ROSA thought this was divine PRINCE WILLIAM WAS GORGEOUS AND HE WOULD LOOK AND he was looking for a bride THEY DREAMED OF  wedding bells WHEN THE EVENING OF THE BALL arrived CINDERS HAD to help HER SISTERS get ready THEY WERE  in a bad mood THEY'D WANTED to buy some new GOWNS but their mother said THAT they had enough GOWNS SO      THEY started shouting at cinders find my JEWELS    YELL yelled one find my hat HOWLED the other they wanted ***** 
+HYP:  once upon a time there was a girl called cinderella but everyone called *** ACE     ENDERS  LIVE  with her mother and two stepsisters called **** LILIAN rosa **** *** rosa were very FRIENDLY   and **** THE  lazy girls they spent all THE   time ****** BY  clothes and going to parties **** ******* *** ** **** *** ***** *** **** ** ***** *** *** *** *** *** and *** *** ** ** *** cleaning *** *** * ***** ********* **** ** ******** * **** *** **** ***** ** **** ** *** ***** ****** ** ****** ** the queen's only son prince william LILLIAN ROSE I    thought this was divine ****** ******* *** ******** *** ** ***** **** *** he was looking for a bride **** ******* THE wedding bells **** *** ******* ** *** **** arrived ******* *** to help *** ******* get ready **** THERE in a bad mood HE     WANTS  to buy some new GIRLS but their mother said **** they had enough ***** GROUNDS THE  started shouting at cinders find my JEWELLERS THAT yelled one find my hat HOW    the other they wanted WHICH 
+Eval:                                                                         D   S       S       S                                                D    S           D    D                  S              D    S                              S          D      S                                D    D       D   D  D    D   D     D   D    D  D     D   D   D   D   D       D   D   D  D  D            D   D   D D     D         D    D  D        D D    D   D    D     D  D    D  D   D     D      D  D      D                                      S       S    S                            D      D       D   D        D   D  D     D    D                              D    D       S                 D    D   D       D  D   D            D       D           D   D                 D    S                   S      S                      S                           D                    D     S       S                                        S         S                           S                            I     
+
+>> REF:  HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  IS          HAPPENED and hairspray 
+>> Eval: S           S                      
+
+

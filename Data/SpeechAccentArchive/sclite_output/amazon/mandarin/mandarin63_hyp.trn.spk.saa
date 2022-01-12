@@ -1,0 +1,127 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin63_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  a ==> us
+   2:    1  ->  at ==> as
+   3:    1  ->  bags ==> backs
+   4:    1  ->  five ==> piece
+   5:    1  ->  of ==> off
+   6:    1  ->  of ==> ofthe
+   7:    1  ->  red ==> right
+   8:    1  ->  slabs ==> laps
+   9:    1  ->  small ==> more
+  10:    1  ->  stella ==> costello
+  11:    1  ->  the ==> a
+  12:    1  ->  these ==> schoolbuses
+  13:    1  ->  these ==> this
+  14:    1  ->  thick ==> fifty-six
+  15:    1  ->  three ==> street
+  16:    1  ->  will ==> we'll
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  for
+   2:    1  ->  her
+   3:    1  ->  kid
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  call
+   2:    1  ->  peas
+   3:    1  ->  scoop
+   4:    1  ->  we
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    1  ->  a
+   4:    1  ->  at
+   5:    1  ->  bags
+   6:    1  ->  five
+   7:    1  ->  red
+   8:    1  ->  slabs
+   9:    1  ->  small
+  10:    1  ->  stella
+  11:    1  ->  the
+  12:    1  ->  thick
+  13:    1  ->  three
+  14:    1  ->  will
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  a
+   2:    1  ->  as
+   3:    1  ->  backs
+   4:    1  ->  costello
+   5:    1  ->  fifty-six
+   6:    1  ->  laps
+   7:    1  ->  more
+   8:    1  ->  off
+   9:    1  ->  ofthe
+  10:    1  ->  piece
+  11:    1  ->  right
+  12:    1  ->  schoolbuses
+  13:    1  ->  street
+  14:    1  ->  this
+  15:    1  ->  us
+  16:    1  ->  we'll
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

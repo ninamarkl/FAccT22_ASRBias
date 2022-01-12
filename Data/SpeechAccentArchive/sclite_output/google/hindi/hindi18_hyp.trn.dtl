@@ -1,0 +1,111 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hindi\hindi18_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  5 ==> peace
+   2:    1  ->  a ==> it's
+   3:    1  ->  also ==> i
+   4:    1  ->  ask ==> ice
+   5:    1  ->  her ==> could
+   6:    1  ->  peas ==> no
+   7:    1  ->  scoop ==> school
+   8:    1  ->  slabs ==> lives
+   9:    1  ->  snack ==> not
+  10:    1  ->  spoons ==> pounds
+  11:    1  ->  thick ==> 56
+  12:    1  ->  to ==> you
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  snow
+   2:    1  ->  we
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  also
+   4:    1  ->  ask
+   5:    1  ->  her
+   6:    1  ->  peas
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  snack
+  10:    1  ->  spoons
+  11:    1  ->  thick
+  12:    1  ->  to
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  56
+   2:    1  ->  could
+   3:    1  ->  i
+   4:    1  ->  ice
+   5:    1  ->  it's
+   6:    1  ->  lives
+   7:    1  ->  no
+   8:    1  ->  not
+   9:    1  ->  peace
+  10:    1  ->  pounds
+  11:    1  ->  school
+  12:    1  ->  you
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,104 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\french\french20_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  fresh ==> first
+   3:    1  ->  frog ==> toys
+   4:    1  ->  her ==> our
+   5:    1  ->  peas ==> peace
+   6:    1  ->  plastic ==> six
+   7:    1  ->  snake ==> nate
+   8:    1  ->  snow ==> never
+   9:    1  ->  will ==> we'll
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  like
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  red
+   2:    1  ->  toy
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  ask
+   2:    1  ->  fresh
+   3:    1  ->  frog
+   4:    1  ->  her
+   5:    1  ->  peas
+   6:    1  ->  plastic
+   7:    1  ->  snake
+   8:    1  ->  snow
+   9:    1  ->  will
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  asked
+   2:    1  ->  first
+   3:    1  ->  nate
+   4:    1  ->  never
+   5:    1  ->  our
+   6:    1  ->  peace
+   7:    1  ->  six
+   8:    1  ->  toys
+   9:    1  ->  we'll
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

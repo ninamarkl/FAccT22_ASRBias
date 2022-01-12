@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\d-rea1-f4_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-f4_01)
+Scores: (#C #S #D #I) 134 32 15 2
+REF:  once upon a time there was a girl called cinderella but everyone called HER CINDERS    CINDERS LIVED with HER  mother and two stepsisters CALLED LILY AND     ROSA lily and ROSA  were very unfriendly and they were LAZY GIRLS     they SPENT ALL   THEIR time buying new clothes and going to parties POOR CINDERS HAD to wear all their old hand me downs and she had to do the cleaning one day a royal messenger came to ANNOUNCE A     BALL  the BALL WOULD BE  HELD   AT the royal palace in honour of the queen's only son prince william LILY   and rosa thought this was DIVINE prince william was gorgeous and he was looking for a bride they DREAMED OF    WEDDING BELLS when the evening of the ball arrived CINDERS had to help HER SISTERS  get ready they were in a bad mood they wanted to buy some new GOWNS but their mother said THAT they had enough GOWNS so they started shouting AT CINDERS find me MY JEWELS  YELLED ONE find me my hat HOWLED the other they wanted **** ******* HAIRBRUSHES HAIRPINS 
+HYP:  once upon a time there was a girl called cinderella but everyone called *** EASTENDERS CINDY'S LIVE  with YOUR mother and two stepsisters ****** CALL LILLIAN ROSE lily and ROSIE were very unfriendly and they were **** LAZYGIRLS they ***** SPEND OTHER time buying new clothes and going to parties **** ******* *** to wear all their old hand me downs and she had to do the cleaning one day a royal messenger came to ******** NAN'S ABOVE the **** ***** BOY KILLED IN the royal palace in honour of the queen's only son prince william LILLEY and rosa thought this was DIVIDE prince william was gorgeous and he was looking for a bride they ******* DREAM THE     WORD  when the evening of the ball arrived SINNERS had to help MY  SISTER'S get ready they were in a bad mood they wanted to buy some new GAMES but their mother said **** they had enough GUNS  so they started shouting ** ******* find me ** MYJOOLZ WHEN   YOU find me my hat HOW    the other they wanted HAIR BRUSHES HAIR        PINS     
+Eval:                                                                         D   S          S       S          S                               D      S    S       S             S                                        D    S              D     S     S                                                  D    D       D                                                                                                        D        S     S         D    D     S   S      S                                                                    S                                S                                                                      D       S     S       S                                          S                   S   S                                                                      S                           D                    S                              D  D               D  S       S      S                  S                            I    I       S           S        
+
+>> REF:  and hairspray 
+>> HYP:  and hairspray 
+>> Eval:               
+
+

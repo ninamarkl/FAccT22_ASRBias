@@ -1,0 +1,102 @@
+SCORING FOR SPEAKER: saa
+     of english_uk\english225_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  her ==> asda
+   2:    1  ->  scoop ==> you
+   3:    1  ->  slabs ==> loads
+   4:    1  ->  these ==> please
+   5:    1  ->  thick ==> 56
+   6:    1  ->  to ==> the
+   7:    1  ->  will ==> we'll
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  her
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  ask
+   5:    1  ->  maybe
+   6:    1  ->  meet
+   7:    1  ->  we
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  her
+   2:    1  ->  scoop
+   3:    1  ->  slabs
+   4:    1  ->  these
+   5:    1  ->  thick
+   6:    1  ->  to
+   7:    1  ->  will
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  56
+   2:    1  ->  asda
+   3:    1  ->  loads
+   4:    1  ->  please
+   5:    1  ->  the
+   6:    1  ->  we'll
+   7:    1  ->  you
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

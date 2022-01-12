@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\p-rea1-f5_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-f5_01)
+Scores: (#C #S #D #I) 125 35 23 3
+REF:  once upon a time THERE WAS  a girl called cinderella but everyone called HER cinders cinders LIVED with HER   mother and two stepsisters CALLED lily and rosa LILY AND rosa were very unfriendly and THEY WERE LAZY GIRLS THEY      SPENT all THEIR time buying new clothes AND going to parties POOR   CINDERS had to wear ALL THEIR OLD HAND  ME   DOWNS         and she had to do the cleaning one day A ROYAL  messenger came to ANNOUNCE A   BALL  the BALL WILL BE the BALL  would be held at the royal palace in HONOUR of the queen's only son prince william LILY AND rosa thought this was divine prince william was gorgeous and HE WAS looking for a bride THEY DREAMED OF  wedding bells when the evening OF the ball arrived CINDERS had to help her SISTERS  get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but **** THEIR MOTHER said THAT they had enough GOWNS so they started shouting at cinders FIND MY JEWELS YELLED    ONE     find my hat HOWLED the other they wanted **** 
+HYP:  once upon a time ***** DOES a girl called cinderella but everyone called THE cinders cinders LIVE  with THEIR mother and two stepsisters ****** lily and rosa **** *** rosa were very unfriendly and **** **** **** THEIR LAZYGIRLS TURN  all THE   time buying new clothes ARE going to parties PERSON DOES    had to wear *** ***** *** ALDER ROAD HAND-ME-DOWNS and she had to do the cleaning one day * AROUND messenger came to ******** AND ABOVE the **** **** ** the WORLD would be held at the royal palace in ****** of the queen's only son prince william **** *** rosa thought this was divine prince william was gorgeous and ** YOU looking for a bride THE  DREAM   DAY wedding bells when the evening ** the ball arrived CENTRES had to help her SISTER'S get ready they were in a bad mood THEY   wanted to buy some new GUNS  but THEN WILL  THEY   said **** they had enough GUNS  so they started shouting at cinders **** ** FIGHT  SCHEDULED YARDMAN find my hat HOW    the other they wanted HAIR 
+Eval:                  D     S                                                 S                   S          S                                D                    D    D                                 D    D    D    S     S         S         S                             S                    S      S                   D   D     D   S     S    S                                                    D S                        D        S   S         D    D    D      S                                          D                                             D    D                                                                D  S                       S    S       S                                  D                   S                       S                                          S                             S         I    S     S           D                    S                                         D    D  S      S         S                   S                            I    
+
+>> REF:  ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  BRUSHES HAIR        PINS     and hairspray 
+>> Eval: I       S           S                      
+
+

@@ -1,0 +1,7 @@
+<SYSTEM title=" amazon\spanish\spanish40_hyp.trn" ref_fname=" saa_ref.trn" hyp_fname=" amazon\spanish\spanish40_hyp.trn" creation_date="Wed May 26 07:57:58 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="70" sequence="0">
+C,"please","please":C,"call","call":S,"stella","estella":S,"ask","asked":C,"her","her":C,"to","to":C,"bring","bring":D,"these",:S,"things","this":S,"with","if":S,"her","we":S,"from","happen":S,"the","to":S,"store","stole":C,"six","six":S,"spoons","points":C,"of","of":C,"fresh","fresh":D,"snow",:S,"peas","no":S,"five","peace":S,"thick","by":S,"slabs","ticks":S,"of","level":S,"blue","bleach":S,"cheese","is":S,"and","a":C,"maybe","maybe":C,"a","a":S,"snack","stamp":C,"for","for":D,"her",:S,"brother","a":S,"bob","bride":S,"we","pop":S,"also","was":S,"need","on":S,"a","it's":S,"small","more":C,"plastic","plastic":S,"snake","is":S,"and","like":C,"a","a":D,"big",:D,"toy",:S,"frog","victory":C,"for","for":C,"the","the":C,"kids","kids":C,"she","she":C,"can","can":S,"scoop","exploit":S,"these","this":S,"things","thing":C,"into","into":D,"three",:D,"red",:S,"bags","delivery":S,"and","packs":C,"we","we":D,"will",:C,"go","go":C,"meet","meet":I,,"him":S,"her","with":S,"wednesday","a":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

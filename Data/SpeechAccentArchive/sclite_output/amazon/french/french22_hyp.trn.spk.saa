@@ -1,0 +1,114 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french22_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bags ==> hardbacks
+   3:    1  ->  bob ==> but
+   4:    1  ->  brother ==> bottle
+   5:    1  ->  call ==> gold
+   6:    1  ->  five ==> fast
+   7:    1  ->  frog ==> fuck
+   8:    1  ->  her ==> the
+   9:    1  ->  of ==> off
+  10:    1  ->  slabs ==> lapse
+  11:    1  ->  spoons ==> put
+  12:    1  ->  thick ==> ix
+  13:    1  ->  things ==> thinks
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  red
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  ask
+   2:    1  ->  bags
+   3:    1  ->  bob
+   4:    1  ->  brother
+   5:    1  ->  call
+   6:    1  ->  five
+   7:    1  ->  frog
+   8:    1  ->  her
+   9:    1  ->  of
+  10:    1  ->  slabs
+  11:    1  ->  spoons
+  12:    1  ->  thick
+  13:    1  ->  things
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  asked
+   2:    1  ->  bottle
+   3:    1  ->  but
+   4:    1  ->  fast
+   5:    1  ->  fuck
+   6:    1  ->  gold
+   7:    1  ->  hardbacks
+   8:    1  ->  ix
+   9:    1  ->  lapse
+  10:    1  ->  off
+  11:    1  ->  put
+  12:    1  ->  the
+  13:    1  ->  thinks
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

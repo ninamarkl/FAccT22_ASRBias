@@ -1,0 +1,119 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\portuguese\portuguese3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  a ==> i
+   3:    1  ->  five ==> lives
+   4:    1  ->  peas ==> is
+   5:    1  ->  six ==> sexist
+   6:    1  ->  slabs ==> those
+   7:    1  ->  snack ==> neck
+   8:    1  ->  snake ==> neck
+   9:    1  ->  snow ==> fifty-six
+  10:    1  ->  store ==> tour
+  11:    1  ->  the ==> her
+  12:    1  ->  the ==> these
+  13:    1  ->  these ==> those
+  14:    1  ->  thick ==> off
+  15:    1  ->  three ==> tree
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  his
+   2:    1  ->  is
+   3:    1  ->  no
+   4:    1  ->  peace
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  go
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  of
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  five
+   5:    1  ->  peas
+   6:    1  ->  six
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  snake
+  10:    1  ->  snow
+  11:    1  ->  store
+  12:    1  ->  these
+  13:    1  ->  thick
+  14:    1  ->  three
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  off
+   2:    2  ->  neck
+   3:    2  ->  those
+   4:    1  ->  fifty-six
+   5:    1  ->  her
+   6:    1  ->  i
+   7:    1  ->  is
+   8:    1  ->  lives
+   9:    1  ->  sexist
+  10:    1  ->  these
+  11:    1  ->  tour
+  12:    1  ->  tree
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

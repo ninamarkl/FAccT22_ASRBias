@@ -1,0 +1,115 @@
+SCORING FOR SPEAKER: saa
+     of french\french5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a ==> is
+   2:    1  ->  bags ==> bag
+   3:    1  ->  go ==> google
+   4:    1  ->  her ==> without
+   5:    1  ->  of ==> off
+   6:    1  ->  red ==> 3rd
+   7:    1  ->  slabs ==> lamps
+   8:    1  ->  snack ==> not
+   9:    1  ->  spoons ==> £6
+  10:    1  ->  thick ==> 56
+  11:    1  ->  with ==> thing
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  for
+   2:    1  ->  her
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  3
+   2:    1  ->  5
+   3:    1  ->  6
+   4:    1  ->  things
+   5:    1  ->  we
+   6:    1  ->  will
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  bags
+   3:    1  ->  go
+   4:    1  ->  her
+   5:    1  ->  of
+   6:    1  ->  red
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  spoons
+  10:    1  ->  thick
+  11:    1  ->  with
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  3rd
+   2:    1  ->  56
+   3:    1  ->  bag
+   4:    1  ->  google
+   5:    1  ->  is
+   6:    1  ->  lamps
+   7:    1  ->  not
+   8:    1  ->  off
+   9:    1  ->  thing
+  10:    1  ->  without
+  11:    1  ->  £6
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

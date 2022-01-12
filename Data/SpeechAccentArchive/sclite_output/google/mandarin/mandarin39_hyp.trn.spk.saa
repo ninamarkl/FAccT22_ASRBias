@@ -1,0 +1,110 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin39_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5 ==> piece
+   2:    1  ->  bags ==> backs
+   3:    1  ->  kids ==> keys
+   4:    1  ->  red ==> right
+   5:    1  ->  slabs ==> leaves
+   6:    1  ->  snack ==> snake
+   7:    1  ->  spoons ==> 6-months
+   8:    1  ->  these ==> this
+   9:    1  ->  thick ==> 56
+  10:    1  ->  with ==> his
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  of
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  6
+   2:    1  ->  and
+   3:    1  ->  cheese
+   4:    1  ->  peas
+   5:    1  ->  scoop
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5
+   2:    1  ->  bags
+   3:    1  ->  kids
+   4:    1  ->  red
+   5:    1  ->  slabs
+   6:    1  ->  snack
+   7:    1  ->  spoons
+   8:    1  ->  these
+   9:    1  ->  thick
+  10:    1  ->  with
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  56
+   2:    1  ->  6-months
+   3:    1  ->  backs
+   4:    1  ->  his
+   5:    1  ->  keys
+   6:    1  ->  leaves
+   7:    1  ->  piece
+   8:    1  ->  right
+   9:    1  ->  snake
+  10:    1  ->  this
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

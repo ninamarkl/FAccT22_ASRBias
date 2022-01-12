@@ -1,0 +1,105 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french17_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  of ==> off
+   2:    2  ->  these ==> the
+   3:    1  ->  ask ==> has
+   4:    1  ->  her ==> a
+   5:    1  ->  her ==> vowed
+   6:    1  ->  peas ==> piece
+   7:    1  ->  snow ==> snoopy
+   8:    1  ->  store ==> storm
+   9:    1  ->  will ==> we'll
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  her
+   2:    1  ->  home
+   3:    1  ->  with
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  her
+   2:    1  ->  we
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  her
+   2:    2  ->  of
+   3:    2  ->  these
+   4:    1  ->  ask
+   5:    1  ->  peas
+   6:    1  ->  snow
+   7:    1  ->  store
+   8:    1  ->  will
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  off
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  has
+   5:    1  ->  piece
+   6:    1  ->  snoopy
+   7:    1  ->  storm
+   8:    1  ->  vowed
+   9:    1  ->  we'll
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

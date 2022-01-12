@@ -1,0 +1,141 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese35_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   46.4%   (  32)
+
+Percent Correct           =   53.6%   (  37)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =   20.3%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   53.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  55)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  5 ==> snoopy's
+   2:    1  ->  also ==> i
+   3:    1  ->  and ==> in
+   4:    1  ->  bring ==> for
+   5:    1  ->  can ==> chickens
+   6:    1  ->  for ==> not
+   7:    1  ->  fresh ==> thunderstore
+   8:    1  ->  her ==> metre
+   9:    1  ->  peas ==> first
+  10:    1  ->  red ==> 3rd
+  11:    1  ->  scoop ==> cooked
+  12:    1  ->  slabs ==> lives
+  13:    1  ->  snack ==> it's
+  14:    1  ->  snow ==> sixpences
+  15:    1  ->  these ==> bringing
+  16:    1  ->  thick ==> 56
+  17:    1  ->  to ==> as
+  18:    1  ->  we ==> but
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  the
+   2:    1  ->  3
+   3:    1  ->  6
+   4:    1  ->  a
+   5:    1  ->  ask
+   6:    1  ->  bob
+   7:    1  ->  from
+   8:    1  ->  her
+   9:    1  ->  meet
+  10:    1  ->  of
+  11:    1  ->  she
+  12:    1  ->  spoons
+  13:    1  ->  store
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  5
+   2:    1  ->  also
+   3:    1  ->  and
+   4:    1  ->  bring
+   5:    1  ->  can
+   6:    1  ->  for
+   7:    1  ->  fresh
+   8:    1  ->  her
+   9:    1  ->  peas
+  10:    1  ->  red
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  snack
+  14:    1  ->  snow
+  15:    1  ->  these
+  16:    1  ->  thick
+  17:    1  ->  to
+  18:    1  ->  we
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  3rd
+   2:    1  ->  56
+   3:    1  ->  as
+   4:    1  ->  bringing
+   5:    1  ->  but
+   6:    1  ->  chickens
+   7:    1  ->  cooked
+   8:    1  ->  first
+   9:    1  ->  for
+  10:    1  ->  i
+  11:    1  ->  in
+  12:    1  ->  it's
+  13:    1  ->  lives
+  14:    1  ->  metre
+  15:    1  ->  not
+  16:    1  ->  sixpences
+  17:    1  ->  snoopy's
+  18:    1  ->  thunderstore
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,143 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic48_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.8%   (  33)
+
+Percent Correct           =   52.2%   (  36)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =   20.3%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   52.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  55)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  at ==> as
+   2:    1  ->  bob ==> products
+   3:    1  ->  brother ==> hair
+   4:    1  ->  for ==> 56
+   5:    1  ->  fresh ==> french
+   6:    1  ->  go ==> call
+   7:    1  ->  her ==> lab84
+   8:    1  ->  her ==> thing
+   9:    1  ->  her ==> till
+  10:    1  ->  kids ==> tickets
+  11:    1  ->  meet ==> me
+  12:    1  ->  plastic ==> plastics
+  13:    1  ->  red ==> three
+  14:    1  ->  scoop ==> stop
+  15:    1  ->  small ==> smart
+  16:    1  ->  snake ==> today
+  17:    1  ->  spoons ==> pounds
+  18:    1  ->  store ==> stone
+  19:    1  ->  with ==> cyst
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  3
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  blue
+   6:    1  ->  cheese
+   7:    1  ->  maybe
+   8:    1  ->  of
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  the
+  12:    1  ->  these
+  13:    1  ->  thick
+  14:    1  ->  things
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  her
+   2:    1  ->  at
+   3:    1  ->  bob
+   4:    1  ->  brother
+   5:    1  ->  for
+   6:    1  ->  fresh
+   7:    1  ->  go
+   8:    1  ->  kids
+   9:    1  ->  meet
+  10:    1  ->  plastic
+  11:    1  ->  red
+  12:    1  ->  scoop
+  13:    1  ->  small
+  14:    1  ->  snake
+  15:    1  ->  spoons
+  16:    1  ->  store
+  17:    1  ->  with
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  56
+   2:    1  ->  as
+   3:    1  ->  call
+   4:    1  ->  cyst
+   5:    1  ->  french
+   6:    1  ->  hair
+   7:    1  ->  lab84
+   8:    1  ->  me
+   9:    1  ->  plastics
+  10:    1  ->  pounds
+  11:    1  ->  products
+  12:    1  ->  smart
+  13:    1  ->  stone
+  14:    1  ->  stop
+  15:    1  ->  thing
+  16:    1  ->  three
+  17:    1  ->  tickets
+  18:    1  ->  till
+  19:    1  ->  today
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

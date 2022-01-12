@@ -1,0 +1,119 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: german\german26_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  things ==> thing
+   2:    1  ->  5 ==> peace
+   3:    1  ->  and ==> in
+   4:    1  ->  bags ==> picks
+   5:    1  ->  bob ==> but
+   6:    1  ->  bring ==> esker
+   7:    1  ->  peas ==> no
+   8:    1  ->  slabs ==> laps
+   9:    1  ->  snow ==> rest
+  10:    1  ->  spoons ==> £6
+  11:    1  ->  these ==> glenties
+  12:    1  ->  these ==> this
+  13:    1  ->  thick ==> 56
+  14:    1  ->  we ==> it
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  6
+   2:    1  ->  ask
+   3:    1  ->  fresh
+   4:    1  ->  her
+   5:    1  ->  to
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  5
+   4:    1  ->  and
+   5:    1  ->  bags
+   6:    1  ->  bob
+   7:    1  ->  bring
+   8:    1  ->  peas
+   9:    1  ->  slabs
+  10:    1  ->  snow
+  11:    1  ->  spoons
+  12:    1  ->  thick
+  13:    1  ->  we
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  thing
+   2:    1  ->  56
+   3:    1  ->  but
+   4:    1  ->  esker
+   5:    1  ->  glenties
+   6:    1  ->  in
+   7:    1  ->  it
+   8:    1  ->  laps
+   9:    1  ->  no
+  10:    1  ->  peace
+  11:    1  ->  picks
+  12:    1  ->  rest
+  13:    1  ->  this
+  14:    1  ->  £6
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

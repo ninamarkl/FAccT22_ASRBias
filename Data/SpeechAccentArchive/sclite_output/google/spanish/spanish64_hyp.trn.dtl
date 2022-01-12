@@ -1,0 +1,120 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish64_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  5 ==> personal
+   2:    1  ->  6 ==> sixth
+   3:    1  ->  bags ==> rabax
+   4:    1  ->  bob ==> but
+   5:    1  ->  her ==> oscar
+   6:    1  ->  scoop ==> with
+   7:    1  ->  slabs ==> laps
+   8:    1  ->  spoons ==> forms
+   9:    1  ->  the ==> my
+  10:    1  ->  these ==> this
+  11:    1  ->  thick ==> bs56
+  12:    1  ->  things ==> thing
+  13:    1  ->  toy ==> blue
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  cope
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and
+   2:    1  ->  ask
+   3:    1  ->  fresh
+   4:    1  ->  her
+   5:    1  ->  peas
+   6:    1  ->  red
+   7:    1  ->  snow
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  bags
+   4:    1  ->  bob
+   5:    1  ->  her
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  spoons
+   9:    1  ->  the
+  10:    1  ->  these
+  11:    1  ->  thick
+  12:    1  ->  things
+  13:    1  ->  toy
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  blue
+   2:    1  ->  bs56
+   3:    1  ->  but
+   4:    1  ->  forms
+   5:    1  ->  laps
+   6:    1  ->  my
+   7:    1  ->  oscar
+   8:    1  ->  personal
+   9:    1  ->  rabax
+  10:    1  ->  sixth
+  11:    1  ->  thing
+  12:    1  ->  this
+  13:    1  ->  with
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

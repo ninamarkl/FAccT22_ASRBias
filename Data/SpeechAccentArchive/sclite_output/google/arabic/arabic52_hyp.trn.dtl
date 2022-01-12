@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic52_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   65.2%   (  45)
+
+Percent Correct           =   34.8%   (  24)
+
+Percent Substitution      =    5.8%   (   4)
+Percent Deletions         =   59.4%   (  41)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   34.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  28)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  kids ==> from
+   2:    1  ->  of ==> a
+   3:    1  ->  plastic ==> 6
+   4:    1  ->  wednesday ==> me
+     -------
+         4
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  a
+   2:    3  ->  and
+   3:    3  ->  her
+   4:    2  ->  for
+   5:    2  ->  we
+   6:    1  ->  3
+   7:    1  ->  5
+   8:    1  ->  6
+   9:    1  ->  also
+  10:    1  ->  ask
+  11:    1  ->  bags
+  12:    1  ->  big
+  13:    1  ->  bob
+  14:    1  ->  brother
+  15:    1  ->  frog
+  16:    1  ->  go
+  17:    1  ->  into
+  18:    1  ->  maybe
+  19:    1  ->  need
+  20:    1  ->  of
+  21:    1  ->  red
+  22:    1  ->  scoop
+  23:    1  ->  slabs
+  24:    1  ->  small
+  25:    1  ->  snack
+  26:    1  ->  spoons
+  27:    1  ->  the
+  28:    1  ->  these
+  29:    1  ->  thick
+  30:    1  ->  things
+  31:    1  ->  toy
+  32:    1  ->  train
+  33:    1  ->  will
+     -------
+        41
+
+
+
+SUBSTITUTIONS                    Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  kids
+   2:    1  ->  of
+   3:    1  ->  plastic
+   4:    1  ->  wednesday
+     -------
+         4
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  from
+   4:    1  ->  me
+     -------
+         4
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

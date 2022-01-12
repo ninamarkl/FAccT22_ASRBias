@@ -1,0 +1,103 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: german\german20_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5 ==> peace
+   2:    1  ->  into ==> to
+   3:    1  ->  of ==> £6
+   4:    1  ->  peas ==> now
+   5:    1  ->  scoop ==> skip
+   6:    1  ->  slabs ==> lots
+   7:    1  ->  thick ==> 56
+   8:    1  ->  will ==> we'll
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  6
+   2:    1  ->  cheese
+   3:    1  ->  snow
+   4:    1  ->  spoons
+   5:    1  ->  the
+   6:    1  ->  we
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  into
+   3:    1  ->  of
+   4:    1  ->  peas
+   5:    1  ->  scoop
+   6:    1  ->  slabs
+   7:    1  ->  thick
+   8:    1  ->  will
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  56
+   2:    1  ->  lots
+   3:    1  ->  now
+   4:    1  ->  peace
+   5:    1  ->  skip
+   6:    1  ->  to
+   7:    1  ->  we'll
+   8:    1  ->  £6
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

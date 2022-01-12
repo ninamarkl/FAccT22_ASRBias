@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   english_uk\english306_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 14 1 54 0
+REF:  please call STELLA ASK HER TO BRING THESE THINGS WITH HER FROM THE STORE 6 SPOONS of fresh snow peas 5 THICK SLABS OF BLUE CHEESE and MAYBE A SNACK FOR HER BROTHER BOB WE ALSO NEED A SMALL plastic snake AND A BIG toy frog for the kids SHE CAN SCOOP THESE THINGS INTO 3 RED BAGS AND WE WILL GO MEET HER WEDNESDAY AT THE TRAIN STATION 
+HYP:  please call ****** *** *** ** ***** ***** ****** **** *** **** *** ***** * STAR   of fresh snow peas * ***** ***** ** **** ****** and ***** * ***** *** *** ******* *** ** **** **** * ***** plastic snake *** * *** toy frog for the kids *** *** ***** ***** ****** **** * *** **** *** ** **** ** **** *** ********* ** *** ***** ******* 
+Eval:             D      D   D   D  D     D     D      D    D   D    D   D     D S                         D D     D     D  D    D          D     D D     D   D   D       D   D  D    D    D D                   D   D D                         D   D   D     D     D      D    D D   D    D   D  D    D  D    D   D         D  D   D     D       
+
+

@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\d-rea1-f5_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-f5_01)
+Scores: (#C #S #D #I) 124 42 14 6
+REF:  once upon a time there was a girl called cinderella but everyone called HER CINDERS CINDERS LIVED with HER   mother and two STEPSISTERS CALLED   LILY   AND ROSA   lily and ROSA  were very UNFRIENDLY and they were lazy girls they SPENT ALL THEIR time buying new clothes and going to parties POOR   CINDERS had to wear ALL THEIR OLD  HAND    ME  DOWNS         AND she had to do THE all the cleaning one day a royal messenger came to ** ANNOUNCE A  BALL the BALL WOULD BE     held at the royal palace in honour of the queen's only son prince WILLIAM LILY AND ROSA THOUGHT   this was divine prince william was gorgeous and HE  was looking for a bride they DREAMED OF  wedding bells when the evening of the *** BALL ARRIVED CINDERS had to help HER  SISTERS get ready THEY WERE  in a bad mood THEY'D wanted to buy new GOWNS but their mother *** said that they had enough GOWNS so they started shouting at cinders find my ***** JEWELS YELLED one find my HAT   HOWLED the other THEY wanted **** 
+HYP:  once upon a time there was a girl called cinderella but everyone called *** ******* CINDY'S LIVE  with THEIR mother and two *********** SEPARATE SISTER IS  CALLED lily and ROSIE were very FRIENDLY   and they were lazy girls they ***** ARE THE   time buying new clothes and going to parties POISON DOES    had to wear *** ***** THAT THEY'RE ALL HAND-ME-DOWNS AS  she had to do *** all the cleaning one day a royal messenger came to AN END      OF ALL  the **** ***** BARBIE held at the royal palace in honour of the queen's only son prince ******* **** *** **** WILLIAM'S this was divine prince william was gorgeous and YOU was looking for a bride they DREAM   DAY wedding bells when the evening of the BAR I'VE DONE    JUST    had to help WITH TO      get ready **** THERE in a bad mood THEY   wanted to buy new GAMES but their mother HAD said that they had enough AGAIN so they started shouting at cinders find my JULES YOU    HAVE   one find my HEART OUT    the other DAY  wanted HAIR 
+Eval:                                                                         D   D       S       S          S                    D           S        S      S   S               S               S                                        D     S   S                                                  S      S                   D   D     S    S       S   S             S                 D                                                      I  S        S  S        D    D     S                                                                        D       D    D   D    S                                                         S                                S       S                                         I   S    S       S                   S    S                 D    S                   S                        S                      I                             S                                                 I     S      S                  S     S                S           I    
+
+>> REF:  ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  BRUSHES HAIR        PINS     and hairspray 
+>> Eval: I       S           S                      
+
+

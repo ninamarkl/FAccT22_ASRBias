@@ -1,0 +1,118 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french27_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a ==> more
+   2:    1  ->  a ==> the
+   3:    1  ->  ask ==> asked
+   4:    1  ->  at ==> they
+   5:    1  ->  into ==> tow
+   6:    1  ->  of ==> off
+   7:    1  ->  of ==> ofthe
+   8:    1  ->  plastic ==> name
+   9:    1  ->  slabs ==> laps
+  10:    1  ->  small ==> plastics
+  11:    1  ->  the ==> had
+  12:    1  ->  thick ==> fifty-six
+  13:    1  ->  wednesday ==> once
+  14:    1  ->  will ==> would
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  in
+   2:    1  ->  this
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  five
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    2  ->  of
+   3:    1  ->  ask
+   4:    1  ->  at
+   5:    1  ->  into
+   6:    1  ->  plastic
+   7:    1  ->  slabs
+   8:    1  ->  small
+   9:    1  ->  the
+  10:    1  ->  thick
+  11:    1  ->  wednesday
+  12:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  asked
+   2:    1  ->  fifty-six
+   3:    1  ->  had
+   4:    1  ->  laps
+   5:    1  ->  more
+   6:    1  ->  name
+   7:    1  ->  off
+   8:    1  ->  ofthe
+   9:    1  ->  once
+  10:    1  ->  plastics
+  11:    1  ->  the
+  12:    1  ->  they
+  13:    1  ->  tow
+  14:    1  ->  would
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

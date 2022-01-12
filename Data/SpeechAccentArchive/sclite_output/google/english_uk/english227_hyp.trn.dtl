@@ -1,0 +1,87 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: english_uk\english227_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.5%   (  10)
+
+Percent Correct           =   92.8%   (  64)
+
+Percent Substitution      =    2.9%   (   2)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   85.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  frog ==> frogs
+   2:    1  ->  thick ==> 56
+     -------
+         2
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  for
+   2:    1  ->  much
+   3:    1  ->  thank
+   4:    1  ->  very
+   5:    1  ->  you
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  5
+   2:    1  ->  and
+   3:    1  ->  maybe
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  frog
+   2:    1  ->  thick
+     -------
+         2
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  56
+   2:    1  ->  frogs
+     -------
+         2
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

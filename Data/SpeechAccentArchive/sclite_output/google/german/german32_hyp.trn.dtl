@@ -1,0 +1,79 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: german\german32_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (   4)
+
+Percent Correct           =   94.2%   (  65)
+
+Percent Substitution      =    1.4%   (   1)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  thick ==> 56
+     -------
+         1
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  5
+   2:    1  ->  for
+   3:    1  ->  her
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  thick
+     -------
+         1
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  56
+     -------
+         1
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

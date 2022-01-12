@@ -1,0 +1,104 @@
+SCORING FOR SPEAKER: saa
+     of urdu\urdu6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =    5.8%   (   4)
+Percent Deletions         =   29.0%   (  20)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  49)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  cheese ==> booties
+   2:    1  ->  red ==> and
+   3:    1  ->  spoons ==> 6-oz
+   4:    1  ->  thick ==> 56
+     -------
+         4
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  her
+   2:    1  ->  3
+   3:    1  ->  5
+   4:    1  ->  6
+   5:    1  ->  also
+   6:    1  ->  ask
+   7:    1  ->  blue
+   8:    1  ->  bring
+   9:    1  ->  for
+  10:    1  ->  into
+  11:    1  ->  need
+  12:    1  ->  snack
+  13:    1  ->  these
+  14:    1  ->  things
+  15:    1  ->  to
+  16:    1  ->  toy
+  17:    1  ->  we
+  18:    1  ->  with
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  cheese
+   2:    1  ->  red
+   3:    1  ->  spoons
+   4:    1  ->  thick
+     -------
+         4
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  56
+   2:    1  ->  6-oz
+   3:    1  ->  and
+   4:    1  ->  booties
+     -------
+         4
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

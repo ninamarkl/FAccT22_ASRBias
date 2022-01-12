@@ -1,0 +1,102 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\italian\italian26_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a ==> his
+   2:    1  ->  a ==> the
+   3:    1  ->  five ==> fi
+   4:    1  ->  her ==> a
+   5:    1  ->  her ==> metre
+   6:    1  ->  her ==> there
+   7:    1  ->  snack ==> neck
+   8:    1  ->  spoons ==> pools
+   9:    1  ->  will ==> would
+  10:    1  ->  with ==> were
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  meet
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    3  ->  her
+   2:    2  ->  a
+   3:    1  ->  five
+   4:    1  ->  snack
+   5:    1  ->  spoons
+   6:    1  ->  will
+   7:    1  ->  with
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  fi
+   3:    1  ->  his
+   4:    1  ->  metre
+   5:    1  ->  neck
+   6:    1  ->  pools
+   7:    1  ->  the
+   8:    1  ->  there
+   9:    1  ->  were
+  10:    1  ->  would
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

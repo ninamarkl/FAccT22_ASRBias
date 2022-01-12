@@ -1,0 +1,145 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese24_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.9%   (  31)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   31.9%   (  22)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   55.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a ==> his
+   2:    1  ->  a ==> this
+   3:    1  ->  also ==> it's
+   4:    1  ->  ask ==> asked
+   5:    1  ->  at ==> l
+   6:    1  ->  call ==> her
+   7:    1  ->  five ==> piece
+   8:    1  ->  from ==> over
+   9:    1  ->  her ==> mirror
+  10:    1  ->  need ==> only
+  11:    1  ->  scoop ==> scope
+  12:    1  ->  slabs ==> lives
+  13:    1  ->  snack ==> neck
+  14:    1  ->  spoons ==> forms
+  15:    1  ->  stella ==> i
+  16:    1  ->  the ==> a
+  17:    1  ->  these ==> this
+  18:    1  ->  thick ==> fifty-six
+  19:    1  ->  toy ==> tree
+  20:    1  ->  we ==> rebeck's
+  21:    1  ->  we ==> well
+  22:    1  ->  will ==> ever
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  calls
+   2:    1  ->  tell
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  her
+   2:    1  ->  and
+   3:    1  ->  bags
+   4:    1  ->  meet
+   5:    1  ->  peas
+   6:    1  ->  red
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  a
+   2:    2  ->  we
+   3:    1  ->  also
+   4:    1  ->  ask
+   5:    1  ->  at
+   6:    1  ->  call
+   7:    1  ->  five
+   8:    1  ->  from
+   9:    1  ->  her
+  10:    1  ->  need
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  snack
+  14:    1  ->  spoons
+  15:    1  ->  stella
+  16:    1  ->  the
+  17:    1  ->  these
+  18:    1  ->  thick
+  19:    1  ->  toy
+  20:    1  ->  will
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  this
+   2:    1  ->  a
+   3:    1  ->  asked
+   4:    1  ->  ever
+   5:    1  ->  fifty-six
+   6:    1  ->  forms
+   7:    1  ->  her
+   8:    1  ->  his
+   9:    1  ->  i
+  10:    1  ->  it's
+  11:    1  ->  l
+  12:    1  ->  lives
+  13:    1  ->  mirror
+  14:    1  ->  neck
+  15:    1  ->  only
+  16:    1  ->  over
+  17:    1  ->  piece
+  18:    1  ->  rebeck's
+  19:    1  ->  scope
+  20:    1  ->  tree
+  21:    1  ->  well
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

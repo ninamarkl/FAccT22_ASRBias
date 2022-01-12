@@ -1,0 +1,163 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin48_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   50.7%   (  35)
+
+Percent Correct           =   55.1%   (  38)
+
+Percent Substitution      =   42.0%   (  29)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   49.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  things ==> scenes
+   2:    1  ->  a ==> us
+   3:    1  ->  and ==> on
+   4:    1  ->  ask ==> after
+   5:    1  ->  call ==> calls
+   6:    1  ->  can ==> school
+   7:    1  ->  five ==> family
+   8:    1  ->  fresh ==> fresher
+   9:    1  ->  from ==> formal
+  10:    1  ->  kids ==> seek
+  11:    1  ->  of ==> off
+  12:    1  ->  of ==> ofthe
+  13:    1  ->  peas ==> peace
+  14:    1  ->  plastic ==> takers
+  15:    1  ->  scoop ==> who
+  16:    1  ->  she ==> our
+  17:    1  ->  slabs ==> trevor's
+  18:    1  ->  snack ==> neckar
+  19:    1  ->  snake ==> neck
+  20:    1  ->  snow ==> know
+  21:    1  ->  spoons ==> parts
+  22:    1  ->  stella ==> terror
+  23:    1  ->  store ==> top
+  24:    1  ->  thick ==> seeker
+  25:    1  ->  toy ==> talk
+  26:    1  ->  train ==> in
+  27:    1  ->  we ==> way
+  28:    1  ->  wednesday ==> day
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  keith
+   2:    1  ->  one
+   3:    1  ->  past
+   4:    1  ->  tree
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  her
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  of
+   2:    2  ->  things
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  ask
+   6:    1  ->  call
+   7:    1  ->  can
+   8:    1  ->  five
+   9:    1  ->  fresh
+  10:    1  ->  from
+  11:    1  ->  kids
+  12:    1  ->  peas
+  13:    1  ->  plastic
+  14:    1  ->  scoop
+  15:    1  ->  she
+  16:    1  ->  slabs
+  17:    1  ->  snack
+  18:    1  ->  snake
+  19:    1  ->  snow
+  20:    1  ->  spoons
+  21:    1  ->  stella
+  22:    1  ->  store
+  23:    1  ->  thick
+  24:    1  ->  toy
+  25:    1  ->  train
+  26:    1  ->  we
+  27:    1  ->  wednesday
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  scenes
+   2:    1  ->  after
+   3:    1  ->  calls
+   4:    1  ->  day
+   5:    1  ->  family
+   6:    1  ->  formal
+   7:    1  ->  fresher
+   8:    1  ->  in
+   9:    1  ->  know
+  10:    1  ->  neck
+  11:    1  ->  neckar
+  12:    1  ->  off
+  13:    1  ->  ofthe
+  14:    1  ->  on
+  15:    1  ->  our
+  16:    1  ->  parts
+  17:    1  ->  peace
+  18:    1  ->  school
+  19:    1  ->  seek
+  20:    1  ->  seeker
+  21:    1  ->  takers
+  22:    1  ->  talk
+  23:    1  ->  terror
+  24:    1  ->  top
+  25:    1  ->  trevor's
+  26:    1  ->  us
+  27:    1  ->  way
+  28:    1  ->  who
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

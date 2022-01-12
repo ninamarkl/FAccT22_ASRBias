@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\n-rea1-f5_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-f5_01)
+Scores: (#C #S #D #I) 100 59 21 2
+REF:  once upon a time there was a girl called cinderella but everyone called her **** ** CINDERS CINDERS LIVED with HER MOTHER AND  two stepsisters CALLED LILY AND  ROSA    LILY  AND     ROSA WERE very unfriendly and they were LAZY GIRLS     THEY SPENT all THEIR time buying NEW  clothes and going to parties POOR   CINDERS had TO WEAR all THEIR old hand ME DOWNS   and she had TO DO all the cleaning ONE DAY A ROYAL messenger CAME TO ANNOUNCE A   BALL    the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY    AND ROSA thought this was divine prince william was gorgeous and he was LOOKING FOR    A      BRIDE  THEY DREAMED of wedding bells WHEN THE EVENING OF THE BALL ARRIVED CINDERS   HAD HAS HELPED HER sisters get ready THEY WERE  in a bad mood THEY'D WANTED to buy some new GOWNS but THEIR mother said that they had enough GOWNS so they started SHOUTING at cinders FIND MY JEWELS YELLED ONE FIND  my HAT   HOWLED the other THEY WANTED  
+HYP:  once upon a time there was a girl called cinderella but everyone called her SEND AS SOON    AS      LIVE  with HIM MORE   THAN two stepsisters ****** **** CALL LILIANA GROZA LILLIAN WAS  A    very unfriendly and they were **** LAZYGIRLS IT'S NOT   all THE   time buying YOUR clothes and going to parties PERSON HAS     had ** HER  all THE   old hand ** RETURNS and she had ** IT all the cleaning *** *** * TEN   messenger **** ** CAITLIN  AND SUPPORT the ball ***** be held at the royal palace in honour of the queen's only son prince william LILLIAN WAS I    thought this was divine prince william was gorgeous and he was ******* LITTLE FATHER PARADE THE  DREAMS  of wedding bells **** *** ******* ** *** ONE  ANOTHER POLARISED DO  NOT HAVE   TWO sisters get ready **** THERE in a bad mood THEY   WANT   to buy some new GAMES but THE   mother said that they had enough GAMES so they started SHOWING  at cinders **** ** SO     MUCH   IS  YDTEN my HEART HAS    the other HAIR BRUSHES 
+Eval:                                                                             I    I  S       S       S          S   S      S                    D      D    S    S       S     S       S    S                                  D    S         S    S         S                 S                                 S      S           D  S        S              D  S                   D  S                   D   D   D S               D    D  S        S   S                D                                                                                  S       S   S                                                                   D       S      S      S      S    S                        D    D   D       D  D   S    S       S         S   S   S      S                     D    S                   S      S                      S         S                                      S                     S                   D    D  S      S      S   S        S     S                S    S       
+
+>> REF:  HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  HAIR        PINS     and hairspray 
+>> Eval: S           S                      
+
+

@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\b-rea1-f3_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-f3_01)
+Scores: (#C #S #D #I) 57 26 99 2
+REF:  once upon a time there was a girl called cinderella but everyone called HER CINDERS CINDERS LIVED with her mother and two stepsisters ****** STEPSISTERS called lily and ROSA LILY  AND      ROSA were very unfriendly and THEY WERE LAZY GIRLS they SPENT ALL THEIR TIME BUYING NEW CLOTHES AND GOING TO PARTIES POOR CINDERS HAD TO WEAR ALL THEIR OLD HAND ME DOWNS AND SHE HAD TO DO ALL THE CLEANING ONE  DAY A  ROYAL messenger CAME TO ANNOUNCE A  BALL     the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND ROSA THOUGHT this WAS divine PRINCE WILLIAM WAS gorgeous and HE was looking for a bride THEY DREAMED OF WEDDING BELLS WHEN THE EVENING OF the BALL ARRIVED CINDERS HAD     TO   HELP    her SISTERS GET READY THEY WERE IN A BAD MOOD THEY'D WANTED TO BUY SOME NEW GOWNS BUT THEIR MOTHER SAID THAT THEY HAD ENOUGH GOWNS SO THEY STARTED SHOUTING AT CINDERS FIND MY JEWELS YELLED ONE FIND MY HAT HOWLED THE OTHER THEY WANTED  HAIRBRUSHES HAIRPINS 
+HYP:  once upon a time there was a girl called cinderella but everyone called *** JUST    ENDED   UP    with her mother and two stepsisters SISTER IS          called lily and **** ROSIE WILLIAMS THAT were very unfriendly and **** **** **** ***** they ***** *** ***** **** ****** *** ******* *** ***** ** ******* **** ******* *** ** **** *** ***** *** **** ** ***** *** *** *** ** ** *** *** ******** WILL USE IT ON    messenger **** ** CHAMPION IN FOOTBALL the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** *** **** ******* this IS  divine ****** ******* *** gorgeous and I  was looking for a bride **** ******* ** ******* ***** **** *** ******* ** the **** ******* WEDDING BELLE'S HAIR BRUSHES her ******* *** ***** **** **** ** * *** **** ****** ****** ** *** **** *** ***** *** ***** ****** **** **** **** *** ****** ***** ** **** ******* ******** ** ******* **** ** ****** ****** *** **** ** *** ****** *** ***** **** FRIENDS AND         HER      
+Eval:                                                                         D   S       S       S                                         I      S                           D    S     S        S                             D    D    D    D          D     D   D     D    D      D   D       D   D     D  D       D    D       D   D  D    D   D     D   D    D  D     D   D   D   D  D  D   D   D        S    S   S  S               D    D  S        S  S                 S                                                                                  D    D   D    D            S          D      D       D                S                          D    D       D  D       D     D    D   D       D      D    D       S       S       S    S           D       D   D     D    D    D  D D   D    D      D      D  D   D    D   D     D   D     D      D    D    D    D   D      D     D  D    D       D        D  D       D    D  D      D      D   D    D  D   D      D   D     D    S       S           S        
+
+>> REF:  HAIRPINS and *** HAIRSPRAY 
+>> HYP:  FRIEND   and HER SPRAY     
+>> Eval: S            I   S         
+
+

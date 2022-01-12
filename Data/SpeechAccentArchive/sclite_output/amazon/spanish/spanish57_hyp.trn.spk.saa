@@ -1,0 +1,120 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish57_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  and ==> on
+   2:    1  ->  at ==> had
+   3:    1  ->  bags ==> backs
+   4:    1  ->  can ==> could
+   5:    1  ->  five ==> piece
+   6:    1  ->  go ==> god
+   7:    1  ->  her ==> once
+   8:    1  ->  meet ==> metre
+   9:    1  ->  red ==> read
+  10:    1  ->  slabs ==> laps
+  11:    1  ->  the ==> a
+  12:    1  ->  thick ==> fifty-six
+  13:    1  ->  three ==> treed
+  14:    1  ->  we ==> god
+  15:    1  ->  wednesday ==> they
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  peas
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  and
+   2:    1  ->  at
+   3:    1  ->  bags
+   4:    1  ->  can
+   5:    1  ->  five
+   6:    1  ->  go
+   7:    1  ->  her
+   8:    1  ->  meet
+   9:    1  ->  red
+  10:    1  ->  slabs
+  11:    1  ->  the
+  12:    1  ->  thick
+  13:    1  ->  three
+  14:    1  ->  we
+  15:    1  ->  wednesday
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  on
+   2:    2  ->  god
+   3:    1  ->  a
+   4:    1  ->  backs
+   5:    1  ->  could
+   6:    1  ->  fifty-six
+   7:    1  ->  had
+   8:    1  ->  laps
+   9:    1  ->  metre
+  10:    1  ->  once
+  11:    1  ->  piece
+  12:    1  ->  read
+  13:    1  ->  they
+  14:    1  ->  treed
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

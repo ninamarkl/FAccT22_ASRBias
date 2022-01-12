@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: portuguese\portuguese46_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  and ==> in
+   2:    1  ->  5 ==> no
+   3:    1  ->  bob ==> or
+   4:    1  ->  brother ==> snap
+   5:    1  ->  call ==> ghost
+   6:    1  ->  can ==> chicken
+   7:    1  ->  her ==> metre
+   8:    1  ->  scoop ==> soup
+   9:    1  ->  slabs ==> lives
+  10:    1  ->  spoons ==> pounds
+  11:    1  ->  stella ==> our
+  12:    1  ->  these ==> base
+  13:    1  ->  thick ==> bs56
+  14:    1  ->  will ==> we'll
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  for
+   2:    1  ->  her
+   3:    1  ->  meet
+   4:    1  ->  peas
+   5:    1  ->  she
+   6:    1  ->  snack
+   7:    1  ->  snow
+   8:    1  ->  we
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  and
+   2:    1  ->  5
+   3:    1  ->  bob
+   4:    1  ->  brother
+   5:    1  ->  call
+   6:    1  ->  can
+   7:    1  ->  her
+   8:    1  ->  scoop
+   9:    1  ->  slabs
+  10:    1  ->  spoons
+  11:    1  ->  stella
+  12:    1  ->  these
+  13:    1  ->  thick
+  14:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  in
+   2:    1  ->  base
+   3:    1  ->  bs56
+   4:    1  ->  chicken
+   5:    1  ->  ghost
+   6:    1  ->  lives
+   7:    1  ->  metre
+   8:    1  ->  no
+   9:    1  ->  or
+  10:    1  ->  our
+  11:    1  ->  pounds
+  12:    1  ->  snap
+  13:    1  ->  soup
+  14:    1  ->  we'll
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

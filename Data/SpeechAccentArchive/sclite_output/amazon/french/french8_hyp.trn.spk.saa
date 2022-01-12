@@ -1,0 +1,133 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french8_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  73)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  a ==> to
+   3:    1  ->  bags ==> backs
+   4:    1  ->  bob ==> bub
+   5:    1  ->  brother ==> of
+   6:    1  ->  five ==> faith
+   7:    1  ->  frog ==> fuck
+   8:    1  ->  her ==> bottle
+   9:    1  ->  her ==> half
+  10:    1  ->  maybe ==> be
+  11:    1  ->  peas ==> peace
+  12:    1  ->  red ==> head
+  13:    1  ->  scoop ==> school
+  14:    1  ->  slabs ==> slaps
+  15:    1  ->  snow ==> no
+  16:    1  ->  spoons ==> pulls
+  17:    1  ->  store ==> stuff
+  18:    1  ->  thick ==> takes
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  in
+   3:    1  ->  their
+   4:    1  ->  they
+   5:    1  ->  tow
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  her
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  her
+   2:    2  ->  of
+   3:    1  ->  a
+   4:    1  ->  bags
+   5:    1  ->  bob
+   6:    1  ->  brother
+   7:    1  ->  five
+   8:    1  ->  frog
+   9:    1  ->  maybe
+  10:    1  ->  peas
+  11:    1  ->  red
+  12:    1  ->  scoop
+  13:    1  ->  slabs
+  14:    1  ->  snow
+  15:    1  ->  spoons
+  16:    1  ->  store
+  17:    1  ->  thick
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  off
+   2:    1  ->  backs
+   3:    1  ->  be
+   4:    1  ->  bottle
+   5:    1  ->  bub
+   6:    1  ->  faith
+   7:    1  ->  fuck
+   8:    1  ->  half
+   9:    1  ->  head
+  10:    1  ->  no
+  11:    1  ->  of
+  12:    1  ->  peace
+  13:    1  ->  pulls
+  14:    1  ->  school
+  15:    1  ->  slaps
+  16:    1  ->  stuff
+  17:    1  ->  takes
+  18:    1  ->  to
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

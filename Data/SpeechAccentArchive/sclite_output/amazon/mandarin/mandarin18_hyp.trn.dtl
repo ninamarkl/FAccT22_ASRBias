@@ -1,0 +1,131 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin18_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  ask ==> asks
+   3:    1  ->  at ==> after
+   4:    1  ->  bags ==> backs
+   5:    1  ->  bob ==> bub
+   6:    1  ->  call ==> cause
+   7:    1  ->  five ==> piece
+   8:    1  ->  for ==> full
+   9:    1  ->  scoop ==> school
+  10:    1  ->  slabs ==> left
+  11:    1  ->  snake ==> snack
+  12:    1  ->  spoons ==> ports
+  13:    1  ->  stella ==> della
+  14:    1  ->  the ==> of
+  15:    1  ->  these ==> please
+  16:    1  ->  these ==> really
+  17:    1  ->  thick ==> fifty-six
+  18:    1  ->  things ==> sees
+  19:    1  ->  things ==> since
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  that
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  bring
+   2:    1  ->  peas
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    2  ->  things
+   4:    1  ->  ask
+   5:    1  ->  at
+   6:    1  ->  bags
+   7:    1  ->  bob
+   8:    1  ->  call
+   9:    1  ->  five
+  10:    1  ->  for
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  snake
+  14:    1  ->  spoons
+  15:    1  ->  stella
+  16:    1  ->  the
+  17:    1  ->  thick
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  off
+   2:    1  ->  after
+   3:    1  ->  asks
+   4:    1  ->  backs
+   5:    1  ->  bub
+   6:    1  ->  cause
+   7:    1  ->  della
+   8:    1  ->  fifty-six
+   9:    1  ->  full
+  10:    1  ->  left
+  11:    1  ->  of
+  12:    1  ->  piece
+  13:    1  ->  please
+  14:    1  ->  ports
+  15:    1  ->  really
+  16:    1  ->  school
+  17:    1  ->  sees
+  18:    1  ->  since
+  19:    1  ->  snack
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

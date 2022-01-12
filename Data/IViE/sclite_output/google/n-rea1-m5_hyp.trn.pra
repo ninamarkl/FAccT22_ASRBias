@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\n-rea1-m5_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-m5_01)
+Scores: (#C #S #D #I) 142 31 15 1
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVED with her mother and two stepsisters CALLED lily and ROSA  lily and ROSA  were very unfriendly and WERE  LAZY GIRLS they spent all their time BUYING new clothes and going to parties POOR cinders had to wear ALL THEIR old hand me downs and she had to do all HAD TO DO the cleaning one day a ROYAL messenger CAME TO came TO ANNOUNCE A   ball the ball would be held at the royal palace in honour of the queen's ONLY SON      prince william LILY    AND  ROSA THOUGHT this was divine prince william WAS gorgeous and he was looking for AN a bride THEY DREAMED   of wedding bells when the evening of the BALL ARRIVED   cinders had TO   HELP   her SISTERS  get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but their mother said that they had enough GOWNS so they started shouting at cinders find my JEWELS YELLED ONE  find my HAT   HOWLED the other they wanted **** HAIRBRUSHES and 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LEFT  with her mother and two stepsisters ****** lily and ROSIE lily and ROSIE were very unfriendly and WILLY IS   IT    they spent all their time BY     new clothes and going to parties FOR  cinders had to wear *** THE   old hand me downs and she had to do all *** ** ** the cleaning one day a ***** messenger **** ** came ** IN       THE ball the ball would be held at the royal palace in honour of the queen's **** GRANDSON prince william WILLIAM ROSE UP   FOR     this was divine prince william *** gorgeous and he was looking for ** a bride **** DAYDREAMS of wedding bells when the evening of the **** POLARIZED cinders had THEY HELPED her SISTER'S get ready they were in a bad mood THEY   wanted to buy some new DOWNS but their mother said that they had enough GANGS so they started shouting at cinders find my ****** JUUL   CONE find my HEART OUT    the other they wanted HAIR BRUSHES     and 
+Eval:                                                                                             S                                         D               S              S                              S     S    S                               S                                       S                        D   S                                             D   D  D                         D               D    D       D  S        S                                                                            D    S                       S       S    S    S                                      D                                   D          D    S                                                  D    S                     S    S          S                                          S                             S                                                S                                                 D      S      S            S     S                            I    S               
+
+>> REF:  hairpins HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  hairpins HEMORRHAGES HAPPENS  and hairspray 
+>> Eval:          S           S                      
+
+

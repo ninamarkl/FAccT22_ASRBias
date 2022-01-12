@@ -1,0 +1,151 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic29_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   63.8%   (  44)
+
+Percent Correct           =   36.2%   (  25)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =   34.8%   (  24)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   36.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  45)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  also ==> i
+   2:    1  ->  ask ==> cars
+   3:    1  ->  bags ==> come
+   4:    1  ->  blue ==> or
+   5:    1  ->  cheese ==> bloated
+   6:    1  ->  for ==> as
+   7:    1  ->  fresh ==> a
+   8:    1  ->  her ==> my
+   9:    1  ->  her ==> or
+  10:    1  ->  her ==> ring
+  11:    1  ->  her ==> similar
+  12:    1  ->  kids ==> or
+  13:    1  ->  of ==> flat
+  14:    1  ->  slabs ==> ski
+  15:    1  ->  snake ==> snacks
+  16:    1  ->  spoons ==> top
+  17:    1  ->  station ==> time
+  18:    1  ->  stella ==> police
+  19:    1  ->  the ==> pro
+  20:    1  ->  we ==> because
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  3
+   4:    1  ->  5
+   5:    1  ->  6
+   6:    1  ->  a
+   7:    1  ->  bob
+   8:    1  ->  bring
+   9:    1  ->  call
+  10:    1  ->  for
+  11:    1  ->  frog
+  12:    1  ->  into
+  13:    1  ->  meet
+  14:    1  ->  peas
+  15:    1  ->  please
+  16:    1  ->  red
+  17:    1  ->  scoop
+  18:    1  ->  snack
+  19:    1  ->  store
+  20:    1  ->  thick
+  21:    1  ->  train
+  22:    1  ->  with
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  her
+   2:    1  ->  also
+   3:    1  ->  ask
+   4:    1  ->  bags
+   5:    1  ->  blue
+   6:    1  ->  cheese
+   7:    1  ->  for
+   8:    1  ->  fresh
+   9:    1  ->  kids
+  10:    1  ->  of
+  11:    1  ->  slabs
+  12:    1  ->  snake
+  13:    1  ->  spoons
+  14:    1  ->  station
+  15:    1  ->  stella
+  16:    1  ->  the
+  17:    1  ->  we
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  or
+   2:    1  ->  a
+   3:    1  ->  as
+   4:    1  ->  because
+   5:    1  ->  bloated
+   6:    1  ->  cars
+   7:    1  ->  come
+   8:    1  ->  flat
+   9:    1  ->  i
+  10:    1  ->  my
+  11:    1  ->  police
+  12:    1  ->  pro
+  13:    1  ->  ring
+  14:    1  ->  similar
+  15:    1  ->  ski
+  16:    1  ->  snacks
+  17:    1  ->  time
+  18:    1  ->  top
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic57_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5 ==> please
+   2:    1  ->  frog ==> flat
+   3:    1  ->  her ==> my
+   4:    1  ->  into ==> and
+   5:    1  ->  peas ==> rational
+   6:    1  ->  scoop ==> cook
+   7:    1  ->  station ==> playstation
+   8:    1  ->  thick ==> 56
+   9:    1  ->  toy ==> victoria
+  10:    1  ->  will ==> we'll
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  big
+   2:    1  ->  fresh
+   3:    1  ->  snow
+   4:    1  ->  train
+   5:    1  ->  we
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5
+   2:    1  ->  frog
+   3:    1  ->  her
+   4:    1  ->  into
+   5:    1  ->  peas
+   6:    1  ->  scoop
+   7:    1  ->  station
+   8:    1  ->  thick
+   9:    1  ->  toy
+  10:    1  ->  will
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  56
+   2:    1  ->  and
+   3:    1  ->  cook
+   4:    1  ->  flat
+   5:    1  ->  my
+   6:    1  ->  playstation
+   7:    1  ->  please
+   8:    1  ->  rational
+   9:    1  ->  victoria
+  10:    1  ->  we'll
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

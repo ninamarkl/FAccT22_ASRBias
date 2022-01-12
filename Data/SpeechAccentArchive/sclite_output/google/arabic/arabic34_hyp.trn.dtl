@@ -1,0 +1,110 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic34_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   23.2%   (  16)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  53)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  and ==> in
+   3:    1  ->  frog ==> for
+   4:    1  ->  of ==> with
+   5:    1  ->  plastic ==> ba6
+   6:    1  ->  snack ==> not
+   7:    1  ->  snake ==> take
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  also
+   5:    1  ->  ask
+   6:    1  ->  bob
+   7:    1  ->  bring
+   8:    1  ->  her
+   9:    1  ->  need
+  10:    1  ->  slabs
+  11:    1  ->  small
+  12:    1  ->  spoons
+  13:    1  ->  these
+  14:    1  ->  thick
+  15:    1  ->  to
+  16:    1  ->  we
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  frog
+   4:    1  ->  of
+   5:    1  ->  plastic
+   6:    1  ->  snack
+   7:    1  ->  snake
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  ba6
+   2:    1  ->  for
+   3:    1  ->  in
+   4:    1  ->  it's
+   5:    1  ->  not
+   6:    1  ->  take
+   7:    1  ->  with
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

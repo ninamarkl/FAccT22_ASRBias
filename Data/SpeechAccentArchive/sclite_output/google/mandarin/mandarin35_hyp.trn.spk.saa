@@ -1,0 +1,127 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin35_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.0%   (  29)
+
+Percent Correct           =   60.9%   (  42)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =   20.3%   (  14)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   58.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  57)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  6 ==> six
+   2:    1  ->  bob ==> pop
+   3:    1  ->  can ==> has
+   4:    1  ->  go ==> redbacks
+   5:    1  ->  her ==> baby
+   6:    1  ->  of ==> or
+   7:    1  ->  scoop ==> good
+   8:    1  ->  slabs ==> left
+   9:    1  ->  spoons ==> points
+  10:    1  ->  these ==> this
+  11:    1  ->  thick ==> 56
+  12:    1  ->  wednesday ==> whiskey
+  13:    1  ->  will ==> three
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  her
+   2:    1  ->  with
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    1  ->  3
+   4:    1  ->  5
+   5:    1  ->  bags
+   6:    1  ->  big
+   7:    1  ->  for
+   8:    1  ->  maybe
+   9:    1  ->  red
+  10:    1  ->  snack
+  11:    1  ->  toy
+  12:    1  ->  we
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  6
+   2:    1  ->  bob
+   3:    1  ->  can
+   4:    1  ->  go
+   5:    1  ->  her
+   6:    1  ->  of
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  spoons
+  10:    1  ->  these
+  11:    1  ->  thick
+  12:    1  ->  wednesday
+  13:    1  ->  will
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  56
+   2:    1  ->  baby
+   3:    1  ->  good
+   4:    1  ->  has
+   5:    1  ->  left
+   6:    1  ->  or
+   7:    1  ->  points
+   8:    1  ->  pop
+   9:    1  ->  redbacks
+  10:    1  ->  six
+  11:    1  ->  this
+  12:    1  ->  three
+  13:    1  ->  whiskey
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

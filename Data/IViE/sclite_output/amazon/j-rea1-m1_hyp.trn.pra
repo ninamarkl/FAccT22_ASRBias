@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\j-rea1-m1_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-m1_01)
+Scores: (#C #S #D #I) 168 17 4 2
+REF:  once upon a time there was a girl called cinderella but everybody called her cinders cinders cinders lived with her mother and two **** STEPSISTERS called lily and rosa LILY AND     ROSA were very unfriendly and they were lazy girls they SPENT all their time buying new clothes and going to parties poor CINDERS had to wear all THEIR old hand me downs and she had to do all the cleaning and she had to do the cleaning one day a royal messenger came to announce a BALL the ball WOULD be held at the royal palace in honour of the queen's only son prince william lily and ROSA THOUGHT   this was divine prince william was gorgeous and HE  was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CINDER had to help THE her sisters get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but their mother said that they had enough GOWNS so they started shouting AT CINDERS   find my jewels *** YELLED one find my hat HOWLED the other they wanted 
+HYP:  once upon a time there was a girl called cinderella but everybody called her cinders cinders cinders lived with her mother and two STEP SISTERS     called lily and rosa **** LILLIAN ROSE were very unfriendly and they were lazy girls they SPEND all their time buying new clothes and going to parties poor SINGERS had to wear all THE   old hand me downs and she had to do all the cleaning and she had to do the cleaning one day a royal messenger came to announce a BLE  the ball WILL  be held at the royal palace in honour of the queen's only son prince william lily and **** ROOSEVELT this was divine prince william was gorgeous and SHE was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CINDA  had to help *** her sisters get ready they were in a bad mood THEY   wanted to buy some new GUNS  but their mother said that they had enough GUNS  so they started shouting ** EXTENDERS find my jewels THE OLD    one find my hat HOW    the other they wanted 
+Eval:                                                                                                                                    I    S                                D    S       S                                                       S                                                                 S                       S                                                                                                                                      S             S                                                                                           D    S                                                         S                                                                                              S                  D                                                 S                             S                                                S                              D  S                        I   S                      S                            
+
+>> REF:  hairbrushes hairpins and hairsprays 
+>> HYP:  hairbrushes hairpins and hairsprays 
+>> Eval:                                     
+
+

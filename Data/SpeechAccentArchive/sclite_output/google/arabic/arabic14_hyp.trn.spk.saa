@@ -1,0 +1,103 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic14_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  frog ==> from
+   2:    1  ->  from ==> therefore
+   3:    1  ->  scoop ==> scrub
+   4:    1  ->  slabs ==> bs56xx
+   5:    1  ->  snake ==> snack
+   6:    1  ->  spoons ==> pounds
+   7:    1  ->  toy ==> toys
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  win
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5
+   2:    1  ->  fresh
+   3:    1  ->  her
+   4:    1  ->  peas
+   5:    1  ->  plastic
+   6:    1  ->  the
+   7:    1  ->  thick
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  frog
+   2:    1  ->  from
+   3:    1  ->  scoop
+   4:    1  ->  slabs
+   5:    1  ->  snake
+   6:    1  ->  spoons
+   7:    1  ->  toy
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  bs56xx
+   2:    1  ->  from
+   3:    1  ->  pounds
+   4:    1  ->  scrub
+   5:    1  ->  snack
+   6:    1  ->  therefore
+   7:    1  ->  toys
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,90 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\english_uk\english448_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.7%   (   6)
+
+Percent Correct           =   91.3%   (  63)
+
+Percent Substitution      =    7.2%   (   5)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   91.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  brother ==> bella
+   3:    1  ->  frog ==> fog
+   4:    1  ->  red ==> very
+   5:    1  ->  scoop ==> skip
+     -------
+         5
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  her
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  ask
+   2:    1  ->  brother
+   3:    1  ->  frog
+   4:    1  ->  red
+   5:    1  ->  scoop
+     -------
+         5
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  asked
+   2:    1  ->  bella
+   3:    1  ->  fog
+   4:    1  ->  skip
+   5:    1  ->  very
+     -------
+         5
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

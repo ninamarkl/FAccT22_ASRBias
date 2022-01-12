@@ -1,0 +1,176 @@
+SCORING FOR SPEAKER: l-r
+     of google\l-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   25.1%   (  45)
+
+Percent Correct           =   76.0%   ( 136)
+
+Percent Substitution      =   19.6%   (  35)
+Percent Deletions         =    4.5%   (   8)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   74.9%
+
+
+Ref. words                =           ( 179)
+Hyp. words                =           ( 173)
+Aligned words             =           ( 181)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  had ==> have
+   2:    2  ->  their ==> that
+   3:    1  ->  a ==> answer
+   4:    1  ->  and ==> william
+   5:    1  ->  announce ==> an
+   6:    1  ->  arrived ==> write
+   7:    1  ->  ball ==> baller
+   8:    1  ->  ball ==> but
+   9:    1  ->  cinders ==> cinderella
+  10:    1  ->  cinders ==> just
+  11:    1  ->  cinders ==> sins
+  12:    1  ->  downs ==> danced
+  13:    1  ->  girls ==> lazygirls
+  14:    1  ->  gowns ==> girls
+  15:    1  ->  hairbrushes ==> hair
+  16:    1  ->  hairpins ==> pins
+  17:    1  ->  hand ==> and
+  18:    1  ->  hat ==> findmypast
+  19:    1  ->  he ==> you
+  20:    1  ->  howled ==> help
+  21:    1  ->  jewels ==> the
+  22:    1  ->  lived ==> sleep
+  23:    1  ->  me ==> we
+  24:    1  ->  poor ==> posting
+  25:    1  ->  rosa ==> rose
+  26:    1  ->  rosa ==> rosie
+  27:    1  ->  sisters ==> sister's
+  28:    1  ->  their ==> the
+  29:    1  ->  they'd ==> they
+  30:    1  ->  time ==> i'm
+  31:    1  ->  unfriendly ==> friendly
+  32:    1  ->  would ==> will
+  33:    1  ->  yelled ==> other
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  my
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  find
+   5:    1  ->  gowns
+   6:    1  ->  lazy
+   7:    1  ->  lily
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  cinders
+   2:    3  ->  their
+   3:    2  ->  ball
+   4:    2  ->  had
+   5:    2  ->  rosa
+   6:    1  ->  a
+   7:    1  ->  and
+   8:    1  ->  announce
+   9:    1  ->  arrived
+  10:    1  ->  downs
+  11:    1  ->  girls
+  12:    1  ->  gowns
+  13:    1  ->  hairbrushes
+  14:    1  ->  hairpins
+  15:    1  ->  hand
+  16:    1  ->  hat
+  17:    1  ->  he
+  18:    1  ->  howled
+  19:    1  ->  jewels
+  20:    1  ->  lived
+  21:    1  ->  me
+  22:    1  ->  poor
+  23:    1  ->  sisters
+  24:    1  ->  they'd
+  25:    1  ->  time
+  26:    1  ->  unfriendly
+  27:    1  ->  would
+  28:    1  ->  yelled
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  have
+   2:    2  ->  that
+   3:    2  ->  the
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  answer
+   7:    1  ->  baller
+   8:    1  ->  but
+   9:    1  ->  cinderella
+  10:    1  ->  danced
+  11:    1  ->  findmypast
+  12:    1  ->  friendly
+  13:    1  ->  girls
+  14:    1  ->  hair
+  15:    1  ->  help
+  16:    1  ->  i'm
+  17:    1  ->  just
+  18:    1  ->  lazygirls
+  19:    1  ->  other
+  20:    1  ->  pins
+  21:    1  ->  posting
+  22:    1  ->  rose
+  23:    1  ->  rosie
+  24:    1  ->  sins
+  25:    1  ->  sister's
+  26:    1  ->  sleep
+  27:    1  ->  they
+  28:    1  ->  we
+  29:    1  ->  will
+  30:    1  ->  william
+  31:    1  ->  write
+  32:    1  ->  you
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

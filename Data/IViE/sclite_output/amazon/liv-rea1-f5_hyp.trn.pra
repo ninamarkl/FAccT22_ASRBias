@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\liv-rea1-f5_hyp.trn
+
+Speakers: 
+    0:  liv
+
+Speaker sentences   0:  liv   #utts: 1
+id: (liv-rea1-f5_01)
+Scores: (#C #S #D #I) 142 37 3 6
+REF:  once upon a time there was a girl called cinderella BUT everyone called HER   cinders ***** CIND CINDERS lived with HER   mother and two **** STEPSISTERS called LILY AND     rosa LILY AND     ROSA were ******* VERY UNFRIENDLY and they were lazy girls they spent all THEIR time buying new clothes and going to parties POOR CINDERS HAD  TO WEAR THEIR old hand me downs and she HAD to do THE cleaning one day a royal messenger came to announce A   ball came to announce a ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought THIS was divine prince william was gorgeous and ** *** looking for a bride THEY dreamed of wedding bells when the evening of the ball arrived CINDERS HAD   to help HER  sisters get ready they were in a bad mood THEY'D wanted to buy a new GOWN but their mother said that they had enough GOWNS   so they started shouting *** AT   CINDERS find my jewels yelled one find my hat HOWLED the other they 
+HYP:  once upon a time there was a girl called cinderella SO  everyone called THEIR cinders SENDS IT   SENDS   lived with THEIR mother and two STEP SISTERS     called **** LILLIAN rosa **** LILLIAN ROSE were BETTING ON   FRIENDLY   and they were lazy girls they spent all THE   time buying new clothes and going to parties BOSS IN      SUCH A  WAY  THAT  old hand me downs and she HAS to do *** cleaning one day a royal messenger came to announce THE ball came to announce a ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSE I    thought IT   was divine prince william was gorgeous and HE WAS looking for a bride THE  dreamed of wedding bells when the evening of the ball arrived SEND    ASIDE to help YOUR sisters get ready they were in a bad mood THEY   wanted to buy a new GIRL but their mother said that they had enough GROUNDS so they started shouting AND SEND US      find my jewels yelled one find my hat HOW    the other they 
+Eval:                                                     S                   S             I     S    S                  S                    I    S                  D    S            D    S       S         I       S    S                                                  S                                                  S    S       S    S  S    S                               S         D                                                       S                                         S                                                                                  S       S    S            S                                               I  I                       S                                                                  S       S             S                                              S                          S                                               S                                I   S    S                                             S                     
+
+>> REF:  WANTED hairbrushes hairpins AND hairspray 
+>> HYP:  WANTS  hairbrushes hairpins IN  hairspray 
+>> Eval: S                           S             
+
+

@@ -1,0 +1,121 @@
+SCORING FOR SPEAKER: saa
+     of english_uk\english306_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   79.7%   (  55)
+
+Percent Correct           =   20.3%   (  14)
+
+Percent Substitution      =    1.4%   (   1)
+Percent Deletions         =   78.3%   (  54)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   20.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  15)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  spoons ==> star
+     -------
+         1
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    4  ->  her
+   2:    3  ->  a
+   3:    2  ->  and
+   4:    2  ->  the
+   5:    2  ->  these
+   6:    2  ->  things
+   7:    2  ->  we
+   8:    1  ->  3
+   9:    1  ->  5
+  10:    1  ->  6
+  11:    1  ->  also
+  12:    1  ->  ask
+  13:    1  ->  at
+  14:    1  ->  bags
+  15:    1  ->  big
+  16:    1  ->  blue
+  17:    1  ->  bob
+  18:    1  ->  bring
+  19:    1  ->  brother
+  20:    1  ->  can
+  21:    1  ->  cheese
+  22:    1  ->  for
+  23:    1  ->  from
+  24:    1  ->  go
+  25:    1  ->  into
+  26:    1  ->  maybe
+  27:    1  ->  meet
+  28:    1  ->  need
+  29:    1  ->  of
+  30:    1  ->  red
+  31:    1  ->  scoop
+  32:    1  ->  she
+  33:    1  ->  slabs
+  34:    1  ->  small
+  35:    1  ->  snack
+  36:    1  ->  station
+  37:    1  ->  stella
+  38:    1  ->  store
+  39:    1  ->  thick
+  40:    1  ->  to
+  41:    1  ->  train
+  42:    1  ->  wednesday
+  43:    1  ->  will
+  44:    1  ->  with
+     -------
+        54
+
+
+
+SUBSTITUTIONS                    Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  spoons
+     -------
+         1
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  star
+     -------
+         1
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

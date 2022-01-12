@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\n-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   16.1%   (  29)
+
+Percent Correct           =   83.9%   ( 151)
+
+Percent Substitution      =   13.3%   (  24)
+Percent Deletions         =    2.8%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   83.9%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 175)
+Aligned words             =           ( 180)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  gowns ==> guns
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> lillian
+   4:    1  ->  and ==> rose
+   5:    1  ->  buying ==> buy
+   6:    1  ->  cinders ==> cindy's
+   7:    1  ->  cinders ==> passengers
+   8:    1  ->  hat ==> heart
+   9:    1  ->  help ==> helped
+  10:    1  ->  howled ==> held
+  11:    1  ->  lazy ==> easy
+  12:    1  ->  lily ==> lillian
+  13:    1  ->  mother ==> with
+  14:    1  ->  old ==> levelled
+  15:    1  ->  rosa ==> i
+  16:    1  ->  royal ==> around
+  17:    1  ->  s ==> us
+  18:    1  ->  spent ==> spend
+  19:    1  ->  started ==> start
+  20:    1  ->  their ==> then
+  21:    1  ->  they ==> you
+  22:    1  ->  wanted ==> want
+  23:    1  ->  would ==> will
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  lily
+   3:    1  ->  poor
+   4:    1  ->  their
+   5:    1  ->  to
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  and
+   2:    2  ->  cinders
+   3:    2  ->  gowns
+   4:    1  ->  a
+   5:    1  ->  buying
+   6:    1  ->  hat
+   7:    1  ->  help
+   8:    1  ->  howled
+   9:    1  ->  lazy
+  10:    1  ->  lily
+  11:    1  ->  mother
+  12:    1  ->  old
+  13:    1  ->  rosa
+  14:    1  ->  royal
+  15:    1  ->  s
+  16:    1  ->  spent
+  17:    1  ->  started
+  18:    1  ->  their
+  19:    1  ->  they
+  20:    1  ->  wanted
+  21:    1  ->  would
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  guns
+   2:    2  ->  lillian
+   3:    1  ->  around
+   4:    1  ->  buy
+   5:    1  ->  cindy's
+   6:    1  ->  easy
+   7:    1  ->  heart
+   8:    1  ->  held
+   9:    1  ->  helped
+  10:    1  ->  i
+  11:    1  ->  levelled
+  12:    1  ->  passengers
+  13:    1  ->  rose
+  14:    1  ->  spend
+  15:    1  ->  start
+  16:    1  ->  the
+  17:    1  ->  then
+  18:    1  ->  us
+  19:    1  ->  want
+  20:    1  ->  will
+  21:    1  ->  with
+  22:    1  ->  you
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

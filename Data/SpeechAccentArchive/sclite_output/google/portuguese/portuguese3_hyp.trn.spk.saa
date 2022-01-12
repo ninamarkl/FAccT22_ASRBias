@@ -1,0 +1,119 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5 ==> 56
+   2:    1  ->  a ==> his
+   3:    1  ->  blue ==> those
+   4:    1  ->  can ==> chicken
+   5:    1  ->  cheese ==> 40th
+   6:    1  ->  peas ==> peace
+   7:    1  ->  slabs ==> lives
+   8:    1  ->  snack ==> neck
+   9:    1  ->  snake ==> meg
+  10:    1  ->  snow ==> no
+  11:    1  ->  store ==> distort
+  12:    1  ->  the ==> her
+  13:    1  ->  these ==> those
+  14:    1  ->  thick ==> is
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  is
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  go
+   2:    1  ->  she
+   3:    1  ->  the
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  blue
+   4:    1  ->  can
+   5:    1  ->  cheese
+   6:    1  ->  peas
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  snake
+  10:    1  ->  snow
+  11:    1  ->  store
+  12:    1  ->  the
+  13:    1  ->  these
+  14:    1  ->  thick
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  those
+   2:    1  ->  40th
+   3:    1  ->  56
+   4:    1  ->  chicken
+   5:    1  ->  distort
+   6:    1  ->  her
+   7:    1  ->  his
+   8:    1  ->  is
+   9:    1  ->  lives
+  10:    1  ->  meg
+  11:    1  ->  neck
+  12:    1  ->  no
+  13:    1  ->  peace
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

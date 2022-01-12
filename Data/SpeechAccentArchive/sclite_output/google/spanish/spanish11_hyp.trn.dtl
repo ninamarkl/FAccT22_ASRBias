@@ -1,0 +1,117 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish11_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  6 ==> 6/8
+   2:    1  ->  a ==> as
+   3:    1  ->  frog ==> brad
+   4:    1  ->  maybe ==> navy
+   5:    1  ->  peas ==> peace
+   6:    1  ->  scoop ==> cope
+   7:    1  ->  snack ==> not
+   8:    1  ->  snake ==> neck
+   9:    1  ->  snow ==> no
+  10:    1  ->  spoons ==> pounds
+  11:    1  ->  stella ==> estella
+  12:    1  ->  these ==> this
+  13:    1  ->  toy ==> play
+  14:    1  ->  wednesday ==> play
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  as
+   2:    1  ->  is
+   3:    1  ->  when
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  frog
+   4:    1  ->  maybe
+   5:    1  ->  peas
+   6:    1  ->  scoop
+   7:    1  ->  snack
+   8:    1  ->  snake
+   9:    1  ->  snow
+  10:    1  ->  spoons
+  11:    1  ->  stella
+  12:    1  ->  these
+  13:    1  ->  toy
+  14:    1  ->  wednesday
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  play
+   2:    1  ->  6/8
+   3:    1  ->  as
+   4:    1  ->  brad
+   5:    1  ->  cope
+   6:    1  ->  estella
+   7:    1  ->  navy
+   8:    1  ->  neck
+   9:    1  ->  no
+  10:    1  ->  not
+  11:    1  ->  peace
+  12:    1  ->  pounds
+  13:    1  ->  this
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,133 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: thai\thai11_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.7%   (  26)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   62.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  6 ==> support
+   2:    1  ->  ask ==> at
+   3:    1  ->  bags ==> bag
+   4:    1  ->  brother ==> bronto
+   5:    1  ->  call ==> set
+   6:    1  ->  frog ==> tight
+   7:    1  ->  kids ==> kid
+   8:    1  ->  please ==> car
+   9:    1  ->  slabs ==> slab
+  10:    1  ->  snack ==> arsenic
+  11:    1  ->  spoons ==> aw609
+  12:    1  ->  stella ==> alight
+  13:    1  ->  the ==> after
+  14:    1  ->  these ==> this
+  15:    1  ->  thick ==> p56
+  16:    1  ->  things ==> thing
+  17:    1  ->  toy ==> bit
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  police
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  big
+   5:    1  ->  peas
+   6:    1  ->  scoop
+   7:    1  ->  store
+   8:    1  ->  we
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  6
+   2:    1  ->  ask
+   3:    1  ->  bags
+   4:    1  ->  brother
+   5:    1  ->  call
+   6:    1  ->  frog
+   7:    1  ->  kids
+   8:    1  ->  please
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  spoons
+  12:    1  ->  stella
+  13:    1  ->  the
+  14:    1  ->  these
+  15:    1  ->  thick
+  16:    1  ->  things
+  17:    1  ->  toy
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  after
+   2:    1  ->  alight
+   3:    1  ->  arsenic
+   4:    1  ->  at
+   5:    1  ->  aw609
+   6:    1  ->  bag
+   7:    1  ->  bit
+   8:    1  ->  bronto
+   9:    1  ->  car
+  10:    1  ->  kid
+  11:    1  ->  p56
+  12:    1  ->  set
+  13:    1  ->  slab
+  14:    1  ->  support
+  15:    1  ->  thing
+  16:    1  ->  this
+  17:    1  ->  tight
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

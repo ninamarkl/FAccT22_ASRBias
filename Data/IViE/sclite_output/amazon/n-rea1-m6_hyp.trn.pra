@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\n-rea1-m6_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-m6_01)
+Scores: (#C #S #D #I) 163 26 8 8
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders she lived with her mother and two **** STEPSISTERS called LILY AND     rosa lily and rosa WERE  very unfriendly and WERE very lazy girls they spent all THEIR time buying new clothes and going to parties ** ****** ** POOR CINDERS had to wear all old LAD I'LL   START AGAIN   POOR cinders had to wear *** their old hand ME downs and she had to do the cleaning one day A   royal messenger came to announce A   ball the ball would be held at the royal palace in honour of the queen only son prince william LILY  and rosa * thought this was divine prince william was gorgeous and he was looking for A BRIDE  they dreamed of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a bad MOO  and wanted to buy some new gowns BUT THEIR MOTHER said THEY HA THAT THEY HA  that they had *** THEY had enough gowns so they started shouting AT   cinders find me JEWELS 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders she lived with her mother and two STEP SISTERS     called **** LILLIAN rosa lily and rosa WE'RE very unfriendly and WILL very lazy girls they spent all THE   time buying new clothes and going to parties OF COURSE IN THE  YEAH    had to wear all old *** LADIES CAST  TALKING FOUR cinders had to wear ALL their old hand ** downs and she had to do the cleaning one day THE royal messenger came to announce THE ball the ball would be held at the royal palace in honour of the queen only son prince william LINDA and rosa I thought this was divine prince william was gorgeous and he was looking for * BRIGHT they dreamed of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a bad MOOD and wanted to buy some new gowns PUT THEM  OVER   said **** ** **** **** THE that they had NOT HE   had enough gowns so they started shouting THAT cinders find me JULES  
+Eval:                                                                                                                       I    S                  D    S                          S                         S                                   S                                                  I  I      I  S    S                           D   S      S     S       S                        I                  D                                               S                                    S                                                                                                  S              I                                                                            D S                                                                                                                                      S                                     S   S     S           D    D  D    D    S                 I   S                                              S                    S      
+
+>> REF:  one yelled find me a HAT yelled the other they wanted *** HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  one yelled find me a HUT yelled the other they wanted HER BRUSHES     HAPPENS  and hairspray 
+>> Eval:                      S                                I   S           S                      
+
+

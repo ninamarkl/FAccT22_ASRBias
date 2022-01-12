@@ -1,0 +1,95 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\arabic\arabic56_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.0%   (   9)
+
+Percent Correct           =   88.4%   (  61)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   87.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  a ==> or
+   3:    1  ->  and ==> on
+   4:    1  ->  her ==> herr
+   5:    1  ->  peas ==> piece
+   6:    1  ->  stella ==> stila
+   7:    1  ->  wednesday ==> westie
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  of
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  her
+   5:    1  ->  peas
+   6:    1  ->  stella
+   7:    1  ->  wednesday
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  off
+   2:    1  ->  herr
+   3:    1  ->  on
+   4:    1  ->  or
+   5:    1  ->  piece
+   6:    1  ->  stila
+   7:    1  ->  westie
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

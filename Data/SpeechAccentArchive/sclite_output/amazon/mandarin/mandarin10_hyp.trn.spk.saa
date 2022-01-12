@@ -1,0 +1,137 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin10_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  also ==> so
+   2:    1  ->  and ==> readbacks
+   3:    1  ->  bags ==> twenty-three
+   4:    1  ->  call ==> cause
+   5:    1  ->  frog ==> us
+   6:    1  ->  her ==> mito
+   7:    1  ->  kids ==> case
+   8:    1  ->  need ==> then
+   9:    1  ->  of ==> off
+  10:    1  ->  peas ==> peace
+  11:    1  ->  plastic ==> plastics
+  12:    1  ->  red ==> thinking
+  13:    1  ->  snake ==> nike
+  14:    1  ->  snow ==> no
+  15:    1  ->  spoons ==> boobs
+  16:    1  ->  stella ==> della
+  17:    1  ->  these ==> the
+  18:    1  ->  three ==> the
+  19:    1  ->  we ==> i
+  20:    1  ->  we ==> we're
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  for
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  into
+   2:    1  ->  meet
+   3:    1  ->  these
+   4:    1  ->  things
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  we
+   2:    1  ->  also
+   3:    1  ->  and
+   4:    1  ->  bags
+   5:    1  ->  call
+   6:    1  ->  frog
+   7:    1  ->  her
+   8:    1  ->  kids
+   9:    1  ->  need
+  10:    1  ->  of
+  11:    1  ->  peas
+  12:    1  ->  plastic
+  13:    1  ->  red
+  14:    1  ->  snake
+  15:    1  ->  snow
+  16:    1  ->  spoons
+  17:    1  ->  stella
+  18:    1  ->  these
+  19:    1  ->  three
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  the
+   2:    1  ->  boobs
+   3:    1  ->  case
+   4:    1  ->  cause
+   5:    1  ->  della
+   6:    1  ->  i
+   7:    1  ->  mito
+   8:    1  ->  nike
+   9:    1  ->  no
+  10:    1  ->  off
+  11:    1  ->  peace
+  12:    1  ->  plastics
+  13:    1  ->  readbacks
+  14:    1  ->  so
+  15:    1  ->  then
+  16:    1  ->  thinking
+  17:    1  ->  twenty-three
+  18:    1  ->  us
+  19:    1  ->  we're
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

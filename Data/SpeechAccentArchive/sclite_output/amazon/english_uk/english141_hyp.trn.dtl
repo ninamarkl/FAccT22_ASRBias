@@ -1,0 +1,114 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\english_uk\english141_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  and ==> snaking
+   2:    1  ->  ask ==> i
+   3:    1  ->  at ==> mia
+   4:    1  ->  can ==> lets
+   5:    1  ->  five ==> by
+   6:    1  ->  her ==> a
+   7:    1  ->  her ==> get
+   8:    1  ->  scoop ==> get
+   9:    1  ->  store ==> star
+  10:    1  ->  the ==> when
+  11:    1  ->  train ==> st
+  12:    1  ->  will ==> we'll
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  the
+   2:    1  ->  her
+   3:    1  ->  meet
+   4:    1  ->  red
+   5:    1  ->  snake
+   6:    1  ->  we
+   7:    1  ->  wednesday
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  her
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  at
+   5:    1  ->  can
+   6:    1  ->  five
+   7:    1  ->  scoop
+   8:    1  ->  store
+   9:    1  ->  the
+  10:    1  ->  train
+  11:    1  ->  will
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  get
+   2:    1  ->  a
+   3:    1  ->  by
+   4:    1  ->  i
+   5:    1  ->  lets
+   6:    1  ->  mia
+   7:    1  ->  snaking
+   8:    1  ->  st
+   9:    1  ->  star
+  10:    1  ->  we'll
+  11:    1  ->  when
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

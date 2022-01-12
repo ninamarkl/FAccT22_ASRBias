@@ -1,0 +1,116 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin50_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  a ==> ah
+   3:    1  ->  a ==> us
+   4:    1  ->  ask ==> asked
+   5:    1  ->  bags ==> backs
+   6:    1  ->  call ==> cause
+   7:    1  ->  five ==> piece
+   8:    1  ->  frog ==> frack
+   9:    1  ->  please ==> these
+  10:    1  ->  slabs ==> slaps
+  11:    1  ->  snack ==> nick
+  12:    1  ->  stella ==> della
+  13:    1  ->  thick ==> fifty-six
+  14:    1  ->  wednesday ==> stay
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  one
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  peas
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  a
+   2:    2  ->  of
+   3:    1  ->  ask
+   4:    1  ->  bags
+   5:    1  ->  call
+   6:    1  ->  five
+   7:    1  ->  frog
+   8:    1  ->  please
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  stella
+  12:    1  ->  thick
+  13:    1  ->  wednesday
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  off
+   2:    1  ->  ah
+   3:    1  ->  asked
+   4:    1  ->  backs
+   5:    1  ->  cause
+   6:    1  ->  della
+   7:    1  ->  fifty-six
+   8:    1  ->  frack
+   9:    1  ->  nick
+  10:    1  ->  piece
+  11:    1  ->  slaps
+  12:    1  ->  stay
+  13:    1  ->  these
+  14:    1  ->  us
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

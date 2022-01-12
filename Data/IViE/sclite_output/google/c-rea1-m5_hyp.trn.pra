@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\c-rea1-m5_hyp.trn
+
+Speakers: 
+    0:  c-r
+
+Speaker sentences   0:  c-r   #utts: 1
+id: (c-rea1-m5_01)
+Scores: (#C #S #D #I) 156 24 13 3
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVED with her mother and two stepsisters called lily and rosa LILY AND rosa were very unfriendly and THEY WERE LAZY  GIRLS     THEY spent all their time BUYING new clothes and going to parties POOR cinders had to wear all their hand me downs AND SHE HAD TO do all the CLEANING AND she had to do the cleaning one day A  ROYAL messenger came to ANNOUNCE A         ball the ball ***** the ball would be held at the royal palace in HONOUR of the QUEEN'S only son prince william LILY AND     rosa thought this was divine prince william is gorgeous and he was looking for a bride they DREAMED of wedding bells when the evening of the ball arrived CINDERS had to help her cinders HAD to help her sisters get ready THEY WERE  in a bad mood THEY'D wanted to buy some new GOWNS but their mother said that they had enough GOWNS so THEY started shouting at cinders find my ***** JEWELS YELLED one find my hat 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVE  with her mother and two stepsisters called lily and rosa **** *** rosa were very unfriendly and **** **** THEIR LAZYGIRLS I    spent all their time BY     new clothes and going to parties FOR  cinders had to wear all their hand me downs *** *** *** ** do all the CLOTHES  AS  she had to do the cleaning one day OR ON    messenger came to ******** ANNOUNCER ball the ball WOODS the ball would be held at the royal palace in ORDER  of the ******* only son prince william **** LILLIAN rosa thought this was divine prince william is gorgeous and he was looking for a bride they DREAM   of wedding bells when the evening of the ball arrived CENTRES had to help her cinders HOW to help her sisters get ready **** THERE in a bad mood THEY   wanted to buy some new GIRLS but their mother said that they had enough DOWNS so **** started shouting at cinders find my JULES THE    OLD    one find my hat 
+Eval:                                                                                             S                                                              D    D                                 D    D    S     S         S                         S                                       S                                                D   D   D   D             S        S                                      S  S                       D        S                       I                                                   S             D                               D    S                                                                                                   S                                                             S                               S                                 D    S                   S                             S                                                S        D                                        I     S      S                      
+
+>> REF:  HOWLED the other they wanted **** HAIRBRUSHES hairpins and hairspray 
+>> HYP:  HOW    the other they wanted HAIR BRUSHES     hairpins and hairspray 
+>> Eval: S                            I    S                                  
+
+

@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\car-rea1-m3_hyp.trn
+
+Speakers: 
+    0:  car
+
+Speaker sentences   0:  car   #utts: 1
+id: (car-rea1-m3_01)
+Scores: (#C #S #D #I) 169 17 6 3
+REF:  once upon a time there was a girl called cinderella BUT EVERYONE called her cinders CINDERS lived with HER mother and two **** STEPSISTERS called LILY AND     rosa LILY AND     rosa were very ********** UNFRIENDLY and were lazy girls they spent all THEIR time buying new clothes and going to parties poor cinders had to wear all their old HAND DOWNS    and she had to do all the cleaning one day A   royal messenger came to announce a ball the ball would be held at the royal palace in honour of the queen's only son prince william LILY    AND  rosa thought this was divine ER prince william was gorgeous and he was looking for a bride prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a bad mood they'd wanted to buy some new gowns but their mother said THAT they had enough GOWNS  so they started shouting at CINDERS find me my JEWELLERY yelled ONE  find me 
+HYP:  once upon a time there was a girl called cinderella *** REVEREND called her cinders SINGERS lived with A   mother and two STEP SISTERS     called **** LILLIAN rosa **** LILLIAN rosa were very ENTRENCHED LEE        and were lazy girls they spent all THE   time buying new clothes and going to parties poor cinders had to wear all their old **** HANDOUTS and she had to do all the cleaning one day THE royal messenger came to announce a ball the ball would be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSA rosa thought this was divine ** prince william was gorgeous and he was looking for a bride prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a bad mood they'd wanted to buy some new gowns but their mother said **** they had enough GROUND so they started shouting at SINGERS find me my JURY      yelled WHEN find me 
+Eval:                                                     D   S                           S                  S                  I    S                  D    S            D    S                      I          S                                             S                                                                                         D    S                                                   S                                                                                                                                       S       S                                 D                                                                                                                                                                                                                                                                                                                       D                    S                                  S                  S                S            
+
+>> REF:  my hat *** HOWLED the other they wanted hairbrushes hairpins and hairspray 
+>> HYP:  my hat HOW OLD    the other they wanted hairbrushes hairpins and hairspray 
+>> Eval:        I   S                                                               
+
+

@@ -1,0 +1,141 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\thai\thai2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   33.3%   (  23)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  ask ==> asked
+   3:    1  ->  bags ==> bax
+   4:    1  ->  blue ==> off
+   5:    1  ->  bob ==> but
+   6:    1  ->  bring ==> bean
+   7:    1  ->  call ==> coste
+   8:    1  ->  cheese ==> bushes
+   9:    1  ->  kids ==> kid
+  10:    1  ->  of ==> off
+  11:    1  ->  of ==> slack
+  12:    1  ->  peas ==> piece
+  13:    1  ->  plastic ==> prospects
+  14:    1  ->  please ==> chris
+  15:    1  ->  red ==> lead
+  16:    1  ->  she ==> he
+  17:    1  ->  slabs ==> to
+  18:    1  ->  snake ==> neck
+  19:    1  ->  snow ==> new
+  20:    1  ->  stella ==> ella
+  21:    1  ->  things ==> thing
+  22:    1  ->  wednesday ==> stay
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  when
+   2:    1  ->  you
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  thick
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    1  ->  ask
+   4:    1  ->  bags
+   5:    1  ->  blue
+   6:    1  ->  bob
+   7:    1  ->  bring
+   8:    1  ->  call
+   9:    1  ->  cheese
+  10:    1  ->  kids
+  11:    1  ->  peas
+  12:    1  ->  plastic
+  13:    1  ->  please
+  14:    1  ->  red
+  15:    1  ->  she
+  16:    1  ->  slabs
+  17:    1  ->  snake
+  18:    1  ->  snow
+  19:    1  ->  stella
+  20:    1  ->  things
+  21:    1  ->  wednesday
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  off
+   2:    2  ->  this
+   3:    1  ->  asked
+   4:    1  ->  bax
+   5:    1  ->  bean
+   6:    1  ->  bushes
+   7:    1  ->  but
+   8:    1  ->  chris
+   9:    1  ->  coste
+  10:    1  ->  ella
+  11:    1  ->  he
+  12:    1  ->  kid
+  13:    1  ->  lead
+  14:    1  ->  neck
+  15:    1  ->  new
+  16:    1  ->  piece
+  17:    1  ->  prospects
+  18:    1  ->  slack
+  19:    1  ->  stay
+  20:    1  ->  thing
+  21:    1  ->  to
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\j-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-m4_01)
+Scores: (#C #S #D #I) 131 36 17 4
+REF:  once upon a time there was a girl called cinderella BUT everyone CALLED HER     cinders **** CINDERS LIVED with her MOTHER and two stepsisters called LILY AND ROSA LILY AND     ROSA    WERE  very unfriendly and they were LAZY GIRLS THEY      SPENT ALL  THEIR  TIME buying new clothes and going to parties POOR   CINDERS had to wear ALL THEIR old HAND ME   DOWNS and she had to do the cleaning one day A       ROYAL messenger came to announce a ball the ball WOULD be held at the royal palace in honour of THE QUEEN'S ONLY son prince william LILY and rosa thought **** LILY AND ROSA   thought this was divine prince william WAS gorgeous and he was looking for a bride they DREAMED of wedding bells when the evening of the ball arrived **** CINDERS had to help HER SISTERS    get READY they were in a bad mood THEY HAD  wanted to buy some new gowns but their mother said that they had enough GOWNS so they started shouting at cinders find MY      JEWELS YELLED one find my HAT  HOWLED the other 
+HYP:  once upon a time there was a girl called cinderella *** everyone ****** COURSES cinders SEND THIS    LIVE  with her MOBILE and two stepsisters called **** *** **** **** LILIANA LILIANA GROZA very unfriendly and they were **** ***** LAZYGIRLS IT'S  BEEN BULLET I'M  buying new clothes and going to parties PERSON IS      had to wear *** THE   old **** HEAD DOWN  and she had to do the cleaning one day PAYROLL YOUR  messenger came to announce a ball the ball WILL  be held at the royal palace in honour of *** ******* MY   son prince william **** and rosa thought THIS WAS  A   DIVINE thought this was divine prince william *** gorgeous and he was looking for a bride they DRAINED of wedding bells when the evening of the ball arrived SEND US      had to help *** ASSISTANCE get RID   they were in a bad mood **** THAT wanted to buy some new gowns but their mother said that they had enough DOWN  so they started shouting at cinders find MODULES YOUR   OLD    one find my HEAD OUT    the other 
+Eval:                                                     D            D      S               I    S       S              S                                 D    D   D    D    S       S       S                                   D    D     S         S     S    S      S                                            S      S                   D   S         D    S    S                                            S       S                                                S                                              D   D       S                       D                     I    S    S   S                                             D                                                S                                                             I    S                   D   S              S                             D    S                                                                            S                                              S       S      S                  S    S                
+
+>> REF:  they wanted **** HAIRBRUSHES hairpins AND hairspray 
+>> HYP:  they wanted HAIR BRUSHES     hairpins *** hairspray 
+>> Eval:             I    S                    D             
+
+

@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: german\german10_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  3 ==> three
+   2:    1  ->  5 ==> for
+   3:    1  ->  a ==> the
+   4:    1  ->  also ==> send
+   5:    1  ->  frog ==> pump
+   6:    1  ->  go ==> we're
+   7:    1  ->  her ==> a
+   8:    1  ->  her ==> to
+   9:    1  ->  into ==> the
+  10:    1  ->  meet ==> going
+  11:    1  ->  need ==> me
+  12:    1  ->  scoop ==> skip
+  13:    1  ->  spoons ==> 6moons
+  14:    1  ->  these ==> those
+  15:    1  ->  toy ==> tyre
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  we
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  will
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  her
+   2:    1  ->  3
+   3:    1  ->  5
+   4:    1  ->  a
+   5:    1  ->  also
+   6:    1  ->  frog
+   7:    1  ->  go
+   8:    1  ->  into
+   9:    1  ->  meet
+  10:    1  ->  need
+  11:    1  ->  scoop
+  12:    1  ->  spoons
+  13:    1  ->  these
+  14:    1  ->  toy
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  the
+   2:    1  ->  6moons
+   3:    1  ->  a
+   4:    1  ->  for
+   5:    1  ->  going
+   6:    1  ->  me
+   7:    1  ->  pump
+   8:    1  ->  send
+   9:    1  ->  skip
+  10:    1  ->  those
+  11:    1  ->  three
+  12:    1  ->  to
+  13:    1  ->  tyre
+  14:    1  ->  we're
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,110 @@
+SCORING FOR SPEAKER: saa
+     of hindi\hindi7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a ==> is
+   2:    1  ->  and ==> beds
+   3:    1  ->  bags ==> three
+   4:    1  ->  go ==> call
+   5:    1  ->  her ==> to
+   6:    1  ->  meet ==> me
+   7:    1  ->  slabs ==> length
+   8:    1  ->  snack ==> not
+   9:    1  ->  thick ==> 56
+  10:    1  ->  we ==> in
+  11:    1  ->  will ==> video
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  3
+   2:    1  ->  5
+   3:    1  ->  red
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  bags
+   4:    1  ->  go
+   5:    1  ->  her
+   6:    1  ->  meet
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  thick
+  10:    1  ->  we
+  11:    1  ->  will
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  56
+   2:    1  ->  beds
+   3:    1  ->  call
+   4:    1  ->  in
+   5:    1  ->  is
+   6:    1  ->  length
+   7:    1  ->  me
+   8:    1  ->  not
+   9:    1  ->  three
+  10:    1  ->  to
+  11:    1  ->  video
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

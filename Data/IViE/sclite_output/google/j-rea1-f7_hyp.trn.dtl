@@ -1,0 +1,166 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\j-rea1-f7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.8%   (  43)
+
+Percent Correct           =   77.9%   ( 141)
+
+Percent Substitution      =   15.5%   (  28)
+Percent Deletions         =    6.6%   (  12)
+Percent Insertions        =    1.7%   (   3)
+Percent Word Accuracy     =   76.2%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 172)
+Aligned words             =           ( 184)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  a ==> outside
+   3:    1  ->  announce ==> counting
+   4:    1  ->  arrived ==> in
+   5:    1  ->  ball ==> rice
+   6:    1  ->  buying ==> by
+   7:    1  ->  cinders ==> does
+   8:    1  ->  cinders ==> party
+   9:    1  ->  dreamed ==> dream
+  10:    1  ->  gowns ==> girls
+  11:    1  ->  had ==> have
+  12:    1  ->  hairbrushes ==> hair
+  13:    1  ->  hairpins ==> pins
+  14:    1  ->  howled ==> how
+  15:    1  ->  lily ==> lee
+  16:    1  ->  lily ==> lilley
+  17:    1  ->  lived ==> live
+  18:    1  ->  mother ==> they
+  19:    1  ->  one ==> ydone
+  20:    1  ->  rosa ==> rosie
+  21:    1  ->  royal ==> ten
+  22:    1  ->  sisters ==> sister's
+  23:    1  ->  son ==> some
+  24:    1  ->  they ==> he
+  25:    1  ->  they ==> there
+  26:    1  ->  were ==> are
+  27:    1  ->  yelled ==> jules
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  boiler
+   2:    1  ->  brushes
+   3:    1  ->  hair
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  came
+   4:    1  ->  day
+   5:    1  ->  girls
+   6:    1  ->  jewels
+   7:    1  ->  one
+   8:    1  ->  parties
+   9:    1  ->  poor
+  10:    1  ->  their
+  11:    1  ->  they
+  12:    1  ->  to
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  cinders
+   2:    2  ->  lily
+   3:    2  ->  their
+   4:    2  ->  they
+   5:    1  ->  a
+   6:    1  ->  announce
+   7:    1  ->  arrived
+   8:    1  ->  ball
+   9:    1  ->  buying
+  10:    1  ->  dreamed
+  11:    1  ->  gowns
+  12:    1  ->  had
+  13:    1  ->  hairbrushes
+  14:    1  ->  hairpins
+  15:    1  ->  howled
+  16:    1  ->  lived
+  17:    1  ->  mother
+  18:    1  ->  one
+  19:    1  ->  rosa
+  20:    1  ->  royal
+  21:    1  ->  sisters
+  22:    1  ->  son
+  23:    1  ->  were
+  24:    1  ->  yelled
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  the
+   2:    1  ->  are
+   3:    1  ->  by
+   4:    1  ->  counting
+   5:    1  ->  does
+   6:    1  ->  dream
+   7:    1  ->  girls
+   8:    1  ->  hair
+   9:    1  ->  have
+  10:    1  ->  he
+  11:    1  ->  how
+  12:    1  ->  in
+  13:    1  ->  jules
+  14:    1  ->  lee
+  15:    1  ->  lilley
+  16:    1  ->  live
+  17:    1  ->  outside
+  18:    1  ->  party
+  19:    1  ->  pins
+  20:    1  ->  rice
+  21:    1  ->  rosie
+  22:    1  ->  sister's
+  23:    1  ->  some
+  24:    1  ->  ten
+  25:    1  ->  there
+  26:    1  ->  they
+  27:    1  ->  ydone
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

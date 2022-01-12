@@ -1,0 +1,7 @@
+<SYSTEM title=" amazon\portuguese\portuguese24_hyp.trn" ref_fname=" saa_ref.trn" hyp_fname=" amazon\portuguese\portuguese24_hyp.trn" creation_date="Wed May 26 07:58:47 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="71" sequence="0">
+C,"please","please":I,,"calls":I,,"tell":S,"call","her":S,"stella","i":S,"ask","asked":C,"her","her":C,"to","to":C,"bring","bring":C,"these","these":C,"things","things":C,"with","with":D,"her",:S,"from","over":C,"the","the":C,"store","store":C,"six","six":S,"spoons","forms":C,"of","of":C,"fresh","fresh":C,"snow","snow":D,"peas",:S,"five","piece":S,"thick","fifty-six":S,"slabs","lives":C,"of","of":C,"blue","blue":C,"cheese","cheese":C,"and","and":C,"maybe","maybe":S,"a","his":S,"snack","neck":C,"for","for":D,"her",:C,"brother","brother":C,"bob","bob":S,"we","well":S,"also","it's":S,"need","only":S,"a","this":C,"small","small":C,"plastic","plastic":C,"snake","snake":C,"and","and":C,"a","a":C,"big","big":S,"toy","tree":C,"frog","frog":C,"for","for":C,"the","the":C,"kids","kids":C,"she","she":C,"can","can":S,"scoop","scope":S,"these","this":C,"things","things":C,"into","into":C,"three","three":D,"red",:D,"bags",:D,"and",:S,"we","rebeck's":S,"will","ever":C,"go","go":D,"meet",:S,"her","mirror":C,"wednesday","wednesday":S,"at","l":S,"the","a":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

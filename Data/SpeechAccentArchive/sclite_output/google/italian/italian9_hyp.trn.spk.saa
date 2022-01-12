@@ -1,0 +1,133 @@
+SCORING FOR SPEAKER: saa
+     of italian\italian9_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  a ==> is
+   2:    1  ->  5 ==> fresno
+   3:    1  ->  bags ==> redbacks
+   4:    1  ->  bob ==> that
+   5:    1  ->  bring ==> take
+   6:    1  ->  brother ==> of
+   7:    1  ->  cheese ==> chase
+   8:    1  ->  frog ==> prop
+   9:    1  ->  her ==> heard
+  10:    1  ->  of ==> the
+  11:    1  ->  red ==> free
+  12:    1  ->  slabs ==> let
+  13:    1  ->  small ==> more
+  14:    1  ->  snack ==> next
+  15:    1  ->  snake ==> neck
+  16:    1  ->  spoons ==> sixbones
+  17:    1  ->  stella ==> steph
+  18:    1  ->  thick ==> bs56
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  3
+   2:    1  ->  6
+   3:    1  ->  fresh
+   4:    1  ->  peas
+   5:    1  ->  snow
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  a
+   2:    1  ->  5
+   3:    1  ->  bags
+   4:    1  ->  bob
+   5:    1  ->  bring
+   6:    1  ->  brother
+   7:    1  ->  cheese
+   8:    1  ->  frog
+   9:    1  ->  her
+  10:    1  ->  of
+  11:    1  ->  red
+  12:    1  ->  slabs
+  13:    1  ->  small
+  14:    1  ->  snack
+  15:    1  ->  snake
+  16:    1  ->  spoons
+  17:    1  ->  stella
+  18:    1  ->  thick
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  is
+   2:    1  ->  bs56
+   3:    1  ->  chase
+   4:    1  ->  free
+   5:    1  ->  fresno
+   6:    1  ->  heard
+   7:    1  ->  let
+   8:    1  ->  more
+   9:    1  ->  neck
+  10:    1  ->  next
+  11:    1  ->  of
+  12:    1  ->  prop
+  13:    1  ->  redbacks
+  14:    1  ->  sixbones
+  15:    1  ->  steph
+  16:    1  ->  take
+  17:    1  ->  that
+  18:    1  ->  the
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

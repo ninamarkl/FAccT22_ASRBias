@@ -1,0 +1,96 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\d-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.9%   (   9)
+
+Percent Correct           =   95.7%   ( 176)
+
+Percent Substitution      =    3.8%   (   7)
+Percent Deletions         =    0.5%   (   1)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =   95.1%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 184)
+Aligned words             =           ( 185)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> lillian
+   3:    1  ->  bride ==> bright
+   4:    1  ->  cinders ==> singers
+   5:    1  ->  howled ==> held
+   6:    1  ->  sepsisters ==> step
+   7:    1  ->  stepsisters ==> sisters
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  steps
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  lily
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  bride
+   4:    1  ->  cinders
+   5:    1  ->  howled
+   6:    1  ->  sepsisters
+   7:    1  ->  stepsisters
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  bright
+   2:    1  ->  held
+   3:    1  ->  lillian
+   4:    1  ->  singers
+   5:    1  ->  sisters
+   6:    1  ->  step
+   7:    1  ->  the
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

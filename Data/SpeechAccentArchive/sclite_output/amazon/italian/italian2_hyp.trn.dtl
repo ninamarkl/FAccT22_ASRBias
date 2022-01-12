@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\italian\italian2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.9%   (  31)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   18.8%   (  13)
+Percent Word Accuracy     =   55.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  82)
+Aligned words             =           (  82)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  a ==> old
+   3:    1  ->  at ==> after
+   4:    1  ->  brother ==> broader
+   5:    1  ->  into ==> tow
+   6:    1  ->  peas ==> fight
+   7:    1  ->  plastic ==> not
+   8:    1  ->  slabs ==> slops
+   9:    1  ->  small ==> plastics
+  10:    1  ->  snake ==> snack
+  11:    1  ->  station ==> you
+  12:    1  ->  store ==> storey
+  13:    1  ->  the ==> this
+  14:    1  ->  these ==> a
+  15:    1  ->  thick ==> teen
+  16:    1  ->  wednesday ==> today
+  17:    1  ->  with ==> when
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  did
+   2:    1  ->  how
+   3:    1  ->  in
+   4:    1  ->  it
+   5:    1  ->  net
+   6:    1  ->  on
+   7:    1  ->  piece
+   8:    1  ->  some
+   9:    1  ->  stash
+  10:    1  ->  to
+  11:    1  ->  use
+  12:    1  ->  we
+  13:    1  ->  weeds
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  brother
+   5:    1  ->  into
+   6:    1  ->  peas
+   7:    1  ->  plastic
+   8:    1  ->  slabs
+   9:    1  ->  small
+  10:    1  ->  snake
+  11:    1  ->  station
+  12:    1  ->  store
+  13:    1  ->  the
+  14:    1  ->  these
+  15:    1  ->  thick
+  16:    1  ->  wednesday
+  17:    1  ->  with
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  off
+   2:    1  ->  a
+   3:    1  ->  after
+   4:    1  ->  broader
+   5:    1  ->  fight
+   6:    1  ->  not
+   7:    1  ->  old
+   8:    1  ->  plastics
+   9:    1  ->  slops
+  10:    1  ->  snack
+  11:    1  ->  storey
+  12:    1  ->  teen
+  13:    1  ->  this
+  14:    1  ->  today
+  15:    1  ->  tow
+  16:    1  ->  when
+  17:    1  ->  you
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

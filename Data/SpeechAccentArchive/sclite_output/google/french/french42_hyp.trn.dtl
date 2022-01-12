@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: french\french42_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =   15.9%   (  11)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  6 ==> of
+   2:    1  ->  bags ==> bag
+   3:    1  ->  call ==> close
+   4:    1  ->  her ==> with
+   5:    1  ->  into ==> to
+   6:    1  ->  snake ==> snack
+   7:    1  ->  spoons ==> phrase
+   8:    1  ->  stella ==> tailor
+   9:    1  ->  these ==> this
+  10:    1  ->  thick ==> 56
+  11:    1  ->  things ==> painting
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  6moons
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  can
+   5:    1  ->  her
+   6:    1  ->  meet
+   7:    1  ->  scoop
+   8:    1  ->  she
+   9:    1  ->  station
+  10:    1  ->  the
+  11:    1  ->  train
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  6
+   2:    1  ->  bags
+   3:    1  ->  call
+   4:    1  ->  her
+   5:    1  ->  into
+   6:    1  ->  snake
+   7:    1  ->  spoons
+   8:    1  ->  stella
+   9:    1  ->  these
+  10:    1  ->  thick
+  11:    1  ->  things
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  56
+   2:    1  ->  bag
+   3:    1  ->  close
+   4:    1  ->  of
+   5:    1  ->  painting
+   6:    1  ->  phrase
+   7:    1  ->  snack
+   8:    1  ->  tailor
+   9:    1  ->  this
+  10:    1  ->  to
+  11:    1  ->  with
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

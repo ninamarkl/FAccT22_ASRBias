@@ -1,0 +1,106 @@
+SCORING FOR SPEAKER: saa
+     of italian\italian30_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  bags ==> redbacks
+   3:    1  ->  go ==> got
+   4:    1  ->  of ==> labs
+   5:    1  ->  red ==> three
+   6:    1  ->  snow ==> fresno
+   7:    1  ->  spoons ==> £6
+   8:    1  ->  we ==> you
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  3
+   2:    1  ->  6
+   3:    1  ->  can
+   4:    1  ->  fresh
+   5:    1  ->  scoop
+   6:    1  ->  she
+   7:    1  ->  slabs
+   8:    1  ->  thick
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  these
+   2:    1  ->  bags
+   3:    1  ->  go
+   4:    1  ->  of
+   5:    1  ->  red
+   6:    1  ->  snow
+   7:    1  ->  spoons
+   8:    1  ->  we
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  this
+   2:    1  ->  fresno
+   3:    1  ->  got
+   4:    1  ->  labs
+   5:    1  ->  redbacks
+   6:    1  ->  three
+   7:    1  ->  you
+   8:    1  ->  £6
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

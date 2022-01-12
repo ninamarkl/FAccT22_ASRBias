@@ -1,0 +1,110 @@
+SCORING FOR SPEAKER: j-r
+     of amazon\j-rea1-f1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  17)
+
+Percent Correct           =   92.3%   ( 169)
+
+Percent Substitution      =    6.0%   (  11)
+Percent Deletions         =    1.6%   (   3)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 183)
+Hyp. words                =           ( 183)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> lillian
+   3:    1  ->  and ==> rose
+   4:    1  ->  buying ==> buy
+   5:    1  ->  find ==> by
+   6:    1  ->  her ==> their
+   7:    1  ->  howled ==> held
+   8:    1  ->  lily ==> lillian
+   9:    1  ->  rosa ==> a
+  10:    1  ->  stepsisters ==> sisters
+  11:    1  ->  their ==> the
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  old
+   2:    1  ->  step
+   3:    1  ->  year
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  lily
+   2:    1  ->  of
+   3:    1  ->  yelled
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  buying
+   4:    1  ->  find
+   5:    1  ->  her
+   6:    1  ->  howled
+   7:    1  ->  lily
+   8:    1  ->  rosa
+   9:    1  ->  stepsisters
+  10:    1  ->  their
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  lillian
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  buy
+   5:    1  ->  by
+   6:    1  ->  held
+   7:    1  ->  rose
+   8:    1  ->  sisters
+   9:    1  ->  their
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

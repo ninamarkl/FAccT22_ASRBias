@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\p-rea1-m6_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-m6_01)
+Scores: (#C #S #D #I) 125 44 12 6
+REF:  once upon a time there was a girl called cinderella but everyone called her CINDERS CINDERS LIVED with HER   mother and two stepsisters called lily and ROSA  lily and ROSA  WERE VERY UNFRIENDLY and they were LAZY GIRLS     they spent all THEIR time buying new clothes and going to PARTIES POOR    CINDERS had to wear all THEIR new all *** old hand me downs and she had to do the cleaning one day *** A   ROYAL   MESSENGER came to announce A BALL  the ball would be held at the royal palace in HONOUR OF the queen's only son prince william LILY AND    ROSA     thought this was DIVINE  prince william was gorgeous and HE WAS looking for a bride THEY DREAMED OF  wedding bells when the evening OF the BALL arrived CINDERS HAD to help HER SISTERS  get ready THEY WERE in a bad mood ***** ******* THEY'D WANTED to buy some new GOWNS   but their mother said THAT they had enough GOWNS so THEY started shouting at CINDERS find my JEWELS    YELLED ONE  find my HAT HOWLED THE   OTHER  they wanted 
+HYP:  once upon a time there was a girl called cinderella but everyone called her SINGERS CD'S    LIVE  with THEIR mother and two stepsisters called lily and ROSIE lily and ROSIE ON   A    FRIENDLY   and they were **** LAZYGIRLS they spent all THE   time buying new clothes and going to PARTY   POSTING THIS    had to wear all THE   new all THE old hand me downs and she had to do the cleaning one day AND I'M MESSING YOU       came to announce * ABOUT the ball would be held at the royal palace in ****** ** the queen's only son prince william **** INDIAN ROSEWOOD thought this was GENUINE prince william was gorgeous and ** YOU looking for a bride A    DREAM   DAY wedding bells when the evening ON the WALL arrived SINGERS HOW to help MY  SISTER'S get ready **** **** in a bad mood EIGHT HUNDRED AND    TWELVE to buy some new ACCOUNT but their mother said **** they had enough CAN'T so SHE  started shouting at ******* find my JEWELLERY AND    LOAN find my *** ****** HEART HOLDER they wanted 
+Eval:                                                                             S       S       S          S                                                S              S     S    S    S                        D    S                        S                                          S       S       S                       S             I                                                            I   S   S       S                          D S                                                   D      D                                      D    S      S                         S                                       D  S                       S    S       S                                  S      S            S       S           S   S                  D    D                  I     I       S      S                      S                             D                    S        S                        D               S         S      S            D   D      S     S                  
+
+>> REF:  **** ***** HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  HAIR BRUSH IT          HAPPENS  and hairspray 
+>> Eval: I    I     S           S                      
+
+

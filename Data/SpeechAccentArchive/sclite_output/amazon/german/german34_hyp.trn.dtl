@@ -1,0 +1,114 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\german\german34_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  ask ==> asked
+   3:    1  ->  bob ==> book
+   4:    1  ->  five ==> for
+   5:    1  ->  her ==> here
+   6:    1  ->  her ==> you
+   7:    1  ->  peas ==> peace
+   8:    1  ->  plastic ==> plastics
+   9:    1  ->  slabs ==> laps
+  10:    1  ->  snake ==> like
+  11:    1  ->  thick ==> six
+  12:    1  ->  we ==> box
+  13:    1  ->  will ==> we'll
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  and
+   2:    1  ->  bags
+   3:    1  ->  her
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  her
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  bob
+   5:    1  ->  five
+   6:    1  ->  peas
+   7:    1  ->  plastic
+   8:    1  ->  slabs
+   9:    1  ->  snake
+  10:    1  ->  thick
+  11:    1  ->  we
+  12:    1  ->  will
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  asked
+   2:    1  ->  book
+   3:    1  ->  box
+   4:    1  ->  for
+   5:    1  ->  here
+   6:    1  ->  laps
+   7:    1  ->  like
+   8:    1  ->  on
+   9:    1  ->  peace
+  10:    1  ->  plastics
+  11:    1  ->  six
+  12:    1  ->  we'll
+  13:    1  ->  you
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

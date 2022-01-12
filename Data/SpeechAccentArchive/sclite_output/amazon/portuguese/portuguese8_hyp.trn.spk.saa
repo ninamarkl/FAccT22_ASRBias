@@ -1,0 +1,112 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese8_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> his
+   2:    1  ->  ask ==> asked
+   3:    1  ->  call ==> go
+   4:    1  ->  into ==> you're
+   5:    1  ->  please ==> police
+   6:    1  ->  slabs ==> labs
+   7:    1  ->  snack ==> knack
+   8:    1  ->  store ==> door
+   9:    1  ->  the ==> this
+  10:    1  ->  thick ==> fixed
+  11:    1  ->  three ==> free
+  12:    1  ->  will ==> we'll
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  that
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  we
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  ask
+   3:    1  ->  call
+   4:    1  ->  into
+   5:    1  ->  please
+   6:    1  ->  slabs
+   7:    1  ->  snack
+   8:    1  ->  store
+   9:    1  ->  the
+  10:    1  ->  thick
+  11:    1  ->  three
+  12:    1  ->  will
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  asked
+   2:    1  ->  door
+   3:    1  ->  fixed
+   4:    1  ->  free
+   5:    1  ->  go
+   6:    1  ->  his
+   7:    1  ->  knack
+   8:    1  ->  labs
+   9:    1  ->  police
+  10:    1  ->  this
+  11:    1  ->  we'll
+  12:    1  ->  you're
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

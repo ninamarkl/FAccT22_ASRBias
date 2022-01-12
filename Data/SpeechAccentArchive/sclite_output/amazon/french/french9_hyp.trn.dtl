@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\french\french9_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  ask ==> as
+   2:    1  ->  bob ==> bub
+   3:    1  ->  five ==> peace
+   4:    1  ->  frog ==> front
+   5:    1  ->  her ==> a
+   6:    1  ->  peas ==> no
+   7:    1  ->  scoop ==> scrub
+   8:    1  ->  spoons ==> points
+   9:    1  ->  thick ==> fighting
+  10:    1  ->  toy ==> cold
+  11:    1  ->  will ==> we'll
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  snow
+   2:    1  ->  we
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  ask
+   2:    1  ->  bob
+   3:    1  ->  five
+   4:    1  ->  frog
+   5:    1  ->  her
+   6:    1  ->  peas
+   7:    1  ->  scoop
+   8:    1  ->  spoons
+   9:    1  ->  thick
+  10:    1  ->  toy
+  11:    1  ->  will
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  as
+   3:    1  ->  bub
+   4:    1  ->  cold
+   5:    1  ->  fighting
+   6:    1  ->  front
+   7:    1  ->  no
+   8:    1  ->  peace
+   9:    1  ->  points
+  10:    1  ->  scrub
+  11:    1  ->  we'll
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

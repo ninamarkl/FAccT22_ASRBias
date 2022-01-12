@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\j-rea1-m3_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-m3_01)
+Scores: (#C #S #D #I) 132 48 10 12
+REF:  cinderella ONCE   upon a time there was a girl called cinderella but everyone called her cinders CINDERS LIVED with her mother and two **** STEPSISTERS called lily and rosa LILY AND  ROSA WERE very unfriendly AND WERE lazy girls they spent all their time ** BUYING new ***** CLOTHES and going to parties poor CINDERS had to WEAR ALL  THEIR old hand me downs and she had to do *** the cleaning one day a royal messenger came to announce A   BALL  THE  WALL the BALL would be held AT the royal palace in honour of the ***** ** QUEEN'S only SON  prince william LILY AND   ROSA THOUGHT he was ** **** DIVINE PRINCE WILLIAM was gorgeous and he was *** he was looking for a bride he DREAMT they ****** DREAMT OF  wedding bells when the evening of the BALL ARRIVED CINDERS HAD   to help ** HER SISTERS get ready THEY  WERE IN   a bad MOOD they wanted to buy some new GOWNS but their MOTHER  said THAT they had enough GOWNS  so they started to SHOUT AT    cinders find my jewels YELLED one **** find 
+HYP:  cinderella THAT'S upon a time there was a girl called cinderella but everyone called her cinders SINGERS LED   with her mother and two STEP SISTERS     called lily and rosa **** LIAM WAS  UH   very unfriendly *** MY   lazy girls they spent all their time BY A      new CLOSE UP      and going to parties poor SINGERS had to **** HOLD HER   old hand me downs and she had to do ALL the cleaning one day a royal messenger came to announce THE ROYAL BOOM TO   the BOOM would be held IN the royal palace in honour of the QUEEN IS THE     only SONG prince william **** LIBYA MOST FUN     he was TO FIND PENCE  WITH   HIM     was gorgeous and he was AND he was looking for a bride he JUMPED they JUMPED OFF    THE wedding bells when the evening of the BULL ARRIVES IN      THERE to help US IS  JUST    get ready THERE HAVE BEEN a bad MOVE they wanted to buy some new GUN   but their MOTHERS said **** they had enough COUNTS so they started to ***** SHARE cinders find my jewels ****** one YARD find 
+Eval:            S                                                                                     S       S                             I    S                                D    S    S    S                    D   S                                         I  S          I     S                                 S              D    S    S                                         I                                                           S   S     S    S        S                  S                                    I     I  S            S                   D    S     S    S              I  I    S      S      S                               I                                 S           I      S      S                                         S    S       S       S             I  S   S                 S     S    S          S                                S               S            D                    S                         D     S                            D          I         
+
+>> REF:  my hat HOWLED THE OTHER HOWLED    THE     OTHER one they wanted hairbrushes HAIRPINS and hairspray 
+>> HYP:  my hat ****** *** ***** HEALTHIER HEALTHY OF    one they wanted hairbrushes HAPPENS  and hairspray 
+>> Eval:        D      D   D     S         S       S                                 S                      
+
+

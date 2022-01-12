@@ -1,0 +1,91 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\hindi\hindi7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.1%   (   7)
+
+Percent Correct           =   89.9%   (  62)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   89.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  of ==> off
+   2:    1  ->  of ==> ofthe
+   3:    1  ->  scoop ==> school
+   4:    1  ->  slabs ==> labs
+   5:    1  ->  snack ==> snap
+   6:    1  ->  thick ==> fifty-six
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  five
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  of
+   2:    1  ->  scoop
+   3:    1  ->  slabs
+   4:    1  ->  snack
+   5:    1  ->  thick
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  fifty-six
+   2:    1  ->  labs
+   3:    1  ->  off
+   4:    1  ->  ofthe
+   5:    1  ->  school
+   6:    1  ->  snap
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,105 @@
+SCORING FOR SPEAKER: saa
+     of german\german13_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5 ==> piece
+   2:    1  ->  bags ==> redbacks
+   3:    1  ->  bob ==> but
+   4:    1  ->  her ==> metre
+   5:    1  ->  her ==> paske
+   6:    1  ->  red ==> three
+   7:    1  ->  thick ==> 6
+   8:    1  ->  will ==> we'll
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  3
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  meet
+   5:    1  ->  peas
+   6:    1  ->  snack
+   7:    1  ->  station
+   8:    1  ->  we
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  her
+   2:    1  ->  5
+   3:    1  ->  bags
+   4:    1  ->  bob
+   5:    1  ->  red
+   6:    1  ->  thick
+   7:    1  ->  will
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  6
+   2:    1  ->  but
+   3:    1  ->  metre
+   4:    1  ->  paske
+   5:    1  ->  piece
+   6:    1  ->  redbacks
+   7:    1  ->  three
+   8:    1  ->  we'll
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,98 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: italian\italian21_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  her ==> metre
+   3:    1  ->  her ==> sweetheart
+   4:    1  ->  snack ==> asnac
+   5:    1  ->  thick ==> 56
+   6:    1  ->  things ==> this
+   7:    1  ->  with ==> thing
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  her
+   4:    1  ->  meet
+   5:    1  ->  these
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  her
+   2:    1  ->  a
+   3:    1  ->  snack
+   4:    1  ->  thick
+   5:    1  ->  things
+   6:    1  ->  with
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  56
+   2:    1  ->  asnac
+   3:    1  ->  metre
+   4:    1  ->  sweetheart
+   5:    1  ->  the
+   6:    1  ->  thing
+   7:    1  ->  this
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

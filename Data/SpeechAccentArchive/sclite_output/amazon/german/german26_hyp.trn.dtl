@@ -1,0 +1,130 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\german\german26_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  things ==> thing
+   2:    1  ->  and ==> in
+   3:    1  ->  bags ==> pegs
+   4:    1  ->  bring ==> going
+   5:    1  ->  call ==> called
+   6:    1  ->  five ==> peace
+   7:    1  ->  fresh ==> off
+   8:    1  ->  frog ==> rock
+   9:    1  ->  of ==> ofthe
+  10:    1  ->  peas ==> no
+  11:    1  ->  slabs ==> laps
+  12:    1  ->  snow ==> less
+  13:    1  ->  these ==> this
+  14:    1  ->  these ==> thiss
+  15:    1  ->  thick ==> fifty-six
+  16:    1  ->  to ==> escort
+  17:    1  ->  toy ==> if
+  18:    1  ->  we ==> it
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  toe
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  ask
+   2:    1  ->  her
+   3:    1  ->  of
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  and
+   4:    1  ->  bags
+   5:    1  ->  bring
+   6:    1  ->  call
+   7:    1  ->  five
+   8:    1  ->  fresh
+   9:    1  ->  frog
+  10:    1  ->  of
+  11:    1  ->  peas
+  12:    1  ->  slabs
+  13:    1  ->  snow
+  14:    1  ->  thick
+  15:    1  ->  to
+  16:    1  ->  toy
+  17:    1  ->  we
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  thing
+   2:    1  ->  called
+   3:    1  ->  escort
+   4:    1  ->  fifty-six
+   5:    1  ->  going
+   6:    1  ->  if
+   7:    1  ->  in
+   8:    1  ->  it
+   9:    1  ->  laps
+  10:    1  ->  less
+  11:    1  ->  no
+  12:    1  ->  off
+  13:    1  ->  ofthe
+  14:    1  ->  peace
+  15:    1  ->  pegs
+  16:    1  ->  rock
+  17:    1  ->  this
+  18:    1  ->  thiss
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

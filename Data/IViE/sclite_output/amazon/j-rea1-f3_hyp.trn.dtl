@@ -1,0 +1,147 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\j-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   19.3%   (  35)
+
+Percent Correct           =   83.4%   ( 151)
+
+Percent Substitution      =   12.7%   (  23)
+Percent Deletions         =    3.9%   (   7)
+Percent Insertions        =    2.8%   (   5)
+Percent Word Accuracy     =   80.7%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 179)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  and ==> rose
+   3:    1  ->  arrived ==> of
+   4:    1  ->  ball ==> inaudible
+   5:    1  ->  buying ==> a
+   6:    1  ->  cinder ==> kinda
+   7:    1  ->  cinders ==> cinda
+   8:    1  ->  downs ==> dance
+   9:    1  ->  find ==> fire
+  10:    1  ->  her ==> their
+  11:    1  ->  honour ==> one
+  12:    1  ->  lily ==> lillian
+  13:    1  ->  other ==> eliava
+  14:    1  ->  poor ==> horse
+  15:    1  ->  rosa ==> i
+  16:    1  ->  rosa ==> rose
+  17:    1  ->  royal ==> row
+  18:    1  ->  stepsisters ==> sisters
+  19:    1  ->  the ==> you
+  20:    1  ->  their ==> that
+  21:    1  ->  to ==> against
+  22:    1  ->  were ==> they're
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  the
+   2:    1  ->  by
+   3:    1  ->  right
+   4:    1  ->  step
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  announce
+   4:    1  ->  going
+   5:    1  ->  one
+   6:    1  ->  they
+   7:    1  ->  yelled
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  their
+   2:    2  ->  rosa
+   3:    1  ->  and
+   4:    1  ->  arrived
+   5:    1  ->  ball
+   6:    1  ->  buying
+   7:    1  ->  cinder
+   8:    1  ->  cinders
+   9:    1  ->  downs
+  10:    1  ->  find
+  11:    1  ->  her
+  12:    1  ->  honour
+  13:    1  ->  lily
+  14:    1  ->  other
+  15:    1  ->  poor
+  16:    1  ->  royal
+  17:    1  ->  stepsisters
+  18:    1  ->  the
+  19:    1  ->  to
+  20:    1  ->  were
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  rose
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  against
+   5:    1  ->  cinda
+   6:    1  ->  dance
+   7:    1  ->  eliava
+   8:    1  ->  fire
+   9:    1  ->  horse
+  10:    1  ->  i
+  11:    1  ->  inaudible
+  12:    1  ->  kinda
+  13:    1  ->  lillian
+  14:    1  ->  of
+  15:    1  ->  one
+  16:    1  ->  row
+  17:    1  ->  sisters
+  18:    1  ->  that
+  19:    1  ->  their
+  20:    1  ->  they're
+  21:    1  ->  you
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

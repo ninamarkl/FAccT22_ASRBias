@@ -1,0 +1,196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\car-rea1-m3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.7%   (  57)
+
+Percent Correct           =   71.4%   ( 137)
+
+Percent Substitution      =   19.8%   (  38)
+Percent Deletions         =    8.9%   (  17)
+Percent Insertions        =    1.0%   (   2)
+Percent Word Accuracy     =   70.3%
+
+
+Ref. words                =           ( 192)
+Hyp. words                =           ( 177)
+Aligned words             =           ( 194)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    1  ->  a ==> answer
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> lillian
+   4:    1  ->  announce ==> an
+   5:    1  ->  at ==> it's
+   6:    1  ->  buying ==> by
+   7:    1  ->  cinders ==> ended
+   8:    1  ->  dreamed ==> dreams
+   9:    1  ->  girls ==> lazygirls
+  10:    1  ->  gowns ==> down
+  11:    1  ->  gowns ==> girls
+  12:    1  ->  hairbrushes ==> hair
+  13:    1  ->  hairpins ==> pins
+  14:    1  ->  her ==> a
+  15:    1  ->  her ==> eleven/four
+  16:    1  ->  howled ==> how
+  17:    1  ->  in ==> then
+  18:    1  ->  lazy ==> with
+  19:    1  ->  lily ==> rosie
+  20:    1  ->  old ==> all
+  21:    1  ->  one ==> when
+  22:    1  ->  other ==> they
+  23:    1  ->  poor ==> for
+  24:    1  ->  rosa ==> rose
+  25:    1  ->  sisters ==> sister's
+  26:    1  ->  spent ==> friends
+  27:    1  ->  the ==> baby
+  28:    1  ->  the ==> every
+  29:    1  ->  their ==> the
+  30:    1  ->  their ==> they're
+  31:    1  ->  they ==> the
+  32:    1  ->  they ==> this
+  33:    1  ->  they'd ==> they
+  34:    1  ->  unfriendly ==> intently
+  35:    1  ->  was ==> princess
+  36:    1  ->  wear ==> wait
+  37:    1  ->  were ==> are
+  38:    1  ->  yelled ==> yells
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  were
+   2:    1  ->  but
+   3:    1  ->  called
+   4:    1  ->  downs
+   5:    1  ->  er
+   6:    1  ->  everyone
+   7:    1  ->  lily
+   8:    1  ->  me
+   9:    1  ->  of
+  10:    1  ->  only
+  11:    1  ->  prince
+  12:    1  ->  rosa
+  13:    1  ->  son
+  14:    1  ->  that
+  15:    1  ->  they
+  16:    1  ->  william
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  a
+   2:    2  ->  gowns
+   3:    2  ->  her
+   4:    2  ->  the
+   5:    2  ->  their
+   6:    2  ->  they
+   7:    1  ->  and
+   8:    1  ->  announce
+   9:    1  ->  at
+  10:    1  ->  buying
+  11:    1  ->  cinders
+  12:    1  ->  dreamed
+  13:    1  ->  girls
+  14:    1  ->  hairbrushes
+  15:    1  ->  hairpins
+  16:    1  ->  howled
+  17:    1  ->  in
+  18:    1  ->  lazy
+  19:    1  ->  lily
+  20:    1  ->  old
+  21:    1  ->  one
+  22:    1  ->  other
+  23:    1  ->  poor
+  24:    1  ->  rosa
+  25:    1  ->  sisters
+  26:    1  ->  spent
+  27:    1  ->  they'd
+  28:    1  ->  unfriendly
+  29:    1  ->  was
+  30:    1  ->  wear
+  31:    1  ->  were
+  32:    1  ->  yelled
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  the
+   2:    2  ->  they
+   3:    1  ->  a
+   4:    1  ->  all
+   5:    1  ->  an
+   6:    1  ->  answer
+   7:    1  ->  are
+   8:    1  ->  baby
+   9:    1  ->  by
+  10:    1  ->  down
+  11:    1  ->  dreams
+  12:    1  ->  eleven/four
+  13:    1  ->  ended
+  14:    1  ->  every
+  15:    1  ->  for
+  16:    1  ->  friends
+  17:    1  ->  girls
+  18:    1  ->  hair
+  19:    1  ->  how
+  20:    1  ->  intently
+  21:    1  ->  it's
+  22:    1  ->  lazygirls
+  23:    1  ->  lillian
+  24:    1  ->  pins
+  25:    1  ->  princess
+  26:    1  ->  rose
+  27:    1  ->  rosie
+  28:    1  ->  sister's
+  29:    1  ->  then
+  30:    1  ->  they're
+  31:    1  ->  this
+  32:    1  ->  wait
+  33:    1  ->  when
+  34:    1  ->  with
+  35:    1  ->  yells
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

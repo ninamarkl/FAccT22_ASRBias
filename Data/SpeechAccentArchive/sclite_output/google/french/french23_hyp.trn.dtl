@@ -1,0 +1,103 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: french\french23_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   14.5%   (  10)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a ==> two
+   2:    1  ->  frog ==> dog
+   3:    1  ->  her ==> metre
+   4:    1  ->  red ==> three
+   5:    1  ->  slabs ==> slaps
+   6:    1  ->  spoons ==> pounds
+   7:    1  ->  thick ==> stick
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  her
+   2:    1  ->  3
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  brother
+   6:    1  ->  go
+   7:    1  ->  meet
+   8:    1  ->  we
+   9:    1  ->  will
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  frog
+   3:    1  ->  her
+   4:    1  ->  red
+   5:    1  ->  slabs
+   6:    1  ->  spoons
+   7:    1  ->  thick
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  dog
+   2:    1  ->  metre
+   3:    1  ->  pounds
+   4:    1  ->  slaps
+   5:    1  ->  stick
+   6:    1  ->  three
+   7:    1  ->  two
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

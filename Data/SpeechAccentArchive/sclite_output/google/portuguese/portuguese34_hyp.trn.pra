@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   portuguese\portuguese34_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 46 18 5 0
+REF:  please call stella ASK her to BRING THESE things with her from the store 6 SPOONS of fresh SNOW peas 5 THICK SLABS OF BLUE CHEESE AND MAYBE     A         SNACK   for her brother bob we also need a small plastic snake AND a big TOY FROG  for the kids SHE CAN     SCOOP THESE THINGS into 3 red bags and we will go meet her wednesday at the train station 
+HYP:  please call stella AT  her to RING  THIS  things with her from the store 6 POUNDS of fresh NO   peas * ***** ***** ** 56   LET    THE FRUITTIES ANIMATORS CONNECT for her brother bob we also need a small plastic snake IN  a big TOE THROB for the kids *** CHICKEN COOP  THIS  THING  into 3 red bags and we will go meet her wednesday at the train station 
+Eval:                    S          S     S                                      S               S         D D     D     D  S    S      S   S         S         S                                                              S         S   S                  D   S       S     S     S                                                                             
+
+

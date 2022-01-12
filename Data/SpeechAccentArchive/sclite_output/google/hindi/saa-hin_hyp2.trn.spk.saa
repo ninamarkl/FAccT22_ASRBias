@@ -1,0 +1,385 @@
+SCORING FOR SPEAKER: saa
+     of hindi\saa-hin_hyp2.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                          18
+ with errors                            100.0%   (  18)
+
+   with substitions                     100.0%   (  18)
+   with deletions                       100.0%   (  18)
+   with insertions                       11.1%   (   2)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.2%   ( 425)
+
+Percent Correct           =   66.1%   ( 821)
+
+Percent Substitution      =   12.1%   ( 150)
+Percent Deletions         =   21.8%   ( 271)
+Percent Insertions        =    0.3%   (   4)
+Percent Word Accuracy     =   65.8%
+
+
+Ref. words                =           (1242)
+Hyp. words                =           ( 975)
+Aligned words             =           (1246)
+
+CONFUSION PAIRS                  Total                 (112)
+                                 With >=  1 occurrences (112)
+
+   1:   10  ->  thick ==> 56
+   2:    5  ->  snack ==> not
+   3:    5  ->  spoons ==> pounds
+   4:    4  ->  a ==> it's
+   5:    4  ->  bob ==> but
+   6:    4  ->  scoop ==> screw
+   7:    3  ->  and ==> in
+   8:    3  ->  meet ==> me
+   9:    2  ->  her ==> metre
+  10:    2  ->  peas ==> please
+  11:    2  ->  red ==> 3rd
+  12:    2  ->  slabs ==> laps
+  13:    2  ->  snow ==> no
+  14:    2  ->  spoons ==> points
+  15:    2  ->  toy ==> victoria
+  16:    2  ->  will ==> we'll
+  17:    1  ->  3 ==> in
+  18:    1  ->  3 ==> rotary
+  19:    1  ->  3 ==> the
+  20:    1  ->  3 ==> three
+  21:    1  ->  5 ==> by
+  22:    1  ->  5 ==> five
+  23:    1  ->  5 ==> peace
+  24:    1  ->  5 ==> please
+  25:    1  ->  5 ==> smokies
+  26:    1  ->  6 ==> six
+  27:    1  ->  6 ==> sixth
+  28:    1  ->  a ==> are
+  29:    1  ->  a ==> is
+  30:    1  ->  a ==> nearest
+  31:    1  ->  a ==> us
+  32:    1  ->  also ==> as
+  33:    1  ->  also ==> i
+  34:    1  ->  and ==> as
+  35:    1  ->  and ==> beds
+  36:    1  ->  and ==> making
+  37:    1  ->  ask ==> ice
+  38:    1  ->  at ==> metre
+  39:    1  ->  bags ==> back
+  40:    1  ->  bags ==> bank
+  41:    1  ->  bags ==> bars
+  42:    1  ->  bags ==> dogs
+  43:    1  ->  bags ==> spirit
+  44:    1  ->  bags ==> three
+  45:    1  ->  bob ==> ball
+  46:    1  ->  bob ==> kebab
+  47:    1  ->  bob ==> van
+  48:    1  ->  bring ==> gorleston
+  49:    1  ->  call ==> called
+  50:    1  ->  cheese ==> duties
+  51:    1  ->  cheese ==> jean
+  52:    1  ->  fresh ==> the
+  53:    1  ->  frog ==> bullfrog
+  54:    1  ->  frog ==> flat
+  55:    1  ->  frog ==> from
+  56:    1  ->  frog ==> pram
+  57:    1  ->  frog ==> sticks
+  58:    1  ->  frog ==> toys
+  59:    1  ->  go ==> call
+  60:    1  ->  her ==> a
+  61:    1  ->  her ==> better
+  62:    1  ->  her ==> could
+  63:    1  ->  her ==> for
+  64:    1  ->  her ==> mia
+  65:    1  ->  her ==> steal
+  66:    1  ->  her ==> through
+  67:    1  ->  her ==> to
+  68:    1  ->  into ==> and
+  69:    1  ->  into ==> kid
+  70:    1  ->  into ==> on
+  71:    1  ->  need ==> the
+  72:    1  ->  of ==> 56
+  73:    1  ->  of ==> snoopy's
+  74:    1  ->  of ==> with
+  75:    1  ->  peas ==> freshener
+  76:    1  ->  peas ==> no
+  77:    1  ->  please ==> he's
+  78:    1  ->  scoop ==> gets
+  79:    1  ->  scoop ==> school
+  80:    1  ->  scoop ==> scuba
+  81:    1  ->  slabs ==> fridge
+  82:    1  ->  slabs ==> last
+  83:    1  ->  slabs ==> length
+  84:    1  ->  slabs ==> lives
+  85:    1  ->  slabs ==> lots
+  86:    1  ->  slabs ==> steps
+  87:    1  ->  snack ==> it
+  88:    1  ->  snow ==> freshener
+  89:    1  ->  spoons ==> forms
+  90:    1  ->  spoons ==> story
+  91:    1  ->  spoons ==> tonnes
+  92:    1  ->  spoons ==> £6
+  93:    1  ->  station ==> thing
+  94:    1  ->  the ==> reading
+  95:    1  ->  these ==> seacon
+  96:    1  ->  these ==> the
+  97:    1  ->  thick ==> 6
+  98:    1  ->  thick ==> takes
+  99:    1  ->  things ==> states
+ 100:    1  ->  to ==> you
+ 101:    1  ->  toy ==> boy
+ 102:    1  ->  toy ==> bread
+ 103:    1  ->  toy ==> door
+ 104:    1  ->  toy ==> time
+ 105:    1  ->  train ==> 3d
+ 106:    1  ->  train ==> this
+ 107:    1  ->  we ==> bad
+ 108:    1  ->  we ==> bomb
+ 109:    1  ->  we ==> in
+ 110:    1  ->  wednesday ==> eateries
+ 111:    1  ->  wednesday ==> evil
+ 112:    1  ->  will ==> video
+     -------
+       150
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  from
+   2:    1  ->  her
+   3:    1  ->  of
+   4:    1  ->  stack
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (55)
+                                 With >=  1 occurrences (55)
+
+   1:   22  ->  her
+   2:   14  ->  a
+   3:   12  ->  we
+   4:   11  ->  5
+   5:    9  ->  meet
+   6:    8  ->  and
+   7:    8  ->  bob
+   8:    7  ->  brother
+   9:    6  ->  3
+  10:    6  ->  ask
+  11:    6  ->  big
+  12:    6  ->  can
+  13:    6  ->  red
+  14:    6  ->  snow
+  15:    6  ->  these
+  16:    6  ->  to
+  17:    5  ->  6
+  18:    5  ->  for
+  19:    5  ->  go
+  20:    5  ->  need
+  21:    5  ->  plastic
+  22:    5  ->  scoop
+  23:    5  ->  she
+  24:    5  ->  the
+  25:    5  ->  thick
+  26:    5  ->  things
+  27:    5  ->  will
+  28:    4  ->  also
+  29:    4  ->  at
+  30:    4  ->  of
+  31:    4  ->  peas
+  32:    4  ->  small
+  33:    4  ->  snake
+  34:    4  ->  toy
+  35:    4  ->  with
+  36:    3  ->  bags
+  37:    3  ->  bring
+  38:    3  ->  fresh
+  39:    3  ->  into
+  40:    3  ->  maybe
+  41:    3  ->  slabs
+  42:    3  ->  snack
+  43:    3  ->  spoons
+  44:    3  ->  stella
+  45:    3  ->  wednesday
+  46:    2  ->  blue
+  47:    2  ->  call
+  48:    2  ->  from
+  49:    2  ->  kids
+  50:    2  ->  store
+  51:    1  ->  cheese
+  52:    1  ->  frog
+  53:    1  ->  please
+  54:    1  ->  station
+  55:    1  ->  train
+     -------
+       271
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:   12  ->  thick
+   2:   11  ->  spoons
+   3:   10  ->  her
+   4:    8  ->  a
+   5:    8  ->  slabs
+   6:    7  ->  bob
+   7:    7  ->  scoop
+   8:    6  ->  and
+   9:    6  ->  bags
+  10:    6  ->  frog
+  11:    6  ->  snack
+  12:    6  ->  toy
+  13:    5  ->  5
+  14:    4  ->  3
+  15:    4  ->  peas
+  16:    3  ->  into
+  17:    3  ->  meet
+  18:    3  ->  of
+  19:    3  ->  snow
+  20:    3  ->  we
+  21:    3  ->  will
+  22:    2  ->  6
+  23:    2  ->  also
+  24:    2  ->  cheese
+  25:    2  ->  red
+  26:    2  ->  these
+  27:    2  ->  train
+  28:    2  ->  wednesday
+  29:    1  ->  ask
+  30:    1  ->  at
+  31:    1  ->  bring
+  32:    1  ->  call
+  33:    1  ->  fresh
+  34:    1  ->  go
+  35:    1  ->  need
+  36:    1  ->  please
+  37:    1  ->  station
+  38:    1  ->  the
+  39:    1  ->  things
+  40:    1  ->  to
+     -------
+       150
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (100)
+                                 With >=  1 occurrences (100)
+
+   1:   11  ->  56
+   2:    5  ->  in
+   3:    5  ->  not
+   4:    5  ->  pounds
+   5:    4  ->  but
+   6:    4  ->  it's
+   7:    4  ->  screw
+   8:    4  ->  the
+   9:    3  ->  me
+  10:    3  ->  metre
+  11:    3  ->  no
+  12:    3  ->  please
+  13:    2  ->  3rd
+  14:    2  ->  as
+  15:    2  ->  freshener
+  16:    2  ->  laps
+  17:    2  ->  points
+  18:    2  ->  three
+  19:    2  ->  victoria
+  20:    2  ->  we'll
+  21:    1  ->  3d
+  22:    1  ->  6
+  23:    1  ->  a
+  24:    1  ->  and
+  25:    1  ->  are
+  26:    1  ->  back
+  27:    1  ->  bad
+  28:    1  ->  ball
+  29:    1  ->  bank
+  30:    1  ->  bars
+  31:    1  ->  beds
+  32:    1  ->  better
+  33:    1  ->  bomb
+  34:    1  ->  boy
+  35:    1  ->  bread
+  36:    1  ->  bullfrog
+  37:    1  ->  by
+  38:    1  ->  call
+  39:    1  ->  called
+  40:    1  ->  could
+  41:    1  ->  dogs
+  42:    1  ->  door
+  43:    1  ->  duties
+  44:    1  ->  eateries
+  45:    1  ->  evil
+  46:    1  ->  five
+  47:    1  ->  flat
+  48:    1  ->  for
+  49:    1  ->  forms
+  50:    1  ->  fridge
+  51:    1  ->  from
+  52:    1  ->  gets
+  53:    1  ->  gorleston
+  54:    1  ->  he's
+  55:    1  ->  i
+  56:    1  ->  ice
+  57:    1  ->  is
+  58:    1  ->  it
+  59:    1  ->  jean
+  60:    1  ->  kebab
+  61:    1  ->  kid
+  62:    1  ->  last
+  63:    1  ->  length
+  64:    1  ->  lives
+  65:    1  ->  lots
+  66:    1  ->  making
+  67:    1  ->  mia
+  68:    1  ->  nearest
+  69:    1  ->  on
+  70:    1  ->  peace
+  71:    1  ->  pram
+  72:    1  ->  reading
+  73:    1  ->  rotary
+  74:    1  ->  school
+  75:    1  ->  scuba
+  76:    1  ->  seacon
+  77:    1  ->  six
+  78:    1  ->  sixth
+  79:    1  ->  smokies
+  80:    1  ->  snoopy's
+  81:    1  ->  spirit
+  82:    1  ->  states
+  83:    1  ->  steal
+  84:    1  ->  steps
+  85:    1  ->  sticks
+  86:    1  ->  story
+  87:    1  ->  takes
+  88:    1  ->  thing
+  89:    1  ->  this
+  90:    1  ->  through
+  91:    1  ->  time
+  92:    1  ->  to
+  93:    1  ->  tonnes
+  94:    1  ->  toys
+  95:    1  ->  us
+  96:    1  ->  van
+  97:    1  ->  video
+  98:    1  ->  with
+  99:    1  ->  you
+ 100:    1  ->  £6
+     -------
+       150
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

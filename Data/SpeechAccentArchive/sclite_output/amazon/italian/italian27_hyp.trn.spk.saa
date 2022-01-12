@@ -1,0 +1,140 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\italian\italian27_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.7%   (  26)
+
+Percent Correct           =   62.3%   (  43)
+
+Percent Substitution      =   31.9%   (  22)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   62.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  a ==> is
+   2:    1  ->  five ==> fire
+   3:    1  ->  for ==> to
+   4:    1  ->  fresh ==> first
+   5:    1  ->  frog ==> fraud
+   6:    1  ->  her ==> metre
+   7:    1  ->  meet ==> grew
+   8:    1  ->  of ==> all
+   9:    1  ->  of ==> off
+  10:    1  ->  peas ==> pease
+  11:    1  ->  plastic ==> classes
+  12:    1  ->  scoop ==> screw
+  13:    1  ->  slabs ==> let's
+  14:    1  ->  small ==> more
+  15:    1  ->  snack ==> now
+  16:    1  ->  snow ==> noel
+  17:    1  ->  spoons ==> pulls
+  18:    1  ->  the ==> a
+  19:    1  ->  these ==> this
+  20:    1  ->  thick ==> fixed
+  21:    1  ->  toy ==> total
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  big
+   2:    1  ->  go
+   3:    1  ->  her
+   4:    1  ->  will
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  a
+   2:    2  ->  of
+   3:    1  ->  five
+   4:    1  ->  for
+   5:    1  ->  fresh
+   6:    1  ->  frog
+   7:    1  ->  her
+   8:    1  ->  meet
+   9:    1  ->  peas
+  10:    1  ->  plastic
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  small
+  14:    1  ->  snack
+  15:    1  ->  snow
+  16:    1  ->  spoons
+  17:    1  ->  the
+  18:    1  ->  these
+  19:    1  ->  thick
+  20:    1  ->  toy
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  is
+   2:    1  ->  a
+   3:    1  ->  all
+   4:    1  ->  classes
+   5:    1  ->  fire
+   6:    1  ->  first
+   7:    1  ->  fixed
+   8:    1  ->  fraud
+   9:    1  ->  grew
+  10:    1  ->  let's
+  11:    1  ->  metre
+  12:    1  ->  more
+  13:    1  ->  noel
+  14:    1  ->  now
+  15:    1  ->  off
+  16:    1  ->  pease
+  17:    1  ->  pulls
+  18:    1  ->  screw
+  19:    1  ->  this
+  20:    1  ->  to
+  21:    1  ->  total
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

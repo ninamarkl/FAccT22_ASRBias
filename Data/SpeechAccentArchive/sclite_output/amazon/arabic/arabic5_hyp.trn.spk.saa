@@ -1,0 +1,101 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.5%   (  10)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   85.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  ask ==> asked
+   3:    1  ->  call ==> corps
+   4:    1  ->  of ==> off
+   5:    1  ->  of ==> or
+   6:    1  ->  please ==> peace
+   7:    1  ->  spoons ==> pools
+   8:    1  ->  stella ==> stellar
+   9:    1  ->  wednesday ==> they
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  when
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  call
+   5:    1  ->  please
+   6:    1  ->  spoons
+   7:    1  ->  stella
+   8:    1  ->  wednesday
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  asked
+   2:    1  ->  corps
+   3:    1  ->  off
+   4:    1  ->  or
+   5:    1  ->  peace
+   6:    1  ->  pools
+   7:    1  ->  stellar
+   8:    1  ->  the
+   9:    1  ->  they
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,106 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish16_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and ==> on
+   2:    1  ->  bags ==> box
+   3:    1  ->  call ==> called
+   4:    1  ->  five ==> piece
+   5:    1  ->  please ==> police
+   6:    1  ->  slabs ==> laps
+   7:    1  ->  spoons ==> points
+   8:    1  ->  stella ==> still
+   9:    1  ->  these ==> conscripted
+  10:    1  ->  thick ==> fifty-six
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  can
+   2:    1  ->  peas
+   3:    1  ->  scoop
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and
+   2:    1  ->  bags
+   3:    1  ->  call
+   4:    1  ->  five
+   5:    1  ->  please
+   6:    1  ->  slabs
+   7:    1  ->  spoons
+   8:    1  ->  stella
+   9:    1  ->  these
+  10:    1  ->  thick
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  on
+   2:    1  ->  box
+   3:    1  ->  called
+   4:    1  ->  conscripted
+   5:    1  ->  fifty-six
+   6:    1  ->  laps
+   7:    1  ->  piece
+   8:    1  ->  points
+   9:    1  ->  police
+  10:    1  ->  still
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

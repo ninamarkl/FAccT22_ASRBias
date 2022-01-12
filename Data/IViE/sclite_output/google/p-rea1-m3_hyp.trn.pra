@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\p-rea1-m3_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-m3_01)
+Scores: (#C #S #D #I) 84 42 61 0
+REF:  once upon a time there was a girl called cinderella BUT EVERYONE CALLED HER  CINDERS   cinders LIVED with HER mother and two stepsisters CALLED LILY AND ROSA LILY AND  ROSA    WERE  very UNFRIENDLY and they were LAZY GIRLS     THEY SPENT all THEIR time BUYING NEW CLOTHES AND going to parties POOR CINDERS HAD TO WEAR  all THEIR old hand me downs and SHE HAD TO BE SHE  HAD  to do the cleaning ONE DAY A ROYAL MESSENGER CAME TO ANNOUNCE A  BALL the ball WOULD  be held at the royal palace IN HONOUR OF THE QUEEN'S QUEEN'S ONLY       son PRINCE WILLIAM LILY AND ROSA THOUGHT THIS WAS DIVINE prince william WAS    gorgeous and HE WAS  looking for a bride THEY DREAMED OF  wedding bells WHEN the evening of the BALL ARRIVED CINDERS HAD  TO   help HER SISTERS get ready THEY WERE  in a bad mood THEY'D WANTED TO BUY SOME NEW GOWNS      but their mother had THEIR MOTHER said that they had enough GOWNS so THEY started SHOUTING AT CINDERS find my JEWELS YELLED ONE find my hat HOWLED the other 
+HYP:  once upon a time there was a girl called cinderella *** ******** KEVIN  CALL LUCINDA'S cinders LIVE  with THE mother and two stepsisters ****** **** *** **** **** CALL LILIANA GROZA very FRIENDLY   and they were **** LAZYGIRLS IT'S BEEN  all THE   time ****** *** ******* I'M going to parties **** ******* *** ** WHERE all THE   old hand me downs and *** *** ** ** SHUT SHUT to do the cleaning *** *** * ***** ********* **** ** OUT      OF ALL  the ball SHOULD be held at the royal palace ** ****** ** *** ******* ******* QUEENSBURY son ****** ******* **** *** **** ******* **** *** ****** prince william DEVINE gorgeous and ** HE'S looking for a bride THE  DREAM   DAY wedding bells IN   the evening of the **** ******* ******* BULL RIDE help *** TO      get ready **** THERE in a bad mood ****** ****** ** *** **** *** NEWGROUNDS but their mother had ***** ****** said that they had enough GUNS  so IT   started ******** ** TO      find my ****** ****** *** find my hat HOW    the other 
+Eval:                                                     D   D        S      S    S                 S          S                              D      D    D   D    D    S    S       S          S                        D    S         S    S         S          D      D   D       S                    D    D       D   D  S         S                           D   D   D  D  S    S                       D   D   D D     D         D    D  S        S  S             S                                  D  D      D  D   D       D       S              D      D       D    D   D    D       D    D   D                     S                   D  S                        S    S       S                 S                       D    D       D       S    S         D   S                 D    S                   D      D      D  D   D    D   S                               D     D                                S        S            D        D  S               D      D      D               S                
+
+>> REF:  THEY WANTED HAIRBRUSHES HAIRPINS AND hairspray 
+>> HYP:  **** HIS    HEAD        PAINS    IN  hairspray 
+>> Eval: D    S      S           S        S             
+
+

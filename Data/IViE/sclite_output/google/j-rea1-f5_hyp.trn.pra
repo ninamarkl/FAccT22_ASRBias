@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\j-rea1-f5_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-f5_01)
+Scores: (#C #S #D #I) 144 29 11 5
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders CINDER LIVED with her mother and two stepsisters called lily and rosa LILY AND rosa were very unfriendly and they were very lazy girls they spent all their TIME BUYING new clothes AND going to parties POOR    CINDERS HAD  to WEAR all THEIR OLD HAND  HAND ME  DOWNS and she had to do the cleaning one day ** A     ROYAL MESSAGE  came to announce a ball the ball would be held at the royal palace in honour of the queen's only SON prince william LILY   and rosa thought this was DIVINE prince WILLIAM WAS       gorgeous and he was looking for A BRIDE  they DREAMED of wedding bells when the evening of the ball arrived ***** CINDERS had to help her sisters get ready THEY ER     they were in a bad mood THEY'D wanted to buy some new GOWNS but their mother said that they had enough GOWNS so they started shouting at cinders find my jewellery *** YELLED one find my HAT YELLED YELLED the other they wanted **** 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders CINDY  LIVE  with her mother and two stepsisters called lily and rosa **** *** rosa were very unfriendly and they were very lazy girls they spent all their **** X      new clothes I'M going to parties PORTION TO      SAID to WAIT all ***** *** THERE I    WAS HANDS and she had to do the cleaning one day IN WHERE YOUR  MESSAGES came to announce a ball the ball would be held at the royal palace in honour of the queen's only *** prince william LILLEY and rosa thought this was DEFINE prince PRINCE  WILLIAM'S gorgeous and he was looking for * BRIDES they DRINK   of wedding bells when the evening of the ball arrived SINCE HE'S    had to help her sisters get ready **** THOUGH they were in a bad mood THEY   wanted to buy some new GIRLS but their mother said that they had enough ***** so they started shouting at cinders find my jewellery THE OLD    one find my *** ****** HEAD   the other they wanted HAIR 
+Eval:                                                                                     S      S                                                              D    D                                                                                D    S                  S                    S       S       S       S        D     D   S     S    S   S                                            I  S     S     S                                                                                                         D                  S                                S             S       S                                         D S           S                                                             I     S                                         D    S                              S                             S                                                D                                                           I   S                  D   D      S                            I    
+
+>> REF:  ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  BRUSHES HAIR        PINS     and hairspray 
+>> Eval: I       S           S                      
+
+

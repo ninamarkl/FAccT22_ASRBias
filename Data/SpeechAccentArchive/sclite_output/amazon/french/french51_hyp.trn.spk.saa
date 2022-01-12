@@ -1,0 +1,104 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french51_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  her ==> a
+   2:    2  ->  of ==> off
+   3:    1  ->  and ==> in
+   4:    1  ->  brother ==> problem
+   5:    1  ->  call ==> called
+   6:    1  ->  frog ==> folk
+   7:    1  ->  please ==> police
+   8:    1  ->  spoons ==> burns
+   9:    1  ->  these ==> thes
+  10:    1  ->  three ==> tree
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  her
+   2:    2  ->  of
+   3:    1  ->  and
+   4:    1  ->  brother
+   5:    1  ->  call
+   6:    1  ->  frog
+   7:    1  ->  please
+   8:    1  ->  spoons
+   9:    1  ->  these
+  10:    1  ->  three
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  a
+   2:    2  ->  off
+   3:    1  ->  burns
+   4:    1  ->  called
+   5:    1  ->  folk
+   6:    1  ->  in
+   7:    1  ->  police
+   8:    1  ->  problem
+   9:    1  ->  thes
+  10:    1  ->  tree
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

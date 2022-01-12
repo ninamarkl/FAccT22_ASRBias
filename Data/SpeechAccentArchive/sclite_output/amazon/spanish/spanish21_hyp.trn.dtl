@@ -1,0 +1,134 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish21_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   31.9%   (  22)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  of ==> off
+   2:    2  ->  these ==> the
+   3:    1  ->  bags ==> box
+   4:    1  ->  bob ==> but
+   5:    1  ->  bring ==> touring
+   6:    1  ->  can ==> and
+   7:    1  ->  five ==> fight
+   8:    1  ->  fresh ==> freshness
+   9:    1  ->  her ==> hear
+  10:    1  ->  her ==> herr
+  11:    1  ->  kids ==> case
+  12:    1  ->  peas ==> peace
+  13:    1  ->  she ==> seek
+  14:    1  ->  slabs ==> slough
+  15:    1  ->  snow ==> now
+  16:    1  ->  thick ==> sex
+  17:    1  ->  things ==> thing
+  18:    1  ->  to ==> here
+  19:    1  ->  toy ==> tiled
+  20:    1  ->  with ==> we
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  ask
+   2:    1  ->  her
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  her
+   2:    2  ->  of
+   3:    2  ->  these
+   4:    1  ->  bags
+   5:    1  ->  bob
+   6:    1  ->  bring
+   7:    1  ->  can
+   8:    1  ->  five
+   9:    1  ->  fresh
+  10:    1  ->  kids
+  11:    1  ->  peas
+  12:    1  ->  she
+  13:    1  ->  slabs
+  14:    1  ->  snow
+  15:    1  ->  thick
+  16:    1  ->  things
+  17:    1  ->  to
+  18:    1  ->  toy
+  19:    1  ->  with
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  off
+   2:    2  ->  the
+   3:    1  ->  and
+   4:    1  ->  box
+   5:    1  ->  but
+   6:    1  ->  case
+   7:    1  ->  fight
+   8:    1  ->  freshness
+   9:    1  ->  hear
+  10:    1  ->  here
+  11:    1  ->  herr
+  12:    1  ->  now
+  13:    1  ->  peace
+  14:    1  ->  seek
+  15:    1  ->  sex
+  16:    1  ->  slough
+  17:    1  ->  thing
+  18:    1  ->  tiled
+  19:    1  ->  touring
+  20:    1  ->  we
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

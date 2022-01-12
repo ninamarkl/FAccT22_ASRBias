@@ -1,0 +1,114 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese47_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =   23.2%   (  16)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  53)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bags ==> facts
+   2:    1  ->  call ==> tesco
+   3:    1  ->  of ==> a
+   4:    1  ->  peas ==> is
+   5:    1  ->  red ==> three
+   6:    1  ->  slabs ==> sixth
+   7:    1  ->  snow ==> milk
+   8:    1  ->  things ==> descends
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  3
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  big
+   5:    1  ->  bob
+   6:    1  ->  brother
+   7:    1  ->  can
+   8:    1  ->  for
+   9:    1  ->  go
+  10:    1  ->  her
+  11:    1  ->  please
+  12:    1  ->  scoop
+  13:    1  ->  spoons
+  14:    1  ->  these
+  15:    1  ->  thick
+  16:    1  ->  toy
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bags
+   2:    1  ->  call
+   3:    1  ->  of
+   4:    1  ->  peas
+   5:    1  ->  red
+   6:    1  ->  slabs
+   7:    1  ->  snow
+   8:    1  ->  things
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  descends
+   3:    1  ->  facts
+   4:    1  ->  is
+   5:    1  ->  milk
+   6:    1  ->  sixth
+   7:    1  ->  tesco
+   8:    1  ->  three
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

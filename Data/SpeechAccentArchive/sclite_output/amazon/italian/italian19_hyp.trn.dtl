@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\italian\italian19_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  five ==> fight
+   2:    1  ->  from ==> without
+   3:    1  ->  her ==> a
+   4:    1  ->  peas ==> puppies
+   5:    1  ->  red ==> right
+   6:    1  ->  six ==> sweet
+   7:    1  ->  slabs ==> clubs
+   8:    1  ->  snow ==> new
+   9:    1  ->  stella ==> still
+  10:    1  ->  store ==> sore
+  11:    1  ->  the ==> fromthe
+  12:    1  ->  thick ==> ex
+  13:    1  ->  three ==> tree
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  her
+   2:    1  ->  with
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  five
+   2:    1  ->  from
+   3:    1  ->  her
+   4:    1  ->  peas
+   5:    1  ->  red
+   6:    1  ->  six
+   7:    1  ->  slabs
+   8:    1  ->  snow
+   9:    1  ->  stella
+  10:    1  ->  store
+  11:    1  ->  the
+  12:    1  ->  thick
+  13:    1  ->  three
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  clubs
+   3:    1  ->  ex
+   4:    1  ->  fight
+   5:    1  ->  fromthe
+   6:    1  ->  new
+   7:    1  ->  puppies
+   8:    1  ->  right
+   9:    1  ->  sore
+  10:    1  ->  still
+  11:    1  ->  sweet
+  12:    1  ->  tree
+  13:    1  ->  without
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

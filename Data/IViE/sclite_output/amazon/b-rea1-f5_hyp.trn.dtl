@@ -1,0 +1,194 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\b-rea1-f5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   32.0%   (  57)
+
+Percent Correct           =   72.5%   ( 129)
+
+Percent Substitution      =   22.5%   (  40)
+Percent Deletions         =    5.1%   (   9)
+Percent Insertions        =    4.5%   (   8)
+Percent Word Accuracy     =   68.0%
+
+
+Ref. words                =           ( 178)
+Hyp. words                =           ( 177)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  and ==> lillian
+   2:    1  ->  a ==> ten
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> rose
+   5:    1  ->  arrived ==> of
+   6:    1  ->  at ==> its
+   7:    1  ->  buy ==> pay
+   8:    1  ->  called ==> the
+   9:    1  ->  cinders ==> lenders
+  10:    1  ->  cinders ==> percentage
+  11:    1  ->  cinders ==> sanders
+  12:    1  ->  cinders ==> send
+  13:    1  ->  cinders ==> their
+  14:    1  ->  divine ==> vein
+  15:    1  ->  dreamed ==> regimes
+  16:    1  ->  find ==> found
+  17:    1  ->  get ==> sister
+  18:    1  ->  girl ==> cigars
+  19:    1  ->  gowns ==> grounds
+  20:    1  ->  gowns ==> guns
+  21:    1  ->  hairbrushes ==> her
+  22:    1  ->  hairpins ==> pants
+  23:    1  ->  hairspray ==> spray
+  24:    1  ->  her ==> centres
+  25:    1  ->  howled ==> tell
+  26:    1  ->  lily ==> lillian
+  27:    1  ->  lived ==> lives
+  28:    1  ->  prince ==> principle
+  29:    1  ->  ready ==> radha
+  30:    1  ->  rosa ==> i
+  31:    1  ->  rosa ==> rose
+  32:    1  ->  shouting ==> shedding
+  33:    1  ->  stepsisters ==> sisters
+  34:    1  ->  they ==> break
+  35:    1  ->  unfriendly ==> friendly
+  36:    1  ->  were ==> around
+  37:    1  ->  when ==> in
+  38:    1  ->  william ==> in
+  39:    1  ->  yelled ==> jails
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  array
+   2:    1  ->  brushes
+   3:    1  ->  calls
+   4:    1  ->  harsh
+   5:    1  ->  her
+   6:    1  ->  nail
+   7:    1  ->  step
+   8:    1  ->  the
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  lily
+   2:    1  ->  bride
+   3:    1  ->  jewels
+   4:    1  ->  poor
+   5:    1  ->  sisters
+   6:    1  ->  there
+   7:    1  ->  time
+   8:    1  ->  was
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    5  ->  cinders
+   2:    3  ->  and
+   3:    2  ->  a
+   4:    2  ->  gowns
+   5:    2  ->  rosa
+   6:    1  ->  arrived
+   7:    1  ->  at
+   8:    1  ->  buy
+   9:    1  ->  called
+  10:    1  ->  divine
+  11:    1  ->  dreamed
+  12:    1  ->  find
+  13:    1  ->  get
+  14:    1  ->  girl
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  hairspray
+  18:    1  ->  her
+  19:    1  ->  howled
+  20:    1  ->  lily
+  21:    1  ->  lived
+  22:    1  ->  prince
+  23:    1  ->  ready
+  24:    1  ->  shouting
+  25:    1  ->  stepsisters
+  26:    1  ->  they
+  27:    1  ->  unfriendly
+  28:    1  ->  were
+  29:    1  ->  when
+  30:    1  ->  william
+  31:    1  ->  yelled
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  lillian
+   2:    2  ->  in
+   3:    2  ->  rose
+   4:    2  ->  the
+   5:    1  ->  around
+   6:    1  ->  break
+   7:    1  ->  centres
+   8:    1  ->  cigars
+   9:    1  ->  found
+  10:    1  ->  friendly
+  11:    1  ->  grounds
+  12:    1  ->  guns
+  13:    1  ->  her
+  14:    1  ->  i
+  15:    1  ->  its
+  16:    1  ->  jails
+  17:    1  ->  lenders
+  18:    1  ->  lives
+  19:    1  ->  of
+  20:    1  ->  pants
+  21:    1  ->  pay
+  22:    1  ->  percentage
+  23:    1  ->  principle
+  24:    1  ->  radha
+  25:    1  ->  regimes
+  26:    1  ->  sanders
+  27:    1  ->  send
+  28:    1  ->  shedding
+  29:    1  ->  sister
+  30:    1  ->  sisters
+  31:    1  ->  spray
+  32:    1  ->  tell
+  33:    1  ->  ten
+  34:    1  ->  their
+  35:    1  ->  vein
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\p-rea1-f4_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-f4_01)
+Scores: (#C #S #D #I) 112 51 17 5
+REF:  once upon a time there was a girl called cinderella but everyone called HER cinders cinders lived with her mother and two stepsisters CALLED LILY AND     ROSA LILY  AND   ROSA WERE very unfriendly and they WERE LAZY GIRLS THEY SPENT all THEIR time BUYING new clothes AND going to parties POOR CINDERS   had to WEAR all THEIR old hand me downs and she had to do the cleaning ONE DAY A      ROYAL  messenger came to ANNOUNCE A  BALL the BALL WOULD be held at the royal palace in honour of the queen's only son prince william LILY        AND ROSA thought this was DIVINE   prince WILLIAM   was gorgeous ***** AND he was looking for a bride THEY  dreamed of WEDDING BELLS when THE EVENING of the BALL ARRIVED   cinders HAD TO HELP HER   SISTERS    get ready THEY WERE  in A BAD   MOOD THEY'D wanted to buy some new GOWNS   but their mother said that they had had enough GOWNS SO  THEY started SHOUTING  AT CINDERS find my JEWELS YELLED ONE find my ***** HAT   HOWLED the other they wanted *** 
+HYP:  once upon a time there was a girl called cinderella but everyone called THE cinders cinders lived with her mother and two stepsisters ****** CALL LILLIAN ROSE USING LOADS OF   A    very unfriendly and they WILL HE   GOES  TO   SPEND all THE   time BY     new clothes I'M going to parties **** FASTENERS had to **** all THE   old hand me downs and she had to do the cleaning *** *** MONDAY AROUND messenger came to ENHANCE  OF ALL  the **** ***** be held at the royal palace in honour of the queen's only son prince william BILLIONAIRE WAS A    thought this was DESIGNED prince WILLIAM'S was gorgeous UNDER THE he was looking for a bride THERE dreamed of READING BILLS when *** MEANING of the **** POLARIZED cinders *** ** **** HOTEL PERSISTENT get ready **** THERE in * ABOUT ROAD THEY   wanted to buy some new CLOTHES but their mother said that they had had enough GUNS  FOR THE  started CHESTNUTS IN DOES    find my ****** ****** *** find my HEART WHOLE OF     the other they wanted HER 
+Eval:                                                                         S                                                             D      S    S       S    S     S     S    S                             S    S    S     S    S         S          S                  S                    D    S                D        S                                                      D   D   S      S                        S        S  S        D    D                                                                                  S           S   S                     S               S                      I     S                              S                S       S          D   S              D    S                 D   D  D    S     S                    D    S        D S     S    S                             S                                                      S     S   S            S         S  S               D      D      D           I     S     S                            I   
+
+>> REF:  **** ** HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  BOYS TO HER         PAINS    and hairspray 
+>> Eval: I    I  S           S                      
+
+

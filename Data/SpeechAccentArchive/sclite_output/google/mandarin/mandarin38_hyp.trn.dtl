@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin38_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  and ==> in
+   2:    1  ->  5 ==> v
+   3:    1  ->  a ==> but
+   4:    1  ->  a ==> the
+   5:    1  ->  bob ==> before
+   6:    1  ->  can ==> chicken
+   7:    1  ->  frog ==> from
+   8:    1  ->  scoop ==> script
+   9:    1  ->  slabs ==> celebres
+  10:    1  ->  snack ==> not
+  11:    1  ->  spoons ==> pounds
+  12:    1  ->  these ==> this
+  13:    1  ->  thick ==> thing
+  14:    1  ->  things ==> scene
+  15:    1  ->  toy ==> up
+  16:    1  ->  wednesday ==> birthday
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  ask
+   2:    1  ->  for
+   3:    1  ->  tyre
+   4:    1  ->  you
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  go
+   2:    1  ->  she
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    1  ->  5
+   4:    1  ->  bob
+   5:    1  ->  can
+   6:    1  ->  frog
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  snack
+  10:    1  ->  spoons
+  11:    1  ->  these
+  12:    1  ->  thick
+  13:    1  ->  things
+  14:    1  ->  toy
+  15:    1  ->  wednesday
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  in
+   2:    1  ->  before
+   3:    1  ->  birthday
+   4:    1  ->  but
+   5:    1  ->  celebres
+   6:    1  ->  chicken
+   7:    1  ->  from
+   8:    1  ->  not
+   9:    1  ->  pounds
+  10:    1  ->  scene
+  11:    1  ->  script
+  12:    1  ->  the
+  13:    1  ->  thing
+  14:    1  ->  this
+  15:    1  ->  up
+  16:    1  ->  v
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

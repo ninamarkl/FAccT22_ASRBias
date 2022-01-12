@@ -1,0 +1,132 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin10_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   60.9%   (  42)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =   15.9%   (  11)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  58)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  3 ==> thinking
+   2:    1  ->  and ==> in
+   3:    1  ->  and ==> wetbacks
+   4:    1  ->  bags ==> three
+   5:    1  ->  blue ==> laptop
+   6:    1  ->  cheese ==> loocis
+   7:    1  ->  into ==> you
+   8:    1  ->  need ==> wilson
+   9:    1  ->  of ==> fix
+  10:    1  ->  red ==> to
+  11:    1  ->  slabs ==> fast
+  12:    1  ->  snow ==> no
+  13:    1  ->  spoons ==> moves
+  14:    1  ->  these ==> the
+  15:    1  ->  things ==> case
+  16:    1  ->  we ==> i
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5
+   2:    1  ->  also
+   3:    1  ->  ask
+   4:    1  ->  can
+   5:    1  ->  her
+   6:    1  ->  kids
+   7:    1  ->  scoop
+   8:    1  ->  she
+   9:    1  ->  these
+  10:    1  ->  thick
+  11:    1  ->  we
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  and
+   2:    1  ->  3
+   3:    1  ->  bags
+   4:    1  ->  blue
+   5:    1  ->  cheese
+   6:    1  ->  into
+   7:    1  ->  need
+   8:    1  ->  of
+   9:    1  ->  red
+  10:    1  ->  slabs
+  11:    1  ->  snow
+  12:    1  ->  spoons
+  13:    1  ->  these
+  14:    1  ->  things
+  15:    1  ->  we
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  case
+   2:    1  ->  fast
+   3:    1  ->  fix
+   4:    1  ->  i
+   5:    1  ->  in
+   6:    1  ->  laptop
+   7:    1  ->  loocis
+   8:    1  ->  moves
+   9:    1  ->  no
+  10:    1  ->  the
+  11:    1  ->  thinking
+  12:    1  ->  three
+  13:    1  ->  to
+  14:    1  ->  wetbacks
+  15:    1  ->  wilson
+  16:    1  ->  you
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

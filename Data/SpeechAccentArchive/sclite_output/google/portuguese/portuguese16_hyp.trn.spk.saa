@@ -1,0 +1,126 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese16_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  5 ==> freshener
+   2:    1  ->  a ==> is
+   3:    1  ->  a ==> there's
+   4:    1  ->  and ==> in
+   5:    1  ->  need ==> me
+   6:    1  ->  peas ==> or
+   7:    1  ->  plastic ==> plastics
+   8:    1  ->  scoop ==> cook
+   9:    1  ->  small ==> more
+  10:    1  ->  snack ==> not
+  11:    1  ->  snake ==> make
+  12:    1  ->  snow ==> £6
+  13:    1  ->  these ==> this
+  14:    1  ->  thick ==> bs56
+  15:    1  ->  things ==> thing
+  16:    1  ->  will ==> we'll
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  6
+   2:    1  ->  fresh
+   3:    1  ->  of
+   4:    1  ->  spoons
+   5:    1  ->  we
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  a
+   2:    1  ->  5
+   3:    1  ->  and
+   4:    1  ->  need
+   5:    1  ->  peas
+   6:    1  ->  plastic
+   7:    1  ->  scoop
+   8:    1  ->  small
+   9:    1  ->  snack
+  10:    1  ->  snake
+  11:    1  ->  snow
+  12:    1  ->  these
+  13:    1  ->  thick
+  14:    1  ->  things
+  15:    1  ->  will
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  bs56
+   2:    1  ->  cook
+   3:    1  ->  freshener
+   4:    1  ->  in
+   5:    1  ->  is
+   6:    1  ->  make
+   7:    1  ->  me
+   8:    1  ->  more
+   9:    1  ->  not
+  10:    1  ->  or
+  11:    1  ->  plastics
+  12:    1  ->  there's
+  13:    1  ->  thing
+  14:    1  ->  this
+  15:    1  ->  we'll
+  16:    1  ->  £6
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

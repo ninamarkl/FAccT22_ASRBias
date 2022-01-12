@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: portuguese\portuguese29_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  5 ==> fennel
+   2:    1  ->  a ==> it's
+   3:    1  ->  and ==> in
+   4:    1  ->  bob ==> but
+   5:    1  ->  frog ==> frogs
+   6:    1  ->  her ==> fare
+   7:    1  ->  her ==> metre
+   8:    1  ->  scoop ==> cook
+   9:    1  ->  slabs ==> laps
+  10:    1  ->  snack ==> not
+  11:    1  ->  spoons ==> pounds
+  12:    1  ->  thick ==> bs56
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  ask
+   2:    1  ->  bring
+   3:    1  ->  her
+   4:    1  ->  meet
+   5:    1  ->  peas
+   6:    1  ->  snow
+   7:    1  ->  to
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  her
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  bob
+   6:    1  ->  frog
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  snack
+  10:    1  ->  spoons
+  11:    1  ->  thick
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bs56
+   2:    1  ->  but
+   3:    1  ->  cook
+   4:    1  ->  fare
+   5:    1  ->  fennel
+   6:    1  ->  frogs
+   7:    1  ->  in
+   8:    1  ->  it's
+   9:    1  ->  laps
+  10:    1  ->  metre
+  11:    1  ->  not
+  12:    1  ->  pounds
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

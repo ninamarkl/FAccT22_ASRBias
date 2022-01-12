@@ -1,0 +1,1216 @@
+---
+title: "FAccT 2022 submission - Language variation and algorithmic bias: understanding algorithmic bias in British English automatic speech recognition"
+
+output:
+  bookdown::html_document2:
+    toc: true
+    toc_float: true
+    theme: cosmo
+    highlight: tango
+    df_print: paged
+    code_folding: show
+    fig_caption: true
+    toc_depth: 4
+
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set( warning = FALSE, error = FALSE, message = FALSE, cache = TRUE)
+```
+
+---
+# Set up: 
+
+```{r}
+library(bookdown)
+library(tidyverse)
+library(readr)
+library(ggplot2)
+library(jtools)
+library(svglite)
+library(stringr)
+library(stringi)
+library(readr)
+library(janitor)
+library(ggpubr)
+library(kableExtra)
+library(ggthemes)
+library(tidylog)
+library(grid)
+```
+
+Set path to folder: 
+
+```{r, eval=FALSE}
+data_path <- 
+```
+
+# Get and prep data: 
+
+Two corpora are analysed: Speech Accent Archive and IViE. 
+
+## Speech Accent Archive: 
+
+Get speaker demographics (from Speech Accent Archive): 
+
+
+```{r}
+saa_demog <- read.csv(paste0(data_path, "/Data/SpeechAccentArchive/speakers_all.csv"))%>%
+  mutate(variety = case_when(str_detect(birthplace, "[Ss]cotland") ~ "Scottish",
+                             str_detect(birthplace, "Southern|South|SW|SE|[Ss]urrey|[Oo]xford|[Ll]ondon|
+                                        |[Ww]indsor|[Ww]ight|[Ll]ittlehampton|[Bb]uckinghamshire|
+                                        |leighton buzzard|exminister|southhampton|[Hh]ertfordshire|bury|
+                                        |middlesex|bournesmouth") 
+                             ~ "South",
+                             str_detect(birthplace, "[Ww]ales") ~ "Welsh", 
+                             str_detect(birthplace, "[Nn]orthern ireland")  ~ "NorthernIrish", 
+                             str_detect(birthplace, "[Mm]anchester|[Ll]eeds|[Dd]erby|[Dd]udley|
+                             |rutland|[Bb]irmingham|[Nn]ewcastle|
+                             |lancashire|leicester|grimsby|chester|[Yy]ork|[Bb]irkenhead|[Nn]orfolk|
+                             |[Nn]ottingham|[Ss]tafford|[Ww]arwick|Cumbria|avon|donington") ~ "North",
+                             str_detect(country, "[Ii]reland") ~ "Irish",
+                             TRUE ~ as.character(native_language)))%>% # add variety
+  mutate(L1_english = if_else(str_detect(native_language, "english"),"L1_English","L2_English"))
+
+```
+
+
+Get Evaluation: 
+
+I use sclite to evaluate the transcripts and Matlab to summarise that for every subfolder (model/variety) - let's load in these summary files and merge them: 
+
+```{r}
+files <- list.files(paste0(data_path, "/Data/SpeechAccentArchive/sclite_output/google"), "wer_summary.csv", recursive = TRUE)%>%
+  as.data.frame()
+
+colnames(files)[1] = "Files"
+  
+filenames <- files %>%
+  mutate(path = paste0(data_path, "/Data/SpeechAccentArchive/sclite_output/google/", Files))%>%
+  separate(Files, into = c("folder", "file"), sep = "/")
+
+```
+
+Add some more information: 
+
+```{r}
+google_eval <-  map_df(filenames$path, read_csv)%>%
+  mutate(system = "Google", 
+         lng_model = 'en-GB')%>%
+ distinct()
+```
+
+To get Amazon: 
+
+```{r}
+files_ama <- list.files(paste0(data_path,"/Data/SpeechAccentArchive/sclite_output/amazon"), "wer_summary.csv", recursive = TRUE)%>%
+  as.data.frame()
+
+colnames(files_ama)[1] = "Files"
+  
+filenames_ama <- files_ama %>%
+  mutate(path = paste0(data_path,"/Data/SpeechAccentArchive/sclite_output/amazon/", Files))%>%
+  separate(Files, into = c("folder", "file"), sep = "/")
+```
+
+```{r}
+amazon_eval <-  
+  map_df(filenames_ama$path, read_csv)%>%
+  mutate(system = "Amazon", 
+         lng_model = 'en-GB')%>%
+ distinct()
+```
+
+Combine them: 
+
+```{r}
+saa_eval <- rbind(amazon_eval, google_eval)%>%
+  mutate(WER = as.numeric(WER))%>%
+  mutate_if(is.character, as.factor)
+```
+
+
+```{r}
+saa_eval_demog <- saa_eval %>%
+  rename(filename = File)%>%
+  inner_join(saa_demog, by = "filename")%>%
+  select(-c(X, X.1, X.2, file_missing.))%>%
+  mutate(Speaker = paste0("SAA", filename))%>%
+  rename(File = filename)%>%
+  mutate(corpus = "SAA", 
+         UK_ROI = if_else(country %in% c("uk", "ireland") & native_language == "english", TRUE, FALSE))
+  
+ 
+```
+
+
+### SNR: 
+
+To control for effects of background noise, I exclude recordings with a signal-to-noise ration >50dB. SNR is calculated using this Praat script: 
+
+```{praat}
+
+form Settings
+   comment Directory of sound files
+   text sound_directory 
+   sentence Sound_file_extension .wav
+   comment Directory of TextGrid files
+   text textGrid_directory 
+   sentence TextGrid_file_extension .TextGrid
+   comment Full path of the resulting text file:
+   text resultfile
+   comment Word tier:
+   integer the_tier 1
+
+endform
+
+# Here, you make a listing of all the sound files in a directory.
+# The example gets file names ending with ".wav" from D:\tmp\
+
+Create Strings as file list... list 'sound_directory$'*'sound_file_extension$'
+numberOfFiles = Get number of strings
+
+# Check if the result file exists:
+if fileReadable (resultfile$)
+	pause The result file 'resultfile$' already exists! Do you want to overwrite it?
+	filedelete 'resultfile$'
+endif
+
+# Iterate over files, get max absolute pressure and max absolute pressure at silence (marked in textgrid)
+
+numberOfFiles = Get number of strings
+for ifile from 1 to numberOfFiles
+    selectObject: "Strings list"
+    file$ = Get string: ifile
+    text_file$ =  replace$ (file$, sound_file_extension$, textGrid_file_extension$, 1) 
+    bare_file$ = replace$ (file$, sound_file_extension$, "", 1) 
+    Read from file: textGrid_directory$ + text_file$
+    Read from file: sound_directory$ + file$
+    selectObject: "Sound 'bare_file$'"
+
+    max_pr = Get maximum: 0, 0, "None"
+    min_pr = Get minimum: 0, 0, "None"
+    abs_pr = max(abs(max_pr), abs(min_pr))
+
+    selectObject: "TextGrid 'bare_file$'"
+    Get starting points: 1, "is equal to", ""
+    selectObject: "PointProcess 'bare_file$'_"
+
+    
+    first_index = Get low index: 0
+    if first_index > 0
+    selectObject: "TextGrid 'bare_file$'"
+    start_sil = Get start time of interval: the_tier, first_index
+    end_sil = Get end time of interval: the_tier, first_index
+
+    selectObject: "Sound 'bare_file$'"
+
+    max_pr_sil = Get maximum: start_sil, end_sil, "None"
+    min_pr_sil = Get minimum: start_sil, end_sil, "None"
+    abs_pr_sil = max(abs(max_pr_sil), abs(min_pr_sil))
+
+    snr = 20*log10(abs_pr/abs_pr_sil)
+ 
+
+    resultline$ = "'bare_file$'		'abs_pr'	'abs_pr_sil'	'snr'	'first_index'"
+    fileappend "'resultfile$'" 'resultline$' 'newline$'
+    
+
+    else
+    fileappend "'resultfile$'" 'bare_file$' NO MEASURE 'newline$'
+    endif
+endfor
+```
+
+
+Read in the output file for SAA: 
+
+```{r}
+saa_snr_flac <- read_tsv(paste0(data_path, "/Data/SpeechAccentArchive/SNR_results_flac_saa.txt"), col_names = c("File", "X", "Max_PR_signal","Max_Pr_noise", "SNR", "Noise_Int"))%>%
+  select(-c(X))%>%
+  mutate(Measure = str_extract(File, "NO MEASURE"))%>%
+  mutate(File = str_remove(File, "NO MEASURE"))%>%
+  mutate(File = as.factor(File))
+```
+
+Add to SAA: 
+```{r}
+
+s <- saa_eval_demog%>% 
+mutate(File = paste0(str_to_lower(str_extract(File, "^\\w{3}")), str_extract(File, "\\d{1,3}")))%>%
+  mutate(number = str_extract(File, "\\d{1,3}"))%>%
+  rowwise()%>%
+  mutate(File = case_when(str_detect(number, "\\d{3}") ~ File, 
+                          str_detect(number, "^[0-9]{2}$") ~ 
+                            gsub(number, paste0("0", as.character(number)),File), 
+                          
+                        str_detect(number, "[0-9]{1}$")   ~ 
+                            gsub(number, paste0("00", as.character(number)),File)))
+
+```
+
+```{r}
+saa_stella_full <- left_join(s, saa_snr_flac, by = "File")%>%
+  mutate(SNR_bin = case_when(SNR > 50 ~ "high", 
+                             TRUE ~ "low"))
+```
+
+We're keeping the files with low SNR (this removes 50 files):
+
+```{r}
+saa_lowsnr <- saa_stella_full %>%
+  filter(SNR < 50)
+```
+### Speechrate: 
+
+To measure speech rate we get the number of vowels per seconds (proxy for syllables per second) - the librispeech lexicon (with which this has been aligned) doesn't have syllabic consonants so we only need to count the number of vowel phones: 
+
+```{r}
+saa_stella_speechrate <- read_tsv(paste0(data_path, "/Data/SpeechAccentArchive/saa_stella_speechrate.txt"))
+```
+
+
+We want an average speechrate per speaker (we measure within chunks that don't have more than 3 second pauses). 
+```{r}
+saa_stella_speechrate_sum <- saa_stella_speechrate%>%
+  group_by(File)%>%
+  summarise_all(funs(mean(.,)))
+ 
+```
+
+
+```{r}
+saa_stella_long <- left_join(saa_lowsnr, saa_stella_speechrate_sum)%>%
+  distinct()
+
+saa_stella_wide <- left_join(saa_lowsnr, saa_stella_speechrate_sum)%>%
+  distinct()%>%
+   pivot_wider(names_from = system, values_from = c(Sub, Ins, Del, WER))
+```
+
+### Scale and centre: 
+
+For the statistical analysis it's useful to scale and centre speechrate and age: 
+
+```{r}
+saa_stella_long$SPS_z <-scale(saa_stella_long$syllables_per_second)
+saa_stella_long$age_z <-scale(saa_stella_long$age)
+
+saa_stella_wide$SPS_z <-scale(saa_stella_wide$syllables_per_second)
+saa_stella_wide$age_z <-scale(saa_stella_wide$age)
+```
+
+
+## IViE: 
+
+No "stella" - instead first paragraph (~60s) of Cinderella reading passage
+
+```{r}
+ivie_rea1_google <- read_csv(paste0(data_path, "/Data/IViE/error_analysis/wer_summary_google.csv"))%>%
+  mutate(Speaker = str_remove(as.character(File), "-rea1"))%>%
+  mutate(Gender = str_extract(as.character(File), "f|m"))%>% 
+  mutate(Age = 16)%>% # speakers are about 16 years old, all recorded in school 
+  mutate(variety = case_when(str_detect(Speaker, 'p') ~ "Bradford Punjabi", 
+                             str_detect(Speaker, 'car') ~ "Cardiff Welsh", 
+                             str_detect(Speaker, 'b') ~ "Belfast", 
+                             str_detect(Speaker, 'c') ~ "Cambridge", 
+                             str_detect(Speaker, 'p') ~ "Bradford Punjabi", 
+                             str_detect(Speaker, 'liv') ~ "Liverpool",
+                             str_detect(Speaker, 'l') ~ "Leeds",
+                             str_detect(Speaker, 'n') ~ "Newcastle",
+                             str_detect(Speaker, 'j') ~ "London West Indian", 
+                             str_detect(Speaker, 'd') ~ "Dublin"))%>%
+  mutate(system = "Google")%>%
+  mutate(lng_model = "en-GB")
+  
+```
+```{r}
+ivie_rea1_amazon <- read_csv(paste0(data_path, "/Data/IViE/error_analysis/wer_summary_amazon.csv"))%>%
+  mutate(Speaker = str_remove(as.character(File), "-rea1"))%>%
+  mutate(Gender = str_extract(as.character(File), "f|m"))%>% 
+  mutate(Age = 16)%>% # speakers are about 16 years old, all recorded in school 
+  mutate(variety = case_when(str_detect(Speaker, 'p') ~ "Bradford Punjabi", 
+                             str_detect(Speaker, 'car') ~ "Cardiff Welsh", 
+                             str_detect(Speaker, 'b') ~ "Belfast", 
+                             str_detect(Speaker, 'c') ~ "Cambridge", 
+                             str_detect(Speaker, 'p') ~ "Bradford Punjabi", 
+                             str_detect(Speaker, 'liv') ~ "Liverpool",
+                             str_detect(Speaker, 'l') ~ "Leeds",
+                             str_detect(Speaker, 'n') ~ "Newcastle",
+                             str_detect(Speaker, 'j') ~ "London West Indian", 
+                             str_detect(Speaker, 'd') ~ "Dublin"))%>%
+  mutate(system = "Amazon")%>%
+  mutate(lng_model = "en-GB")
+  
+```
+
+Combine all IViE: 
+
+```{r}
+ivie_rea1_wide <- bind_rows(ivie_rea1_amazon, ivie_rea1_google)%>%
+  pivot_wider(names_from = system, values_from = c(Sub, Ins, Del, WER))
+
+ivie_rea1_long <- bind_rows(ivie_rea1_amazon, ivie_rea1_google)
+```
+### SNR: 
+
+All IViE files have a SNR < 50dB, so we can keep them all. 
+
+### Speechrate: 
+
+```{r}
+ivie_rea1_speechrate <- read_tsv(paste0(data_path, "/Data/IViE/ivie_rea1_speechrate.txt"))
+```
+
+Summarise so we only have an average speechrate per speaker: 
+
+
+```{r}
+ivie_rea1_long <- ivie_rea1_speechrate%>%
+  group_by(File)%>%
+  summarise_all(funs(mean(.,)))%>%
+  mutate(Speaker = str_remove(as.character(File), "-rea1"))%>%
+  mutate(Speaker = str_remove(as.character(Speaker), "el|un|am|ee|ew|ub"))%>%
+  inner_join(ivie_rea1_long, by = "Speaker")%>%
+  distinct()%>%
+  select(-File.y)%>%
+  rename(File = File.x)
+
+ivie_rea1_wide <- ivie_rea1_speechrate%>%
+  group_by(File)%>%
+  summarise_all(funs(mean(.,)))%>%
+  mutate(Speaker = str_remove(as.character(File), "-rea1"))%>%
+  mutate(Speaker = str_remove(as.character(Speaker), "el|un|am|ee|ew|ub"))%>%
+  inner_join(ivie_rea1_wide, by = "Speaker")%>%
+  distinct()%>%
+  select(-File.y)%>%
+  rename(File = File.x)
+
+
+```
+
+### Scale and centre: 
+
+For the statistical analysis it's useful to scale and centre speechrate (all speakers are the same age): 
+
+```{r}
+ivie_rea1_wide$SPS_z <-scale(ivie_rea1_wide$syllables_per_second)
+ivie_rea1_long$SPS_z <-scale(ivie_rea1_long$syllables_per_second)
+```
+
+
+## All datasets: 
+
+```{r}
+facct_data_long <- 
+  ivie_rea1_long%>%
+  mutate(corpus = "IViE", 
+         UK_ROI = TRUE)%>%
+  rename(sex = Gender, 
+         age = Age)%>%
+  bind_rows(saa_stella_long)
+```
+
+
+Tidier version of this (wide): 
+
+```{r}
+facct_data_wide <- 
+  ivie_rea1_wide%>%
+  mutate(corpus = "IViE", 
+         UK_ROI = TRUE)%>%
+  rename(sex = Gender, 
+         age = Age)%>%
+  bind_rows(saa_stella_wide)
+
+```
+
+# Data overview: 
+
+## SAA: 
+
+For each variety/accent found in the Lothian Diaries (arabic, french, german, hindi, iralian, mandarin, portuguese, spanish, thai, urdu and british english) up to 70 recordings are processed (the first 70).
+
+```{r}
+facct_data_wide%>%
+  filter(corpus == "SAA")%>%
+  select(speakerid, variety, sex)%>%
+  distinct()%>%
+  tabyl(variety, sex)%>%
+  adorn_totals("col")%>%
+  adorn_percentages()%>%
+  adorn_pct_formatting(1)%>%
+  adorn_ns%>%
+  kable(col.names = c("Variety", "Female", "Male", "Total"))%>%
+  kable_minimal()
+```
+
+
+```{r}
+facct_data_wide%>%
+  filter(corpus == "SAA")%>%
+  group_by(variety)%>%
+  summarise(mean_age = mean(age))%>%
+  select(variety, mean_age)%>%
+  distinct()
+```
+
+
+
+
+## IViE: 
+
+```{r}
+ivie_rea1_wide%>%
+  select(variety, Gender)%>%
+  tabyl(variety, Gender)%>%
+  adorn_totals("col")%>%
+  adorn_percentages()%>%
+  adorn_pct_formatting(1)%>%
+  adorn_ns()%>%
+  kable(col.names = c("Variety", "Female", "Male", "Total"))%>%
+  kable_minimal()
+```
+
+# Evaluation overview - WER: 
+
+## SAA: 
+
+Here we can see the evaluation for all varieties: 
+
+```{r}
+facct_data_long%>%
+  filter(corpus == "SAA")%>%
+  select(-c(Ins, Sub, Del))%>%
+  spread(system, WER)%>%
+  group_by(native_language)%>%
+  summarise(mean_ama = round(mean(Amazon, na.rm = TRUE), digits = 2),
+            mean_google = round(mean(Google, na.rm = TRUE), digits = 2), 
+            n= n())%>%
+  select(native_language,n, mean_ama, mean_google)%>%
+  kbl(col.names = c("L1", "n", "Amazon mean WER (%)", "Google mean WER (%)"))%>%
+  kable_minimal()
+```
+
+
+
+Looking only at the British L1 speakers:
+
+```{r}
+facct_data_long%>%
+  filter(corpus == "SAA")%>%
+  filter(native_language == "english" & country == "uk")%>%
+  select(-c(Ins, Sub, Del))%>%
+  spread(system, WER)%>%
+  group_by(variety)%>%
+  summarise(mean_ama = round(mean(Amazon, na.rm = TRUE), digits = 2),
+            mean_google = round(mean(Google, na.rm = TRUE), digits = 2), 
+            n= n())%>%
+  select(variety,n, mean_ama, mean_google)%>%
+  kbl(col.names = c("L1", "n", "Amazon mean WER (%)", "Google mean WER (%)"))%>%
+  kable_minimal()
+```
+
+
+## IViE:
+
+```{r}
+ivie_rea1_wide%>%
+  select(c(WER_Amazon, WER_Google, variety))%>%
+  group_by(variety)%>%
+  summarise(mean_ama = round(mean(WER_Amazon, na.rm = TRUE), digits = 2),
+            mean_google = round(mean(WER_Google, na.rm = TRUE), digits = 2), 
+            n= n())%>%
+  select(variety,n, mean_ama, mean_google)%>%
+  distinct()%>%
+  kbl(col.names = c("Variety", "n", "Amazon mean WER (%)", "Google mean WER (%)"))%>%
+  kable_minimal()
+```
+
+# Evaluation details - WER: 
+
+### Speechrate: 
+
+Speech rate doesn't look like a big determiner for SAA: 
+
+```{r}
+saa_stella_long%>%
+  ggplot(aes(log(syllables_per_second), WER,color = system))+ 
+  geom_point()+ 
+  scale_fill_colorblind()
+```
+
+In IViE this seems to be an issue for Google but not for Amazon
+
+```{r}
+ivie_rea1_long%>%
+  ggplot(aes(log(syllables_per_second), WER,color = system))+
+  geom_point()+
+  scale_fill_colorblind()
+```
+## Sex: 
+
+```{r}
+saa_stella_long%>%
+  ggplot(aes(as.factor(sex), WER))+ 
+  geom_boxplot()+ 
+  facet_grid(~system, scales = "free")
+```
+
+
+```{r}
+ivie_rea1_long%>%
+  ggplot(aes(as.factor(Gender), WER))+ 
+  geom_boxplot()+ 
+  facet_grid(~system, scales = "free")
+```
+
+Note that for Amazon, error rates are slightly (but perhaps not significantly?) higher for all corpora: 
+
+```{r}
+facct_data_long%>%
+  filter(system == "Amazon")%>%
+  ggplot(aes(as.factor(sex), WER))+ 
+  geom_boxplot()+ 
+  facet_grid(~corpus, scales = "free")
+```
+## Age: 
+
+Age only varies for SAA, all IViE speakers are 16. 
+
+```{r}
+saa_stella_long%>%
+  ggplot(aes(age, WER, color = system))+ 
+  geom_point()
+```
+
+## L1/variety:
+
+Higher error rate for non-native speakers in both systems. Overall error rate is lower in Amazon
+
+```{r}
+saa_stella_long%>%
+  mutate(L1_english = if_else(str_detect(native_language, "english"),"L1 English","L2 English"))%>%
+  ggplot(aes(as.factor(L1_english), WER, fill = L1_english))+ 
+  geom_boxplot()+ 
+  geom_jitter(alpha = 0.3) + 
+  facet_grid(~system)+
+    scale_fill_manual(values = c("#56B4E9", "#E69F00"))+ 
+    theme_minimal()+
+  theme(legend.position = "none", 
+        axis.title.x = element_blank()) + 
+
+  ggtitle("Word Error Rate (WER): Speech Accent Archive")
+```
+Looking at the bilingual vs monolingual speakers in IViE:
+
+
+```{r}
+ivie_rea1_long%>%
+  mutate(bilingual = case_when(variety %in% c("Bradford Punjabi", "Cardiff Welsh", "London West Indian") ~ TRUE, 
+                               TRUE ~ FALSE))%>%
+  ggplot(aes(bilingual, WER))+ 
+  geom_boxplot()+ 
+  facet_grid(~system)+ 
+   scale_x_discrete(guide = guide_axis(n.dodge=2))
+```
+
+
+# Stats: 
+
+## SAA
+
+Setting contrasts: 
+
+```{r}
+saa_stella_wide$sex <- factor(saa_stella_wide$sex, levels = c("male", "female"))
+contrasts(saa_stella_wide$sex) <- c(-0.5,0.5)
+saa_stella_wide$L1_english <- factor(saa_stella_wide$L1_english, levels = c("L1_English", "L2_English"))
+contrasts(saa_stella_wide$L1_english) <- c(-0.5,0.5)
+```
+
+
+### Amazon: 
+
+```{r}
+saa_ama_lm1 <- lm(WER_Amazon ~ L1_english + sex  + SPS_z + age_z, data = saa_stella_wide)
+```
+
+```{r}
+saa_ama_lm1_inter <- lm(WER_Amazon ~ L1_english*sex  + SPS_z + age_z, data = saa_stella_wide)
+
+```
+
+```{r}
+saa_ama_lm1%>%
+  summ()
+```
+
+```{r}
+summ(saa_ama_lm1_inter)
+```
+
+Model comparison: 
+
+```{r}
+anova(saa_ama_lm1, saa_ama_lm1_inter)
+```
+
+### Google:
+
+```{r}
+saa_google_lm1 <- lm(WER_Google ~ L1_english + sex  + SPS_z + age_z, data = saa_stella_wide)
+```
+
+```{r}
+summ(saa_google_lm1)
+```
+```{r}
+saa_google_lm1_inter <- lm(WER_Google ~ L1_english * sex  + SPS_z + age_z, data = saa_stella_wide)
+```
+
+```{r}
+summ(saa_google_lm1_inter)
+```
+```{r}
+anova(saa_google_lm1, saa_google_lm1_inter)
+```
+
+
+## IViE: 
+
+Setting contrasts: 
+
+```{r}
+ivie_rea1_wide$Gender <- factor(ivie_rea1_wide$Gender, levels = c("m", "f"))
+contrasts(ivie_rea1_wide$Gender) <- c(-0.5,0.5)
+```
+
+### Amazon: 
+
+For Amazon, Cambridge speakers have the lowest WER - so we set Cambridge as reference level to compare the other varieties against. 
+
+```{r}
+ivie_rea1_wide$variety <- factor(ivie_rea1_wide$variety, levels = c("Cambridge", "Cardiff Welsh", "Bradford Punjabi", "Leeds", "Liverpool", "London West Indian", "Newcastle", "Belfast", "Dublin"))
+```
+
+```{r}
+ivie_ama_lm1 <- lm(WER_Amazon ~ variety + Gender  + SPS_z, data = ivie_rea1_wide)
+```
+
+
+```{r}
+summ(ivie_ama_lm1)
+```
+
+```{r}
+ivie_ama_lm1_inter <- lm(WER_Amazon ~ variety* Gender  + SPS_z, data = ivie_rea1_wide)
+```
+
+```{r}
+summ(ivie_ama_lm1_inter)
+```
+Adding the interaction does not improve fit significantly: 
+
+```{r}
+anova(ivie_ama_lm1, ivie_ama_lm1_inter)
+```
+
+### Google: 
+
+For Google, London speakers have the lowest error rate. Let's set London as reference level instead:
+
+```{r}
+ivie_rea1_wide$variety <- factor(ivie_rea1_wide$variety, levels = c("London West Indian", "Cambridge", "Cardiff Welsh", "Bradford Punjabi", "Leeds", "Liverpool" , "Newcastle", "Belfast", "Dublin"))
+```
+
+```{r}
+ivie_google_lm1 <- lm(WER_Google ~ variety + Gender  + SPS_z, data = ivie_rea1_wide)
+```
+
+```{r}
+summ(ivie_google_lm1)
+```
+```{r}
+ivie_google_lm1_inter <- lm(WER_Google ~ variety * Gender  + SPS_z, data = ivie_rea1_wide)
+```
+
+```{r}
+summ(ivie_google_lm1_inter)
+```
+Adding the interaction improves model fit here: 
+
+```{r}
+anova(ivie_google_lm1, ivie_google_lm1_inter)
+```
+
+# Qualitative error analysis: 
+
+## SAA: 
+
+### Error Type: 
+
+```{r}
+saa_stella_long%>%
+  pivot_longer(cols = c("Sub", "Del", "Ins"), names_to = "ErrorType", values_to = "Perc")%>%
+  ggplot(aes(system, Perc))+ 
+  geom_boxplot()+ 
+  facet_grid(~ErrorType)
+```
+```{r}
+saa_stella_long%>%
+  filter(system == "Amazon")%>%
+  pivot_longer(cols = c("Sub", "Del", "Ins"), names_to = "ErrorType", values_to = "Perc")%>%
+  ggplot(aes(ErrorType, Perc))+ 
+  geom_boxplot()+ 
+  facet_grid(~L1_english)
+```
+```{r}
+saa_stella_long%>%
+  filter(system == "Google")%>%
+
+  pivot_longer(cols = c("Sub", "Del", "Ins"), names_to = "ErrorType", values_to = "Perc")%>%
+  ggplot(aes(ErrorType, Perc))+ 
+  geom_boxplot()+ 
+  facet_grid(~L1_english)
+```
+
+### Confusion pairs
+
+We also have information about confusion pairs: 
+```{r}
+ama_confusion_pairs_saa <- read.csv(paste0(data_path, '/Data/SpeechAccentArchive/error_analysis/amazon_confusion_summary.csv'), encoding = 'UTF-8')%>%
+  mutate(system = "Amazon",
+         Speaker = paste0("SAA", str_extract(Filename, "[^_]+") )) 
+```
+
+```{r}
+google_confusion_pairs_saa <- read.csv(paste0(data_path, '/Data/SpeechAccentArchive/error_analysis/google_confusion_summary.csv'), encoding = 'UTF-8')%>%
+  mutate(ASR = enc2utf8(ASR))%>%
+  mutate(system = "Google",
+         Speaker = paste0("SAA", str_extract(Filename, "[^_]+") )) 
+```
+```{r}
+saa_demog_min <- saa_stella_wide%>%
+  select(Speaker, native_language)
+```
+
+
+```{r}
+stella_confusion <- bind_rows(google_confusion_pairs_saa, ama_confusion_pairs_saa)%>%
+  right_join(saa_demog_min, by = "Speaker")%>%
+  distinct()
+```
+
+```{r}
+stella_confusion_pairs <- stella_confusion%>%
+ mutate(correct = str_trim(correct, side = "both"))%>%
+  mutate(ASR = stri_enc_toutf8(ASR))%>%
+  mutate(pair = paste(correct, ASR, sep = ':'))%>%
+  mutate(pair = as.factor(str_trim(pair, side = "both")))%>%
+  group_by(system, native_language, pair)%>%
+  mutate(pair_count_var = n())%>%
+  ungroup()
+```
+
+```{r}
+stella_confusion_pairs%>%
+  filter(system == "Amazon")%>%
+  group_by(pair)%>%
+  summarise(count_total = n())%>%
+  arrange(desc(count_total))%>%
+  head(10)%>%
+  mutate(pair = factor(pair, pair)) %>%   # reset factor
+  ggplot(aes(pair, count_total))+ 
+  geom_bar(stat='identity')+
+    ggtitle("most frequent errors: Amazon")+ 
+   scale_x_discrete(guide = guide_axis(n.dodge=2))
+
+stella_confusion_pairs%>%
+  filter(system == "Google")%>%
+  group_by(pair)%>%
+  summarise(count_total = n())%>%
+  arrange(desc(count_total))%>%
+  head(10)%>%
+  mutate(pair = factor(pair, pair)) %>%   # reset factor
+  ggplot(aes(pair, count_total))+ 
+  geom_bar(stat='identity')+
+    ggtitle("most frequent errors: Google")+ 
+   scale_x_discrete(guide = guide_axis(n.dodge=2))
+```
+
+## IViE: 
+
+### Error Type: 
+
+```{r}
+ivie_rea1_wide%>%
+  pivot_longer(cols = c("Sub_Amazon", "Del_Amazon", "Ins_Amazon"), names_to = "ErrorType", values_to = "Perc")%>%
+  ggplot(aes(ErrorType, Perc))+ 
+  geom_boxplot()
+
+ivie_rea1_wide%>%
+  pivot_longer(cols = c("Sub_Google", "Del_Google", "Ins_Google"), names_to = "ErrorType", values_to = "Perc")%>%
+  ggplot(aes(ErrorType, Perc))+ 
+  geom_boxplot()
+```
+These patterns are consistent across varieties: 
+```{r}
+ivie_rea1_wide%>%
+  pivot_longer(cols = c("Sub_Amazon", "Del_Amazon", "Ins_Amazon"), names_to = "ErrorType", values_to = "Perc")%>%
+  ggplot(aes(ErrorType, Perc))+ 
+  geom_boxplot()+ 
+  facet_wrap(~variety)
+
+ivie_rea1_wide%>%
+  pivot_longer(cols = c("Sub_Google", "Del_Google", "Ins_Google"), names_to = "ErrorType", values_to = "Perc")%>%
+  ggplot(aes(ErrorType, Perc))+ 
+  geom_boxplot()+ 
+  facet_wrap(~variety)
+```
+
+### Confusion pairs
+```{r}
+ama_confusion_pairs_ivie <- read.csv(paste0(data_path, "/Data/IViE/error_analysis/amazon_confusion_summary.csv"), encoding = 'UTF-8')%>%
+  mutate(system = "Amazon", 
+         Speaker = str_replace(as.character(Filename), "_hyp.trn.dtl", ""),
+         Speaker = str_replace(as.character(Speaker), "-rea1", ""))
+```
+```{r}
+google_confusion_pairs_ivie <- read.csv(paste0(data_path, "/Data/IViE/error_analysis/google_confusion_summary.csv"), encoding = 'UTF-8')%>%
+  mutate(system = "Google", 
+         Speaker = str_replace(as.character(Filename), "_hyp.trn.dtl", ""),
+         Speaker = str_replace(as.character(Speaker), "-rea1", ""))
+
+```
+
+
+```{r}
+ivie_demog_min <- ivie_rea1_wide%>%
+  select(Speaker, variety)
+```
+
+```{r}
+ivie_confusion <- bind_rows(google_confusion_pairs_ivie, ama_confusion_pairs_ivie)%>%
+  left_join(ivie_demog_min, by = c("Speaker"))
+```
+
+```{r}
+ivie_confusion_pairs <- 
+  ivie_confusion%>%
+  mutate(correct = str_trim(correct, side = "both"))%>%
+  mutate(ASR = stri_enc_toutf8(ASR))%>%
+  mutate(pair = paste(correct, ASR, sep = ':'))%>%
+  mutate(pair = as.factor(str_trim(pair, side = "both")))%>%
+  group_by(system, variety, pair)%>%
+  mutate(pair_count_var = n())%>%
+  ungroup()
+```
+If we look at them generally it's not particularly interesting 
+```{r}
+ivie_confusion_pairs%>%
+  filter(system == "Amazon")%>%
+  group_by(pair)%>%
+  summarise(count_total = n())%>%
+  arrange(desc(count_total))%>%
+  head(10)%>%
+  mutate(pair = factor(pair, pair)) %>%   # reset factor
+  ggplot(aes(pair, count_total))+ 
+  geom_bar(stat='identity')+
+    ggtitle("most frequent errors: Amazon")+ 
+   scale_x_discrete(guide = guide_axis(n.dodge=2))
+
+ 
+ivie_confusion_pairs%>%
+  filter(system == "Amazon")%>%
+  group_by(pair)%>%
+  summarise(count_total = n())%>%
+  arrange(desc(count_total))
+
+ivie_confusion_pairs%>%
+  filter(system == "Google")%>%
+  group_by(pair)%>%
+  summarise(count_total = n())%>%
+  arrange(desc(count_total))
+```
+Belfast: "hair" > "her" 
+
+```{r}
+ivie_confusion_pairs%>%
+  filter(system == "Amazon" & variety == "Belfast")%>%
+  group_by(pair)%>%
+  arrange(desc(pair_count_var))%>%
+  select(correct, ASR, pair_count_var)%>%
+  distinct()
+```
+```{r}
+ivie_confusion_pairs%>%
+  filter(system == "Google" & variety == "Belfast")%>%
+  group_by(pair)%>%
+  arrange(desc(pair_count_var))%>%
+  select(correct, ASR, pair_count_var)%>%
+  distinct()
+```
+
+Cardiff: "gowns" > "guns", "royal" > "real", "howled" > "hold/old"
+
+```{r}
+ivie_confusion_pairs%>%
+  filter(system == "Amazon" & variety == "Cardiff Welsh")%>%
+  group_by(pair)%>%
+  arrange(desc(pair_count_var))%>%
+  select(correct, ASR, pair_count_var)%>%
+  distinct()
+```
+
+Newcastle: "howled" > "held"
+```{r}
+ivie_confusion_pairs%>%
+  filter(system == "Amazon" & variety == "Newcastle")%>%
+  group_by(pair)%>%
+  arrange(desc(pair_count_var))%>%
+  select(correct, ASR, pair_count_var)%>%
+  distinct()
+```
+
+
+Bradford: 
+"gowns" > "guns" 
+```{r}
+ivie_confusion_pairs%>%
+  filter(system == "Amazon" & variety == "Bradford Punjabi")%>%
+  group_by(pair)%>%
+  arrange(desc(pair_count_var))%>%
+  select(correct, ASR, pair_count_var)%>%
+  distinct()
+```
+```{r}
+ivie_confusion_pairs%>%
+  filter(system == "Amazon" & variety == "Cambridge")%>%
+  group_by(pair)%>%
+  arrange(desc(pair_count_var))%>%
+  select(correct, ASR, pair_count_var)%>%
+  distinct()
+```
+
+```{r}
+ivie_confusion_pairs%>%
+  filter(system == "Amazon" & variety == "Liverpool")%>%
+  group_by(pair)%>%
+  arrange(desc(pair_count_var))%>%
+  select(correct, ASR, pair_count_var)%>%
+  distinct()
+```
+
+```{r}
+ivie_confusion_pairs%>%
+  filter(system == "Amazon" & variety == "Dublin")%>%
+  group_by(pair)%>%
+  arrange(desc(pair_count_var))%>%
+  select(correct, ASR, pair_count_var)%>%
+  distinct()
+```
+
+Any foot strut examples? 
+
+
+we have MOUTH STRUT and howled:held
+
+
+```{r}
+ivie_confusion_pairs%>%
+  filter(system == "Amazon" & variety %in% c("Newcastle", "Bradford Punjabi", "Liverpool", "Leeds"))%>%
+  group_by(pair)%>%
+  summarise(count_total = n())%>%
+  arrange(desc(count_total))%>%
+  distinct()
+```
+
+
+# Figures: 
+
+## IViE: 
+
+```{r}
+ivie_rea1_wide%>%
+  mutate(stat_sig = case_when(variety == "Cambridge" ~ 1, 
+                              variety %in% c("Belfast", "Bradford Punjabi", "Liverpool", "Newcastle") ~ 3, 
+                              TRUE ~ 2))%>%
+  ggplot(aes(reorder(variety, WER_Amazon), WER_Amazon, fill =as.factor(stat_sig)))+ 
+  geom_boxplot()+ 
+    theme_minimal()+ 
+
+  scale_fill_manual(breaks = c(1, 2, 3), values = c("#009E73", "#FFFFFF", "#CC79A7"))+ 
+  scale_x_discrete(guide = guide_axis(n.dodge=2))+ 
+  theme(legend.position = "none")+ 
+ ylim(0, 75)+ 
+  ylab("Word Error Rate")+ 
+     theme(axis.title.x=element_blank())+ 
+
+  ggtitle("WER: Amazon on IViE")
+
+
+ivie_rea1_wide%>%
+  mutate(stat_sig = case_when(variety == "London West Indian" ~ 1, 
+                              variety %in% c("Belfast") ~ 3, 
+                              TRUE ~ 2))%>%
+  ggplot(aes(reorder(variety, WER_Google), WER_Google, fill =as.factor(stat_sig)))+ 
+  geom_boxplot()+ 
+    theme_minimal()+ 
+
+  scale_fill_manual(breaks = c(1, 2, 3), values = c("#009E73", "#FFFFFF", "#CC79A7"))+ 
+  scale_x_discrete(guide = guide_axis(n.dodge=2))+ 
+  theme(legend.position = "none")+ 
+  ylim(0, 75)+ 
+  ylab("Word Error Rate")+ 
+     theme(axis.title.x=element_blank())+ 
+
+  ggtitle("WER: Google on IViE")
+
+```
+
+
+```{r}
+ivie_plot_data_ama <- ivie_rea1_wide%>%
+mutate(stat_sig = case_when(variety == "Cambridge" ~ 1, 
+                              variety %in% c("Belfast", "Bradford Punjabi", "Liverpool", "Newcastle") ~ 3, 
+                              TRUE ~ 2))
+
+ivie_plot_data_ama$variety <- factor(ivie_plot_data_ama$variety, levels = c("Cambridge", "Cardiff Welsh", "Dublin", "London West Indian", "Leeds", "Bradford Punjabi", "Liverpool" , "Newcastle", "Belfast"))
+
+
+p1 = ggplot(data = ivie_plot_data_ama, aes(x = Gender, y = WER_Amazon, fill = Gender)) + 
+   geom_boxplot()+ 
+  scale_fill_colorblind()+ 
+  facet_wrap(~variety, ncol = 2)+
+   theme(legend.position = "none")+
+  ylab("Word Error Rate")
+
+
+dummy <- ggplot(data = ivie_plot_data_ama, aes(x = Gender, y = WER_Amazon))+ facet_wrap(~variety, ncol =2) + 
+  geom_rect(aes(fill=as.factor(stat_sig)), xmin=-Inf, xmax=Inf, ymin=-Inf, ymax=Inf) +
+  scale_fill_manual(breaks = c(1, 2, 3), values = c("#009E73", "#F0E442", "#CC79A7"))+ 
+  theme_minimal()
+
+g1 <- ggplotGrob(p1)
+g2 <- ggplotGrob(dummy)
+
+gtable_select <- function (x, ...) 
+{
+  matches <- c(...)
+  x$layout <- x$layout[matches, , drop = FALSE]
+  x$grobs <- x$grobs[matches]
+  x
+}
+
+panels <- grepl(pattern="panel", g2$layout$name)
+strips <- grepl(pattern="strip_t", g2$layout$name)
+stript <- grepl(pattern="strip-t", g2$layout$name)
+g2$layout$t[panels] <- g2$layout$t[panels] - 1
+g2$layout$b[panels] <- g2$layout$b[panels] - 1
+
+new_strips <- gtable_select(g2, panels | strips | stript)
+grid.newpage()
+grid.draw(new_strips)
+
+gtable_stack <- function(g1, g2){
+  g1$grobs <- c(g1$grobs, g2$grobs)
+  g1$layout <- transform(g1$layout, z= z-max(z), name="g2")
+  g1$layout <- rbind(g1$layout, g2$layout)
+  g1
+}
+## ideally you'd remove the old strips, for now they're just covered
+new_plot <- gtable_stack(g1, new_strips)
+grid.newpage()
+grid.draw(new_plot)
+
+#ggsave("amazon_ivie_gender.svg", new_plot, width = 6, height = 8)
+```
+
+```{r}
+ivie_plot_data_google <- ivie_rea1_wide%>%
+mutate(stat_sig = case_when(variety == "London West Indian" ~ 1, 
+                              variety %in% c("Belfast") ~ 3, 
+                              TRUE ~ 2))
+
+ivie_plot_data_google$variety <- factor(ivie_plot_data_google$variety, levels = c("London West Indian", "Cambridge", "Cardiff Welsh", "Dublin",  "Leeds", "Bradford Punjabi", "Liverpool" , "Newcastle", "Belfast"))
+
+
+p1 = ggplot(data = ivie_plot_data_google, aes(x = Gender, y = WER_Google, fill = Gender)) + 
+   geom_boxplot()+ 
+  scale_fill_colorblind()+ 
+  facet_wrap(~variety, ncol = 2)+
+   theme(legend.position = "none")+
+  ylab("Word Error Rate")
+
+
+dummy <- ggplot(data = ivie_plot_data_google, aes(x = Gender, y = WER_Amazon))+ facet_wrap(~variety, ncol = 2) + 
+  geom_rect(aes(fill=as.factor(stat_sig)), xmin=-Inf, xmax=Inf, ymin=-Inf, ymax=Inf) +
+  scale_fill_manual(breaks = c(1, 2, 3), values = c("#009E73", "#F0E442", "#CC79A7"))+ 
+  theme_minimal()
+
+g1 <- ggplotGrob(p1)
+g2 <- ggplotGrob(dummy)
+
+gtable_select <- function (x, ...) 
+{
+  matches <- c(...)
+  x$layout <- x$layout[matches, , drop = FALSE]
+  x$grobs <- x$grobs[matches]
+  x
+}
+
+panels <- grepl(pattern="panel", g2$layout$name)
+strips <- grepl(pattern="strip_t", g2$layout$name)
+stript <- grepl(pattern="strip-t", g2$layout$name)
+g2$layout$t[panels] <- g2$layout$t[panels] - 1
+g2$layout$b[panels] <- g2$layout$b[panels] - 1
+
+new_strips <- gtable_select(g2, panels | strips | stript)
+grid.newpage()
+grid.draw(new_strips)
+
+gtable_stack <- function(g1, g2){
+  g1$grobs <- c(g1$grobs, g2$grobs)
+  g1$layout <- transform(g1$layout, z= z-max(z), name="g2")
+  g1$layout <- rbind(g1$layout, g2$layout)
+  g1
+}
+## ideally you'd remove the old strips, for now they're just covered
+new_plot <- gtable_stack(g1, new_strips)
+grid.newpage()
+grid.draw(new_plot)
+
+#ggsave("google_ivie_gender.svg", plot = new_plot,  width = 6, height = 8)
+```
+## SAA 
+
+
+```{r}
+saa_stella_long%>%
+  ggplot(aes(as.factor(L1_english), WER, fill = L1_english))+ 
+  geom_boxplot()+ 
+  geom_jitter(alpha = 0.3) + 
+  facet_grid(~system)+
+    scale_fill_manual(values = c("#56B4E9", "#E69F00"))+ 
+    theme_minimal()+
+  theme(legend.position = "none", 
+        axis.title.x = element_blank()) + 
+  ylab("Word Error Rate")
+
+  ggtitle("Word Error Rate (WER): Speech Accent Archive")
+```
+```{r}
+saa_stella_long%>%
+  ggplot(aes(as.factor(sex), WER, fill = L1_english))+ 
+  geom_boxplot()+ 
+  geom_jitter(alpha = 0.3) + 
+  facet_grid(~system*L1_english)+
+    scale_fill_manual(values = c("#56B4E9", "#E69F00"))+ 
+  #  theme_minimal()+
+  theme(legend.position = "none", 
+        axis.title.x = element_blank())+ 
+  ylab("Word Error Rate")
+
+```
+

@@ -1,0 +1,100 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\hindi\hindi16_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   85.5%   (  59)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  call ==> god
+   3:    1  ->  five ==> i
+   4:    1  ->  snake ==> sneak
+   5:    1  ->  spoons ==> rooms
+   6:    1  ->  store ==> storey
+   7:    1  ->  thick ==> think
+   8:    1  ->  wednesday ==> day
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  wetness
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  her
+   2:    1  ->  into
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ask
+   2:    1  ->  call
+   3:    1  ->  five
+   4:    1  ->  snake
+   5:    1  ->  spoons
+   6:    1  ->  store
+   7:    1  ->  thick
+   8:    1  ->  wednesday
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  asked
+   2:    1  ->  day
+   3:    1  ->  god
+   4:    1  ->  i
+   5:    1  ->  rooms
+   6:    1  ->  sneak
+   7:    1  ->  storey
+   8:    1  ->  think
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

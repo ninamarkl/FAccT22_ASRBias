@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\n-rea1-m3_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-m3_01)
+Scores: (#C #S #D #I) 123 50 7 9
+REF:  once upon a time there was a girl called cinderella ***** **** **** BUT  EVERYONE CALLED HER CINDERS CINDERS lived with her mother and two SEP STEPSISTERS called lily and ROSA  LILY AND     ROSA WERE very unfriendly and they were LAZY GIRLS     they spent all THEIR time buying new clothes and going to parties POOR CINDERS HAD  TO   WEAR     all THEIR HAND old hand me downs and she had TO DO the cleaning one day A ROYAL messenger CAME TO    ANNOUNCE A  BALL the ball would be held at the royal palace in HONOUR of the queen's only SON  prince william lily and **** ROSA thought this was divine prince william was gorgeous and he was looking for a BRIDE THEY DREAMED OF  wedding bells when the evening of the BALL arrived **** CINDERS HAD  to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but their mother said that they had enough GOWNS so they started ******** ** SHOUTING AT CINDERS find my JEWELS YELLED ONE   find my HAT HOWLED ANOTHER they 
+HYP:  once upon a time there was a girl called cinderella WOULD HAVE GONE COLD HAVE     SEND   AS  SOON    AS      lived with her mother and two *** SISTERS     called lily and ROSIE LEE  ANDREWS UP   WITH very unfriendly and they were **** LAZYGIRLS they spent all THE   time buying new clothes and going to parties BUT  I       SEND THAT SATURDAY all ***** THE  old hand me downs and she had ** ** the cleaning one day I ROLL  messenger KEEP GOING OUT      OF ALL  the ball would be held at the royal palace in ORDER  of the queen's only SOON prince william lily and ROSE I    thought this was divine prince william was gorgeous and he was looking for a RIDE  THAT GYM     FOR wedding bells when the evening of the WALL arrived SEND US      HAVE to help her sisters get ready they were in a bad mood THEY   wanted to buy some new CANS  but their mother said that they had enough GUNS  so they started CHATTING AS SOON     AS I       find my ****** DUAL   TRONE find my *** HEART  HOW     they 
+Eval:                                                     I     I    I    S    S        S      S   S       S                                     D   S                           S     S    S       S    S                                  D    S                        S                                                  S    S       S    S    S            D     S                                  D  D                       S S               S    S     S        S  S                                                  S                          S                            I    S                                                                                 S     S    S       S                                         S            I    S       S                                                          S                             S                                                S                     I        I  S        S  S               D      S      S             D   S      S            
+
+>> REF:  wanted ** **** HAIRBRUSHES HAIRPINS AND hairspray 
+>> HYP:  wanted TO HEAR VS          HAPPENS  IN  hairspray 
+>> Eval:        I  I    S           S        S             
+
+

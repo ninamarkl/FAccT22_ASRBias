@@ -1,0 +1,142 @@
+SCORING FOR SPEAKER: saa
+     of thai\thai2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.0%   (  29)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   30.4%   (  21)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   58.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  3 ==> three
+   3:    1  ->  bags ==> backs
+   4:    1  ->  blue ==> off
+   5:    1  ->  bob ==> bop
+   6:    1  ->  call ==> broadcast
+   7:    1  ->  can ==> sheik
+   8:    1  ->  cheese ==> bushes
+   9:    1  ->  frog ==> prop
+  10:    1  ->  go ==> call
+  11:    1  ->  of ==> p5
+  12:    1  ->  red ==> late
+  13:    1  ->  she ==> kid
+  14:    1  ->  slabs ==> new
+  15:    1  ->  snake ==> snack
+  16:    1  ->  spoons ==> pounds
+  17:    1  ->  stella ==> i'll
+  18:    1  ->  store ==> stone
+  19:    1  ->  things ==> thing
+  20:    1  ->  will ==> review
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  kids
+   4:    1  ->  peas
+   5:    1  ->  please
+   6:    1  ->  snow
+   7:    1  ->  thick
+   8:    1  ->  we
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  these
+   2:    1  ->  3
+   3:    1  ->  bags
+   4:    1  ->  blue
+   5:    1  ->  bob
+   6:    1  ->  call
+   7:    1  ->  can
+   8:    1  ->  cheese
+   9:    1  ->  frog
+  10:    1  ->  go
+  11:    1  ->  of
+  12:    1  ->  red
+  13:    1  ->  she
+  14:    1  ->  slabs
+  15:    1  ->  snake
+  16:    1  ->  spoons
+  17:    1  ->  stella
+  18:    1  ->  store
+  19:    1  ->  things
+  20:    1  ->  will
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  this
+   2:    1  ->  backs
+   3:    1  ->  bop
+   4:    1  ->  broadcast
+   5:    1  ->  bushes
+   6:    1  ->  call
+   7:    1  ->  i'll
+   8:    1  ->  kid
+   9:    1  ->  late
+  10:    1  ->  new
+  11:    1  ->  off
+  12:    1  ->  p5
+  13:    1  ->  pounds
+  14:    1  ->  prop
+  15:    1  ->  review
+  16:    1  ->  sheik
+  17:    1  ->  snack
+  18:    1  ->  stone
+  19:    1  ->  thing
+  20:    1  ->  three
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

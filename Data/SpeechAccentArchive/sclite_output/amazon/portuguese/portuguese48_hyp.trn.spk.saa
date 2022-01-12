@@ -1,0 +1,111 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese48_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a ==> his
+   2:    1  ->  and ==> in
+   3:    1  ->  ask ==> asked
+   4:    1  ->  call ==> go
+   5:    1  ->  can ==> sheikhoun
+   6:    1  ->  frog ==> fraud
+   7:    1  ->  meet ==> mean
+   8:    1  ->  peas ==> peace
+   9:    1  ->  snack ==> knack
+  10:    1  ->  snow ==> no
+  11:    1  ->  these ==> saying
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  this
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  she
+   2:    1  ->  these
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  call
+   5:    1  ->  can
+   6:    1  ->  frog
+   7:    1  ->  meet
+   8:    1  ->  peas
+   9:    1  ->  snack
+  10:    1  ->  snow
+  11:    1  ->  these
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  asked
+   2:    1  ->  fraud
+   3:    1  ->  go
+   4:    1  ->  his
+   5:    1  ->  in
+   6:    1  ->  knack
+   7:    1  ->  mean
+   8:    1  ->  no
+   9:    1  ->  peace
+  10:    1  ->  saying
+  11:    1  ->  sheikhoun
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

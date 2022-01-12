@@ -1,0 +1,121 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin22_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5 ==> fight
+   2:    1  ->  bags ==> rebbecks
+   3:    1  ->  bob ==> bop
+   4:    1  ->  of ==> are
+   5:    1  ->  red ==> sweet
+   6:    1  ->  scoop ==> skip
+   7:    1  ->  slabs ==> slaps
+   8:    1  ->  snack ==> like
+   9:    1  ->  spoons ==> 6moons
+  10:    1  ->  these ==> the
+  11:    1  ->  these ==> this
+  12:    1  ->  thick ==> fake
+  13:    1  ->  things ==> thing
+  14:    1  ->  will ==> we'll
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  3
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  her
+   5:    1  ->  meet
+   6:    1  ->  we
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  bags
+   4:    1  ->  bob
+   5:    1  ->  of
+   6:    1  ->  red
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  snack
+  10:    1  ->  spoons
+  11:    1  ->  thick
+  12:    1  ->  things
+  13:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  6moons
+   2:    1  ->  are
+   3:    1  ->  bop
+   4:    1  ->  fake
+   5:    1  ->  fight
+   6:    1  ->  like
+   7:    1  ->  rebbecks
+   8:    1  ->  skip
+   9:    1  ->  slaps
+  10:    1  ->  sweet
+  11:    1  ->  the
+  12:    1  ->  thing
+  13:    1  ->  this
+  14:    1  ->  we'll
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

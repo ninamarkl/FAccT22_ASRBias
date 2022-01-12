@@ -1,0 +1,163 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   56.5%   (  39)
+
+Percent Correct           =   55.1%   (  38)
+
+Percent Substitution      =   42.0%   (  29)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =   11.6%   (   8)
+Percent Word Accuracy     =   43.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  75)
+Aligned words             =           (  77)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  3 ==> the
+   2:    1  ->  5 ==> been
+   3:    1  ->  6 ==> sixth
+   4:    1  ->  a ==> and
+   5:    1  ->  also ==> elsa
+   6:    1  ->  and ==> handbags
+   7:    1  ->  and ==> knocking
+   8:    1  ->  bags ==> 3
+   9:    1  ->  bob ==> is
+  10:    1  ->  can ==> scope
+  11:    1  ->  kids ==> she's
+  12:    1  ->  peas ==> now
+  13:    1  ->  red ==> into
+  14:    1  ->  scoop ==> there
+  15:    1  ->  she ==> gone
+  16:    1  ->  snake ==> is
+  17:    1  ->  snow ==> it
+  18:    1  ->  spoons ==> form
+  19:    1  ->  store ==> disturb
+  20:    1  ->  the ==> phone
+  21:    1  ->  these ==> is
+  22:    1  ->  these ==> the
+  23:    1  ->  thick ==> 56
+  24:    1  ->  things ==> think
+  25:    1  ->  things ==> thinking
+  26:    1  ->  toy ==> guitar
+  27:    1  ->  we ==> when
+  28:    1  ->  we ==> where
+  29:    1  ->  wednesday ==> me
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  when
+   2:    1  ->  as
+   3:    1  ->  bobby
+   4:    1  ->  come
+   5:    1  ->  keys
+   6:    1  ->  please
+   7:    1  ->  with
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  fresh
+   2:    1  ->  from
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  and
+   2:    2  ->  these
+   3:    2  ->  things
+   4:    2  ->  we
+   5:    1  ->  3
+   6:    1  ->  5
+   7:    1  ->  6
+   8:    1  ->  a
+   9:    1  ->  also
+  10:    1  ->  bags
+  11:    1  ->  bob
+  12:    1  ->  can
+  13:    1  ->  kids
+  14:    1  ->  peas
+  15:    1  ->  red
+  16:    1  ->  scoop
+  17:    1  ->  she
+  18:    1  ->  snake
+  19:    1  ->  snow
+  20:    1  ->  spoons
+  21:    1  ->  store
+  22:    1  ->  the
+  23:    1  ->  thick
+  24:    1  ->  toy
+  25:    1  ->  wednesday
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  is
+   2:    2  ->  the
+   3:    1  ->  3
+   4:    1  ->  56
+   5:    1  ->  and
+   6:    1  ->  been
+   7:    1  ->  disturb
+   8:    1  ->  elsa
+   9:    1  ->  form
+  10:    1  ->  gone
+  11:    1  ->  guitar
+  12:    1  ->  handbags
+  13:    1  ->  into
+  14:    1  ->  it
+  15:    1  ->  knocking
+  16:    1  ->  me
+  17:    1  ->  now
+  18:    1  ->  phone
+  19:    1  ->  scope
+  20:    1  ->  she's
+  21:    1  ->  sixth
+  22:    1  ->  there
+  23:    1  ->  think
+  24:    1  ->  thinking
+  25:    1  ->  when
+  26:    1  ->  where
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

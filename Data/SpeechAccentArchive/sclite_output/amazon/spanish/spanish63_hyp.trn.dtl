@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish63_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  call ==> gold
+   3:    1  ->  can ==> gonna
+   4:    1  ->  her ==> oscar
+   5:    1  ->  of ==> bones
+   6:    1  ->  please ==> police
+   7:    1  ->  red ==> friedrich
+   8:    1  ->  slabs ==> laps
+   9:    1  ->  thick ==> fifty-six
+  10:    1  ->  will ==> would
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  ask
+   3:    1  ->  five
+   4:    1  ->  spoons
+   5:    1  ->  three
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  these
+   2:    1  ->  call
+   3:    1  ->  can
+   4:    1  ->  her
+   5:    1  ->  of
+   6:    1  ->  please
+   7:    1  ->  red
+   8:    1  ->  slabs
+   9:    1  ->  thick
+  10:    1  ->  will
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  this
+   2:    1  ->  bones
+   3:    1  ->  fifty-six
+   4:    1  ->  friedrich
+   5:    1  ->  gold
+   6:    1  ->  gonna
+   7:    1  ->  laps
+   8:    1  ->  oscar
+   9:    1  ->  police
+  10:    1  ->  would
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

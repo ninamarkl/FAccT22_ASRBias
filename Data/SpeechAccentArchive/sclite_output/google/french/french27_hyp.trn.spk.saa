@@ -1,0 +1,104 @@
+SCORING FOR SPEAKER: saa
+     of french\french27_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  a ==> the
+   2:    1  ->  bob ==> but
+   3:    1  ->  meet ==> commit
+   4:    1  ->  scoop ==> stop
+   5:    1  ->  slabs ==> lots
+   6:    1  ->  small ==> smart
+   7:    1  ->  spoons ==> pounds
+   8:    1  ->  thick ==> 56
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  snake
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  go
+   5:    1  ->  the
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  a
+   2:    1  ->  bob
+   3:    1  ->  meet
+   4:    1  ->  scoop
+   5:    1  ->  slabs
+   6:    1  ->  small
+   7:    1  ->  spoons
+   8:    1  ->  thick
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  the
+   2:    1  ->  56
+   3:    1  ->  but
+   4:    1  ->  commit
+   5:    1  ->  lots
+   6:    1  ->  pounds
+   7:    1  ->  smart
+   8:    1  ->  stop
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

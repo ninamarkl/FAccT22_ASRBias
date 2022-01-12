@@ -1,0 +1,220 @@
+SCORING FOR SPEAKER: b-r
+     of google\b-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   69.8%   ( 127)
+
+Percent Correct           =   31.3%   (  57)
+
+Percent Substitution      =   14.3%   (  26)
+Percent Deletions         =   54.4%   (  99)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   30.2%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           (  85)
+Aligned words             =           ( 184)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  a ==> in
+   2:    1  ->  a ==> it
+   3:    1  ->  and ==> williams
+   4:    1  ->  announce ==> champion
+   5:    1  ->  ball ==> football
+   6:    1  ->  cinders ==> ended
+   7:    1  ->  cinders ==> just
+   8:    1  ->  cinders ==> wedding
+   9:    1  ->  day ==> use
+  10:    1  ->  had ==> belle's
+  11:    1  ->  hairbrushes ==> and
+  12:    1  ->  hairpins ==> friend
+  13:    1  ->  hairpins ==> her
+  14:    1  ->  hairspray ==> spray
+  15:    1  ->  he ==> i
+  16:    1  ->  help ==> brushes
+  17:    1  ->  lily ==> rosie
+  18:    1  ->  lived ==> up
+  19:    1  ->  one ==> will
+  20:    1  ->  rosa ==> that
+  21:    1  ->  royal ==> on
+  22:    1  ->  stepsisters ==> is
+  23:    1  ->  to ==> hair
+  24:    1  ->  wanted ==> friends
+  25:    1  ->  was ==> is
+  26:    1  ->  would ==> will
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  her
+   2:    1  ->  sister
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (72)
+                                 With >=  1 occurrences (72)
+
+   1:    6  ->  they
+   2:    5  ->  to
+   3:    3  ->  all
+   4:    3  ->  and
+   5:    3  ->  had
+   6:    3  ->  the
+   7:    3  ->  their
+   8:    2  ->  cinders
+   9:    2  ->  find
+  10:    2  ->  gowns
+  11:    2  ->  my
+  12:    2  ->  new
+  13:    2  ->  of
+  14:    2  ->  rosa
+  15:    2  ->  were
+  16:    1  ->  a
+  17:    1  ->  arrived
+  18:    1  ->  at
+  19:    1  ->  bad
+  20:    1  ->  ball
+  21:    1  ->  bells
+  22:    1  ->  but
+  23:    1  ->  buy
+  24:    1  ->  buying
+  25:    1  ->  came
+  26:    1  ->  cleaning
+  27:    1  ->  clothes
+  28:    1  ->  do
+  29:    1  ->  downs
+  30:    1  ->  dreamed
+  31:    1  ->  enough
+  32:    1  ->  evening
+  33:    1  ->  get
+  34:    1  ->  girls
+  35:    1  ->  going
+  36:    1  ->  hand
+  37:    1  ->  hat
+  38:    1  ->  her
+  39:    1  ->  howled
+  40:    1  ->  in
+  41:    1  ->  jewels
+  42:    1  ->  lazy
+  43:    1  ->  lily
+  44:    1  ->  me
+  45:    1  ->  mood
+  46:    1  ->  mother
+  47:    1  ->  old
+  48:    1  ->  one
+  49:    1  ->  other
+  50:    1  ->  parties
+  51:    1  ->  poor
+  52:    1  ->  prince
+  53:    1  ->  ready
+  54:    1  ->  said
+  55:    1  ->  she
+  56:    1  ->  shouting
+  57:    1  ->  sisters
+  58:    1  ->  so
+  59:    1  ->  some
+  60:    1  ->  spent
+  61:    1  ->  started
+  62:    1  ->  that
+  63:    1  ->  they'd
+  64:    1  ->  thought
+  65:    1  ->  time
+  66:    1  ->  wanted
+  67:    1  ->  was
+  68:    1  ->  wear
+  69:    1  ->  wedding
+  70:    1  ->  when
+  71:    1  ->  william
+  72:    1  ->  yelled
+     -------
+        99
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  cinders
+   2:    2  ->  a
+   3:    2  ->  hairpins
+   4:    1  ->  and
+   5:    1  ->  announce
+   6:    1  ->  ball
+   7:    1  ->  day
+   8:    1  ->  had
+   9:    1  ->  hairbrushes
+  10:    1  ->  hairspray
+  11:    1  ->  he
+  12:    1  ->  help
+  13:    1  ->  lily
+  14:    1  ->  lived
+  15:    1  ->  one
+  16:    1  ->  rosa
+  17:    1  ->  royal
+  18:    1  ->  stepsisters
+  19:    1  ->  to
+  20:    1  ->  wanted
+  21:    1  ->  was
+  22:    1  ->  would
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  is
+   2:    2  ->  will
+   3:    1  ->  and
+   4:    1  ->  belle's
+   5:    1  ->  brushes
+   6:    1  ->  champion
+   7:    1  ->  ended
+   8:    1  ->  football
+   9:    1  ->  friend
+  10:    1  ->  friends
+  11:    1  ->  hair
+  12:    1  ->  her
+  13:    1  ->  i
+  14:    1  ->  in
+  15:    1  ->  it
+  16:    1  ->  just
+  17:    1  ->  on
+  18:    1  ->  rosie
+  19:    1  ->  spray
+  20:    1  ->  that
+  21:    1  ->  up
+  22:    1  ->  use
+  23:    1  ->  wedding
+  24:    1  ->  williams
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

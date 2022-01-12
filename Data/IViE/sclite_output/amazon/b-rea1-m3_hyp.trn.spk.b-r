@@ -1,0 +1,115 @@
+SCORING FOR SPEAKER: b-r
+     of amazon\b-rea1-m3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.0%   (  22)
+
+Percent Correct           =   91.8%   ( 169)
+
+Percent Substitution      =    6.0%   (  11)
+Percent Deletions         =    2.2%   (   4)
+Percent Insertions        =    3.8%   (   7)
+Percent Word Accuracy     =   88.0%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 187)
+Aligned words             =           ( 191)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  ball ==> all
+   2:    1  ->  cinders ==> who's
+   3:    1  ->  gowns ==> guidelines
+   4:    1  ->  gowns ==> kinds
+   5:    1  ->  poor ==> person
+   6:    1  ->  rosa ==> er
+   7:    1  ->  stepsisters ==> sisters
+   8:    1  ->  the ==> hardly
+   9:    1  ->  the ==> their
+  10:    1  ->  they'd ==> they
+  11:    1  ->  was ==> with
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  of
+   2:    1  ->  night
+   3:    1  ->  rose
+   4:    1  ->  shouted
+   5:    1  ->  step
+   6:    1  ->  that
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  announce
+   2:    1  ->  had
+   3:    1  ->  howled
+   4:    1  ->  new
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  gowns
+   2:    2  ->  the
+   3:    1  ->  ball
+   4:    1  ->  cinders
+   5:    1  ->  poor
+   6:    1  ->  rosa
+   7:    1  ->  stepsisters
+   8:    1  ->  they'd
+   9:    1  ->  was
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  all
+   2:    1  ->  er
+   3:    1  ->  guidelines
+   4:    1  ->  hardly
+   5:    1  ->  kinds
+   6:    1  ->  person
+   7:    1  ->  sisters
+   8:    1  ->  their
+   9:    1  ->  they
+  10:    1  ->  who's
+  11:    1  ->  with
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

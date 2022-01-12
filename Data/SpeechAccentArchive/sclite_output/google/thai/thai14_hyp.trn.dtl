@@ -1,0 +1,111 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: thai\thai14_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  cheese ==> sheath
+   2:    1  ->  frog ==> for
+   3:    1  ->  from ==> formed
+   4:    1  ->  go ==> call
+   5:    1  ->  kids ==> case
+   6:    1  ->  of ==> are
+   7:    1  ->  plastic ==> plastics
+   8:    1  ->  slabs ==> sub
+   9:    1  ->  snake ==> next
+  10:    1  ->  snow ==> no
+  11:    1  ->  thick ==> 56
+  12:    1  ->  toy ==> toys
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  m5
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  5
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  cheese
+   2:    1  ->  frog
+   3:    1  ->  from
+   4:    1  ->  go
+   5:    1  ->  kids
+   6:    1  ->  of
+   7:    1  ->  plastic
+   8:    1  ->  slabs
+   9:    1  ->  snake
+  10:    1  ->  snow
+  11:    1  ->  thick
+  12:    1  ->  toy
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  56
+   2:    1  ->  are
+   3:    1  ->  call
+   4:    1  ->  case
+   5:    1  ->  for
+   6:    1  ->  formed
+   7:    1  ->  next
+   8:    1  ->  no
+   9:    1  ->  plastics
+  10:    1  ->  sheath
+  11:    1  ->  sub
+  12:    1  ->  toys
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

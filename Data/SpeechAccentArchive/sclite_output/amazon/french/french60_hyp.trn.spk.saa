@@ -1,0 +1,140 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french60_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.7%   (  26)
+
+Percent Correct           =   62.3%   (  43)
+
+Percent Substitution      =   31.9%   (  22)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   62.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  a ==> the
+   3:    1  ->  also ==> so
+   4:    1  ->  ask ==> has
+   5:    1  ->  blue ==> off
+   6:    1  ->  bob ==> but
+   7:    1  ->  cheese ==> brooches
+   8:    1  ->  frog ==> storey
+   9:    1  ->  from ==> off
+  10:    1  ->  her ==> heard
+  11:    1  ->  need ==> near
+  12:    1  ->  of ==> off
+  13:    1  ->  of ==> slaps
+  14:    1  ->  slabs ==> takes
+  15:    1  ->  snack ==> like
+  16:    1  ->  spoons ==> points
+  17:    1  ->  stella ==> costa
+  18:    1  ->  the ==> under
+  19:    1  ->  these ==> this
+  20:    1  ->  thick ==> fight
+  21:    1  ->  we ==> we're
+  22:    1  ->  with ==> we've
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  brother
+   2:    1  ->  call
+   3:    1  ->  five
+   4:    1  ->  toy
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  a
+   2:    2  ->  of
+   3:    1  ->  also
+   4:    1  ->  ask
+   5:    1  ->  blue
+   6:    1  ->  bob
+   7:    1  ->  cheese
+   8:    1  ->  frog
+   9:    1  ->  from
+  10:    1  ->  her
+  11:    1  ->  need
+  12:    1  ->  slabs
+  13:    1  ->  snack
+  14:    1  ->  spoons
+  15:    1  ->  stella
+  16:    1  ->  the
+  17:    1  ->  these
+  18:    1  ->  thick
+  19:    1  ->  we
+  20:    1  ->  with
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  off
+   2:    1  ->  brooches
+   3:    1  ->  but
+   4:    1  ->  costa
+   5:    1  ->  fight
+   6:    1  ->  has
+   7:    1  ->  heard
+   8:    1  ->  it's
+   9:    1  ->  like
+  10:    1  ->  near
+  11:    1  ->  points
+  12:    1  ->  slaps
+  13:    1  ->  so
+  14:    1  ->  storey
+  15:    1  ->  takes
+  16:    1  ->  the
+  17:    1  ->  this
+  18:    1  ->  under
+  19:    1  ->  we're
+  20:    1  ->  we've
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

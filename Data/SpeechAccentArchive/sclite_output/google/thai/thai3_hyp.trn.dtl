@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: thai\thai3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  big ==> baked
+   2:    1  ->  bob ==> but
+   3:    1  ->  for ==> not
+   4:    1  ->  for ==> with
+   5:    1  ->  frog ==> rock
+   6:    1  ->  her ==> metre
+   7:    1  ->  of ==> laptop
+   8:    1  ->  slabs ==> 56
+   9:    1  ->  snack ==> it's
+  10:    1  ->  station ==> trains
+  11:    1  ->  these ==> screwfix
+  12:    1  ->  toy ==> wife
+  13:    1  ->  train ==> ever
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  meet
+   5:    1  ->  scoop
+   6:    1  ->  the
+   7:    1  ->  thick
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  for
+   2:    1  ->  big
+   3:    1  ->  bob
+   4:    1  ->  frog
+   5:    1  ->  her
+   6:    1  ->  of
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  station
+  10:    1  ->  these
+  11:    1  ->  toy
+  12:    1  ->  train
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  56
+   2:    1  ->  baked
+   3:    1  ->  but
+   4:    1  ->  ever
+   5:    1  ->  it's
+   6:    1  ->  laptop
+   7:    1  ->  metre
+   8:    1  ->  not
+   9:    1  ->  rock
+  10:    1  ->  screwfix
+  11:    1  ->  trains
+  12:    1  ->  wife
+  13:    1  ->  with
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,7 @@
+<SYSTEM title="portuguese\portuguese1_hyp.trn" ref_fname="saa_ref.trn" hyp_fname="portuguese\portuguese1_hyp.trn" creation_date="Fri May 21 12:31:08 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="77" sequence="0">
+C,"please","please":C,"call","call":C,"stella","stella":C,"ask","ask":C,"her","her":C,"to","to":C,"bring","bring":S,"these","the":S,"things","think":C,"with","with":C,"her","her":D,"from",:S,"the","phone":S,"store","disturb":S,"6","sixth":S,"spoons","form":C,"of","of":D,"fresh",:S,"snow","it":S,"peas","now":S,"5","been":S,"thick","56":C,"slabs","slabs":C,"of","of":C,"blue","blue":C,"cheese","cheese":C,"and","and":C,"maybe","maybe":S,"a","and":C,"snack","snack":C,"for","for":C,"her","her":C,"brother","brother":I,,"bobby":I,,"when":I,,"when":S,"bob","is":S,"we","when":S,"also","elsa":C,"need","need":I,,"as":C,"a","a":C,"small","small":C,"plastic","plastic":S,"snake","is":S,"and","knocking":C,"a","a":C,"big","big":S,"toy","guitar":C,"frog","frog":C,"for","for":C,"the","the":I,,"keys":I,,"please":I,,"come":S,"kids","she's":S,"she","gone":S,"can","scope":S,"scoop","there":S,"these","is":S,"things","thinking":C,"into","into":S,"3","the":S,"red","into":S,"bags","3":S,"and","handbags":S,"we","where":C,"will","will":C,"go","go":C,"meet","meet":C,"her","her":I,,"with":S,"wednesday","me":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\hindi\hindi8_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 59 8 2 1
+REF:  PLEASE CALL   stella ASK   her to bring these things with her from the store six spoons of fresh snow peas FIVE THICK    slabs of blue cheese and maybe a snack for her brother bob we also need a small plastic snake and a big toy *** FROG for the kids she can SCOOP  these things into three red BAGS  and WE WILL  go meet her wednesday at the train station 
+HYP:  THESE  CALLED stella ASKED her to bring these things with her from the store six spoons of fresh snow peas **** FIGHTING slabs of blue cheese and maybe a snack for her brother bob we also need a small plastic snake and a big toy FOR UP   for the kids she can SCHOOL these things into three red BANKS and ** WE'LL go meet her wednesday at the train station 
+Eval: S      S             S                                                                                     D    S                                                                                                                    I   S                         S                                  S         D  S                                                
+
+

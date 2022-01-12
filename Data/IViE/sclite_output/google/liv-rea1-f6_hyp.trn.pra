@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\liv-rea1-f6_hyp.trn
+
+Speakers: 
+    0:  liv
+
+Speaker sentences   0:  liv   #utts: 1
+id: (liv-rea1-f6_01)
+Scores: (#C #S #D #I) 75 43 64 1
+REF:  once upon a time there was a girl called cinderella BUT EVERYBODY called HER CINDERS cinders LIVED with HER MOTHER AND TWO  STEPSISTERS called lily and ROSA  LILY    AND  ROSA WERE very unfriendly and they were LAZY GIRLS THEY      spent all THEIR time BUYING new clothes and going to parties POOR CINDERS HAD     to WEAR ALL THEIR OLD    HAND ME DOWNS and she had to do the cleaning ONE DAY A ROYAL MESSENGER CAME TO ANNOUNCE A BALL THE BALL WOULD BE HELD AT     the royal palace in honour of the queen's ONLY son PRINCE WILLIAM LILY AND ROSA THOUGHT THIS WAS DIVINE prince william WAS GORGEOUS AND HE WAS LOOKING FOR A BRIDE THEY DREAMED OF     wedding bells WHEN THE EVENING when THE EVENING OF   the ball ARRIVED CINDERS HAD    to help HER SISTERS  get ready THEY WERE  in a bad mood THEY'D wanted to buy some new ***** GOWNS BUT  THEIR MOTHER said that they HAD ENOUGH GOWNS SO THEY started SHOUTING AT CINDERS  find MY JEWELS  YELLED ONE   FIND my HAT YELLED THE OTHER THEY WANTED 
+HYP:  once upon a time there was a girl called cinderella *** PATERNITY called *** A       cinders LEFT  with *** ****** MY  STEP SISTER'S    called lily and ROSIE LILLIAN ROSE I    WAS  very unfriendly and they were **** ***** LAZYGIRLS spent all THE   time BY     new clothes and going to parties **** ******* POSTING to **** *** ***** FRANCE WITH MY DAD'S and she had to do the cleaning *** *** * ***** ********* **** ** ******** * **** *** **** ***** ** **** WHAT'S the royal palace in honour of the queen's MY   son ****** ******* **** *** **** ******* **** *** ****** prince william *** ******** *** ** *** ******* *** * ***** **** WITH    DREAMS wedding bells **** *** ******* when *** HEATING WITH the ball ******* ******* AROUND to help MY  SISTER'S get ready **** THERE in a bad mood DID    wanted to buy some new GAMES WITH  THEM ARE   THEY   said that they *** ****** ***** ** HAVE started ******** ** CHATTING find ** MODULES THE    ALBUM BY   my *** ****** *** ***** **** HOT    
+Eval:                                                     D   S                D   S               S          D   D      S   S    S                           S     S       S    S    S                                  D    D     S                   S          S                                       D    D       S          D    D   D     S      S    S  S                                    D   D   D D     D         D    D  D        D D    D   D    D     D  D    S                                                S        D      D       D    D   D    D       D    D   D                     D   D        D   D  D   D       D   D D     D    S       S                    D    D   D            D   S       S             D       D       S              S   S                  D    S                   S                             I     S     S    S     S                     D   D      D     D  S            D        D  S             D  S       S      S     S       D   D      D   D     D    S      
+
+>> REF:  HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  YOGA        LEGGINGS and hairspray 
+>> Eval: S           S                      
+
+

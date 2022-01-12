@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  bags ==> max
+   2:    1  ->  big ==> bit
+   3:    1  ->  call ==> go
+   4:    1  ->  five ==> fifty-five
+   5:    1  ->  her ==> hair
+   6:    1  ->  her ==> haired
+   7:    1  ->  her ==> here
+   8:    1  ->  her ==> hitler
+   9:    1  ->  kids ==> kits
+  10:    1  ->  of ==> a
+  11:    1  ->  of ==> off
+  12:    1  ->  peas ==> piece
+  13:    1  ->  red ==> direct
+  14:    1  ->  slabs ==> snaps
+  15:    1  ->  store ==> start
+  16:    1  ->  thick ==> teeth
+  17:    1  ->  things ==> themes
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  from
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    4  ->  her
+   2:    2  ->  of
+   3:    1  ->  bags
+   4:    1  ->  big
+   5:    1  ->  call
+   6:    1  ->  five
+   7:    1  ->  kids
+   8:    1  ->  peas
+   9:    1  ->  red
+  10:    1  ->  slabs
+  11:    1  ->  store
+  12:    1  ->  thick
+  13:    1  ->  things
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a
+   2:    1  ->  bit
+   3:    1  ->  direct
+   4:    1  ->  fifty-five
+   5:    1  ->  go
+   6:    1  ->  hair
+   7:    1  ->  haired
+   8:    1  ->  here
+   9:    1  ->  hitler
+  10:    1  ->  kits
+  11:    1  ->  max
+  12:    1  ->  off
+  13:    1  ->  piece
+  14:    1  ->  snaps
+  15:    1  ->  start
+  16:    1  ->  teeth
+  17:    1  ->  themes
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

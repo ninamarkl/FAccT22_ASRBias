@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish55_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  and ==> may
+   2:    1  ->  and ==> on
+   3:    1  ->  frog ==> front
+   4:    1  ->  maybe ==> be
+   5:    1  ->  of ==> a
+   6:    1  ->  six ==> see
+   7:    1  ->  snow ==> new
+   8:    1  ->  spoons ==> experience
+   9:    1  ->  the ==> a
+  10:    1  ->  thick ==> perfect
+  11:    1  ->  toy ==> toe
+  12:    1  ->  will ==> we'll
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  i
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  five
+   2:    1  ->  of
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  and
+   2:    1  ->  frog
+   3:    1  ->  maybe
+   4:    1  ->  of
+   5:    1  ->  six
+   6:    1  ->  snow
+   7:    1  ->  spoons
+   8:    1  ->  the
+   9:    1  ->  thick
+  10:    1  ->  toy
+  11:    1  ->  will
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    1  ->  be
+   3:    1  ->  experience
+   4:    1  ->  front
+   5:    1  ->  may
+   6:    1  ->  new
+   7:    1  ->  on
+   8:    1  ->  perfect
+   9:    1  ->  see
+  10:    1  ->  toe
+  11:    1  ->  we'll
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

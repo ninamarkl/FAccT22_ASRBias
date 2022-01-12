@@ -1,0 +1,101 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\english_uk\english110_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.5%   (  10)
+
+Percent Correct           =   85.5%   (  59)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   85.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bob ==> probable
+   3:    1  ->  brother ==> a
+   4:    1  ->  five ==> for
+   5:    1  ->  frog ==> fog
+   6:    1  ->  scoop ==> skip
+   7:    1  ->  slabs ==> slumps
+   8:    1  ->  snack ==> slip
+   9:    1  ->  toy ==> twit
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  her
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  ask
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  five
+   5:    1  ->  frog
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  toy
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  asked
+   3:    1  ->  fog
+   4:    1  ->  for
+   5:    1  ->  probable
+   6:    1  ->  skip
+   7:    1  ->  slip
+   8:    1  ->  slumps
+   9:    1  ->  twit
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\b-rea1-m5_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-m5_01)
+Scores: (#C #S #D #I) 116 39 26 5
+REF:  ONCE   upon a time there was a girl called cinderella but everyone called her CINDERS    cinders LIVED with her mother and two stepsisters called LILY AND ROSA lily and ROSA WERE VERY UNFRIENDLY and THEY WERE LAZY GIRLS THEY SPENT ALL THEIR TIME buying NEW CLOTHES and going to parties POOR CINDERS     had TO WEAR all *** their old HAND ME   DOWNS AND she had to do the cleaning ONE DAY     A   ROYAL messenger *** CAME TO      ANNOUNCE A          ball the ball WOULD be held at the royal palace in order ** IN honour of the queen's only son prince william LILY AND  rosa THOUGHT THIS WAS DIVINE prince william was gorgeous he was looking for a bride THEY DREAMED of wedding bells when the evening of the BALL   ARRIVED CINDERS had to help her SISTERS  get ready THEY WERE  in a bad mood they wanted to buy some new GOWNS but their mother HAD said THAT they had enough GOWNS so they started shouting at CINDERS find my JEWELS YELLED ONE   find my HAT   HOWLED the other they wanted *** 
+HYP:  WHAT'S upon a time there was a girl called cinderella but everyone called her EASTENDERS cinders LEFT  with her mother and two stepsisters called **** *** **** lily and **** **** **** ROSIE      and **** **** **** ***** **** ***** *** ***** I'M  buying YOU CLOSE   and going to parties **** PERCENTAGES had ** **** all HER their old HOW  MANY TIMES HAS she had to do the cleaning *** ONE-DAY ARE ALL   messenger CAN TWO  HUNDRED AND      NINETY-TWO ball the ball WILL  be held at the royal palace in order OF AN honour of the queen's only son prince william **** LANE rosa ******* **** *** DEFINE prince william was gorgeous he was looking for a bride THE  DREAM   of wedding bells when the evening of the BOILER I'VE    JUST    had to help her SISTER'S get ready **** THERE in a bad mood they wanted to buy some new GUYS  but their mother AND said **** they had enough COINS so they started shouting at SANDERS find my ****** ****** JULES find my HEART ALL    the other they wanted HER 
+Eval: S                                                                             S                  S                                                D    D   D             D    D    D    S              D    D    D    D     D    D     D   D     S           S   S                            D    S               D  D        I             S    S    S     S                              D   S       S   S               I   S    S       S        S                        S                                          I  S                                                D    S         D       D    D   S                                                             S    S                                                S      S       S                       S                  D    S                                               S                      S        D                    S                                 S               D      D      S             S     S                            I   
+
+>> REF:  ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  BRUSHES HER         PENS     and hairspray 
+>> Eval: I       S           S                      
+
+

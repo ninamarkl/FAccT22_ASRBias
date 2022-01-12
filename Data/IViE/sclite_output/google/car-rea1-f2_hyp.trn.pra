@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\car-rea1-f2_hyp.trn
+
+Speakers: 
+    0:  car
+
+Speaker sentences   0:  car   #utts: 1
+id: (car-rea1-f2_01)
+Scores: (#C #S #D #I) 134 35 27 4
+REF:  once upon a time there was a girl called cinderella BUT everyone called *** HER    CINDERS CINDERS LIVED with HER   mother and her two stepsisters called lily and ROSA  lily and ROSA  were very UNFRIENDLY and THEY WERE lazy girls they spent all THEIR time buying new clothes AND going to parties POOR cinders HAD    had to wear all THEIR OLD HAND ME DOWNS ERM AND SHE  WERE          and she had no AND SHE HAD    to DO all the cleaning ONE DAY    a ROYAL MESSENGER CAME     TO   ANNOUNCE A      ball the ball would be held AT the royal palace in honour of the queen's only SON  prince WILLIAM LILY and rosa thought this was define THIS WAS DIVINE prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived cinders HAD TO HELP HER    sisters get ready THEY WERE  in a bad mood BEC-    they wanted to buy some new GOWNS but THEIR MOTHER said that THEY had enough GOWNS so they started shouting at cinders find my jewellery 
+HYP:  once upon a time there was a girl called cinderella *** everyone called ACE ENDERS SEND    US      LIVE  with THEIR mother and her two stepsisters called lily and ROSIE lily and ROSIE were very ********** and **** **** lazy girls they spent all THE   time buying new clothes I'M going to parties FOR  cinders HADN'T had to wear all ***** *** **** ** ***** *** *** THAT HAND-ME-DOWNS and she had no *** *** ANSWER to ** all the cleaning *** MONDAY a ***** ********* ROMANTIC INTO AN       ANSWER ball the ball would be held IN the royal palace in honour of the queen's only SEND prince PLAY    ME   and rosa thought this was define **** *** ****** prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived cinders *** ** **** HELPER sisters get ready **** THERE in a bad mood BECAUSE they wanted to buy some new CANS  but THEY  NEVER  said that I    had enough GUNS  so they started shouting at cinders find my jewellery 
+Eval:                                                     D                   I   S      S       S       S          S                                                    S              S               D              D    D                              S                             S                    S            S                      D     D   D    D  D     D   D   S    S                            D   D   S         D                   D   S        D     D         S        S    S        S                                  S                                                 S           S       S                                     D    D   D                                                                                                                                            D   D  D    S                        D    S                   S                                   S         S     S                S               S                                                           
+
+>> REF:  YELLED ONE OF THEM      find my ***** HAT HOWLED the other they wanted **** HAIRBRUSHES hairpins *** and hairspray 
+>> HYP:  ****** *** ** O'DONOVAN find my HEART TO  HOLD   the other they wanted HAIR BRUSHES     hairpins AND and hairspray 
+>> Eval: D      D   D  S                 I     S   S                            I    S                    I                 
+
+

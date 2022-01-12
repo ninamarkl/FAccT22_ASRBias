@@ -1,0 +1,114 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french41_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bags ==> readbacks
+   3:    1  ->  frog ==> fraud
+   4:    1  ->  her ==> our
+   5:    1  ->  please ==> police
+   6:    1  ->  red ==> free
+   7:    1  ->  slabs ==> laps
+   8:    1  ->  spoons ==> points
+   9:    1  ->  the ==> a
+  10:    1  ->  these ==> this
+  11:    1  ->  thick ==> fifty-six
+  12:    1  ->  will ==> we'll
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  five
+   2:    1  ->  her
+   3:    1  ->  three
+   4:    1  ->  we
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  ask
+   2:    1  ->  bags
+   3:    1  ->  frog
+   4:    1  ->  her
+   5:    1  ->  please
+   6:    1  ->  red
+   7:    1  ->  slabs
+   8:    1  ->  spoons
+   9:    1  ->  the
+  10:    1  ->  these
+  11:    1  ->  thick
+  12:    1  ->  will
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  asked
+   3:    1  ->  fifty-six
+   4:    1  ->  fraud
+   5:    1  ->  free
+   6:    1  ->  laps
+   7:    1  ->  our
+   8:    1  ->  points
+   9:    1  ->  police
+  10:    1  ->  readbacks
+  11:    1  ->  this
+  12:    1  ->  we'll
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

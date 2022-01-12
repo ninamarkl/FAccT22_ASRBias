@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\c-rea1-f6_hyp.trn
+
+Speakers: 
+    0:  c-r
+
+Speaker sentences   0:  c-r   #utts: 1
+id: (c-rea1-f6_01)
+Scores: (#C #S #D #I) 161 17 3 3
+REF:  once upon a time there was a girl called cinderella but everyone called her CINDERS cinders lived with her mother and two **** STEPSISTERS called LILY AND     rosa LILY AND     ROSA were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties poor CINDERS had to wear all their old hand me DOWNS and she had to do *** the cleaning one day a ROYAL messenger came to ANNOUNCE A      ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william lily and **** ROSA thought this was divine prince william was gorgeous he was and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CINDERS had to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new gowns but their mother said that they had ENOUGH GOWNS   so they started shouting at cinders find my jewels yelled one find my hat HOWLED THE     other they wanted hairbrushes hairpins and hairspray 
+HYP:  once upon a time there was a girl called cinderella but everyone called her CINDY'S cinders lived with her mother and two STEP SISTERS     called **** LILLIAN rosa **** LILLIAN ROSE were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties poor SINGERS had to wear all their old hand me DANCE and she had to do ALL the cleaning one day a REAL  messenger came to AN       ANSWER ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william lily and ROSE I    thought this was divine prince william was gorgeous he was and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived SINGERS had to help her sisters get ready they were in a bad mood THEY   wanted to buy some new gowns but their mother said that they had IN     AFGHANS so they started shouting at cinders find my jewels yelled one find my hat ****** HEALTHY other they wanted hairbrushes hairpins and hairspray 
+Eval:                                                                             S                                             I    S                  D    S            D    S       S                                                                                                                         S                                         S                       I                          S                       S        S                    S                                                                                           I    S                                                                                                                                                                 S                                                                 S                                                                       S      S                                                                                 D      S                                                            
+
+

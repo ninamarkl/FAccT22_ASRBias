@@ -1,0 +1,111 @@
+SCORING FOR SPEAKER: liv
+     of amazon\liv-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  17)
+
+Percent Correct           =   90.7%   ( 165)
+
+Percent Substitution      =    7.1%   (  13)
+Percent Deletions         =    2.2%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 178)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  and ==> lillian
+   2:    1  ->  a ==> the
+   3:    1  ->  cinders ==> centres
+   4:    1  ->  downs ==> dance
+   5:    1  ->  had ==> porcine
+   6:    1  ->  had ==> up
+   7:    1  ->  hat ==> health
+   8:    1  ->  howled ==> health
+   9:    1  ->  rosa ==> rose
+  10:    1  ->  to ==> data
+  11:    1  ->  wear ==> weight
+  12:    1  ->  would ==> will
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  lily
+   2:    1  ->  cinders
+   3:    1  ->  poor
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  and
+   2:    2  ->  had
+   3:    1  ->  a
+   4:    1  ->  cinders
+   5:    1  ->  downs
+   6:    1  ->  hat
+   7:    1  ->  howled
+   8:    1  ->  rosa
+   9:    1  ->  to
+  10:    1  ->  wear
+  11:    1  ->  would
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  health
+   2:    2  ->  lillian
+   3:    1  ->  centres
+   4:    1  ->  dance
+   5:    1  ->  data
+   6:    1  ->  porcine
+   7:    1  ->  rose
+   8:    1  ->  the
+   9:    1  ->  up
+  10:    1  ->  weight
+  11:    1  ->  will
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

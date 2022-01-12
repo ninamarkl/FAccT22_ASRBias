@@ -1,0 +1,123 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  and ==> snacking
+   2:    1  ->  bob ==> paul
+   3:    1  ->  can ==> xiqing
+   4:    1  ->  cheese ==> she's
+   5:    1  ->  five ==> bye
+   6:    1  ->  fresh ==> each
+   7:    1  ->  frog ==> fraud
+   8:    1  ->  of ==> off
+   9:    1  ->  scoop ==> isco
+  10:    1  ->  slabs ==> slaps
+  11:    1  ->  stella ==> estela
+  12:    1  ->  thick ==> takes
+  13:    1  ->  we ==> he
+  14:    1  ->  will ==> we'll
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  her
+   2:    1  ->  meet
+   3:    1  ->  their
+   4:    1  ->  with
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  she
+   2:    1  ->  snake
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  and
+   2:    1  ->  bob
+   3:    1  ->  can
+   4:    1  ->  cheese
+   5:    1  ->  five
+   6:    1  ->  fresh
+   7:    1  ->  frog
+   8:    1  ->  of
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  stella
+  12:    1  ->  thick
+  13:    1  ->  we
+  14:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bye
+   2:    1  ->  each
+   3:    1  ->  estela
+   4:    1  ->  fraud
+   5:    1  ->  he
+   6:    1  ->  isco
+   7:    1  ->  off
+   8:    1  ->  paul
+   9:    1  ->  she's
+  10:    1  ->  slaps
+  11:    1  ->  snacking
+  12:    1  ->  takes
+  13:    1  ->  we'll
+  14:    1  ->  xiqing
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,128 @@
+SCORING FOR SPEAKER: saa
+     of french\french31_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   52.2%   (  36)
+
+Percent Correct           =   47.8%   (  33)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =   37.7%   (  26)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   47.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  43)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  blue ==> freshener
+   2:    1  ->  call ==> please
+   3:    1  ->  can ==> gets
+   4:    1  ->  cheese ==> pcs562
+   5:    1  ->  frog ==> toys
+   6:    1  ->  go ==> to
+   7:    1  ->  scoop ==> cold
+   8:    1  ->  slabs ==> 6-pt
+   9:    1  ->  stella ==> costello
+  10:    1  ->  will ==> into
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  her
+   2:    2  ->  the
+   3:    1  ->  3
+   4:    1  ->  5
+   5:    1  ->  6
+   6:    1  ->  a
+   7:    1  ->  and
+   8:    1  ->  at
+   9:    1  ->  bags
+  10:    1  ->  bob
+  11:    1  ->  brother
+  12:    1  ->  for
+  13:    1  ->  fresh
+  14:    1  ->  of
+  15:    1  ->  peas
+  16:    1  ->  red
+  17:    1  ->  snack
+  18:    1  ->  snow
+  19:    1  ->  spoons
+  20:    1  ->  thick
+  21:    1  ->  toy
+  22:    1  ->  train
+  23:    1  ->  we
+  24:    1  ->  wednesday
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  blue
+   2:    1  ->  call
+   3:    1  ->  can
+   4:    1  ->  cheese
+   5:    1  ->  frog
+   6:    1  ->  go
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  stella
+  10:    1  ->  will
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  6-pt
+   2:    1  ->  cold
+   3:    1  ->  costello
+   4:    1  ->  freshener
+   5:    1  ->  gets
+   6:    1  ->  into
+   7:    1  ->  pcs562
+   8:    1  ->  please
+   9:    1  ->  to
+  10:    1  ->  toys
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

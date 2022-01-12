@@ -1,0 +1,134 @@
+SCORING FOR SPEAKER: saa
+     of hindi\hindi5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   81.2%   (  56)
+
+Percent Correct           =   18.8%   (  13)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =   72.5%   (  50)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   18.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  19)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  her ==> steal
+   2:    1  ->  of ==> snoopy's
+   3:    1  ->  slabs ==> fridge
+   4:    1  ->  spoons ==> points
+   5:    1  ->  station ==> thing
+   6:    1  ->  train ==> this
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    3  ->  her
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  the
+   5:    2  ->  these
+   6:    2  ->  things
+   7:    2  ->  we
+   8:    1  ->  3
+   9:    1  ->  5
+  10:    1  ->  also
+  11:    1  ->  ask
+  12:    1  ->  at
+  13:    1  ->  bags
+  14:    1  ->  big
+  15:    1  ->  bob
+  16:    1  ->  bring
+  17:    1  ->  brother
+  18:    1  ->  can
+  19:    1  ->  for
+  20:    1  ->  fresh
+  21:    1  ->  frog
+  22:    1  ->  go
+  23:    1  ->  into
+  24:    1  ->  kids
+  25:    1  ->  maybe
+  26:    1  ->  meet
+  27:    1  ->  need
+  28:    1  ->  peas
+  29:    1  ->  plastic
+  30:    1  ->  red
+  31:    1  ->  scoop
+  32:    1  ->  she
+  33:    1  ->  small
+  34:    1  ->  snake
+  35:    1  ->  snow
+  36:    1  ->  stella
+  37:    1  ->  thick
+  38:    1  ->  to
+  39:    1  ->  toy
+  40:    1  ->  wednesday
+  41:    1  ->  will
+  42:    1  ->  with
+     -------
+        50
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  her
+   2:    1  ->  of
+   3:    1  ->  slabs
+   4:    1  ->  spoons
+   5:    1  ->  station
+   6:    1  ->  train
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  fridge
+   2:    1  ->  points
+   3:    1  ->  snoopy's
+   4:    1  ->  steal
+   5:    1  ->  thing
+   6:    1  ->  this
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

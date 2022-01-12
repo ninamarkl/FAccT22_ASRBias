@@ -1,0 +1,140 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\l-rea1-f2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.6%   (  34)
+
+Percent Correct           =   84.2%   ( 154)
+
+Percent Substitution      =   10.4%   (  19)
+Percent Deletions         =    5.5%   (  10)
+Percent Insertions        =    2.7%   (   5)
+Percent Word Accuracy     =   81.4%
+
+
+Ref. words                =           ( 183)
+Hyp. words                =           ( 178)
+Aligned words             =           ( 188)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  rosa ==> rosie
+   2:    1  ->  a ==> the
+   3:    1  ->  arrived ==> ride
+   4:    1  ->  at ==> in
+   5:    1  ->  ball ==> baller
+   6:    1  ->  cinders ==> enders
+   7:    1  ->  downs ==> down
+   8:    1  ->  dreamed ==> dreams
+   9:    1  ->  gowns ==> downs
+  10:    1  ->  hairbrushes ==> hair
+  11:    1  ->  hairpins ==> pins
+  12:    1  ->  hat ==> fifteen
+  13:    1  ->  howled ==> how
+  14:    1  ->  jewels ==> myjoolz
+  15:    1  ->  lily ==> lilley
+  16:    1  ->  my ==> by
+  17:    1  ->  poor ==> horse
+  18:    1  ->  they'd ==> they
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+   3:    1  ->  held
+   4:    1  ->  help
+   5:    1  ->  how
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  find
+   2:    2  ->  lily
+   3:    1  ->  and
+   4:    1  ->  my
+   5:    1  ->  one
+   6:    1  ->  rosa
+   7:    1  ->  sep
+   8:    1  ->  they
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  rosa
+   2:    1  ->  a
+   3:    1  ->  arrived
+   4:    1  ->  at
+   5:    1  ->  ball
+   6:    1  ->  cinders
+   7:    1  ->  downs
+   8:    1  ->  dreamed
+   9:    1  ->  gowns
+  10:    1  ->  hairbrushes
+  11:    1  ->  hairpins
+  12:    1  ->  hat
+  13:    1  ->  howled
+  14:    1  ->  jewels
+  15:    1  ->  lily
+  16:    1  ->  my
+  17:    1  ->  poor
+  18:    1  ->  they'd
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  rosie
+   2:    1  ->  baller
+   3:    1  ->  by
+   4:    1  ->  down
+   5:    1  ->  downs
+   6:    1  ->  dreams
+   7:    1  ->  enders
+   8:    1  ->  fifteen
+   9:    1  ->  hair
+  10:    1  ->  horse
+  11:    1  ->  how
+  12:    1  ->  in
+  13:    1  ->  lilley
+  14:    1  ->  myjoolz
+  15:    1  ->  pins
+  16:    1  ->  ride
+  17:    1  ->  the
+  18:    1  ->  they
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

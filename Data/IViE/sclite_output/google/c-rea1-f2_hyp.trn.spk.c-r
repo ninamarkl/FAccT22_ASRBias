@@ -1,0 +1,194 @@
+SCORING FOR SPEAKER: c-r
+     of google\c-rea1-f2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   48.0%   (  86)
+
+Percent Correct           =   53.1%   (  95)
+
+Percent Substitution      =   15.1%   (  27)
+Percent Deletions         =   31.8%   (  57)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   52.0%
+
+
+Ref. words                =           ( 179)
+Hyp. words                =           ( 124)
+Aligned words             =           ( 181)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  ball ==> hand-me-downs
+   3:    1  ->  buying ==> by
+   4:    1  ->  cinders ==> singers
+   5:    1  ->  cinders ==> sinners
+   6:    1  ->  dreamed ==> change
+   7:    1  ->  find ==> found
+   8:    1  ->  gowns ==> girls
+   9:    1  ->  had ==> have
+  10:    1  ->  hairbrushes ==> hair
+  11:    1  ->  hairpins ==> pins
+  12:    1  ->  he ==> you
+  13:    1  ->  her ==> my
+  14:    1  ->  howled ==> how
+  15:    1  ->  one ==> ydone
+  16:    1  ->  poor ==> for
+  17:    1  ->  sisters ==> sister's
+  18:    1  ->  the ==> bounce
+  19:    1  ->  their ==> that
+  20:    1  ->  they ==> a
+  21:    1  ->  they ==> i
+  22:    1  ->  they'd ==> and
+  23:    1  ->  thought ==> william
+  24:    1  ->  was ==> is
+  25:    1  ->  were ==> there
+  26:    1  ->  yelled ==> jules
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    5  ->  and
+   2:    3  ->  lily
+   3:    3  ->  the
+   4:    2  ->  a
+   5:    2  ->  of
+   6:    2  ->  rosa
+   7:    2  ->  they
+   8:    2  ->  to
+   9:    2  ->  were
+  10:    1  ->  announce
+  11:    1  ->  arrived
+  12:    1  ->  ball
+  13:    1  ->  be
+  14:    1  ->  called
+  15:    1  ->  came
+  16:    1  ->  cinders
+  17:    1  ->  cleaning
+  18:    1  ->  day
+  19:    1  ->  do
+  20:    1  ->  downs
+  21:    1  ->  evening
+  22:    1  ->  girls
+  23:    1  ->  had
+  24:    1  ->  hand
+  25:    1  ->  hat
+  26:    1  ->  held
+  27:    1  ->  her
+  28:    1  ->  honour
+  29:    1  ->  jewels
+  30:    1  ->  lazy
+  31:    1  ->  lived
+  32:    1  ->  me
+  33:    1  ->  messenger
+  34:    1  ->  mother
+  35:    1  ->  one
+  36:    1  ->  royal
+  37:    1  ->  she
+  38:    1  ->  so
+  39:    1  ->  stepsisters
+  40:    1  ->  two
+  41:    1  ->  when
+  42:    1  ->  with
+  43:    1  ->  would
+     -------
+        57
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    3  ->  their
+   2:    2  ->  cinders
+   3:    2  ->  they
+   4:    1  ->  ball
+   5:    1  ->  buying
+   6:    1  ->  dreamed
+   7:    1  ->  find
+   8:    1  ->  gowns
+   9:    1  ->  had
+  10:    1  ->  hairbrushes
+  11:    1  ->  hairpins
+  12:    1  ->  he
+  13:    1  ->  her
+  14:    1  ->  howled
+  15:    1  ->  one
+  16:    1  ->  poor
+  17:    1  ->  sisters
+  18:    1  ->  the
+  19:    1  ->  they'd
+  20:    1  ->  thought
+  21:    1  ->  was
+  22:    1  ->  were
+  23:    1  ->  yelled
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  bounce
+   5:    1  ->  by
+   6:    1  ->  change
+   7:    1  ->  for
+   8:    1  ->  found
+   9:    1  ->  girls
+  10:    1  ->  hair
+  11:    1  ->  hand-me-downs
+  12:    1  ->  have
+  13:    1  ->  how
+  14:    1  ->  i
+  15:    1  ->  is
+  16:    1  ->  jules
+  17:    1  ->  my
+  18:    1  ->  pins
+  19:    1  ->  singers
+  20:    1  ->  sinners
+  21:    1  ->  sister's
+  22:    1  ->  that
+  23:    1  ->  there
+  24:    1  ->  william
+  25:    1  ->  ydone
+  26:    1  ->  you
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

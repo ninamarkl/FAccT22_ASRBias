@@ -1,0 +1,85 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\english_uk\english145_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.2%   (   5)
+
+Percent Correct           =   94.2%   (  65)
+
+Percent Substitution      =    4.3%   (   3)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   92.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  can ==> could
+   2:    1  ->  peas ==> piece
+   3:    1  ->  will ==> we'll
+     -------
+         3
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  will
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  we
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  can
+   2:    1  ->  peas
+   3:    1  ->  will
+     -------
+         3
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  could
+   2:    1  ->  piece
+   3:    1  ->  we'll
+     -------
+         3
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,111 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\urdu\urdu7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bob ==> but
+   3:    1  ->  five ==> piece
+   4:    1  ->  into ==> tow
+   5:    1  ->  peas ==> snow's
+   6:    1  ->  slabs ==> slab
+   7:    1  ->  snake ==> snack
+   8:    1  ->  spoons ==> points
+   9:    1  ->  thick ==> fifty-six
+  10:    1  ->  to ==> toe
+  11:    1  ->  wednesday ==> stay
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  in
+   2:    1  ->  van
+   3:    1  ->  with
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  snow
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  ask
+   2:    1  ->  bob
+   3:    1  ->  five
+   4:    1  ->  into
+   5:    1  ->  peas
+   6:    1  ->  slabs
+   7:    1  ->  snake
+   8:    1  ->  spoons
+   9:    1  ->  thick
+  10:    1  ->  to
+  11:    1  ->  wednesday
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  asked
+   2:    1  ->  but
+   3:    1  ->  fifty-six
+   4:    1  ->  piece
+   5:    1  ->  points
+   6:    1  ->  slab
+   7:    1  ->  snack
+   8:    1  ->  snow's
+   9:    1  ->  stay
+  10:    1  ->  toe
+  11:    1  ->  tow
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

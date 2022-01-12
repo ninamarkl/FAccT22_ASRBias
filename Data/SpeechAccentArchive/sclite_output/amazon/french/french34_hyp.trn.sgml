@@ -1,0 +1,7 @@
+<SYSTEM title=" amazon\french\french34_hyp.trn" ref_fname=" saa_ref.trn" hyp_fname=" amazon\french\french34_hyp.trn" creation_date="Wed May 26 07:57:46 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="69" sequence="0">
+C,"please","please":C,"call","call":S,"stella","still":C,"ask","ask":C,"her","her":C,"to","to":C,"bring","bring":S,"these","this":S,"things","thing":C,"with","with":C,"her","her":C,"from","from":C,"the","the":C,"store","store":S,"six","see":S,"spoons","spoon":S,"of","off":C,"fresh","fresh":C,"snow","snow":C,"peas","peas":D,"five",:S,"thick","fifty-six":C,"slabs","slabs":S,"of","off":C,"blue","blue":C,"cheese","cheese":C,"and","and":C,"maybe","maybe":S,"a","it's":S,"snack","not":C,"for","for":S,"her","a":S,"brother","broader":C,"bob","bob":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":C,"and","and":C,"a","a":C,"big","big":C,"toy","toy":C,"frog","frog":C,"for","for":C,"the","the":C,"kids","kids":C,"she","she":S,"can","gets":S,"scoop","hoop":C,"these","these":C,"things","things":C,"into","into":C,"three","three":C,"red","red":C,"bags","bags":C,"and","and":C,"we","we":C,"will","will":C,"go","go":C,"meet","meet":D,"her",:C,"wednesday","wednesday":S,"at","on":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

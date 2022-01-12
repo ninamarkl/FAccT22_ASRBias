@@ -1,0 +1,96 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish37_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  slabs ==> lots
+   3:    1  ->  spoons ==> pounds
+   4:    1  ->  the ==> a
+   5:    1  ->  thick ==> 56
+   6:    1  ->  we ==> it
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  3
+   2:    1  ->  5
+   3:    1  ->  and
+   4:    1  ->  bags
+   5:    1  ->  red
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  slabs
+   3:    1  ->  spoons
+   4:    1  ->  the
+   5:    1  ->  thick
+   6:    1  ->  we
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  56
+   2:    1  ->  a
+   3:    1  ->  in
+   4:    1  ->  it
+   5:    1  ->  lots
+   6:    1  ->  pounds
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

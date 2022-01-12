@@ -1,0 +1,123 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese25_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    8.7%   (   6)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  75)
+Aligned words             =           (  75)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a ==> as
+   2:    1  ->  ask ==> asking
+   3:    1  ->  call ==> cause
+   4:    1  ->  five ==> finally
+   5:    1  ->  maybe ==> be
+   6:    1  ->  of ==> off
+   7:    1  ->  of ==> ofthe
+   8:    1  ->  peas ==> peace
+   9:    1  ->  slabs ==> laps
+  10:    1  ->  snack ==> neck
+  11:    1  ->  snake ==> neck
+  12:    1  ->  snow ==> no
+  13:    1  ->  stella ==> town
+  14:    1  ->  thick ==> fix
+  15:    1  ->  wednesday ==> were
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  is
+   2:    1  ->  it
+   3:    1  ->  may
+   4:    1  ->  there's
+   5:    1  ->  they
+   6:    1  ->  when
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  call
+   5:    1  ->  five
+   6:    1  ->  maybe
+   7:    1  ->  peas
+   8:    1  ->  slabs
+   9:    1  ->  snack
+  10:    1  ->  snake
+  11:    1  ->  snow
+  12:    1  ->  stella
+  13:    1  ->  thick
+  14:    1  ->  wednesday
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  neck
+   2:    1  ->  as
+   3:    1  ->  asking
+   4:    1  ->  be
+   5:    1  ->  cause
+   6:    1  ->  finally
+   7:    1  ->  fix
+   8:    1  ->  laps
+   9:    1  ->  no
+  10:    1  ->  off
+  11:    1  ->  ofthe
+  12:    1  ->  peace
+  13:    1  ->  town
+  14:    1  ->  were
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

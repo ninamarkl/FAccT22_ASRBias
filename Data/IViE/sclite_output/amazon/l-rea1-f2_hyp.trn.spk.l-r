@@ -1,0 +1,101 @@
+SCORING FOR SPEAKER: l-r
+     of amazon\l-rea1-f2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.1%   (  13)
+
+Percent Correct           =   95.1%   ( 174)
+
+Percent Substitution      =    3.8%   (   7)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   92.9%
+
+
+Ref. words                =           ( 183)
+Hyp. words                =           ( 185)
+Aligned words             =           ( 187)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  at ==> in
+   3:    1  ->  bad ==> bulb
+   4:    1  ->  cinders ==> passengers
+   5:    1  ->  find ==> by
+   6:    1  ->  howled ==> held
+   7:    1  ->  they'd ==> had
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  had
+   2:    1  ->  held
+   3:    1  ->  help
+   4:    1  ->  they
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  poor
+   2:    1  ->  sep
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  at
+   3:    1  ->  bad
+   4:    1  ->  cinders
+   5:    1  ->  find
+   6:    1  ->  howled
+   7:    1  ->  they'd
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  bulb
+   2:    1  ->  by
+   3:    1  ->  had
+   4:    1  ->  held
+   5:    1  ->  in
+   6:    1  ->  passengers
+   7:    1  ->  the
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

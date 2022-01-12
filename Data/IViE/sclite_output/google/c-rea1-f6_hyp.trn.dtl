@@ -1,0 +1,148 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\c-rea1-f6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  34)
+
+Percent Correct           =   82.3%   ( 149)
+
+Percent Substitution      =   11.6%   (  21)
+Percent Deletions         =    6.1%   (  11)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 172)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  a ==> answer
+   2:    1  ->  and ==> were
+   3:    1  ->  announce ==> an
+   4:    1  ->  ball ==> bull
+   5:    1  ->  divine ==> fine
+   6:    1  ->  downs ==> down
+   7:    1  ->  find ==> on
+   8:    1  ->  girls ==> lazygirls
+   9:    1  ->  gowns ==> games
+  10:    1  ->  gowns ==> gan
+  11:    1  ->  hairbrushes ==> brushes
+  12:    1  ->  help ==> centres
+  13:    1  ->  her ==> helper
+  14:    1  ->  howled ==> has
+  15:    1  ->  jewels ==> jules
+  16:    1  ->  poor ==> for
+  17:    1  ->  royal ==> around
+  18:    1  ->  their ==> that
+  19:    1  ->  they'd ==> they
+  20:    1  ->  was ==> william's
+  21:    1  ->  would ==> will
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  all
+   2:    1  ->  hair
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  cinders
+   3:    1  ->  had
+   4:    1  ->  lazy
+   5:    1  ->  lily
+   6:    1  ->  one
+   7:    1  ->  ready
+   8:    1  ->  rosa
+   9:    1  ->  to
+  10:    1  ->  were
+  11:    1  ->  william
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  gowns
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  announce
+   5:    1  ->  ball
+   6:    1  ->  divine
+   7:    1  ->  downs
+   8:    1  ->  find
+   9:    1  ->  girls
+  10:    1  ->  hairbrushes
+  11:    1  ->  help
+  12:    1  ->  her
+  13:    1  ->  howled
+  14:    1  ->  jewels
+  15:    1  ->  poor
+  16:    1  ->  royal
+  17:    1  ->  their
+  18:    1  ->  they'd
+  19:    1  ->  was
+  20:    1  ->  would
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  an
+   2:    1  ->  answer
+   3:    1  ->  around
+   4:    1  ->  brushes
+   5:    1  ->  bull
+   6:    1  ->  centres
+   7:    1  ->  down
+   8:    1  ->  fine
+   9:    1  ->  for
+  10:    1  ->  games
+  11:    1  ->  gan
+  12:    1  ->  has
+  13:    1  ->  helper
+  14:    1  ->  jules
+  15:    1  ->  lazygirls
+  16:    1  ->  on
+  17:    1  ->  that
+  18:    1  ->  they
+  19:    1  ->  were
+  20:    1  ->  will
+  21:    1  ->  william's
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,173 @@
+SCORING FOR SPEAKER: b-r
+     of google\b-rea1-m6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.7%   (  51)
+
+Percent Correct           =   73.9%   ( 136)
+
+Percent Substitution      =   16.3%   (  30)
+Percent Deletions         =    9.8%   (  18)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   72.3%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 169)
+Aligned words             =           ( 187)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  cinders ==> sanders
+   2:    1  ->  a ==> monday
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> i'm
+   5:    1  ->  arrived ==> aid
+   6:    1  ->  ball ==> baller
+   7:    1  ->  bride ==> braid
+   8:    1  ->  cinders ==> centres
+   9:    1  ->  cinders ==> percentages
+  10:    1  ->  divine ==> main
+  11:    1  ->  downs ==> dance
+  12:    1  ->  dreamed ==> dream
+  13:    1  ->  find ==> lane
+  14:    1  ->  girls ==> lazygirls
+  15:    1  ->  gowns ==> games
+  16:    1  ->  hairbrushes ==> her
+  17:    1  ->  hairpins ==> pens
+  18:    1  ->  hairspray ==> hurt
+  19:    1  ->  hat ==> heart
+  20:    1  ->  howled ==> her
+  21:    1  ->  of ==> day
+  22:    1  ->  one ==> album
+  23:    1  ->  shouting ==> shooting
+  24:    1  ->  they ==> day
+  25:    1  ->  to ==> tea
+  26:    1  ->  wear ==> we're
+  27:    1  ->  would ==> will
+  28:    1  ->  yelled ==> jules
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  brushes
+   2:    1  ->  her
+   3:    1  ->  the
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  lily
+   2:    1  ->  a
+   3:    1  ->  all
+   4:    1  ->  and
+   5:    1  ->  day
+   6:    1  ->  go
+   7:    1  ->  gowns
+   8:    1  ->  hand
+   9:    1  ->  help
+  10:    1  ->  her
+  11:    1  ->  jewels
+  12:    1  ->  lazy
+  13:    1  ->  me
+  14:    1  ->  one
+  15:    1  ->  poor
+  16:    1  ->  sisters
+  17:    1  ->  were
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    5  ->  cinders
+   2:    2  ->  a
+   3:    1  ->  and
+   4:    1  ->  arrived
+   5:    1  ->  ball
+   6:    1  ->  bride
+   7:    1  ->  divine
+   8:    1  ->  downs
+   9:    1  ->  dreamed
+  10:    1  ->  find
+  11:    1  ->  girls
+  12:    1  ->  gowns
+  13:    1  ->  hairbrushes
+  14:    1  ->  hairpins
+  15:    1  ->  hairspray
+  16:    1  ->  hat
+  17:    1  ->  howled
+  18:    1  ->  of
+  19:    1  ->  one
+  20:    1  ->  shouting
+  21:    1  ->  they
+  22:    1  ->  to
+  23:    1  ->  wear
+  24:    1  ->  would
+  25:    1  ->  yelled
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  sanders
+   2:    2  ->  day
+   3:    2  ->  her
+   4:    1  ->  aid
+   5:    1  ->  album
+   6:    1  ->  baller
+   7:    1  ->  braid
+   8:    1  ->  centres
+   9:    1  ->  dance
+  10:    1  ->  dream
+  11:    1  ->  games
+  12:    1  ->  heart
+  13:    1  ->  hurt
+  14:    1  ->  i'm
+  15:    1  ->  jules
+  16:    1  ->  lane
+  17:    1  ->  lazygirls
+  18:    1  ->  main
+  19:    1  ->  monday
+  20:    1  ->  pens
+  21:    1  ->  percentages
+  22:    1  ->  shooting
+  23:    1  ->  tea
+  24:    1  ->  the
+  25:    1  ->  we're
+  26:    1  ->  will
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

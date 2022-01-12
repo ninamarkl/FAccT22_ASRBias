@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\spanish\spanish12_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 30 34 5 4
+REF:  please call STELLA ASK HER  TO  BRING THESE things WITH HER  from the store six SPOONS OF   fresh snow * PEAS   FIVE THICK    SLABS  OF  blue cheese AND maybe A SNACK FOR HER     BROTHER   BOB   we also NEED a small plastic snake and a big * ** **** TOY  FROG for the kids SHE CAN      SCOOP THESE   THINGS INTO three RED BAGS AND   we will go meet HER WEDNESDAY AT   THE train STATION 
+HYP:  please call STILL  OFF HEAD TOE BEING THIS  things WE   HEAR from the store six BOOM   WELL fresh snow B BEER'S FINE FIGHTING SLOUGH OFF blue cheese *** maybe * ***** UH  TONIGHT HEADBOARD ABOUT we also ONLY a small plastic snake and a big W AH FLOW FLOW FOR  for the kids *** CHECKING COOP  TESTING IN     TOW  three BUT I    THINK we will go meet *** HERE      WITH OUR train DUTCH   
+Eval:             S      S   S    S   S     S            S    S                       S      S               I S      S    S        S      S               D         D D     S   S       S         S             S                                    I I  I    S    S                 D   S        S     S       S      S          S   S    S                     D   S         S    S         S       
+
+

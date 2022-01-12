@@ -1,0 +1,95 @@
+SCORING FOR SPEAKER: saa
+     of french\french33_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a ==> any
+   2:    1  ->  a ==> pie
+   3:    1  ->  bags ==> bag
+   4:    1  ->  can ==> chicken
+   5:    1  ->  slabs ==> lords
+   6:    1  ->  thick ==> 56
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  and
+   2:    1  ->  5
+   3:    1  ->  maybe
+   4:    1  ->  she
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  a
+   2:    1  ->  bags
+   3:    1  ->  can
+   4:    1  ->  slabs
+   5:    1  ->  thick
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  56
+   2:    1  ->  any
+   3:    1  ->  bag
+   4:    1  ->  chicken
+   5:    1  ->  lords
+   6:    1  ->  pie
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,97 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\italian\italian22_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.6%   (   8)
+
+Percent Correct           =   88.4%   (  61)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   88.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  fresh ==> first
+   2:    1  ->  frog ==> fraud
+   3:    1  ->  of ==> off
+   4:    1  ->  peas ==> peace
+   5:    1  ->  red ==> bread
+   6:    1  ->  slabs ==> labs
+   7:    1  ->  snow ==> no
+   8:    1  ->  thick ==> fixed
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  fresh
+   2:    1  ->  frog
+   3:    1  ->  of
+   4:    1  ->  peas
+   5:    1  ->  red
+   6:    1  ->  slabs
+   7:    1  ->  snow
+   8:    1  ->  thick
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bread
+   2:    1  ->  first
+   3:    1  ->  fixed
+   4:    1  ->  fraud
+   5:    1  ->  labs
+   6:    1  ->  no
+   7:    1  ->  off
+   8:    1  ->  peace
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,96 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese39_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.6%   (   8)
+
+Percent Correct           =   88.4%   (  61)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   88.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  and ==> in
+   3:    1  ->  ask ==> asked
+   4:    1  ->  blue ==> the
+   5:    1  ->  scoop ==> scope
+   6:    1  ->  snack ==> not
+   7:    1  ->  spoons ==> £six
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  six
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  blue
+   5:    1  ->  scoop
+   6:    1  ->  snack
+   7:    1  ->  spoons
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  asked
+   2:    1  ->  in
+   3:    1  ->  it's
+   4:    1  ->  not
+   5:    1  ->  scope
+   6:    1  ->  the
+   7:    1  ->  £six
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,7 @@
+<SYSTEM title=" amazon\english_uk\english365_hyp.trn" ref_fname=" saa_ref.trn" hyp_fname=" amazon\english_uk\english365_hyp.trn" creation_date="Tue May 25 12:50:27 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="69" sequence="0">
+C,"please","please":C,"call","call":C,"stella","stella":C,"ask","ask":C,"her","her":C,"to","to":C,"bring","bring":C,"these","these":C,"things","things":C,"with","with":C,"her","her":C,"from","from":C,"the","the":C,"store","store":C,"six","six":C,"spoons","spoons":C,"of","of":C,"fresh","fresh":C,"snow","snow":C,"peas","peas":C,"five","five":C,"thick","thick":C,"slabs","slabs":C,"of","of":C,"blue","blue":C,"cheese","cheese":C,"and","and":C,"maybe","maybe":C,"a","a":C,"snack","snack":C,"for","for":C,"her","her":C,"brother","brother":C,"bob","bob":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":C,"and","and":C,"a","a":C,"big","big":C,"toy","toy":C,"frog","frog":C,"for","for":C,"the","the":C,"kids","kids":S,"she","you":C,"can","can":C,"scoop","scoop":C,"these","these":C,"things","things":C,"into","into":C,"three","three":C,"red","red":C,"bags","bags":D,"and",:C,"we","we":C,"will","will":C,"go","go":D,"meet",:S,"her","metre":C,"wednesday","wednesday":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

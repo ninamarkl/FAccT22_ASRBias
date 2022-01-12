@@ -1,0 +1,224 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\p-rea1-f6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   50.6%   (  90)
+
+Percent Correct           =   50.0%   (  89)
+
+Percent Substitution      =   24.7%   (  44)
+Percent Deletions         =   25.3%   (  45)
+Percent Insertions        =    0.6%   (   1)
+Percent Word Accuracy     =   49.4%
+
+
+Ref. words                =           ( 178)
+Hyp. words                =           ( 134)
+Aligned words             =           ( 179)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  a ==> answer
+   3:    1  ->  a ==> monday
+   4:    1  ->  a ==> one
+   5:    1  ->  and ==> another
+   6:    1  ->  and ==> that
+   7:    1  ->  announce ==> an
+   8:    1  ->  arrived ==> send
+   9:    1  ->  ball ==> arrive
+  10:    1  ->  ball ==> for
+  11:    1  ->  bride ==> bright
+  12:    1  ->  cinders ==> it
+  13:    1  ->  cinders ==> offenders
+  14:    1  ->  cinders ==> passengers
+  15:    1  ->  clothes ==> nicola
+  16:    1  ->  dreamed ==> doing
+  17:    1  ->  girls ==> lazygirls
+  18:    1  ->  gowns ==> girls
+  19:    1  ->  had ==> out
+  20:    1  ->  howled ==> that
+  21:    1  ->  lived ==> live
+  22:    1  ->  mother ==> they
+  23:    1  ->  new ==> by
+  24:    1  ->  of ==> the
+  25:    1  ->  once ==> what's
+  26:    1  ->  other ==> fine
+  27:    1  ->  prince ==> is
+  28:    1  ->  prince ==> with
+  29:    1  ->  rosa ==> call
+  30:    1  ->  royal ==> or
+  31:    1  ->  sisters ==> assistant
+  32:    1  ->  spent ==> been
+  33:    1  ->  the ==> is
+  34:    1  ->  their ==> know
+  35:    1  ->  they ==> it's
+  36:    1  ->  they'd ==> they
+  37:    1  ->  to ==> just
+  38:    1  ->  two ==> until
+  39:    1  ->  upon ==> the
+  40:    1  ->  very ==> rosie
+  41:    1  ->  was ==> does
+  42:    1  ->  william ==> it
+  43:    1  ->  would ==> will
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  they
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  her
+   2:    2  ->  and
+   3:    2  ->  cinders
+   4:    2  ->  find
+   5:    2  ->  lily
+   6:    2  ->  my
+   7:    2  ->  one
+   8:    2  ->  rosa
+   9:    2  ->  the
+  10:    1  ->  at
+  11:    1  ->  buying
+  12:    1  ->  called
+  13:    1  ->  day
+  14:    1  ->  divine
+  15:    1  ->  evening
+  16:    1  ->  gowns
+  17:    1  ->  had
+  18:    1  ->  hairbrushes
+  19:    1  ->  hairpins
+  20:    1  ->  hat
+  21:    1  ->  jewels
+  22:    1  ->  lazy
+  23:    1  ->  mother
+  24:    1  ->  of
+  25:    1  ->  poor
+  26:    1  ->  she
+  27:    1  ->  shouting
+  28:    1  ->  started
+  29:    1  ->  there
+  30:    1  ->  they
+  31:    1  ->  thought
+  32:    1  ->  was
+  33:    1  ->  were
+  34:    1  ->  when
+  35:    1  ->  yelled
+     -------
+        45
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  a
+   2:    3  ->  cinders
+   3:    3  ->  their
+   4:    2  ->  and
+   5:    2  ->  ball
+   6:    2  ->  prince
+   7:    1  ->  announce
+   8:    1  ->  arrived
+   9:    1  ->  bride
+  10:    1  ->  clothes
+  11:    1  ->  dreamed
+  12:    1  ->  girls
+  13:    1  ->  gowns
+  14:    1  ->  had
+  15:    1  ->  howled
+  16:    1  ->  lived
+  17:    1  ->  mother
+  18:    1  ->  new
+  19:    1  ->  of
+  20:    1  ->  once
+  21:    1  ->  other
+  22:    1  ->  rosa
+  23:    1  ->  royal
+  24:    1  ->  sisters
+  25:    1  ->  spent
+  26:    1  ->  the
+  27:    1  ->  they
+  28:    1  ->  they'd
+  29:    1  ->  to
+  30:    1  ->  two
+  31:    1  ->  upon
+  32:    1  ->  very
+  33:    1  ->  was
+  34:    1  ->  william
+  35:    1  ->  would
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    4  ->  the
+   2:    2  ->  is
+   3:    2  ->  it
+   4:    2  ->  that
+   5:    2  ->  they
+   6:    1  ->  an
+   7:    1  ->  another
+   8:    1  ->  answer
+   9:    1  ->  arrive
+  10:    1  ->  assistant
+  11:    1  ->  been
+  12:    1  ->  bright
+  13:    1  ->  by
+  14:    1  ->  call
+  15:    1  ->  does
+  16:    1  ->  doing
+  17:    1  ->  fine
+  18:    1  ->  for
+  19:    1  ->  girls
+  20:    1  ->  it's
+  21:    1  ->  just
+  22:    1  ->  know
+  23:    1  ->  lazygirls
+  24:    1  ->  live
+  25:    1  ->  monday
+  26:    1  ->  nicola
+  27:    1  ->  offenders
+  28:    1  ->  one
+  29:    1  ->  or
+  30:    1  ->  out
+  31:    1  ->  passengers
+  32:    1  ->  rosie
+  33:    1  ->  send
+  34:    1  ->  until
+  35:    1  ->  what's
+  36:    1  ->  will
+  37:    1  ->  with
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

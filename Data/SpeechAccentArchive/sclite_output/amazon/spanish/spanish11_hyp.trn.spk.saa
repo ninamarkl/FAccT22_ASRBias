@@ -1,0 +1,109 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish11_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  a ==> i
+   3:    1  ->  and ==> in
+   4:    1  ->  ask ==> asked
+   5:    1  ->  bags ==> backs
+   6:    1  ->  frog ==> prop
+   7:    1  ->  peas ==> peace
+   8:    1  ->  red ==> read
+   9:    1  ->  snake ==> neck
+  10:    1  ->  snow ==> no
+  11:    1  ->  stella ==> stellar
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  is
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  ask
+   5:    1  ->  bags
+   6:    1  ->  frog
+   7:    1  ->  peas
+   8:    1  ->  red
+   9:    1  ->  snake
+  10:    1  ->  snow
+  11:    1  ->  stella
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  off
+   2:    1  ->  asked
+   3:    1  ->  backs
+   4:    1  ->  i
+   5:    1  ->  in
+   6:    1  ->  neck
+   7:    1  ->  no
+   8:    1  ->  peace
+   9:    1  ->  prop
+  10:    1  ->  read
+  11:    1  ->  stellar
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

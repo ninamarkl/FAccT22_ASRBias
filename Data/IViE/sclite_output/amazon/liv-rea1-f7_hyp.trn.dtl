@@ -1,0 +1,142 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\liv-rea1-f7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   16.7%   (  30)
+
+Percent Correct           =   87.2%   ( 157)
+
+Percent Substitution      =   11.1%   (  20)
+Percent Deletions         =    1.7%   (   3)
+Percent Insertions        =    3.9%   (   7)
+Percent Word Accuracy     =   83.3%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 184)
+Aligned words             =           ( 187)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  a ==> answer
+   2:    1  ->  and ==> rose
+   3:    1  ->  announce ==> an
+   4:    1  ->  bride ==> brad
+   5:    1  ->  cinders ==> passengers
+   6:    1  ->  downs ==> dams
+   7:    1  ->  find ==> fired
+   8:    1  ->  find ==> found
+   9:    1  ->  girl ==> gale
+  10:    1  ->  howled ==> how
+  11:    1  ->  lily ==> lillian
+  12:    1  ->  me ==> hamdi
+  13:    1  ->  rosa ==> i
+  14:    1  ->  royal ==> real
+  15:    1  ->  so ==> until
+  16:    1  ->  stepsisters ==> sisters
+  17:    1  ->  they'd ==> had
+  18:    1  ->  time ==> town
+  19:    1  ->  when ==> in
+  20:    1  ->  would ==> will
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  had
+   2:    1  ->  help
+   3:    1  ->  his
+   4:    1  ->  singers
+   5:    1  ->  step
+   6:    1  ->  they
+   7:    1  ->  to
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  hand
+   2:    1  ->  poor
+   3:    1  ->  yelled
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  find
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  announce
+   5:    1  ->  bride
+   6:    1  ->  cinders
+   7:    1  ->  downs
+   8:    1  ->  girl
+   9:    1  ->  howled
+  10:    1  ->  lily
+  11:    1  ->  me
+  12:    1  ->  rosa
+  13:    1  ->  royal
+  14:    1  ->  so
+  15:    1  ->  stepsisters
+  16:    1  ->  they'd
+  17:    1  ->  time
+  18:    1  ->  when
+  19:    1  ->  would
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  an
+   2:    1  ->  answer
+   3:    1  ->  brad
+   4:    1  ->  dams
+   5:    1  ->  fired
+   6:    1  ->  found
+   7:    1  ->  gale
+   8:    1  ->  had
+   9:    1  ->  hamdi
+  10:    1  ->  how
+  11:    1  ->  i
+  12:    1  ->  in
+  13:    1  ->  lillian
+  14:    1  ->  passengers
+  15:    1  ->  real
+  16:    1  ->  rose
+  17:    1  ->  sisters
+  18:    1  ->  town
+  19:    1  ->  until
+  20:    1  ->  will
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

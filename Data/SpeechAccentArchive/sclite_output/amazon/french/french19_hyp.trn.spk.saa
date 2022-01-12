@@ -1,0 +1,98 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french19_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   89.9%   (  62)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  73)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  blue ==> off
+   2:    1  ->  call ==> tell
+   3:    1  ->  cheese ==> guccis
+   4:    1  ->  five ==> first
+   5:    1  ->  spoons ==> points
+   6:    1  ->  stella ==> her
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  calls
+   3:    1  ->  for
+   4:    1  ->  maybe
+   5:    1  ->  snack
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  of
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  blue
+   2:    1  ->  call
+   3:    1  ->  cheese
+   4:    1  ->  five
+   5:    1  ->  spoons
+   6:    1  ->  stella
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  first
+   2:    1  ->  guccis
+   3:    1  ->  her
+   4:    1  ->  off
+   5:    1  ->  points
+   6:    1  ->  tell
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

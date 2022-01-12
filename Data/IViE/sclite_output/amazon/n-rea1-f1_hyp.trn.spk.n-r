@@ -1,0 +1,118 @@
+SCORING FOR SPEAKER: n-r
+     of amazon\n-rea1-f1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.0%   (  20)
+
+Percent Correct           =   89.6%   ( 163)
+
+Percent Substitution      =    7.7%   (  14)
+Percent Deletions         =    2.7%   (   5)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =   89.0%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 178)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> in
+   3:    1  ->  and ==> lillian
+   4:    1  ->  and ==> was
+   5:    1  ->  cinders ==> does
+   6:    1  ->  cinders ==> prisoners
+   7:    1  ->  hairpins ==> happens
+   8:    1  ->  he ==> who
+   9:    1  ->  honour ==> one
+  10:    1  ->  howled ==> held
+  11:    1  ->  lily ==> lillian
+  12:    1  ->  rosa ==> i
+  13:    1  ->  royal ==> around
+  14:    1  ->  they'd ==> they
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  sam
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  it
+   3:    1  ->  lily
+   4:    1  ->  poor
+   5:    1  ->  would
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    3  ->  and
+   2:    2  ->  cinders
+   3:    1  ->  a
+   4:    1  ->  hairpins
+   5:    1  ->  he
+   6:    1  ->  honour
+   7:    1  ->  howled
+   8:    1  ->  lily
+   9:    1  ->  rosa
+  10:    1  ->  royal
+  11:    1  ->  they'd
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  lillian
+   2:    1  ->  around
+   3:    1  ->  does
+   4:    1  ->  happens
+   5:    1  ->  held
+   6:    1  ->  i
+   7:    1  ->  in
+   8:    1  ->  one
+   9:    1  ->  prisoners
+  10:    1  ->  the
+  11:    1  ->  they
+  12:    1  ->  was
+  13:    1  ->  who
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,215 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\p-rea1-f7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   38.5%   (  70)
+
+Percent Correct           =   62.6%   ( 114)
+
+Percent Substitution      =   24.2%   (  44)
+Percent Deletions         =   13.2%   (  24)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   61.5%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 160)
+Aligned words             =           ( 184)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  had ==> how
+   2:    1  ->  a ==> monday
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> i'm
+   5:    1  ->  buying ==> by
+   6:    1  ->  cinders ==> as
+   7:    1  ->  cinders ==> lucinda's
+   8:    1  ->  cinders ==> teens
+   9:    1  ->  di ==> rose
+  10:    1  ->  downs ==> hand-me-downs
+  11:    1  ->  dreamed ==> dream
+  12:    1  ->  er ==> at
+  13:    1  ->  find ==> ydfifteen
+  14:    1  ->  girls ==> lazygirls
+  15:    1  ->  gowns ==> car
+  16:    1  ->  gowns ==> gums
+  17:    1  ->  had ==> shout
+  18:    1  ->  hairbrushes ==> brushes
+  19:    1  ->  hairpins ==> happen
+  20:    1  ->  hand ==> they're
+  21:    1  ->  hat ==> heart
+  22:    1  ->  her ==> call
+  23:    1  ->  her ==> their
+  24:    1  ->  howled ==> how
+  25:    1  ->  lived ==> live
+  26:    1  ->  me ==> all
+  27:    1  ->  old ==> although
+  28:    1  ->  one ==> jules
+  29:    1  ->  poor ==> for
+  30:    1  ->  rosa ==> rosie
+  31:    1  ->  royal ==> or
+  32:    1  ->  shouting ==> showing
+  33:    1  ->  sisters ==> assistance
+  34:    1  ->  some ==> a
+  35:    1  ->  son ==> send
+  36:    1  ->  spent ==> been
+  37:    1  ->  their ==> the
+  38:    1  ->  they ==> the
+  39:    1  ->  they ==> this
+  40:    1  ->  unfriendly ==> friendly
+  41:    1  ->  very ==> and
+  42:    1  ->  were ==> roses
+  43:    1  ->  were ==> there
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  hair
+   2:    1  ->  seeing
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  rosa
+   2:    2  ->  was
+   3:    1  ->  all
+   4:    1  ->  but
+   5:    1  ->  called
+   6:    1  ->  day
+   7:    1  ->  her
+   8:    1  ->  jewels
+   9:    1  ->  lazy
+  10:    1  ->  lily
+  11:    1  ->  one
+  12:    1  ->  prince
+  13:    1  ->  she
+  14:    1  ->  started
+  15:    1  ->  their
+  16:    1  ->  they
+  17:    1  ->  they'd
+  18:    1  ->  this
+  19:    1  ->  thought
+  20:    1  ->  wanted
+  21:    1  ->  william
+  22:    1  ->  yelled
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  cinders
+   2:    3  ->  had
+   3:    2  ->  a
+   4:    2  ->  gowns
+   5:    2  ->  her
+   6:    2  ->  they
+   7:    2  ->  were
+   8:    1  ->  and
+   9:    1  ->  buying
+  10:    1  ->  di
+  11:    1  ->  downs
+  12:    1  ->  dreamed
+  13:    1  ->  er
+  14:    1  ->  find
+  15:    1  ->  girls
+  16:    1  ->  hairbrushes
+  17:    1  ->  hairpins
+  18:    1  ->  hand
+  19:    1  ->  hat
+  20:    1  ->  howled
+  21:    1  ->  lived
+  22:    1  ->  me
+  23:    1  ->  old
+  24:    1  ->  one
+  25:    1  ->  poor
+  26:    1  ->  rosa
+  27:    1  ->  royal
+  28:    1  ->  shouting
+  29:    1  ->  sisters
+  30:    1  ->  some
+  31:    1  ->  son
+  32:    1  ->  spent
+  33:    1  ->  their
+  34:    1  ->  unfriendly
+  35:    1  ->  very
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  how
+   2:    3  ->  the
+   3:    1  ->  a
+   4:    1  ->  all
+   5:    1  ->  although
+   6:    1  ->  and
+   7:    1  ->  as
+   8:    1  ->  assistance
+   9:    1  ->  at
+  10:    1  ->  been
+  11:    1  ->  brushes
+  12:    1  ->  by
+  13:    1  ->  call
+  14:    1  ->  car
+  15:    1  ->  dream
+  16:    1  ->  for
+  17:    1  ->  friendly
+  18:    1  ->  gums
+  19:    1  ->  hand-me-downs
+  20:    1  ->  happen
+  21:    1  ->  heart
+  22:    1  ->  i'm
+  23:    1  ->  jules
+  24:    1  ->  lazygirls
+  25:    1  ->  live
+  26:    1  ->  lucinda's
+  27:    1  ->  monday
+  28:    1  ->  or
+  29:    1  ->  rose
+  30:    1  ->  roses
+  31:    1  ->  rosie
+  32:    1  ->  send
+  33:    1  ->  shout
+  34:    1  ->  showing
+  35:    1  ->  teens
+  36:    1  ->  their
+  37:    1  ->  there
+  38:    1  ->  they're
+  39:    1  ->  this
+  40:    1  ->  ydfifteen
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

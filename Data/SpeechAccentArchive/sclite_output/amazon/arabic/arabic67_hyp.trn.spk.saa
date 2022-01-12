@@ -1,0 +1,111 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic67_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   85.5%   (  59)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =   10.1%   (   7)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  76)
+Aligned words             =           (  76)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a ==> ah
+   2:    1  ->  of ==> off
+   3:    1  ->  peas ==> bees
+   4:    1  ->  slabs ==> slaps
+   5:    1  ->  snack ==> snacks
+   6:    1  ->  snake ==> snack
+   7:    1  ->  spoons ==> teaspoons
+   8:    1  ->  stella ==> a
+   9:    1  ->  thick ==> fixed
+  10:    1  ->  wednesday ==> day
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  bird
+   3:    1  ->  his
+   4:    1  ->  is
+   5:    1  ->  still
+   6:    1  ->  that
+   7:    1  ->  when
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  of
+   3:    1  ->  peas
+   4:    1  ->  slabs
+   5:    1  ->  snack
+   6:    1  ->  snake
+   7:    1  ->  spoons
+   8:    1  ->  stella
+   9:    1  ->  thick
+  10:    1  ->  wednesday
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  ah
+   3:    1  ->  bees
+   4:    1  ->  day
+   5:    1  ->  fixed
+   6:    1  ->  off
+   7:    1  ->  slaps
+   8:    1  ->  snack
+   9:    1  ->  snacks
+  10:    1  ->  teaspoons
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

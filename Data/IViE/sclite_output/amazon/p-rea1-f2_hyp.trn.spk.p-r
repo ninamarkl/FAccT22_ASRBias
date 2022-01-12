@@ -1,0 +1,169 @@
+SCORING FOR SPEAKER: p-r
+     of amazon\p-rea1-f2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.0%   (  43)
+
+Percent Correct           =   78.2%   ( 140)
+
+Percent Substitution      =   19.6%   (  35)
+Percent Deletions         =    2.2%   (   4)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   76.0%
+
+
+Ref. words                =           ( 179)
+Hyp. words                =           ( 179)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  their ==> the
+   2:    2  ->  cinders ==> singers
+   3:    1  ->  a ==> answer
+   4:    1  ->  a ==> spending
+   5:    1  ->  and ==> rose
+   6:    1  ->  announce ==> an
+   7:    1  ->  bride ==> bright
+   8:    1  ->  buying ==> by
+   9:    1  ->  cinders ==> centres
+  10:    1  ->  cinders ==> passengers
+  11:    1  ->  cinders ==> us
+  12:    1  ->  gowns ==> count
+  13:    1  ->  gowns ==> guns
+  14:    1  ->  had ==> how
+  15:    1  ->  hairbrushes ==> brushes
+  16:    1  ->  hairpins ==> happens
+  17:    1  ->  hat ==> heart
+  18:    1  ->  her ==> the
+  19:    1  ->  honour ==> one
+  20:    1  ->  howled ==> have
+  21:    1  ->  lily ==> daily
+  22:    1  ->  lily ==> lillian
+  23:    1  ->  new ==> any
+  24:    1  ->  one ==> children
+  25:    1  ->  rosa ==> i
+  26:    1  ->  rosa ==> that
+  27:    1  ->  spent ==> spend
+  28:    1  ->  they ==> the
+  29:    1  ->  they'd ==> they
+  30:    1  ->  upon ==> well
+  31:    1  ->  wear ==> bear
+  32:    1  ->  when ==> of
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  hair
+   2:    1  ->  one
+   3:    1  ->  roads
+   4:    1  ->  send
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  once
+   2:    1  ->  poor
+   3:    1  ->  that
+   4:    1  ->  yelled
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    5  ->  cinders
+   2:    3  ->  their
+   3:    2  ->  a
+   4:    2  ->  gowns
+   5:    2  ->  lily
+   6:    2  ->  rosa
+   7:    1  ->  and
+   8:    1  ->  announce
+   9:    1  ->  bride
+  10:    1  ->  buying
+  11:    1  ->  had
+  12:    1  ->  hairbrushes
+  13:    1  ->  hairpins
+  14:    1  ->  hat
+  15:    1  ->  her
+  16:    1  ->  honour
+  17:    1  ->  howled
+  18:    1  ->  new
+  19:    1  ->  one
+  20:    1  ->  spent
+  21:    1  ->  they
+  22:    1  ->  they'd
+  23:    1  ->  upon
+  24:    1  ->  wear
+  25:    1  ->  when
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    5  ->  the
+   2:    2  ->  singers
+   3:    1  ->  an
+   4:    1  ->  answer
+   5:    1  ->  any
+   6:    1  ->  bear
+   7:    1  ->  bright
+   8:    1  ->  brushes
+   9:    1  ->  by
+  10:    1  ->  centres
+  11:    1  ->  children
+  12:    1  ->  count
+  13:    1  ->  daily
+  14:    1  ->  guns
+  15:    1  ->  happens
+  16:    1  ->  have
+  17:    1  ->  heart
+  18:    1  ->  how
+  19:    1  ->  i
+  20:    1  ->  lillian
+  21:    1  ->  of
+  22:    1  ->  one
+  23:    1  ->  passengers
+  24:    1  ->  rose
+  25:    1  ->  spend
+  26:    1  ->  spending
+  27:    1  ->  that
+  28:    1  ->  they
+  29:    1  ->  us
+  30:    1  ->  well
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,116 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\arabic\arabic35_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> on
+   2:    1  ->  and ==> snack
+   3:    1  ->  at ==> is
+   4:    1  ->  five ==> piece
+   5:    1  ->  for ==> off
+   6:    1  ->  of ==> off
+   7:    1  ->  peas ==> professional
+   8:    1  ->  snack ==> snap
+   9:    1  ->  stella ==> still
+  10:    1  ->  thick ==> fifty-six
+  11:    1  ->  three ==> the
+  12:    1  ->  wednesday ==> when
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  for
+   2:    1  ->  kids
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  fresh
+   4:    1  ->  of
+   5:    1  ->  snake
+   6:    1  ->  snow
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  at
+   4:    1  ->  five
+   5:    1  ->  for
+   6:    1  ->  of
+   7:    1  ->  peas
+   8:    1  ->  snack
+   9:    1  ->  stella
+  10:    1  ->  thick
+  11:    1  ->  three
+  12:    1  ->  wednesday
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  off
+   2:    1  ->  fifty-six
+   3:    1  ->  is
+   4:    1  ->  on
+   5:    1  ->  piece
+   6:    1  ->  professional
+   7:    1  ->  snack
+   8:    1  ->  snap
+   9:    1  ->  still
+  10:    1  ->  the
+  11:    1  ->  when
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

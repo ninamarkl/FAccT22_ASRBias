@@ -1,0 +1,113 @@
+SCORING FOR SPEAKER: saa
+     of urdu\urdu7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bob ==> but
+   2:    1  ->  fresh ==> 6.0
+   3:    1  ->  meet ==> with
+   4:    1  ->  of ==> a
+   5:    1  ->  scoop ==> screw
+   6:    1  ->  slabs ==> lab
+   7:    1  ->  snack ==> night
+   8:    1  ->  snake ==> snack
+   9:    1  ->  snow ==> fresnos
+  10:    1  ->  thick ==> 56
+  11:    1  ->  wednesday ==> stay
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  then
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  of
+   5:    1  ->  spoons
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bob
+   2:    1  ->  fresh
+   3:    1  ->  meet
+   4:    1  ->  of
+   5:    1  ->  scoop
+   6:    1  ->  slabs
+   7:    1  ->  snack
+   8:    1  ->  snake
+   9:    1  ->  snow
+  10:    1  ->  thick
+  11:    1  ->  wednesday
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  56
+   2:    1  ->  6.0
+   3:    1  ->  a
+   4:    1  ->  but
+   5:    1  ->  fresnos
+   6:    1  ->  lab
+   7:    1  ->  night
+   8:    1  ->  screw
+   9:    1  ->  snack
+  10:    1  ->  stay
+  11:    1  ->  with
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

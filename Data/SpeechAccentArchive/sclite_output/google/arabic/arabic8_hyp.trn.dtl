@@ -1,0 +1,111 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic8_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5 ==> please
+   2:    1  ->  a ==> the
+   3:    1  ->  also ==> wilson
+   4:    1  ->  and ==> in
+   5:    1  ->  her ==> metre
+   6:    1  ->  kids ==> keys
+   7:    1  ->  scoop ==> stop
+   8:    1  ->  slabs ==> lives
+   9:    1  ->  spoons ==> pounds
+  10:    1  ->  thick ==> 56
+  11:    1  ->  we ==> bob
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  meet
+   3:    1  ->  peas
+   4:    1  ->  red
+   5:    1  ->  will
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  also
+   4:    1  ->  and
+   5:    1  ->  her
+   6:    1  ->  kids
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  spoons
+  10:    1  ->  thick
+  11:    1  ->  we
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  56
+   2:    1  ->  bob
+   3:    1  ->  in
+   4:    1  ->  keys
+   5:    1  ->  lives
+   6:    1  ->  metre
+   7:    1  ->  please
+   8:    1  ->  pounds
+   9:    1  ->  stop
+  10:    1  ->  the
+  11:    1  ->  wilson
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

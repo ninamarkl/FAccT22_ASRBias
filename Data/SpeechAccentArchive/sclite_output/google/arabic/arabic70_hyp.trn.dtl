@@ -1,0 +1,103 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic70_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   13.0%   (   9)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  60)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  bob ==> but
+   2:    1  ->  cheese ==> 56
+   3:    1  ->  her ==> our
+   4:    1  ->  scoop ==> screw
+   5:    1  ->  snake ==> snack
+   6:    1  ->  spoons ==> pounds
+   7:    1  ->  store ==> stones
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  3
+   2:    1  ->  5
+   3:    1  ->  blue
+   4:    1  ->  go
+   5:    1  ->  of
+   6:    1  ->  slabs
+   7:    1  ->  thick
+   8:    1  ->  we
+   9:    1  ->  will
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  bob
+   2:    1  ->  cheese
+   3:    1  ->  her
+   4:    1  ->  scoop
+   5:    1  ->  snake
+   6:    1  ->  spoons
+   7:    1  ->  store
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  56
+   2:    1  ->  but
+   3:    1  ->  our
+   4:    1  ->  pounds
+   5:    1  ->  screw
+   6:    1  ->  snack
+   7:    1  ->  stones
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

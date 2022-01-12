@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\car-rea1-m3_hyp.trn
+
+Speakers: 
+    0:  car
+
+Speaker sentences   0:  car   #utts: 1
+id: (car-rea1-m3_01)
+Scores: (#C #S #D #I) 137 38 17 2
+REF:  once upon a time there was a girl called cinderella BUT EVERYONE CALLED HER         cinders cinders lived with HER mother and two stepsisters called lily and ROSA LILY  AND     ROSA WERE very UNFRIENDLY and WERE LAZY GIRLS     THEY SPENT   all THEIR time BUYING new clothes and going to parties POOR cinders had to WEAR all THEIR   OLD hand DOWNS and she had to do all the cleaning one day A   royal messenger came to ANNOUNCE A      ball the ball would be held at the royal palace in honour of the queen's ONLY SON prince william LILY and rosa thought this was divine ER prince william was gorgeous and he was looking for a bride PRINCE WILLIAM WAS      gorgeous and he was looking for a bride THEY DREAMED of wedding bells when the evening OF THE   ball arrived cinders had to help her SISTERS  get ready THEY WERE IN   a bad mood THEY'D wanted to buy some new GOWNS but their mother said THAT they had enough GOWNS so they started shouting AT   CINDERS find me my jewellery YELLED ONE  
+HYP:  once upon a time there was a girl called cinderella *** ******** ****** ELEVEN/FOUR cinders cinders lived with A   mother and two stepsisters called lily and **** ROSIE LILLIAN ROSE ARE  very INTENTLY   and **** WITH LAZYGIRLS THIS FRIENDS all THE   time BY     new clothes and going to parties FOR  cinders had to WAIT all THEY'RE ALL hand ***** and she had to do all the cleaning one day THE royal messenger came to AN       ANSWER ball the ball would be held at the royal palace in honour of the queen's **** *** prince william **** and rosa thought this was divine ** prince william was gorgeous and he was looking for a bride ****** ******* PRINCESS gorgeous and he was looking for a bride THE  DREAMS  of wedding bells when the evening ** EVERY ball arrived cinders had to help her SISTER'S get ready **** **** THEN a bad mood THEY   wanted to buy some new GIRLS but their mother said **** they had enough DOWN  so they started shouting IT'S ENDED   find me my jewellery YELLS  WHEN 
+Eval:                                                     D   D        D      S                                      S                                              D    S     S       S    S         S              D    S    S         S    S           S          S                                       S                   S        S       S        D                                                S                           S        S                                                                               D    D                  D                                     D                                                             D      D       S                                                S    S                                         D  S                                          S                  D    D    S               S                             S                           D                    S                              S    S                            S      S    
+
+>> REF:  find ME my hat HOWLED THE  OTHER they wanted **** ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  find ** my hat HOW    BABY THEY  they wanted HAIR BRUSHES HAIR        PINS     and hairspray 
+>> Eval:      D         S      S    S                 I    I       S           S                      
+
+

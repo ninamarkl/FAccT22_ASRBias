@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\c-rea1-f3_hyp.trn
+
+Speakers: 
+    0:  c-r
+
+Speaker sentences   0:  c-r   #utts: 1
+id: (c-rea1-f3_01)
+Scores: (#C #S #D #I) 106 34 38 4
+REF:  once upon a time there was a girl called cinderella but everybody called HER CINDERS CINDERS   LIVED with HER   mother and two stepsisters CALLED LILY AND ROSA LILY AND  ROSA    WERE  very unfriendly and THEY WERE LAZY GIRLS THEY SPENT ALL their ********* time BUYING new clothes and going to parties POOR CINDERS had to wear ALL THEIR    old hand me downs AND SHE HAD TO DO THE cleaning one day a ROYAL messenger came to announce A  BALL the BALL WOULD be held at the royal palace IN HONOUR OF the queen's only son prince william LILY and rosa thought this WAS divine prince WILLIAM WAS       gorgeous and HE WAS looking for A bride they dreamed of wedding bells WHEN the EVENING OF       the BALL ARRIVED CINDERS had to help HER SISTERS get ready THEY WERE  in a bad mood THEY'D wanted to buy some new GOWNS but their mother *** said THAT they had enough GOWNS SO    THEY STARTED shouting at cinders find MY JEWELS YELLED ONE     find my hat HOWLED the other they ***** **** WANTED  
+HYP:  once upon a time there was a girl called cinderella but everybody called *** A       SYNDICATE LIVE  with THEIR mother and two stepsisters ****** **** *** **** **** CALL LILIANA GROZA very unfriendly and **** **** **** ***** **** ***** *** their LAZYGIRLS time BY     new clothes and going to parties **** ******* had to wear *** ALTHOUGH old hand me downs *** *** *** ** ** *** cleaning one day a REAL  messenger came to announce OF ALL  the **** BOWL  be held at the royal palace ** ****** ** the queen's only son prince william **** and rosa thought this IS  divine prince ******* WILLIAM'S gorgeous and ** YOU looking for * bride they dreamed of wedding bells IN   the ******* EVENINGS the **** BOREDOM HAS     had to help *** TO      get ready **** THERE in a bad mood IT     wanted to buy some new CANS  but their mother AND said **** they had enough TIMES SHE'S HAD  A       shouting at cinders find ** ****** ****** MODULES find my hat HOW    the other they WOULD HAIR BRUSHES 
+Eval:                                                                          D   S       S         S          S                                D      D    D   D    D    S    S       S                         D    D    D    D     D    D     D         I              S                                       D    D                   D   S                          D   D   D   D  D  D                      S                                S  S        D    S                                 D  D      D                                      D                          S                 D       S                      D  S               D                                     S        D       S            D    S       S                   D   S                 D    S                   S                             S                      I        D                    S     S     S    S                                D  D      D      S                   S                     I     I    S       
+
+>> REF:  HAIRBRUSHES HAIRPINS HAIRSPRAY 
+>> HYP:  HER         HAIR     SPRAY     
+>> Eval: S           S        S         
+
+

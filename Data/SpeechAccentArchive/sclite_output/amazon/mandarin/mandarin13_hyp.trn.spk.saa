@@ -1,0 +1,130 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin13_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  ask ==> house
+   3:    1  ->  bob ==> bub
+   4:    1  ->  call ==> ghost
+   5:    1  ->  can ==> kiss
+   6:    1  ->  for ==> wool
+   7:    1  ->  her ==> code
+   8:    1  ->  kids ==> keys
+   9:    1  ->  please ==> place
+  10:    1  ->  scoop ==> give
+  11:    1  ->  she ==> should
+  12:    1  ->  small ==> smoke
+  13:    1  ->  stella ==> town
+  14:    1  ->  the ==> of
+  15:    1  ->  three ==> thirty
+  16:    1  ->  toy ==> of
+  17:    1  ->  we ==> what
+  18:    1  ->  will ==> we'll
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  toe
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  and
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  a
+   2:    1  ->  ask
+   3:    1  ->  bob
+   4:    1  ->  call
+   5:    1  ->  can
+   6:    1  ->  for
+   7:    1  ->  her
+   8:    1  ->  kids
+   9:    1  ->  please
+  10:    1  ->  scoop
+  11:    1  ->  she
+  12:    1  ->  small
+  13:    1  ->  stella
+  14:    1  ->  the
+  15:    1  ->  three
+  16:    1  ->  toy
+  17:    1  ->  we
+  18:    1  ->  will
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  of
+   2:    1  ->  bub
+   3:    1  ->  code
+   4:    1  ->  ghost
+   5:    1  ->  give
+   6:    1  ->  house
+   7:    1  ->  keys
+   8:    1  ->  kiss
+   9:    1  ->  place
+  10:    1  ->  should
+  11:    1  ->  smoke
+  12:    1  ->  the
+  13:    1  ->  thirty
+  14:    1  ->  town
+  15:    1  ->  we'll
+  16:    1  ->  what
+  17:    1  ->  wool
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

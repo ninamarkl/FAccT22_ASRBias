@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\p-rea1-f6_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-f6_01)
+Scores: (#C #S #D #I) 140 33 5 5
+REF:  once upon a time THERE WAS A    girl called cinderella but everyone called HER cinders cinders lived with her mother and two **** STEPSISTERS called lily and rosa LILY AND     ROSA were very unfriendly and they were lazy girls they spent all THEIR time BUYING new clothes and GOING TO   PARTIES POOR CINDERS had to wear all THEIR old hand me downs and she had to do the cleaning one day a royal messenger came to announce A   ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought this was divine prince william was gorgeous and HE was looking for a BRIDE  they dreamed of wedding bells WHEN the evening of the ball arrived *** CINDERS had to help HER SISTERS    get ready they were in a bad mood THEY'D wanted to buy new gowns but THEIR mother said that they had enough GOWNS so they started shouting AT CINDERS  find my jewels yelled ONE   find my ***** HAT HOWLED the other they wanted **** **** HAIRBRUSHES HAIRPINS AND hairspray 
+HYP:  once upon a time ***** *** THIS girl called cinderella but everyone called THE cinders cinders lived with her mother and two STEP SISTERS     called lily and rosa **** LILLIAN ROSE were very unfriendly and they were lazy girls they spent all THE   time BY     new clothes and GO    INTO PASSES  PAUL SANDERS had to wear all THE   old hand me downs and she had to do the cleaning one day a royal messenger came to announce THE ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSE I    thought this was divine prince william was gorgeous and IT was looking for a BRIGHT they dreamed of wedding bells IN   the evening of the ball arrived AND IT      had to help *** ASSISTANCE get ready they were in a bad mood THEY   wanted to buy new gowns but THE   mother said that they had enough GUNS  so they started shouting ** ASCENDED find my jewels yelled WON'T find my HEART HOW ALL    the other they wanted HELP WITH IT          HAPPENS  IN  hairspray 
+Eval:                  D     D   S                                               S                                                 I    S                                D    S       S                                                                 S          S                      S     S    S       S    S                       S                                                                                                 S                 S                                                                                  S       S    S                                                            S                    S                                    S                                    I   S                   D   S                                            S                                  S                                      S                              D  S                              S             I     S   S                            I    I    S           S        S             
+
+

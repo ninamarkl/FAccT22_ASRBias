@@ -1,0 +1,95 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french43_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.1%   (   7)
+
+Percent Correct           =   89.9%   (  62)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   89.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  ask ==> asked
+   3:    1  ->  bob ==> bub
+   4:    1  ->  peas ==> peace
+   5:    1  ->  scoop ==> scoob
+   6:    1  ->  snow ==> no
+   7:    1  ->  toy ==> tie
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and
+   2:    1  ->  ask
+   3:    1  ->  bob
+   4:    1  ->  peas
+   5:    1  ->  scoop
+   6:    1  ->  snow
+   7:    1  ->  toy
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  asked
+   2:    1  ->  bub
+   3:    1  ->  in
+   4:    1  ->  no
+   5:    1  ->  peace
+   6:    1  ->  scoob
+   7:    1  ->  tie
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\j-rea1-f6_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-f6_01)
+Scores: (#C #S #D #I) 163 14 3 1
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with her mother and two SEP stepsisters called lily and rosa lily and rosa were very unfriendly and they were lazy girls they SPENT all their time BUYING new clothes and going to parties POOR cinders had to wear all their old hand me DOWNS and she had to do the cleaning one day a royal messenger came to announce a ball the BALL WOULD be held at THE royal palace in honour of the queen's only son prince william LILY AND ROSA  thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball ARRIVED cinders had to help her sister get ready they were in a bad mood they wanted to buy some new gowns but their mother said that they had enough GOWNS so they started shouting at cinders find my jewels *** YELLED one find my hat HOWLED the other they wanted hairbrush HAIRPINS AND hairspray 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with her mother and two *** stepsisters called lily and rosa lily and rosa were very unfriendly and they were lazy girls they SPEND all their time BUY    new clothes and going to parties POST cinders had to wear all their old hand me DOWN  and she had to do the cleaning one day a royal messenger came to announce a ball the WALL WILL  be held at *** royal palace in honour of the queen's only son prince william **** LEE AROSA thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball ARRIVES cinders had to help her sister get ready they were in a bad mood they wanted to buy some new gowns but their mother said that they had enough GUNS  so they started shouting at cinders find my jewels THE OLD    one find my hat HOW    the other they wanted hairbrush HAPPENS  IN  hairspray 
+Eval:                                                                                                                           D                                                                                                     S                    S                                       S                                              S                                                                                          S    S                D                                                                 D    S   S                                                                                                                                                   S                                                                                                                                                     S                                                        I   S                      S                                      S        S             
+
+

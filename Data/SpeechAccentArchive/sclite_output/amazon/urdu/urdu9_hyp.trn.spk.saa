@@ -1,0 +1,89 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\urdu\urdu9_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.1%   (   7)
+
+Percent Correct           =   92.8%   (  64)
+
+Percent Substitution      =    5.8%   (   4)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   89.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  her ==> after
+   2:    1  ->  store ==> door
+   3:    1  ->  the ==> this
+   4:    1  ->  wednesday ==> stay
+     -------
+         4
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  i
+   2:    1  ->  when
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  ask
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  her
+   2:    1  ->  store
+   3:    1  ->  the
+   4:    1  ->  wednesday
+     -------
+         4
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  after
+   2:    1  ->  door
+   3:    1  ->  stay
+   4:    1  ->  this
+     -------
+         4
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

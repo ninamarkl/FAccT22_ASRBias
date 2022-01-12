@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: french\french60_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.0%   (  29)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =   24.6%   (  17)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   58.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  52)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  6 ==> six
+   2:    1  ->  a ==> next
+   3:    1  ->  call ==> go
+   4:    1  ->  her ==> metre
+   5:    1  ->  need ==> previous
+   6:    1  ->  red ==> with
+   7:    1  ->  scoop ==> cook
+   8:    1  ->  slabs ==> laps
+   9:    1  ->  spoons ==> points
+  10:    1  ->  store ==> thunderstore
+  11:    1  ->  these ==> this
+  12:    1  ->  thick ==> 56
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  her
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  also
+   5:    1  ->  and
+   6:    1  ->  ask
+   7:    1  ->  bob
+   8:    1  ->  brother
+   9:    1  ->  for
+  10:    1  ->  from
+  11:    1  ->  maybe
+  12:    1  ->  meet
+  13:    1  ->  snack
+  14:    1  ->  the
+  15:    1  ->  we
+  16:    1  ->  will
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  call
+   4:    1  ->  her
+   5:    1  ->  need
+   6:    1  ->  red
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  spoons
+  10:    1  ->  store
+  11:    1  ->  these
+  12:    1  ->  thick
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  56
+   2:    1  ->  cook
+   3:    1  ->  go
+   4:    1  ->  laps
+   5:    1  ->  metre
+   6:    1  ->  next
+   7:    1  ->  points
+   8:    1  ->  previous
+   9:    1  ->  six
+  10:    1  ->  this
+  11:    1  ->  thunderstore
+  12:    1  ->  with
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

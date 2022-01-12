@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic58_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  ask ==> last
+   2:    1  ->  bags ==> box
+   3:    1  ->  fresh ==> first
+   4:    1  ->  her ==> me
+   5:    1  ->  meet ==> call
+   6:    1  ->  slabs ==> lots
+   7:    1  ->  spoons ==> points
+   8:    1  ->  stella ==> the
+   9:    1  ->  thick ==> bs56
+  10:    1  ->  wednesday ==> today
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  go
+   5:    1  ->  peas
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  ask
+   2:    1  ->  bags
+   3:    1  ->  fresh
+   4:    1  ->  her
+   5:    1  ->  meet
+   6:    1  ->  slabs
+   7:    1  ->  spoons
+   8:    1  ->  stella
+   9:    1  ->  thick
+  10:    1  ->  wednesday
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  box
+   2:    1  ->  bs56
+   3:    1  ->  call
+   4:    1  ->  first
+   5:    1  ->  last
+   6:    1  ->  lots
+   7:    1  ->  me
+   8:    1  ->  points
+   9:    1  ->  the
+  10:    1  ->  today
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

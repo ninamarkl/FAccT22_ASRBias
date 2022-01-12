@@ -1,0 +1,127 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin16_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  bags ==> bax
+   2:    1  ->  blue ==> or
+   3:    1  ->  bring ==> axford
+   4:    1  ->  brother ==> bob
+   5:    1  ->  cheese ==> butchie's
+   6:    1  ->  fresh ==> fast
+   7:    1  ->  of ==> laughs
+   8:    1  ->  peas ==> peace
+   9:    1  ->  scoop ==> has
+  10:    1  ->  slabs ==> ticks
+  11:    1  ->  snow ==> no
+  12:    1  ->  spoons ==> points
+  13:    1  ->  these ==> good
+  14:    1  ->  these ==> worthies
+  15:    1  ->  things ==> playthings
+  16:    1  ->  wednesday ==> day
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  last
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  her
+   2:    1  ->  ask
+   3:    1  ->  can
+   4:    1  ->  thick
+   5:    1  ->  to
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  these
+   2:    1  ->  bags
+   3:    1  ->  blue
+   4:    1  ->  bring
+   5:    1  ->  brother
+   6:    1  ->  cheese
+   7:    1  ->  fresh
+   8:    1  ->  of
+   9:    1  ->  peas
+  10:    1  ->  scoop
+  11:    1  ->  slabs
+  12:    1  ->  snow
+  13:    1  ->  spoons
+  14:    1  ->  things
+  15:    1  ->  wednesday
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  axford
+   2:    1  ->  bax
+   3:    1  ->  bob
+   4:    1  ->  butchie's
+   5:    1  ->  day
+   6:    1  ->  fast
+   7:    1  ->  good
+   8:    1  ->  has
+   9:    1  ->  laughs
+  10:    1  ->  no
+  11:    1  ->  or
+  12:    1  ->  peace
+  13:    1  ->  playthings
+  14:    1  ->  points
+  15:    1  ->  ticks
+  16:    1  ->  worthies
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,136 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\car-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   16.7%   (  31)
+
+Percent Correct           =   84.9%   ( 158)
+
+Percent Substitution      =   12.4%   (  23)
+Percent Deletions         =    2.7%   (   5)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   83.3%
+
+
+Ref. words                =           ( 186)
+Hyp. words                =           ( 184)
+Aligned words             =           ( 189)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  and ==> lillian
+   2:    2  ->  they ==> he
+   3:    1  ->  a ==> they
+   4:    1  ->  and ==> rose
+   5:    1  ->  ball ==> bar
+   6:    1  ->  ball ==> board
+   7:    1  ->  day ==> when
+   8:    1  ->  downs ==> down
+   9:    1  ->  gowns ==> guns
+  10:    1  ->  had ==> person
+  11:    1  ->  hehad ==> had
+  12:    1  ->  her ==> the
+  13:    1  ->  howled ==> hold
+  14:    1  ->  lily ==> lillian
+  15:    1  ->  lily ==> the
+  16:    1  ->  messenger ==> messengers
+  17:    1  ->  one ==> i
+  18:    1  ->  rosa ==> i
+  19:    1  ->  rosa ==> rose
+  20:    1  ->  stepsisters ==> sisters
+  21:    1  ->  would ==> will
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  he
+   2:    1  ->  step
+   3:    1  ->  when
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  all
+   2:    1  ->  cinders
+   3:    1  ->  lily
+   4:    1  ->  one
+   5:    1  ->  poor
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  and
+   2:    2  ->  ball
+   3:    2  ->  lily
+   4:    2  ->  rosa
+   5:    2  ->  they
+   6:    1  ->  a
+   7:    1  ->  day
+   8:    1  ->  downs
+   9:    1  ->  gowns
+  10:    1  ->  had
+  11:    1  ->  hehad
+  12:    1  ->  her
+  13:    1  ->  howled
+  14:    1  ->  messenger
+  15:    1  ->  one
+  16:    1  ->  stepsisters
+  17:    1  ->  would
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  lillian
+   2:    2  ->  he
+   3:    2  ->  i
+   4:    2  ->  rose
+   5:    2  ->  the
+   6:    1  ->  bar
+   7:    1  ->  board
+   8:    1  ->  down
+   9:    1  ->  guns
+  10:    1  ->  had
+  11:    1  ->  hold
+  12:    1  ->  messengers
+  13:    1  ->  person
+  14:    1  ->  sisters
+  15:    1  ->  they
+  16:    1  ->  when
+  17:    1  ->  will
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,105 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic18_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  and ==> on
+   3:    1  ->  bob ==> book
+   4:    1  ->  fresh ==> which
+   5:    1  ->  frog ==> coke
+   6:    1  ->  scoop ==> screw
+   7:    1  ->  slabs ==> loves
+   8:    1  ->  stella ==> still
+   9:    1  ->  store ==> stop
+  10:    1  ->  thick ==> fifty-six
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  five
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  of
+   2:    1  ->  and
+   3:    1  ->  bob
+   4:    1  ->  fresh
+   5:    1  ->  frog
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  stella
+   9:    1  ->  store
+  10:    1  ->  thick
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  off
+   2:    1  ->  book
+   3:    1  ->  coke
+   4:    1  ->  fifty-six
+   5:    1  ->  loves
+   6:    1  ->  on
+   7:    1  ->  screw
+   8:    1  ->  still
+   9:    1  ->  stop
+  10:    1  ->  which
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

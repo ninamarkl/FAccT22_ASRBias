@@ -1,0 +1,138 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\n-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.5%   (  26)
+
+Percent Correct           =   87.7%   ( 157)
+
+Percent Substitution      =   11.2%   (  20)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   85.5%
+
+
+Ref. words                =           ( 179)
+Hyp. words                =           ( 181)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> rose
+   3:    1  ->  announce ==> announced
+   4:    1  ->  bride ==> braid
+   5:    1  ->  cinders ==> does
+   6:    1  ->  cinders ==> sinners
+   7:    1  ->  had ==> have
+   8:    1  ->  hairpins ==> pins
+   9:    1  ->  help ==> helped
+  10:    1  ->  howled ==> hut
+  11:    1  ->  lily ==> lillian
+  12:    1  ->  other ==> over
+  13:    1  ->  poor ==> in
+  14:    1  ->  rosa ==> i
+  15:    1  ->  shouting ==> shooting
+  16:    1  ->  stepsisters ==> sisters
+  17:    1  ->  the ==> held
+  18:    1  ->  they ==> he
+  19:    1  ->  they'd ==> had
+  20:    1  ->  to ==> no
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  hair
+   2:    1  ->  plus
+   3:    1  ->  step
+   4:    1  ->  they
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  hat
+   2:    1  ->  to
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  cinders
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  announce
+   5:    1  ->  bride
+   6:    1  ->  had
+   7:    1  ->  hairpins
+   8:    1  ->  help
+   9:    1  ->  howled
+  10:    1  ->  lily
+  11:    1  ->  other
+  12:    1  ->  poor
+  13:    1  ->  rosa
+  14:    1  ->  shouting
+  15:    1  ->  stepsisters
+  16:    1  ->  the
+  17:    1  ->  they
+  18:    1  ->  they'd
+  19:    1  ->  to
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  announced
+   2:    1  ->  braid
+   3:    1  ->  does
+   4:    1  ->  had
+   5:    1  ->  have
+   6:    1  ->  he
+   7:    1  ->  held
+   8:    1  ->  helped
+   9:    1  ->  hut
+  10:    1  ->  i
+  11:    1  ->  in
+  12:    1  ->  lillian
+  13:    1  ->  no
+  14:    1  ->  over
+  15:    1  ->  pins
+  16:    1  ->  rose
+  17:    1  ->  shooting
+  18:    1  ->  sinners
+  19:    1  ->  sisters
+  20:    1  ->  the
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

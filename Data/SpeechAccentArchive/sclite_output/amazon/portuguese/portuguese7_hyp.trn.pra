@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\portuguese\portuguese7_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 57 11 1 0
+REF:  please call stella ask her to bring THESE THINGS with her from the store SIX   SPOONS OF fresh SNOW PEAS  five thick slabs OF  blue cheese and maybe a snack for her brother bob we also need a small plastic snake and a big toy frog for the kids she can scoop THESE things into three RED bags and WE WILL  go meet her wednesday at the train station 
+HYP:  please call stella ask her to bring THE   THING  with her from the store SIXTH WOUND  OR fresh NO   PEACE five thick slabs OFF blue cheese and maybe a snack for her brother bob we also need a small plastic snake and a big toy frog for the kids she can scoop WITH  things into three RAG bags and ** WE'LL go meet her wednesday at the train station 
+Eval:                                     S     S                              S     S      S        S    S                      S                                                                                                                                      S                       S            D  S                                                
+
+

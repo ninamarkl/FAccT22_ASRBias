@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\liv-rea1-f2_hyp.trn
+
+Speakers: 
+    0:  liv
+
+Speaker sentences   0:  liv   #utts: 1
+id: (liv-rea1-f2_01)
+Scores: (#C #S #D #I) 122 42 16 3
+REF:  once upon a time there was a girl called cinderella BUT everyone CALLED HER cinders **** CINDERS lived with HER MUM  and two stepsisters called lily and ROSA  lily and ROSA WERE very unfriendly and they were LAZY  girls they spent all THEIR time BUYING new clothes and going to parties POOR   CINDERS had to WEAR all THEIR OLD    handmade HAND ME   downs and SHE HAD TO DO all the cleaning one day a royal messenger came to announce A BALL  the ball WOULD be held at the royal palace in honour of the queen's only son prince william ****** LILY AND ROSA THOUGHT this was DIVINE prince william was gorgeous he was looking for A   BRIDE THEY DREAMED of wedding bells WHEN THE evening of the BALL      ARRIVED CINDERS had to help HER SISTERS  get ready they were in a bad mood THEY'D WANTED to buy new GOWNS but THEIR mother said THAT they HAD  had enough GOWNS so they started shouting at cinders FIND MY JEWELS YELLED    ONE   find MY HAT HOWLED the other they wanted **** HAIRBRUSHES hairpins 
+HYP:  once upon a time there was a girl called cinderella *** everyone CALLS  HIS cinders SYNS HAS     lived with HIM WARM and two stepsisters called lily and ROSIE lily and **** ROSE very unfriendly and they were LASER girls they spent all THE   time BY     new clothes and going to parties PERSON JUST    had to WAIT all ***** HEROES handmade HOW  MANY downs and *** *** ** ** all the cleaning one day a royal messenger came to announce * TABLE the ball WILL  be held at the royal palace in honour of the queen's only son prince william LILLEY WHO  IS  THE  FOURTH  this was DIVAN  prince william was gorgeous he was looking for THE BRASS THE  DREAMS  of wedding bells **** *** evening of the POLARIZED SYNS    HAS     had to help HIS SISTER'S get ready they were in a bad mood THAT   WANTS  to buy new DOWNS but THEY  mother said **** they HAVE had enough DOWNS so they started shouting at cinders **** ** ****** FAMAIDEAL ZLONE find ** *** HOW    the other they wanted HAIR BRUSHES     hairpins 
+Eval:                                                     D            S      S           I    S                  S   S                                        S              D    S                                  S                          S          S                                       S      S              S        D     S               S    S              D   D   D  D                                                              D S              S                                                                                  I      S    S   S    S                S                                                     S   S     S    S                        D    D                  S         S       S                   S   S                                          S      S                 S         S                 D         S               S                                         D    D  D      S         S          D  D   S                            I    S                    
+
+>> REF:  and hairspray 
+>> HYP:  and hairspray 
+>> Eval:               
+
+

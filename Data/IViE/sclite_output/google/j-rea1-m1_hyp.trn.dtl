@@ -1,0 +1,156 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\j-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   22.8%   (  43)
+
+Percent Correct           =   79.4%   ( 150)
+
+Percent Substitution      =   14.3%   (  27)
+Percent Deletions         =    6.3%   (  12)
+Percent Insertions        =    2.1%   (   4)
+Percent Word Accuracy     =   77.2%
+
+
+Ref. words                =           ( 189)
+Hyp. words                =           ( 181)
+Aligned words             =           ( 193)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  their ==> the
+   2:    1  ->  and ==> liliana
+   3:    1  ->  arrived ==> around
+   4:    1  ->  ball ==> noticeable
+   5:    1  ->  bride ==> bright
+   6:    1  ->  called ==> calls
+   7:    1  ->  cinders ==> it
+   8:    1  ->  cinders ==> policies
+   9:    1  ->  cinders ==> since
+  10:    1  ->  dreamed ==> dream
+  11:    1  ->  girls ==> lazygirls
+  12:    1  ->  gowns ==> games
+  13:    1  ->  gowns ==> girls
+  14:    1  ->  hairbrushes ==> hair
+  15:    1  ->  hairpins ==> pins
+  16:    1  ->  hairsprays ==> histories
+  17:    1  ->  jewels ==> the
+  18:    1  ->  lily ==> call
+  19:    1  ->  lily ==> lilley
+  20:    1  ->  rosa ==> groza
+  21:    1  ->  rosa ==> rosie
+  22:    1  ->  they'd ==> they
+  23:    1  ->  unfriendly ==> windy
+  24:    1  ->  would ==> bowl
+  25:    1  ->  yelled ==> old
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+   3:    1  ->  in
+   4:    1  ->  send
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  find
+   2:    2  ->  my
+   3:    1  ->  announce
+   4:    1  ->  ball
+   5:    1  ->  called
+   6:    1  ->  hat
+   7:    1  ->  howled
+   8:    1  ->  lazy
+   9:    1  ->  poor
+  10:    1  ->  was
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  cinders
+   2:    3  ->  their
+   3:    2  ->  gowns
+   4:    2  ->  lily
+   5:    2  ->  rosa
+   6:    1  ->  and
+   7:    1  ->  arrived
+   8:    1  ->  ball
+   9:    1  ->  bride
+  10:    1  ->  called
+  11:    1  ->  dreamed
+  12:    1  ->  girls
+  13:    1  ->  hairbrushes
+  14:    1  ->  hairpins
+  15:    1  ->  hairsprays
+  16:    1  ->  jewels
+  17:    1  ->  they'd
+  18:    1  ->  unfriendly
+  19:    1  ->  would
+  20:    1  ->  yelled
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  the
+   2:    1  ->  around
+   3:    1  ->  bowl
+   4:    1  ->  bright
+   5:    1  ->  call
+   6:    1  ->  calls
+   7:    1  ->  dream
+   8:    1  ->  games
+   9:    1  ->  girls
+  10:    1  ->  groza
+  11:    1  ->  hair
+  12:    1  ->  histories
+  13:    1  ->  it
+  14:    1  ->  lazygirls
+  15:    1  ->  liliana
+  16:    1  ->  lilley
+  17:    1  ->  noticeable
+  18:    1  ->  old
+  19:    1  ->  pins
+  20:    1  ->  policies
+  21:    1  ->  rosie
+  22:    1  ->  since
+  23:    1  ->  they
+  24:    1  ->  windy
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

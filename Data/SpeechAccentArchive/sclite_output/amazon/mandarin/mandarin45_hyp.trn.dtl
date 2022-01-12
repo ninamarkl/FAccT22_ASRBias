@@ -1,0 +1,165 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin45_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   68.1%   (  47)
+
+Percent Correct           =   56.5%   (  39)
+
+Percent Substitution      =   40.6%   (  28)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =   24.6%   (  17)
+Percent Word Accuracy     =   31.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  84)
+Aligned words             =           (  86)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  and ==> on
+   2:    1  ->  a ==> onda
+   3:    1  ->  and ==> namesnik
+   4:    1  ->  bags ==> backs
+   5:    1  ->  bob ==> breathable
+   6:    1  ->  can ==> pulis
+   7:    1  ->  five ==> a
+   8:    1  ->  fresh ==> fry
+   9:    1  ->  her ==> occur
+  10:    1  ->  kids ==> trick
+  11:    1  ->  of ==> all
+  12:    1  ->  of ==> off
+  13:    1  ->  peas ==> slight
+  14:    1  ->  red ==> right
+  15:    1  ->  scoop ==> cope
+  16:    1  ->  she ==> is
+  17:    1  ->  slabs ==> breeze
+  18:    1  ->  snack ==> snake
+  19:    1  ->  stella ==> stellar
+  20:    1  ->  these ==> face
+  21:    1  ->  these ==> they
+  22:    1  ->  thick ==> slight
+  23:    1  ->  things ==> sings
+  24:    1  ->  to ==> tto
+  25:    1  ->  we ==> they
+  26:    1  ->  wednesday ==> day
+  27:    1  ->  with ==> based
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  a
+   2:    2  ->  go
+   3:    2  ->  we'll
+   4:    1  ->  baby
+   5:    1  ->  case
+   6:    1  ->  flattest
+   7:    1  ->  meet
+   8:    1  ->  pings
+   9:    1  ->  place
+  10:    1  ->  south
+  11:    1  ->  take
+  12:    1  ->  the
+  13:    1  ->  there
+  14:    1  ->  this
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  brother
+   2:    1  ->  snake
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    3  ->  and
+   2:    2  ->  of
+   3:    2  ->  these
+   4:    1  ->  a
+   5:    1  ->  bags
+   6:    1  ->  bob
+   7:    1  ->  can
+   8:    1  ->  five
+   9:    1  ->  fresh
+  10:    1  ->  her
+  11:    1  ->  kids
+  12:    1  ->  peas
+  13:    1  ->  red
+  14:    1  ->  scoop
+  15:    1  ->  she
+  16:    1  ->  slabs
+  17:    1  ->  snack
+  18:    1  ->  stella
+  19:    1  ->  thick
+  20:    1  ->  things
+  21:    1  ->  to
+  22:    1  ->  we
+  23:    1  ->  wednesday
+  24:    1  ->  with
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  on
+   2:    2  ->  slight
+   3:    2  ->  they
+   4:    1  ->  a
+   5:    1  ->  all
+   6:    1  ->  backs
+   7:    1  ->  based
+   8:    1  ->  breathable
+   9:    1  ->  breeze
+  10:    1  ->  cope
+  11:    1  ->  day
+  12:    1  ->  face
+  13:    1  ->  fry
+  14:    1  ->  is
+  15:    1  ->  namesnik
+  16:    1  ->  occur
+  17:    1  ->  off
+  18:    1  ->  onda
+  19:    1  ->  pulis
+  20:    1  ->  right
+  21:    1  ->  sings
+  22:    1  ->  snake
+  23:    1  ->  stellar
+  24:    1  ->  trick
+  25:    1  ->  tto
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,131 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: italian\italian27_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   60.9%   (  42)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =   14.5%   (  10)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  5 ==> milk
+   3:    1  ->  a ==> as
+   4:    1  ->  big ==> bit
+   5:    1  ->  frog ==> far
+   6:    1  ->  her ==> metre
+   7:    1  ->  of ==> lepsze
+   8:    1  ->  plastic ==> classes
+   9:    1  ->  scoop ==> sort
+  10:    1  ->  slabs ==> firefix
+  11:    1  ->  small ==> more
+  12:    1  ->  snake ==> naik
+  13:    1  ->  spoons ==> poles
+  14:    1  ->  thick ==> please
+  15:    1  ->  toy ==> too
+  16:    1  ->  wednesday ==> when
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  for
+   5:    1  ->  her
+   6:    1  ->  meet
+   7:    1  ->  peas
+   8:    1  ->  snack
+   9:    1  ->  snow
+  10:    1  ->  will
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  big
+   5:    1  ->  frog
+   6:    1  ->  her
+   7:    1  ->  of
+   8:    1  ->  plastic
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  small
+  12:    1  ->  snake
+  13:    1  ->  spoons
+  14:    1  ->  thick
+  15:    1  ->  toy
+  16:    1  ->  wednesday
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  this
+   2:    1  ->  as
+   3:    1  ->  bit
+   4:    1  ->  classes
+   5:    1  ->  far
+   6:    1  ->  firefix
+   7:    1  ->  lepsze
+   8:    1  ->  metre
+   9:    1  ->  milk
+  10:    1  ->  more
+  11:    1  ->  naik
+  12:    1  ->  please
+  13:    1  ->  poles
+  14:    1  ->  sort
+  15:    1  ->  too
+  16:    1  ->  when
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

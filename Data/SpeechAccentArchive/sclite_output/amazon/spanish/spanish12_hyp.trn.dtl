@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish12_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   62.3%   (  43)
+
+Percent Correct           =   43.5%   (  30)
+
+Percent Substitution      =   49.3%   (  34)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   37.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  and ==> think
+   2:    1  ->  ask ==> off
+   3:    1  ->  at ==> with
+   4:    1  ->  bags ==> i
+   5:    1  ->  bob ==> about
+   6:    1  ->  bring ==> being
+   7:    1  ->  brother ==> headboard
+   8:    1  ->  can ==> checking
+   9:    1  ->  five ==> fine
+  10:    1  ->  for ==> uh
+  11:    1  ->  frog ==> for
+  12:    1  ->  her ==> head
+  13:    1  ->  her ==> hear
+  14:    1  ->  her ==> tonight
+  15:    1  ->  into ==> tow
+  16:    1  ->  need ==> only
+  17:    1  ->  of ==> off
+  18:    1  ->  of ==> well
+  19:    1  ->  peas ==> beer's
+  20:    1  ->  red ==> but
+  21:    1  ->  scoop ==> coop
+  22:    1  ->  slabs ==> slough
+  23:    1  ->  spoons ==> boom
+  24:    1  ->  station ==> dutch
+  25:    1  ->  stella ==> still
+  26:    1  ->  the ==> our
+  27:    1  ->  these ==> testing
+  28:    1  ->  these ==> this
+  29:    1  ->  thick ==> fighting
+  30:    1  ->  things ==> in
+  31:    1  ->  to ==> toe
+  32:    1  ->  toy ==> flow
+  33:    1  ->  wednesday ==> here
+  34:    1  ->  with ==> we
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  ah
+   2:    1  ->  b
+   3:    1  ->  flow
+   4:    1  ->  w
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  her
+   4:    1  ->  she
+   5:    1  ->  snack
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  her
+   2:    2  ->  of
+   3:    2  ->  these
+   4:    1  ->  and
+   5:    1  ->  ask
+   6:    1  ->  at
+   7:    1  ->  bags
+   8:    1  ->  bob
+   9:    1  ->  bring
+  10:    1  ->  brother
+  11:    1  ->  can
+  12:    1  ->  five
+  13:    1  ->  for
+  14:    1  ->  frog
+  15:    1  ->  into
+  16:    1  ->  need
+  17:    1  ->  peas
+  18:    1  ->  red
+  19:    1  ->  scoop
+  20:    1  ->  slabs
+  21:    1  ->  spoons
+  22:    1  ->  station
+  23:    1  ->  stella
+  24:    1  ->  the
+  25:    1  ->  thick
+  26:    1  ->  things
+  27:    1  ->  to
+  28:    1  ->  toy
+  29:    1  ->  wednesday
+  30:    1  ->  with
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  off
+   2:    1  ->  about
+   3:    1  ->  beer's
+   4:    1  ->  being
+   5:    1  ->  boom
+   6:    1  ->  but
+   7:    1  ->  checking
+   8:    1  ->  coop
+   9:    1  ->  dutch
+  10:    1  ->  fighting
+  11:    1  ->  fine
+  12:    1  ->  flow
+  13:    1  ->  for
+  14:    1  ->  head
+  15:    1  ->  headboard
+  16:    1  ->  hear
+  17:    1  ->  here
+  18:    1  ->  i
+  19:    1  ->  in
+  20:    1  ->  only
+  21:    1  ->  our
+  22:    1  ->  slough
+  23:    1  ->  still
+  24:    1  ->  testing
+  25:    1  ->  think
+  26:    1  ->  this
+  27:    1  ->  toe
+  28:    1  ->  tonight
+  29:    1  ->  tow
+  30:    1  ->  uh
+  31:    1  ->  we
+  32:    1  ->  well
+  33:    1  ->  with
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

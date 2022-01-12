@@ -1,0 +1,131 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic12_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   79.7%   (  55)
+
+Percent Correct           =   20.3%   (  14)
+
+Percent Substitution      =    7.2%   (   5)
+Percent Deletions         =   72.5%   (  50)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   20.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  19)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  cheese ==> stick
+   2:    1  ->  her ==> hear
+   3:    1  ->  her ==> yellow
+   4:    1  ->  kids ==> head
+   5:    1  ->  meet ==> can't
+     -------
+         5
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  her
+   4:    2  ->  of
+   5:    2  ->  these
+   6:    2  ->  things
+   7:    2  ->  we
+   8:    1  ->  3
+   9:    1  ->  5
+  10:    1  ->  6
+  11:    1  ->  also
+  12:    1  ->  ask
+  13:    1  ->  at
+  14:    1  ->  bags
+  15:    1  ->  blue
+  16:    1  ->  bob
+  17:    1  ->  bring
+  18:    1  ->  brother
+  19:    1  ->  call
+  20:    1  ->  can
+  21:    1  ->  for
+  22:    1  ->  fresh
+  23:    1  ->  go
+  24:    1  ->  into
+  25:    1  ->  need
+  26:    1  ->  peas
+  27:    1  ->  plastic
+  28:    1  ->  please
+  29:    1  ->  red
+  30:    1  ->  scoop
+  31:    1  ->  slabs
+  32:    1  ->  small
+  33:    1  ->  snack
+  34:    1  ->  snake
+  35:    1  ->  snow
+  36:    1  ->  spoons
+  37:    1  ->  stella
+  38:    1  ->  store
+  39:    1  ->  the
+  40:    1  ->  thick
+  41:    1  ->  to
+  42:    1  ->  will
+  43:    1  ->  with
+     -------
+        50
+
+
+
+SUBSTITUTIONS                    Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  her
+   2:    1  ->  cheese
+   3:    1  ->  kids
+   4:    1  ->  meet
+     -------
+         5
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  can't
+   2:    1  ->  head
+   3:    1  ->  hear
+   4:    1  ->  stick
+   5:    1  ->  yellow
+     -------
+         5
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

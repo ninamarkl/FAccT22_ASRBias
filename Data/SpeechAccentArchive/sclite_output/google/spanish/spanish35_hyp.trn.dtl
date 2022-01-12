@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish35_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  6 ==> six
+   2:    1  ->  and ==> can
+   3:    1  ->  bags ==> backs
+   4:    1  ->  her ==> later
+   5:    1  ->  need ==> bought
+   6:    1  ->  of ==> letter
+   7:    1  ->  red ==> right
+   8:    1  ->  slabs ==> 56
+   9:    1  ->  snake ==> player
+  10:    1  ->  spoons ==> points
+  11:    1  ->  these ==> scoopies
+  12:    1  ->  these ==> this
+  13:    1  ->  toy ==> toys
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5
+   2:    1  ->  also
+   3:    1  ->  bob
+   4:    1  ->  meet
+   5:    1  ->  scoop
+   6:    1  ->  thick
+   7:    1  ->  we
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  these
+   2:    1  ->  6
+   3:    1  ->  and
+   4:    1  ->  bags
+   5:    1  ->  her
+   6:    1  ->  need
+   7:    1  ->  of
+   8:    1  ->  red
+   9:    1  ->  slabs
+  10:    1  ->  snake
+  11:    1  ->  spoons
+  12:    1  ->  toy
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  56
+   2:    1  ->  backs
+   3:    1  ->  bought
+   4:    1  ->  can
+   5:    1  ->  later
+   6:    1  ->  letter
+   7:    1  ->  player
+   8:    1  ->  points
+   9:    1  ->  right
+  10:    1  ->  scoopies
+  11:    1  ->  six
+  12:    1  ->  this
+  13:    1  ->  toys
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

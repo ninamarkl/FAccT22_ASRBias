@@ -1,0 +1,159 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\c-rea1-m3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.8%   (  77)
+
+Percent Correct           =   57.2%   ( 103)
+
+Percent Substitution      =    7.8%   (  14)
+Percent Deletions         =   35.0%   (  63)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   57.2%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 117)
+Aligned words             =           ( 180)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a ==> answer
+   2:    1  ->  a ==> wand
+   3:    1  ->  and ==> guns
+   4:    1  ->  announce ==> an
+   5:    1  ->  buying ==> by
+   6:    1  ->  called ==> call
+   7:    1  ->  dreamed ==> daydreams
+   8:    1  ->  lived ==> live
+   9:    1  ->  rosa ==> rosie
+  10:    1  ->  sisters ==> sister's
+  11:    1  ->  their ==> the
+  12:    1  ->  they'd ==> they
+  13:    1  ->  was ==> he's
+  14:    1  ->  when ==> in
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    6  ->  they
+   2:    4  ->  cinders
+   3:    2  ->  and
+   4:    2  ->  but
+   5:    2  ->  find
+   6:    2  ->  gowns
+   7:    2  ->  had
+   8:    2  ->  my
+   9:    2  ->  one
+  10:    2  ->  rosa
+  11:    2  ->  was
+  12:    2  ->  were
+  13:    1  ->  at
+  14:    1  ->  buy
+  15:    1  ->  day
+  16:    1  ->  divine
+  17:    1  ->  enough
+  18:    1  ->  girls
+  19:    1  ->  gorgeous
+  20:    1  ->  hairbrushes
+  21:    1  ->  hairpins
+  22:    1  ->  hat
+  23:    1  ->  he
+  24:    1  ->  howled
+  25:    1  ->  jewels
+  26:    1  ->  lazy
+  27:    1  ->  lily
+  28:    1  ->  mother
+  29:    1  ->  other
+  30:    1  ->  poor
+  31:    1  ->  prince
+  32:    1  ->  said
+  33:    1  ->  shouting
+  34:    1  ->  so
+  35:    1  ->  some
+  36:    1  ->  started
+  37:    1  ->  that
+  38:    1  ->  the
+  39:    1  ->  their
+  40:    1  ->  this
+  41:    1  ->  thought
+  42:    1  ->  very
+  43:    1  ->  wanted
+  44:    1  ->  william
+  45:    1  ->  yelled
+     -------
+        63
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  announce
+   4:    1  ->  buying
+   5:    1  ->  called
+   6:    1  ->  dreamed
+   7:    1  ->  lived
+   8:    1  ->  rosa
+   9:    1  ->  sisters
+  10:    1  ->  their
+  11:    1  ->  they'd
+  12:    1  ->  was
+  13:    1  ->  when
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  an
+   2:    1  ->  answer
+   3:    1  ->  by
+   4:    1  ->  call
+   5:    1  ->  daydreams
+   6:    1  ->  guns
+   7:    1  ->  he's
+   8:    1  ->  in
+   9:    1  ->  live
+  10:    1  ->  rosie
+  11:    1  ->  sister's
+  12:    1  ->  the
+  13:    1  ->  they
+  14:    1  ->  wand
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

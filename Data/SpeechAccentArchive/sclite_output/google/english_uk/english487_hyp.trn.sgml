@@ -1,0 +1,7 @@
+<SYSTEM title="english_uk\english487_hyp.trn" ref_fname="saa_ref_numbers.trn" hyp_fname="english_uk\english487_hyp.trn" creation_date="Wed May 26 08:10:57 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="70" sequence="0">
+C,"please","please":D,"call",:D,"stella",:D,"ask",:D,"her",:S,"to","costello":C,"bring","bring":C,"these","these":C,"things","things":S,"with","look":S,"her","up":C,"from","from":C,"the","the":C,"store","store":D,"6",:D,"spoons",:D,"of",:D,"fresh",:D,"snow",:S,"peas","expensive":S,"5","freshener":S,"thick","p56":C,"slabs","slabs":C,"of","of":C,"blue","blue":C,"cheese","cheese":C,"and","and":D,"maybe",:D,"a",:D,"snack",:D,"for",:D,"her",:D,"brother",:D,"bob",:D,"we",:S,"also","it":S,"need","is":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":C,"and","and":C,"a","a":D,"big",:D,"toy",:D,"frog",:D,"for",:D,"the",:S,"kids","beach":S,"she","boys":S,"can","chicken":S,"scoop","skip":C,"these","these":C,"things","things":S,"into","and":S,"3","dupree":C,"red","red":C,"bags","bags":C,"and","and":C,"we","we":C,"will","will":C,"go","go":I,,"and":C,"meet","meet":D,"her",:C,"wednesday","wednesday":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

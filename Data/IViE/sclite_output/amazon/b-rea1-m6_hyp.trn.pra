@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\b-rea1-m6_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-m6_01)
+Scores: (#C #S #D #I) 151 31 2 5
+REF:  once upon a time there was a GO  a girl called cinderella but everyone CALLED her CINDERS cinders lived with her mother and two stepsisters called lily and rosa LILY AND     rosa WERE  very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties poor CINDERS had TO WEAR all their old hand me downs and she had to do ALL the cleaning one day a royal messenger came to announce A   ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY  and ****** ROSA thought this was *** DIVINE PRINCE william was gorgeous and he was looking for a BRIDE they dreamed of WEDDING BELLS when the evening of the ball ** ARRIVED CINDERS had to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but THEIR   MOTHER  said that they hadn't they had enough GOWNS so they started SHOUTING at CINDERS find my jewels yelled one FIND my HAT   HOWLED the other they wanted *** ******* 
+HYP:  once upon a time there was a DOG a girl called cinderella but everyone CALLS  her SENDERS cinders lived with her mother and two stepsisters called lily and rosa **** LILLIAN rosa WE'RE very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties poor CENTRES had HE WERE all their old hand me downs and she had to do *** the cleaning one day a royal messenger came to announce THE ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william ITALY and RUSSIA I    thought this was THE VEIN   FRANCE william was gorgeous and he was looking for a BRAID they dreamed of WEARING BILLS when the evening of the ball OR AID     CENTRES had to help her sisters get ready they were in a bad mood THEY   wanted to buy some new GAMES but THEY'RE MUELLER said that they hadn't they had enough GAMES so they started SHOOTING at SENDERS find my jewels yelled one FAN  my HEART HEARD  the other they wanted HER BRUSHES 
+Eval:                              S                                         S          S                                                                              D    S            S                                                                                                                     S           S  S                                                  D                                                           S                 S                                                                                  S         I      S                     I   S      S                                                    S                     S       S                                  I  S       S                                                                 S                             S         S       S                                             S                     S           S                                 S       S     S                            I   I       
+
+>> REF:  HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  HER         PENS     and hairspray 
+>> Eval: S           S                      
+
+

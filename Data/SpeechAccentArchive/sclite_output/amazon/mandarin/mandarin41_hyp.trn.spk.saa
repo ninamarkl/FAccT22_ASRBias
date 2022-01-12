@@ -1,0 +1,139 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin41_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   30.4%   (  21)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  a ==> us
+   2:    1  ->  and ==> onda
+   3:    1  ->  ask ==> asked
+   4:    1  ->  at ==> to
+   5:    1  ->  bags ==> backs
+   6:    1  ->  blue ==> ofthe
+   7:    1  ->  cheese ==> flutie's
+   8:    1  ->  five ==> piece
+   9:    1  ->  frog ==> from
+  10:    1  ->  kids ==> guys
+  11:    1  ->  of ==> laps
+  12:    1  ->  of ==> off
+  13:    1  ->  red ==> right
+  14:    1  ->  slabs ==> six
+  15:    1  ->  snack ==> nyc
+  16:    1  ->  spoons ==> teaspoons
+  17:    1  ->  stella ==> stellar
+  18:    1  ->  store ==> star
+  19:    1  ->  thick ==> found
+  20:    1  ->  we ==> they
+  21:    1  ->  will ==> reveal
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  peas
+   2:    1  ->  we
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  ask
+   5:    1  ->  at
+   6:    1  ->  bags
+   7:    1  ->  blue
+   8:    1  ->  cheese
+   9:    1  ->  five
+  10:    1  ->  frog
+  11:    1  ->  kids
+  12:    1  ->  red
+  13:    1  ->  slabs
+  14:    1  ->  snack
+  15:    1  ->  spoons
+  16:    1  ->  stella
+  17:    1  ->  store
+  18:    1  ->  thick
+  19:    1  ->  we
+  20:    1  ->  will
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  asked
+   2:    1  ->  backs
+   3:    1  ->  flutie's
+   4:    1  ->  found
+   5:    1  ->  from
+   6:    1  ->  guys
+   7:    1  ->  laps
+   8:    1  ->  nyc
+   9:    1  ->  off
+  10:    1  ->  ofthe
+  11:    1  ->  onda
+  12:    1  ->  piece
+  13:    1  ->  reveal
+  14:    1  ->  right
+  15:    1  ->  six
+  16:    1  ->  star
+  17:    1  ->  stellar
+  18:    1  ->  teaspoons
+  19:    1  ->  they
+  20:    1  ->  to
+  21:    1  ->  us
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

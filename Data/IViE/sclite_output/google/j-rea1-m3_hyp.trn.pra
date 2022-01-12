@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\j-rea1-m3_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-m3_01)
+Scores: (#C #S #D #I) 108 44 38 3
+REF:  cinderella once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVED with her mother and two stepsisters CALLED LILY AND ROSA LILY and ROSA WERE very unfriendly and WERE lazy girls they spent all THEIR time BUYING new clothes and going to parties POOR CINDERS HAD TO WEAR ALL THEIR     old hand me downs and she had to do *** the cleaning one day * A    ROYAL   MESSENGER came to announce A BALL THE WALL the BALL WOULD BE   HELD  AT     THE ROYAL palace in honour of the queen's only SON PRINCE WILLIAM LILY AND ROSA THOUGHT HE WAS DIVINE prince william was gorgeous and HE WAS he was looking for a bride he DREAMT they dreamt of wedding bells when the evening of the BALL ARRIVED CINDERS HAD    to help her SISTERS  get ready THEY WERE IN A bad MOOD they wanted to buy some new GOWNS BUT THEIR MOTHER SAID THAT THEY HAD  enough GOWNS so THEY STARTED TO  SHOUT at cinders find my JEWELS YELLED ONE FIND  MY           HAT HOWLED THE OTHER HOWLED THE 
+HYP:  cinderella once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVE  with her mother and two stepsisters ****** **** *** **** COLD and **** **** very unfriendly and MY   lazy girls they spent all THE   time BUT    new clothes and going to parties **** ******* *** ** **** FOR CYLINDERS old hand me downs and she had to do ALL the cleaning one day I WILL MESSAGE YOU       came to announce * **** *** **** the **** ROYAL PALM BEACH CALLED IN  ROME  palace in honour of the queen's only *** ****** ******* **** *** **** ******* ** *** SONG   prince william was gorgeous and ** *** he was looking for a bride he JUMPED they dreamt of wedding bells when the evening of the BULL ARRIVES IN      DETAIL to help her SISTER'S get ready **** **** ** * bad NEWS they wanted to buy some new ***** *** ***** ****** CAR  AND  THE  DEAD enough TIMES so IT'S NOT     TOO SURE  at cinders find my ****** ****** *** JULES ONE-YEAR-OLD HOW DO     YOU HOW   DO     YOU 
+Eval:                                                                                                        S                                         D      D    D   D    S        D    D                        S                              S          S                                       D    D       D   D  D    S   S                                             I                        I S    S       S                          D D    D   D        D    S     S    S     S      S   S                                          D   D      D       D    D   D    D       D  D   S                                      D  D                                 S                                                           S    S       S       S                  S                  D    D    D  D     S                                D     D   D     D      S    S    S    S           S        S    S       S   S                        D      D      D   S     S            S   S      S   S     S      S   
+
+>> REF:  OTHER one they wanted **** HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  HAVE  one they wanted HAIR BRUSHES     HAPPENS  and hairspray 
+>> Eval: S                     I    S           S                      
+
+

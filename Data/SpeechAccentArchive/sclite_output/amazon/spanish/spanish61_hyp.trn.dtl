@@ -1,0 +1,141 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish61_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   33.3%   (  23)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  and ==> on
+   2:    1  ->  ask ==> asked
+   3:    1  ->  at ==> of
+   4:    1  ->  bags ==> back
+   5:    1  ->  bob ==> but
+   6:    1  ->  five ==> fight
+   7:    1  ->  frog ==> from
+   8:    1  ->  her ==> hair
+   9:    1  ->  her ==> herr
+  10:    1  ->  her ==> him
+  11:    1  ->  into ==> tow
+  12:    1  ->  kids ==> kid
+  13:    1  ->  of ==> off
+  14:    1  ->  peas ==> peace
+  15:    1  ->  red ==> dress
+  16:    1  ->  slabs ==> laugh
+  17:    1  ->  spoons ==> spoon
+  18:    1  ->  station ==> stage
+  19:    1  ->  these ==> thing
+  20:    1  ->  thick ==> fix
+  21:    1  ->  things ==> in
+  22:    1  ->  train ==> training
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  this
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  big
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  her
+   2:    2  ->  and
+   3:    1  ->  ask
+   4:    1  ->  at
+   5:    1  ->  bags
+   6:    1  ->  bob
+   7:    1  ->  five
+   8:    1  ->  frog
+   9:    1  ->  into
+  10:    1  ->  kids
+  11:    1  ->  of
+  12:    1  ->  peas
+  13:    1  ->  red
+  14:    1  ->  slabs
+  15:    1  ->  spoons
+  16:    1  ->  station
+  17:    1  ->  these
+  18:    1  ->  thick
+  19:    1  ->  things
+  20:    1  ->  train
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  on
+   2:    1  ->  asked
+   3:    1  ->  back
+   4:    1  ->  but
+   5:    1  ->  dress
+   6:    1  ->  fight
+   7:    1  ->  fix
+   8:    1  ->  from
+   9:    1  ->  hair
+  10:    1  ->  herr
+  11:    1  ->  him
+  12:    1  ->  in
+  13:    1  ->  kid
+  14:    1  ->  laugh
+  15:    1  ->  of
+  16:    1  ->  off
+  17:    1  ->  peace
+  18:    1  ->  spoon
+  19:    1  ->  stage
+  20:    1  ->  thing
+  21:    1  ->  tow
+  22:    1  ->  training
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

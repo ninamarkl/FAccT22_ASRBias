@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\car-rea1-m1_hyp.trn
+
+Speakers: 
+    0:  car
+
+Speaker sentences   0:  car   #utts: 1
+id: (car-rea1-m1_01)
+Scores: (#C #S #D #I) 129 40 17 2
+REF:  once upon a time there was a girl called cinderella but everybody CALLED her cinders cinders LIVED with her mother and two stepsisters CALLED LILY  AND     ROSA lily and ROSA  were very unfriendly and they were lazy GIRLS THEY SPENT     all THEIR time buying new clothes and going to parties POOR CINDERS HAD  to WEAR ALL  THEIR old hand me downs and she did and she had to do the cleaning ONE DAY A     royal MESSENGER  came to announce A BALL the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY   and rosa thought this was divine prince william was GORGEOUS HEHAD he and he was looking for A BRIDE THEY   DREAMED  OF  wedding bells when the evening of the **** BALL    ARRIVED CINDERS had TO help HER SISTERS GET READY THEY WERE both in a bad mood THEY wanted to buy some new GOWNS but their mother said that they had ** ENOUGH GOWNS so they started shouting AT CINDERS  find MY JEWELS  YELLED ONE  FIND   my hat HOWLED the other one THEY wanted 
+HYP:  once upon a time there was a girl called cinderella but everybody CALLS  her cinders cinders LIVE  with her mother and two stepsisters ****** COVER LILLIAN ROSE lily and ROSIE were very unfriendly and they were lazy ***** GIRL DIFFERENT all THE   time buying new clothes and going to parties **** PERSONS HAVE to **** HAVE IT    old hand me downs and she did and she had to do the cleaning *** *** WENDY royal MESSENGERS came to announce * OF   the ball WILL  be held at the royal palace in honour of the queen's only son prince william LILLEY and rosa thought this was divine prince william was HE       HAS   he and he was looking for * ***** BRIGHT DAYDREAM THE wedding bells when the evening of the BOAT ARRIVES IN      DOES    had ** help *** ******* *** ***** **** YOU  both in a bad mood HE   wanted to buy some new GUNS  but their mother said that they had NO NERF   GUNS  so they started shouting ** EXTENDED find ** MODULES YARD   WHEN TIPPED my hat HOW    the other one YOU  wanted 
+Eval:                                                                   S                          S                                         D      S     S       S             S                                             D     S    S             S                                                  D    S       S       D    S    S                                                                  D   D   S           S                           D S             S                                                                                  S                                                          S        S                               D D     S      S        S                                         I    S       S       S           D       D   D       D   D     D    S                       S                           S                                         I  S      S                              D  S             D  S       S      S    S             S                    S           
+
+>> REF:  hairbrushes HAIRPINS   AND hairspray 
+>> HYP:  hairbrushes HURRICANES IN  hairspray 
+>> Eval:             S          S             
+
+

@@ -1,0 +1,99 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french30_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   85.5%   (  59)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  also ==> we're
+   2:    1  ->  ask ==> asked
+   3:    1  ->  need ==> certainly
+   4:    1  ->  slabs ==> laps
+   5:    1  ->  thick ==> fifty-six
+   6:    1  ->  toy ==> of
+   7:    1  ->  will ==> we'll
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  real
+   2:    1  ->  toe
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  we
+   2:    1  ->  five
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  also
+   2:    1  ->  ask
+   3:    1  ->  need
+   4:    1  ->  slabs
+   5:    1  ->  thick
+   6:    1  ->  toy
+   7:    1  ->  will
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  asked
+   2:    1  ->  certainly
+   3:    1  ->  fifty-six
+   4:    1  ->  laps
+   5:    1  ->  of
+   6:    1  ->  we'll
+   7:    1  ->  we're
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

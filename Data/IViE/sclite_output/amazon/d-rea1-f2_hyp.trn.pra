@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\d-rea1-f2_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-f2_01)
+Scores: (#C #S #D #I) 170 14 5 4
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinder lives cinders lived with her mother and *** two stepsisters called LILY AND     rosa LILY AND     rosa WERE  very unfriendly and they were lazy girls they spent all of THEIR time buying new clothes and going to parties poor cinders *** had to wear all all their old hand me DOWNS she had she had to do all the cleaning one day A royal messenger came to announce A   ball the ball would be held AT the royal palace in honour of the queen's only son prince william LILY AND     rosa thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a bad mood they wanted to buy some new GOWNS but their mother said that they had enough GOWNS so they started shouting at cinders find me ***** ** JEWELS yelled one FIND ME      find my hat HOWLED another HOWLED the 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinder lives cinders lived with her mother and HER two stepsisters called **** LILLIAN rosa **** LILLIAN rosa WE'RE very unfriendly and they were lazy girls they spent all of THE   time buying new clothes and going to parties poor cinders HAD had to wear all all their old hand me DANCE she had she had to do all the cleaning one day * royal messenger came to announce THE ball the ball would be held IN the royal palace in honour of the queen's only son prince william **** LILLIAN rosa thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a bad mood they wanted to buy some new GANZ  but their mother said that they had enough GANZ  so they started shouting at cinders find me JULES HE HAD    yelled one **** FINALLY find my hat HELD   another COUNT  the 
+Eval:                                                                                                                                    I                          D    S            D    S            S                                                                S                                                               I                                         S                                                    D                                  S                               S                                                                    D    S                                                                                                                                                                                                                                                                S                                                S                                                 I     I  S                 D    S                   S              S          
+
+>> REF:  other they wanted hairbrushes hairpins and hairspray 
+>> HYP:  other they wanted hairbrushes hairpins and hairspray 
+>> Eval:                                                      
+
+

@@ -1,0 +1,131 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\french\french46_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  also ==> we're
+   2:    1  ->  and ==> in
+   3:    1  ->  at ==> is
+   4:    1  ->  five ==> piece
+   5:    1  ->  go ==> could
+   6:    1  ->  her ==> asked
+   7:    1  ->  into ==> too
+   8:    1  ->  need ==> sending
+   9:    1  ->  of ==> level
+  10:    1  ->  red ==> with
+  11:    1  ->  slabs ==> fixed
+  12:    1  ->  spoons ==> pools
+  13:    1  ->  these ==> this
+  14:    1  ->  thick ==> by
+  15:    1  ->  things ==> thing
+  16:    1  ->  three ==> free
+  17:    1  ->  wednesday ==> when
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  when
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  ask
+   2:    1  ->  her
+   3:    1  ->  peas
+   4:    1  ->  we
+   5:    1  ->  will
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  also
+   2:    1  ->  and
+   3:    1  ->  at
+   4:    1  ->  five
+   5:    1  ->  go
+   6:    1  ->  her
+   7:    1  ->  into
+   8:    1  ->  need
+   9:    1  ->  of
+  10:    1  ->  red
+  11:    1  ->  slabs
+  12:    1  ->  spoons
+  13:    1  ->  these
+  14:    1  ->  thick
+  15:    1  ->  things
+  16:    1  ->  three
+  17:    1  ->  wednesday
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  asked
+   2:    1  ->  by
+   3:    1  ->  could
+   4:    1  ->  fixed
+   5:    1  ->  free
+   6:    1  ->  in
+   7:    1  ->  is
+   8:    1  ->  level
+   9:    1  ->  piece
+  10:    1  ->  pools
+  11:    1  ->  sending
+  12:    1  ->  thing
+  13:    1  ->  this
+  14:    1  ->  too
+  15:    1  ->  we're
+  16:    1  ->  when
+  17:    1  ->  with
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

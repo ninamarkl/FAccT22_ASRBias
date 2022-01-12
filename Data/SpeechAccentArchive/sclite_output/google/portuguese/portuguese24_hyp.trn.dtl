@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: portuguese\portuguese24_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =   15.9%   (  11)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  58)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  6 ==> sixth
+   2:    1  ->  a ==> is
+   3:    1  ->  and ==> in
+   4:    1  ->  can ==> chickens
+   5:    1  ->  go ==> robux
+   6:    1  ->  her ==> a
+   7:    1  ->  her ==> gomita
+   8:    1  ->  meet ==> ever
+   9:    1  ->  scoop ==> cooked
+  10:    1  ->  slabs ==> lives
+  11:    1  ->  small ==> wilson
+  12:    1  ->  snack ==> now
+  13:    1  ->  spoons ==> forms
+  14:    1  ->  thick ==> 56
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  we
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  also
+   5:    1  ->  and
+   6:    1  ->  bags
+   7:    1  ->  need
+   8:    1  ->  red
+   9:    1  ->  she
+  10:    1  ->  will
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  her
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  can
+   6:    1  ->  go
+   7:    1  ->  meet
+   8:    1  ->  scoop
+   9:    1  ->  slabs
+  10:    1  ->  small
+  11:    1  ->  snack
+  12:    1  ->  spoons
+  13:    1  ->  thick
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  56
+   2:    1  ->  a
+   3:    1  ->  chickens
+   4:    1  ->  cooked
+   5:    1  ->  ever
+   6:    1  ->  forms
+   7:    1  ->  gomita
+   8:    1  ->  in
+   9:    1  ->  is
+  10:    1  ->  lives
+  11:    1  ->  now
+  12:    1  ->  robux
+  13:    1  ->  sixth
+  14:    1  ->  wilson
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

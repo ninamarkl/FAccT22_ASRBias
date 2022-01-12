@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\p-rea1-f7_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-f7_01)
+Scores: (#C #S #D #I) 114 44 24 2
+REF:  once upon a time there was a girl called cinderella BUT everyone CALLED HER  CINDERS   cinders LIVED with HER   mother and two stepsisters called lily and ROSA  lily and ROSA WERE  VERY UNFRIENDLY and they were LAZY GIRLS     THEY SPENT all THEIR time BUYING new clothes AND going to parties POOR CINDERS HAD to wear ALL THEIR OLD      HAND    ME  DOWNS         and SHE HAD   to do the cleaning ONE DAY A      ROYAL messenger came to announce A   ball the ball would be held at the royal palace in honour of the queen's only SON  prince william LILY and ROSA THOUGHT THIS WAS DI   ER divine PRINCE WILLIAM WAS gorgeous and he was looking for a bride THEY DREAMED of wedding bells when the evening of the bell ball arrived ****** CINDERS HAD to help HER SISTERS    get ready THEY WERE  in a bad mood THEY'D WANTED to buy SOME new GOWNS but their mother said that they had enough GOWNS so they STARTED SHOUTING at cinders find my JEWELS YELLED ONE   FIND      my HAT   HOWLED the other they 
+HYP:  once upon a time there was a girl called cinderella *** everyone ****** CALL LUCINDA'S cinders LIVE  with THEIR mother and two stepsisters called lily and ROSIE lily and **** ROSES AND  FRIENDLY   and they were **** LAZYGIRLS THIS BEEN  all THE   time BY     new clothes I'M going to parties FOR  TEENS   HOW to wear *** ***** ALTHOUGH THEY'RE ALL HAND-ME-DOWNS and *** SHOUT to do the cleaning *** *** MONDAY OR    messenger came to announce THE ball the ball would be held at the royal palace in honour of the queen's only SEND prince william **** and **** ******* **** *** ROSE AT divine ****** ******* *** gorgeous and he was looking for a bride THE  DREAM   of wedding bells when the evening of the bell ball arrived SEEING AS      HOW to help *** ASSISTANCE get ready **** THERE in a bad mood ****** ****** to buy A    new CAR   but their mother said that they had enough GUMS  so they ******* SHOWING  at cinders find my ****** ****** JULES YDFIFTEEN my HEART HOW    the other they 
+Eval:                                                     D            D      S    S                 S          S                                                S              D    S     S    S                        D    S         S    S         S          S                  S                    S    S       S           D   D     S        S       S   S                 D   S                        D   D   S      S                                S                                                                                 S                   D        D    D       D    D   S    S         D      D       D                                           S    S                                                                  I      S       S           D   S                    D    S                   D      D             S        S                                                S             D       S                           D      D      S     S            S     S                     
+
+>> REF:  wanted **** HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  wanted HAIR BRUSHES     HAPPEN   and hairspray 
+>> Eval:        I    S           S                      
+
+

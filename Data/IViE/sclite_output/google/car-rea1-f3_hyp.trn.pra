@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\car-rea1-f3_hyp.trn
+
+Speakers: 
+    0:  car
+
+Speaker sentences   0:  car   #utts: 1
+id: (car-rea1-f3_01)
+Scores: (#C #S #D #I) 108 49 27 5
+REF:  cinderella once upon a time there was a GIRL girl CALL CALLED cinderella BUT EVERYONE CALLED HER CINDERS CINDERS LIVED WITH HER       MOTHER  AND TWO          stepsisters called lily and ROSA lily and ROSA  were very ** UNFRIENDLY and they were LAZY GIRLS     they spent all THEIR time BUYING new clothes and going *** to parties POOR    CINDERS had to wear all THEIR hand hand me downs AND SHE HAD TO do all the cleaning ONE DAY   a ROYAL messenger came to announce A BALL THE BALL WOULD be held at the royal palace in honour of the queen's ONLY son prince william LILY   and ROSA THOUGHT this was divine PRINCE    WILLIAM WAS  gorgeous and HE WAS  looking for a bride THEY  DREAMED of wedding bells WHEN THE evening of the BALL ARRIVED   CINDERS HAD  to help HER SISTERS get ready THEY   WERE  in A   bad MOOD THEY'D wanted to buy some new GOWNS but THEIR MOTHER HAD   said THAT they had enough GOWNS SO  THEY started shouting at cinders find me JEWELS YELLED ONE  find my hat *** HOWLED 
+HYP:  cinderella once upon a time there was a GOOD girl **** KILLED cinderella *** ******** ****** *** ******* ******* ***** THE  DIFFERENT COLOURS OF  CINDERELLA'S stepsisters called lily and **** lily and ROSIE were very IN FRIENDLY   and they were **** LAZYGIRLS they spent all THE   time BY     new clothes and going OUT to parties PUSHING JUST    had to wear all THE   hand hand me downs *** *** *** ** do all the cleaning *** WENDY a REAL  messenger came to announce * **** TO  GO   ABOVE be held at the royal palace in honour of the queen's MY   son prince william LILLEY and **** ******* this was divine PRINCIPLE IN      MOST gorgeous and ** HE'S looking for a bride THEIR DREAMS  of wedding bells **** *** evening of the **** POLARIZED CENTRES HAVE to help *** TO      get ready THOUGH WOULD in THE bad **** IT     wanted to buy some new G     but ***** THEY   NEVER said **** they had enough GUNS  FOR THE  started shouting at cinders find me DUAL   SEAL   TWIN find my hat HOW OLD    
+Eval:                                         S         D    S                 D   D        D      D   D       D       D     S    S         S       S   S                                        D             S               I  S                        D    S                        S          S                            I              S       S                       S                        D   D   D   D                      D   S       S                                D D    S   S    S                                                          S                       S          D    D                       S         S       S                 D  S                        S     S                        D    D                  D    S         S       S            D   S                 S      S        S       D    S                             S         D     S      S          D                    S     S   S                                        S      S      S                I   S      
+
+>> REF:  the other they **** **** WANTED  HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  the other they WERE PLAY BRUSHES HAIR        PINS     and hairspray 
+>> Eval:                I    I    S       S           S                      
+
+

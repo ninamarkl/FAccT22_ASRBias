@@ -1,0 +1,303 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: urdu\saa-urd_hyp2.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                          16
+ with errors                            100.0%   (  16)
+
+   with substitions                     100.0%   (  16)
+   with deletions                       100.0%   (  16)
+   with insertions                       37.5%   (   6)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.7%   ( 206)
+
+Percent Correct           =   82.0%   ( 905)
+
+Percent Substitution      =   10.0%   ( 110)
+Percent Deletions         =    8.1%   (  89)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   81.3%
+
+
+Ref. words                =           (1104)
+Hyp. words                =           (1022)
+Aligned words             =           (1111)
+
+CONFUSION PAIRS                  Total                 (79)
+                                 With >=  1 occurrences (79)
+
+   1:    8  ->  spoons ==> pounds
+   2:    8  ->  thick ==> 56
+   3:    5  ->  frog ==> from
+   4:    3  ->  wednesday ==> stay
+   5:    2  ->  5 ==> nappies
+   6:    2  ->  and ==> in
+   7:    2  ->  bob ==> but
+   8:    2  ->  for ==> of
+   9:    2  ->  her ==> metre
+  10:    2  ->  meet ==> with
+  11:    2  ->  scoop ==> screw
+  12:    2  ->  slabs ==> 56
+  13:    2  ->  slabs ==> laps
+  14:    2  ->  snake ==> snack
+  15:    2  ->  we ==> you
+  16:    1  ->  5 ==> five
+  17:    1  ->  5 ==> milk
+  18:    1  ->  6 ==> sixth
+  19:    1  ->  a ==> is
+  20:    1  ->  a ==> it's
+  21:    1  ->  also ==> she
+  22:    1  ->  bob ==> bop
+  23:    1  ->  bob ==> for
+  24:    1  ->  bob ==> pop
+  25:    1  ->  bob ==> stop
+  26:    1  ->  brother ==> bra
+  27:    1  ->  cheese ==> booties
+  28:    1  ->  fresh ==> 6.0
+  29:    1  ->  frog ==> diaphragm
+  30:    1  ->  frog ==> toys
+  31:    1  ->  go ==> call
+  32:    1  ->  her ==> i
+  33:    1  ->  her ==> me
+  34:    1  ->  her ==> my
+  35:    1  ->  her ==> on
+  36:    1  ->  her ==> oscar
+  37:    1  ->  her ==> steph
+  38:    1  ->  into ==> a
+  39:    1  ->  into ==> in
+  40:    1  ->  meet ==> call
+  41:    1  ->  meet ==> me
+  42:    1  ->  meet ==> when
+  43:    1  ->  of ==> 560
+  44:    1  ->  of ==> 600
+  45:    1  ->  of ==> a
+  46:    1  ->  of ==> electric
+  47:    1  ->  of ==> level
+  48:    1  ->  red ==> and
+  49:    1  ->  red ==> clear
+  50:    1  ->  scoop ==> cook
+  51:    1  ->  scoop ==> see
+  52:    1  ->  scoop ==> speak
+  53:    1  ->  slabs ==> 5650
+  54:    1  ->  slabs ==> lab
+  55:    1  ->  slabs ==> loads
+  56:    1  ->  slabs ==> lots
+  57:    1  ->  slabs ==> wives
+  58:    1  ->  snack ==> lot
+  59:    1  ->  snack ==> night
+  60:    1  ->  snack ==> not
+  61:    1  ->  snack ==> snacks
+  62:    1  ->  snack ==> snap
+  63:    1  ->  snow ==> fresnos
+  64:    1  ->  snow ==> no
+  65:    1  ->  spoons ==> 6-months
+  66:    1  ->  spoons ==> 6-oz
+  67:    1  ->  spoons ==> forms
+  68:    1  ->  stella ==> still
+  69:    1  ->  these ==> scooby's
+  70:    1  ->  thick ==> 586
+  71:    1  ->  thick ==> please
+  72:    1  ->  thick ==> six
+  73:    1  ->  thick ==> take
+  74:    1  ->  thick ==> takes
+  75:    1  ->  toy ==> drive
+  76:    1  ->  toy ==> joy
+  77:    1  ->  we ==> me
+  78:    1  ->  we ==> they
+  79:    1  ->  will ==> can
+     -------
+       110
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  about
+   2:    1  ->  i
+   3:    1  ->  in
+   4:    1  ->  metre
+   5:    1  ->  snack
+   6:    1  ->  then
+   7:    1  ->  when
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:   10  ->  5
+   2:    6  ->  a
+   3:    6  ->  her
+   4:    4  ->  6
+   5:    4  ->  and
+   6:    4  ->  toy
+   7:    3  ->  ask
+   8:    3  ->  big
+   9:    3  ->  meet
+  10:    3  ->  peas
+  11:    3  ->  snow
+  12:    3  ->  thick
+  13:    2  ->  3
+  14:    2  ->  for
+  15:    2  ->  go
+  16:    2  ->  scoop
+  17:    2  ->  spoons
+  18:    2  ->  the
+  19:    2  ->  train
+  20:    2  ->  we
+  21:    1  ->  also
+  22:    1  ->  at
+  23:    1  ->  blue
+  24:    1  ->  bob
+  25:    1  ->  bring
+  26:    1  ->  brother
+  27:    1  ->  can
+  28:    1  ->  frog
+  29:    1  ->  into
+  30:    1  ->  need
+  31:    1  ->  of
+  32:    1  ->  she
+  33:    1  ->  slabs
+  34:    1  ->  snack
+  35:    1  ->  snake
+  36:    1  ->  stella
+  37:    1  ->  these
+  38:    1  ->  things
+  39:    1  ->  to
+  40:    1  ->  wednesday
+  41:    1  ->  with
+     -------
+        89
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:   13  ->  thick
+   2:   11  ->  spoons
+   3:    9  ->  slabs
+   4:    8  ->  her
+   5:    7  ->  frog
+   6:    6  ->  bob
+   7:    5  ->  meet
+   8:    5  ->  of
+   9:    5  ->  scoop
+  10:    5  ->  snack
+  11:    4  ->  5
+  12:    4  ->  we
+  13:    3  ->  wednesday
+  14:    2  ->  a
+  15:    2  ->  and
+  16:    2  ->  for
+  17:    2  ->  into
+  18:    2  ->  red
+  19:    2  ->  snake
+  20:    2  ->  snow
+  21:    2  ->  toy
+  22:    1  ->  6
+  23:    1  ->  also
+  24:    1  ->  brother
+  25:    1  ->  cheese
+  26:    1  ->  fresh
+  27:    1  ->  go
+  28:    1  ->  stella
+  29:    1  ->  these
+  30:    1  ->  will
+     -------
+       110
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (73)
+                                 With >=  1 occurrences (73)
+
+   1:   10  ->  56
+   2:    8  ->  pounds
+   3:    5  ->  from
+   4:    3  ->  in
+   5:    3  ->  me
+   6:    3  ->  stay
+   7:    2  ->  a
+   8:    2  ->  but
+   9:    2  ->  call
+  10:    2  ->  laps
+  11:    2  ->  metre
+  12:    2  ->  nappies
+  13:    2  ->  of
+  14:    2  ->  screw
+  15:    2  ->  snack
+  16:    2  ->  with
+  17:    2  ->  you
+  18:    1  ->  560
+  19:    1  ->  5650
+  20:    1  ->  586
+  21:    1  ->  6-months
+  22:    1  ->  6-oz
+  23:    1  ->  6.0
+  24:    1  ->  600
+  25:    1  ->  and
+  26:    1  ->  booties
+  27:    1  ->  bop
+  28:    1  ->  bra
+  29:    1  ->  can
+  30:    1  ->  clear
+  31:    1  ->  cook
+  32:    1  ->  diaphragm
+  33:    1  ->  drive
+  34:    1  ->  electric
+  35:    1  ->  five
+  36:    1  ->  for
+  37:    1  ->  forms
+  38:    1  ->  fresnos
+  39:    1  ->  i
+  40:    1  ->  is
+  41:    1  ->  it's
+  42:    1  ->  joy
+  43:    1  ->  lab
+  44:    1  ->  level
+  45:    1  ->  loads
+  46:    1  ->  lot
+  47:    1  ->  lots
+  48:    1  ->  milk
+  49:    1  ->  my
+  50:    1  ->  night
+  51:    1  ->  no
+  52:    1  ->  not
+  53:    1  ->  on
+  54:    1  ->  oscar
+  55:    1  ->  please
+  56:    1  ->  pop
+  57:    1  ->  scooby's
+  58:    1  ->  see
+  59:    1  ->  she
+  60:    1  ->  six
+  61:    1  ->  sixth
+  62:    1  ->  snacks
+  63:    1  ->  snap
+  64:    1  ->  speak
+  65:    1  ->  steph
+  66:    1  ->  still
+  67:    1  ->  stop
+  68:    1  ->  take
+  69:    1  ->  takes
+  70:    1  ->  they
+  71:    1  ->  toys
+  72:    1  ->  when
+  73:    1  ->  wives
+     -------
+       110
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

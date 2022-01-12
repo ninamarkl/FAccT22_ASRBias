@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\l-rea1-m5_hyp.trn
+
+Speakers: 
+    0:  l-r
+
+Speaker sentences   0:  l-r   #utts: 1
+id: (l-rea1-m5_01)
+Scores: (#C #S #D #I) 108 43 38 0
+REF:  once upon a time there was a girl called cinderella BUT EVERY BUT EVERYONE called HER cinders cinders LIVED with HER   mother and two STEPSISTERS CALLED LILY AND      ROSA   lily and ROSA  WERE  very unfriendly AND THEY WERE lazy GIRLS THEY SPENT all THEIR time BUYING new CLOTHES AND     going to parties POOR cinders had to wear ALL THEIR OLD HAND ME DOWNS AND SHE HAD TO DO THE     CLEANING ONE  DAY   A      ROYAL messenger came to ANNOUNCE A       BALL the BALL WOULD BE HELD AT   the royal palace in HONOUR of the queen's only son prince william LILY    AND  ROSA thought this was divine prince william was gorgeous and HE  was looking for a bride THEY DREAMED OF        wedding bells when the evening of the BALL ARRIVED CINDERS CINDERS had to help her SISTERS  get ready they were in a bad mood THEY'D wanted to buy some new GOWNS  but their mother HAD had but their mother said that they had enough GOWNS so they started shouting at cinders FIND MY      JEWELS YELLED one find my HAT 
+HYP:  once upon a time there was a girl called cinderella *** ***** *** ******** called IS  cinders cinders LIVE  with THEIR mother and two *********** STEPS  IN   SISTER'S CALLED lily and ROSIE ROSIE very unfriendly *** **** THE  lazy ***** **** GOT   all THE   time BY     new ******* CLOSING going to parties FOR  cinders had to wear *** ***** *** **** ** ***** *** *** *** ** ** OVERALL HOW      MANY TIMES MONDAY OR    messenger came to AN       OUTSIDE BUT  the **** ***** ** **** BULB the royal palace in ORDER  of the queen's only son prince william LILLIAN ROSE I    thought this was divine prince william was gorgeous and YOU was looking for a bride **** ******* HYDRANGEA wedding bells when the evening of the **** BOWLER  RIGHT   CINDY'S had to help her SISTER'S get ready they were in a bad mood THEY   wanted to buy some new GROUND but their mother *** had but their mother said that they had enough DOWN  so they started shouting at cinders **** MYJOOLZ THE    OLD    one find my *** 
+Eval:                                                     D   D     D   D               S                   S          S                    D           S      S    S        S               S     S                     D   D    S         D     D    S         S          S          D       S                        S                        D   D     D   D    D  D     D   D   D   D  D  S       S        S    S     S      S                       S        S       S        D    D     D  D    S                        S                                             S       S    S                                                            S                           D    D       S                                               D    S       S       S                       S                                          S                             S                       D                                                  S                                         D    S       S      S                  D   
+
+>> REF:  HOW HOW HOWLED THE OTHER THEY WANTED HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  *** *** ****** *** ***** **** ****** HAIR        PINS     and hairspray 
+>> Eval: D   D   D      D   D     D    D      S           S                      
+
+

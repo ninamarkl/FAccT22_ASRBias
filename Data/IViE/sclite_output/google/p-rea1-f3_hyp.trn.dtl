@@ -1,0 +1,213 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\p-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.3%   (  75)
+
+Percent Correct           =   61.3%   ( 114)
+
+Percent Substitution      =   24.7%   (  46)
+Percent Deletions         =   14.0%   (  26)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   59.7%
+
+
+Ref. words                =           ( 186)
+Hyp. words                =           ( 163)
+Aligned words             =           ( 189)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  a ==> announcer
+   3:    1  ->  and ==> are
+   4:    1  ->  and ==> liliana
+   5:    1  ->  and ==> the
+   6:    1  ->  arrived ==> seen
+   7:    1  ->  bad ==> the
+   8:    1  ->  ball ==> i've
+   9:    1  ->  bride ==> bright
+  10:    1  ->  cinders ==> as
+  11:    1  ->  cinders ==> enders
+  12:    1  ->  cinders ==> has
+  13:    1  ->  dreamed ==> dream
+  14:    1  ->  gowns ==> cars
+  15:    1  ->  gowns ==> coins
+  16:    1  ->  had ==> a
+  17:    1  ->  hairbrushes ==> brushes
+  18:    1  ->  hairpins ==> happens
+  19:    1  ->  hairspray ==> sprays
+  20:    1  ->  hat ==> me
+  21:    1  ->  he ==> you
+  22:    1  ->  her ==> ace
+  23:    1  ->  her ==> but
+  24:    1  ->  her ==> them
+  25:    1  ->  howled ==> how
+  26:    1  ->  lily ==> call
+  27:    1  ->  lived ==> live
+  28:    1  ->  mother ==> must
+  29:    1  ->  mother ==> with
+  30:    1  ->  of ==> the
+  31:    1  ->  of ==> with
+  32:    1  ->  one ==> children
+  33:    1  ->  poor ==> person
+  34:    1  ->  rosa ==> groza
+  35:    1  ->  said ==> say
+  36:    1  ->  sisters ==> still
+  37:    1  ->  started ==> start
+  38:    1  ->  their ==> they
+  39:    1  ->  they ==> the
+  40:    1  ->  they'd ==> they
+  41:    1  ->  unfriendly ==> friendly
+  42:    1  ->  very ==> radio
+  43:    1  ->  were ==> didn't
+  44:    1  ->  would ==> will
+  45:    1  ->  yelled ==> find-module
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  hair
+   2:    1  ->  boiler
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    3  ->  a
+   2:    2  ->  and
+   3:    2  ->  lily
+   4:    2  ->  my
+   5:    2  ->  rosa
+   6:    2  ->  they
+   7:    1  ->  announce
+   8:    1  ->  called
+   9:    1  ->  divine
+  10:    1  ->  find
+  11:    1  ->  girls
+  12:    1  ->  in
+  13:    1  ->  jewels
+  14:    1  ->  lazy
+  15:    1  ->  the
+  16:    1  ->  this
+  17:    1  ->  thought
+  18:    1  ->  was
+  19:    1  ->  were
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  and
+   2:    3  ->  cinders
+   3:    3  ->  her
+   4:    3  ->  their
+   5:    2  ->  gowns
+   6:    2  ->  mother
+   7:    2  ->  of
+   8:    1  ->  a
+   9:    1  ->  arrived
+  10:    1  ->  bad
+  11:    1  ->  ball
+  12:    1  ->  bride
+  13:    1  ->  dreamed
+  14:    1  ->  had
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  hairspray
+  18:    1  ->  hat
+  19:    1  ->  he
+  20:    1  ->  howled
+  21:    1  ->  lily
+  22:    1  ->  lived
+  23:    1  ->  one
+  24:    1  ->  poor
+  25:    1  ->  rosa
+  26:    1  ->  said
+  27:    1  ->  sisters
+  28:    1  ->  started
+  29:    1  ->  they
+  30:    1  ->  they'd
+  31:    1  ->  unfriendly
+  32:    1  ->  very
+  33:    1  ->  were
+  34:    1  ->  would
+  35:    1  ->  yelled
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    6  ->  the
+   2:    2  ->  they
+   3:    2  ->  with
+   4:    1  ->  a
+   5:    1  ->  ace
+   6:    1  ->  announcer
+   7:    1  ->  are
+   8:    1  ->  as
+   9:    1  ->  bright
+  10:    1  ->  brushes
+  11:    1  ->  but
+  12:    1  ->  call
+  13:    1  ->  cars
+  14:    1  ->  children
+  15:    1  ->  coins
+  16:    1  ->  didn't
+  17:    1  ->  dream
+  18:    1  ->  enders
+  19:    1  ->  find-module
+  20:    1  ->  friendly
+  21:    1  ->  groza
+  22:    1  ->  happens
+  23:    1  ->  has
+  24:    1  ->  how
+  25:    1  ->  i've
+  26:    1  ->  liliana
+  27:    1  ->  live
+  28:    1  ->  me
+  29:    1  ->  must
+  30:    1  ->  person
+  31:    1  ->  radio
+  32:    1  ->  say
+  33:    1  ->  seen
+  34:    1  ->  sprays
+  35:    1  ->  start
+  36:    1  ->  still
+  37:    1  ->  them
+  38:    1  ->  will
+  39:    1  ->  you
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

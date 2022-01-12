@@ -1,0 +1,7 @@
+<SYSTEM title="spanish\spanish52_hyp.trn" ref_fname="saa_ref_numbers.trn" hyp_fname="spanish\spanish52_hyp.trn" creation_date="Wed May 26 08:01:32 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="72" sequence="0">
+D,"please",:S,"call","scarlett":C,"stella","stella":D,"ask",:D,"her",:D,"to",:D,"bring",:D,"these",:C,"things","things":I,,"with":C,"with","with":S,"her","hair":C,"from","from":C,"the","the":D,"store",:D,"6",:S,"spoons","star":C,"of","of":C,"fresh","fresh":I,,"is":S,"snow","not":C,"peas","peas":C,"5","5":D,"thick",:S,"slabs","slaps":C,"of","of":C,"blue","blue":C,"cheese","cheese":C,"and","and":C,"maybe","maybe":D,"a",:D,"snack",:C,"for","for":C,"her","her":C,"brother","brother":D,"bob",:D,"we",:D,"also",:D,"need",:S,"a","bop":C,"small","small":C,"plastic","plastic":I,,"snake":C,"snake","snake":C,"and","and":C,"a","a":C,"big","big":C,"toy","toy":S,"frog","frogs":C,"for","for":D,"the",:C,"kids","kids":D,"she",:S,"can","beginners":S,"scoop","coupe":C,"these","these":C,"things","things":C,"into","into":D,"3",:S,"red","three":S,"bags","redbacks":C,"and","and":C,"we","we":C,"will","will":C,"go","go":C,"meet","meet":C,"her","her":C,"wednesday","wednesday":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

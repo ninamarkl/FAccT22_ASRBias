@@ -1,0 +1,113 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\portuguese\portuguese40_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  ask ==> asked
+   3:    1  ->  bob ==> bowl
+   4:    1  ->  brother ==> bread
+   5:    1  ->  can ==> could
+   6:    1  ->  five ==> peace
+   7:    1  ->  her ==> a
+   8:    1  ->  meet ==> with
+   9:    1  ->  peas ==> no
+  10:    1  ->  slabs ==> lives
+  11:    1  ->  stella ==> stellar
+  12:    1  ->  these ==> this
+  13:    1  ->  thick ==> fifty-six
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  snow
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  and
+   2:    1  ->  ask
+   3:    1  ->  bob
+   4:    1  ->  brother
+   5:    1  ->  can
+   6:    1  ->  five
+   7:    1  ->  her
+   8:    1  ->  meet
+   9:    1  ->  peas
+  10:    1  ->  slabs
+  11:    1  ->  stella
+  12:    1  ->  these
+  13:    1  ->  thick
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  asked
+   3:    1  ->  bowl
+   4:    1  ->  bread
+   5:    1  ->  could
+   6:    1  ->  fifty-six
+   7:    1  ->  in
+   8:    1  ->  lives
+   9:    1  ->  no
+  10:    1  ->  peace
+  11:    1  ->  stellar
+  12:    1  ->  this
+  13:    1  ->  with
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

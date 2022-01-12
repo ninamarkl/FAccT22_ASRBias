@@ -1,0 +1,114 @@
+SCORING FOR SPEAKER: saa
+     of urdu\urdu5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  we ==> you
+   2:    1  ->  5 ==> milk
+   3:    1  ->  bob ==> for
+   4:    1  ->  frog ==> from
+   5:    1  ->  go ==> call
+   6:    1  ->  meet ==> me
+   7:    1  ->  of ==> electric
+   8:    1  ->  slabs ==> 56
+   9:    1  ->  spoons ==> 6-months
+  10:    1  ->  stella ==> still
+  11:    1  ->  thick ==> please
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  big
+   5:    1  ->  her
+   6:    1  ->  peas
+   7:    1  ->  snow
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  we
+   2:    1  ->  5
+   3:    1  ->  bob
+   4:    1  ->  frog
+   5:    1  ->  go
+   6:    1  ->  meet
+   7:    1  ->  of
+   8:    1  ->  slabs
+   9:    1  ->  spoons
+  10:    1  ->  stella
+  11:    1  ->  thick
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  you
+   2:    1  ->  56
+   3:    1  ->  6-months
+   4:    1  ->  call
+   5:    1  ->  electric
+   6:    1  ->  for
+   7:    1  ->  from
+   8:    1  ->  me
+   9:    1  ->  milk
+  10:    1  ->  please
+  11:    1  ->  still
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

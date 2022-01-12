@@ -1,0 +1,154 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\b-rea1-m5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   22.1%   (  40)
+
+Percent Correct           =   81.8%   ( 148)
+
+Percent Substitution      =   14.9%   (  27)
+Percent Deletions         =    3.3%   (   6)
+Percent Insertions        =    3.9%   (   7)
+Percent Word Accuracy     =   77.9%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 182)
+Aligned words             =           ( 188)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  and ==> lillian
+   2:    2  ->  cinders ==> sanders
+   3:    1  ->  a ==> ninety
+   4:    1  ->  a ==> or
+   5:    1  ->  announce ==> through
+   6:    1  ->  buy ==> pay
+   7:    1  ->  cinders ==> centres
+   8:    1  ->  cinders ==> prisoners
+   9:    1  ->  girl ==> guard
+  10:    1  ->  girls ==> guards
+  11:    1  ->  gowns ==> grounds
+  12:    1  ->  gowns ==> guns
+  13:    1  ->  had ==> how
+  14:    1  ->  hairbrushes ==> her
+  15:    1  ->  hairpins ==> pens
+  16:    1  ->  hairspray ==> spray
+  17:    1  ->  hat ==> heart
+  18:    1  ->  howled ==> held
+  19:    1  ->  in ==> ran
+  20:    1  ->  rosa ==> rose
+  21:    1  ->  royal ==> all
+  22:    1  ->  shouting ==> shooting
+  23:    1  ->  their ==> they're
+  24:    1  ->  wear ==> work
+  25:    1  ->  would ==> will
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    3  ->  her
+   2:    1  ->  and
+   3:    1  ->  are
+   4:    1  ->  brushes
+   5:    1  ->  of
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  lily
+   2:    1  ->  poor
+   3:    1  ->  to
+   4:    1  ->  very
+   5:    1  ->  were
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    4  ->  cinders
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  gowns
+   5:    1  ->  announce
+   6:    1  ->  buy
+   7:    1  ->  girl
+   8:    1  ->  girls
+   9:    1  ->  had
+  10:    1  ->  hairbrushes
+  11:    1  ->  hairpins
+  12:    1  ->  hairspray
+  13:    1  ->  hat
+  14:    1  ->  howled
+  15:    1  ->  in
+  16:    1  ->  rosa
+  17:    1  ->  royal
+  18:    1  ->  shouting
+  19:    1  ->  their
+  20:    1  ->  wear
+  21:    1  ->  would
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  lillian
+   2:    2  ->  sanders
+   3:    1  ->  all
+   4:    1  ->  centres
+   5:    1  ->  grounds
+   6:    1  ->  guard
+   7:    1  ->  guards
+   8:    1  ->  guns
+   9:    1  ->  heart
+  10:    1  ->  held
+  11:    1  ->  her
+  12:    1  ->  how
+  13:    1  ->  ninety
+  14:    1  ->  or
+  15:    1  ->  pay
+  16:    1  ->  pens
+  17:    1  ->  prisoners
+  18:    1  ->  ran
+  19:    1  ->  rose
+  20:    1  ->  shooting
+  21:    1  ->  spray
+  22:    1  ->  they're
+  23:    1  ->  through
+  24:    1  ->  will
+  25:    1  ->  work
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

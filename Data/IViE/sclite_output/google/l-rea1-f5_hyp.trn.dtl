@@ -1,0 +1,165 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\l-rea1-f5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.2%   (  39)
+
+Percent Correct           =   79.9%   ( 147)
+
+Percent Substitution      =   15.8%   (  29)
+Percent Deletions         =    4.3%   (   8)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   78.8%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 178)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  and ==> leyton
+   2:    1  ->  ball ==> bull
+   3:    1  ->  but ==> the
+   4:    1  ->  buying ==> by
+   5:    1  ->  called ==> run
+   6:    1  ->  cinders ==> has
+   7:    1  ->  divine ==> define
+   8:    1  ->  dreamed ==> range
+   9:    1  ->  everyone ==> temple
+  10:    1  ->  find ==> by
+  11:    1  ->  got ==> go
+  12:    1  ->  gowns ==> games
+  13:    1  ->  gowns ==> hadn't
+  14:    1  ->  had ==> have
+  15:    1  ->  hairbrushes ==> hair
+  16:    1  ->  hairpins ==> pins
+  17:    1  ->  her ==> cold
+  18:    1  ->  howled ==> how
+  19:    1  ->  jewels ==> joules
+  20:    1  ->  lily ==> lilley
+  21:    1  ->  lily ==> the
+  22:    1  ->  lived ==> live
+  23:    1  ->  messenger ==> message
+  24:    1  ->  poor ==> for
+  25:    1  ->  royal ==> i'll
+  26:    1  ->  sisters ==> sister's
+  27:    1  ->  their ==> the
+  28:    1  ->  they ==> date
+  29:    1  ->  yelled ==> girls
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  bride
+   4:    1  ->  enough
+   5:    1  ->  girls
+   6:    1  ->  had
+   7:    1  ->  lazy
+   8:    1  ->  lily
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  gowns
+   2:    2  ->  lily
+   3:    1  ->  and
+   4:    1  ->  ball
+   5:    1  ->  but
+   6:    1  ->  buying
+   7:    1  ->  called
+   8:    1  ->  cinders
+   9:    1  ->  divine
+  10:    1  ->  dreamed
+  11:    1  ->  everyone
+  12:    1  ->  find
+  13:    1  ->  got
+  14:    1  ->  had
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  her
+  18:    1  ->  howled
+  19:    1  ->  jewels
+  20:    1  ->  lived
+  21:    1  ->  messenger
+  22:    1  ->  poor
+  23:    1  ->  royal
+  24:    1  ->  sisters
+  25:    1  ->  their
+  26:    1  ->  they
+  27:    1  ->  yelled
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  the
+   2:    2  ->  by
+   3:    1  ->  bull
+   4:    1  ->  cold
+   5:    1  ->  date
+   6:    1  ->  define
+   7:    1  ->  for
+   8:    1  ->  games
+   9:    1  ->  girls
+  10:    1  ->  go
+  11:    1  ->  hadn't
+  12:    1  ->  hair
+  13:    1  ->  has
+  14:    1  ->  have
+  15:    1  ->  how
+  16:    1  ->  i'll
+  17:    1  ->  joules
+  18:    1  ->  leyton
+  19:    1  ->  lilley
+  20:    1  ->  live
+  21:    1  ->  message
+  22:    1  ->  pins
+  23:    1  ->  range
+  24:    1  ->  run
+  25:    1  ->  sister's
+  26:    1  ->  temple
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

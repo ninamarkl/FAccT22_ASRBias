@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\n-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-m4_01)
+Scores: (#C #S #D #I) 139 30 10 6
+REF:  once upon a time there was a girl called cinderella but everyone called her CINDERS cinders LIVED with her mother and two stepsisters called lily and rosa LILY AND rosa were very unfriendly and they were lazy girls they spent all their time BUYING new clothes AND going to parties POOR CINDERS HAD TO   WEAR     all THEIR old hand me downs and she HAD TO do the cleaning one day a royal messenger came ** **** TO ANNOUNCE A   ball the ball would be held at the royal palace in honour of the queen's only son prince william lily and **** ROSA thought this was divine prince william was gorgeous and he was looking for ****** a BRIDE THEY DREAMED of wedding bells WHEN the evening of the ball arrived cinders HAD  to help her SISTERS  get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but their mother said THAT THEY had enough GOWNS so they started SHOUTING at CINDERS find my JEWELS YELLED ONE   find my HAT HOWLED THE  OTHER they wanted **** ******* HAIRBRUSHES HAIRPINS 
+HYP:  once upon a time there was a girl called cinderella but everyone called her SIMNAS  cinders LIVES with her mother and two stepsisters called lily and rosa **** *** rosa were very unfriendly and they were lazy girls they spent all their time BY     new clothes I'M going to parties **** PLUS    SIM DOES HATHAWAY all THE   old hand me downs and she *** ** do the cleaning one day a royal messenger came IN WHEN I  WAS      THE ball the ball would be held at the royal palace in honour of the queen's only son prince william lily and ROSE I    thought this was divine prince william was gorgeous and he was looking for BRAIDS a ***** **** DREAM   of wedding bells ON   the evening of the ball arrived cinders HAVE to help her SISTER'S get ready they were in a bad mood THEY   wanted to buy some new GUNS  but their mother said **** HE   had enough GUNS  so they started SHOWING  at SENDERS find my ****** DUAL   ZLONE find my *** HEART  HELL THAT  they wanted HAIR BRUSHES HAIR        PINS     
+Eval:                                                                             S               S                                                              D    D                                                                                S                  S                    D    S       S   S    S            S                               D   D                                                 I  I    S  S        S                                                                                                             I    S                                                                               I        D     D    S                        S                                            S                S                                          S                             S                           D    S               S                     S           S               D      S      S             D   S      S    S                 I    I       S           S        
+
+>> REF:  and hairspray 
+>> HYP:  and hairspray 
+>> Eval:               
+
+

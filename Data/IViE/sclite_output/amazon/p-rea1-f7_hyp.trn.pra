@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\p-rea1-f7_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-f7_01)
+Scores: (#C #S #D #I) 148 26 8 2
+REF:  once upon a time there was a girl CALLED cinderella but everyone CALLED HER   cinders cinders lived with her mother and two **** **** STEPSISTERS called lily and rosa LILY AND ROSA    WERE VERY UNFRIENDLY and they were lazy girls they spent all THEIR time BUYING new clothes and going to parties poor CINDERS had to wear all their old hand me downs and she had to do the cleaning one day a royal messenger came to announce A   ball the ball would be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought this was DI ER divine PRINCE WILLIAM     was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the BELL ball arrived CINDERS had to help her sisters get ready THEY WERE    in a bad mood THEY'D wanted to buy some new GOWNS but their mother said that they had enough gowns so THEY STARTED SHOUTING AT cinders find my jewels yelled one find my HAT   HOWLED the other they wanted hairbrushes HAIRPINS and hairspray 
+HYP:  once upon a time there was a girl CAUSE  cinderella but everyone ****** CALLS cinders cinders lived with her mother and two STEP STEP SISTERS     called lily and rosa **** *** LILLIAN ROSE ONE  FRIENDLY   and they were lazy girls they spent all THAT  time BUY    new clothes and going to parties poor SENIORS had to wear all their old hand me downs and she had to do the cleaning one day a royal messenger came to announce THE ball the ball would be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSE I    thought this was ** ** divine ****** PRINCIPALLY was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the **** ball arrived SINGERS had to help her sisters get ready **** THEY'RE in a bad mood THEY   wanted to buy some new GUNS  but their mother said that they had enough gowns so THE  STEIN   SHARING  A  cinders find my jewels yelled one find my HEART HOW    the other they wanted hairbrushes HAPPENS  and hairspray 
+Eval:                                   S                              D      S                                                   I    I    S                                D    D   S       S    S    S                                                  S          S                                            S                                                                                                                         S                                                                                                    S       S    S                     D  D         D      S                                                                                                             D                 S                                         D    S                     S                             S                                                         S    S       S        S                                            S     S                                        S                      
+
+

@@ -1,0 +1,128 @@
+SCORING FOR SPEAKER: saa
+     of hindi\hindi4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   79.7%   (  55)
+
+Percent Correct           =   20.3%   (  14)
+
+Percent Substitution      =    5.8%   (   4)
+Percent Deletions         =   73.9%   (  51)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   20.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  18)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  frog ==> toys
+   2:    1  ->  of ==> 56
+   3:    1  ->  scoop ==> scuba
+   4:    1  ->  train ==> 3d
+     -------
+         4
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    4  ->  her
+   2:    3  ->  a
+   3:    3  ->  and
+   4:    2  ->  the
+   5:    2  ->  we
+   6:    1  ->  3
+   7:    1  ->  5
+   8:    1  ->  6
+   9:    1  ->  also
+  10:    1  ->  ask
+  11:    1  ->  at
+  12:    1  ->  bags
+  13:    1  ->  big
+  14:    1  ->  bob
+  15:    1  ->  bring
+  16:    1  ->  brother
+  17:    1  ->  call
+  18:    1  ->  for
+  19:    1  ->  from
+  20:    1  ->  go
+  21:    1  ->  maybe
+  22:    1  ->  meet
+  23:    1  ->  need
+  24:    1  ->  of
+  25:    1  ->  plastic
+  26:    1  ->  please
+  27:    1  ->  red
+  28:    1  ->  slabs
+  29:    1  ->  small
+  30:    1  ->  snack
+  31:    1  ->  snake
+  32:    1  ->  spoons
+  33:    1  ->  stella
+  34:    1  ->  store
+  35:    1  ->  these
+  36:    1  ->  thick
+  37:    1  ->  things
+  38:    1  ->  to
+  39:    1  ->  toy
+  40:    1  ->  wednesday
+  41:    1  ->  will
+  42:    1  ->  with
+     -------
+        51
+
+
+
+SUBSTITUTIONS                    Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  frog
+   2:    1  ->  of
+   3:    1  ->  scoop
+   4:    1  ->  train
+     -------
+         4
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  3d
+   2:    1  ->  56
+   3:    1  ->  scuba
+   4:    1  ->  toys
+     -------
+         4
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

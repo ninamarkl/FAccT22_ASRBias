@@ -1,0 +1,133 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\french\french4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  73)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  bob ==> above
+   3:    1  ->  brother ==> bread
+   4:    1  ->  call ==> costel
+   5:    1  ->  can ==> come
+   6:    1  ->  her ==> a
+   7:    1  ->  of ==> off
+   8:    1  ->  of ==> or
+   9:    1  ->  peas ==> piece
+  10:    1  ->  slabs ==> slaps
+  11:    1  ->  snow ==> new
+  12:    1  ->  spoons ==> moon
+  13:    1  ->  stella ==> er
+  14:    1  ->  these ==> this
+  15:    1  ->  thick ==> tick
+  16:    1  ->  things ==> think
+  17:    1  ->  three ==> through
+  18:    1  ->  toy ==> tree
+  19:    1  ->  we ==> you
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  it's
+   2:    1  ->  more
+   3:    1  ->  plastic
+   4:    1  ->  priest
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  bob
+   4:    1  ->  brother
+   5:    1  ->  call
+   6:    1  ->  can
+   7:    1  ->  her
+   8:    1  ->  peas
+   9:    1  ->  slabs
+  10:    1  ->  snow
+  11:    1  ->  spoons
+  12:    1  ->  stella
+  13:    1  ->  these
+  14:    1  ->  thick
+  15:    1  ->  things
+  16:    1  ->  three
+  17:    1  ->  toy
+  18:    1  ->  we
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  a
+   2:    1  ->  above
+   3:    1  ->  bread
+   4:    1  ->  come
+   5:    1  ->  costel
+   6:    1  ->  er
+   7:    1  ->  moon
+   8:    1  ->  new
+   9:    1  ->  off
+  10:    1  ->  or
+  11:    1  ->  piece
+  12:    1  ->  slaps
+  13:    1  ->  the
+  14:    1  ->  think
+  15:    1  ->  this
+  16:    1  ->  through
+  17:    1  ->  tick
+  18:    1  ->  tree
+  19:    1  ->  you
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

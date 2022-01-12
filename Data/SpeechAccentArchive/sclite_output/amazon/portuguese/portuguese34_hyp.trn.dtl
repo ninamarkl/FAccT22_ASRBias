@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\portuguese\portuguese34_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  ask ==> as
+   2:    1  ->  bags ==> banks
+   3:    1  ->  blue ==> off
+   4:    1  ->  bob ==> bought
+   5:    1  ->  can ==> can't
+   6:    1  ->  cheese ==> guccis
+   7:    1  ->  her ==> hard
+   8:    1  ->  her ==> wither
+   9:    1  ->  meet ==> me
+  10:    1  ->  of ==> lives
+  11:    1  ->  scoop ==> secure
+  12:    1  ->  slabs ==> six
+  13:    1  ->  snack ==> snake
+  14:    1  ->  spoons ==> £six
+  15:    1  ->  stella ==> still
+  16:    1  ->  these ==> this
+  17:    1  ->  thick ==> fight
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  five
+   2:    1  ->  six
+   3:    1  ->  with
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  her
+   2:    1  ->  ask
+   3:    1  ->  bags
+   4:    1  ->  blue
+   5:    1  ->  bob
+   6:    1  ->  can
+   7:    1  ->  cheese
+   8:    1  ->  meet
+   9:    1  ->  of
+  10:    1  ->  scoop
+  11:    1  ->  slabs
+  12:    1  ->  snack
+  13:    1  ->  spoons
+  14:    1  ->  stella
+  15:    1  ->  these
+  16:    1  ->  thick
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  as
+   2:    1  ->  banks
+   3:    1  ->  bought
+   4:    1  ->  can't
+   5:    1  ->  fight
+   6:    1  ->  guccis
+   7:    1  ->  hard
+   8:    1  ->  lives
+   9:    1  ->  me
+  10:    1  ->  off
+  11:    1  ->  secure
+  12:    1  ->  six
+  13:    1  ->  snake
+  14:    1  ->  still
+  15:    1  ->  this
+  16:    1  ->  wither
+  17:    1  ->  £six
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

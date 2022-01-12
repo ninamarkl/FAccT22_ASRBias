@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic26_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  these ==> those
+   2:    1  ->  3 ==> three
+   3:    1  ->  5 ==> fight
+   4:    1  ->  a ==> is
+   5:    1  ->  bags ==> back
+   6:    1  ->  bob ==> but
+   7:    1  ->  frog ==> her
+   8:    1  ->  peas ==> please
+   9:    1  ->  slabs ==> slab
+  10:    1  ->  snack ==> not
+  11:    1  ->  snake ==> snack
+  12:    1  ->  spoons ==> tonne
+  13:    1  ->  thick ==> deck
+  14:    1  ->  things ==> thing
+  15:    1  ->  toy ==> for
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  france
+   2:    1  ->  the
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  her
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  these
+   2:    1  ->  3
+   3:    1  ->  5
+   4:    1  ->  a
+   5:    1  ->  bags
+   6:    1  ->  bob
+   7:    1  ->  frog
+   8:    1  ->  peas
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  snake
+  12:    1  ->  spoons
+  13:    1  ->  thick
+  14:    1  ->  things
+  15:    1  ->  toy
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  those
+   2:    1  ->  back
+   3:    1  ->  but
+   4:    1  ->  deck
+   5:    1  ->  fight
+   6:    1  ->  for
+   7:    1  ->  her
+   8:    1  ->  is
+   9:    1  ->  not
+  10:    1  ->  please
+  11:    1  ->  slab
+  12:    1  ->  snack
+  13:    1  ->  thing
+  14:    1  ->  three
+  15:    1  ->  tonne
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

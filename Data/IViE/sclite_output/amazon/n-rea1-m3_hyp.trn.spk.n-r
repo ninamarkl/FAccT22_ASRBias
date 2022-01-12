@@ -1,0 +1,136 @@
+SCORING FOR SPEAKER: n-r
+     of amazon\n-rea1-m3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.4%   (  26)
+
+Percent Correct           =   87.2%   ( 157)
+
+Percent Substitution      =   11.1%   (  20)
+Percent Deletions         =    1.7%   (   3)
+Percent Insertions        =    1.7%   (   3)
+Percent Word Accuracy     =   85.6%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 180)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  but ==> whatever
+   3:    1  ->  called ==> want
+   4:    1  ->  cinders ==> this
+   5:    1  ->  cinders ==> to
+   6:    1  ->  cinders ==> tracinda's
+   7:    1  ->  dreamed ==> they're
+   8:    1  ->  everyone ==> you
+   9:    1  ->  gowns ==> gallons
+  10:    1  ->  hairspray ==> history
+  11:    1  ->  hand ==> the
+  12:    1  ->  her ==> call
+  13:    1  ->  howled ==> held
+  14:    1  ->  lily ==> elia
+  15:    1  ->  lily ==> millie
+  16:    1  ->  of ==> doomed
+  17:    1  ->  one ==> on
+  18:    1  ->  poor ==> in
+  19:    1  ->  rosa ==> i
+  20:    1  ->  they'd ==> they
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  cindy's
+   2:    1  ->  plus
+   3:    1  ->  rose
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  sep
+   2:    1  ->  their
+   3:    1  ->  they
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  cinders
+   2:    2  ->  lily
+   3:    1  ->  and
+   4:    1  ->  but
+   5:    1  ->  called
+   6:    1  ->  dreamed
+   7:    1  ->  everyone
+   8:    1  ->  gowns
+   9:    1  ->  hairspray
+  10:    1  ->  hand
+  11:    1  ->  her
+  12:    1  ->  howled
+  13:    1  ->  of
+  14:    1  ->  one
+  15:    1  ->  poor
+  16:    1  ->  rosa
+  17:    1  ->  they'd
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  in
+   2:    1  ->  call
+   3:    1  ->  doomed
+   4:    1  ->  elia
+   5:    1  ->  gallons
+   6:    1  ->  held
+   7:    1  ->  history
+   8:    1  ->  i
+   9:    1  ->  millie
+  10:    1  ->  on
+  11:    1  ->  the
+  12:    1  ->  they
+  13:    1  ->  they're
+  14:    1  ->  this
+  15:    1  ->  to
+  16:    1  ->  tracinda's
+  17:    1  ->  want
+  18:    1  ->  whatever
+  19:    1  ->  you
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

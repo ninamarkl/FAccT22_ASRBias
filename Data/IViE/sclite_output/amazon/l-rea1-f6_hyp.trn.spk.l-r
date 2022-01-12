@@ -1,0 +1,124 @@
+SCORING FOR SPEAKER: l-r
+     of amazon\l-rea1-f6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.2%   (  25)
+
+Percent Correct           =   87.3%   ( 165)
+
+Percent Substitution      =    7.9%   (  15)
+Percent Deletions         =    4.8%   (   9)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =   86.8%
+
+
+Ref. words                =           ( 189)
+Hyp. words                =           ( 181)
+Aligned words             =           ( 190)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  and ==> lillian
+   2:    1  ->  and ==> rose
+   3:    1  ->  cinders ==> passengers
+   4:    1  ->  gowns ==> ground
+   5:    1  ->  honour ==> one
+   6:    1  ->  howled ==> held
+   7:    1  ->  lily ==> lillian
+   8:    1  ->  rosa ==> i
+   9:    1  ->  rosa ==> rose
+  10:    1  ->  she ==> to
+  11:    1  ->  started ==> south
+  12:    1  ->  stepsisters ==> sisters
+  13:    1  ->  they ==> the
+  14:    1  ->  they'd ==> they
+  15:    1  ->  would ==> will
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  step
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  and
+   2:    1  ->  all
+   3:    1  ->  lily
+   4:    1  ->  look
+   5:    1  ->  poor
+   6:    1  ->  that
+   7:    1  ->  would
+   8:    1  ->  yell
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and
+   2:    2  ->  rosa
+   3:    1  ->  cinders
+   4:    1  ->  gowns
+   5:    1  ->  honour
+   6:    1  ->  howled
+   7:    1  ->  lily
+   8:    1  ->  she
+   9:    1  ->  started
+  10:    1  ->  stepsisters
+  11:    1  ->  they
+  12:    1  ->  they'd
+  13:    1  ->  would
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  lillian
+   2:    2  ->  rose
+   3:    1  ->  ground
+   4:    1  ->  held
+   5:    1  ->  i
+   6:    1  ->  one
+   7:    1  ->  passengers
+   8:    1  ->  sisters
+   9:    1  ->  south
+  10:    1  ->  the
+  11:    1  ->  they
+  12:    1  ->  to
+  13:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

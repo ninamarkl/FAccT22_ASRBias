@@ -1,0 +1,103 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\german\german31_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a ==> best
+   2:    1  ->  frog ==> from
+   3:    1  ->  her ==> a
+   4:    1  ->  her ==> mito
+   5:    1  ->  maybe ==> my
+   6:    1  ->  red ==> throughout
+   7:    1  ->  station ==> stitch
+   8:    1  ->  we ==> you
+   9:    1  ->  will ==> would
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  and
+   2:    1  ->  meet
+   3:    1  ->  three
+   4:    1  ->  we
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  her
+   2:    1  ->  a
+   3:    1  ->  frog
+   4:    1  ->  maybe
+   5:    1  ->  red
+   6:    1  ->  station
+   7:    1  ->  we
+   8:    1  ->  will
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  best
+   3:    1  ->  from
+   4:    1  ->  mito
+   5:    1  ->  my
+   6:    1  ->  stitch
+   7:    1  ->  throughout
+   8:    1  ->  would
+   9:    1  ->  you
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,143 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\italian\italian17_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.0%   (  29)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   31.9%   (  22)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   58.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a ==> as
+   2:    1  ->  a ==> us
+   3:    1  ->  and ==> in
+   4:    1  ->  ask ==> has
+   5:    1  ->  call ==> police
+   6:    1  ->  her ==> it
+   7:    1  ->  her ==> metre
+   8:    1  ->  her ==> scared
+   9:    1  ->  of ==> off
+  10:    1  ->  of ==> ofthe
+  11:    1  ->  peas ==> peace
+  12:    1  ->  slabs ==> laps
+  13:    1  ->  small ==> more
+  14:    1  ->  snack ==> nickel
+  15:    1  ->  snow ==> no
+  16:    1  ->  spoons ==> points
+  17:    1  ->  stella ==> coastal
+  18:    1  ->  these ==> thing
+  19:    1  ->  thick ==> his
+  20:    1  ->  things ==> so
+  21:    1  ->  will ==> would
+  22:    1  ->  with ==> without
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  is
+   3:    1  ->  of
+   4:    1  ->  take
+   5:    1  ->  this
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  meet
+   2:    1  ->  please
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  her
+   2:    2  ->  a
+   3:    2  ->  of
+   4:    1  ->  and
+   5:    1  ->  ask
+   6:    1  ->  call
+   7:    1  ->  peas
+   8:    1  ->  slabs
+   9:    1  ->  small
+  10:    1  ->  snack
+  11:    1  ->  snow
+  12:    1  ->  spoons
+  13:    1  ->  stella
+  14:    1  ->  these
+  15:    1  ->  thick
+  16:    1  ->  things
+  17:    1  ->  will
+  18:    1  ->  with
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  as
+   2:    1  ->  coastal
+   3:    1  ->  has
+   4:    1  ->  his
+   5:    1  ->  in
+   6:    1  ->  it
+   7:    1  ->  laps
+   8:    1  ->  metre
+   9:    1  ->  more
+  10:    1  ->  nickel
+  11:    1  ->  no
+  12:    1  ->  off
+  13:    1  ->  ofthe
+  14:    1  ->  peace
+  15:    1  ->  points
+  16:    1  ->  police
+  17:    1  ->  scared
+  18:    1  ->  so
+  19:    1  ->  thing
+  20:    1  ->  us
+  21:    1  ->  without
+  22:    1  ->  would
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

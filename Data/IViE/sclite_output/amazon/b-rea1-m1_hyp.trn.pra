@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\b-rea1-m1_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-m1_01)
+Scores: (#C #S #D #I) 152 21 7 3
+REF:  once upon a time there was a girl called cinderella but everyone called her CINDERS cinders lived with her mother and two **** STEPSISTERS called lily and rosa LILY AND     rosa were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties POOR CINDERS    had to wear all their old HAND ME DOWNS AND she had to do the cleaning one day a royal messenger came to announce a ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND     rosa thought this was divine prince william was gorgeous and he was looking for a BRIDE they dreamed of wedding bells when the evening of the ball arrived CINDERS had to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new gowns but their mother said THAT they had had enough GOWNS so they started SHOUTING AT  CINDERS find my jewels YELLED one find my HAT HOWLED THE  other they wanted *** ******* HAIRBRUSHES HAIRPINS and HAIRSPRAY  
+HYP:  once upon a time there was a girl called cinderella but everyone called her SENDERS cinders lived with her mother and two STEP SISTERS     called lily and rosa **** LILLIAN rosa were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties **** PERCENTERS had to wear all their old **** ** HAMID OUT she had to do the cleaning one day a royal messenger came to announce a ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** LILLIAN rosa thought this was divine prince william was gorgeous and he was looking for a BREAD they dreamed of wedding bells when the evening of the ball arrived SENDERS had to help her sisters get ready they were in a bad mood THEY   wanted to buy some new gowns but their mother said **** they had had enough GUNS  so they started SHOOTING THE SENDERS find my jewels GOLD   one find my *** HAND   HOLY other they wanted HER BRUSHES HER         PINS     and HEARTBREAK 
+Eval:                                                                             S                                             I    S                                D    S                                                                                                                            D    S                                    D    D  S     S                                                                                         S                                                                                  D    S                                                                                         S                                                                        S                                                                 S                                                         D                        S                     S        S   S                      S                  D   S      S                      I   I       S           S            S          
+
+

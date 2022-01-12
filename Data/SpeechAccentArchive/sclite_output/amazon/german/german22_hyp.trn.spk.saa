@@ -1,0 +1,113 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\german\german22_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  ask ==> as
+   2:    1  ->  bob ==> buck
+   3:    1  ->  call ==> cost
+   4:    1  ->  cheese ==> tees
+   5:    1  ->  five ==> peace
+   6:    1  ->  her ==> for
+   7:    1  ->  red ==> brad
+   8:    1  ->  stella ==> ella
+   9:    1  ->  these ==> thes
+  10:    1  ->  thick ==> fight
+  11:    1  ->  toy ==> thai
+  12:    1  ->  wednesday ==> stay
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  peas
+   2:    1  ->  the
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  ask
+   2:    1  ->  bob
+   3:    1  ->  call
+   4:    1  ->  cheese
+   5:    1  ->  five
+   6:    1  ->  her
+   7:    1  ->  red
+   8:    1  ->  stella
+   9:    1  ->  these
+  10:    1  ->  thick
+  11:    1  ->  toy
+  12:    1  ->  wednesday
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  as
+   2:    1  ->  brad
+   3:    1  ->  buck
+   4:    1  ->  cost
+   5:    1  ->  ella
+   6:    1  ->  fight
+   7:    1  ->  for
+   8:    1  ->  peace
+   9:    1  ->  stay
+  10:    1  ->  tees
+  11:    1  ->  thai
+  12:    1  ->  thes
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

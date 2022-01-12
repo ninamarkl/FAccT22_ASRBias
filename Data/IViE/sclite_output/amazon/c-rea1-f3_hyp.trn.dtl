@@ -1,0 +1,114 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\c-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.2%   (  20)
+
+Percent Correct           =   89.9%   ( 160)
+
+Percent Substitution      =    7.3%   (  13)
+Percent Deletions         =    2.8%   (   5)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   88.8%
+
+
+Ref. words                =           ( 178)
+Hyp. words                =           ( 175)
+Aligned words             =           ( 180)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  and ==> lillian
+   2:    1  ->  and ==> rose
+   3:    1  ->  ball ==> bull
+   4:    1  ->  cinders ==> cindy's
+   5:    1  ->  cinders ==> singers
+   6:    1  ->  honour ==> or
+   7:    1  ->  howled ==> held
+   8:    1  ->  lily ==> lillian
+   9:    1  ->  rosa ==> i
+  10:    1  ->  rosa ==> rose
+  11:    1  ->  stepsisters ==> sisters
+  12:    1  ->  they'd ==> they
+  13:    1  ->  was ==> william's
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  had
+   2:    1  ->  step
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  lily
+   3:    1  ->  so
+   4:    1  ->  that
+   5:    1  ->  william
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and
+   2:    2  ->  cinders
+   3:    2  ->  rosa
+   4:    1  ->  ball
+   5:    1  ->  honour
+   6:    1  ->  howled
+   7:    1  ->  lily
+   8:    1  ->  stepsisters
+   9:    1  ->  they'd
+  10:    1  ->  was
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  lillian
+   2:    2  ->  rose
+   3:    1  ->  bull
+   4:    1  ->  cindy's
+   5:    1  ->  held
+   6:    1  ->  i
+   7:    1  ->  or
+   8:    1  ->  singers
+   9:    1  ->  sisters
+  10:    1  ->  they
+  11:    1  ->  william's
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

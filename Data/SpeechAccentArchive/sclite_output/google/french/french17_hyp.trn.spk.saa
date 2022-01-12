@@ -1,0 +1,119 @@
+SCORING FOR SPEAKER: saa
+     of french\french17_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  also ==> still
+   2:    1  ->  bags ==> legs
+   3:    1  ->  bob ==> but
+   4:    1  ->  brother ==> grandma
+   5:    1  ->  her ==> a
+   6:    1  ->  of ==> 5th
+   7:    1  ->  snake ==> battery
+   8:    1  ->  these ==> her
+   9:    1  ->  these ==> the
+  10:    1  ->  things ==> finch
+  11:    1  ->  things ==> home
+  12:    1  ->  we ==> we're
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  scenes
+   2:    1  ->  the
+   3:    1  ->  with
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  ask
+   4:    1  ->  go
+   5:    1  ->  her
+   6:    1  ->  plastic
+   7:    1  ->  slabs
+   8:    1  ->  thick
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  also
+   4:    1  ->  bags
+   5:    1  ->  bob
+   6:    1  ->  brother
+   7:    1  ->  her
+   8:    1  ->  of
+   9:    1  ->  snake
+  10:    1  ->  we
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  5th
+   2:    1  ->  a
+   3:    1  ->  battery
+   4:    1  ->  but
+   5:    1  ->  finch
+   6:    1  ->  grandma
+   7:    1  ->  her
+   8:    1  ->  home
+   9:    1  ->  legs
+  10:    1  ->  still
+  11:    1  ->  the
+  12:    1  ->  we're
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

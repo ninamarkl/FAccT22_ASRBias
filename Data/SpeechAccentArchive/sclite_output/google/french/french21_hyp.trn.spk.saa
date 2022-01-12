@@ -1,0 +1,112 @@
+SCORING FOR SPEAKER: saa
+     of french\french21_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  3 ==> free
+   2:    1  ->  blue ==> 56
+   3:    1  ->  brother ==> present
+   4:    1  ->  cheese ==> liabilities
+   5:    1  ->  fresh ==> french
+   6:    1  ->  frog ==> from
+   7:    1  ->  scoop ==> school
+   8:    1  ->  snow ==> no
+   9:    1  ->  spoons ==> £6
+  10:    1  ->  toy ==> toe
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  for
+   4:    1  ->  her
+   5:    1  ->  of
+   6:    1  ->  slabs
+   7:    1  ->  snack
+   8:    1  ->  thick
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  3
+   2:    1  ->  blue
+   3:    1  ->  brother
+   4:    1  ->  cheese
+   5:    1  ->  fresh
+   6:    1  ->  frog
+   7:    1  ->  scoop
+   8:    1  ->  snow
+   9:    1  ->  spoons
+  10:    1  ->  toy
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  56
+   2:    1  ->  free
+   3:    1  ->  french
+   4:    1  ->  from
+   5:    1  ->  liabilities
+   6:    1  ->  no
+   7:    1  ->  present
+   8:    1  ->  school
+   9:    1  ->  toe
+  10:    1  ->  £6
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

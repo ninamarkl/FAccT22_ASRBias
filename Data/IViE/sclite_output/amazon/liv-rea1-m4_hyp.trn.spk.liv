@@ -1,0 +1,130 @@
+SCORING FOR SPEAKER: liv
+     of amazon\liv-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.7%   (  24)
+
+Percent Correct           =   87.8%   ( 166)
+
+Percent Substitution      =   11.1%   (  21)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =   87.3%
+
+
+Ref. words                =           ( 189)
+Hyp. words                =           ( 188)
+Aligned words             =           ( 190)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  her ==> their
+   2:    2  ->  would ==> will
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> rose
+   5:    1  ->  cinders ==> sanders
+   6:    1  ->  cinders ==> singers
+   7:    1  ->  her ==> his
+   8:    1  ->  honour ==> none
+   9:    1  ->  howled ==> heart
+  10:    1  ->  lily ==> lillian
+  11:    1  ->  lived ==> live
+  12:    1  ->  other ==> there
+  13:    1  ->  pal ==> palace
+  14:    1  ->  rosa ==> i
+  15:    1  ->  rosa ==> rossi
+  16:    1  ->  rosa ==> russia
+  17:    1  ->  stepsisters ==> sisters
+  18:    1  ->  the ==> you're
+  19:    1  ->  when ==> on
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  step
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  in
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  her
+   2:    3  ->  rosa
+   3:    2  ->  cinders
+   4:    2  ->  would
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  honour
+   8:    1  ->  howled
+   9:    1  ->  lily
+  10:    1  ->  lived
+  11:    1  ->  other
+  12:    1  ->  pal
+  13:    1  ->  stepsisters
+  14:    1  ->  the
+  15:    1  ->  when
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  their
+   2:    2  ->  will
+   3:    1  ->  heart
+   4:    1  ->  his
+   5:    1  ->  i
+   6:    1  ->  lillian
+   7:    1  ->  live
+   8:    1  ->  none
+   9:    1  ->  on
+  10:    1  ->  palace
+  11:    1  ->  rose
+  12:    1  ->  rossi
+  13:    1  ->  russia
+  14:    1  ->  sanders
+  15:    1  ->  singers
+  16:    1  ->  sisters
+  17:    1  ->  the
+  18:    1  ->  there
+  19:    1  ->  you're
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

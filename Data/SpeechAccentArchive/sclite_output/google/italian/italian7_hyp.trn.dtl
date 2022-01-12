@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: italian\italian7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> wilson
+   2:    1  ->  for ==> not
+   3:    1  ->  frog ==> truck
+   4:    1  ->  meet ==> me
+   5:    1  ->  of ==> with
+   6:    1  ->  red ==> lad
+   7:    1  ->  scoop ==> cope
+   8:    1  ->  slabs ==> lamps
+   9:    1  ->  snack ==> it's
+  10:    1  ->  spoons ==> pounds
+  11:    1  ->  thick ==> 56
+  12:    1  ->  will ==> would
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  at
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  also
+   4:    1  ->  need
+   5:    1  ->  we
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  for
+   3:    1  ->  frog
+   4:    1  ->  meet
+   5:    1  ->  of
+   6:    1  ->  red
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  snack
+  10:    1  ->  spoons
+  11:    1  ->  thick
+  12:    1  ->  will
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  56
+   2:    1  ->  cope
+   3:    1  ->  it's
+   4:    1  ->  lad
+   5:    1  ->  lamps
+   6:    1  ->  me
+   7:    1  ->  not
+   8:    1  ->  pounds
+   9:    1  ->  truck
+  10:    1  ->  wilson
+  11:    1  ->  with
+  12:    1  ->  would
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

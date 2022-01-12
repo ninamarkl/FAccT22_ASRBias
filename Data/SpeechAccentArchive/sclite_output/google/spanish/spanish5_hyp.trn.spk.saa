@@ -1,0 +1,107 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =   10.1%   (   7)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  76)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  bob ==> but
+   2:    1  ->  can ==> chickens
+   3:    1  ->  of ==> up
+   4:    1  ->  scoop ==> cooked
+   5:    1  ->  slabs ==> labs
+   6:    1  ->  spoons ==> pounds
+   7:    1  ->  thick ==> 56
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  asked
+   2:    1  ->  bring
+   3:    1  ->  from
+   4:    1  ->  these
+   5:    1  ->  things
+   6:    1  ->  to
+   7:    1  ->  you
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  maybe
+   5:    1  ->  she
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  bob
+   2:    1  ->  can
+   3:    1  ->  of
+   4:    1  ->  scoop
+   5:    1  ->  slabs
+   6:    1  ->  spoons
+   7:    1  ->  thick
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  56
+   2:    1  ->  but
+   3:    1  ->  chickens
+   4:    1  ->  cooked
+   5:    1  ->  labs
+   6:    1  ->  pounds
+   7:    1  ->  up
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

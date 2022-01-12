@@ -1,0 +1,120 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\italian\italian14_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  blue ==> blow
+   3:    1  ->  call ==> called
+   4:    1  ->  cheese ==> chairs
+   5:    1  ->  five ==> piers
+   6:    1  ->  her ==> a
+   7:    1  ->  her ==> mitar
+   8:    1  ->  her ==> their
+   9:    1  ->  meet ==> get
+  10:    1  ->  please ==> place
+  11:    1  ->  slabs ==> laps
+  12:    1  ->  snake ==> leg
+  13:    1  ->  spoons ==> points
+  14:    1  ->  thick ==> fifty-six
+  15:    1  ->  to ==> herto
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  go
+   2:    1  ->  her
+   3:    1  ->  peas
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  her
+   2:    1  ->  a
+   3:    1  ->  blue
+   4:    1  ->  call
+   5:    1  ->  cheese
+   6:    1  ->  five
+   7:    1  ->  meet
+   8:    1  ->  please
+   9:    1  ->  slabs
+  10:    1  ->  snake
+  11:    1  ->  spoons
+  12:    1  ->  thick
+  13:    1  ->  to
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a
+   2:    1  ->  blow
+   3:    1  ->  called
+   4:    1  ->  chairs
+   5:    1  ->  fifty-six
+   6:    1  ->  get
+   7:    1  ->  herto
+   8:    1  ->  laps
+   9:    1  ->  leg
+  10:    1  ->  mitar
+  11:    1  ->  piers
+  12:    1  ->  place
+  13:    1  ->  points
+  14:    1  ->  the
+  15:    1  ->  their
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,114 @@
+SCORING FOR SPEAKER: d-r
+     of amazon\d-rea1-m6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  17)
+
+Percent Correct           =   91.3%   ( 167)
+
+Percent Substitution      =    7.7%   (  14)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 183)
+Hyp. words                =           ( 182)
+Aligned words             =           ( 184)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and ==> lillian
+   2:    1  ->  arrived ==> royal
+   3:    1  ->  dreamed ==> dream
+   4:    1  ->  find ==> follow
+   5:    1  ->  gowns ==> grounds
+   6:    1  ->  howled ==> held
+   7:    1  ->  jewels ==> joe's
+   8:    1  ->  of ==> their
+   9:    1  ->  poor ==> per
+  10:    1  ->  rosa ==> also
+  11:    1  ->  rosa ==> russell
+  12:    1  ->  they ==> i
+  13:    1  ->  would ==> will
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  a
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  lily
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  and
+   2:    2  ->  rosa
+   3:    1  ->  arrived
+   4:    1  ->  dreamed
+   5:    1  ->  find
+   6:    1  ->  gowns
+   7:    1  ->  howled
+   8:    1  ->  jewels
+   9:    1  ->  of
+  10:    1  ->  poor
+  11:    1  ->  they
+  12:    1  ->  would
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  lillian
+   2:    1  ->  also
+   3:    1  ->  dream
+   4:    1  ->  follow
+   5:    1  ->  grounds
+   6:    1  ->  held
+   7:    1  ->  i
+   8:    1  ->  joe's
+   9:    1  ->  per
+  10:    1  ->  royal
+  11:    1  ->  russell
+  12:    1  ->  their
+  13:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

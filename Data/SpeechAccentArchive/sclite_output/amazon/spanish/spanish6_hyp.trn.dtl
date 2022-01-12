@@ -1,0 +1,120 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  and ==> on
+   3:    1  ->  ask ==> i
+   4:    1  ->  bags ==> back
+   5:    1  ->  blue ==> off
+   6:    1  ->  bob ==> but
+   7:    1  ->  cheese ==> lucious
+   8:    1  ->  her ==> heard
+   9:    1  ->  of ==> oh
+  10:    1  ->  of ==> slaps
+  11:    1  ->  slabs ==> fifty-six
+  12:    1  ->  snack ==> not
+  13:    1  ->  spoons ==> bones
+  14:    1  ->  stella ==> still
+  15:    1  ->  thick ==> piece
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  it
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  five
+   2:    1  ->  peas
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  ask
+   5:    1  ->  bags
+   6:    1  ->  blue
+   7:    1  ->  bob
+   8:    1  ->  cheese
+   9:    1  ->  her
+  10:    1  ->  slabs
+  11:    1  ->  snack
+  12:    1  ->  spoons
+  13:    1  ->  stella
+  14:    1  ->  thick
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  back
+   2:    1  ->  bones
+   3:    1  ->  but
+   4:    1  ->  fifty-six
+   5:    1  ->  heard
+   6:    1  ->  i
+   7:    1  ->  it's
+   8:    1  ->  lucious
+   9:    1  ->  not
+  10:    1  ->  off
+  11:    1  ->  oh
+  12:    1  ->  on
+  13:    1  ->  piece
+  14:    1  ->  slaps
+  15:    1  ->  still
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

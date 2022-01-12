@@ -1,0 +1,158 @@
+SCORING FOR SPEAKER: p-r
+     of google\p-rea1-f1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.5%   (  39)
+
+Percent Correct           =   79.6%   ( 144)
+
+Percent Substitution      =   14.9%   (  27)
+Percent Deletions         =    5.5%   (  10)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   78.5%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 173)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  a ==> the
+   3:    1  ->  arrived ==> polarized
+   4:    1  ->  buying ==> by
+   5:    1  ->  called ==> call
+   6:    1  ->  cinders ==> does
+   7:    1  ->  gowns ==> guns
+   8:    1  ->  had ==> have
+   9:    1  ->  hairbrushes ==> hair
+  10:    1  ->  hairpins ==> pins
+  11:    1  ->  he ==> you
+  12:    1  ->  her ==> are
+  13:    1  ->  howled ==> how
+  14:    1  ->  lily ==> lilley
+  15:    1  ->  one ==> ydone
+  16:    1  ->  poor ==> passing
+  17:    1  ->  rosa ==> rosie
+  18:    1  ->  royal ==> all
+  19:    1  ->  sisters ==> assistance
+  20:    1  ->  spent ==> spend
+  21:    1  ->  they ==> clowns
+  22:    1  ->  they ==> the
+  23:    1  ->  they ==> to
+  24:    1  ->  they'd ==> they
+  25:    1  ->  would ==> will
+  26:    1  ->  yelled ==> jules
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  a
+   2:    2  ->  ball
+   3:    1  ->  girls
+   4:    1  ->  gowns
+   5:    1  ->  her
+   6:    1  ->  hon
+   7:    1  ->  jewels
+   8:    1  ->  so
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    3  ->  they
+   2:    2  ->  their
+   3:    1  ->  a
+   4:    1  ->  arrived
+   5:    1  ->  buying
+   6:    1  ->  called
+   7:    1  ->  cinders
+   8:    1  ->  gowns
+   9:    1  ->  had
+  10:    1  ->  hairbrushes
+  11:    1  ->  hairpins
+  12:    1  ->  he
+  13:    1  ->  her
+  14:    1  ->  howled
+  15:    1  ->  lily
+  16:    1  ->  one
+  17:    1  ->  poor
+  18:    1  ->  rosa
+  19:    1  ->  royal
+  20:    1  ->  sisters
+  21:    1  ->  spent
+  22:    1  ->  they'd
+  23:    1  ->  would
+  24:    1  ->  yelled
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  the
+   2:    1  ->  all
+   3:    1  ->  are
+   4:    1  ->  assistance
+   5:    1  ->  by
+   6:    1  ->  call
+   7:    1  ->  clowns
+   8:    1  ->  does
+   9:    1  ->  guns
+  10:    1  ->  hair
+  11:    1  ->  have
+  12:    1  ->  how
+  13:    1  ->  jules
+  14:    1  ->  lilley
+  15:    1  ->  passing
+  16:    1  ->  pins
+  17:    1  ->  polarized
+  18:    1  ->  rosie
+  19:    1  ->  spend
+  20:    1  ->  they
+  21:    1  ->  to
+  22:    1  ->  will
+  23:    1  ->  ydone
+  24:    1  ->  you
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\thai\thai9_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  and ==> in
+   3:    1  ->  blue ==> pablo
+   4:    1  ->  cheese ==> sheets
+   5:    1  ->  frog ==> all
+   6:    1  ->  her ==> as
+   7:    1  ->  of ==> lot
+   8:    1  ->  slabs ==> a
+   9:    1  ->  snack ==> snap
+  10:    1  ->  snake ==> staying
+  11:    1  ->  thick ==> takes
+  12:    1  ->  to ==> had
+  13:    1  ->  we ==> you
+  14:    1  ->  will ==> we'll
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  for
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  ask
+   2:    1  ->  we
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  these
+   2:    1  ->  and
+   3:    1  ->  blue
+   4:    1  ->  cheese
+   5:    1  ->  frog
+   6:    1  ->  her
+   7:    1  ->  of
+   8:    1  ->  slabs
+   9:    1  ->  snack
+  10:    1  ->  snake
+  11:    1  ->  thick
+  12:    1  ->  to
+  13:    1  ->  we
+  14:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  this
+   2:    1  ->  a
+   3:    1  ->  all
+   4:    1  ->  as
+   5:    1  ->  had
+   6:    1  ->  in
+   7:    1  ->  lot
+   8:    1  ->  pablo
+   9:    1  ->  sheets
+  10:    1  ->  snap
+  11:    1  ->  staying
+  12:    1  ->  takes
+  13:    1  ->  we'll
+  14:    1  ->  you
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

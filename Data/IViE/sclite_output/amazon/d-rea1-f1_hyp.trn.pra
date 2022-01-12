@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\d-rea1-f1_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-f1_01)
+Scores: (#C #S #D #I) 163 16 4 3
+REF:  once upon a time there was a little girl called cinderella but everyone called her cinders CINDERS lived with her mother and two ** TE   STEPSISTERS called lily and rosa LILY AND     ROSA were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties poor CINDERS had to wear all their old hand me DOWNS and she had to do the cleaning one day a royal messenger came to announce A   BALL the ball would be held at the royal palace in honour of the queen's only son prince william LILY AND     rosa thought this was A this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CINDERS had helped her ******** SISTERS get ready they were in a bad mood THEY'D wanted to buy some new gowns but their mother said THAT they had enough GOWNS so they started shouting at cinders find my jewels *** YELLED one find my hat HOWLED the other they wanted hairbrushes 
+HYP:  once upon a time there was a little girl called cinderella but everyone called her cinders SINGERS lived with her mother and two TO STEP SISTERS     called lily and rosa **** LILLIAN ROSE were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties poor SINGERS had to wear all their old hand me DANCE and she had to do the cleaning one day a royal messenger came to announce THE WALL the ball would be held at the royal palace in honour of the queen's only son prince william **** LILLIAN rosa thought this was * this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived SINGERS had helped her SISTER'S TO      get ready they were in a bad mood THEY   wanted to buy some new gowns but their mother said **** they had enough GUNS  so they started shouting at cinders find my jewels THE OTHER  one find my hat OUT    the other they wanted hairbrushes 
+Eval:                                                                                            S                                     I  S    S                                D    S       S                                                                                                                         S                                         S                                                                               S   S                                                                                                D    S                             D                                                                                                                                               S                      I        S                                         S                                                         D                    S                                                        I   S                      S                                        
+
+>> REF:  hairpins and hairspray 
+>> HYP:  hairpins and hairspray 
+>> Eval:                        
+
+

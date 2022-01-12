@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic41_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  big ==> bigger
+   2:    1  ->  blue ==> wood
+   3:    1  ->  bob ==> what
+   4:    1  ->  fresh ==> british
+   5:    1  ->  peas ==> in
+   6:    1  ->  red ==> create
+   7:    1  ->  snake ==> snack
+   8:    1  ->  spoons ==> forms
+   9:    1  ->  train ==> front
+  10:    1  ->  wednesday ==> staying
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  to
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  3
+   2:    1  ->  frog
+   3:    1  ->  thick
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  big
+   2:    1  ->  blue
+   3:    1  ->  bob
+   4:    1  ->  fresh
+   5:    1  ->  peas
+   6:    1  ->  red
+   7:    1  ->  snake
+   8:    1  ->  spoons
+   9:    1  ->  train
+  10:    1  ->  wednesday
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  bigger
+   2:    1  ->  british
+   3:    1  ->  create
+   4:    1  ->  forms
+   5:    1  ->  front
+   6:    1  ->  in
+   7:    1  ->  snack
+   8:    1  ->  staying
+   9:    1  ->  what
+  10:    1  ->  wood
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

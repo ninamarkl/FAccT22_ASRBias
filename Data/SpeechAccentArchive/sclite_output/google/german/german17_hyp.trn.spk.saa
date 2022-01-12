@@ -1,0 +1,117 @@
+SCORING FOR SPEAKER: saa
+     of german\german17_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =   14.5%   (  10)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5 ==> five
+   2:    1  ->  a ==> in
+   3:    1  ->  and ==> speak
+   4:    1  ->  ask ==> still
+   5:    1  ->  big ==> the
+   6:    1  ->  frog ==> frogs
+   7:    1  ->  her ==> passport
+   8:    1  ->  slabs ==> wives
+   9:    1  ->  these ==> scoopies
+  10:    1  ->  thick ==> six
+  11:    1  ->  toy ==> victoria
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  for
+   5:    1  ->  her
+   6:    1  ->  scoop
+   7:    1  ->  snack
+   8:    1  ->  snake
+   9:    1  ->  stella
+  10:    1  ->  wednesday
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  ask
+   5:    1  ->  big
+   6:    1  ->  frog
+   7:    1  ->  her
+   8:    1  ->  slabs
+   9:    1  ->  these
+  10:    1  ->  thick
+  11:    1  ->  toy
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  five
+   2:    1  ->  frogs
+   3:    1  ->  in
+   4:    1  ->  passport
+   5:    1  ->  scoopies
+   6:    1  ->  six
+   7:    1  ->  speak
+   8:    1  ->  still
+   9:    1  ->  the
+  10:    1  ->  victoria
+  11:    1  ->  wives
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

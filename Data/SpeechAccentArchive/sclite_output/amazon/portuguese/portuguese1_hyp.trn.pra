@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\portuguese\portuguese1_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 27 40 2 15
+REF:  please CALL stella ask * HER  TO  BRING THESE THINGS with HER  from the STORE  six SPOONS OF    FRESH SNOW PEAS FIVE THICK     SLABS OF    blue cheese * AND MAYBE a ****** ******** ******* SNACK FOR  HER  BROTHER BOB WE   also need ** a small plastic SNAKE AND      a big TOY frog for the kids ***** **** ***** **** ** ****** ***** ** SHE   CAN SCOOP THESE THINGS INTO three RED BAGS     AND WE    WILL  go meet her **** WEDNESDAY at THE  TRAIN station 
+HYP:  please GO   stella ask A HAND TOE BEING THE   THING  with HAVE from the STOREY six ****** SPOON OFF   FITS NOW  BAN  FIFTY-SIX LABS  OFTHE blue cheese I MAY BE    a SNACKY FOREHAND BROADER BOBBY WHEN WHEN IS      IT  WHEN also need US a small plastic IS    KNOCKING a big TOE frog for the kids SHE'S GONE SHE'S KIND OF SCHOOL THERE IS THINK IN  TOW   THE   IN     TOW  three *** HANDBAGS AH  WHERE WE'LL go meet her WITH ME        at THIS THING station 
+Eval:        S               I S    S   S     S     S           S             S          D      S     S     S    S    S    S         S     S                 I S   S       I      I        I       S     S    S    S       S   S              I                  S     S              S                     I     I    I     I    I  I      I     I  S     S   S     S     S      S          D   S        S   S     S                 I    S            S    S             
+
+

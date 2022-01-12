@@ -1,0 +1,142 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\arabic\arabic29_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   43.5%   (  30)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   33.3%   (  23)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    8.7%   (   6)
+Percent Word Accuracy     =   56.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  74)
+Aligned words             =           (  75)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  a ==> as
+   2:    1  ->  ask ==> a
+   3:    1  ->  bags ==> specs
+   4:    1  ->  bob ==> pop
+   5:    1  ->  five ==> labs
+   6:    1  ->  her ==> hair
+   7:    1  ->  her ==> help
+   8:    1  ->  her ==> him
+   9:    1  ->  her ==> scare
+  10:    1  ->  of ==> a
+  11:    1  ->  of ==> off
+  12:    1  ->  peas ==> texas
+  13:    1  ->  plastic ==> plastics
+  14:    1  ->  please ==> police
+  15:    1  ->  scoop ==> sculpt
+  16:    1  ->  slabs ==> off
+  17:    1  ->  small ==> smaller
+  18:    1  ->  snack ==> next
+  19:    1  ->  snake ==> next
+  20:    1  ->  snow ==> the
+  21:    1  ->  spoons ==> teaspoons
+  22:    1  ->  stella ==> still
+  23:    1  ->  thick ==> or
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  by
+   4:    1  ->  piece
+   5:    1  ->  snow's
+   6:    1  ->  twenty-three
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  these
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  her
+   2:    2  ->  of
+   3:    1  ->  a
+   4:    1  ->  ask
+   5:    1  ->  bags
+   6:    1  ->  bob
+   7:    1  ->  five
+   8:    1  ->  peas
+   9:    1  ->  plastic
+  10:    1  ->  please
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  small
+  14:    1  ->  snack
+  15:    1  ->  snake
+  16:    1  ->  snow
+  17:    1  ->  spoons
+  18:    1  ->  stella
+  19:    1  ->  thick
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  a
+   2:    2  ->  next
+   3:    2  ->  off
+   4:    1  ->  as
+   5:    1  ->  hair
+   6:    1  ->  help
+   7:    1  ->  him
+   8:    1  ->  labs
+   9:    1  ->  or
+  10:    1  ->  plastics
+  11:    1  ->  police
+  12:    1  ->  pop
+  13:    1  ->  scare
+  14:    1  ->  sculpt
+  15:    1  ->  smaller
+  16:    1  ->  specs
+  17:    1  ->  still
+  18:    1  ->  teaspoons
+  19:    1  ->  texas
+  20:    1  ->  the
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

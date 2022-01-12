@@ -1,0 +1,98 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic8_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   85.5%   (  59)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  of ==> off
+   3:    1  ->  of ==> or
+   4:    1  ->  slabs ==> lives
+   5:    1  ->  spoons ==> £six
+   6:    1  ->  thick ==> fifty-six
+   7:    1  ->  will ==> we
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  but
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  five
+   3:    1  ->  six
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  slabs
+   4:    1  ->  spoons
+   5:    1  ->  thick
+   6:    1  ->  will
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  fifty-six
+   2:    1  ->  lives
+   3:    1  ->  off
+   4:    1  ->  or
+   5:    1  ->  the
+   6:    1  ->  we
+   7:    1  ->  £six
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

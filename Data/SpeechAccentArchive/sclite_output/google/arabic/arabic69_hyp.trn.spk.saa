@@ -1,0 +1,135 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic69_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   56.5%   (  39)
+
+Percent Correct           =   43.5%   (  30)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =   39.1%   (  27)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   43.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  42)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  blue ==> fix
+   3:    1  ->  cheese ==> laughs
+   4:    1  ->  her ==> metre
+   5:    1  ->  of ==> by
+   6:    1  ->  plastic ==> last
+   7:    1  ->  slabs ==> please
+   8:    1  ->  snack ==> nice
+   9:    1  ->  snake ==> night
+  10:    1  ->  these ==> with
+  11:    1  ->  thick ==> krishna
+  12:    1  ->  will ==> we'll
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  her
+   2:    2  ->  we
+   3:    1  ->  5
+   4:    1  ->  6
+   5:    1  ->  a
+   6:    1  ->  also
+   7:    1  ->  ask
+   8:    1  ->  bring
+   9:    1  ->  fresh
+  10:    1  ->  frog
+  11:    1  ->  from
+  12:    1  ->  meet
+  13:    1  ->  need
+  14:    1  ->  of
+  15:    1  ->  peas
+  16:    1  ->  red
+  17:    1  ->  small
+  18:    1  ->  snow
+  19:    1  ->  spoons
+  20:    1  ->  store
+  21:    1  ->  the
+  22:    1  ->  these
+  23:    1  ->  things
+  24:    1  ->  to
+  25:    1  ->  with
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  blue
+   3:    1  ->  cheese
+   4:    1  ->  her
+   5:    1  ->  of
+   6:    1  ->  plastic
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  snake
+  10:    1  ->  these
+  11:    1  ->  thick
+  12:    1  ->  will
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  by
+   2:    1  ->  fix
+   3:    1  ->  it's
+   4:    1  ->  krishna
+   5:    1  ->  last
+   6:    1  ->  laughs
+   7:    1  ->  metre
+   8:    1  ->  nice
+   9:    1  ->  night
+  10:    1  ->  please
+  11:    1  ->  we'll
+  12:    1  ->  with
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

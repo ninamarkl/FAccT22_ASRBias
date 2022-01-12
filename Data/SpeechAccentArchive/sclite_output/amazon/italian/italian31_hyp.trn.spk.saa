@@ -1,0 +1,126 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\italian\italian31_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  at ==> say
+   2:    1  ->  can ==> chicken
+   3:    1  ->  five ==> find
+   4:    1  ->  frog ==> from
+   5:    1  ->  her ==> there
+   6:    1  ->  meet ==> me
+   7:    1  ->  of ==> a
+   8:    1  ->  of ==> or
+   9:    1  ->  peas ==> i
+  10:    1  ->  red ==> lit
+  11:    1  ->  slabs ==> labs
+  12:    1  ->  snow ==> peace
+  13:    1  ->  store ==> start
+  14:    1  ->  the ==> a
+  15:    1  ->  thick ==> x
+  16:    1  ->  three ==> tree
+  17:    1  ->  wednesday ==> when
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  no
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  her
+   2:    1  ->  she
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  of
+   2:    1  ->  at
+   3:    1  ->  can
+   4:    1  ->  five
+   5:    1  ->  frog
+   6:    1  ->  her
+   7:    1  ->  meet
+   8:    1  ->  peas
+   9:    1  ->  red
+  10:    1  ->  slabs
+  11:    1  ->  snow
+  12:    1  ->  store
+  13:    1  ->  the
+  14:    1  ->  thick
+  15:    1  ->  three
+  16:    1  ->  wednesday
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a
+   2:    1  ->  chicken
+   3:    1  ->  find
+   4:    1  ->  from
+   5:    1  ->  i
+   6:    1  ->  labs
+   7:    1  ->  lit
+   8:    1  ->  me
+   9:    1  ->  or
+  10:    1  ->  peace
+  11:    1  ->  say
+  12:    1  ->  start
+  13:    1  ->  there
+  14:    1  ->  tree
+  15:    1  ->  when
+  16:    1  ->  x
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

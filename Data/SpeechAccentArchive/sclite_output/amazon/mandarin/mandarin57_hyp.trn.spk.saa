@@ -1,0 +1,99 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin57_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.0%   (   9)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   87.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bags ==> backs
+   3:    1  ->  call ==> course
+   4:    1  ->  peas ==> piece
+   5:    1  ->  slabs ==> slaps
+   6:    1  ->  snack ==> snap
+   7:    1  ->  these ==> did
+   8:    1  ->  will ==> won't
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ask
+   2:    1  ->  bags
+   3:    1  ->  call
+   4:    1  ->  peas
+   5:    1  ->  slabs
+   6:    1  ->  snack
+   7:    1  ->  these
+   8:    1  ->  will
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  asked
+   2:    1  ->  backs
+   3:    1  ->  course
+   4:    1  ->  did
+   5:    1  ->  piece
+   6:    1  ->  slaps
+   7:    1  ->  snap
+   8:    1  ->  won't
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

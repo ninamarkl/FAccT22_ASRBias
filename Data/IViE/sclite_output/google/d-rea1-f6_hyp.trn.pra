@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\d-rea1-f6_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-f6_01)
+Scores: (#C #S #D #I) 135 35 33 8
+REF:  ONCE THERE WAS    A   GIRL    CALLED   cinderella but **** EVERYONE called HER CINDERS    CINDERS    LIVED with her mother and two stepsisters called lily AND rosa LILY AND rosa were very unfriendly and they WERE VERY lazy girls they spent all THEIR time BUYING new clothes and going to parties POOR CINDERS HAD  to wear all THEIR old hand me downs and she had to do all the cleaning one day a ROYAL MESSENGER CAME HA      to announce A BALL  the BALL would be held at the royal palace in honour of the queen's only son prince william I'LL DO THAT SENTENCE AGAIN the BALL WOULD be held at the royal palace in london of the queen's only son prince william ERM LILY AND ROSA THOUGHT THIS WAS DIVINE prince william WAS GORGEOUS and he was looking for a bride THEY DREAMED OF wedding bells when the evening of the ball arrived cinders had to help HER SISTERS     get ready THEY WERE  in a **** bad mood THEY'D wanted to buy some new GOWNS but **** THEIR MOTHER said that they had enough ** *** 
+HYP:  **** ***** WHAT'S THE WEATHER FORECAST cinderella but I'VE BEEN     called *** EASTENDERS EASTENDERS LIVES with her mother and two stepsisters called lily IN  rosa **** *** rosa were very unfriendly and they WILL BE   lazy girls they spent all THE   time BY     new clothes and going to parties **** ******* HAVE to wear all THE   old hand me downs and she had to do all the cleaning one day a ***** ********* ROW  MESSAGE to announce * ABOUT the BAR  would be held at the royal palace in honour of the queen's only son prince william **** ** **** ******** ***** the **** FINAL be held at the royal palace in london of the queen's only son prince william *** **** *** **** ******* **** *** ****** prince william *** ******** and he was looking for a bride **** ******* ** wedding bells when the evening of the ball arrived cinders had to help *** RESEARCHERS get ready **** THERE in a GOOD bad mood THEY   wanted to buy some new GAMES but THEN WHAT  THEY   said that they had enough OF THE 
+Eval: D    D     S      S   S       S                       I    S               D   S          S          S                                                     S        D    D                                      S    S                              S          S                                       D    D       S                S                                                                    D     D         S    S                   D S         S                                                                                       D    D  D    D        D         D    S                                                                                  D   D    D   D    D       D    D   D                     D   D                                       D    D       D                                                                         D   S                     D    S          I             S                             S         I    S     S                                I  I   
+
+>> REF:  GOWNS SO  THEY started shouting at cinders find my JEWELS YELLED ONE  FIND      my HAT   HOWLED the other they wanted *** **** ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  ARMS  THE DAY  started shouting at cinders find my ****** ****** DUAL TRFIFTEEN my HOUSE HELP   the other they wanted HER HAIR BRUSHES HER         FRIENDS  and hairspray 
+>> Eval: S     S   S                                        D      D      S    S            S     S                            I   I    I       S           S                      
+
+

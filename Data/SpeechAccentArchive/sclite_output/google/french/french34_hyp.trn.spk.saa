@@ -1,0 +1,128 @@
+SCORING FOR SPEAKER: saa
+     of french\french34_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  a ==> is
+   2:    1  ->  a ==> it's
+   3:    1  ->  frog ==> from
+   4:    1  ->  her ==> a
+   5:    1  ->  her ==> oscar
+   6:    1  ->  of ==> labs
+   7:    1  ->  plastic ==> 6
+   8:    1  ->  slabs ==> 56
+   9:    1  ->  small ==> smoking
+  10:    1  ->  snack ==> not
+  11:    1  ->  spoons ==> seaspoon
+  12:    1  ->  these ==> this
+  13:    1  ->  things ==> teams
+  14:    1  ->  things ==> thing
+  15:    1  ->  toy ==> toilet
+  16:    1  ->  we ==> with
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  on
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  ask
+   4:    1  ->  can
+   5:    1  ->  scoop
+   6:    1  ->  she
+   7:    1  ->  thick
+   8:    1  ->  train
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  a
+   2:    2  ->  her
+   3:    2  ->  things
+   4:    1  ->  frog
+   5:    1  ->  of
+   6:    1  ->  plastic
+   7:    1  ->  slabs
+   8:    1  ->  small
+   9:    1  ->  snack
+  10:    1  ->  spoons
+  11:    1  ->  these
+  12:    1  ->  toy
+  13:    1  ->  we
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  56
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  from
+   5:    1  ->  is
+   6:    1  ->  it's
+   7:    1  ->  labs
+   8:    1  ->  not
+   9:    1  ->  oscar
+  10:    1  ->  seaspoon
+  11:    1  ->  smoking
+  12:    1  ->  teams
+  13:    1  ->  thing
+  14:    1  ->  this
+  15:    1  ->  toilet
+  16:    1  ->  with
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

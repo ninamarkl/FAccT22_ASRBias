@@ -1,0 +1,96 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\hindi\hindi14_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.6%   (   8)
+
+Percent Correct           =   89.9%   (  62)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   88.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  of ==> on
+   3:    1  ->  scoop ==> school
+   4:    1  ->  slabs ==> steps
+   5:    1  ->  spoons ==> spools
+   6:    1  ->  thick ==> take
+   7:    1  ->  wednesday ==> day
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  magnus
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  ask
+   2:    1  ->  of
+   3:    1  ->  scoop
+   4:    1  ->  slabs
+   5:    1  ->  spoons
+   6:    1  ->  thick
+   7:    1  ->  wednesday
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  asked
+   2:    1  ->  day
+   3:    1  ->  on
+   4:    1  ->  school
+   5:    1  ->  spools
+   6:    1  ->  steps
+   7:    1  ->  take
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

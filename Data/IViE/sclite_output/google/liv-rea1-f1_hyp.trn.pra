@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\liv-rea1-f1_hyp.trn
+
+Speakers: 
+    0:  liv
+
+Speaker sentences   0:  liv   #utts: 1
+id: (liv-rea1-f1_01)
+Scores: (#C #S #D #I) 131 38 19 3
+REF:  once upon a time there was a girl called cinderella but everyone called HER cinders CINDERS LIVED WITH   HER  MOTHER and ** TWO  STEPSISTERS called lily and ROSA LILY AND   ROSA    WERE very unfriendly and they were lazy GIRLS they spent all THEIR time BUYING new clothes and going to parties POOR cinders had to wear all their handmade ALL THEIR HAND POOR CINDERS HAD  to wear all THEIR hand me downs and she HAD TO    do the cleaning one day A ROYAL messenger came to ANNOUNCE A      ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND     rosa THOUGHT this was divine prince william was gorgeous and HE  was looking for a bride they dreamed of wedding bells when the evening BALL   ARRIVED CINDERS had to help her SISTERS  get ready THEY WERE  in a bad mood THEY'D wanted to buy some new GOWNS but their mother said that they had enough GOWNS so they STARTED SHOUTING AT CINDERS find my JEWELS YELLED ONE   FIND      my ***** HAT  how 
+HYP:  once upon a time there was a girl called cinderella but everyone called THE cinders SEND    HIS   LITTLE THEM OTHER  and TO STEP SISTER'S    called lily and **** **** ROSIE LILLIAN ROSE very unfriendly and they were lazy ***** they spent all THE   time BY     new clothes and going to parties FOR  cinders had to wear all their handmade *** ***** **** **** ONLY    HAVE to wear all THE   hand me downs and she *** STILL do the cleaning one day * ***** messenger came to AN       ANSWER ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** WILLIAM rosa ******* this was divine prince william was gorgeous and YOU was looking for a bride they dreamed of wedding bells when the evening BOWLER WRITE   SINS    had to help her SISTER'S get ready **** THERE in a bad mood THEY   wanted to buy some new GUNS  but their mother said that they had enough GUMS  so they ******* ******** ** START   find my ****** ****** JULES YDFIFTEEN my HEART HELP how 
+Eval:                                                                         S           S       S     S      S    S          I  S    S                           D    D    S     S       S                                       D                    S          S                                       S                                           D   D     D    D    S       S                S                           D   S                             D D                       S        S                    S                                                                                  D    S            D                                                       S                                                                          S      S       S                       S                  D    S                   S                             S                                                S             D       D        D  S               D      D      S     S            I     S        
+
+>> REF:  HOWLED the other they wanted **** HAIRBRUSHES HAIRPINS AND hairspray 
+>> HYP:  ****** the other they wanted HAIR BRUSHES     HAPPENS  IN  hairspray 
+>> Eval: D                            I    S           S        S             
+
+

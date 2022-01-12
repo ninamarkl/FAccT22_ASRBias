@@ -1,0 +1,96 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic13_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.5%   (  10)
+
+Percent Correct           =   85.5%   (  59)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   85.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  of ==> off
+   2:    2  ->  these ==> the
+   3:    1  ->  a ==> it's
+   4:    1  ->  slabs ==> slab
+   5:    1  ->  snack ==> neck
+   6:    1  ->  stella ==> still
+   7:    1  ->  things ==> thing
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  a
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    1  ->  a
+   4:    1  ->  slabs
+   5:    1  ->  snack
+   6:    1  ->  stella
+   7:    1  ->  things
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  off
+   2:    2  ->  the
+   3:    1  ->  it's
+   4:    1  ->  neck
+   5:    1  ->  slab
+   6:    1  ->  still
+   7:    1  ->  thing
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

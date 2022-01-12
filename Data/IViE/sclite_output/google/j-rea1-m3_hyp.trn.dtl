@@ -1,0 +1,221 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\j-rea1-m3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.7%   (  85)
+
+Percent Correct           =   56.8%   ( 108)
+
+Percent Substitution      =   23.2%   (  44)
+Percent Deletions         =   20.0%   (  38)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   55.3%
+
+
+Ref. words                =           ( 190)
+Hyp. words                =           ( 155)
+Aligned words             =           ( 193)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  howled ==> do
+   2:    2  ->  the ==> you
+   3:    1  ->  a ==> will
+   4:    1  ->  all ==> for
+   5:    1  ->  arrived ==> arrives
+   6:    1  ->  at ==> called
+   7:    1  ->  ball ==> bull
+   8:    1  ->  be ==> palm
+   9:    1  ->  buying ==> but
+  10:    1  ->  cinders ==> in
+  11:    1  ->  divine ==> song
+  12:    1  ->  dreamt ==> jumped
+  13:    1  ->  find ==> jules
+  14:    1  ->  gowns ==> times
+  15:    1  ->  had ==> dead
+  16:    1  ->  had ==> detail
+  17:    1  ->  hairbrushes ==> brushes
+  18:    1  ->  hairpins ==> happens
+  19:    1  ->  hat ==> how
+  20:    1  ->  held ==> beach
+  21:    1  ->  lily ==> cold
+  22:    1  ->  lived ==> live
+  23:    1  ->  messenger ==> you
+  24:    1  ->  mood ==> news
+  25:    1  ->  my ==> one-year-old
+  26:    1  ->  other ==> have
+  27:    1  ->  other ==> how
+  28:    1  ->  royal ==> message
+  29:    1  ->  royal ==> rome
+  30:    1  ->  said ==> car
+  31:    1  ->  shout ==> sure
+  32:    1  ->  sisters ==> sister's
+  33:    1  ->  started ==> not
+  34:    1  ->  that ==> and
+  35:    1  ->  the ==> in
+  36:    1  ->  their ==> cylinders
+  37:    1  ->  their ==> the
+  38:    1  ->  they ==> it's
+  39:    1  ->  they ==> the
+  40:    1  ->  to ==> too
+  41:    1  ->  were ==> my
+  42:    1  ->  would ==> royal
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  all
+   2:    1  ->  hair
+   3:    1  ->  i
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  rosa
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  ball
+   5:    2  ->  he
+   6:    2  ->  lily
+   7:    2  ->  was
+   8:    2  ->  were
+   9:    1  ->  but
+  10:    1  ->  called
+  11:    1  ->  cinders
+  12:    1  ->  gowns
+  13:    1  ->  had
+  14:    1  ->  in
+  15:    1  ->  jewels
+  16:    1  ->  mother
+  17:    1  ->  one
+  18:    1  ->  poor
+  19:    1  ->  prince
+  20:    1  ->  son
+  21:    1  ->  the
+  22:    1  ->  their
+  23:    1  ->  they
+  24:    1  ->  thought
+  25:    1  ->  to
+  26:    1  ->  wall
+  27:    1  ->  wear
+  28:    1  ->  william
+  29:    1  ->  yelled
+     -------
+        38
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    3  ->  the
+   2:    2  ->  had
+   3:    2  ->  howled
+   4:    2  ->  other
+   5:    2  ->  royal
+   6:    2  ->  their
+   7:    2  ->  they
+   8:    1  ->  a
+   9:    1  ->  all
+  10:    1  ->  arrived
+  11:    1  ->  at
+  12:    1  ->  ball
+  13:    1  ->  be
+  14:    1  ->  buying
+  15:    1  ->  cinders
+  16:    1  ->  divine
+  17:    1  ->  dreamt
+  18:    1  ->  find
+  19:    1  ->  gowns
+  20:    1  ->  hairbrushes
+  21:    1  ->  hairpins
+  22:    1  ->  hat
+  23:    1  ->  held
+  24:    1  ->  lily
+  25:    1  ->  lived
+  26:    1  ->  messenger
+  27:    1  ->  mood
+  28:    1  ->  my
+  29:    1  ->  said
+  30:    1  ->  shout
+  31:    1  ->  sisters
+  32:    1  ->  started
+  33:    1  ->  that
+  34:    1  ->  to
+  35:    1  ->  were
+  36:    1  ->  would
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    3  ->  you
+   2:    2  ->  do
+   3:    2  ->  how
+   4:    2  ->  in
+   5:    2  ->  the
+   6:    1  ->  and
+   7:    1  ->  arrives
+   8:    1  ->  beach
+   9:    1  ->  brushes
+  10:    1  ->  bull
+  11:    1  ->  but
+  12:    1  ->  called
+  13:    1  ->  car
+  14:    1  ->  cold
+  15:    1  ->  cylinders
+  16:    1  ->  dead
+  17:    1  ->  detail
+  18:    1  ->  for
+  19:    1  ->  happens
+  20:    1  ->  have
+  21:    1  ->  it's
+  22:    1  ->  jules
+  23:    1  ->  jumped
+  24:    1  ->  live
+  25:    1  ->  message
+  26:    1  ->  my
+  27:    1  ->  news
+  28:    1  ->  not
+  29:    1  ->  one-year-old
+  30:    1  ->  palm
+  31:    1  ->  rome
+  32:    1  ->  royal
+  33:    1  ->  sister's
+  34:    1  ->  song
+  35:    1  ->  sure
+  36:    1  ->  times
+  37:    1  ->  too
+  38:    1  ->  will
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

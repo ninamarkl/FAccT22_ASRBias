@@ -1,0 +1,178 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\car-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.9%   (  50)
+
+Percent Correct           =   75.3%   ( 140)
+
+Percent Substitution      =   16.7%   (  31)
+Percent Deletions         =    8.1%   (  15)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   73.1%
+
+
+Ref. words                =           ( 186)
+Hyp. words                =           ( 175)
+Aligned words             =           ( 190)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  a ==> wendy
+   2:    1  ->  and ==> rosie
+   3:    1  ->  ball ==> but
+   4:    1  ->  bride ==> bright
+   5:    1  ->  buying ==> by
+   6:    1  ->  cinders ==> centres
+   7:    1  ->  cinders ==> he's
+   8:    1  ->  do ==> doing
+   9:    1  ->  dreamed ==> dreams
+  10:    1  ->  girls ==> us
+  11:    1  ->  gowns ==> downs
+  12:    1  ->  hairbrushes ==> brushes
+  13:    1  ->  hat ==> hats
+  14:    1  ->  he ==> she
+  15:    1  ->  her ==> the
+  16:    1  ->  honour ==> order
+  17:    1  ->  howled ==> how
+  18:    1  ->  lazy ==> get
+  19:    1  ->  mother ==> never
+  20:    1  ->  one ==> welwyn
+  21:    1  ->  poor ==> for
+  22:    1  ->  rosa ==> rosie
+  23:    1  ->  their ==> the
+  24:    1  ->  their ==> they
+  25:    1  ->  they ==> guns
+  26:    1  ->  they'd ==> they
+  27:    1  ->  unfriendly ==> friendly
+  28:    1  ->  was ==> williams
+  29:    1  ->  were ==> will
+  30:    1  ->  william ==> grace
+  31:    1  ->  yelled ==> jewellers
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  be
+   2:    1  ->  hair
+   3:    1  ->  numpty
+   4:    1  ->  since
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  lily
+   2:    2  ->  that
+   3:    1  ->  announce
+   4:    1  ->  cleaning
+   5:    1  ->  day
+   6:    1  ->  er
+   7:    1  ->  gowns
+   8:    1  ->  jewels
+   9:    1  ->  one
+  10:    1  ->  prince
+  11:    1  ->  rosa
+  12:    1  ->  so
+  13:    1  ->  the
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  cinders
+   2:    2  ->  their
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  ball
+   6:    1  ->  bride
+   7:    1  ->  buying
+   8:    1  ->  do
+   9:    1  ->  dreamed
+  10:    1  ->  girls
+  11:    1  ->  gowns
+  12:    1  ->  hairbrushes
+  13:    1  ->  hat
+  14:    1  ->  he
+  15:    1  ->  her
+  16:    1  ->  honour
+  17:    1  ->  howled
+  18:    1  ->  lazy
+  19:    1  ->  mother
+  20:    1  ->  one
+  21:    1  ->  poor
+  22:    1  ->  rosa
+  23:    1  ->  they
+  24:    1  ->  they'd
+  25:    1  ->  unfriendly
+  26:    1  ->  was
+  27:    1  ->  were
+  28:    1  ->  william
+  29:    1  ->  yelled
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  rosie
+   2:    2  ->  the
+   3:    2  ->  they
+   4:    1  ->  bright
+   5:    1  ->  brushes
+   6:    1  ->  but
+   7:    1  ->  by
+   8:    1  ->  centres
+   9:    1  ->  doing
+  10:    1  ->  downs
+  11:    1  ->  dreams
+  12:    1  ->  for
+  13:    1  ->  friendly
+  14:    1  ->  get
+  15:    1  ->  grace
+  16:    1  ->  guns
+  17:    1  ->  hats
+  18:    1  ->  he's
+  19:    1  ->  how
+  20:    1  ->  jewellers
+  21:    1  ->  never
+  22:    1  ->  order
+  23:    1  ->  she
+  24:    1  ->  us
+  25:    1  ->  welwyn
+  26:    1  ->  wendy
+  27:    1  ->  will
+  28:    1  ->  williams
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

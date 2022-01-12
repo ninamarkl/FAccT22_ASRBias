@@ -1,0 +1,7 @@
+<SYSTEM title="italian\italian14_hyp.trn" ref_fname="saa_ref.trn" hyp_fname="italian\italian14_hyp.trn" creation_date="Fri May 21 11:51:43 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="70" sequence="0">
+C,"please","please":C,"call","call":C,"stella","stella":C,"ask","ask":C,"her","her":C,"to","to":C,"bring","bring":C,"these","these":C,"things","things":C,"with","with":S,"her","their":C,"from","from":C,"the","the":C,"store","store":C,"6","6":S,"spoons","pounds":C,"of","of":C,"fresh","fresh":C,"snow","snow":D,"peas",:S,"5","ps5":S,"thick","6":S,"slabs","laps":C,"of","of":D,"blue",:S,"cheese","low":S,"and","chairs":S,"maybe","in":S,"a","my":S,"snack","snake":C,"for","for":S,"her","a":C,"brother","brother":C,"bob","bob":S,"we","we're":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":S,"and","in":C,"a","a":C,"big","big":C,"toy","toy":C,"frog","frog":D,"for",:D,"the",:S,"kids","but":C,"she","she":S,"can","can't":S,"scoop","cope":S,"these","with":C,"things","things":C,"into","into":I,,"a":C,"3","3":C,"red","red":C,"bags","bags":C,"and","and":C,"we","we":C,"will","will":C,"go","go":D,"meet",:S,"her","meta":C,"wednesday","wednesday":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

@@ -1,0 +1,129 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish48_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   62.3%   (  43)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   15.9%   (  11)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  3 ==> but
+   2:    1  ->  5 ==> no
+   3:    1  ->  bags ==> eggs
+   4:    1  ->  bob ==> not
+   5:    1  ->  brother ==> is
+   6:    1  ->  frog ==> toys
+   7:    1  ->  from ==> on
+   8:    1  ->  her ==> that
+   9:    1  ->  of ==> six-letter
+  10:    1  ->  red ==> the
+  11:    1  ->  scoop ==> skip
+  12:    1  ->  slabs ==> by
+  13:    1  ->  spoons ==> piece
+  14:    1  ->  these ==> this
+  15:    1  ->  thick ==> pain
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  three
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  her
+   2:    1  ->  a
+   3:    1  ->  for
+   4:    1  ->  maybe
+   5:    1  ->  meet
+   6:    1  ->  peas
+   7:    1  ->  snack
+   8:    1  ->  snow
+   9:    1  ->  toy
+  10:    1  ->  wednesday
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  3
+   2:    1  ->  5
+   3:    1  ->  bags
+   4:    1  ->  bob
+   5:    1  ->  brother
+   6:    1  ->  frog
+   7:    1  ->  from
+   8:    1  ->  her
+   9:    1  ->  of
+  10:    1  ->  red
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  spoons
+  14:    1  ->  these
+  15:    1  ->  thick
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  but
+   2:    1  ->  by
+   3:    1  ->  eggs
+   4:    1  ->  is
+   5:    1  ->  no
+   6:    1  ->  not
+   7:    1  ->  on
+   8:    1  ->  pain
+   9:    1  ->  piece
+  10:    1  ->  six-letter
+  11:    1  ->  skip
+  12:    1  ->  that
+  13:    1  ->  the
+  14:    1  ->  this
+  15:    1  ->  toys
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

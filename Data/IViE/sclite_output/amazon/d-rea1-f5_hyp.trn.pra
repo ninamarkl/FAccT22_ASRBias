@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\d-rea1-f5_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-f5_01)
+Scores: (#C #S #D #I) 165 14 1 2
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with her mother and two **** STEPSISTERS called lily and rosa lily and rosa were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties poor cinders had to wear ALL  their old hand me downs and she had to do THE all the cleaning one day a royal messenger came to announce A   ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CINDERS had to help HER  sisters get ready they were in a bad mood THEY'D wanted to buy new GOWNS but their mother *** said that they had enough GOWNS so they started SHOUTING at cinders find my jewels yelled one find my hat HOWLED the other they wanted hairbrushes hairpins and hairspray 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with her mother and two STEP SISTERS     called lily and rosa lily and rosa were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties poor cinders had to wear THAT their old hand me downs and she had to do *** all the cleaning one day a royal messenger came to announce THE ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSE I    thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived SINGERS had to help YOUR sisters get ready they were in a bad mood THEY   wanted to buy new GAINS but their mother HAD said that they had enough GAINS so they started CHATTING at cinders find my jewels yelled one find my hat HELD   the other they wanted hairbrushes hairpins and hairspray 
+Eval:                                                                                                                           I    S                                                                                                                                                                                       S                                              D                                                               S                 S                                                                                  S       S    S                                                                                                                                                          S                   S                                              S                        S                      I                             S                     S                                                         S                                                               
+
+

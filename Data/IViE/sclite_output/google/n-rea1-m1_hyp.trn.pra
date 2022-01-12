@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\n-rea1-m1_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-m1_01)
+Scores: (#C #S #D #I) 131 38 10 4
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVED with her mother and two stepsisters CALLED lily and ROSA  lily and **** ROSA WERE very unfriendly and they were LAZY GIRLS     they SPENT all THEIR TIME buying new clothes and going to parties POOR CINDERS HAD    TO     WEAR  all THEIR OLD  hand me downs and she had to do *** the cleaning one day A ROYAL messenger CAME TO ANNOUNCE A       ball the ball WOULD be held at the royal palace in honour of the queen's ONLY SON      prince william LILY   and rosa thought this was divine prince william was gorgeous and he was looking for a bride THEY DREAMED of wedding bells WHEN the evening of the ball arrived CINDERS HAD TO     help her SISTERS  get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but their mother said that they had enough GOWNS SO THEY STARTED SHOUTING at CINDERS find my JEWELS YELLED one find my HAT   HOWLED the other they wanted **** ******* HAIRBRUSHES 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVE  with her mother and two stepsisters CALL   lily and ROSIE lily and ROSE I    WAS  very unfriendly and they were **** LAZYGIRLS they SPEND all THAT  I'M  buying new clothes and going to parties **** ******* PERSON THAT'S WHERE all THAT  WILL hand me downs and she had to do ALL the cleaning one day * ***** messenger **** ** COUNTY   COUNCIL ball the ball WILL  be held at the royal palace in honour of the queen's **** GRANDSON prince william LILLEY and rosa thought this was divine prince william was gorgeous and he was looking for a bride A    DREAM   of wedding bells ON   the evening of the ball arrived ******* *** CINDER help her SISTER'S get ready they were in a bad mood THEY   wanted to buy some new GUNS  but their mother said that they had enough GUNS  TO THE  START   SHOWING  at CINEMAS find my DUAL   SHIELD one find my HEART OUT    the other they wanted HAIR BRUSHES HAIR        
+Eval:                                                                                             S                                         S               S              I    S    S                                  D    S              S         S     S                                            D    D       S      S      S         S     S                                    I                        D D               D    D  S        S                     S                                                          D    S                       S                                                                                                  S    S                        S                                    D       D   S               S                                          S                             S                                                S     S  S    S       S           S               S      S                  S     S                            I    I       S           
+
+>> REF:  HAIRPINS and hairspray 
+>> HYP:  PINS     and hairspray 
+>> Eval: S                      
+
+

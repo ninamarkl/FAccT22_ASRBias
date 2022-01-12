@@ -1,0 +1,7 @@
+<SYSTEM title=" amazon\german\german8_hyp.trn" ref_fname=" saa_ref.trn" hyp_fname=" amazon\german\german8_hyp.trn" creation_date="Tue May 25 15:13:55 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="69" sequence="0">
+S,"please","police":C,"call","call":C,"stella","stella":S,"ask","asked":C,"her","her":C,"to","to":C,"bring","bring":C,"these","these":C,"things","things":C,"with","with":C,"her","her":C,"from","from":C,"the","the":C,"store","store":C,"six","six":C,"spoons","spoons":C,"of","of":C,"fresh","fresh":C,"snow","snow":D,"peas",:S,"five","piece":S,"thick","fifty-six":S,"slabs","laps":C,"of","of":C,"blue","blue":C,"cheese","cheese":C,"and","and":C,"maybe","maybe":C,"a","a":C,"snack","snack":C,"for","for":S,"her","a":C,"brother","brother":S,"bob","but":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":S,"and","in":C,"a","a":C,"big","big":C,"toy","toy":S,"frog","truck":C,"for","for":C,"the","the":C,"kids","kids":C,"she","she":C,"can","can":C,"scoop","scoop":C,"these","these":C,"things","things":C,"into","into":C,"three","three":S,"red","rat":C,"bags","bags":S,"and","on":C,"we","we":C,"will","will":C,"go","go":C,"meet","meet":C,"her","her":C,"wednesday","wednesday":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

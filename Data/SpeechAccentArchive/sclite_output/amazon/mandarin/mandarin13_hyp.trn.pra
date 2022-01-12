@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\mandarin\mandarin13_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 49 18 2 1
+REF:  PLEASE CALL  STELLA ASK   HER  to bring these things with her from the store six spoons of fresh snow peas five thick slabs of blue cheese AND maybe a snack for her brother BOB we also need A SMALL plastic snake and A   big *** TOY frog FOR  THE KIDS SHE    CAN  SCOOP these things into THREE  red bags and WE   WILL  go meet her wednesday at the train station 
+HYP:  PLACE  GHOST TOWN   HOUSE CODE to bring these things with her from the store six spoons of fresh snow peas five thick slabs of blue cheese *** maybe a snack for her brother BUB we also need * SMOKE plastic snake and THE big TOE OF  frog WOOL OF  KEYS SHOULD KISS GIVE  these things into THIRTY red bags and WHAT WE'LL go meet her wednesday at the train station 
+Eval: S      S     S      S     S                                                                                                                D                                 S                D S                       S       I   S        S    S   S    S      S    S                       S                   S    S                                                
+
+

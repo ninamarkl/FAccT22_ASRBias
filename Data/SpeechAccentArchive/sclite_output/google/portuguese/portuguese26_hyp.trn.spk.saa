@@ -1,0 +1,94 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese26_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =    7.2%   (   5)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  bob ==> that
+   3:    1  ->  frog ==> from
+   4:    1  ->  snack ==> in
+   5:    1  ->  will ==> we'll
+     -------
+         5
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  maybe
+   4:    1  ->  thick
+   5:    1  ->  we
+   6:    1  ->  wednesday
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  bob
+   3:    1  ->  frog
+   4:    1  ->  snack
+   5:    1  ->  will
+     -------
+         5
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  in
+   2:    1  ->  from
+   3:    1  ->  that
+   4:    1  ->  we'll
+     -------
+         5
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,7 @@
+<SYSTEM title=" amazon\mandarin\mandarin8_hyp.trn" ref_fname=" saa_ref.trn" hyp_fname=" amazon\mandarin\mandarin8_hyp.trn" creation_date="Fri May 28 10:01:28 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="69" sequence="0">
+S,"please","police":S,"call","course":S,"stella","then":C,"ask","ask":C,"her","her":S,"to","toe":C,"bring","bring":C,"these","these":C,"things","things":C,"with","with":C,"her","her":C,"from","from":D,"the",:S,"store","restore":C,"six","six":S,"spoons","points":S,"of","off":C,"fresh","fresh":S,"snow","slow":S,"peas","piece":S,"five","fell":S,"thick","things":S,"slabs","left":S,"of","off":C,"blue","blue":C,"cheese","cheese":D,"and",:C,"maybe","maybe":C,"a","a":C,"snack","snack":C,"for","for":D,"her",:S,"brother","brera":C,"bob","bob":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":S,"and","on":C,"a","a":C,"big","big":C,"toy","toy":C,"frog","frog":C,"for","for":S,"the","a":S,"kids","case":C,"she","she":C,"can","can":C,"scoop","scoop":C,"these","these":C,"things","things":C,"into","into":C,"three","three":S,"red","dry":S,"bags","backs":C,"and","and":C,"we","we":S,"will","were":C,"go","go":D,"meet",:D,"her",:S,"wednesday","metre":S,"at","with":S,"the","their":S,"train","training":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

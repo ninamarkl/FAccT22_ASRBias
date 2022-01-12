@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\l-rea1-f3_hyp.trn
+
+Speakers: 
+    0:  l-r
+
+Speaker sentences   0:  l-r   #utts: 1
+id: (l-rea1-f3_01)
+Scores: (#C #S #D #I) 129 43 16 4
+REF:  once upon a time there was a girl called cinderella BUT EVERYONE CALLED HER cinders cinders LIVED with her mother and two ***** STEPSISTERS called lily and ROSA LILY  AND     ROSA were very unfriendly and they were LAZY GIRLS     they spent all their time BUYING new clothes and going to parties POOR    CINDERS had to wear all THEIR OLD HAND ME DOWNS and she had to do and SHE had to do the cleaning ONE DAY  A       royal MESSENGER CAME TO ANNOUNCE A BALL THE       ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought this was divine prince william was gorgeous and he looked and he was LOOKING FOR A bride they DREAMED OF  wedding bells when the evening OF the BALL ARRIVED   cinders HAD  to help her SISTERS  get ready they were in a bad mood THEY'D wanted to buy some new GOWNS  but **** THEIR MOTHER said that they had enough GOWNS SO   THEY STARTED  SHOUTING AT  cinders find my JEWELS yelled one find my hat how HOWLED the 
+HYP:  once upon a time there was a girl called cinderella *** FROM     COLD   HAS cinders cinders LIVE  with her mother and two STEPS IS          called lily and **** ROSIE LILLIAN ROSE were very unfriendly and they were **** LAZYGIRLS they spent all their time BY     new clothes and going to parties PUTTING JUST    had to wear all THAT  ALL TIME WE DANCE and she had to do and *** had to do the cleaning *** WHEN THEY'RE royal ********* **** ** ******** * **** ANNOUNCER ball WILL  be held at the royal palace in honour of the queen's only son prince william WILLIAM ROSE I    thought this was divine prince william was gorgeous and he looked and he was ******* *** * bride they DREAM   DAY wedding bells when the evening AT the **** POLARIZED cinders HAVE to help her SISTER'S get ready they were in a bad mood THEY   wanted to buy some new GROUND but THEN WILL  THEY   said that they had enough GUNS  THAT IS   STARTING TO       GET cinders find my JULES  yelled one find my hat how ****** the 
+Eval:                                                     D   S        S      S                   S                             I     S                           D    S     S       S                                       D    S                                   S                                       S       S                       S     S   S    S  S                           D                          D   S    S             D         D    D  D        D D    S              S                                                                                  S       S    S                                                                                 D       D   D            S       S                                  S      D    S                 S                S                                          S                             S          I    S     S                                S     S    S    S        S        S                   S                                 D          
+
+>> REF:  other they wanted **** ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  other they wanted HAIR BRUSHES HAIR        PRINCE   and hairspray 
+>> Eval:                   I    I       S           S                      
+
+

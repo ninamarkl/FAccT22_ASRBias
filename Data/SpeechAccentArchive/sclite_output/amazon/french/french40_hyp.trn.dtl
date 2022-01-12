@@ -1,0 +1,94 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\french\french40_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.0%   (   9)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   87.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  bob ==> book
+   2:    1  ->  bring ==> battering
+   3:    1  ->  five ==> piece
+   4:    1  ->  peas ==> new
+   5:    1  ->  thick ==> fifty-six
+   6:    1  ->  to ==> asked
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  ask
+   2:    1  ->  her
+   3:    1  ->  snow
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  bob
+   2:    1  ->  bring
+   3:    1  ->  five
+   4:    1  ->  peas
+   5:    1  ->  thick
+   6:    1  ->  to
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  asked
+   2:    1  ->  battering
+   3:    1  ->  book
+   4:    1  ->  fifty-six
+   5:    1  ->  new
+   6:    1  ->  piece
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

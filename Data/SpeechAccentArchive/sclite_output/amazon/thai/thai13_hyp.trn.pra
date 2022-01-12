@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\thai\thai13_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 41 24 4 1
+REF:  PLEASE CALL STELLA ASK     HER   TO    bring THESE THINGS with her from the store six SPOONS OF    FRESH SNOW    PEAS   five THICK SLABS OF BLUE   CHEESE and maybe a snack for her brother bob we also need a small plastic snake AND a big toy FROG for the kids SHE CAN   SCOOP  THESE THINGS into * THREE RED   BAGS and we will go meet her wednesday at the train station 
+HYP:  ****** **** ****** PRISKOS TEYLA EGGAR bring THIS  THING  with her from the store six ****** SPOON OFF   RISSMAN SNOOPY five STICK SLAP  A  BROACH IT     and maybe a snack for her brother bob we also need a small plastic snake IN  a big toy FROM for the kids YOU CAN'T SCHOOL THIS  THING  into A TREE  RIGHT BACK and we will go meet her wednesday at the train station 
+Eval: D      D    D      S       S     S           S     S                                  D      S     S     S       S           S     S     S  S      S                                                                               S             S                 S   S     S      S     S           I S     S     S                                                           
+
+

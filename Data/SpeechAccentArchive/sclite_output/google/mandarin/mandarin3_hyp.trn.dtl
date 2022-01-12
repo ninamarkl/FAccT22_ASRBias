@@ -1,0 +1,90 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.0%   (   9)
+
+Percent Correct           =   91.3%   (  63)
+
+Percent Substitution      =    5.8%   (   4)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   87.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  at ==> of
+   2:    1  ->  peas ==> note
+   3:    1  ->  slabs ==> syllabus
+   4:    1  ->  these ==> those
+     -------
+         4
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  8th
+   2:    1  ->  big
+   3:    1  ->  for
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  snow
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  at
+   2:    1  ->  peas
+   3:    1  ->  slabs
+   4:    1  ->  these
+     -------
+         4
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  note
+   2:    1  ->  of
+   3:    1  ->  syllabus
+   4:    1  ->  those
+     -------
+         4
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

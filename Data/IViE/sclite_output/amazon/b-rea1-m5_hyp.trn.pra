@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\b-rea1-m5_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-m5_01)
+Scores: (#C #S #D #I) 148 27 6 7
+REF:  once upon a time there was a GIRL  called cinderella but everyone called her CINDERS cinders lived with her mother and two stepsisters called lily and rosa LILY AND     ROSA were VERY unfriendly and they were lazy GIRLS  they spent all their time buying new clothes and going to parties POOR CINDERS   had to WEAR all *** THEIR   old hand me downs and she had to do the cleaning one day A  ROYAL messenger came TO ANNOUNCE A      ball the ball WOULD be held at the royal palace *** *** in order ** in honour of the queen's only son prince william LILY AND     rosa thought this was divine prince william was gorgeous he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CINDERS HAD to help her sisters get ready they WERE IN  a bad mood they wanted to BUY some new GOWNS but their mother had said that they had enough GOWNS   so they started SHOUTING at CINDERS find my jewels yelled one find my HAT   HOWLED the other they wanted *** ******* 
+HYP:  once upon a time there was a GUARD called cinderella but everyone called her SANDERS cinders lived with her mother and two stepsisters called lily and rosa **** LILLIAN ROSE were **** unfriendly and they were lazy GUARDS they spent all their time buying new clothes and going to parties **** PRISONERS had to WORK all HER THEY'RE old hand me downs and she had to do the cleaning one day OR ALL   messenger came ** THROUGH  NINETY ball the ball WILL  be held at the royal palace AND ARE in order OF in honour of the queen's only son prince william **** LILLIAN rosa thought this was divine prince william was gorgeous he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CENTRES HOW to help her sisters get ready they **** RAN a bad mood they wanted to PAY some new GUNS  but their mother had said that they had enough GROUNDS so they started SHOOTING at SANDERS find my jewels yelled one find my HEART HELD   the other they wanted HER BRUSHES 
+Eval:                              S                                               S                                                                              D    S       S         D                                  S                                                                        D    S                S        I   S                                                                S  S                    D  S        S                    S                                 I   I            I                                                   D    S                                                                                                                                                              S       S                                      D    S                             S            S                                                    S                       S           S                                         S     S                            I   I       
+
+>> REF:  HAIRBRUSHES HAIRPINS and *** HAIRSPRAY 
+>> HYP:  HER         PENS     and HER SPRAY     
+>> Eval: S           S            I   S         
+
+

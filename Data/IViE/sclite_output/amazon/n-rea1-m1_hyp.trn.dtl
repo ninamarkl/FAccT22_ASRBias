@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\n-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.6%   (  19)
+
+Percent Correct           =   91.1%   ( 163)
+
+Percent Substitution      =    7.8%   (  14)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    1.7%   (   3)
+Percent Word Accuracy     =   89.4%
+
+
+Ref. words                =           ( 179)
+Hyp. words                =           ( 180)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  cinders ==> cindy's
+   2:    1  ->  cinders ==> does
+   3:    1  ->  had ==> have
+   4:    1  ->  hat ==> heart
+   5:    1  ->  howled ==> how
+   6:    1  ->  old ==> will
+   7:    1  ->  poor ==> person
+   8:    1  ->  rosa ==> i
+   9:    1  ->  spent ==> spend
+  10:    1  ->  stepsisters ==> sisters
+  11:    1  ->  their ==> that
+  12:    1  ->  they'd ==> they
+  13:    1  ->  would ==> will
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  all
+   2:    1  ->  rose
+   3:    1  ->  step
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  cinders
+   2:    1  ->  had
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  cinders
+   2:    1  ->  had
+   3:    1  ->  hat
+   4:    1  ->  howled
+   5:    1  ->  old
+   6:    1  ->  poor
+   7:    1  ->  rosa
+   8:    1  ->  spent
+   9:    1  ->  stepsisters
+  10:    1  ->  their
+  11:    1  ->  they'd
+  12:    1  ->  would
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  cindy's
+   2:    2  ->  will
+   3:    1  ->  does
+   4:    1  ->  have
+   5:    1  ->  heart
+   6:    1  ->  how
+   7:    1  ->  i
+   8:    1  ->  person
+   9:    1  ->  sisters
+  10:    1  ->  spend
+  11:    1  ->  that
+  12:    1  ->  they
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

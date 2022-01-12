@@ -1,0 +1,98 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\portuguese\portuguese43_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.0%   (   9)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   87.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  fresh ==> first
+   2:    1  ->  peas ==> peace
+   3:    1  ->  please ==> police
+   4:    1  ->  she ==> you
+   5:    1  ->  snow ==> no
+   6:    1  ->  spoons ==> £six
+   7:    1  ->  these ==> this
+   8:    1  ->  thick ==> thanks
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  six
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  fresh
+   2:    1  ->  peas
+   3:    1  ->  please
+   4:    1  ->  she
+   5:    1  ->  snow
+   6:    1  ->  spoons
+   7:    1  ->  these
+   8:    1  ->  thick
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  first
+   2:    1  ->  no
+   3:    1  ->  peace
+   4:    1  ->  police
+   5:    1  ->  thanks
+   6:    1  ->  this
+   7:    1  ->  you
+   8:    1  ->  £six
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

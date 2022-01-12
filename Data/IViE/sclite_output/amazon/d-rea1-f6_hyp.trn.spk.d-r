@@ -1,0 +1,138 @@
+SCORING FOR SPEAKER: d-r
+     of amazon\d-rea1-f6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.8%   (  28)
+
+Percent Correct           =   89.2%   ( 181)
+
+Percent Substitution      =    9.4%   (  19)
+Percent Deletions         =    1.5%   (   3)
+Percent Insertions        =    3.0%   (   6)
+Percent Word Accuracy     =   86.2%
+
+
+Ref. words                =           ( 203)
+Hyp. words                =           ( 206)
+Aligned words             =           ( 209)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> lillian
+   3:    1  ->  and ==> rose
+   4:    1  ->  at ==> and
+   5:    1  ->  ball ==> viral
+   6:    1  ->  cinders ==> sanders
+   7:    1  ->  do ==> did
+   8:    1  ->  everyone ==> evan
+   9:    1  ->  gowns ==> grounds
+  10:    1  ->  ha ==> head
+  11:    1  ->  howled ==> helps
+  12:    1  ->  lily ==> lillian
+  13:    1  ->  messenger ==> master
+  14:    1  ->  rosa ==> i
+  15:    1  ->  royal ==> real
+  16:    1  ->  stepsisters ==> sisters
+  17:    1  ->  they'd ==> they
+  18:    1  ->  were ==> we're
+  19:    1  ->  yelled ==> had
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  good
+   4:    1  ->  he
+   5:    1  ->  step
+   6:    1  ->  to
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  erm
+   2:    1  ->  i'll
+   3:    1  ->  lily
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  ball
+   5:    1  ->  cinders
+   6:    1  ->  do
+   7:    1  ->  everyone
+   8:    1  ->  gowns
+   9:    1  ->  ha
+  10:    1  ->  howled
+  11:    1  ->  lily
+  12:    1  ->  messenger
+  13:    1  ->  rosa
+  14:    1  ->  royal
+  15:    1  ->  stepsisters
+  16:    1  ->  they'd
+  17:    1  ->  were
+  18:    1  ->  yelled
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  lillian
+   2:    1  ->  and
+   3:    1  ->  did
+   4:    1  ->  evan
+   5:    1  ->  grounds
+   6:    1  ->  had
+   7:    1  ->  head
+   8:    1  ->  helps
+   9:    1  ->  i
+  10:    1  ->  master
+  11:    1  ->  real
+  12:    1  ->  rose
+  13:    1  ->  sanders
+  14:    1  ->  sisters
+  15:    1  ->  the
+  16:    1  ->  they
+  17:    1  ->  viral
+  18:    1  ->  we're
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

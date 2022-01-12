@@ -1,0 +1,109 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish46_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bags ==> backs
+   3:    1  ->  call ==> go
+   4:    1  ->  five ==> i
+   5:    1  ->  her ==> here
+   6:    1  ->  of ==> off
+   7:    1  ->  peas ==> piece
+   8:    1  ->  six ==> sit
+   9:    1  ->  slabs ==> slaps
+  10:    1  ->  snow ==> fresno
+  11:    1  ->  thick ==> think
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  fresh
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  ask
+   2:    1  ->  bags
+   3:    1  ->  call
+   4:    1  ->  five
+   5:    1  ->  her
+   6:    1  ->  of
+   7:    1  ->  peas
+   8:    1  ->  six
+   9:    1  ->  slabs
+  10:    1  ->  snow
+  11:    1  ->  thick
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  asked
+   2:    1  ->  backs
+   3:    1  ->  fresno
+   4:    1  ->  go
+   5:    1  ->  here
+   6:    1  ->  i
+   7:    1  ->  off
+   8:    1  ->  piece
+   9:    1  ->  sit
+  10:    1  ->  slaps
+  11:    1  ->  think
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

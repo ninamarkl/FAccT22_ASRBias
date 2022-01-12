@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\liv-rea1-m2_hyp.trn
+
+Speakers: 
+    0:  liv
+
+Speaker sentences   0:  liv   #utts: 1
+id: (liv-rea1-m2_01)
+Scores: (#C #S #D #I) 147 32 9 10
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with her mother and two stepsisters called lily and ROSA  lily and ROSA  were very unfriendly and they WERE lazy girls they spent all THEIR time buying new clothes and going to parties POOR    CINDERS HAD  to WEAR all THEIR old hand me downs *** *** *** ** ** and she had to do the cleaning one day * ***** ********* one day a royal messenger came to ANNOUNCE A  BALL      the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND ROSA THOUGHT THIS WAS  divine prince william was gorgeous and he was looking for a bride they DREAMED of wedding bells when THE evening when the evening of the BALL   ARRIVED CINDERS HAD  to help her sisters get ready they were in a bad mood they wanted to buy THEY'D wanted to buy some new GOWNS but THEIR MOTHER said THAT they HAD  enough GOWNS  so THEY started SHOUTING at cinders find my JEWELS yelled ONE FIND    my 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with her mother and two stepsisters called lily and ROSIE lily and ROSIE were very unfriendly and they WAVE lazy girls they spent all THE   time buying new clothes and going to parties PULSING JUST    HAVE to WAIT all DAY   old hand me downs AND SHE HAD TO BE and she had to do the cleaning one day A ROYAL MESSENGER one day a royal messenger came to ******** AN DANCEABLE the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** *** **** ******* **** DOES divine prince william was gorgeous and he was looking for a bride they DREAM   of wedding bells when *** evening when the evening of the BALLER RIDE    SIMS    HAVE to help her sisters get ready they were in a bad mood they wanted to buy THEY   wanted to buy some new GUNS  but THEY  NEVER  said **** they HAVE enough CLOWNS so WE   started CHANTING at cinders find my JULES  yelled *** FIFTEEN my 
+Eval:                                                                                                                                                       S              S                                   S                              S                                                  S       S       S       S        S                       I   I   I   I  I                                         I I     I                                           D        S  S                  S                                                                                  D    D   D    D       D    S                                                                           S                             D                                   S      S       S       S                                                                             S                             S         S     S           D         S           S         S            S                           S             D   S          
+
+>> REF:  HAT   HOWLED the other they wanted **** ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  HEART OUT    the other they wanted HAIR BRUSHES HAIR        PINS     and hairspray 
+>> Eval: S     S                            I    I       S           S                      
+
+

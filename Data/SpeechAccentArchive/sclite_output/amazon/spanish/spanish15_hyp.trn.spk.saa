@@ -1,0 +1,166 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish15_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   49.3%   (  34)
+
+Percent Correct           =   52.2%   (  36)
+
+Percent Substitution      =   44.9%   (  31)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   50.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  a ==> is
+   2:    1  ->  a ==> it's
+   3:    1  ->  and ==> bush's
+   4:    1  ->  and ==> on
+   5:    1  ->  and ==> um
+   6:    1  ->  bags ==> box
+   7:    1  ->  blue ==> love
+   8:    1  ->  bob ==> but
+   9:    1  ->  bring ==> re
+  10:    1  ->  can ==> candace
+  11:    1  ->  cheese ==> of
+  12:    1  ->  five ==> if
+  13:    1  ->  fresh ==> precious
+  14:    1  ->  frog ==> victory
+  15:    1  ->  her ==> here
+  16:    1  ->  her ==> him
+  17:    1  ->  of ==> his
+  18:    1  ->  peas ==> peace
+  19:    1  ->  scoop ==> could
+  20:    1  ->  she ==> to
+  21:    1  ->  six ==> sixty
+  22:    1  ->  slabs ==> fix
+  23:    1  ->  small ==> more
+  24:    1  ->  snack ==> not
+  25:    1  ->  snake ==> neck
+  26:    1  ->  snow ==> no
+  27:    1  ->  spoons ==> spools
+  28:    1  ->  stella ==> estela
+  29:    1  ->  these ==> ended
+  30:    1  ->  thick ==> i
+  31:    1  ->  will ==> we
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  is
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  big
+   2:    1  ->  toy
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  and
+   2:    2  ->  a
+   3:    2  ->  her
+   4:    1  ->  bags
+   5:    1  ->  blue
+   6:    1  ->  bob
+   7:    1  ->  bring
+   8:    1  ->  can
+   9:    1  ->  cheese
+  10:    1  ->  five
+  11:    1  ->  fresh
+  12:    1  ->  frog
+  13:    1  ->  of
+  14:    1  ->  peas
+  15:    1  ->  scoop
+  16:    1  ->  she
+  17:    1  ->  six
+  18:    1  ->  slabs
+  19:    1  ->  small
+  20:    1  ->  snack
+  21:    1  ->  snake
+  22:    1  ->  snow
+  23:    1  ->  spoons
+  24:    1  ->  stella
+  25:    1  ->  these
+  26:    1  ->  thick
+  27:    1  ->  will
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  box
+   2:    1  ->  bush's
+   3:    1  ->  but
+   4:    1  ->  candace
+   5:    1  ->  could
+   6:    1  ->  ended
+   7:    1  ->  estela
+   8:    1  ->  fix
+   9:    1  ->  here
+  10:    1  ->  him
+  11:    1  ->  his
+  12:    1  ->  i
+  13:    1  ->  if
+  14:    1  ->  is
+  15:    1  ->  it's
+  16:    1  ->  love
+  17:    1  ->  more
+  18:    1  ->  neck
+  19:    1  ->  no
+  20:    1  ->  not
+  21:    1  ->  of
+  22:    1  ->  on
+  23:    1  ->  peace
+  24:    1  ->  precious
+  25:    1  ->  re
+  26:    1  ->  sixty
+  27:    1  ->  spools
+  28:    1  ->  to
+  29:    1  ->  um
+  30:    1  ->  victory
+  31:    1  ->  we
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

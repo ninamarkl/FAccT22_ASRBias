@@ -1,0 +1,171 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\p-rea1-m2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   22.8%   (  42)
+
+Percent Correct           =   79.3%   ( 146)
+
+Percent Substitution      =   17.9%   (  33)
+Percent Deletions         =    2.7%   (   5)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   77.2%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 183)
+Aligned words             =           ( 188)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  cinders ==> singers
+   2:    1  ->  a ==> answer
+   3:    1  ->  and ==> her
+   4:    1  ->  announce ==> an
+   5:    1  ->  at ==> in
+   6:    1  ->  but ==> by
+   7:    1  ->  buying ==> buy
+   8:    1  ->  cinders ==> center's
+   9:    1  ->  cinders ==> passengers
+  10:    1  ->  cinders ==> to
+  11:    1  ->  downs ==> down
+  12:    1  ->  gowns ==> count
+  13:    1  ->  gowns ==> grounds
+  14:    1  ->  hairbrushes ==> happens
+  15:    1  ->  hairpins ==> on
+  16:    1  ->  hairspray ==> spread
+  17:    1  ->  her ==> a
+  18:    1  ->  howled ==> heart
+  19:    1  ->  lily ==> really
+  20:    1  ->  old ==> will
+  21:    1  ->  one ==> yellow
+  22:    1  ->  rosa ==> rather
+  23:    1  ->  sisters ==> investors
+  24:    1  ->  spent ==> spend
+  25:    1  ->  started ==> stayed
+  26:    1  ->  stepsisters ==> sisters
+  27:    1  ->  the ==> wholly
+  28:    1  ->  their ==> the
+  29:    1  ->  their ==> they
+  30:    1  ->  they'd ==> they
+  31:    1  ->  when ==> with
+  32:    1  ->  would ==> will
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  brushes
+   2:    1  ->  her
+   3:    1  ->  step
+   4:    1  ->  us
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  hat
+   2:    1  ->  her
+   3:    1  ->  poor
+   4:    1  ->  to
+   5:    1  ->  yelled
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    5  ->  cinders
+   2:    2  ->  gowns
+   3:    2  ->  their
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  announce
+   7:    1  ->  at
+   8:    1  ->  but
+   9:    1  ->  buying
+  10:    1  ->  downs
+  11:    1  ->  hairbrushes
+  12:    1  ->  hairpins
+  13:    1  ->  hairspray
+  14:    1  ->  her
+  15:    1  ->  howled
+  16:    1  ->  lily
+  17:    1  ->  old
+  18:    1  ->  one
+  19:    1  ->  rosa
+  20:    1  ->  sisters
+  21:    1  ->  spent
+  22:    1  ->  started
+  23:    1  ->  stepsisters
+  24:    1  ->  the
+  25:    1  ->  they'd
+  26:    1  ->  when
+  27:    1  ->  would
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  singers
+   2:    2  ->  they
+   3:    2  ->  will
+   4:    1  ->  a
+   5:    1  ->  an
+   6:    1  ->  answer
+   7:    1  ->  buy
+   8:    1  ->  by
+   9:    1  ->  center's
+  10:    1  ->  count
+  11:    1  ->  down
+  12:    1  ->  grounds
+  13:    1  ->  happens
+  14:    1  ->  heart
+  15:    1  ->  her
+  16:    1  ->  in
+  17:    1  ->  investors
+  18:    1  ->  on
+  19:    1  ->  passengers
+  20:    1  ->  rather
+  21:    1  ->  really
+  22:    1  ->  sisters
+  23:    1  ->  spend
+  24:    1  ->  spread
+  25:    1  ->  stayed
+  26:    1  ->  the
+  27:    1  ->  to
+  28:    1  ->  wholly
+  29:    1  ->  with
+  30:    1  ->  yellow
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

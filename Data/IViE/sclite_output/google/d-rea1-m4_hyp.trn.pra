@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\d-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-m4_01)
+Scores: (#C #S #D #I) 93 47 42 1
+REF:  once upon a time there was a girl called cinderella but EVERYONE CALLED HER  CINDERS cinders LIVED WITH HER MOTHER AND TWO step STEPDAUGHTERS STEPSISTERS CALLED LILY AND ROSA LILY AND     ROSA WERE   VERY  UNFRIENDLY and THEY WERE LAZY  GIRLS     they spent all THEIR time buying new clothes and going to parties POOR   CINDERS had to wear ALL their OLD hand me downs and she had to do the cleaning ONE DAY  A       royal messenger came to ANNOUNCE A BALL THE    BALL  WOULD be held at the royal palace in HONOUR OF the queen's only son prince william LILY AND ROSA THOUGHT IT this was divine PRINCE WILLIAM WAS GORGEOUS and HE WAS  looking for a BRIDE THEY DREAMED OF  wedding bells when the evening OF the BALL ARRIVED CINDERS HAD to help HER SISTERS     get ready THEY WERE  in a bad mood THEY'D wanted to buy some new GOWNS BUT  THEIR mother said THAT they had enough GOWNS so THEY STARTED SHOUTING AT CINDERS FIND  MY       JEWELS    YELLED ONE     find my HAT HOWLED     the other 
+HYP:  once upon a time there was a girl called cinderella but ******** ****** EVAN CORNISH cinders ***** **** *** ****** *** TO  step ************* *********** ****** **** *** **** **** SISTERS CALL DANIEL ROSIE FRIENDLY   and **** **** THEIR LAZYGIRLS they spent all THE   time buying new clothes and going to parties PERSON HAS     had to wear ON  their OWN hand me downs and she had to do the cleaning *** WHEN THEY'RE royal messenger came to ******** * AN   ANSWER PHONE WILL  be held at the royal palace in ****** ** the queen's only son prince william **** *** **** ******* ** this was divine ****** ******* *** ******** and ** HE'S looking for a RIDE  THE  DREAM   DAY wedding bells when the evening AT the **** ******* CINEMAS HOW to help *** RESEARCHERS get ready **** THERE in a bad mood THEY   wanted to buy some new GAMES WITH THE   mother said **** they had enough CANS  so **** ******* ******** ** ******* START SHEDDING EXTENDERS FOR    MODULES find my *** HOT-HEADED the other 
+Eval:                                                         D        D      S    S               D     D    D   D      D   S        D             D           D      D    D   D    D    S       S    S      S     S              D    D    S     S                        S                                                  S      S                   S         S                                                D   S    S                               D        D S    S      S     S                                    D      D                                      D    D   D    D       D                  D      D       D   D            D  S                  S     S    S       S                                  S      D    D       S       S           D   S                     D    S                   S                             S     S    S                 D                    S        D    D       D        D  D       S     S        S         S      S               D   S                    
+
+>> REF:  ******** THEY WANTED  HAIRBRUSHES HAIRPINS AND hairspray 
+>> HYP:  UNWANTED HAIR BRUSHES HAIR        PAINS    IN  hairspray 
+>> Eval: I        S    S       S           S        S             
+
+

@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\l-rea1-f1_hyp.trn
+
+Speakers: 
+    0:  l-r
+
+Speaker sentences   0:  l-r   #utts: 1
+id: (l-rea1-f1_01)
+Scores: (#C #S #D #I) 131 36 17 3
+REF:  once upon a time there was a girl called cinderella BUT EVERYONE CALLED  HER  CINDERS cinders LIVED with HER   mother and two stepsisters called lily and ROSA LILY AND   ROSA  were very unfriendly AND THEY WERE lazy GIRLS THEY SPENT all THEIR time BUYING new clothes and going to parties POOR cinders had to wear all their hand me downs and she had to do all the cleaning one day a royal messenger came to ANNOUNCE A BALL THE BALL   WOULD be held AT THE royal palace in honour of the queen's only son prince william LILY   and rosa thought this was divine prince william was gorgeous and he was looking for A bride THEY  DREAMED OF  wedding bells when the evening OF the ball arrived CINDERS HAD to help her SISTERS  get ready they were IN a bad mood THEY'D wanted to buy some new GOWNS but their mother THEIR mother THEIR mother said they had ****** THEY had enough GOWNS   so they started shouting at cinders find MY JEWELS  YELLED one find my HAT   HOWLED THE OTHER they wanted **** 
+HYP:  once upon a time there was a girl called cinderella *** ******** BEDROOM CALL THE     cinders LIVE  with THEIR mother and two stepsisters called lily and **** **** ROSIE ROSIE were very unfriendly *** **** NO   lazy GIRL  IT'S BEEN  all THE   time BY     new clothes and going to parties FOR  cinders had to wear all their hand me downs and she had to do all the cleaning one day a royal messenger came to ******** * **** AN  ANSWER BOWL  be held ** AS  royal palace in honour of the queen's only son prince william LILLEY and rosa thought this was divine prince william was gorgeous and he was looking for * bride THEIR DREAM   DAY wedding bells when the evening IN the ball arrived ******* *** to help her SISTER'S get ready they were ** a bad mood THEY   wanted to buy some new DOWNS but their mother ***** mother ***** mother said they had ENOUGH I    had enough GROUNDS so they started shouting at cinders find ** MODULES AS     one find my HEART HOW    DO  THAT  they wanted HAIR 
+Eval:                                                     D   D        S       S    S               S          S                                                D    D    S     S                          D   D    S         S     S    S         S          S                                       S                                                                                                                     D        D D    S   S      S             D  S                                                                 S                                                                                          D       S     S       S                                  S                   D       D               S                            D             S                             S                      D            D                          I      S               S                                                D  S       S                  S     S      S   S                 I    
+
+>> REF:  ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  BRUSHES HAIR        THINGS   and hairspray 
+>> Eval: I       S           S                      
+
+

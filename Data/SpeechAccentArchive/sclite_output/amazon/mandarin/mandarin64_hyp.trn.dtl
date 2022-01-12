@@ -1,0 +1,132 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin64_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  bags ==> back
+   3:    1  ->  blue ==> through
+   4:    1  ->  call ==> cause
+   5:    1  ->  five ==> being
+   6:    1  ->  for ==> full
+   7:    1  ->  frog ==> fog
+   8:    1  ->  plastic ==> prosthetic
+   9:    1  ->  scoop ==> script
+  10:    1  ->  slabs ==> labour
+  11:    1  ->  snake ==> snack
+  12:    1  ->  stella ==> stellar
+  13:    1  ->  store ==> door
+  14:    1  ->  the ==> fungus
+  15:    1  ->  the ==> of
+  16:    1  ->  these ==> they
+  17:    1  ->  thick ==> fifty-six
+  18:    1  ->  things ==> since
+  19:    1  ->  train ==> trans
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  seek
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  from
+   2:    1  ->  peas
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  of
+   2:    2  ->  the
+   3:    1  ->  bags
+   4:    1  ->  blue
+   5:    1  ->  call
+   6:    1  ->  five
+   7:    1  ->  for
+   8:    1  ->  frog
+   9:    1  ->  plastic
+  10:    1  ->  scoop
+  11:    1  ->  slabs
+  12:    1  ->  snake
+  13:    1  ->  stella
+  14:    1  ->  store
+  15:    1  ->  these
+  16:    1  ->  thick
+  17:    1  ->  things
+  18:    1  ->  train
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  off
+   2:    1  ->  back
+   3:    1  ->  being
+   4:    1  ->  cause
+   5:    1  ->  door
+   6:    1  ->  fifty-six
+   7:    1  ->  fog
+   8:    1  ->  full
+   9:    1  ->  fungus
+  10:    1  ->  labour
+  11:    1  ->  of
+  12:    1  ->  prosthetic
+  13:    1  ->  script
+  14:    1  ->  since
+  15:    1  ->  snack
+  16:    1  ->  stellar
+  17:    1  ->  they
+  18:    1  ->  through
+  19:    1  ->  trans
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,151 @@
+SCORING FOR SPEAKER: car
+     of amazon\car-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   19.0%   (  35)
+
+Percent Correct           =   84.8%   ( 156)
+
+Percent Substitution      =   13.6%   (  25)
+Percent Deletions         =    1.6%   (   3)
+Percent Insertions        =    3.8%   (   7)
+Percent Word Accuracy     =   81.0%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 188)
+Aligned words             =           ( 191)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  gowns ==> grounds
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> lillian
+   4:    1  ->  and ==> rose
+   5:    1  ->  at ==> it
+   6:    1  ->  buying ==> a
+   7:    1  ->  cinders ==> does
+   8:    1  ->  cinders ==> passengers
+   9:    1  ->  her ==> sin
+  10:    1  ->  howled ==> old
+  11:    1  ->  jewels ==> jules
+  12:    1  ->  lily ==> lillian
+  13:    1  ->  one ==> i
+  14:    1  ->  only ==> use
+  15:    1  ->  queen's ==> of
+  16:    1  ->  rosa ==> i
+  17:    1  ->  she ==> you
+  18:    1  ->  so ==> for
+  19:    1  ->  son ==> in
+  20:    1  ->  started ==> status
+  21:    1  ->  stepsisters ==> sisters
+  22:    1  ->  they ==> the
+  23:    1  ->  was ==> most
+  24:    1  ->  would ==> will
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  by
+   2:    1  ->  how
+   3:    1  ->  out
+   4:    1  ->  queens
+   5:    1  ->  step
+   6:    1  ->  the
+   7:    1  ->  when
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  call
+   2:    1  ->  lily
+   3:    1  ->  poor
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  and
+   2:    2  ->  cinders
+   3:    2  ->  gowns
+   4:    1  ->  a
+   5:    1  ->  at
+   6:    1  ->  buying
+   7:    1  ->  her
+   8:    1  ->  howled
+   9:    1  ->  jewels
+  10:    1  ->  lily
+  11:    1  ->  one
+  12:    1  ->  only
+  13:    1  ->  queen's
+  14:    1  ->  rosa
+  15:    1  ->  she
+  16:    1  ->  so
+  17:    1  ->  son
+  18:    1  ->  started
+  19:    1  ->  stepsisters
+  20:    1  ->  they
+  21:    1  ->  was
+  22:    1  ->  would
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  grounds
+   2:    2  ->  i
+   3:    2  ->  lillian
+   4:    2  ->  the
+   5:    1  ->  a
+   6:    1  ->  does
+   7:    1  ->  for
+   8:    1  ->  in
+   9:    1  ->  it
+  10:    1  ->  jules
+  11:    1  ->  most
+  12:    1  ->  of
+  13:    1  ->  old
+  14:    1  ->  passengers
+  15:    1  ->  rose
+  16:    1  ->  sin
+  17:    1  ->  sisters
+  18:    1  ->  status
+  19:    1  ->  use
+  20:    1  ->  will
+  21:    1  ->  you
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

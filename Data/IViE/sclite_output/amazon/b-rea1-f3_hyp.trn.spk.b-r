@@ -1,0 +1,150 @@
+SCORING FOR SPEAKER: b-r
+     of amazon\b-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   19.2%   (  35)
+
+Percent Correct           =   84.1%   ( 153)
+
+Percent Substitution      =   14.3%   (  26)
+Percent Deletions         =    1.6%   (   3)
+Percent Insertions        =    3.3%   (   6)
+Percent Word Accuracy     =   80.8%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 185)
+Aligned words             =           ( 188)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  cinders ==> sanders
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> lillian
+   4:    1  ->  and ==> rose
+   5:    1  ->  arrived ==> around
+   6:    1  ->  came ==> camp
+   7:    1  ->  cinders ==> percenters
+   8:    1  ->  cinders ==> standard
+   9:    1  ->  find ==> found
+  10:    1  ->  girl ==> guard
+  11:    1  ->  gowns ==> grounds
+  12:    1  ->  gowns ==> kinds
+  13:    1  ->  hairbrushes ==> and
+  14:    1  ->  hairpins ==> her
+  15:    1  ->  hairpins ==> pins
+  16:    1  ->  hairspray ==> spray
+  17:    1  ->  howled ==> told
+  18:    1  ->  lily ==> lillian
+  19:    1  ->  lived ==> live
+  20:    1  ->  rosa ==> up
+  21:    1  ->  shouting ==> trading
+  22:    1  ->  stepsisters ==> sisters
+  23:    1  ->  they'd ==> they
+  24:    1  ->  wear ==> work
+  25:    1  ->  would ==> will
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    3  ->  her
+   2:    1  ->  brushes
+   3:    1  ->  sprints
+   4:    1  ->  tap
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  lily
+   2:    1  ->  one
+   3:    1  ->  poor
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  cinders
+   2:    2  ->  and
+   3:    2  ->  gowns
+   4:    2  ->  hairpins
+   5:    1  ->  a
+   6:    1  ->  arrived
+   7:    1  ->  came
+   8:    1  ->  find
+   9:    1  ->  girl
+  10:    1  ->  hairbrushes
+  11:    1  ->  hairspray
+  12:    1  ->  howled
+  13:    1  ->  lily
+  14:    1  ->  lived
+  15:    1  ->  rosa
+  16:    1  ->  shouting
+  17:    1  ->  stepsisters
+  18:    1  ->  they'd
+  19:    1  ->  wear
+  20:    1  ->  would
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  lillian
+   2:    2  ->  sanders
+   3:    1  ->  and
+   4:    1  ->  around
+   5:    1  ->  camp
+   6:    1  ->  found
+   7:    1  ->  grounds
+   8:    1  ->  guard
+   9:    1  ->  her
+  10:    1  ->  kinds
+  11:    1  ->  live
+  12:    1  ->  percenters
+  13:    1  ->  pins
+  14:    1  ->  rose
+  15:    1  ->  sisters
+  16:    1  ->  spray
+  17:    1  ->  standard
+  18:    1  ->  the
+  19:    1  ->  they
+  20:    1  ->  told
+  21:    1  ->  trading
+  22:    1  ->  up
+  23:    1  ->  will
+  24:    1  ->  work
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

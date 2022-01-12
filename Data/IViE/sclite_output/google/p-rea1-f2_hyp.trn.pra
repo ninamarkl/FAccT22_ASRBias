@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\p-rea1-f2_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-f2_01)
+Scores: (#C #S #D #I) 97 55 27 3
+REF:  once upon a time there was a girl called cinderella but everyone called HER    CINDERS CINDERS    LIVED with HER MOTHER AND   TWO    STEPSISTERS called lily and ROSA  LILY    and ROSA WERE  very ** UNFRIENDLY and they were LAZY GIRLS     THEY SPENT all THEIR time BUYING NEW CLOTHES AND going to parties POOR CINDERS HAD TO WEAR all THEIR old hand me downs and she had to do the cleaning ONE DAY A      ROYAL  messenger came to ANNOUNCE A      BALL the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND ROSA THOUGHT THIS      WAS  divine PRINCE WILLIAM WAS gorgeous and HE WAS  looking for a BRIDE  THEY DREAMED OF  wedding bells WHEN the evening of the BALL  ARRIVED CINDERS HAD to HELP her SISTERS  get ready THEY WERE   in a bad mood THEY'D wanted to buy some new GOWNS BUT  THEIR  MOTHER said THAT they had enough GOWNS SO    THEY STARTED SHOUTING AT   CINDERS find my JEWELS YELLED ONE find my hat HOWLED THE  OTHER   they wanted **** 
+HYP:  once upon a time there was a girl called cinderella but everyone called SEEMED IS      EASTENDERS LIVE  with *** THEM   UNTIL SEPSIS HAS         called lily and ROSIE CAILLOU and **** ROSIE very IN FRIENDLY   and they were **** LAZYGIRLS IT'S BEEN  all THE   time ****** *** BUT     I'M going to parties **** ******* *** ** **** all THE   old hand me downs and she had to do the cleaning *** *** MONDAY AROUND messenger came to AN       ANSWER PAUL the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** *** **** VS      HEARTBEAT WITH divine ****** ******* *** gorgeous and ** HE'S looking for a BRIGHT THE  DREAM   DAY wedding bells OF   the evening of the DRIVE TO      SEND    IT  to **** her SISTER'S get ready **** THOUGH in a bad mood DID    wanted to buy some new ***** GUNS WITHIN THE    said **** they had enough ***** FUNDS FOR  THE     STATUS   CHAT TO      find my ****** ****** *** find my hat TO     HAVE FURTHER they wanted HAIR 
+Eval:                                                                         S      S       S          S          D   S      S     S      S                           S     S           D    S          I  S                        D    S         S    S         S          D      D   S       S                    D    D       D   D  D        S                                                      D   D   S      S                        S        S      S             S                                                                                  D    D   D    S       S         S           D      D       D                D  S                  S      S    S       S                 S                       S     S       S       S      D        S                  D    S                    S                             D     S    S      S           D                    D     S     S    S       S        S    S               D      D      D               S      S    S                   I    
+
+>> REF:  ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  BRUSHES HAIR        PINS     and hairspray 
+>> Eval: I       S           S                      
+
+

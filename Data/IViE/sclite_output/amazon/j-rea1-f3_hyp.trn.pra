@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\j-rea1-f3_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-f3_01)
+Scores: (#C #S #D #I) 151 23 7 5
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with her mother and two **** STEPSISTERS called lily and rosa lily and ROSA were very unfriendly and they were lazy girls they spent all THEIR time ** BUYING new clothes AND GOING TO      parties POOR  CINDER had to wear all all THEIR old hand me DOWNS and she had to do the cleaning one day a ROYAL messenger came to ANNOUNCE A BALL      the ball would be held at the royal palace in HONOUR of the queen's only son prince william LILY    AND  ROSA thought this was divine prince william was gorgeous and he was looking for a bride *** they dreamed of wedding bells when the evening of the ball ***** ARRIVED CINDERS had to help HER   sisters get ready THEY WERE    in a bad mood they wanted to buy some new gowns but THEIR mother said that they had enough gowns so they started shouting at cinders FIND my jewels *** yelled ONE one find my hat YELLED THE OTHER  they wanted hairbrushes 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with her mother and two STEP SISTERS     called lily and rosa lily and ROSE were very unfriendly and they were lazy girls they spent all THAT  time BY A      new clothes *** ***** AGAINST parties HORSE KINDA  had to wear all all THE   old hand me DANCE and she had to do the cleaning one day a ROW   messenger came to ******** * INAUDIBLE the ball would be held at the royal palace in ONE    of the queen's only son prince william LILLIAN ROSE I    thought this was divine prince william was gorgeous and he was looking for a bride THE they dreamed of wedding bells when the evening of the ball RIGHT OF      CINDA   had to help THEIR sisters get ready **** THEY'RE in a bad mood they wanted to buy some new gowns but THE   mother said that they had enough gowns so they started shouting at cinders FIRE my jewels THE yelled *** one find my hat ****** YOU ELIAVA they wanted hairbrushes 
+Eval:                                                                                                                           I    S                                         S                                                                 S          I  S                  D   D     S               S     S                          S                 S                                              S                       D        D S                                                       S                                             S       S    S                                                                                       I                                                              I     S       S                   S                       D    S                                                           S                                                                                S              I          D                   D      S   S                              
+
+>> REF:  hairpins and hairspray 
+>> HYP:  hairpins and hairspray 
+>> Eval:                        
+
+

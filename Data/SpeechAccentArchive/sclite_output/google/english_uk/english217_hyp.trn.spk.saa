@@ -1,0 +1,113 @@
+SCORING FOR SPEAKER: saa
+     of english_uk\english217_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =   20.3%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  55)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  brother ==> the
+   3:    1  ->  her ==> fab
+   4:    1  ->  her ==> metre
+   5:    1  ->  of ==> labs
+   6:    1  ->  scoop ==> skip
+   7:    1  ->  slabs ==> 56
+   8:    1  ->  thick ==> personalities
+   9:    1  ->  toy ==> toys
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  also
+   4:    1  ->  at
+   5:    1  ->  bring
+   6:    1  ->  for
+   7:    1  ->  fresh
+   8:    1  ->  her
+   9:    1  ->  meet
+  10:    1  ->  need
+  11:    1  ->  peas
+  12:    1  ->  snow
+  13:    1  ->  to
+  14:    1  ->  we
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  her
+   2:    1  ->  a
+   3:    1  ->  brother
+   4:    1  ->  of
+   5:    1  ->  scoop
+   6:    1  ->  slabs
+   7:    1  ->  thick
+   8:    1  ->  toy
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  the
+   2:    1  ->  56
+   3:    1  ->  fab
+   4:    1  ->  labs
+   5:    1  ->  metre
+   6:    1  ->  personalities
+   7:    1  ->  skip
+   8:    1  ->  toys
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

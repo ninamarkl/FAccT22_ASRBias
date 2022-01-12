@@ -1,0 +1,123 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic50_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  and ==> on
+   2:    2  ->  of ==> off
+   3:    1  ->  at ==> is
+   4:    1  ->  bob ==> paul
+   5:    1  ->  into ==> tow
+   6:    1  ->  peas ==> bees
+   7:    1  ->  scoop ==> scope
+   8:    1  ->  slabs ==> slaps
+   9:    1  ->  snack ==> snacks
+  10:    1  ->  snake ==> snacks
+  11:    1  ->  spoons ==> teaspoons
+  12:    1  ->  stella ==> still
+  13:    1  ->  store ==> stop
+  14:    1  ->  the ==> these
+  15:    1  ->  thick ==> take
+  16:    1  ->  wednesday ==> when
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  in
+   2:    1  ->  us
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  and
+   2:    2  ->  of
+   3:    1  ->  at
+   4:    1  ->  bob
+   5:    1  ->  into
+   6:    1  ->  peas
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  snack
+  10:    1  ->  snake
+  11:    1  ->  spoons
+  12:    1  ->  stella
+  13:    1  ->  store
+  14:    1  ->  the
+  15:    1  ->  thick
+  16:    1  ->  wednesday
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  off
+   2:    2  ->  on
+   3:    2  ->  snacks
+   4:    1  ->  bees
+   5:    1  ->  is
+   6:    1  ->  paul
+   7:    1  ->  scope
+   8:    1  ->  slaps
+   9:    1  ->  still
+  10:    1  ->  stop
+  11:    1  ->  take
+  12:    1  ->  teaspoons
+  13:    1  ->  these
+  14:    1  ->  tow
+  15:    1  ->  when
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic44_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.6%   (  28)
+
+Percent Correct           =   59.4%   (  41)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =   29.0%   (  20)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   59.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  49)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a ==> is
+   2:    1  ->  fresh ==> first
+   3:    1  ->  her ==> cost
+   4:    1  ->  maybe ==> that
+   5:    1  ->  snack ==> there
+   6:    1  ->  snake ==> stag
+   7:    1  ->  spoons ==> pins
+   8:    1  ->  thick ==> 56
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  and
+   2:    2  ->  we
+   3:    1  ->  3
+   4:    1  ->  5
+   5:    1  ->  also
+   6:    1  ->  ask
+   7:    1  ->  at
+   8:    1  ->  bags
+   9:    1  ->  call
+  10:    1  ->  go
+  11:    1  ->  her
+  12:    1  ->  meet
+  13:    1  ->  need
+  14:    1  ->  red
+  15:    1  ->  stella
+  16:    1  ->  train
+  17:    1  ->  wednesday
+  18:    1  ->  will
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  fresh
+   3:    1  ->  her
+   4:    1  ->  maybe
+   5:    1  ->  snack
+   6:    1  ->  snake
+   7:    1  ->  spoons
+   8:    1  ->  thick
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  56
+   2:    1  ->  cost
+   3:    1  ->  first
+   4:    1  ->  is
+   5:    1  ->  pins
+   6:    1  ->  stag
+   7:    1  ->  that
+   8:    1  ->  there
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

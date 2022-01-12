@@ -1,0 +1,134 @@
+SCORING FOR SPEAKER: saa
+     of italian\italian29_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.9%   (  31)
+
+Percent Correct           =   55.1%   (  38)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =   20.3%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   55.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  55)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  3 ==> do
+   3:    1  ->  5 ==> snoopy's
+   4:    1  ->  and ==> in
+   5:    1  ->  for ==> it's
+   6:    1  ->  frog ==> tight
+   7:    1  ->  her ==> necro
+   8:    1  ->  into ==> to
+   9:    1  ->  peas ==> fish
+  10:    1  ->  plastic ==> classic
+  11:    1  ->  snake ==> steak
+  12:    1  ->  spoons ==> tins
+  13:    1  ->  thick ==> 56
+  14:    1  ->  things ==> thing
+  15:    1  ->  toy ==> bit
+  16:    1  ->  will ==> little
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    2  ->  we
+   3:    1  ->  also
+   4:    1  ->  big
+   5:    1  ->  can
+   6:    1  ->  fresh
+   7:    1  ->  need
+   8:    1  ->  scoop
+   9:    1  ->  she
+  10:    1  ->  small
+  11:    1  ->  snack
+  12:    1  ->  snow
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  these
+   2:    1  ->  3
+   3:    1  ->  5
+   4:    1  ->  and
+   5:    1  ->  for
+   6:    1  ->  frog
+   7:    1  ->  her
+   8:    1  ->  into
+   9:    1  ->  peas
+  10:    1  ->  plastic
+  11:    1  ->  snake
+  12:    1  ->  spoons
+  13:    1  ->  thick
+  14:    1  ->  things
+  15:    1  ->  toy
+  16:    1  ->  will
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  this
+   2:    1  ->  56
+   3:    1  ->  bit
+   4:    1  ->  classic
+   5:    1  ->  do
+   6:    1  ->  fish
+   7:    1  ->  in
+   8:    1  ->  it's
+   9:    1  ->  little
+  10:    1  ->  necro
+  11:    1  ->  snoopy's
+  12:    1  ->  steak
+  13:    1  ->  thing
+  14:    1  ->  tight
+  15:    1  ->  tins
+  16:    1  ->  to
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

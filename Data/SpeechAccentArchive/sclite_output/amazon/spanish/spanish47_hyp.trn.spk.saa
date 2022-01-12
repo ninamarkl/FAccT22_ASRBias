@@ -1,0 +1,114 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish47_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and ==> on
+   2:    1  ->  ask ==> asked
+   3:    1  ->  blue ==> off
+   4:    1  ->  bob ==> but
+   5:    1  ->  cheese ==> lucious
+   6:    1  ->  of ==> loves
+   7:    1  ->  of ==> off
+   8:    1  ->  slabs ==> sick
+   9:    1  ->  spoons ==> points
+  10:    1  ->  these ==> stands
+  11:    1  ->  these ==> this
+  12:    1  ->  things ==> from
+  13:    1  ->  things ==> stance
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  called
+   2:    1  ->  scoop
+   3:    1  ->  this
+   4:    1  ->  you
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  thick
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and
+   2:    2  ->  of
+   3:    2  ->  these
+   4:    2  ->  things
+   5:    1  ->  ask
+   6:    1  ->  blue
+   7:    1  ->  bob
+   8:    1  ->  cheese
+   9:    1  ->  slabs
+  10:    1  ->  spoons
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  off
+   2:    2  ->  on
+   3:    1  ->  asked
+   4:    1  ->  but
+   5:    1  ->  from
+   6:    1  ->  loves
+   7:    1  ->  lucious
+   8:    1  ->  points
+   9:    1  ->  sick
+  10:    1  ->  stance
+  11:    1  ->  stands
+  12:    1  ->  this
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

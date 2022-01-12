@@ -1,0 +1,139 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\french\french57_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.0%   (  29)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   58.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  at ==> once
+   3:    1  ->  blue ==> off
+   4:    1  ->  call ==> her
+   5:    1  ->  cheese ==> guccis
+   6:    1  ->  five ==> no
+   7:    1  ->  fresh ==> points
+   8:    1  ->  frog ==> oil
+   9:    1  ->  of ==> lives
+  10:    1  ->  peas ==> yes
+  11:    1  ->  please ==> tell
+  12:    1  ->  slabs ==> fifty-six
+  13:    1  ->  snack ==> snake
+  14:    1  ->  snow ==> off
+  15:    1  ->  stella ==> i
+  16:    1  ->  store ==> still
+  17:    1  ->  the ==> they
+  18:    1  ->  thick ==> peace
+  19:    1  ->  with ==> one
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  calls
+   2:    1  ->  heard
+   3:    1  ->  now
+   4:    1  ->  police
+   5:    1  ->  we
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  of
+   3:    1  ->  spoons
+   4:    1  ->  toy
+   5:    1  ->  wednesday
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  ask
+   2:    1  ->  at
+   3:    1  ->  blue
+   4:    1  ->  call
+   5:    1  ->  cheese
+   6:    1  ->  five
+   7:    1  ->  fresh
+   8:    1  ->  frog
+   9:    1  ->  of
+  10:    1  ->  peas
+  11:    1  ->  please
+  12:    1  ->  slabs
+  13:    1  ->  snack
+  14:    1  ->  snow
+  15:    1  ->  stella
+  16:    1  ->  store
+  17:    1  ->  the
+  18:    1  ->  thick
+  19:    1  ->  with
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  off
+   2:    1  ->  asked
+   3:    1  ->  fifty-six
+   4:    1  ->  guccis
+   5:    1  ->  her
+   6:    1  ->  i
+   7:    1  ->  lives
+   8:    1  ->  no
+   9:    1  ->  oil
+  10:    1  ->  once
+  11:    1  ->  one
+  12:    1  ->  peace
+  13:    1  ->  points
+  14:    1  ->  snake
+  15:    1  ->  still
+  16:    1  ->  tell
+  17:    1  ->  they
+  18:    1  ->  yes
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

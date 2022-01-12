@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\j-rea1-f6_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-f6_01)
+Scores: (#C #S #D #I) 150 24 6 1
+REF:  once upon a time there was a girl called cinderella but everyone called HER CINDERS  CINDERS  lived with her mother and two SEP   STEPSISTERS called lily and ROSA  lily and ROSA  were very unfriendly and they were LAZY GIRLS     they spent all THEIR time BUYING new clothes and going to parties poor cinders had to wear all THEIR old hand me DOWNS and she had to do the cleaning one day a royal messenger came to announce a ball the BALL WOULD be held at the royal palace in honour of the QUEEN'S only son prince william LILY AND ROSA thought this was divine prince william was gorgeous and he was looking for a bride THEY DREAMED  of wedding bells when the evening of the ball ARRIVED cinders had to help her sister get ready they were in a bad mood they wanted to buy some new GOWNS but their mother said that they had enough GOWNS  so they started shouting at cinders FIND MY      JEWELS YELLED one find my hat HOWLED the other they wanted hairbrush **** HAIRPINS and hairspray 
+HYP:  once upon a time there was a girl called cinderella but everyone called A   SENTENCE SENTENCE lived with her mother and two STEPS IS          called lily and ROSIE lily and ROSIE were very unfriendly and they were **** LAZYGIRLS they spent all THE   time BY     new clothes and going to parties poor cinders had to wear all THE   old hand me DOWN  and she had to do the cleaning one day a royal messenger came to announce a ball the **** WALL  be held at the royal palace in honour of the ******* only son prince william **** LEE I    thought this was divine prince william was gorgeous and he was looking for a bride **** DAYDREAM of wedding bells when the evening of the ball ARRIVES cinders had to help her sister get ready they were in a bad mood they wanted to buy some new GUNS  but their mother said that they had enough SOUNDS so they started shouting at cinders **** MYJOOLZ YOUR   OLD    one find my hat HOW    the other they wanted hairbrush HAIR PINS     and hairspray 
+Eval:                                                                         S   S        S                                      S     S                           S              S                                        D    S                        S          S                                                                    S                 S                                                                                          D    S                                                  D                               D    S   S                                                                                       D    S                                                      S                                                                                                    S                                                S                                          D    S       S      S                      S                                      I    S                      
+
+

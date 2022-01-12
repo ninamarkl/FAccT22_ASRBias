@@ -1,0 +1,129 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\english_uk\english267_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   43.5%   (  30)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   20.3%   (  14)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   56.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  56)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  bob ==> above
+   3:    1  ->  brother ==> separable
+   4:    1  ->  call ==> small
+   5:    1  ->  her ==> major
+   6:    1  ->  please ==> too
+   7:    1  ->  scoop ==> scooped
+   8:    1  ->  slabs ==> sides
+   9:    1  ->  snake ==> safe
+  10:    1  ->  spoons ==> poems
+  11:    1  ->  stella ==> still
+  12:    1  ->  the ==> put
+  13:    1  ->  these ==> those
+  14:    1  ->  thick ==> fifty-six
+  15:    1  ->  will ==> we'll
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  yeah
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and
+   2:    2  ->  for
+   3:    2  ->  her
+   4:    2  ->  the
+   5:    1  ->  at
+   6:    1  ->  can
+   7:    1  ->  five
+   8:    1  ->  meet
+   9:    1  ->  snack
+  10:    1  ->  we
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  and
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  call
+   5:    1  ->  her
+   6:    1  ->  please
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  snake
+  10:    1  ->  spoons
+  11:    1  ->  stella
+  12:    1  ->  the
+  13:    1  ->  these
+  14:    1  ->  thick
+  15:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  above
+   2:    1  ->  fifty-six
+   3:    1  ->  major
+   4:    1  ->  on
+   5:    1  ->  poems
+   6:    1  ->  put
+   7:    1  ->  safe
+   8:    1  ->  scooped
+   9:    1  ->  separable
+  10:    1  ->  sides
+  11:    1  ->  small
+  12:    1  ->  still
+  13:    1  ->  those
+  14:    1  ->  too
+  15:    1  ->  we'll
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

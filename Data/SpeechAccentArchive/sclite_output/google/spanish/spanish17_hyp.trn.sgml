@@ -1,0 +1,7 @@
+<SYSTEM title="spanish\spanish17_hyp.trn" ref_fname="saa_ref_numbers.trn" hyp_fname="spanish\spanish17_hyp.trn" creation_date="Wed May 26 08:01:29 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="71" sequence="0">
+C,"please","please":C,"call","call":C,"stella","stella":S,"ask","as":C,"her","her":C,"to","to":S,"bring","rain":S,"these","this":S,"things","thing":C,"with","with":C,"her","her":C,"from","from":C,"the","the":C,"store","store":S,"6","6s":S,"spoons","plus":C,"of","of":C,"fresh","fresh":I,,"is":S,"snow","no":S,"peas","peace":C,"5","5":I,,"take":S,"thick","a":S,"slabs","slice":C,"of","of":C,"blue","blue":C,"cheese","cheese":S,"and","in":C,"maybe","maybe":S,"a","his":C,"snack","snack":C,"for","for":C,"her","her":C,"brother","brother":S,"bob","but":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":C,"and","and":C,"a","a":C,"big","big":C,"toy","toy":C,"frog","frog":C,"for","for":C,"the","the":C,"kids","kids":D,"she",:S,"can","chickens":S,"scoop","cooked":C,"these","these":C,"things","things":C,"into","into":C,"3","3":C,"red","red":C,"bags","bags":C,"and","and":D,"we",:D,"will",:S,"go","we'll":C,"meet","meet":S,"her","on":C,"wednesday","wednesday":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

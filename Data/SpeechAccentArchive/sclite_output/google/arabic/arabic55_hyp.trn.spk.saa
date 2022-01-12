@@ -1,0 +1,105 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic55_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  6 ==> sixes
+   2:    1  ->  a ==> it's
+   3:    1  ->  a ==> the
+   4:    1  ->  can ==> chicken
+   5:    1  ->  frog ==> from
+   6:    1  ->  of ==> club
+   7:    1  ->  slabs ==> 56
+   8:    1  ->  snack ==> not
+   9:    1  ->  spoons ==> phone
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  she
+   4:    1  ->  thick
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  a
+   2:    1  ->  6
+   3:    1  ->  can
+   4:    1  ->  frog
+   5:    1  ->  of
+   6:    1  ->  slabs
+   7:    1  ->  snack
+   8:    1  ->  spoons
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  56
+   2:    1  ->  chicken
+   3:    1  ->  club
+   4:    1  ->  from
+   5:    1  ->  it's
+   6:    1  ->  not
+   7:    1  ->  phone
+   8:    1  ->  sixes
+   9:    1  ->  the
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

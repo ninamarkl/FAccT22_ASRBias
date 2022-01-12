@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\l-rea1-m3_hyp.trn
+
+Speakers: 
+    0:  l-r
+
+Speaker sentences   0:  l-r   #utts: 1
+id: (l-rea1-m3_01)
+Scores: (#C #S #D #I) 125 43 14 2
+REF:  once upon a time there was a girl called cinderella BUT EVERYONE called HER cinders cinders LIVED with HER   mother and two stepsisters called lily and ROSA  lily and ROSA  were very UNFRIENDLY AND THEY WERE   LAZY   GIRLS     they spent all THEIR time BUYING new clothes and going to parties POOR      CINDERS HAD  to wear ALL THEIR    OLD hand me downs and she had to do the cleaning one day a royal messenger came to ANNOUNCE A BALL the ball WOULD BE  HELD AT THE royal palace in honour of the queen's only son prince william LILY   and rosa thought this was divine prince william was gorgeous and HE WAS  looking for A bride THEY DREAMED OF  wedding bells when the evening when the evening of the ball arrived cinders HAD  to help HER SISTERS    get ready THEY WERE  in a bad mood THEY'D WANTED to buy some new GOWNS but THEIR mother said that they had enough GOWNS SO   THEY STARTED shouting at cinders find my JEWELS YELLED ONE    find my HAT HOWLED THE other they wanted **** ******* 
+HYP:  once upon a time there was a girl called cinderella *** DEVON    called HIS cinders cinders LIVE  with THEIR mother and two stepsisters called lily and ROSIE lily and ROSIE were very ********** *** **** UNFAIR ANIMAL LAZYGIRLS they spent all THE   time BY     new clothes and going to parties PORCELAIN THAT    HAVE to wear *** ALTHOUGH ON  hand me downs and she had to do the cleaning one day a royal messenger came to ******** * **** the ball OF    THE HELL OF A   royal palace in honour of the queen's only son prince william LILLEY and rosa thought this was divine prince william was gorgeous and ** HE'S looking for * bride THE  DREAM   DAY wedding bells when the evening when the evening of the ball arrived cinders HAVE to help *** ASSISTANCE get ready **** THERE in a bad mood THAT   WANTS  to buy some new GIRLS but THE   mother said that they had enough ***** GUNS TO   START   shouting at cinders find my ****** TOOLS  ELDWIN find my HOW TO     DO  other they wanted HAIR BRUSHES 
+Eval:                                                     D   S               S                   S          S                                                S              S               D          D   D    S      S      S                        S          S                                       S         S       S            D   S        S                                                                                  D        D D             S     S   S    S  S                                                                 S                                                                       D  S                D       S    S       S                                                                               S            D   S                    D    S                   S      S                      S         S                                      D     S    S    S                                   D      S      S              S   S      S                     I    I       
+
+>> REF:  HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  HAIR        PINS     and hairspray 
+>> Eval: S           S                      
+
+

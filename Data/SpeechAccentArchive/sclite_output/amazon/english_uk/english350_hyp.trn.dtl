@@ -1,0 +1,102 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\english_uk\english350_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  can ==> khun
+   3:    1  ->  five ==> for
+   4:    1  ->  her ==> to
+   5:    1  ->  meet ==> me
+   6:    1  ->  of ==> experience
+   7:    1  ->  peas ==> peace
+   8:    1  ->  snow ==> no
+   9:    1  ->  spoons ==> it's
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  her
+   2:    1  ->  six
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  and
+   2:    1  ->  can
+   3:    1  ->  five
+   4:    1  ->  her
+   5:    1  ->  meet
+   6:    1  ->  of
+   7:    1  ->  peas
+   8:    1  ->  snow
+   9:    1  ->  spoons
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  experience
+   2:    1  ->  for
+   3:    1  ->  in
+   4:    1  ->  it's
+   5:    1  ->  khun
+   6:    1  ->  me
+   7:    1  ->  no
+   8:    1  ->  peace
+   9:    1  ->  to
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

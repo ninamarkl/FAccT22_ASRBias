@@ -1,0 +1,195 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\j-rea1-f1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.1%   (  55)
+
+Percent Correct           =   71.0%   ( 130)
+
+Percent Substitution      =   22.4%   (  41)
+Percent Deletions         =    6.6%   (  12)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   69.9%
+
+
+Ref. words                =           ( 183)
+Hyp. words                =           ( 173)
+Aligned words             =           ( 185)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  a ==> dream
+   3:    1  ->  and ==> hair
+   4:    1  ->  and ==> lillian
+   5:    1  ->  and ==> rose
+   6:    1  ->  announce ==> that's
+   7:    1  ->  arrived ==> arrive
+   8:    1  ->  bells ==> vows
+   9:    1  ->  buying ==> by
+  10:    1  ->  came ==> two
+  11:    1  ->  cinders ==> descenders
+  12:    1  ->  cinders ==> sentence
+  13:    1  ->  find ==> send
+  14:    1  ->  girls ==> goes
+  15:    1  ->  gowns ==> dance
+  16:    1  ->  gowns ==> girls
+  17:    1  ->  hairbrushes ==> hair
+  18:    1  ->  hairpins ==> brushes
+  19:    1  ->  her ==> call
+  20:    1  ->  her ==> us
+  21:    1  ->  howled ==> how
+  22:    1  ->  lazy ==> blazer
+  23:    1  ->  lily ==> lillian
+  24:    1  ->  lived ==> live
+  25:    1  ->  messenger ==> or
+  26:    1  ->  one ==> one-year-old
+  27:    1  ->  poor ==> for
+  28:    1  ->  rosa ==> i
+  29:    1  ->  rosa ==> rose
+  30:    1  ->  shouting ==> shouted
+  31:    1  ->  sisters ==> to
+  32:    1  ->  stepsisters ==> sister's
+  33:    1  ->  stepsisters ==> step
+  34:    1  ->  their ==> they
+  35:    1  ->  they ==> i
+  36:    1  ->  to ==> and
+  37:    1  ->  two ==> sister
+  38:    1  ->  wanted ==> want
+  39:    1  ->  wear ==> at
+  40:    1  ->  were ==> a
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  his
+   2:    1  ->  step
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  called
+   3:    1  ->  cinders
+   4:    1  ->  dreamed
+   5:    1  ->  had
+   6:    1  ->  lily
+   7:    1  ->  of
+   8:    1  ->  royal
+   9:    1  ->  they
+  10:    1  ->  to
+  11:    1  ->  were
+  12:    1  ->  yelled
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  and
+   2:    3  ->  their
+   3:    2  ->  cinders
+   4:    2  ->  gowns
+   5:    2  ->  her
+   6:    2  ->  rosa
+   7:    2  ->  stepsisters
+   8:    1  ->  a
+   9:    1  ->  announce
+  10:    1  ->  arrived
+  11:    1  ->  bells
+  12:    1  ->  buying
+  13:    1  ->  came
+  14:    1  ->  find
+  15:    1  ->  girls
+  16:    1  ->  hairbrushes
+  17:    1  ->  hairpins
+  18:    1  ->  howled
+  19:    1  ->  lazy
+  20:    1  ->  lily
+  21:    1  ->  lived
+  22:    1  ->  messenger
+  23:    1  ->  one
+  24:    1  ->  poor
+  25:    1  ->  shouting
+  26:    1  ->  sisters
+  27:    1  ->  they
+  28:    1  ->  to
+  29:    1  ->  two
+  30:    1  ->  wanted
+  31:    1  ->  wear
+  32:    1  ->  were
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  hair
+   2:    2  ->  i
+   3:    2  ->  lillian
+   4:    2  ->  rose
+   5:    2  ->  the
+   6:    1  ->  a
+   7:    1  ->  and
+   8:    1  ->  arrive
+   9:    1  ->  at
+  10:    1  ->  blazer
+  11:    1  ->  brushes
+  12:    1  ->  by
+  13:    1  ->  call
+  14:    1  ->  dance
+  15:    1  ->  descenders
+  16:    1  ->  dream
+  17:    1  ->  for
+  18:    1  ->  girls
+  19:    1  ->  goes
+  20:    1  ->  how
+  21:    1  ->  live
+  22:    1  ->  one-year-old
+  23:    1  ->  or
+  24:    1  ->  send
+  25:    1  ->  sentence
+  26:    1  ->  shouted
+  27:    1  ->  sister
+  28:    1  ->  sister's
+  29:    1  ->  step
+  30:    1  ->  that's
+  31:    1  ->  they
+  32:    1  ->  to
+  33:    1  ->  two
+  34:    1  ->  us
+  35:    1  ->  vows
+  36:    1  ->  want
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

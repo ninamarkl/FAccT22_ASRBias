@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\p-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-m4_01)
+Scores: (#C #S #D #I) 147 29 8 3
+REF:  once upon a time there was a girl called cinderella but everyone called her CINDERS CINDERS lived with her mother and two stepsisters CALLED lily and ROSA  lily and ROSA  were very unfriendly and they were lazy girls they spent all their time buying new clothes AND going to parties POOR    CINDERS had to wear all all their OLD OLD HAND hand me downs and she had to do the cleaning one day A royal messenger came to ANNOUN announce A BALL the BALL  would be held at the royal palace in HONOUR of the queen's only son prince william LILY   and rosa thought this was DIVINE divine prince WILLIAMS  was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CINDERS HAD to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new gowns BUT their MOTHER SAID   that they had enough GOWNS so they started shouting at cinders find MY      JEWELS YELLED one find my HAT HOWLED THE OTHER they wanted **** ******* 
+HYP:  once upon a time there was a girl called cinderella but everyone called her SINGERS SINGERS lived with her mother and two stepsisters CALL   lily and ROSIE lily and ROSIE were very unfriendly and they were lazy girls they spent all their time buying new clothes I'M going to parties PASSING DOES    had to wear all all their OWN AND ALL  hand me downs and she had to do the cleaning one day * royal messenger came to ****** announce * **** the WORLD would be held at the royal palace in HANNAH of the queen's only son prince william LILLEY and rosa thought this was ****** divine prince WILLIAM'S was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived ******* HOW to help her sisters get ready they were in a bad mood DID    wanted to buy some new gowns FOR their ****** STATED that they had enough GUNS  so they started shouting at cinders find MYJOOLZ YOUR   OLD    one find my *** HEART  HOW THEY  they wanted HAIR BRUSHES 
+Eval:                                                                             S       S                                                 S               S              S                                                                                                S                    S       S                                 S   S   S                                                         D                         D               D D        S                                          S                                             S                                D                    S                                                                                                                        D       S                                                         S                                   S         D      S                           S                                              S       S      S                  D   S      S   S                 I    I       
+
+>> REF:  HAIRBRUSHES HAIRPINS and **** HAIRSPRAYS 
+>> HYP:  HAIR        PINS     and HAIR SPRAYS     
+>> Eval: S           S            I    S          
+
+

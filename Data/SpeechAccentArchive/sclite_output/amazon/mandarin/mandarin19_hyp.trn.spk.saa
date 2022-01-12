@@ -1,0 +1,115 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin19_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> in
+   3:    1  ->  bags ==> readbacks
+   4:    1  ->  frog ==> faulk
+   5:    1  ->  her ==> metre
+   6:    1  ->  of ==> ah
+   7:    1  ->  of ==> the
+   8:    1  ->  slabs ==> labs
+   9:    1  ->  stella ==> stellar
+  10:    1  ->  the ==> a
+  11:    1  ->  these ==> this
+  12:    1  ->  thick ==> fifty-six
+  13:    1  ->  will ==> people
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  five
+   2:    1  ->  meet
+   3:    1  ->  red
+   4:    1  ->  we
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  bags
+   5:    1  ->  frog
+   6:    1  ->  her
+   7:    1  ->  slabs
+   8:    1  ->  stella
+   9:    1  ->  the
+  10:    1  ->  these
+  11:    1  ->  thick
+  12:    1  ->  will
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  ah
+   4:    1  ->  faulk
+   5:    1  ->  fifty-six
+   6:    1  ->  in
+   7:    1  ->  labs
+   8:    1  ->  metre
+   9:    1  ->  people
+  10:    1  ->  readbacks
+  11:    1  ->  stellar
+  12:    1  ->  this
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

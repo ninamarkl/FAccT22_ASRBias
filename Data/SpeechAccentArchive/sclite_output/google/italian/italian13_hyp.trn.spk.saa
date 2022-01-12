@@ -1,0 +1,133 @@
+SCORING FOR SPEAKER: saa
+     of italian\italian13_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   49.3%   (  34)
+
+Percent Correct           =   50.7%   (  35)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =   29.0%   (  20)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   50.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  49)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a ==> available
+   2:    1  ->  and ==> in
+   3:    1  ->  blue ==> so
+   4:    1  ->  cheese ==> brooches
+   5:    1  ->  from ==> a
+   6:    1  ->  need ==> next
+   7:    1  ->  of ==> life
+   8:    1  ->  red ==> frillard
+   9:    1  ->  slabs ==> 56
+  10:    1  ->  spoons ==> pounds
+  11:    1  ->  store ==> distort
+  12:    1  ->  the ==> fan
+  13:    1  ->  thick ==> nappies
+  14:    1  ->  toy ==> blue
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  her
+   2:    2  ->  we
+   3:    1  ->  3
+   4:    1  ->  5
+   5:    1  ->  a
+   6:    1  ->  also
+   7:    1  ->  and
+   8:    1  ->  ask
+   9:    1  ->  bob
+  10:    1  ->  brother
+  11:    1  ->  can
+  12:    1  ->  for
+  13:    1  ->  peas
+  14:    1  ->  scoop
+  15:    1  ->  she
+  16:    1  ->  snack
+  17:    1  ->  snow
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  blue
+   4:    1  ->  cheese
+   5:    1  ->  from
+   6:    1  ->  need
+   7:    1  ->  of
+   8:    1  ->  red
+   9:    1  ->  slabs
+  10:    1  ->  spoons
+  11:    1  ->  store
+  12:    1  ->  the
+  13:    1  ->  thick
+  14:    1  ->  toy
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  56
+   2:    1  ->  a
+   3:    1  ->  available
+   4:    1  ->  blue
+   5:    1  ->  brooches
+   6:    1  ->  distort
+   7:    1  ->  fan
+   8:    1  ->  frillard
+   9:    1  ->  in
+  10:    1  ->  life
+  11:    1  ->  nappies
+  12:    1  ->  next
+  13:    1  ->  pounds
+  14:    1  ->  so
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,107 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\hindi\hindi15_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  blue ==> off
+   3:    1  ->  cheese ==> duties
+   4:    1  ->  into ==> the
+   5:    1  ->  of ==> labs
+   6:    1  ->  of ==> off
+   7:    1  ->  peas ==> peace
+   8:    1  ->  scoop ==> school
+   9:    1  ->  slabs ==> takes
+  10:    1  ->  snow ==> no
+  11:    1  ->  spoons ==> points
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  in
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  thick
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  of
+   2:    1  ->  ask
+   3:    1  ->  blue
+   4:    1  ->  cheese
+   5:    1  ->  into
+   6:    1  ->  peas
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  snow
+  10:    1  ->  spoons
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  off
+   2:    1  ->  asked
+   3:    1  ->  duties
+   4:    1  ->  labs
+   5:    1  ->  no
+   6:    1  ->  peace
+   7:    1  ->  points
+   8:    1  ->  school
+   9:    1  ->  takes
+  10:    1  ->  the
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

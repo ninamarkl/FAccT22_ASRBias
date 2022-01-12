@@ -1,0 +1,239 @@
+SCORING FOR SPEAKER: n-r
+     of google\n-rea1-f6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   46.1%   (  83)
+
+Percent Correct           =   57.2%   ( 103)
+
+Percent Substitution      =   27.2%   (  49)
+Percent Deletions         =   15.6%   (  28)
+Percent Insertions        =    3.3%   (   6)
+Percent Word Accuracy     =   53.9%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 158)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    1  ->  a ==> answer
+   2:    1  ->  and ==> call
+   3:    1  ->  and ==> than
+   4:    1  ->  announce ==> rider
+   5:    1  ->  arrived ==> polarized
+   6:    1  ->  at ==> as
+   7:    1  ->  ball ==> paul
+   8:    1  ->  bells ==> vows
+   9:    1  ->  buying ==> by
+  10:    1  ->  cinders ==> dies
+  11:    1  ->  cinders ==> son
+  12:    1  ->  cinders ==> sunglasses
+  13:    1  ->  cinders ==> they
+  14:    1  ->  divine ==> define
+  15:    1  ->  downs ==> down
+  16:    1  ->  find ==> famous
+  17:    1  ->  find ==> made
+  18:    1  ->  get ==> cystoscope
+  19:    1  ->  girls ==> goes
+  20:    1  ->  gowns ==> guns
+  21:    1  ->  had ==> counterparties
+  22:    1  ->  had ==> how
+  23:    1  ->  hairbrushes ==> hair
+  24:    1  ->  hairpins ==> pins
+  25:    1  ->  hand ==> turned
+  26:    1  ->  her ==> him
+  27:    1  ->  her ==> his
+  28:    1  ->  howled ==> of
+  29:    1  ->  jewels ==> what
+  30:    1  ->  lazy ==> he
+  31:    1  ->  lily ==> lilley
+  32:    1  ->  lived ==> live
+  33:    1  ->  mother ==> i
+  34:    1  ->  mother ==> more
+  35:    1  ->  my ==> a
+  36:    1  ->  my ==> us
+  37:    1  ->  old ==> all
+  38:    1  ->  one ==> born
+  39:    1  ->  rosa ==> i
+  40:    1  ->  rosa ==> liliana
+  41:    1  ->  shouting ==> attend
+  42:    1  ->  sisters ==> a
+  43:    1  ->  so ==> were
+  44:    1  ->  their ==> i'm
+  45:    1  ->  their ==> when
+  46:    1  ->  wanted ==> want
+  47:    1  ->  were ==> groza
+  48:    1  ->  would ==> will
+  49:    1  ->  yelled ==> yellow
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  brush
+   2:    1  ->  chatting
+   3:    1  ->  hair
+   4:    1  ->  his
+   5:    1  ->  out
+   6:    1  ->  then
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  a
+   2:    2  ->  lily
+   3:    2  ->  to
+   4:    1  ->  and
+   5:    1  ->  ball
+   6:    1  ->  bride
+   7:    1  ->  called
+   8:    1  ->  came
+   9:    1  ->  cinders
+  10:    1  ->  enough
+  11:    1  ->  for
+  12:    1  ->  going
+  13:    1  ->  gowns
+  14:    1  ->  he
+  15:    1  ->  her
+  16:    1  ->  looking
+  17:    1  ->  messenger
+  18:    1  ->  parties
+  19:    1  ->  poor
+  20:    1  ->  rosa
+  21:    1  ->  royal
+  22:    1  ->  that
+  23:    1  ->  they
+  24:    1  ->  was
+  25:    1  ->  were
+     -------
+        28
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    4  ->  cinders
+   2:    2  ->  and
+   3:    2  ->  find
+   4:    2  ->  had
+   5:    2  ->  her
+   6:    2  ->  mother
+   7:    2  ->  my
+   8:    2  ->  rosa
+   9:    2  ->  their
+  10:    1  ->  a
+  11:    1  ->  announce
+  12:    1  ->  arrived
+  13:    1  ->  at
+  14:    1  ->  ball
+  15:    1  ->  bells
+  16:    1  ->  buying
+  17:    1  ->  divine
+  18:    1  ->  downs
+  19:    1  ->  get
+  20:    1  ->  girls
+  21:    1  ->  gowns
+  22:    1  ->  hairbrushes
+  23:    1  ->  hairpins
+  24:    1  ->  hand
+  25:    1  ->  howled
+  26:    1  ->  jewels
+  27:    1  ->  lazy
+  28:    1  ->  lily
+  29:    1  ->  lived
+  30:    1  ->  old
+  31:    1  ->  one
+  32:    1  ->  shouting
+  33:    1  ->  sisters
+  34:    1  ->  so
+  35:    1  ->  wanted
+  36:    1  ->  were
+  37:    1  ->  would
+  38:    1  ->  yelled
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  a
+   2:    2  ->  i
+   3:    1  ->  all
+   4:    1  ->  answer
+   5:    1  ->  as
+   6:    1  ->  attend
+   7:    1  ->  born
+   8:    1  ->  by
+   9:    1  ->  call
+  10:    1  ->  counterparties
+  11:    1  ->  cystoscope
+  12:    1  ->  define
+  13:    1  ->  dies
+  14:    1  ->  down
+  15:    1  ->  famous
+  16:    1  ->  goes
+  17:    1  ->  groza
+  18:    1  ->  guns
+  19:    1  ->  hair
+  20:    1  ->  he
+  21:    1  ->  him
+  22:    1  ->  his
+  23:    1  ->  how
+  24:    1  ->  i'm
+  25:    1  ->  liliana
+  26:    1  ->  lilley
+  27:    1  ->  live
+  28:    1  ->  made
+  29:    1  ->  more
+  30:    1  ->  of
+  31:    1  ->  paul
+  32:    1  ->  pins
+  33:    1  ->  polarized
+  34:    1  ->  rider
+  35:    1  ->  son
+  36:    1  ->  sunglasses
+  37:    1  ->  than
+  38:    1  ->  they
+  39:    1  ->  turned
+  40:    1  ->  us
+  41:    1  ->  vows
+  42:    1  ->  want
+  43:    1  ->  were
+  44:    1  ->  what
+  45:    1  ->  when
+  46:    1  ->  will
+  47:    1  ->  yellow
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

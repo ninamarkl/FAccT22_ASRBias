@@ -1,0 +1,234 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\car-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.0%   (  81)
+
+Percent Correct           =   58.7%   ( 108)
+
+Percent Substitution      =   26.6%   (  49)
+Percent Deletions         =   14.7%   (  27)
+Percent Insertions        =    2.7%   (   5)
+Percent Word Accuracy     =   56.0%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 162)
+Aligned words             =           ( 189)
+
+CONFUSION PAIRS                  Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> of
+   4:    1  ->  arrived ==> polarized
+   5:    1  ->  ball ==> go
+   6:    1  ->  buying ==> by
+   7:    1  ->  called ==> killed
+   8:    1  ->  cinders ==> centres
+   9:    1  ->  cinders ==> just
+  10:    1  ->  day ==> wendy
+  11:    1  ->  dreamed ==> dreams
+  12:    1  ->  girl ==> good
+  13:    1  ->  girls ==> lazygirls
+  14:    1  ->  gowns ==> g
+  15:    1  ->  gowns ==> guns
+  16:    1  ->  had ==> have
+  17:    1  ->  had ==> never
+  18:    1  ->  hairbrushes ==> hair
+  19:    1  ->  hairpins ==> pins
+  20:    1  ->  her ==> different
+  21:    1  ->  howled ==> old
+  22:    1  ->  jewels ==> dual
+  23:    1  ->  lily ==> lilley
+  24:    1  ->  mother ==> colours
+  25:    1  ->  mother ==> they
+  26:    1  ->  one ==> twin
+  27:    1  ->  only ==> my
+  28:    1  ->  poor ==> pushing
+  29:    1  ->  prince ==> principle
+  30:    1  ->  rosa ==> rosie
+  31:    1  ->  royal ==> real
+  32:    1  ->  sisters ==> to
+  33:    1  ->  so ==> for
+  34:    1  ->  the ==> to
+  35:    1  ->  they ==> the
+  36:    1  ->  they ==> their
+  37:    1  ->  they ==> though
+  38:    1  ->  they'd ==> it
+  39:    1  ->  two ==> cinderella's
+  40:    1  ->  unfriendly ==> friendly
+  41:    1  ->  wanted ==> brushes
+  42:    1  ->  was ==> he's
+  43:    1  ->  was ==> most
+  44:    1  ->  were ==> would
+  45:    1  ->  william ==> in
+  46:    1  ->  with ==> the
+  47:    1  ->  would ==> above
+  48:    1  ->  yelled ==> seal
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  how
+   2:    1  ->  in
+   3:    1  ->  out
+   4:    1  ->  play
+   5:    1  ->  were
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  ball
+   2:    2  ->  cinders
+   3:    2  ->  her
+   4:    2  ->  rosa
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  but
+   8:    1  ->  call
+   9:    1  ->  called
+  10:    1  ->  everyone
+  11:    1  ->  had
+  12:    1  ->  he
+  13:    1  ->  lazy
+  14:    1  ->  lived
+  15:    1  ->  mood
+  16:    1  ->  one
+  17:    1  ->  she
+  18:    1  ->  that
+  19:    1  ->  the
+  20:    1  ->  their
+  21:    1  ->  thought
+  22:    1  ->  to
+  23:    1  ->  when
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  they
+   2:    2  ->  cinders
+   3:    2  ->  gowns
+   4:    2  ->  had
+   5:    2  ->  mother
+   6:    2  ->  their
+   7:    2  ->  was
+   8:    1  ->  a
+   9:    1  ->  and
+  10:    1  ->  arrived
+  11:    1  ->  ball
+  12:    1  ->  buying
+  13:    1  ->  called
+  14:    1  ->  day
+  15:    1  ->  dreamed
+  16:    1  ->  girl
+  17:    1  ->  girls
+  18:    1  ->  hairbrushes
+  19:    1  ->  hairpins
+  20:    1  ->  her
+  21:    1  ->  howled
+  22:    1  ->  jewels
+  23:    1  ->  lily
+  24:    1  ->  one
+  25:    1  ->  only
+  26:    1  ->  poor
+  27:    1  ->  prince
+  28:    1  ->  rosa
+  29:    1  ->  royal
+  30:    1  ->  sisters
+  31:    1  ->  so
+  32:    1  ->  the
+  33:    1  ->  they'd
+  34:    1  ->  two
+  35:    1  ->  unfriendly
+  36:    1  ->  wanted
+  37:    1  ->  were
+  38:    1  ->  william
+  39:    1  ->  with
+  40:    1  ->  would
+  41:    1  ->  yelled
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    5  ->  the
+   2:    2  ->  to
+   3:    1  ->  above
+   4:    1  ->  brushes
+   5:    1  ->  by
+   6:    1  ->  centres
+   7:    1  ->  cinderella's
+   8:    1  ->  colours
+   9:    1  ->  different
+  10:    1  ->  dreams
+  11:    1  ->  dual
+  12:    1  ->  for
+  13:    1  ->  friendly
+  14:    1  ->  g
+  15:    1  ->  go
+  16:    1  ->  good
+  17:    1  ->  guns
+  18:    1  ->  hair
+  19:    1  ->  have
+  20:    1  ->  he's
+  21:    1  ->  in
+  22:    1  ->  it
+  23:    1  ->  just
+  24:    1  ->  killed
+  25:    1  ->  lazygirls
+  26:    1  ->  lilley
+  27:    1  ->  most
+  28:    1  ->  my
+  29:    1  ->  never
+  30:    1  ->  of
+  31:    1  ->  old
+  32:    1  ->  pins
+  33:    1  ->  polarized
+  34:    1  ->  principle
+  35:    1  ->  pushing
+  36:    1  ->  real
+  37:    1  ->  rosie
+  38:    1  ->  seal
+  39:    1  ->  their
+  40:    1  ->  they
+  41:    1  ->  though
+  42:    1  ->  twin
+  43:    1  ->  wendy
+  44:    1  ->  would
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

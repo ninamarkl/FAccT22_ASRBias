@@ -1,0 +1,117 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\urdu\urdu10_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bags ==> dirtbags
+   3:    1  ->  call ==> called
+   4:    1  ->  frog ==> fraud
+   5:    1  ->  her ==> metre
+   6:    1  ->  her ==> over
+   7:    1  ->  of ==> are
+   8:    1  ->  please ==> piece
+   9:    1  ->  spoons ==> wounds
+  10:    1  ->  station ==> transition
+  11:    1  ->  stella ==> stellar
+  12:    1  ->  thick ==> take
+  13:    1  ->  wednesday ==> vanished
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  for
+   2:    1  ->  her
+   3:    1  ->  meet
+   4:    1  ->  red
+   5:    1  ->  train
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  her
+   2:    1  ->  ask
+   3:    1  ->  bags
+   4:    1  ->  call
+   5:    1  ->  frog
+   6:    1  ->  of
+   7:    1  ->  please
+   8:    1  ->  spoons
+   9:    1  ->  station
+  10:    1  ->  stella
+  11:    1  ->  thick
+  12:    1  ->  wednesday
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  are
+   2:    1  ->  asked
+   3:    1  ->  called
+   4:    1  ->  dirtbags
+   5:    1  ->  fraud
+   6:    1  ->  metre
+   7:    1  ->  over
+   8:    1  ->  piece
+   9:    1  ->  stellar
+  10:    1  ->  take
+  11:    1  ->  transition
+  12:    1  ->  vanished
+  13:    1  ->  wounds
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

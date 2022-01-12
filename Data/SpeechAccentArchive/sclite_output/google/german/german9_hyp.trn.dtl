@@ -1,0 +1,97 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: german\german9_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  of ==> £6
+   3:    1  ->  scoop ==> screw
+   4:    1  ->  slabs ==> laps
+   5:    1  ->  thick ==> 56
+   6:    1  ->  will ==> we'll
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  bob
+   4:    1  ->  brother
+   5:    1  ->  spoons
+   6:    1  ->  we
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  of
+   3:    1  ->  scoop
+   4:    1  ->  slabs
+   5:    1  ->  thick
+   6:    1  ->  will
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  56
+   2:    1  ->  in
+   3:    1  ->  laps
+   4:    1  ->  screw
+   5:    1  ->  we'll
+   6:    1  ->  £6
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

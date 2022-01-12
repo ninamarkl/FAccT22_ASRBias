@@ -1,0 +1,129 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: hindi\hindi2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   59.4%   (  41)
+
+Percent Correct           =   40.6%   (  28)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =   47.8%   (  33)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   40.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  36)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  frog ==> from
+   3:    1  ->  her ==> mia
+   4:    1  ->  of ==> with
+   5:    1  ->  these ==> the
+   6:    1  ->  things ==> states
+   7:    1  ->  toy ==> time
+   8:    1  ->  will ==> we'll
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  her
+   2:    1  ->  3
+   3:    1  ->  5
+   4:    1  ->  6
+   5:    1  ->  a
+   6:    1  ->  ask
+   7:    1  ->  at
+   8:    1  ->  bags
+   9:    1  ->  bob
+  10:    1  ->  brother
+  11:    1  ->  can
+  12:    1  ->  for
+  13:    1  ->  fresh
+  14:    1  ->  into
+  15:    1  ->  meet
+  16:    1  ->  of
+  17:    1  ->  peas
+  18:    1  ->  red
+  19:    1  ->  scoop
+  20:    1  ->  she
+  21:    1  ->  slabs
+  22:    1  ->  snack
+  23:    1  ->  snow
+  24:    1  ->  spoons
+  25:    1  ->  station
+  26:    1  ->  the
+  27:    1  ->  these
+  28:    1  ->  thick
+  29:    1  ->  things
+  30:    1  ->  to
+  31:    1  ->  train
+  32:    1  ->  we
+     -------
+        33
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  frog
+   3:    1  ->  her
+   4:    1  ->  of
+   5:    1  ->  these
+   6:    1  ->  things
+   7:    1  ->  toy
+   8:    1  ->  will
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  from
+   2:    1  ->  in
+   3:    1  ->  mia
+   4:    1  ->  states
+   5:    1  ->  the
+   6:    1  ->  time
+   7:    1  ->  we'll
+   8:    1  ->  with
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

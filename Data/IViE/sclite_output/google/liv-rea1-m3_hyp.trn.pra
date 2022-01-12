@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\liv-rea1-m3_hyp.trn
+
+Speakers: 
+    0:  liv
+
+Speaker sentences   0:  liv   #utts: 1
+id: (liv-rea1-m3_01)
+Scores: (#C #S #D #I) 132 39 9 8
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVED with her MOTHER AND  two stepsisters called lily and ROSA LILY  AND     ROSA WERE very *** **** UNFRIENDLY and THEY WERE lazy girls they spent all their time buying new clothes and going to parties POOR    CINDERS had to WEAR all THEIR old hand me downs and she had to do the CLEANING one day A ROYAL messenger came to ANNOUNCE A      BALL the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY and ROSA thought this was divine prince william was gorgeous and he was looking for a bride they DREAMED of wedding bells WHEN THE   evening OF the **** ** BALL ARRIVED CINDERS had to help HER sister get ready they were in a bad mood they wanted to buy some new GOWNS but **** THEIR MOTHER said that they had enough GOWNS SO  THEY started shouting at cinders FIND ME MY JEWELS YELLED ONE  find my HAT   HOWLED the other they wanted **** *** ***** 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVE  with her MORE   THAN two stepsisters called lily and **** ROSIE LYNROSE OUT  WITH very OWN SEND ME         and **** A    lazy girls they spent all their time buying new clothes and going to parties POSTING THIS    had to WAIT all DAY   old hand me downs and she had to do the ******** one day I WILL  messenger came to AN       ANSWER PAUL the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** and I    thought this was divine prince william was gorgeous and he was looking for a bride they DREAM   of wedding bells **** WENDY evening AT the BOWL OF ICE  IN      THIS    had to help A   sister get ready they were in a bad mood they wanted to buy some new DOWNS but THEY MORE  THEY   said that they had enough ***** GAL YOU  started shouting at cinders **** ** ** ONE    OF     THEM find my HEART OUT    the other they wanted HERE BUT SHE'S 
+Eval:                                                                                             S              S      S                                    D    S     S       S    S         I   I    S              D    S                                                                                 S       S              S        S                                             D                S S                       S        S      S             S                                                                                  D        S                                                                                            S                        D    S             S      I    I  S    S       S                   S                                                                        S         I    S     S                                D     S   S                                D    D  D  S      S      S            S     S                            I    I   I     
+
+>> REF:  HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  HERE        THINGS   and hairspray 
+>> Eval: S           S                      
+
+

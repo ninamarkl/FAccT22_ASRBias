@@ -1,0 +1,137 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin48_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   50.7%   (  35)
+
+Percent Correct           =   52.2%   (  36)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =   23.2%   (  16)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   49.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  55)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  these ==> the
+   2:    2  ->  things ==> scenes
+   3:    1  ->  5 ==> no
+   4:    1  ->  bob ==> but
+   5:    1  ->  can ==> keith
+   6:    1  ->  frog ==> froggo
+   7:    1  ->  peas ==> fractures
+   8:    1  ->  plastic ==> a
+   9:    1  ->  scoop ==> school
+  10:    1  ->  slabs ==> stables
+  11:    1  ->  spoons ==> poems
+  12:    1  ->  store ==> top
+  13:    1  ->  the ==> formulas
+  14:    1  ->  thick ==> p45
+  15:    1  ->  toy ==> tour
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  past
+   2:    1  ->  take
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  at
+   5:    1  ->  bring
+   6:    1  ->  fresh
+   7:    1  ->  from
+   8:    1  ->  her
+   9:    1  ->  kids
+  10:    1  ->  maybe
+  11:    1  ->  she
+  12:    1  ->  snack
+  13:    1  ->  snow
+  14:    1  ->  the
+  15:    1  ->  to
+  16:    1  ->  wednesday
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  5
+   4:    1  ->  bob
+   5:    1  ->  can
+   6:    1  ->  frog
+   7:    1  ->  peas
+   8:    1  ->  plastic
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  spoons
+  12:    1  ->  store
+  13:    1  ->  the
+  14:    1  ->  thick
+  15:    1  ->  toy
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  scenes
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  but
+   5:    1  ->  formulas
+   6:    1  ->  fractures
+   7:    1  ->  froggo
+   8:    1  ->  keith
+   9:    1  ->  no
+  10:    1  ->  p45
+  11:    1  ->  poems
+  12:    1  ->  school
+  13:    1  ->  stables
+  14:    1  ->  top
+  15:    1  ->  tour
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

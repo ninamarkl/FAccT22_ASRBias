@@ -1,0 +1,240 @@
+SCORING FOR SPEAKER: n-r
+     of google\n-rea1-f5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   45.6%   (  82)
+
+Percent Correct           =   55.6%   ( 100)
+
+Percent Substitution      =   32.8%   (  59)
+Percent Deletions         =   11.7%   (  21)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   54.4%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 161)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (56)
+                                 With >=  1 occurrences (56)
+
+   1:    3  ->  their ==> the
+   2:    2  ->  gowns ==> games
+   3:    1  ->  a ==> and
+   4:    1  ->  a ==> father
+   5:    1  ->  and ==> call
+   6:    1  ->  and ==> lillian
+   7:    1  ->  and ==> than
+   8:    1  ->  and ==> was
+   9:    1  ->  announce ==> caitlin
+  10:    1  ->  arrived ==> another
+  11:    1  ->  ball ==> one
+  12:    1  ->  ball ==> support
+  13:    1  ->  bride ==> parade
+  14:    1  ->  cinders ==> as
+  15:    1  ->  cinders ==> has
+  16:    1  ->  cinders ==> polarised
+  17:    1  ->  cinders ==> soon
+  18:    1  ->  do ==> it
+  19:    1  ->  downs ==> returns
+  20:    1  ->  dreamed ==> dreams
+  21:    1  ->  find ==> ydten
+  22:    1  ->  for ==> little
+  23:    1  ->  girls ==> lazygirls
+  24:    1  ->  had ==> do
+  25:    1  ->  hairbrushes ==> hair
+  26:    1  ->  hairpins ==> pins
+  27:    1  ->  has ==> not
+  28:    1  ->  hat ==> heart
+  29:    1  ->  helped ==> have
+  30:    1  ->  her ==> him
+  31:    1  ->  her ==> two
+  32:    1  ->  howled ==> has
+  33:    1  ->  jewels ==> so
+  34:    1  ->  lily ==> groza
+  35:    1  ->  lily ==> lillian
+  36:    1  ->  lived ==> live
+  37:    1  ->  mother ==> more
+  38:    1  ->  new ==> your
+  39:    1  ->  one ==> is
+  40:    1  ->  poor ==> person
+  41:    1  ->  rosa ==> i
+  42:    1  ->  rosa ==> liliana
+  43:    1  ->  rosa ==> was
+  44:    1  ->  royal ==> ten
+  45:    1  ->  shouting ==> showing
+  46:    1  ->  spent ==> not
+  47:    1  ->  they ==> hair
+  48:    1  ->  they ==> it's
+  49:    1  ->  they ==> the
+  50:    1  ->  they'd ==> they
+  51:    1  ->  wanted ==> brushes
+  52:    1  ->  wanted ==> want
+  53:    1  ->  wear ==> her
+  54:    1  ->  were ==> a
+  55:    1  ->  were ==> there
+  56:    1  ->  yelled ==> much
+     -------
+        59
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  as
+   2:    1  ->  send
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  to
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  called
+   5:    1  ->  came
+   6:    1  ->  day
+   7:    1  ->  evening
+   8:    1  ->  find
+   9:    1  ->  lazy
+  10:    1  ->  lily
+  11:    1  ->  looking
+  12:    1  ->  me
+  13:    1  ->  my
+  14:    1  ->  of
+  15:    1  ->  one
+  16:    1  ->  they
+  17:    1  ->  when
+  18:    1  ->  would
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    4  ->  and
+   2:    4  ->  cinders
+   3:    3  ->  rosa
+   4:    3  ->  their
+   5:    3  ->  they
+   6:    2  ->  a
+   7:    2  ->  ball
+   8:    2  ->  gowns
+   9:    2  ->  her
+  10:    2  ->  lily
+  11:    2  ->  wanted
+  12:    2  ->  were
+  13:    1  ->  announce
+  14:    1  ->  arrived
+  15:    1  ->  bride
+  16:    1  ->  do
+  17:    1  ->  downs
+  18:    1  ->  dreamed
+  19:    1  ->  find
+  20:    1  ->  for
+  21:    1  ->  girls
+  22:    1  ->  had
+  23:    1  ->  hairbrushes
+  24:    1  ->  hairpins
+  25:    1  ->  has
+  26:    1  ->  hat
+  27:    1  ->  helped
+  28:    1  ->  howled
+  29:    1  ->  jewels
+  30:    1  ->  lived
+  31:    1  ->  mother
+  32:    1  ->  new
+  33:    1  ->  one
+  34:    1  ->  poor
+  35:    1  ->  royal
+  36:    1  ->  shouting
+  37:    1  ->  spent
+  38:    1  ->  they'd
+  39:    1  ->  wear
+  40:    1  ->  yelled
+     -------
+        59
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    4  ->  the
+   2:    2  ->  games
+   3:    2  ->  hair
+   4:    2  ->  has
+   5:    2  ->  lillian
+   6:    2  ->  not
+   7:    2  ->  was
+   8:    1  ->  a
+   9:    1  ->  and
+  10:    1  ->  another
+  11:    1  ->  as
+  12:    1  ->  brushes
+  13:    1  ->  caitlin
+  14:    1  ->  call
+  15:    1  ->  do
+  16:    1  ->  dreams
+  17:    1  ->  father
+  18:    1  ->  groza
+  19:    1  ->  have
+  20:    1  ->  heart
+  21:    1  ->  her
+  22:    1  ->  him
+  23:    1  ->  i
+  24:    1  ->  is
+  25:    1  ->  it
+  26:    1  ->  it's
+  27:    1  ->  lazygirls
+  28:    1  ->  liliana
+  29:    1  ->  little
+  30:    1  ->  live
+  31:    1  ->  more
+  32:    1  ->  much
+  33:    1  ->  one
+  34:    1  ->  parade
+  35:    1  ->  person
+  36:    1  ->  pins
+  37:    1  ->  polarised
+  38:    1  ->  returns
+  39:    1  ->  showing
+  40:    1  ->  so
+  41:    1  ->  soon
+  42:    1  ->  support
+  43:    1  ->  ten
+  44:    1  ->  than
+  45:    1  ->  there
+  46:    1  ->  they
+  47:    1  ->  two
+  48:    1  ->  want
+  49:    1  ->  ydten
+  50:    1  ->  your
+     -------
+        59
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

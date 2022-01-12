@@ -1,0 +1,141 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french50_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.6%   (  28)
+
+Percent Correct           =   60.9%   (  42)
+
+Percent Substitution      =   30.4%   (  21)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   59.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  bob ==> book
+   2:    1  ->  call ==> go
+   3:    1  ->  can ==> got
+   4:    1  ->  cheese ==> brewskis
+   5:    1  ->  fresh ==> precious
+   6:    1  ->  frog ==> phone
+   7:    1  ->  her ==> you
+   8:    1  ->  into ==> tow
+   9:    1  ->  kids ==> keys
+  10:    1  ->  of ==> a
+  11:    1  ->  red ==> hide
+  12:    1  ->  scoop ==> schools
+  13:    1  ->  slabs ==> slab
+  14:    1  ->  stella ==> steady
+  15:    1  ->  store ==> still
+  16:    1  ->  the ==> a
+  17:    1  ->  the ==> phone's
+  18:    1  ->  these ==> as
+  19:    1  ->  these ==> the
+  20:    1  ->  thick ==> see
+  21:    1  ->  toy ==> old
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  in
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  blue
+   2:    1  ->  brother
+   3:    1  ->  five
+   4:    1  ->  from
+   5:    1  ->  her
+   6:    1  ->  the
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  the
+   2:    2  ->  these
+   3:    1  ->  bob
+   4:    1  ->  call
+   5:    1  ->  can
+   6:    1  ->  cheese
+   7:    1  ->  fresh
+   8:    1  ->  frog
+   9:    1  ->  her
+  10:    1  ->  into
+  11:    1  ->  kids
+  12:    1  ->  of
+  13:    1  ->  red
+  14:    1  ->  scoop
+  15:    1  ->  slabs
+  16:    1  ->  stella
+  17:    1  ->  store
+  18:    1  ->  thick
+  19:    1  ->  toy
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  a
+   2:    1  ->  as
+   3:    1  ->  book
+   4:    1  ->  brewskis
+   5:    1  ->  go
+   6:    1  ->  got
+   7:    1  ->  hide
+   8:    1  ->  keys
+   9:    1  ->  old
+  10:    1  ->  phone
+  11:    1  ->  phone's
+  12:    1  ->  precious
+  13:    1  ->  schools
+  14:    1  ->  see
+  15:    1  ->  slab
+  16:    1  ->  steady
+  17:    1  ->  still
+  18:    1  ->  the
+  19:    1  ->  tow
+  20:    1  ->  you
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,193 @@
+SCORING FOR SPEAKER: liv
+     of google\liv-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.0%   (  60)
+
+Percent Correct           =   68.1%   ( 124)
+
+Percent Substitution      =   22.0%   (  40)
+Percent Deletions         =    9.9%   (  18)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   67.0%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 166)
+Aligned words             =           ( 184)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  cinders ==> since
+   2:    2  ->  their ==> the
+   3:    1  ->  and ==> rosie
+   4:    1  ->  and ==> you
+   5:    1  ->  ball ==> an
+   6:    1  ->  ball ==> bowl
+   7:    1  ->  but ==> with
+   8:    1  ->  buying ==> by
+   9:    1  ->  cinders ==> eastenders
+  10:    1  ->  cinders ==> senders
+  11:    1  ->  gowns ==> games
+  12:    1  ->  gowns ==> times
+  13:    1  ->  had ==> as
+  14:    1  ->  had ==> has
+  15:    1  ->  had ==> have
+  16:    1  ->  had ==> that
+  17:    1  ->  hairbrushes ==> hair
+  18:    1  ->  hairpins ==> pins
+  19:    1  ->  hat ==> house
+  20:    1  ->  her ==> their
+  21:    1  ->  howled ==> help
+  22:    1  ->  jewels ==> gmail
+  23:    1  ->  lived ==> live
+  24:    1  ->  of ==> dream
+  25:    1  ->  one ==> i
+  26:    1  ->  rosa ==> williams
+  27:    1  ->  royal ==> payroll
+  28:    1  ->  sisters ==> sister's
+  29:    1  ->  spent ==> go
+  30:    1  ->  the ==> answer
+  31:    1  ->  they'd ==> they
+  32:    1  ->  was ==> he's
+  33:    1  ->  was ==> william's
+  34:    1  ->  wear ==> wait
+  35:    1  ->  were ==> rosary
+  36:    1  ->  were ==> there
+  37:    1  ->  would ==> bowl
+  38:    1  ->  yelled ==> do
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  a
+   2:    2  ->  lily
+   3:    2  ->  rosa
+   4:    2  ->  they
+   5:    1  ->  and
+   6:    1  ->  announce
+   7:    1  ->  cinders
+   8:    1  ->  dreamed
+   9:    1  ->  girls
+  10:    1  ->  he
+  11:    1  ->  her
+  12:    1  ->  poor
+  13:    1  ->  that
+  14:    1  ->  william
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    4  ->  cinders
+   2:    4  ->  had
+   3:    2  ->  and
+   4:    2  ->  ball
+   5:    2  ->  gowns
+   6:    2  ->  their
+   7:    2  ->  was
+   8:    2  ->  were
+   9:    1  ->  but
+  10:    1  ->  buying
+  11:    1  ->  hairbrushes
+  12:    1  ->  hairpins
+  13:    1  ->  hat
+  14:    1  ->  her
+  15:    1  ->  howled
+  16:    1  ->  jewels
+  17:    1  ->  lived
+  18:    1  ->  of
+  19:    1  ->  one
+  20:    1  ->  rosa
+  21:    1  ->  royal
+  22:    1  ->  sisters
+  23:    1  ->  spent
+  24:    1  ->  the
+  25:    1  ->  they'd
+  26:    1  ->  wear
+  27:    1  ->  would
+  28:    1  ->  yelled
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  bowl
+   2:    2  ->  since
+   3:    2  ->  the
+   4:    1  ->  an
+   5:    1  ->  answer
+   6:    1  ->  as
+   7:    1  ->  by
+   8:    1  ->  do
+   9:    1  ->  dream
+  10:    1  ->  eastenders
+  11:    1  ->  games
+  12:    1  ->  gmail
+  13:    1  ->  go
+  14:    1  ->  hair
+  15:    1  ->  has
+  16:    1  ->  have
+  17:    1  ->  he's
+  18:    1  ->  help
+  19:    1  ->  house
+  20:    1  ->  i
+  21:    1  ->  live
+  22:    1  ->  payroll
+  23:    1  ->  pins
+  24:    1  ->  rosary
+  25:    1  ->  rosie
+  26:    1  ->  senders
+  27:    1  ->  sister's
+  28:    1  ->  that
+  29:    1  ->  their
+  30:    1  ->  there
+  31:    1  ->  they
+  32:    1  ->  times
+  33:    1  ->  wait
+  34:    1  ->  william's
+  35:    1  ->  williams
+  36:    1  ->  with
+  37:    1  ->  you
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

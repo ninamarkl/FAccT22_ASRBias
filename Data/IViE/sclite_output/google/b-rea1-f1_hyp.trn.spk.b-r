@@ -1,0 +1,195 @@
+SCORING FOR SPEAKER: b-r
+     of google\b-rea1-f1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   60.3%   ( 108)
+
+Percent Correct           =   41.9%   (  75)
+
+Percent Substitution      =   13.4%   (  24)
+Percent Deletions         =   44.7%   (  80)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   39.7%
+
+
+Ref. words                =           ( 179)
+Hyp. words                =           ( 103)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  a ==> not
+   2:    1  ->  and ==> her
+   3:    1  ->  cinders ==> eastenders
+   4:    1  ->  cinders ==> linda's
+   5:    1  ->  gowns ==> gangs
+   6:    1  ->  gowns ==> ground
+   7:    1  ->  had ==> they'd
+   8:    1  ->  hairbrushes ==> friends
+   9:    1  ->  hairpins ==> in
+  10:    1  ->  hairspray ==> spring
+  11:    1  ->  hat ==> eastenders
+  12:    1  ->  honour ==> bowl
+  13:    1  ->  howled ==> tell
+  14:    1  ->  in ==> ninety
+  15:    1  ->  in ==> would
+  16:    1  ->  lived ==> live
+  17:    1  ->  rosa ==> rosie
+  18:    1  ->  rosa ==> they
+  19:    1  ->  rosa ==> was
+  20:    1  ->  sisters ==> just
+  21:    1  ->  their ==> the
+  22:    1  ->  they'd ==> they
+  23:    1  ->  this ==> darkest
+  24:    1  ->  thought ==> the
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    3  ->  her
+   2:    1  ->  brushes
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (55)
+                                 With >=  1 occurrences (55)
+
+   1:    5  ->  the
+   2:    4  ->  and
+   3:    3  ->  a
+   4:    3  ->  ball
+   5:    3  ->  cinders
+   6:    3  ->  had
+   7:    3  ->  they
+   8:    3  ->  to
+   9:    2  ->  all
+  10:    2  ->  at
+  11:    2  ->  find
+  12:    2  ->  my
+  13:    2  ->  of
+  14:    2  ->  their
+  15:    1  ->  announce
+  16:    1  ->  arrived
+  17:    1  ->  be
+  18:    1  ->  bells
+  19:    1  ->  bride
+  20:    1  ->  buying
+  21:    1  ->  cleaning
+  22:    1  ->  clothes
+  23:    1  ->  do
+  24:    1  ->  downs
+  25:    1  ->  dreamed
+  26:    1  ->  evening
+  27:    1  ->  for
+  28:    1  ->  hand
+  29:    1  ->  he
+  30:    1  ->  held
+  31:    1  ->  help
+  32:    1  ->  her
+  33:    1  ->  jewels
+  34:    1  ->  lily
+  35:    1  ->  looking
+  36:    1  ->  me
+  37:    1  ->  new
+  38:    1  ->  old
+  39:    1  ->  one
+  40:    1  ->  palace
+  41:    1  ->  poor
+  42:    1  ->  prince
+  43:    1  ->  royal
+  44:    1  ->  she
+  45:    1  ->  spent
+  46:    1  ->  that
+  47:    1  ->  time
+  48:    1  ->  was
+  49:    1  ->  wear
+  50:    1  ->  wedding
+  51:    1  ->  were
+  52:    1  ->  when
+  53:    1  ->  william
+  54:    1  ->  would
+  55:    1  ->  yelled
+     -------
+        80
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    3  ->  rosa
+   2:    2  ->  cinders
+   3:    2  ->  gowns
+   4:    2  ->  in
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  had
+   8:    1  ->  hairbrushes
+   9:    1  ->  hairpins
+  10:    1  ->  hairspray
+  11:    1  ->  hat
+  12:    1  ->  honour
+  13:    1  ->  howled
+  14:    1  ->  lived
+  15:    1  ->  sisters
+  16:    1  ->  their
+  17:    1  ->  they'd
+  18:    1  ->  this
+  19:    1  ->  thought
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  eastenders
+   2:    2  ->  the
+   3:    2  ->  they
+   4:    1  ->  bowl
+   5:    1  ->  darkest
+   6:    1  ->  friends
+   7:    1  ->  gangs
+   8:    1  ->  ground
+   9:    1  ->  her
+  10:    1  ->  in
+  11:    1  ->  just
+  12:    1  ->  linda's
+  13:    1  ->  live
+  14:    1  ->  ninety
+  15:    1  ->  not
+  16:    1  ->  rosie
+  17:    1  ->  spring
+  18:    1  ->  tell
+  19:    1  ->  they'd
+  20:    1  ->  was
+  21:    1  ->  would
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

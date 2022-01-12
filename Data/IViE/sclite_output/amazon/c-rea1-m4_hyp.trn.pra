@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\c-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  c-r
+
+Speaker sentences   0:  c-r   #utts: 1
+id: (c-rea1-m4_01)
+Scores: (#C #S #D #I) 180 19 5 5
+REF:  once upon a time there was a girl called cinderella but everyone called her **** ** CINDERS CINDERS lived with her mother and two SEP step cinders lived with her mother and two **** STEPSISTERS called lily and rosa LILY AND     ROSA were very unfriendly and they were **** lazy girls they spent all their time BUYING new clothes and going to parties POOR cinders had TO WEAR  all THEIR OLD     hand me downs and she had to do the cleaning one day a royal messenger came to announce a ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CINDERS had to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new gowns but their mother said THAT they had not enough THEY'D wanted to buy some new gowns but their mother said that they had enough gowns so they 
+HYP:  once upon a time there was a girl called cinderella but everyone called her SEND US SINDH   HAS     lived with her mother and two *** step cinders lived with her mother and two STEP SISTERS     called lily and rosa **** LILLIAN ROSE were very unfriendly and they were VERY lazy girls they spent all their time BUY    new clothes and going to parties PAUL cinders had ** ABOUT all ***** THEY'RE hand me downs and she had to do the cleaning one day a royal messenger came to announce a ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSE I    thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived SINGERS had to help her sisters get ready they were in a bad mood THEY   wanted to buy some new gowns but their mother said **** they had not enough THEY   wanted to buy some new gowns but their mother said that they had enough gowns so they 
+Eval:                                                                             I    I  S       S                                     D                                              I    S                                D    S       S                                       I                                         S                                       S                D  S         D     S                                                                                                               S                                                                                  S       S    S                                                                                                                                                          S                                                                 S                                                         D                        S                                                                                            
+
+>> REF:  started shouting at cinders find me ***** JEWELS YELLED one find my hat HOWLED the other they wanted hairbrushes hairpins and hairspray 
+>> HYP:  started shouting at cinders find me JULES THE    OLD    one find my hat HELD   the other they wanted hairbrushes hairpins and hairspray 
+>> Eval:                                     I     S      S                      S                                                               
+
+

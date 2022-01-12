@@ -1,0 +1,7 @@
+<SYSTEM title="english_uk\english268_hyp.trn" ref_fname="saa_ref_numbers.trn" hyp_fname="english_uk\english268_hyp.trn" creation_date="Wed May 26 08:10:55 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="69" sequence="0">
+C,"please","please":C,"call","call":D,"stella",:S,"ask","estella":S,"her","asked":C,"to","to":C,"bring","bring":C,"these","these":C,"things","things":C,"with","with":S,"her","a":C,"from","from":C,"the","the":C,"store","store":D,"6",:D,"spoons",:D,"of",:D,"fresh",:D,"snow",:S,"peas","6-cylinder":S,"5","freshener":S,"thick","please":S,"slabs","56":S,"of","after":C,"blue","blue":C,"cheese","cheese":D,"and",:C,"maybe","maybe":D,"a",:D,"snack",:D,"for",:S,"her","snap40":C,"brother","brother":S,"bob","but":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":C,"and","and":C,"a","a":D,"big",:D,"toy",:S,"frog","bit":S,"for","of":C,"the","the":C,"kids","kids":D,"she",:D,"can",:D,"scoop",:C,"these","these":C,"things","things":C,"into","into":D,"3",:D,"red",:D,"bags",:D,"and",:D,"we",:D,"will",:D,"go",:S,"meet","the":S,"her","meeting":C,"wednesday","wednesday":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

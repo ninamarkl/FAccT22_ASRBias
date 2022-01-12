@@ -1,0 +1,117 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\french\french34_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  a ==> it's
+   3:    1  ->  at ==> on
+   4:    1  ->  brother ==> broader
+   5:    1  ->  can ==> gets
+   6:    1  ->  her ==> a
+   7:    1  ->  scoop ==> hoop
+   8:    1  ->  six ==> see
+   9:    1  ->  snack ==> not
+  10:    1  ->  spoons ==> spoon
+  11:    1  ->  stella ==> still
+  12:    1  ->  these ==> this
+  13:    1  ->  thick ==> fifty-six
+  14:    1  ->  things ==> thing
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  five
+   2:    1  ->  her
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  brother
+   5:    1  ->  can
+   6:    1  ->  her
+   7:    1  ->  scoop
+   8:    1  ->  six
+   9:    1  ->  snack
+  10:    1  ->  spoons
+  11:    1  ->  stella
+  12:    1  ->  these
+  13:    1  ->  thick
+  14:    1  ->  things
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  off
+   2:    1  ->  a
+   3:    1  ->  broader
+   4:    1  ->  fifty-six
+   5:    1  ->  gets
+   6:    1  ->  hoop
+   7:    1  ->  it's
+   8:    1  ->  not
+   9:    1  ->  on
+  10:    1  ->  see
+  11:    1  ->  spoon
+  12:    1  ->  still
+  13:    1  ->  thing
+  14:    1  ->  this
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,107 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\urdu\urdu8_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  blue ==> off
+   3:    1  ->  cheese ==> guccis
+   4:    1  ->  frog ==> fraud
+   5:    1  ->  need ==> needs
+   6:    1  ->  of ==> labs
+   7:    1  ->  of ==> off
+   8:    1  ->  scoop ==> school
+   9:    1  ->  slabs ==> fifty-six
+  10:    1  ->  thick ==> piece
+  11:    1  ->  we ==> she
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  five
+   2:    1  ->  peas
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  of
+   2:    1  ->  ask
+   3:    1  ->  blue
+   4:    1  ->  cheese
+   5:    1  ->  frog
+   6:    1  ->  need
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  thick
+  10:    1  ->  we
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  off
+   2:    1  ->  asked
+   3:    1  ->  fifty-six
+   4:    1  ->  fraud
+   5:    1  ->  guccis
+   6:    1  ->  labs
+   7:    1  ->  needs
+   8:    1  ->  piece
+   9:    1  ->  school
+  10:    1  ->  she
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

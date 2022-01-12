@@ -1,0 +1,125 @@
+SCORING FOR SPEAKER: saa
+     of english_uk\english450_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   75.4%   (  52)
+
+Percent Correct           =   24.6%   (  17)
+
+Percent Substitution      =    5.8%   (   4)
+Percent Deletions         =   69.6%   (  48)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   24.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  21)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  brother ==> birthday
+   2:    1  ->  slabs ==> laps
+   3:    1  ->  snack ==> snaps
+   4:    1  ->  thick ==> 656
+     -------
+         4
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  a
+   2:    3  ->  her
+   3:    2  ->  and
+   4:    2  ->  the
+   5:    2  ->  these
+   6:    2  ->  things
+   7:    2  ->  we
+   8:    1  ->  3
+   9:    1  ->  5
+  10:    1  ->  6
+  11:    1  ->  also
+  12:    1  ->  ask
+  13:    1  ->  at
+  14:    1  ->  big
+  15:    1  ->  bring
+  16:    1  ->  can
+  17:    1  ->  fresh
+  18:    1  ->  frog
+  19:    1  ->  from
+  20:    1  ->  go
+  21:    1  ->  into
+  22:    1  ->  meet
+  23:    1  ->  need
+  24:    1  ->  of
+  25:    1  ->  peas
+  26:    1  ->  plastic
+  27:    1  ->  red
+  28:    1  ->  scoop
+  29:    1  ->  she
+  30:    1  ->  small
+  31:    1  ->  snake
+  32:    1  ->  snow
+  33:    1  ->  spoons
+  34:    1  ->  store
+  35:    1  ->  to
+  36:    1  ->  toy
+  37:    1  ->  wednesday
+  38:    1  ->  will
+  39:    1  ->  with
+     -------
+        48
+
+
+
+SUBSTITUTIONS                    Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  brother
+   2:    1  ->  slabs
+   3:    1  ->  snack
+   4:    1  ->  thick
+     -------
+         4
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  656
+   2:    1  ->  birthday
+   3:    1  ->  laps
+   4:    1  ->  snaps
+     -------
+         4
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

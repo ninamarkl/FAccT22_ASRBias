@@ -1,0 +1,209 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\d-rea1-f5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.4%   (  62)
+
+Percent Correct           =   68.9%   ( 124)
+
+Percent Substitution      =   23.3%   (  42)
+Percent Deletions         =    7.8%   (  14)
+Percent Insertions        =    3.3%   (   6)
+Percent Word Accuracy     =   65.6%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 172)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  all ==> are
+   3:    1  ->  and ==> as
+   4:    1  ->  and ==> is
+   5:    1  ->  announce ==> end
+   6:    1  ->  arrived ==> done
+   7:    1  ->  ball ==> all
+   8:    1  ->  ball ==> i've
+   9:    1  ->  be ==> barbie
+  10:    1  ->  called ==> separate
+  11:    1  ->  cinders ==> cindy's
+  12:    1  ->  cinders ==> does
+  13:    1  ->  cinders ==> just
+  14:    1  ->  downs ==> hand-me-downs
+  15:    1  ->  dreamed ==> dream
+  16:    1  ->  gowns ==> again
+  17:    1  ->  gowns ==> games
+  18:    1  ->  hairbrushes ==> hair
+  19:    1  ->  hairpins ==> pins
+  20:    1  ->  hand ==> they're
+  21:    1  ->  hat ==> heart
+  22:    1  ->  he ==> you
+  23:    1  ->  her ==> their
+  24:    1  ->  her ==> with
+  25:    1  ->  howled ==> out
+  26:    1  ->  jewels ==> you
+  27:    1  ->  lily ==> sister
+  28:    1  ->  lived ==> live
+  29:    1  ->  me ==> all
+  30:    1  ->  of ==> day
+  31:    1  ->  old ==> that
+  32:    1  ->  poor ==> poison
+  33:    1  ->  rosa ==> called
+  34:    1  ->  rosa ==> rosie
+  35:    1  ->  sisters ==> to
+  36:    1  ->  their ==> the
+  37:    1  ->  they ==> day
+  38:    1  ->  they'd ==> they
+  39:    1  ->  thought ==> william's
+  40:    1  ->  unfriendly ==> friendly
+  41:    1  ->  were ==> there
+  42:    1  ->  yelled ==> have
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  an
+   2:    1  ->  bar
+   3:    1  ->  brushes
+   4:    1  ->  had
+   5:    1  ->  hair
+   6:    1  ->  jules
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  all
+   2:    1  ->  and
+   3:    1  ->  ball
+   4:    1  ->  cinders
+   5:    1  ->  her
+   6:    1  ->  lily
+   7:    1  ->  rosa
+   8:    1  ->  spent
+   9:    1  ->  stepsisters
+  10:    1  ->  the
+  11:    1  ->  their
+  12:    1  ->  they
+  13:    1  ->  william
+  14:    1  ->  would
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  cinders
+   2:    2  ->  and
+   3:    2  ->  ball
+   4:    2  ->  gowns
+   5:    2  ->  her
+   6:    2  ->  rosa
+   7:    1  ->  a
+   8:    1  ->  all
+   9:    1  ->  announce
+  10:    1  ->  arrived
+  11:    1  ->  be
+  12:    1  ->  called
+  13:    1  ->  downs
+  14:    1  ->  dreamed
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  hand
+  18:    1  ->  hat
+  19:    1  ->  he
+  20:    1  ->  howled
+  21:    1  ->  jewels
+  22:    1  ->  lily
+  23:    1  ->  lived
+  24:    1  ->  me
+  25:    1  ->  of
+  26:    1  ->  old
+  27:    1  ->  poor
+  28:    1  ->  sisters
+  29:    1  ->  their
+  30:    1  ->  they
+  31:    1  ->  they'd
+  32:    1  ->  thought
+  33:    1  ->  unfriendly
+  34:    1  ->  were
+  35:    1  ->  yelled
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  all
+   2:    2  ->  day
+   3:    2  ->  you
+   4:    1  ->  again
+   5:    1  ->  are
+   6:    1  ->  as
+   7:    1  ->  barbie
+   8:    1  ->  called
+   9:    1  ->  cindy's
+  10:    1  ->  does
+  11:    1  ->  done
+  12:    1  ->  dream
+  13:    1  ->  end
+  14:    1  ->  friendly
+  15:    1  ->  games
+  16:    1  ->  hair
+  17:    1  ->  hand-me-downs
+  18:    1  ->  have
+  19:    1  ->  heart
+  20:    1  ->  i've
+  21:    1  ->  is
+  22:    1  ->  just
+  23:    1  ->  live
+  24:    1  ->  of
+  25:    1  ->  out
+  26:    1  ->  pins
+  27:    1  ->  poison
+  28:    1  ->  rosie
+  29:    1  ->  separate
+  30:    1  ->  sister
+  31:    1  ->  that
+  32:    1  ->  the
+  33:    1  ->  their
+  34:    1  ->  there
+  35:    1  ->  they
+  36:    1  ->  they're
+  37:    1  ->  to
+  38:    1  ->  william's
+  39:    1  ->  with
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

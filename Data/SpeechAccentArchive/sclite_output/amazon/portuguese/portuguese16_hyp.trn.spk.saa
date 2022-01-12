@@ -1,0 +1,108 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese16_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a ==> is
+   2:    1  ->  call ==> go
+   3:    1  ->  five ==> peace
+   4:    1  ->  of ==> off
+   5:    1  ->  of ==> ofthe
+   6:    1  ->  peas ==> no
+   7:    1  ->  slabs ==> labs
+   8:    1  ->  snack ==> not
+   9:    1  ->  spoons ==> points
+  10:    1  ->  stella ==> stellar
+  11:    1  ->  thick ==> fifty-six
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  it
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  snow
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  call
+   4:    1  ->  five
+   5:    1  ->  peas
+   6:    1  ->  slabs
+   7:    1  ->  snack
+   8:    1  ->  spoons
+   9:    1  ->  stella
+  10:    1  ->  thick
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  fifty-six
+   2:    1  ->  go
+   3:    1  ->  is
+   4:    1  ->  labs
+   5:    1  ->  no
+   6:    1  ->  not
+   7:    1  ->  off
+   8:    1  ->  ofthe
+   9:    1  ->  peace
+  10:    1  ->  points
+  11:    1  ->  stellar
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

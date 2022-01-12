@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\p-rea1-f3_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-f3_01)
+Scores: (#C #S #D #I) 150 32 4 4
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with HER MOTHER AND two **** STEPSISTERS called LILY AND     rosa LILY   AND rosa were very UNFRIENDLY and they were they were lazy girls they SPENT all THEIR time buying new clothes and going to parties poor CINDERS had to wear all THEIR old hand me downs and she had to do the cleaning one day a royal messenger came to announce a ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND     rosa thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived ***** CINDERS HAD  to help HER SISTERS get ready they were in A   they were in a bad mood THEY'D wanted to buy some new GOWNS but THEIR mother said that they had enough GOWNS  so they started shouting ** AT CINDERS find my JEWELS yelled one find MY HAT HOWLED the other THEY THEY WANTED  
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with HIM WITH   THE two STEP SISTERS     called **** LILLIAN rosa LIVING IN  rosa were very FRIENDLY   and they were they were lazy girls they SPEND all THE   time buying new clothes and going to parties poor SINNERS had to wear all THE   old hand me downs and she had to do the cleaning one day a royal messenger came to announce a ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** LILLIAN rosa thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived SCENE IS      THAT to help US  STILL   get ready they were in THE they were in a bad mood THEY   wanted to buy some new CARDS but THE   mother said that they had enough COUNTS so they started shouting AS IN THIS    find my JEWISH yelled one find ** OUT HOW    the other **** THE  WOUNDED 
+Eval:                                                                                                        S   S      S       I    S                  D    S            S      S                  S                                                  S         S                                                       S                       S                                                                                                                 S                                                                                  D    S                                                                                                                                                                  I     S       S            S   S                              S                           S                             S         S                                      S                               I  S  S               S                      D  S   S                D    S    S       
+
+>> REF:  hairbrushes HAIRPINS and **** HAIRSPRAY 
+>> HYP:  hairbrushes HAPPENS  and HAIR SPRAYS    
+>> Eval:             S            I    S         
+
+

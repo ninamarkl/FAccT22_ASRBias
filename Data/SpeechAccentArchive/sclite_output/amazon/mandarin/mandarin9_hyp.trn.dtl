@@ -1,0 +1,141 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin9_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   31.9%   (  22)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  and ==> axe
+   2:    1  ->  and ==> good
+   3:    1  ->  at ==> had
+   4:    1  ->  bags ==> that
+   5:    1  ->  blue ==> off
+   6:    1  ->  cheese ==> brooches
+   7:    1  ->  frog ==> fraud
+   8:    1  ->  her ==> west
+   9:    1  ->  kids ==> keys
+  10:    1  ->  meet ==> meathead
+  11:    1  ->  of ==> friend
+  12:    1  ->  of ==> snaps
+  13:    1  ->  peas ==> piece
+  14:    1  ->  red ==> street
+  15:    1  ->  snake ==> i'm
+  16:    1  ->  spoons ==> off
+  17:    1  ->  stella ==> still
+  18:    1  ->  the ==> a
+  19:    1  ->  train ==> chance
+  20:    1  ->  we ==> no
+  21:    1  ->  wednesday ==> they
+  22:    1  ->  will ==> way
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  schools
+   2:    1  ->  snack
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  slabs
+   2:    1  ->  thick
+   3:    1  ->  three
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  and
+   2:    2  ->  of
+   3:    1  ->  at
+   4:    1  ->  bags
+   5:    1  ->  blue
+   6:    1  ->  cheese
+   7:    1  ->  frog
+   8:    1  ->  her
+   9:    1  ->  kids
+  10:    1  ->  meet
+  11:    1  ->  peas
+  12:    1  ->  red
+  13:    1  ->  snake
+  14:    1  ->  spoons
+  15:    1  ->  stella
+  16:    1  ->  the
+  17:    1  ->  train
+  18:    1  ->  we
+  19:    1  ->  wednesday
+  20:    1  ->  will
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  off
+   2:    1  ->  a
+   3:    1  ->  axe
+   4:    1  ->  brooches
+   5:    1  ->  chance
+   6:    1  ->  fraud
+   7:    1  ->  friend
+   8:    1  ->  good
+   9:    1  ->  had
+  10:    1  ->  i'm
+  11:    1  ->  keys
+  12:    1  ->  meathead
+  13:    1  ->  no
+  14:    1  ->  piece
+  15:    1  ->  snaps
+  16:    1  ->  still
+  17:    1  ->  street
+  18:    1  ->  that
+  19:    1  ->  they
+  20:    1  ->  way
+  21:    1  ->  west
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

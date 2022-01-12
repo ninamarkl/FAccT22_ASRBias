@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\j-rea1-f3_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-f3_01)
+Scores: (#C #S #D #I) 114 44 23 5
+REF:  once upon a time there was a girl called cinderella but everyone called her CINDERS cinders LIVED WITH her ** MOTHER and two stepsisters CALLED LILY AND ROSA LILY  and rosa WERE VERY UNFRIENDLY AND THEY WERE LAZY GIRLS THEY      SPENT all THEIR time BUYING new clothes and GOING to parties ***** POOR CINDER had to wear all all THEIR old HAND ME DOWNS  and she had to do the cleaning ONE DAY A ROYAL MESSENGER CAME TO      ANNOUNCE   A  BALL   the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY   and rosa thought this was divine prince william WAS GORGEOUS and HE  WAS  looking for a bride *** they dreamed of wedding bells when the EVENING  of the BALL ARRIVED CINDERS had TO help HER   sisters get ready THEY WERE  in a bad mood they wanted to buy some new GOWNS but THEIR mother said that they had enough GOWNS so they started shouting at CINDERS FIND MY      JEWELS YELLED one ONE FIND my hat YELLED THE OTHER they wanted **** ******* 
+HYP:  once upon a time there was a girl called cinderella but everyone called her ******* cinders ***** GIVE her MY HEART  and two stepsisters ****** **** *** CALL DANNY and rosa **** **** ********** *** **** **** **** L     LAZYGIRLS ON    all THE   time BY     new clothes and GO    to parties HORSE AND  I      had to wear all all THE   old TOWN WE DANCED and she had to do the cleaning *** *** * WHEN  THEY'RE   REAL MESSAGE ACCOUNTANT AT SCHOOL the ball WILL  be held at the royal palace in honour of the queen's only son prince william LILLEY and rosa thought this was divine prince william *** ******** and HIS KEYS looking for a bride THE they dreamed of wedding bells when the EVENINGS of the **** WALRUS  INTO    had ** help THEIR sisters get ready **** THERE in a bad mood they wanted to buy some new GUNS  but THE   mother said that they had enough GUNS  so they started shouting at SINN    FEIN MYJOOLZ THE    OLD    one FAR IS   my hat ****** *** ***** they wanted HAIR BRUSHES 
+Eval:                                                                             D               D     S        I  S                          D      D    D   S    S              D    D    D          D   D    D    D    S     S         S         S          S                      S                I     S    S                          S         S    S  S                                     D   D   D S     S         S    S       S          S  S               S                                                                                  S                                                      D   D            S   S                        I                                          S               D    S       S           D       S                       D    S                                               S         S                                      S                                 S       S    S       S      S          S   S           D      D   D                 I    I       
+
+>> REF:  HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  HAIR        PINS     and hairspray 
+>> Eval: S           S                      
+
+

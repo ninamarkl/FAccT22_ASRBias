@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\d-rea1-f6_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-f6_01)
+Scores: (#C #S #D #I) 181 19 3 6
+REF:  once there was A   girl called cinderella but EVERYONE called her cinders cinders lived with her mother and two **** STEPSISTERS called lily and rosa LILY AND     rosa WERE  very unfriendly and they were very lazy girls they spent all their time buying new clothes and going to parties poor CINDERS had to wear all their old hand me downs and she had to do all the cleaning one day a ROYAL MESSENGER came ** * HA   to announce a ball the ball would be held at the royal palace in honour of the queen's only son prince william I'LL DO  that sentence again *** the BALL  would be held at the royal palace in london of the queen's only son prince william ERM LILY    AND  ROSA thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a **** bad mood THEY'D wanted to buy some new gowns but their mother said that they had enough GOWNS   so they 
+HYP:  once there was THE girl called cinderella but EVAN     called her cinders cinders lived with her mother and two STEP SISTERS     called lily and rosa **** LILLIAN rosa WE'RE very unfriendly and they were very lazy girls they spent all their time buying new clothes and going to parties poor SANDERS had to wear all their old hand me downs and she had to do all the cleaning one day a REAL  MASTER    came TO A HEAD to announce a ball the ball would be held at the royal palace in honour of the queen's only son prince william **** DID that sentence again AND the VIRAL would be held at the royal palace in london of the queen's only son prince william *** LILLIAN ROSE I    thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a GOOD bad mood THEY   wanted to buy some new gowns but their mother said that they had enough GROUNDS so they 
+Eval:                S                              S                                                                 I    S                                D    S            S                                                                                                                          S                                                                                            S     S              I  I S                                                                                                                   D    S                       I       S                                                                                        D   S       S    S                                                                                                                                                                                                                   I             S                                                                              S               
+
+>> REF:  started shouting AT  cinders find my jewels ** YELLED one find my hat HOWLED the other they wanted hairbrushes hairpins and hairspray 
+>> HYP:  started shouting AND cinders find my jewels HE HAD    one find my hat HELPS  the other they wanted hairbrushes hairpins and hairspray 
+>> Eval:                  S                          I  S                      S                                                               
+
+

@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin36_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   49.3%   (  34)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   40.6%   (  28)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   50.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  73)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  a ==> as
+   2:    1  ->  a ==> us
+   3:    1  ->  and ==> the
+   4:    1  ->  at ==> as
+   5:    1  ->  bags ==> on
+   6:    1  ->  call ==> cause
+   7:    1  ->  five ==> slaves
+   8:    1  ->  fresh ==> piece
+   9:    1  ->  kids ==> keys
+  10:    1  ->  of ==> no
+  11:    1  ->  of ==> off
+  12:    1  ->  peas ==> like
+  13:    1  ->  red ==> backs
+  14:    1  ->  scoop ==> the
+  15:    1  ->  six ==> sixty-six
+  16:    1  ->  slabs ==> slaves
+  17:    1  ->  small ==> more
+  18:    1  ->  snack ==> neck
+  19:    1  ->  snow ==> fast
+  20:    1  ->  stella ==> teller
+  21:    1  ->  store ==> door
+  22:    1  ->  the ==> a
+  23:    1  ->  the ==> funders
+  24:    1  ->  thick ==> and
+  25:    1  ->  three ==> rat
+  26:    1  ->  train ==> student
+  27:    1  ->  we ==> way
+  28:    1  ->  will ==> we'll
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  it's
+   2:    1  ->  off
+   3:    1  ->  right
+   4:    1  ->  scrub
+   5:    1  ->  thread
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  from
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  a
+   2:    2  ->  of
+   3:    2  ->  the
+   4:    1  ->  and
+   5:    1  ->  at
+   6:    1  ->  bags
+   7:    1  ->  call
+   8:    1  ->  five
+   9:    1  ->  fresh
+  10:    1  ->  kids
+  11:    1  ->  peas
+  12:    1  ->  red
+  13:    1  ->  scoop
+  14:    1  ->  six
+  15:    1  ->  slabs
+  16:    1  ->  small
+  17:    1  ->  snack
+  18:    1  ->  snow
+  19:    1  ->  stella
+  20:    1  ->  store
+  21:    1  ->  thick
+  22:    1  ->  three
+  23:    1  ->  train
+  24:    1  ->  we
+  25:    1  ->  will
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  as
+   2:    2  ->  slaves
+   3:    2  ->  the
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  backs
+   7:    1  ->  cause
+   8:    1  ->  door
+   9:    1  ->  fast
+  10:    1  ->  funders
+  11:    1  ->  keys
+  12:    1  ->  like
+  13:    1  ->  more
+  14:    1  ->  neck
+  15:    1  ->  no
+  16:    1  ->  off
+  17:    1  ->  on
+  18:    1  ->  piece
+  19:    1  ->  rat
+  20:    1  ->  sixty-six
+  21:    1  ->  student
+  22:    1  ->  teller
+  23:    1  ->  us
+  24:    1  ->  way
+  25:    1  ->  we'll
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,99 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\arabic\arabic64_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.5%   (  10)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   85.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> on
+   3:    1  ->  ask ==> asked
+   4:    1  ->  of ==> ofthe
+   5:    1  ->  please ==> police
+   6:    1  ->  she ==> we
+   7:    1  ->  slabs ==> laps
+   8:    1  ->  thick ==> fifty-six
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  a
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  five
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  of
+   5:    1  ->  please
+   6:    1  ->  she
+   7:    1  ->  slabs
+   8:    1  ->  thick
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  asked
+   2:    1  ->  fifty-six
+   3:    1  ->  laps
+   4:    1  ->  ofthe
+   5:    1  ->  on
+   6:    1  ->  police
+   7:    1  ->  the
+   8:    1  ->  we
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

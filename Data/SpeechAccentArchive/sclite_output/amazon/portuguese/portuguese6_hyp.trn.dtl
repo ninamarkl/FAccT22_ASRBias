@@ -1,0 +1,103 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\portuguese\portuguese6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  five ==> peace
+   3:    1  ->  frog ==> fraud
+   4:    1  ->  her ==> oscar
+   5:    1  ->  her ==> without
+   6:    1  ->  peas ==> no
+   7:    1  ->  slabs ==> laps
+   8:    1  ->  spoons ==> pillars
+   9:    1  ->  thick ==> fifty-six
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  ask
+   2:    1  ->  snow
+   3:    1  ->  will
+   4:    1  ->  with
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  her
+   2:    1  ->  and
+   3:    1  ->  five
+   4:    1  ->  frog
+   5:    1  ->  peas
+   6:    1  ->  slabs
+   7:    1  ->  spoons
+   8:    1  ->  thick
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  fifty-six
+   2:    1  ->  fraud
+   3:    1  ->  in
+   4:    1  ->  laps
+   5:    1  ->  no
+   6:    1  ->  oscar
+   7:    1  ->  peace
+   8:    1  ->  pillars
+   9:    1  ->  without
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

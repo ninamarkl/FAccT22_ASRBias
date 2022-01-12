@@ -1,0 +1,126 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin54_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  5 ==> ps5
+   2:    1  ->  a ==> the
+   3:    1  ->  cheese ==> cultures
+   4:    1  ->  frog ==> frogs
+   5:    1  ->  her ==> a
+   6:    1  ->  into ==> to
+   7:    1  ->  need ==> give
+   8:    1  ->  peas ==> so
+   9:    1  ->  scoop ==> scope
+  10:    1  ->  slabs ==> laps
+  11:    1  ->  snake ==> snack
+  12:    1  ->  spoons ==> oz
+  13:    1  ->  the ==> ever
+  14:    1  ->  these ==> the
+  15:    1  ->  thick ==> 6
+  16:    1  ->  things ==> thing
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  also
+   2:    1  ->  at
+   3:    1  ->  blue
+   4:    1  ->  snow
+   5:    1  ->  we
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  cheese
+   4:    1  ->  frog
+   5:    1  ->  her
+   6:    1  ->  into
+   7:    1  ->  need
+   8:    1  ->  peas
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  snake
+  12:    1  ->  spoons
+  13:    1  ->  the
+  14:    1  ->  these
+  15:    1  ->  thick
+  16:    1  ->  things
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  the
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  cultures
+   5:    1  ->  ever
+   6:    1  ->  frogs
+   7:    1  ->  give
+   8:    1  ->  laps
+   9:    1  ->  oz
+  10:    1  ->  ps5
+  11:    1  ->  scope
+  12:    1  ->  snack
+  13:    1  ->  so
+  14:    1  ->  thing
+  15:    1  ->  to
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

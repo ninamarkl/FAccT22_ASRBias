@@ -1,0 +1,137 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\thai\thai12_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  a ==> its
+   2:    1  ->  ask ==> asked
+   3:    1  ->  bags ==> backs
+   4:    1  ->  blue ==> off
+   5:    1  ->  bob ==> ball
+   6:    1  ->  call ==> costilla
+   7:    1  ->  cheese ==> bush's
+   8:    1  ->  five ==> no
+   9:    1  ->  fresh ==> ports
+  10:    1  ->  of ==> laps
+  11:    1  ->  peas ==> flesh
+  12:    1  ->  please ==> police
+  13:    1  ->  slabs ==> fifty-six
+  14:    1  ->  snack ==> neck
+  15:    1  ->  snake ==> nick
+  16:    1  ->  snow ==> are
+  17:    1  ->  stella ==> i
+  18:    1  ->  thick ==> peace
+  19:    1  ->  wednesday ==> stay
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  fraud
+   2:    1  ->  when
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  frog
+   2:    1  ->  of
+   3:    1  ->  spoons
+   4:    1  ->  will
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  a
+   2:    1  ->  ask
+   3:    1  ->  bags
+   4:    1  ->  blue
+   5:    1  ->  bob
+   6:    1  ->  call
+   7:    1  ->  cheese
+   8:    1  ->  five
+   9:    1  ->  fresh
+  10:    1  ->  of
+  11:    1  ->  peas
+  12:    1  ->  please
+  13:    1  ->  slabs
+  14:    1  ->  snack
+  15:    1  ->  snake
+  16:    1  ->  snow
+  17:    1  ->  stella
+  18:    1  ->  thick
+  19:    1  ->  wednesday
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  are
+   2:    1  ->  asked
+   3:    1  ->  backs
+   4:    1  ->  ball
+   5:    1  ->  bush's
+   6:    1  ->  costilla
+   7:    1  ->  fifty-six
+   8:    1  ->  flesh
+   9:    1  ->  i
+  10:    1  ->  its
+  11:    1  ->  laps
+  12:    1  ->  neck
+  13:    1  ->  nick
+  14:    1  ->  no
+  15:    1  ->  off
+  16:    1  ->  peace
+  17:    1  ->  police
+  18:    1  ->  ports
+  19:    1  ->  stay
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,131 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish48_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  a ==> his
+   2:    1  ->  and ==> in
+   3:    1  ->  bob ==> bub
+   4:    1  ->  brother ==> broader
+   5:    1  ->  can ==> has
+   6:    1  ->  five ==> peace
+   7:    1  ->  her ==> ones
+   8:    1  ->  her ==> without
+   9:    1  ->  meet ==> metre
+  10:    1  ->  of ==> are
+  11:    1  ->  peas ==> no
+  12:    1  ->  scoop ==> cube
+  13:    1  ->  slabs ==> labs
+  14:    1  ->  snack ==> neck
+  15:    1  ->  spoons ==> blues
+  16:    1  ->  these ==> this
+  17:    1  ->  thick ==> fifty-six
+  18:    1  ->  wednesday ==> they
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  her
+   2:    1  ->  red
+   3:    1  ->  snow
+   4:    1  ->  with
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  her
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  bob
+   5:    1  ->  brother
+   6:    1  ->  can
+   7:    1  ->  five
+   8:    1  ->  meet
+   9:    1  ->  of
+  10:    1  ->  peas
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  snack
+  14:    1  ->  spoons
+  15:    1  ->  these
+  16:    1  ->  thick
+  17:    1  ->  wednesday
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  are
+   2:    1  ->  blues
+   3:    1  ->  broader
+   4:    1  ->  bub
+   5:    1  ->  cube
+   6:    1  ->  fifty-six
+   7:    1  ->  has
+   8:    1  ->  his
+   9:    1  ->  in
+  10:    1  ->  labs
+  11:    1  ->  metre
+  12:    1  ->  neck
+  13:    1  ->  no
+  14:    1  ->  ones
+  15:    1  ->  peace
+  16:    1  ->  they
+  17:    1  ->  this
+  18:    1  ->  without
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

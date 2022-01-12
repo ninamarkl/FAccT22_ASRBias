@@ -1,0 +1,102 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\d-rea1-m3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.2%   (  13)
+
+Percent Correct           =   93.9%   ( 170)
+
+Percent Substitution      =    5.5%   (  10)
+Percent Deletions         =    0.6%   (   1)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   92.8%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 182)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and ==> lillian
+   2:    1  ->  and ==> rose
+   3:    1  ->  ball ==> lot
+   4:    1  ->  cinders ==> centres
+   5:    1  ->  howled ==> held
+   6:    1  ->  lily ==> lillian
+   7:    1  ->  rosa ==> i
+   8:    1  ->  rosa ==> rose
+   9:    1  ->  stepsisters ==> sisters
+  10:    1  ->  they'd ==> they
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  some
+   2:    1  ->  step
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  lily
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  and
+   2:    2  ->  rosa
+   3:    1  ->  ball
+   4:    1  ->  cinders
+   5:    1  ->  howled
+   6:    1  ->  lily
+   7:    1  ->  stepsisters
+   8:    1  ->  they'd
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  lillian
+   2:    2  ->  rose
+   3:    1  ->  centres
+   4:    1  ->  held
+   5:    1  ->  i
+   6:    1  ->  lot
+   7:    1  ->  sisters
+   8:    1  ->  they
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

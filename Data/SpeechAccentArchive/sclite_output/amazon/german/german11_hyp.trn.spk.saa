@@ -1,0 +1,138 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\german\german11_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.0%   (  29)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    8.7%   (   6)
+Percent Word Accuracy     =   58.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  75)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  ask ==> l
+   3:    1  ->  call ==> called
+   4:    1  ->  five ==> peace
+   5:    1  ->  fresh ==> off
+   6:    1  ->  frog ==> work
+   7:    1  ->  her ==> a
+   8:    1  ->  her ==> over
+   9:    1  ->  her ==> skill
+  10:    1  ->  her ==> to
+  11:    1  ->  into ==> the
+  12:    1  ->  peas ==> no
+  13:    1  ->  please ==> police
+  14:    1  ->  slabs ==> laps
+  15:    1  ->  snow ==> rest
+  16:    1  ->  stella ==> stila
+  17:    1  ->  the ==> two
+  18:    1  ->  these ==> his
+  19:    1  ->  thick ==> fifty-six
+  20:    1  ->  wednesday ==> stay
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  went
+   2:    1  ->  for
+   3:    1  ->  in
+   4:    1  ->  it
+   5:    1  ->  metre
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  of
+   2:    1  ->  the
+   3:    1  ->  with
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  her
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  call
+   5:    1  ->  five
+   6:    1  ->  fresh
+   7:    1  ->  frog
+   8:    1  ->  into
+   9:    1  ->  peas
+  10:    1  ->  please
+  11:    1  ->  slabs
+  12:    1  ->  snow
+  13:    1  ->  stella
+  14:    1  ->  the
+  15:    1  ->  these
+  16:    1  ->  thick
+  17:    1  ->  wednesday
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  called
+   4:    1  ->  fifty-six
+   5:    1  ->  his
+   6:    1  ->  l
+   7:    1  ->  laps
+   8:    1  ->  no
+   9:    1  ->  off
+  10:    1  ->  over
+  11:    1  ->  peace
+  12:    1  ->  police
+  13:    1  ->  rest
+  14:    1  ->  skill
+  15:    1  ->  stay
+  16:    1  ->  stila
+  17:    1  ->  to
+  18:    1  ->  two
+  19:    1  ->  work
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

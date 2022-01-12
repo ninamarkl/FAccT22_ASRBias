@@ -1,0 +1,118 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french59_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  call ==> close
+   3:    1  ->  frog ==> frogs
+   4:    1  ->  her ==> here
+   5:    1  ->  her ==> their
+   6:    1  ->  scoop ==> scrub
+   7:    1  ->  slabs ==> labs
+   8:    1  ->  snack ==> not
+   9:    1  ->  stella ==> toe
+  10:    1  ->  these ==> this
+  11:    1  ->  thick ==> fifty-six
+  12:    1  ->  three ==> free
+  13:    1  ->  toy ==> tie
+  14:    1  ->  will ==> we'll
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  five
+   2:    1  ->  the
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  her
+   2:    1  ->  a
+   3:    1  ->  call
+   4:    1  ->  frog
+   5:    1  ->  scoop
+   6:    1  ->  slabs
+   7:    1  ->  snack
+   8:    1  ->  stella
+   9:    1  ->  these
+  10:    1  ->  thick
+  11:    1  ->  three
+  12:    1  ->  toy
+  13:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  close
+   2:    1  ->  fifty-six
+   3:    1  ->  free
+   4:    1  ->  frogs
+   5:    1  ->  here
+   6:    1  ->  it's
+   7:    1  ->  labs
+   8:    1  ->  not
+   9:    1  ->  scrub
+  10:    1  ->  their
+  11:    1  ->  this
+  12:    1  ->  tie
+  13:    1  ->  toe
+  14:    1  ->  we'll
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,127 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin39_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bags ==> backs
+   3:    1  ->  call ==> cost
+   4:    1  ->  five ==> peace
+   5:    1  ->  fresh ==> ofthe
+   6:    1  ->  kids ==> keys
+   7:    1  ->  of ==> wounds
+   8:    1  ->  peas ==> no
+   9:    1  ->  red ==> right
+  10:    1  ->  slabs ==> slaves
+  11:    1  ->  snack ==> snake
+  12:    1  ->  snow ==> rest
+  13:    1  ->  stella ==> ella
+  14:    1  ->  thick ==> fifty-six
+  15:    1  ->  we ==> where
+  16:    1  ->  wednesday ==> stay
+  17:    1  ->  will ==> we'll
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  place
+   2:    1  ->  when
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  spoons
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  ask
+   2:    1  ->  bags
+   3:    1  ->  call
+   4:    1  ->  five
+   5:    1  ->  fresh
+   6:    1  ->  kids
+   7:    1  ->  of
+   8:    1  ->  peas
+   9:    1  ->  red
+  10:    1  ->  slabs
+  11:    1  ->  snack
+  12:    1  ->  snow
+  13:    1  ->  stella
+  14:    1  ->  thick
+  15:    1  ->  we
+  16:    1  ->  wednesday
+  17:    1  ->  will
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  asked
+   2:    1  ->  backs
+   3:    1  ->  cost
+   4:    1  ->  ella
+   5:    1  ->  fifty-six
+   6:    1  ->  keys
+   7:    1  ->  no
+   8:    1  ->  ofthe
+   9:    1  ->  peace
+  10:    1  ->  rest
+  11:    1  ->  right
+  12:    1  ->  slaves
+  13:    1  ->  snake
+  14:    1  ->  stay
+  15:    1  ->  we'll
+  16:    1  ->  where
+  17:    1  ->  wounds
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

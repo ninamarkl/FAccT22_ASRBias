@@ -1,0 +1,139 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: italian\italian33_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   55.1%   (  38)
+
+Percent Correct           =   47.8%   (  33)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   30.4%   (  21)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   44.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  50)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  a ==> was
+   3:    1  ->  and ==> end
+   4:    1  ->  brother ==> go
+   5:    1  ->  for ==> before
+   6:    1  ->  frog ==> frogs
+   7:    1  ->  her ==> i
+   8:    1  ->  her ==> stinks
+   9:    1  ->  meet ==> bag
+  10:    1  ->  of ==> 500
+  11:    1  ->  slabs ==> rupees
+  12:    1  ->  snack ==> like
+  13:    1  ->  station ==> finishing
+  14:    1  ->  thick ==> refreshing
+  15:    1  ->  with ==> this
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  i
+   2:    1  ->  where
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  and
+   4:    1  ->  at
+   5:    1  ->  bags
+   6:    1  ->  fresh
+   7:    1  ->  go
+   8:    1  ->  of
+   9:    1  ->  peas
+  10:    1  ->  red
+  11:    1  ->  snake
+  12:    1  ->  snow
+  13:    1  ->  spoons
+  14:    1  ->  the
+  15:    1  ->  these
+  16:    1  ->  things
+  17:    1  ->  toy
+  18:    1  ->  train
+  19:    1  ->  we
+  20:    1  ->  wednesday
+  21:    1  ->  will
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  a
+   2:    2  ->  her
+   3:    1  ->  and
+   4:    1  ->  brother
+   5:    1  ->  for
+   6:    1  ->  frog
+   7:    1  ->  meet
+   8:    1  ->  of
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  station
+  12:    1  ->  thick
+  13:    1  ->  with
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  500
+   2:    1  ->  bag
+   3:    1  ->  before
+   4:    1  ->  end
+   5:    1  ->  finishing
+   6:    1  ->  frogs
+   7:    1  ->  go
+   8:    1  ->  i
+   9:    1  ->  like
+  10:    1  ->  of
+  11:    1  ->  refreshing
+  12:    1  ->  rupees
+  13:    1  ->  stinks
+  14:    1  ->  this
+  15:    1  ->  was
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

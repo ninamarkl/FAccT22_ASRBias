@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: french\french13_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  3 ==> to
+   2:    1  ->  5 ==> no
+   3:    1  ->  6 ==> six
+   4:    1  ->  and ==> making
+   5:    1  ->  bob ==> brazzaville
+   6:    1  ->  her ==> or
+   7:    1  ->  into ==> thing
+   8:    1  ->  meet ==> mate
+   9:    1  ->  red ==> shred
+  10:    1  ->  slabs ==> loads
+  11:    1  ->  spoons ==> points
+  12:    1  ->  these ==> cook
+  13:    1  ->  thick ==> bs56
+  14:    1  ->  things ==> this
+  15:    1  ->  will ==> we'll
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  brother
+   2:    1  ->  her
+   3:    1  ->  peas
+   4:    1  ->  scoop
+   5:    1  ->  snake
+   6:    1  ->  snow
+   7:    1  ->  we
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  3
+   2:    1  ->  5
+   3:    1  ->  6
+   4:    1  ->  and
+   5:    1  ->  bob
+   6:    1  ->  her
+   7:    1  ->  into
+   8:    1  ->  meet
+   9:    1  ->  red
+  10:    1  ->  slabs
+  11:    1  ->  spoons
+  12:    1  ->  these
+  13:    1  ->  thick
+  14:    1  ->  things
+  15:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  brazzaville
+   2:    1  ->  bs56
+   3:    1  ->  cook
+   4:    1  ->  loads
+   5:    1  ->  making
+   6:    1  ->  mate
+   7:    1  ->  no
+   8:    1  ->  or
+   9:    1  ->  points
+  10:    1  ->  shred
+  11:    1  ->  six
+  12:    1  ->  thing
+  13:    1  ->  this
+  14:    1  ->  to
+  15:    1  ->  we'll
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

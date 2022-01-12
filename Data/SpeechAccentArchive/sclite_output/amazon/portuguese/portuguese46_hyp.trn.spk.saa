@@ -1,0 +1,84 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese46_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (   4)
+
+Percent Correct           =   95.7%   (  66)
+
+Percent Substitution      =    4.3%   (   3)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  brother ==> a
+   2:    1  ->  can ==> could
+   3:    1  ->  red ==> rat
+     -------
+         3
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  bread
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  brother
+   2:    1  ->  can
+   3:    1  ->  red
+     -------
+         3
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  could
+   3:    1  ->  rat
+     -------
+         3
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

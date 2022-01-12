@@ -1,0 +1,125 @@
+SCORING FOR SPEAKER: saa
+     of french\french44_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =   14.5%   (  10)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  ask ==> called
+   2:    1  ->  bags ==> balls
+   3:    1  ->  blue ==> pro
+   4:    1  ->  bob ==> above
+   5:    1  ->  can ==> chicken
+   6:    1  ->  cheese ==> trees
+   7:    1  ->  frog ==> from
+   8:    1  ->  her ==> sarah
+   9:    1  ->  of ==> p30
+  10:    1  ->  scoop ==> school
+  11:    1  ->  slabs ==> new
+  12:    1  ->  stella ==> it's
+  13:    1  ->  toy ==> toilet
+  14:    1  ->  we ==> above
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  brother
+   4:    1  ->  call
+   5:    1  ->  her
+   6:    1  ->  peas
+   7:    1  ->  please
+   8:    1  ->  she
+   9:    1  ->  snow
+  10:    1  ->  thick
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  ask
+   2:    1  ->  bags
+   3:    1  ->  blue
+   4:    1  ->  bob
+   5:    1  ->  can
+   6:    1  ->  cheese
+   7:    1  ->  frog
+   8:    1  ->  her
+   9:    1  ->  of
+  10:    1  ->  scoop
+  11:    1  ->  slabs
+  12:    1  ->  stella
+  13:    1  ->  toy
+  14:    1  ->  we
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  above
+   2:    1  ->  balls
+   3:    1  ->  called
+   4:    1  ->  chicken
+   5:    1  ->  from
+   6:    1  ->  it's
+   7:    1  ->  new
+   8:    1  ->  p30
+   9:    1  ->  pro
+  10:    1  ->  sarah
+  11:    1  ->  school
+  12:    1  ->  toilet
+  13:    1  ->  trees
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

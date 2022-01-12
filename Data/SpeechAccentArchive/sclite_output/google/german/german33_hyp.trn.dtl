@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: german\german33_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   72.5%   (  50)
+
+Percent Correct           =   27.5%   (  19)
+
+Percent Substitution      =    4.3%   (   3)
+Percent Deletions         =   68.1%   (  47)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   27.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  22)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  frog ==> left
+   2:    1  ->  toy ==> 656
+   3:    1  ->  will ==> we'll
+     -------
+         3
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  a
+   2:    3  ->  her
+   3:    2  ->  and
+   4:    2  ->  of
+   5:    2  ->  these
+   6:    2  ->  we
+   7:    1  ->  3
+   8:    1  ->  5
+   9:    1  ->  6
+  10:    1  ->  also
+  11:    1  ->  ask
+  12:    1  ->  bags
+  13:    1  ->  big
+  14:    1  ->  blue
+  15:    1  ->  bob
+  16:    1  ->  bring
+  17:    1  ->  brother
+  18:    1  ->  can
+  19:    1  ->  cheese
+  20:    1  ->  for
+  21:    1  ->  fresh
+  22:    1  ->  into
+  23:    1  ->  maybe
+  24:    1  ->  meet
+  25:    1  ->  need
+  26:    1  ->  peas
+  27:    1  ->  plastic
+  28:    1  ->  red
+  29:    1  ->  scoop
+  30:    1  ->  she
+  31:    1  ->  slabs
+  32:    1  ->  small
+  33:    1  ->  snack
+  34:    1  ->  snake
+  35:    1  ->  snow
+  36:    1  ->  spoons
+  37:    1  ->  thick
+  38:    1  ->  things
+  39:    1  ->  to
+     -------
+        47
+
+
+
+SUBSTITUTIONS                    Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  frog
+   2:    1  ->  toy
+   3:    1  ->  will
+     -------
+         3
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  656
+   2:    1  ->  left
+   3:    1  ->  we'll
+     -------
+         3
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

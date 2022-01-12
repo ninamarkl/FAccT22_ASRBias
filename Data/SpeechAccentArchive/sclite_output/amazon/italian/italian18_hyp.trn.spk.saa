@@ -1,0 +1,142 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\italian\italian18_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.6%   (  28)
+
+Percent Correct           =   59.4%   (  41)
+
+Percent Substitution      =   33.3%   (  23)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   59.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  a ==> is
+   3:    1  ->  and ==> ah
+   4:    1  ->  and ==> snaking
+   5:    1  ->  ask ==> steady
+   6:    1  ->  bags ==> readbacks
+   7:    1  ->  bob ==> buck
+   8:    1  ->  can ==> khun
+   9:    1  ->  for ==> from
+  10:    1  ->  frog ==> fraud
+  11:    1  ->  her ==> a
+  12:    1  ->  her ==> i
+  13:    1  ->  her ==> our
+  14:    1  ->  meet ==> meal
+  15:    1  ->  peas ==> pez
+  16:    1  ->  red ==> free
+  17:    1  ->  scoop ==> scoob
+  18:    1  ->  snack ==> not
+  19:    1  ->  snow ==> fresno
+  20:    1  ->  spoons ==> £six
+  21:    1  ->  stella ==> go
+  22:    1  ->  to ==> scarred
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  call
+   2:    1  ->  fresh
+   3:    1  ->  six
+   4:    1  ->  snake
+   5:    1  ->  three
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    3  ->  her
+   2:    2  ->  and
+   3:    2  ->  these
+   4:    1  ->  a
+   5:    1  ->  ask
+   6:    1  ->  bags
+   7:    1  ->  bob
+   8:    1  ->  can
+   9:    1  ->  for
+  10:    1  ->  frog
+  11:    1  ->  meet
+  12:    1  ->  peas
+  13:    1  ->  red
+  14:    1  ->  scoop
+  15:    1  ->  snack
+  16:    1  ->  snow
+  17:    1  ->  spoons
+  18:    1  ->  stella
+  19:    1  ->  to
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  this
+   2:    1  ->  a
+   3:    1  ->  ah
+   4:    1  ->  buck
+   5:    1  ->  fraud
+   6:    1  ->  free
+   7:    1  ->  fresno
+   8:    1  ->  from
+   9:    1  ->  go
+  10:    1  ->  i
+  11:    1  ->  is
+  12:    1  ->  khun
+  13:    1  ->  meal
+  14:    1  ->  not
+  15:    1  ->  our
+  16:    1  ->  pez
+  17:    1  ->  readbacks
+  18:    1  ->  scarred
+  19:    1  ->  scoob
+  20:    1  ->  snaking
+  21:    1  ->  steady
+  22:    1  ->  £six
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

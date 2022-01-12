@@ -1,0 +1,113 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish9_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  74)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  things ==> thing
+   2:    1  ->  5 ==> v
+   3:    1  ->  a ==> ice
+   4:    1  ->  bob ==> but
+   5:    1  ->  frog ==> case
+   6:    1  ->  scoop ==> school
+   7:    1  ->  snack ==> night
+   8:    1  ->  spoons ==> spoon
+   9:    1  ->  these ==> the
+  10:    1  ->  these ==> this
+  11:    1  ->  thick ==> speak
+  12:    1  ->  toy ==> the
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  flat
+   3:    1  ->  for
+   4:    1  ->  lie
+   5:    1  ->  seaspoon
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  5
+   4:    1  ->  a
+   5:    1  ->  bob
+   6:    1  ->  frog
+   7:    1  ->  scoop
+   8:    1  ->  snack
+   9:    1  ->  spoons
+  10:    1  ->  thick
+  11:    1  ->  toy
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  the
+   2:    2  ->  thing
+   3:    1  ->  but
+   4:    1  ->  case
+   5:    1  ->  ice
+   6:    1  ->  night
+   7:    1  ->  school
+   8:    1  ->  speak
+   9:    1  ->  spoon
+  10:    1  ->  this
+  11:    1  ->  v
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

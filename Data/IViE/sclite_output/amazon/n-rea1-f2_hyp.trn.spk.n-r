@@ -1,0 +1,133 @@
+SCORING FOR SPEAKER: n-r
+     of amazon\n-rea1-f2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.3%   (  26)
+
+Percent Correct           =   86.3%   ( 157)
+
+Percent Substitution      =   11.5%   (  21)
+Percent Deletions         =    2.2%   (   4)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =   85.7%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 179)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  and ==> lillian
+   2:    1  ->  a ==> the
+   3:    1  ->  at ==> its
+   4:    1  ->  cinders ==> has
+   5:    1  ->  cinders ==> india's
+   6:    1  ->  cinders ==> singers
+   7:    1  ->  dreamed ==> dreams
+   8:    1  ->  gowns ==> guns
+   9:    1  ->  howled ==> held
+  10:    1  ->  poor ==> person
+  11:    1  ->  prin ==> hairpins
+  12:    1  ->  rosa ==> rose
+  13:    1  ->  shouting ==> with
+  14:    1  ->  started ==> shot
+  15:    1  ->  their ==> that
+  16:    1  ->  their ==> the
+  17:    1  ->  they ==> their
+  18:    1  ->  they ==> they'd
+  19:    1  ->  they'd ==> they
+  20:    1  ->  would ==> will
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  with
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  lily
+   2:    1  ->  hair
+   3:    1  ->  that
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  cinders
+   2:    2  ->  and
+   3:    2  ->  their
+   4:    2  ->  they
+   5:    1  ->  a
+   6:    1  ->  at
+   7:    1  ->  dreamed
+   8:    1  ->  gowns
+   9:    1  ->  howled
+  10:    1  ->  poor
+  11:    1  ->  prin
+  12:    1  ->  rosa
+  13:    1  ->  shouting
+  14:    1  ->  started
+  15:    1  ->  they'd
+  16:    1  ->  would
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  lillian
+   2:    2  ->  the
+   3:    1  ->  dreams
+   4:    1  ->  guns
+   5:    1  ->  hairpins
+   6:    1  ->  has
+   7:    1  ->  held
+   8:    1  ->  india's
+   9:    1  ->  its
+  10:    1  ->  person
+  11:    1  ->  rose
+  12:    1  ->  shot
+  13:    1  ->  singers
+  14:    1  ->  that
+  15:    1  ->  their
+  16:    1  ->  they
+  17:    1  ->  they'd
+  18:    1  ->  will
+  19:    1  ->  with
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

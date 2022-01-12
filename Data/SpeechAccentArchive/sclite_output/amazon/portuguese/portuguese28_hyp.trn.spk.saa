@@ -1,0 +1,112 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese28_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  of ==> off
+   2:    2  ->  these ==> this
+   3:    1  ->  and ==> in
+   4:    1  ->  ask ==> asked
+   5:    1  ->  bob ==> glob
+   6:    1  ->  five ==> fifty-six
+   7:    1  ->  into ==> in
+   8:    1  ->  peas ==> piece
+   9:    1  ->  slabs ==> and
+  10:    1  ->  stella ==> estelle
+  11:    1  ->  thick ==> labs
+  12:    1  ->  things ==> thing's
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  her
+   2:    1  ->  of
+   3:    1  ->  went
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    1  ->  and
+   4:    1  ->  ask
+   5:    1  ->  bob
+   6:    1  ->  five
+   7:    1  ->  into
+   8:    1  ->  peas
+   9:    1  ->  slabs
+  10:    1  ->  stella
+  11:    1  ->  thick
+  12:    1  ->  things
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  in
+   2:    2  ->  off
+   3:    2  ->  this
+   4:    1  ->  and
+   5:    1  ->  asked
+   6:    1  ->  estelle
+   7:    1  ->  fifty-six
+   8:    1  ->  glob
+   9:    1  ->  labs
+  10:    1  ->  piece
+  11:    1  ->  thing's
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

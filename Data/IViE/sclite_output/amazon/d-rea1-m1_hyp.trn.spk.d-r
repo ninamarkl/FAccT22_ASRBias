@@ -1,0 +1,151 @@
+SCORING FOR SPEAKER: d-r
+     of amazon\d-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.4%   (  38)
+
+Percent Correct           =   85.0%   ( 176)
+
+Percent Substitution      =   12.1%   (  25)
+Percent Deletions         =    2.9%   (   6)
+Percent Insertions        =    3.4%   (   7)
+Percent Word Accuracy     =   81.6%
+
+
+Ref. words                =           ( 207)
+Hyp. words                =           ( 208)
+Aligned words             =           ( 214)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  they'd ==> they
+   2:    1  ->  and ==> rose
+   3:    1  ->  be ==> we
+   4:    1  ->  bells ==> bills
+   5:    1  ->  buying ==> buy
+   6:    1  ->  cinders ==> dress
+   7:    1  ->  cinders ==> prisoners
+   8:    1  ->  cinders ==> seniors
+   9:    1  ->  cinders ==> singers
+  10:    1  ->  do ==> all
+  11:    1  ->  had ==> have
+  12:    1  ->  howled ==> held
+  13:    1  ->  lily ==> lillian
+  14:    1  ->  lily ==> lydia
+  15:    1  ->  one ==> would
+  16:    1  ->  rosa ==> i
+  17:    1  ->  rosa ==> rose
+  18:    1  ->  son ==> of
+  19:    1  ->  stepsin ==> test
+  20:    1  ->  their ==> the
+  21:    1  ->  to ==> threw
+  22:    1  ->  wanted ==> ordered
+  23:    1  ->  would ==> bald
+  24:    1  ->  yelled ==> held
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  all
+   2:    1  ->  and
+   3:    1  ->  had
+   4:    1  ->  its
+   5:    1  ->  sin
+   6:    1  ->  sort
+   7:    1  ->  steps
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  that
+   2:    1  ->  and
+   3:    1  ->  ball
+   4:    1  ->  had
+   5:    1  ->  poor
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  cinders
+   2:    2  ->  lily
+   3:    2  ->  rosa
+   4:    2  ->  they'd
+   5:    1  ->  and
+   6:    1  ->  be
+   7:    1  ->  bells
+   8:    1  ->  buying
+   9:    1  ->  do
+  10:    1  ->  had
+  11:    1  ->  howled
+  12:    1  ->  one
+  13:    1  ->  son
+  14:    1  ->  stepsin
+  15:    1  ->  their
+  16:    1  ->  to
+  17:    1  ->  wanted
+  18:    1  ->  would
+  19:    1  ->  yelled
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  held
+   2:    2  ->  rose
+   3:    2  ->  they
+   4:    1  ->  all
+   5:    1  ->  bald
+   6:    1  ->  bills
+   7:    1  ->  buy
+   8:    1  ->  dress
+   9:    1  ->  have
+  10:    1  ->  i
+  11:    1  ->  lillian
+  12:    1  ->  lydia
+  13:    1  ->  of
+  14:    1  ->  ordered
+  15:    1  ->  prisoners
+  16:    1  ->  seniors
+  17:    1  ->  singers
+  18:    1  ->  test
+  19:    1  ->  the
+  20:    1  ->  threw
+  21:    1  ->  we
+  22:    1  ->  would
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

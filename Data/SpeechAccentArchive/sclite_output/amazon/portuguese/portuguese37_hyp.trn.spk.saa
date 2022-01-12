@@ -1,0 +1,110 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese37_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  five ==> piece
+   3:    1  ->  of ==> ofthe
+   4:    1  ->  peas ==> rational
+   5:    1  ->  slabs ==> labs
+   6:    1  ->  spoons ==> teaspoons
+   7:    1  ->  stella ==> stellar
+   8:    1  ->  the ==> their
+   9:    1  ->  these ==> the
+  10:    1  ->  thick ==> fifty-six
+  11:    1  ->  will ==> we'll
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  fresh
+   2:    1  ->  snow
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  and
+   2:    1  ->  five
+   3:    1  ->  of
+   4:    1  ->  peas
+   5:    1  ->  slabs
+   6:    1  ->  spoons
+   7:    1  ->  stella
+   8:    1  ->  the
+   9:    1  ->  these
+  10:    1  ->  thick
+  11:    1  ->  will
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  fifty-six
+   2:    1  ->  in
+   3:    1  ->  labs
+   4:    1  ->  ofthe
+   5:    1  ->  piece
+   6:    1  ->  rational
+   7:    1  ->  stellar
+   8:    1  ->  teaspoons
+   9:    1  ->  the
+  10:    1  ->  their
+  11:    1  ->  we'll
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,85 @@
+SCORING FOR SPEAKER: c-r
+     of amazon\c-rea1-m3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.8%   (   5)
+
+Percent Correct           =   98.3%   ( 177)
+
+Percent Substitution      =    1.7%   (   3)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   97.2%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 182)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  howled ==> how
+   2:    1  ->  stepsisters ==> sisters
+   3:    1  ->  they'd ==> had
+     -------
+         3
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  step
+   2:    1  ->  they
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  howled
+   2:    1  ->  stepsisters
+   3:    1  ->  they'd
+     -------
+         3
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  had
+   2:    1  ->  how
+   3:    1  ->  sisters
+     -------
+         3
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

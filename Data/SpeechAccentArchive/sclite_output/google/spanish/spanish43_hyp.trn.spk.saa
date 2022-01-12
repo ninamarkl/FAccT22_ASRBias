@@ -1,0 +1,145 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish43_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   53.6%   (  37)
+
+Percent Correct           =   46.4%   (  32)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =   27.5%   (  19)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   46.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  50)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  a ==> mary
+   2:    1  ->  and ==> in
+   3:    1  ->  at ==> have
+   4:    1  ->  bob ==> but
+   5:    1  ->  can ==> kiss
+   6:    1  ->  frog ==> bit
+   7:    1  ->  her ==> here
+   8:    1  ->  kids ==> ski
+   9:    1  ->  maybe ==> space
+  10:    1  ->  scoop ==> for
+  11:    1  ->  she ==> kiss
+  12:    1  ->  station ==> week
+  13:    1  ->  stella ==> steven
+  14:    1  ->  the ==> a
+  15:    1  ->  these ==> scope
+  16:    1  ->  things ==> distance
+  17:    1  ->  train ==> good
+  18:    1  ->  wednesday ==> reps
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  and
+   2:    1  ->  5
+   3:    1  ->  bags
+   4:    1  ->  big
+   5:    1  ->  blue
+   6:    1  ->  cheese
+   7:    1  ->  go
+   8:    1  ->  her
+   9:    1  ->  meet
+  10:    1  ->  of
+  11:    1  ->  peas
+  12:    1  ->  red
+  13:    1  ->  slabs
+  14:    1  ->  thick
+  15:    1  ->  toy
+  16:    1  ->  we
+  17:    1  ->  will
+  18:    1  ->  with
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  at
+   4:    1  ->  bob
+   5:    1  ->  can
+   6:    1  ->  frog
+   7:    1  ->  her
+   8:    1  ->  kids
+   9:    1  ->  maybe
+  10:    1  ->  scoop
+  11:    1  ->  she
+  12:    1  ->  station
+  13:    1  ->  stella
+  14:    1  ->  the
+  15:    1  ->  these
+  16:    1  ->  things
+  17:    1  ->  train
+  18:    1  ->  wednesday
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  kiss
+   2:    1  ->  a
+   3:    1  ->  bit
+   4:    1  ->  but
+   5:    1  ->  distance
+   6:    1  ->  for
+   7:    1  ->  good
+   8:    1  ->  have
+   9:    1  ->  here
+  10:    1  ->  in
+  11:    1  ->  mary
+  12:    1  ->  reps
+  13:    1  ->  scope
+  14:    1  ->  ski
+  15:    1  ->  space
+  16:    1  ->  steven
+  17:    1  ->  week
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

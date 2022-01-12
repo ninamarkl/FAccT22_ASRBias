@@ -1,0 +1,7 @@
+<SYSTEM title="german\german23_hyp.trn" ref_fname="saa_ref.trn" hyp_fname="german\german23_hyp.trn" creation_date="Fri May 21 11:41:47 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="70" sequence="0">
+S,"please","place":S,"call","called":C,"stella","stella":C,"ask","ask":C,"her","her":C,"to","to":C,"bring","bring":S,"these","the":C,"things","things":D,"with",:S,"her","weather":C,"from","from":C,"the","the":C,"store","store":D,"6",:S,"spoons","experience":C,"of","of":C,"fresh","fresh":C,"snow","snow":C,"peas","peas":D,"5",:S,"thick","56":S,"slabs","clouds":C,"of","of":C,"blue","blue":D,"cheese",:D,"and",:D,"maybe",:S,"a","trays":C,"snack","snack":C,"for","for":D,"her",:C,"brother","brother":S,"bob","bawburgh":C,"we","we":C,"also","also":S,"need","night":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":C,"and","and":C,"a","a":C,"big","big":C,"toy","toy":C,"frog","frog":C,"for","for":C,"the","the":C,"kids","kids":S,"she","you":C,"can","can":S,"scoop","skip":S,"these","the":C,"things","things":I,,"and":S,"into","a":C,"3","3":C,"red","red":C,"bags","bags":C,"and","and":D,"we",:S,"will","we'll":C,"go","go":D,"meet",:S,"her","metre":S,"wednesday","when":S,"at","they":S,"the","of":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

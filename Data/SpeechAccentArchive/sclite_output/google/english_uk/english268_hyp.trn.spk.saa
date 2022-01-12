@@ -1,0 +1,134 @@
+SCORING FOR SPEAKER: saa
+     of english_uk\english268_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   52.2%   (  36)
+
+Percent Correct           =   47.8%   (  33)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =   31.9%   (  22)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   47.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  47)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5 ==> freshener
+   2:    1  ->  ask ==> estella
+   3:    1  ->  bob ==> but
+   4:    1  ->  for ==> of
+   5:    1  ->  frog ==> bit
+   6:    1  ->  her ==> a
+   7:    1  ->  her ==> asked
+   8:    1  ->  her ==> meeting
+   9:    1  ->  her ==> snap40
+  10:    1  ->  meet ==> the
+  11:    1  ->  of ==> after
+  12:    1  ->  peas ==> 6-cylinder
+  13:    1  ->  slabs ==> 56
+  14:    1  ->  thick ==> please
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  and
+   2:    1  ->  3
+   3:    1  ->  6
+   4:    1  ->  a
+   5:    1  ->  bags
+   6:    1  ->  big
+   7:    1  ->  can
+   8:    1  ->  for
+   9:    1  ->  fresh
+  10:    1  ->  go
+  11:    1  ->  of
+  12:    1  ->  red
+  13:    1  ->  scoop
+  14:    1  ->  she
+  15:    1  ->  snack
+  16:    1  ->  snow
+  17:    1  ->  spoons
+  18:    1  ->  stella
+  19:    1  ->  toy
+  20:    1  ->  we
+  21:    1  ->  will
+     -------
+        22
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    4  ->  her
+   2:    1  ->  5
+   3:    1  ->  ask
+   4:    1  ->  bob
+   5:    1  ->  for
+   6:    1  ->  frog
+   7:    1  ->  meet
+   8:    1  ->  of
+   9:    1  ->  peas
+  10:    1  ->  slabs
+  11:    1  ->  thick
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  56
+   2:    1  ->  6-cylinder
+   3:    1  ->  a
+   4:    1  ->  after
+   5:    1  ->  asked
+   6:    1  ->  bit
+   7:    1  ->  but
+   8:    1  ->  estella
+   9:    1  ->  freshener
+  10:    1  ->  meeting
+  11:    1  ->  of
+  12:    1  ->  please
+  13:    1  ->  snap40
+  14:    1  ->  the
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\n-rea1-m6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.3%   (  42)
+
+Percent Correct           =   82.7%   ( 163)
+
+Percent Substitution      =   13.2%   (  26)
+Percent Deletions         =    4.1%   (   8)
+Percent Insertions        =    4.1%   (   8)
+Percent Word Accuracy     =   78.7%
+
+
+Ref. words                =           ( 197)
+Hyp. words                =           ( 197)
+Aligned words             =           ( 205)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  a ==> the
+   2:    1  ->  again ==> talking
+   3:    1  ->  and ==> lillian
+   4:    1  ->  at ==> that
+   5:    1  ->  bride ==> bright
+   6:    1  ->  but ==> put
+   7:    1  ->  cinders ==> yeah
+   8:    1  ->  ha ==> the
+   9:    1  ->  hairbrushes ==> brushes
+  10:    1  ->  hairpins ==> happens
+  11:    1  ->  hat ==> hut
+  12:    1  ->  i'll ==> ladies
+  13:    1  ->  jewels ==> jules
+  14:    1  ->  lily ==> linda
+  15:    1  ->  moo ==> mood
+  16:    1  ->  mother ==> over
+  17:    1  ->  poor ==> four
+  18:    1  ->  poor ==> the
+  19:    1  ->  start ==> cast
+  20:    1  ->  stepsisters ==> sisters
+  21:    1  ->  their ==> the
+  22:    1  ->  their ==> them
+  23:    1  ->  they ==> he
+  24:    1  ->  were ==> we're
+  25:    1  ->  were ==> will
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  all
+   2:    1  ->  course
+   3:    1  ->  her
+   4:    1  ->  i
+   5:    1  ->  in
+   6:    1  ->  not
+   7:    1  ->  of
+   8:    1  ->  step
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  they
+   2:    1  ->  a
+   3:    1  ->  ha
+   4:    1  ->  lad
+   5:    1  ->  lily
+   6:    1  ->  me
+   7:    1  ->  that
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  a
+   2:    2  ->  poor
+   3:    2  ->  their
+   4:    2  ->  were
+   5:    1  ->  again
+   6:    1  ->  and
+   7:    1  ->  at
+   8:    1  ->  bride
+   9:    1  ->  but
+  10:    1  ->  cinders
+  11:    1  ->  ha
+  12:    1  ->  hairbrushes
+  13:    1  ->  hairpins
+  14:    1  ->  hat
+  15:    1  ->  i'll
+  16:    1  ->  jewels
+  17:    1  ->  lily
+  18:    1  ->  moo
+  19:    1  ->  mother
+  20:    1  ->  start
+  21:    1  ->  stepsisters
+  22:    1  ->  they
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    5  ->  the
+   2:    1  ->  bright
+   3:    1  ->  brushes
+   4:    1  ->  cast
+   5:    1  ->  four
+   6:    1  ->  happens
+   7:    1  ->  he
+   8:    1  ->  hut
+   9:    1  ->  jules
+  10:    1  ->  ladies
+  11:    1  ->  lillian
+  12:    1  ->  linda
+  13:    1  ->  mood
+  14:    1  ->  over
+  15:    1  ->  put
+  16:    1  ->  sisters
+  17:    1  ->  talking
+  18:    1  ->  that
+  19:    1  ->  them
+  20:    1  ->  we're
+  21:    1  ->  will
+  22:    1  ->  yeah
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

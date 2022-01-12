@@ -1,0 +1,194 @@
+SCORING FOR SPEAKER: liv
+     of google\liv-rea1-f7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   53.3%   (  96)
+
+Percent Correct           =   47.2%   (  85)
+
+Percent Substitution      =   13.9%   (  25)
+Percent Deletions         =   38.9%   (  70)
+Percent Insertions        =    0.6%   (   1)
+Percent Word Accuracy     =   46.7%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 111)
+Aligned words             =           ( 181)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  a ==> i
+   2:    1  ->  cinders ==> boulevard
+   3:    1  ->  cinders ==> i
+   4:    1  ->  cinders ==> since
+   5:    1  ->  cinders ==> to
+   6:    1  ->  downs ==> x
+   7:    1  ->  dreamed ==> dream
+   8:    1  ->  evening ==> think
+   9:    1  ->  had ==> have
+  10:    1  ->  hand ==> lol
+  11:    1  ->  lived ==> slept
+  12:    1  ->  me ==> x
+  13:    1  ->  old ==> day
+  14:    1  ->  one ==> xeon
+  15:    1  ->  poor ==> forced
+  16:    1  ->  royal ==> will
+  17:    1  ->  the ==> answer
+  18:    1  ->  the ==> you
+  19:    1  ->  their ==> the
+  20:    1  ->  very ==> rosie
+  21:    1  ->  was ==> he's
+  22:    1  ->  was ==> william's
+  23:    1  ->  wear ==> wait
+  24:    1  ->  would ==> will
+  25:    1  ->  yelled ==> dual
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  eastenders
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    5  ->  they
+   2:    3  ->  and
+   3:    3  ->  rosa
+   4:    3  ->  were
+   5:    2  ->  a
+   6:    2  ->  ball
+   7:    2  ->  gowns
+   8:    2  ->  had
+   9:    2  ->  lily
+  10:    2  ->  their
+  11:    2  ->  to
+  12:    2  ->  wanted
+  13:    1  ->  announce
+  14:    1  ->  arrived
+  15:    1  ->  at
+  16:    1  ->  bad
+  17:    1  ->  but
+  18:    1  ->  buy
+  19:    1  ->  cinders
+  20:    1  ->  divine
+  21:    1  ->  enough
+  22:    1  ->  get
+  23:    1  ->  girls
+  24:    1  ->  hairbrushes
+  25:    1  ->  hairpins
+  26:    1  ->  hairspray
+  27:    1  ->  he
+  28:    1  ->  help
+  29:    1  ->  her
+  30:    1  ->  howled
+  31:    1  ->  in
+  32:    1  ->  jewels
+  33:    1  ->  lazy
+  34:    1  ->  mood
+  35:    1  ->  mother
+  36:    1  ->  new
+  37:    1  ->  other
+  38:    1  ->  ready
+  39:    1  ->  said
+  40:    1  ->  shouting
+  41:    1  ->  sisters
+  42:    1  ->  so
+  43:    1  ->  some
+  44:    1  ->  started
+  45:    1  ->  that
+  46:    1  ->  the
+  47:    1  ->  they'd
+  48:    1  ->  this
+  49:    1  ->  thought
+  50:    1  ->  was
+  51:    1  ->  william
+  52:    1  ->  yelled
+     -------
+        70
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  cinders
+   2:    2  ->  the
+   3:    2  ->  was
+   4:    1  ->  a
+   5:    1  ->  downs
+   6:    1  ->  dreamed
+   7:    1  ->  evening
+   8:    1  ->  had
+   9:    1  ->  hand
+  10:    1  ->  lived
+  11:    1  ->  me
+  12:    1  ->  old
+  13:    1  ->  one
+  14:    1  ->  poor
+  15:    1  ->  royal
+  16:    1  ->  their
+  17:    1  ->  very
+  18:    1  ->  wear
+  19:    1  ->  would
+  20:    1  ->  yelled
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  i
+   2:    2  ->  will
+   3:    2  ->  x
+   4:    1  ->  answer
+   5:    1  ->  boulevard
+   6:    1  ->  day
+   7:    1  ->  dream
+   8:    1  ->  dual
+   9:    1  ->  forced
+  10:    1  ->  have
+  11:    1  ->  he's
+  12:    1  ->  lol
+  13:    1  ->  rosie
+  14:    1  ->  since
+  15:    1  ->  slept
+  16:    1  ->  the
+  17:    1  ->  think
+  18:    1  ->  to
+  19:    1  ->  wait
+  20:    1  ->  william's
+  21:    1  ->  xeon
+  22:    1  ->  you
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

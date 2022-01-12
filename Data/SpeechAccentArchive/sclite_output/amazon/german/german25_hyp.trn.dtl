@@ -1,0 +1,107 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\german\german25_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  ask ==> sela
+   3:    1  ->  five ==> peace
+   4:    1  ->  her ==> oscar
+   5:    1  ->  peas ==> no
+   6:    1  ->  please ==> police
+   7:    1  ->  scoop ==> screw
+   8:    1  ->  slabs ==> laps
+   9:    1  ->  thick ==> fifty-six
+  10:    1  ->  train ==> union
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  we
+   2:    1  ->  will
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  snow
+   2:    1  ->  stella
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and
+   2:    1  ->  ask
+   3:    1  ->  five
+   4:    1  ->  her
+   5:    1  ->  peas
+   6:    1  ->  please
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  thick
+  10:    1  ->  train
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  fifty-six
+   2:    1  ->  in
+   3:    1  ->  laps
+   4:    1  ->  no
+   5:    1  ->  oscar
+   6:    1  ->  peace
+   7:    1  ->  police
+   8:    1  ->  screw
+   9:    1  ->  sela
+  10:    1  ->  union
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

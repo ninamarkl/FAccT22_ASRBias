@@ -1,0 +1,91 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish67_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.7%   (   6)
+
+Percent Correct           =   91.3%   (  63)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   91.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  ask ==> acts
+   2:    1  ->  cheese ==> she's
+   3:    1  ->  of ==> off
+   4:    1  ->  slabs ==> slobs
+   5:    1  ->  the ==> this
+   6:    1  ->  thick ==> fix
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  ask
+   2:    1  ->  cheese
+   3:    1  ->  of
+   4:    1  ->  slabs
+   5:    1  ->  the
+   6:    1  ->  thick
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  acts
+   2:    1  ->  fix
+   3:    1  ->  off
+   4:    1  ->  she's
+   5:    1  ->  slobs
+   6:    1  ->  this
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,112 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese45_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  fresh ==> afresh
+   3:    1  ->  frog ==> far
+   4:    1  ->  her ==> here
+   5:    1  ->  of ==> points
+   6:    1  ->  peas ==> piece
+   7:    1  ->  red ==> wet
+   8:    1  ->  slabs ==> lives
+   9:    1  ->  snack ==> night
+  10:    1  ->  snow ==> nall
+  11:    1  ->  stella ==> costello
+  12:    1  ->  thick ==> takes
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  call
+   2:    1  ->  spoons
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  fresh
+   3:    1  ->  frog
+   4:    1  ->  her
+   5:    1  ->  of
+   6:    1  ->  peas
+   7:    1  ->  red
+   8:    1  ->  slabs
+   9:    1  ->  snack
+  10:    1  ->  snow
+  11:    1  ->  stella
+  12:    1  ->  thick
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  afresh
+   2:    1  ->  costello
+   3:    1  ->  far
+   4:    1  ->  here
+   5:    1  ->  it's
+   6:    1  ->  lives
+   7:    1  ->  nall
+   8:    1  ->  night
+   9:    1  ->  piece
+  10:    1  ->  points
+  11:    1  ->  takes
+  12:    1  ->  wet
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

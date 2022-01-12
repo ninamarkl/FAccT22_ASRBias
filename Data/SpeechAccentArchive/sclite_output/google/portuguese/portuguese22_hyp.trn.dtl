@@ -1,0 +1,133 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: portuguese\portuguese22_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   69.6%   (  48)
+
+Percent Correct           =   30.4%   (  21)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =   55.1%   (  38)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   30.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  31)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  big ==> snack
+   2:    1  ->  can ==> keys
+   3:    1  ->  frog ==> france
+   4:    1  ->  of ==> from
+   5:    1  ->  peas ==> sophie's
+   6:    1  ->  scoop ==> school
+   7:    1  ->  slabs ==> people
+   8:    1  ->  snack ==> shears
+   9:    1  ->  spoons ==> pounds
+  10:    1  ->  toy ==> in
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    4  ->  her
+   2:    3  ->  a
+   3:    3  ->  and
+   4:    2  ->  we
+   5:    1  ->  also
+   6:    1  ->  ask
+   7:    1  ->  at
+   8:    1  ->  bob
+   9:    1  ->  bring
+  10:    1  ->  brother
+  11:    1  ->  cheese
+  12:    1  ->  go
+  13:    1  ->  kids
+  14:    1  ->  maybe
+  15:    1  ->  meet
+  16:    1  ->  need
+  17:    1  ->  plastic
+  18:    1  ->  she
+  19:    1  ->  small
+  20:    1  ->  snake
+  21:    1  ->  snow
+  22:    1  ->  the
+  23:    1  ->  these
+  24:    1  ->  thick
+  25:    1  ->  things
+  26:    1  ->  to
+  27:    1  ->  train
+  28:    1  ->  wednesday
+  29:    1  ->  will
+  30:    1  ->  with
+     -------
+        38
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  big
+   2:    1  ->  can
+   3:    1  ->  frog
+   4:    1  ->  of
+   5:    1  ->  peas
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  spoons
+  10:    1  ->  toy
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  france
+   2:    1  ->  from
+   3:    1  ->  in
+   4:    1  ->  keys
+   5:    1  ->  people
+   6:    1  ->  pounds
+   7:    1  ->  school
+   8:    1  ->  shears
+   9:    1  ->  snack
+  10:    1  ->  sophie's
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

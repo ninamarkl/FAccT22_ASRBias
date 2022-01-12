@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\b-rea1-m6_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-m6_01)
+Scores: (#C #S #D #I) 136 30 18 3
+REF:  once upon a time there was A GO a girl called cinderella but everyone called her CINDERS CINDERS lived with her mother and two stepsisters called lily and rosa LILY AND rosa WERE very unfriendly and they were LAZY GIRLS     they spent all their time buying new clothes AND going to parties POOR CINDERS     had TO  WEAR  all their old HAND ME DOWNS and she had to do ALL the cleaning ONE DAY A      royal messenger came to announce A   ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY and rosa thought this was *** DIVINE prince william was gorgeous and he was looking for a BRIDE they DREAMED OF  wedding bells when the evening of the BALL   ARRIVED CINDERS had to HELP HER SISTERS get ready they were in a bad mood they'd wanted to buy some new GOWNS but their mother said that they hadn't they had enough GOWNS so they started SHOUTING at CINDERS FIND my JEWELS YELLED ONE   find my HAT   HOWLED the other THEY wanted *** ******* 
+HYP:  once upon a time there was * ** a girl called cinderella but everyone called her SANDERS SANDERS lived with her mother and two stepsisters called lily and rosa **** *** rosa **** very unfriendly and they were **** LAZYGIRLS they spent all their time buying new clothes I'M going to parties **** PERCENTAGES had TEA WE'RE all their old **** ** DANCE and she had to do *** the cleaning *** *** MONDAY royal messenger came to announce THE ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** and rosa thought this was THE MAIN   prince william was gorgeous and he was looking for a BRAID they DREAM   DAY wedding bells when the evening of the BALLER AID     CENTRES had to **** *** ******* get ready they were in a bad mood they'd wanted to buy some new GAMES but their mother said that they hadn't they had enough ***** so they started SHOOTING at SANDERS LANE my ****** JULES  ALBUM find my HEART HER    the other DAY  wanted HER BRUSHES 
+Eval:                            D D                                                   S       S                                                                      D    D        D                                  D    S                                                      S                    D    S               S   S                   D    D  S                       D                D   D   S                                       S                 S                                                                                  D                              I   S                                                           S          S       S                                         S      S       S              D    D   D                                                                       S                                                            D                     S           S       S       D      S      S             S     S                S           I   I       
+
+>> REF:  HAIRBRUSHES HAIRPINS and HAIRSPRAY 
+>> HYP:  HER         PENS     and HURT      
+>> Eval: S           S            S         
+
+

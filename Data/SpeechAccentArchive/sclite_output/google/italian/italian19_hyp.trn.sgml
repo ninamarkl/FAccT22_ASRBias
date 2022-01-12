@@ -1,0 +1,7 @@
+<SYSTEM title="italian\italian19_hyp.trn" ref_fname="saa_ref.trn" hyp_fname="italian\italian19_hyp.trn" creation_date="Fri May 21 11:51:43 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="69" sequence="0">
+C,"please","please":C,"call","call":D,"stella",:S,"ask","sama":S,"her","oscar":C,"to","to":C,"bring","bring":S,"these","this":S,"things","thing":C,"with","with":S,"her","our":C,"from","from":C,"the","the":D,"store",:D,"6",:S,"spoons","sort":C,"of","of":D,"fresh",:D,"snow",:D,"peas",:D,"5",:S,"thick","freshener":S,"slabs","bs56":S,"of","loves":C,"blue","blue":C,"cheese","cheese":C,"and","and":C,"maybe","maybe":D,"a",:D,"snack",:D,"for",:C,"her","her":C,"brother","brother":S,"bob","but":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":C,"and","and":C,"a","a":C,"big","big":C,"toy","toy":C,"frog","frog":C,"for","for":C,"the","the":C,"kids","kids":C,"she","she":C,"can","can":S,"scoop","cook":C,"these","these":C,"things","things":S,"into","in":S,"3","surrey":C,"red","red":C,"bags","bags":C,"and","and":C,"we","we":C,"will","will":C,"go","go":C,"meet","meet":C,"her","her":C,"wednesday","wednesday":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

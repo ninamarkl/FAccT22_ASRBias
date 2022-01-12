@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: portuguese\portuguese39_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5 ==> by
+   2:    1  ->  a ==> media's
+   3:    1  ->  and ==> in
+   4:    1  ->  her ==> metre
+   5:    1  ->  scoop ==> cook
+   6:    1  ->  snack ==> night
+   7:    1  ->  snake ==> place
+   8:    1  ->  spoons ==> pounds
+   9:    1  ->  thick ==> 6
+  10:    1  ->  to ==> escritor
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  ask
+   2:    1  ->  her
+   3:    1  ->  maybe
+   4:    1  ->  meet
+   5:    1  ->  plastic
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  her
+   5:    1  ->  scoop
+   6:    1  ->  snack
+   7:    1  ->  snake
+   8:    1  ->  spoons
+   9:    1  ->  thick
+  10:    1  ->  to
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  6
+   2:    1  ->  by
+   3:    1  ->  cook
+   4:    1  ->  escritor
+   5:    1  ->  in
+   6:    1  ->  media's
+   7:    1  ->  metre
+   8:    1  ->  night
+   9:    1  ->  place
+  10:    1  ->  pounds
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

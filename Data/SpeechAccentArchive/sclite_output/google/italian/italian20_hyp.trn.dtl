@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: italian\italian20_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  bob ==> bra
+   2:    1  ->  brother ==> a
+   3:    1  ->  into ==> to
+   4:    1  ->  of ==> laptop
+   5:    1  ->  scoop ==> ask
+   6:    1  ->  slabs ==> 56
+   7:    1  ->  spoons ==> spoon
+   8:    1  ->  these ==> the
+   9:    1  ->  these ==> this
+  10:    1  ->  will ==> we'll
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  seem
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  frog
+   3:    1  ->  her
+   4:    1  ->  thick
+   5:    1  ->  we
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  these
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  into
+   5:    1  ->  of
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  spoons
+   9:    1  ->  will
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  56
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  bra
+   5:    1  ->  laptop
+   6:    1  ->  spoon
+   7:    1  ->  the
+   8:    1  ->  this
+   9:    1  ->  to
+  10:    1  ->  we'll
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

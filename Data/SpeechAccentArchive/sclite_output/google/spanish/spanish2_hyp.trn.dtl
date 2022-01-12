@@ -1,0 +1,122 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  3 ==> three
+   2:    1  ->  5 ==> bs5
+   3:    1  ->  bags ==> backs
+   4:    1  ->  big ==> bit
+   5:    1  ->  bob ==> but
+   6:    1  ->  fresh ==> sixbones
+   7:    1  ->  frog ==> frogs
+   8:    1  ->  her ==> hair
+   9:    1  ->  peas ==> no
+  10:    1  ->  red ==> right
+  11:    1  ->  scoop ==> scanscope
+  12:    1  ->  snow ==> operations
+  13:    1  ->  these ==> this
+  14:    1  ->  thick ==> 5th
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  from
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  6
+   2:    1  ->  can
+   3:    1  ->  of
+   4:    1  ->  she
+   5:    1  ->  spoons
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  3
+   2:    1  ->  5
+   3:    1  ->  bags
+   4:    1  ->  big
+   5:    1  ->  bob
+   6:    1  ->  fresh
+   7:    1  ->  frog
+   8:    1  ->  her
+   9:    1  ->  peas
+  10:    1  ->  red
+  11:    1  ->  scoop
+  12:    1  ->  snow
+  13:    1  ->  these
+  14:    1  ->  thick
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5th
+   2:    1  ->  backs
+   3:    1  ->  bit
+   4:    1  ->  bs5
+   5:    1  ->  but
+   6:    1  ->  frogs
+   7:    1  ->  hair
+   8:    1  ->  no
+   9:    1  ->  operations
+  10:    1  ->  right
+  11:    1  ->  scanscope
+  12:    1  ->  sixbones
+  13:    1  ->  this
+  14:    1  ->  three
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

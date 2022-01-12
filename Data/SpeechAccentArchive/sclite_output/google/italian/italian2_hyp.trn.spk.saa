@@ -1,0 +1,141 @@
+SCORING FOR SPEAKER: saa
+     of italian\italian2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  5 ==> piece
+   2:    1  ->  6 ==> sixth
+   3:    1  ->  a ==> plastics
+   4:    1  ->  also ==> music
+   5:    1  ->  can ==> group
+   6:    1  ->  fresh ==> france
+   7:    1  ->  need ==> household
+   8:    1  ->  plastic ==> the
+   9:    1  ->  scoop ==> to
+  10:    1  ->  she ==> keys
+  11:    1  ->  slabs ==> lot
+  12:    1  ->  small ==> now
+  13:    1  ->  snake ==> snack
+  14:    1  ->  spoons ==> forms
+  15:    1  ->  store ==> story
+  16:    1  ->  these ==> user
+  17:    1  ->  thick ==> 556
+  18:    1  ->  we ==> some
+  19:    1  ->  wednesday ==> day
+  20:    1  ->  with ==> when
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  dole
+   2:    1  ->  na
+   3:    1  ->  this
+   4:    1  ->  weeds
+   5:    1  ->  with
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  kids
+   2:    1  ->  peas
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  also
+   5:    1  ->  can
+   6:    1  ->  fresh
+   7:    1  ->  need
+   8:    1  ->  plastic
+   9:    1  ->  scoop
+  10:    1  ->  she
+  11:    1  ->  slabs
+  12:    1  ->  small
+  13:    1  ->  snake
+  14:    1  ->  spoons
+  15:    1  ->  store
+  16:    1  ->  these
+  17:    1  ->  thick
+  18:    1  ->  we
+  19:    1  ->  wednesday
+  20:    1  ->  with
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  556
+   2:    1  ->  day
+   3:    1  ->  forms
+   4:    1  ->  france
+   5:    1  ->  group
+   6:    1  ->  household
+   7:    1  ->  keys
+   8:    1  ->  lot
+   9:    1  ->  music
+  10:    1  ->  now
+  11:    1  ->  piece
+  12:    1  ->  plastics
+  13:    1  ->  sixth
+  14:    1  ->  snack
+  15:    1  ->  some
+  16:    1  ->  story
+  17:    1  ->  the
+  18:    1  ->  to
+  19:    1  ->  user
+  20:    1  ->  when
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

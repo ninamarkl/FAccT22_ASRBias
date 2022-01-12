@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   urdu\urdu10_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 43 10 16 1
+REF:  please call STELLA ASK HER   to bring these things with her from the store 6 SPOONS OF  fresh snow peas 5 THICK SLABS OF    blue cheese and maybe a snack FOR her brother bob we also need a small plastic SNAKE AND A BIG TOY FROG for the kids SHE CAN SCOOP these things into 3 RED   bags and we WILL go ***** MEET HER WEDNESDAY at the train station 
+HYP:  please call ****** *** STEPH to bring these things with her from the store * ****** 600 fresh snow peas * ***** 56    LEVEL blue cheese and maybe a snack OF  her brother bob we also need a small plastic ***** *** * *** *** **** for the kids *** *** ***** these things into * CLEAR bags and we CAN  go METRE WHEN I   STAY      at the train station 
+Eval:             D      D   S                                                   D D      S                   D D     S     S                                   S                                                D     D   D D   D   D                 D   D   D                       D S                 S       I     S    S   S                              
+
+

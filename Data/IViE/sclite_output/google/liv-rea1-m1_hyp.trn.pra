@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\liv-rea1-m1_hyp.trn
+
+Speakers: 
+    0:  liv
+
+Speaker sentences   0:  liv   #utts: 1
+id: (liv-rea1-m1_01)
+Scores: (#C #S #D #I) 139 56 19 16
+REF:  once upon a time there was a girl called ** *** CINDERELLA but everyone called her cinders cinders **** ******* LIVES with **** HER   lived with HER money CINDERS LIVED with HER   mother and two **** STEPSISTERS called LILY AND    rosa LILY AND ROSA    WERE VERY    UNFRIENDLY and they were LAZY GIRLS     they spent all THEIR time buying new clothes and going to parties POOR    CINDERS had to ** WEAR  all THEIR OLD HAND ME DOWNS AND SHE           had nothing to do the cleaning POOT    CINDERS had to wear all THER  hand hand me downs and she had to do all the cleaning one day * A    ROYAL   MESSENGER CAME  to ANNOUNCE A      BALL the BALL WOULD be held at the royal place in honour of the queen's only son prince william LILY    AND  ROSA thought **** this was divine PRINCE WILLIAM WAS gorgeous and HE WAS   looking for A   BRIDE they DREAMED of wedding bells when the evening of the ball arrived CINDERS HAD  to help her SISTERS  get ready they were in A   bad mood THEY'D wanted to 
+HYP:  once upon a time there was a girl called TO THE LEATHER    but everyone called her cinders cinders LIVE WITHOUT LIVE  with THEM SINCE lived with THE money SINCE   LIVE  with THEIR mother and two STEP SISTER      called **** LILIAN rosa **** *** LILLIAN ROSE OVARIAN FAMILY     and they were **** LAZYGIRLS they spent all THE   time buying new clothes and going to parties POSTING THIS    had to BE THERE all ***** *** **** ** ***** *** HAND-ME-DOWNS had nothing to do the cleaning POSTING THIS    had to wear all THEIR hand hand me downs and she had to do all the cleaning one day I WILL MESSAGE YOU       AGAIN to ******** CANCEL THAT the **** BOWL  be held at the royal place in honour of the queen's only son prince william LILLIAN ROSE I    thought THAT this was divine ****** ******* *** gorgeous and ** LEAVE looking for THE PRICE they CHANGE  of wedding bells when the evening of the ball arrived SINCE   HAVE to help her SISTER'S get ready they were in THE bad mood THEY   wanted to 
+Eval:                                          I  I   S                                                  I    I       S          I    S                S         S       S          S                    I    S                  D    S           D    D   S       S    S       S                        D    S                        S                                                  S       S              I  S         D     D   D    D  D     D   S                                            S       S                       S                                                                   I S    S       S         S        D        S      S        D    S                                                                                 S       S    S            I                    D      D       D                D  S                 S   S          S                                                             S       S                S                               S            S                
+
+>> REF:  buy some new grounds but **** THEIR MOTHER said that they HAD  enough GOWNS SO THEY started shouting at CINDERS find my JEWELS YELLED ONE        find my HAT   HOWLED the other they wanted ** **** ******* ******* HAIRBRUSHES HAIRPINS and HAIR  HAIRSPRAY they wanted **** ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  buy some new grounds but THEN WILL  THEY   said that they HAVE enough ***** ** GUNS started shouting at SENDER  find my ****** JUICE  GIRLFRIEND find my HEART HOW    the other they wanted TO HEAR BRUSHES HEAVENS AND         HATE     and TASTE PLEASE    they wanted HAIR BRUSHES HAIR        PINS     and hairspray 
+>> Eval:                          I    S     S                     S           D     D  S                        S               D      S      S                  S     S                            I  I    I       I       S           S            S     S                     I    I       S           S                      
+
+

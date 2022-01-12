@@ -1,0 +1,102 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese38_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5 ==> no
+   2:    1  ->  bob ==> but
+   3:    1  ->  meet ==> with
+   4:    1  ->  of ==> with
+   5:    1  ->  spoons ==> pounds
+   6:    1  ->  these ==> best
+   7:    1  ->  thick ==> bs56
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  gomita
+   3:    1  ->  the
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  go
+   2:    1  ->  peas
+   3:    1  ->  snow
+   4:    1  ->  we
+   5:    1  ->  will
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5
+   2:    1  ->  bob
+   3:    1  ->  meet
+   4:    1  ->  of
+   5:    1  ->  spoons
+   6:    1  ->  these
+   7:    1  ->  thick
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  with
+   2:    1  ->  best
+   3:    1  ->  bs56
+   4:    1  ->  but
+   5:    1  ->  no
+   6:    1  ->  pounds
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

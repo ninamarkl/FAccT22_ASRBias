@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\portuguese\portuguese30_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  bob ==> board
+   3:    1  ->  call ==> cause
+   4:    1  ->  five ==> peace
+   5:    1  ->  frog ==> truck
+   6:    1  ->  of ==> off
+   7:    1  ->  peas ==> no
+   8:    1  ->  plastic ==> could
+   9:    1  ->  scoop ==> school
+  10:    1  ->  slabs ==> leads
+  11:    1  ->  snack ==> like
+  12:    1  ->  snake ==> make
+  13:    1  ->  stella ==> they'll
+  14:    1  ->  thick ==> fifty-six
+  15:    1  ->  will ==> they
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  place
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  of
+   3:    1  ->  snow
+   4:    1  ->  spoons
+   5:    1  ->  toy
+   6:    1  ->  we
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  and
+   2:    1  ->  bob
+   3:    1  ->  call
+   4:    1  ->  five
+   5:    1  ->  frog
+   6:    1  ->  of
+   7:    1  ->  peas
+   8:    1  ->  plastic
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  snack
+  12:    1  ->  snake
+  13:    1  ->  stella
+  14:    1  ->  thick
+  15:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  board
+   2:    1  ->  cause
+   3:    1  ->  could
+   4:    1  ->  fifty-six
+   5:    1  ->  in
+   6:    1  ->  leads
+   7:    1  ->  like
+   8:    1  ->  make
+   9:    1  ->  no
+  10:    1  ->  off
+  11:    1  ->  peace
+  12:    1  ->  school
+  13:    1  ->  they
+  14:    1  ->  they'll
+  15:    1  ->  truck
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

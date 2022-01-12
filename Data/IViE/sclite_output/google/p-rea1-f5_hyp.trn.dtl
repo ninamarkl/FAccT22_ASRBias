@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\p-rea1-f5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  61)
+
+Percent Correct           =   68.3%   ( 125)
+
+Percent Substitution      =   19.1%   (  35)
+Percent Deletions         =   12.6%   (  23)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           ( 183)
+Hyp. words                =           ( 163)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  gowns ==> guns
+   2:    1  ->  a ==> and
+   3:    1  ->  and ==> are
+   4:    1  ->  ball ==> above
+   5:    1  ->  ball ==> world
+   6:    1  ->  cinders ==> centres
+   7:    1  ->  cinders ==> does
+   8:    1  ->  downs ==> hand-me-downs
+   9:    1  ->  dreamed ==> dream
+  10:    1  ->  girls ==> their
+  11:    1  ->  hairbrushes ==> hair
+  12:    1  ->  hairpins ==> pins
+  13:    1  ->  hand ==> alder
+  14:    1  ->  her ==> the
+  15:    1  ->  her ==> their
+  16:    1  ->  howled ==> how
+  17:    1  ->  jewels ==> fight
+  18:    1  ->  lived ==> live
+  19:    1  ->  me ==> road
+  20:    1  ->  mother ==> they
+  21:    1  ->  of ==> day
+  22:    1  ->  one ==> yardman
+  23:    1  ->  poor ==> person
+  24:    1  ->  royal ==> around
+  25:    1  ->  sisters ==> sister's
+  26:    1  ->  spent ==> turn
+  27:    1  ->  their ==> the
+  28:    1  ->  their ==> will
+  29:    1  ->  they ==> lazygirls
+  30:    1  ->  they ==> the
+  31:    1  ->  they'd ==> they
+  32:    1  ->  was ==> does
+  33:    1  ->  was ==> you
+  34:    1  ->  yelled ==> scheduled
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+   3:    1  ->  then
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  and
+   2:    2  ->  lily
+   3:    1  ->  a
+   4:    1  ->  all
+   5:    1  ->  announce
+   6:    1  ->  ball
+   7:    1  ->  be
+   8:    1  ->  called
+   9:    1  ->  find
+  10:    1  ->  he
+  11:    1  ->  honour
+  12:    1  ->  lazy
+  13:    1  ->  my
+  14:    1  ->  of
+  15:    1  ->  old
+  16:    1  ->  that
+  17:    1  ->  their
+  18:    1  ->  there
+  19:    1  ->  they
+  20:    1  ->  were
+  21:    1  ->  will
+     -------
+        23
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  ball
+   2:    2  ->  cinders
+   3:    2  ->  gowns
+   4:    2  ->  her
+   5:    2  ->  their
+   6:    2  ->  they
+   7:    2  ->  was
+   8:    1  ->  a
+   9:    1  ->  and
+  10:    1  ->  downs
+  11:    1  ->  dreamed
+  12:    1  ->  girls
+  13:    1  ->  hairbrushes
+  14:    1  ->  hairpins
+  15:    1  ->  hand
+  16:    1  ->  howled
+  17:    1  ->  jewels
+  18:    1  ->  lived
+  19:    1  ->  me
+  20:    1  ->  mother
+  21:    1  ->  of
+  22:    1  ->  one
+  23:    1  ->  poor
+  24:    1  ->  royal
+  25:    1  ->  sisters
+  26:    1  ->  spent
+  27:    1  ->  they'd
+  28:    1  ->  yelled
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  the
+   2:    2  ->  does
+   3:    2  ->  guns
+   4:    2  ->  their
+   5:    2  ->  they
+   6:    1  ->  above
+   7:    1  ->  alder
+   8:    1  ->  and
+   9:    1  ->  are
+  10:    1  ->  around
+  11:    1  ->  centres
+  12:    1  ->  day
+  13:    1  ->  dream
+  14:    1  ->  fight
+  15:    1  ->  hair
+  16:    1  ->  hand-me-downs
+  17:    1  ->  how
+  18:    1  ->  lazygirls
+  19:    1  ->  live
+  20:    1  ->  person
+  21:    1  ->  pins
+  22:    1  ->  road
+  23:    1  ->  scheduled
+  24:    1  ->  sister's
+  25:    1  ->  turn
+  26:    1  ->  will
+  27:    1  ->  world
+  28:    1  ->  yardman
+  29:    1  ->  you
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

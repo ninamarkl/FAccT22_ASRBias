@@ -1,0 +1,108 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\thai\thai5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bags ==> backs
+   2:    1  ->  blue ==> blow
+   3:    1  ->  cheese ==> she's
+   4:    1  ->  frog ==> flock
+   5:    1  ->  scoop ==> school
+   6:    1  ->  slabs ==> laps
+   7:    1  ->  these ==> face
+   8:    1  ->  these ==> fleas
+   9:    1  ->  thick ==> fifty-six
+  10:    1  ->  wednesday ==> stay
+  11:    1  ->  will ==> were
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  when
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  five
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  these
+   2:    1  ->  bags
+   3:    1  ->  blue
+   4:    1  ->  cheese
+   5:    1  ->  frog
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  thick
+   9:    1  ->  wednesday
+  10:    1  ->  will
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  backs
+   2:    1  ->  blow
+   3:    1  ->  face
+   4:    1  ->  fifty-six
+   5:    1  ->  fleas
+   6:    1  ->  flock
+   7:    1  ->  laps
+   8:    1  ->  school
+   9:    1  ->  she's
+  10:    1  ->  stay
+  11:    1  ->  were
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

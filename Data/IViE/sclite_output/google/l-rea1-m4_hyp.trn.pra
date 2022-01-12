@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\l-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  l-r
+
+Speaker sentences   0:  l-r   #utts: 1
+id: (l-rea1-m4_01)
+Scores: (#C #S #D #I) 136 35 8 2
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders CINDERS    LIVED with her mother and two stepsisters called lily and ROSA lily and ROSA  were very UNFRIENDLY and they were LAZY GIRLS     they spent all THEIR TIME buying new clothes and going to parties POOR    CINDERS HAD  to wear all THEIR old HAND ME DOWNS  and she had to do the cleaning one day A royal messenger came to ANNOUNCE A      BALL the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND     rosa thought this was divine prince william was gorgeous and HE  was looking for a bride they dreamed of wedding bells when the evening of the BALL   ARRIVED CINDERS HAD  to help her SISTERS  get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but THEIR mother said that they had enough GOWNS so they started shouting AT cinders find MY JEWELS YELLED one FIND MY HAT        HOWLED the other they wanted **** ******* HAIRBRUSHES HAIRPINS 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders CINDERELLA SLEEP with her mother and two stepsisters called lily and ROSE lily and ROSIE were very FRIENDLY   and they were **** LAZYGIRLS they spent all THAT  I'M  buying new clothes and going to parties POSTING JUST    HAVE to wear all THAT  old AND  WE DANCED and she had to do the cleaning one day * royal messenger came to AN       ANSWER BUT  the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** WILLIAM rosa thought this was divine prince william was gorgeous and YOU was looking for a bride they dreamed of wedding bells when the evening of the BALLER WRITE   SINS    HAVE to help her SISTER'S get ready they were in a bad mood THEY   wanted to buy some new GIRLS but THE   mother said that they had enough ***** so they started shouting ** cinders find ** THE    OTHER  one **** ** FINDMYPAST HELP   the other they wanted HAIR BRUSHES HAIR        PINS     
+Eval:                                                                                     S          S                                                         S             S               S                        D    S                        S     S                                            S       S       S                S         S    S  S                                             D                         S        S      S             S                                                                                  D    S                                                                    S                                                                                 S      S       S       S                S                                          S                             S         S                                      D                              D               D  S      S          D    D  S          S                            I    I       S           S        
+
+>> REF:  and hairspray 
+>> HYP:  and hairspray 
+>> Eval:               
+
+

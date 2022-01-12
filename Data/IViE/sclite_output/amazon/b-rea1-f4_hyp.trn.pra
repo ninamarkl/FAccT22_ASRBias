@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\b-rea1-f4_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-f4_01)
+Scores: (#C #S #D #I) 156 22 2 7
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with her mother and two **** STEPSISTERS called lily and rosa LILY AND     rosa were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties POOR CINDERS    had to WEAR all their old hand me downs and she had to do all the cleaning one day a royal messenger came TO  ANNOUNCE A  BALL the ball would be held at the royal palace in honour of the queen's only son prince william LILY  and rosa thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CINDERS HAD to help HER sisters ** get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but their mother said that they had enough GOWNS so they started ** ***** SHOUTING AT CINDERS  find my jewels yelled one find my hat HOWLED the other they wanted *** ******* HAIRBRUSHES HAIRPINS 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders lived with her mother and two STEP SISTERS     called lily and rosa **** LILLIAN rosa were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties **** PERCENTERS had to ARE  all their old hand me downs and she had to do all the cleaning one day a royal messenger came TWO NIGHTS   OF ALL  the ball would be held at the royal palace in honour of the queen's only son prince william KELLY and rosa thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CENTRES HOW to help THE sisters TO get ready they were in a bad mood THEY   wanted to buy some new GUNS  but their mother said that they had enough GUNS  so they started TO TRADE IN       A  SENDER'S find my jewels yelled one find my hat HOLD   the other they wanted HER BRUSHES HER         PINS     
+Eval:                                                                                                                           I    S                                D    S                                                                                                                            D    S                 S                                                                                                  S   S        S  S                                                                                                S                                                                                                                                                                    S       S           S           I                                    S                             S                                                S                     I  I     S        S  S                                              S                            I   I       S           S        
+
+>> REF:  and *** HAIRSPRAY 
+>> HYP:  and HER SPRAY     
+>> Eval:     I   S         
+
+

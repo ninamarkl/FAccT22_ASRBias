@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: italian\italian6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a ==> amelia's
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> lapso
+   4:    1  ->  big ==> bigger
+   5:    1  ->  cheese ==> 56
+   6:    1  ->  her ==> metre
+   7:    1  ->  her ==> their
+   8:    1  ->  maybe ==> bluetooth
+   9:    1  ->  scoop ==> skip
+  10:    1  ->  snack ==> neck
+  11:    1  ->  spoons ==> pounds
+  12:    1  ->  stella ==> stela
+  13:    1  ->  the ==> a
+  14:    1  ->  these ==> this
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  blue
+   3:    1  ->  her
+   4:    1  ->  meet
+   5:    1  ->  of
+   6:    1  ->  plastic
+   7:    1  ->  slabs
+   8:    1  ->  thick
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    2  ->  her
+   3:    1  ->  and
+   4:    1  ->  big
+   5:    1  ->  cheese
+   6:    1  ->  maybe
+   7:    1  ->  scoop
+   8:    1  ->  snack
+   9:    1  ->  spoons
+  10:    1  ->  stella
+  11:    1  ->  the
+  12:    1  ->  these
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  56
+   2:    1  ->  a
+   3:    1  ->  amelia's
+   4:    1  ->  bigger
+   5:    1  ->  bluetooth
+   6:    1  ->  lapso
+   7:    1  ->  metre
+   8:    1  ->  neck
+   9:    1  ->  pounds
+  10:    1  ->  skip
+  11:    1  ->  stela
+  12:    1  ->  the
+  13:    1  ->  their
+  14:    1  ->  this
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,204 @@
+SCORING FOR SPEAKER: b-r
+     of google\b-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.4%   (  62)
+
+Percent Correct           =   68.3%   ( 123)
+
+Percent Substitution      =   22.2%   (  40)
+Percent Deletions         =    9.4%   (  17)
+Percent Insertions        =    2.8%   (   5)
+Percent Word Accuracy     =   65.6%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 168)
+Aligned words             =           ( 185)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  and ==> i'm
+   3:    1  ->  arrived ==> at
+   4:    1  ->  at ==> shedding
+   5:    1  ->  ball ==> all
+   6:    1  ->  ball ==> boiler
+   7:    1  ->  bride ==> bread
+   8:    1  ->  cinders ==> ascended
+   9:    1  ->  cinders ==> her
+  10:    1  ->  cinders ==> that
+  11:    1  ->  cinders ==> to
+  12:    1  ->  divine ==> define
+  13:    1  ->  downs ==> out
+  14:    1  ->  dreamed ==> dream
+  15:    1  ->  gowns ==> games
+  16:    1  ->  had ==> how
+  17:    1  ->  hairbrushes ==> her
+  18:    1  ->  hairpins ==> pens
+  19:    1  ->  hand ==> although
+  20:    1  ->  he ==> it
+  21:    1  ->  lily ==> lilley
+  22:    1  ->  lived ==> live
+  23:    1  ->  me ==> handed
+  24:    1  ->  of ==> day
+  25:    1  ->  other ==> holy
+  26:    1  ->  parties ==> polish
+  27:    1  ->  poor ==> person
+  28:    1  ->  prince ==> transfer
+  29:    1  ->  rosa ==> call
+  30:    1  ->  rosa ==> rosie
+  31:    1  ->  royal ==> or
+  32:    1  ->  shouting ==> are
+  33:    1  ->  the ==> heart
+  34:    1  ->  their ==> the
+  35:    1  ->  to ==> the
+  36:    1  ->  wanted ==> of
+  37:    1  ->  were ==> never
+  38:    1  ->  were ==> rosie
+  39:    1  ->  william ==> it
+  40:    1  ->  would ==> will
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  send
+   2:    1  ->  brushes
+   3:    1  ->  her
+   4:    1  ->  it
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a
+   2:    1  ->  all
+   3:    1  ->  and
+   4:    1  ->  called
+   5:    1  ->  gowns
+   6:    1  ->  hat
+   7:    1  ->  howled
+   8:    1  ->  jewels
+   9:    1  ->  lily
+  10:    1  ->  old
+  11:    1  ->  one
+  12:    1  ->  started
+  13:    1  ->  that
+  14:    1  ->  their
+  15:    1  ->  they
+  16:    1  ->  they'd
+  17:    1  ->  yelled
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    4  ->  cinders
+   2:    2  ->  ball
+   3:    2  ->  rosa
+   4:    2  ->  were
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  arrived
+   8:    1  ->  at
+   9:    1  ->  bride
+  10:    1  ->  divine
+  11:    1  ->  downs
+  12:    1  ->  dreamed
+  13:    1  ->  gowns
+  14:    1  ->  had
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  hand
+  18:    1  ->  he
+  19:    1  ->  lily
+  20:    1  ->  lived
+  21:    1  ->  me
+  22:    1  ->  of
+  23:    1  ->  other
+  24:    1  ->  parties
+  25:    1  ->  poor
+  26:    1  ->  prince
+  27:    1  ->  royal
+  28:    1  ->  shouting
+  29:    1  ->  the
+  30:    1  ->  their
+  31:    1  ->  to
+  32:    1  ->  wanted
+  33:    1  ->  william
+  34:    1  ->  would
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  her
+   2:    2  ->  it
+   3:    2  ->  of
+   4:    2  ->  rosie
+   5:    2  ->  the
+   6:    1  ->  all
+   7:    1  ->  although
+   8:    1  ->  are
+   9:    1  ->  ascended
+  10:    1  ->  at
+  11:    1  ->  boiler
+  12:    1  ->  bread
+  13:    1  ->  call
+  14:    1  ->  day
+  15:    1  ->  define
+  16:    1  ->  dream
+  17:    1  ->  games
+  18:    1  ->  handed
+  19:    1  ->  heart
+  20:    1  ->  holy
+  21:    1  ->  how
+  22:    1  ->  i'm
+  23:    1  ->  lilley
+  24:    1  ->  live
+  25:    1  ->  never
+  26:    1  ->  or
+  27:    1  ->  out
+  28:    1  ->  pens
+  29:    1  ->  person
+  30:    1  ->  polish
+  31:    1  ->  shedding
+  32:    1  ->  that
+  33:    1  ->  to
+  34:    1  ->  transfer
+  35:    1  ->  will
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

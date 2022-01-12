@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\mandarin\mandarin14_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 49 16 4 1
+REF:  PLEASE CALL  STELLA ASK      HER   to bring these THINGS WITH HER     from the store SIX   spoons of fresh snow PEAS five thick slabs of blue cheese ** AND maybe a snack for her brother bob we also need a small plastic snake AND A   big toy frog for the kids she can SCOOP THESE  THINGS into three red BAGS AND   WE WILL  go meet her wednesday at the train station 
+HYP:  ****** THERE IS     COSTELLO OSCAR to bring these ****** SINS WHISKER from the store SIXTH spoons of fresh snow BEES five thick slabs of blue cheese ON IT  maybe a snack for her brother bob we also need a small plastic snake ON  THE big toy frog for the kids she can ***** SCHOOL FISONS into three red **** BACKS ON WE'LL go meet her wednesday at the train station 
+Eval: D      S     S      S        S                    D      S    S                      S                          S                                    I  S                                                                        S   S                                     D     S      S                     D    S     S  S                                                
+
+

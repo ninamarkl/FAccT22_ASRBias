@@ -1,0 +1,142 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese19_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   31.9%   (  22)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a ==> his
+   2:    1  ->  ask ==> it
+   3:    1  ->  bags ==> banks
+   4:    1  ->  bob ==> bond
+   5:    1  ->  bring ==> bringing
+   6:    1  ->  call ==> calls
+   7:    1  ->  can ==> can't
+   8:    1  ->  five ==> by
+   9:    1  ->  fresh ==> france
+  10:    1  ->  frog ==> front
+  11:    1  ->  her ==> asked
+  12:    1  ->  her ==> later
+  13:    1  ->  of ==> off
+  14:    1  ->  peas ==> peace
+  15:    1  ->  slabs ==> lives
+  16:    1  ->  snack ==> knack
+  17:    1  ->  snow ==> no
+  18:    1  ->  spoons ==> bones
+  19:    1  ->  stella ==> tell
+  20:    1  ->  thick ==> thanks
+  21:    1  ->  things ==> wings
+  22:    1  ->  to ==> for
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  meet
+   3:    1  ->  red
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  her
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  bags
+   5:    1  ->  bob
+   6:    1  ->  bring
+   7:    1  ->  call
+   8:    1  ->  can
+   9:    1  ->  five
+  10:    1  ->  fresh
+  11:    1  ->  frog
+  12:    1  ->  of
+  13:    1  ->  peas
+  14:    1  ->  slabs
+  15:    1  ->  snack
+  16:    1  ->  snow
+  17:    1  ->  spoons
+  18:    1  ->  stella
+  19:    1  ->  thick
+  20:    1  ->  things
+  21:    1  ->  to
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  asked
+   2:    1  ->  banks
+   3:    1  ->  bond
+   4:    1  ->  bones
+   5:    1  ->  bringing
+   6:    1  ->  by
+   7:    1  ->  calls
+   8:    1  ->  can't
+   9:    1  ->  for
+  10:    1  ->  france
+  11:    1  ->  front
+  12:    1  ->  his
+  13:    1  ->  it
+  14:    1  ->  knack
+  15:    1  ->  later
+  16:    1  ->  lives
+  17:    1  ->  no
+  18:    1  ->  off
+  19:    1  ->  peace
+  20:    1  ->  tell
+  21:    1  ->  thanks
+  22:    1  ->  wings
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

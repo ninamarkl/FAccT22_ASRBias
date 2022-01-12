@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   french\french15_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 35 12 22 0
+REF:  please call stella ASK HER to bring THESE things with HER  from the store 6 SPOONS OF FRESH SNOW PEAS 5 THICK SLABS OF  BLUE     CHEESE AND    MAYBE    A   SNACK for HER brother BOB WE ALSO NEED a small plastic snake and A   big toy frog for the kids SHE CAN SCOOP these things into 3 red bags and WE WILL GO MEET HER       wednesday at the train station 
+HYP:  please call stella *** *** to bring THIS  things with THAT from the store * ****** ** ***** **** **** * ***** ***** 6.0 SNOOPY'S 56     LAPTOP RICHIE'S I'M STUCK for *** brother *** ** **** BULB a small plastic snake and THE big toy frog for the kids *** *** ***** these things into 3 red bags and ** **** ** **** RECOVERED wednesday at the train station 
+Eval:                    D   D            S                 S                   D D      D  D     D    D    D D     D     S   S        S      S      S        S   S         D           D   D  D    S                              S                             D   D   D                                      D  D    D  D    S                                        
+
+

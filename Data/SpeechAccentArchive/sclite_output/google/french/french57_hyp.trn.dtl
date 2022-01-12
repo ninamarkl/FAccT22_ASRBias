@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: french\french57_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.7%   (  26)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =   20.3%   (  14)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   62.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  56)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  6 ==> sixth
+   2:    1  ->  blue ==> six
+   3:    1  ->  bob ==> bar
+   4:    1  ->  brother ==> body
+   5:    1  ->  cheese ==> overseas
+   6:    1  ->  meet ==> me
+   7:    1  ->  of ==> first
+   8:    1  ->  spoons ==> forms
+   9:    1  ->  things ==> huge
+  10:    1  ->  wednesday ==> they
+  11:    1  ->  with ==> on
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  once
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  can
+   4:    1  ->  for
+   5:    1  ->  fresh
+   6:    1  ->  frog
+   7:    1  ->  kids
+   8:    1  ->  scoop
+   9:    1  ->  she
+  10:    1  ->  slabs
+  11:    1  ->  the
+  12:    1  ->  these
+  13:    1  ->  thick
+  14:    1  ->  toy
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  6
+   2:    1  ->  blue
+   3:    1  ->  bob
+   4:    1  ->  brother
+   5:    1  ->  cheese
+   6:    1  ->  meet
+   7:    1  ->  of
+   8:    1  ->  spoons
+   9:    1  ->  things
+  10:    1  ->  wednesday
+  11:    1  ->  with
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bar
+   2:    1  ->  body
+   3:    1  ->  first
+   4:    1  ->  forms
+   5:    1  ->  huge
+   6:    1  ->  me
+   7:    1  ->  on
+   8:    1  ->  overseas
+   9:    1  ->  six
+  10:    1  ->  sixth
+  11:    1  ->  they
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

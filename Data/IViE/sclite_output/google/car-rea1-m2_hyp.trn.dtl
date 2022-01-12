@@ -1,0 +1,172 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\car-rea1-m2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.0%   (  53)
+
+Percent Correct           =   75.5%   ( 154)
+
+Percent Substitution      =   16.7%   (  34)
+Percent Deletions         =    7.8%   (  16)
+Percent Insertions        =    1.5%   (   3)
+Percent Word Accuracy     =   74.0%
+
+
+Ref. words                =           ( 204)
+Hyp. words                =           ( 191)
+Aligned words             =           ( 207)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  their ==> the
+   2:    3  ->  gowns ==> guns
+   3:    1  ->  a ==> any
+   4:    1  ->  ball ==> bonnet
+   5:    1  ->  but ==> for
+   6:    1  ->  buying ==> by
+   7:    1  ->  cinders ==> enders
+   8:    1  ->  cinders ==> it
+   9:    1  ->  dreamed ==> dream
+  10:    1  ->  had ==> have
+  11:    1  ->  hairbrushes ==> brushes
+  12:    1  ->  her ==> a
+  13:    1  ->  her ==> ace
+  14:    1  ->  howled ==> how
+  15:    1  ->  jewels ==> jules
+  16:    1  ->  lazy ==> easy
+  17:    1  ->  lily ==> lilley
+  18:    1  ->  new ==> you
+  19:    1  ->  oh ==> guns
+  20:    1  ->  poor ==> for
+  21:    1  ->  sisters ==> sister's
+  22:    1  ->  son ==> send
+  23:    1  ->  they ==> the
+  24:    1  ->  they ==> there
+  25:    1  ->  unfriendly ==> friendly
+  26:    1  ->  was ==> william's
+  27:    1  ->  were ==> rosie
+  28:    1  ->  would ==> will
+  29:    1  ->  yelled ==> old
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  hair
+   2:    1  ->  send
+   3:    1  ->  to
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  rosa
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  came
+   5:    1  ->  gowns
+   6:    1  ->  in
+   7:    1  ->  lily
+   8:    1  ->  rose
+   9:    1  ->  some
+  10:    1  ->  sorry
+  11:    1  ->  that
+  12:    1  ->  they
+  13:    1  ->  thought
+  14:    1  ->  were
+  15:    1  ->  william
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    4  ->  their
+   2:    3  ->  gowns
+   3:    2  ->  cinders
+   4:    2  ->  her
+   5:    2  ->  they
+   6:    1  ->  a
+   7:    1  ->  ball
+   8:    1  ->  but
+   9:    1  ->  buying
+  10:    1  ->  dreamed
+  11:    1  ->  had
+  12:    1  ->  hairbrushes
+  13:    1  ->  howled
+  14:    1  ->  jewels
+  15:    1  ->  lazy
+  16:    1  ->  lily
+  17:    1  ->  new
+  18:    1  ->  oh
+  19:    1  ->  poor
+  20:    1  ->  sisters
+  21:    1  ->  son
+  22:    1  ->  unfriendly
+  23:    1  ->  was
+  24:    1  ->  were
+  25:    1  ->  would
+  26:    1  ->  yelled
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    5  ->  the
+   2:    4  ->  guns
+   3:    2  ->  for
+   4:    1  ->  a
+   5:    1  ->  ace
+   6:    1  ->  any
+   7:    1  ->  bonnet
+   8:    1  ->  brushes
+   9:    1  ->  by
+  10:    1  ->  dream
+  11:    1  ->  easy
+  12:    1  ->  enders
+  13:    1  ->  friendly
+  14:    1  ->  have
+  15:    1  ->  how
+  16:    1  ->  it
+  17:    1  ->  jules
+  18:    1  ->  lilley
+  19:    1  ->  old
+  20:    1  ->  rosie
+  21:    1  ->  send
+  22:    1  ->  sister's
+  23:    1  ->  there
+  24:    1  ->  will
+  25:    1  ->  william's
+  26:    1  ->  you
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

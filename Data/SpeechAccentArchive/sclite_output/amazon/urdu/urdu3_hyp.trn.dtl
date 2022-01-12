@@ -1,0 +1,98 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\urdu\urdu3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.0%   (   9)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   87.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bags ==> banks
+   2:    1  ->  can ==> khun
+   3:    1  ->  her ==> till
+   4:    1  ->  meet ==> me
+   5:    1  ->  scoop ==> scooped
+   6:    1  ->  slabs ==> labs
+   7:    1  ->  spoons ==> £six
+   8:    1  ->  thick ==> fixed
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  six
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bags
+   2:    1  ->  can
+   3:    1  ->  her
+   4:    1  ->  meet
+   5:    1  ->  scoop
+   6:    1  ->  slabs
+   7:    1  ->  spoons
+   8:    1  ->  thick
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  banks
+   2:    1  ->  fixed
+   3:    1  ->  khun
+   4:    1  ->  labs
+   5:    1  ->  me
+   6:    1  ->  scooped
+   7:    1  ->  till
+   8:    1  ->  £six
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

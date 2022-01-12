@@ -1,0 +1,111 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin25_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  5 ==> by
+   2:    1  ->  a ==> here
+   3:    1  ->  a ==> is
+   4:    1  ->  also ==> are
+   5:    1  ->  bob ==> but
+   6:    1  ->  go ==> to
+   7:    1  ->  need ==> still
+   8:    1  ->  scoop ==> cook
+   9:    1  ->  snack ==> not
+  10:    1  ->  spoons ==> pounds
+  11:    1  ->  thick ==> 6
+  12:    1  ->  will ==> going
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  were
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  brother
+   2:    1  ->  the
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    1  ->  5
+   3:    1  ->  also
+   4:    1  ->  bob
+   5:    1  ->  go
+   6:    1  ->  need
+   7:    1  ->  scoop
+   8:    1  ->  snack
+   9:    1  ->  spoons
+  10:    1  ->  thick
+  11:    1  ->  will
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  6
+   2:    1  ->  are
+   3:    1  ->  but
+   4:    1  ->  by
+   5:    1  ->  cook
+   6:    1  ->  going
+   7:    1  ->  here
+   8:    1  ->  is
+   9:    1  ->  not
+  10:    1  ->  pounds
+  11:    1  ->  still
+  12:    1  ->  to
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

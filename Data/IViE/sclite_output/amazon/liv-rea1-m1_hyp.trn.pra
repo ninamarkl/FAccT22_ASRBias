@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\liv-rea1-m1_hyp.trn
+
+Speakers: 
+    0:  liv
+
+Speaker sentences   0:  liv   #utts: 1
+id: (liv-rea1-m1_01)
+Scores: (#C #S #D #I) 175 32 7 11
+REF:  once upon a time there was a girl called ** *** CINDERELLA but everyone called her cinders cinders lives with HER lived **** **** **** ** **** with HER money **** CINDERS LIVED with *** HER MOTHER and two stepsisters called LILY AND     rosa LILY AND     ROSA were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties POOR CINDERS    had to wear ALL their old hand me downs and she had nothing to do the cleaning POOT CINDERS    had to wear all THER HAND  hand me downs and she had to do all the cleaning one day a ROYAL messenger came to announce A    ball the ball WOULD be held at the royal place in honour of the queen's only son prince william LILY    AND  ROSA thought **** this was divine prince william was gorgeous and he was looking for A   BRIDE they dreamed OF  wedding bells when the evening of the ball arrived CINDERS had to help HER sisters get ready they were in a bad mood THEY'D wanted to buy some new grounds but their 
+HYP:  once upon a time there was a girl called TO THE LETTER     but everyone called her cinders cinders lives with *** lived WITH THEM SEND US LEFT with THE money SEND US      LIVE  with HIM ALL THAT   and two stepsisters called **** LILLIAN rosa **** LILLIAN ROSE were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties **** PASSENGERS had to wear *** their old hand me downs and she had nothing to do the cleaning **** PASSENGERS had to wear all **** THEIR hand me downs and she had to do all the cleaning one day a REAL  messenger came to announce THAT ball the ball WILL  be held at the royal place in honour of the queen's only son prince william LILLIAN ROSE A    thought THAT this was divine prince william was gorgeous and he was looking for THE BREAD they dreamed THE wedding bells when the evening of the ball arrived SINGERS had to help HIS sisters get ready they were in a bad mood THEY   wanted to buy some new grounds but their 
+Eval:                                          I  I   S                                                             D         I    I    I    I  I         S         I    S       S          I   S   S                                 D    S            D    S       S                                                                                                                    D    S                      D                                                                  D    S                          D    S                                                                S                                S                  S                                                                                 S       S    S            I                                                                       S   S                  S                                                      S                   S                                             S                                               
+
+>> REF:  mother said that they had enough GOWNS   so they started shouting at CINDERS find my JEWELS yelled ONE find my hat HOWLED the other they wanted hairbrushes HAIRPINS and *** HAIR HAIRSPRAY  they wanted hairbrushes hairpins and hairspray 
+>> HYP:  mother said that they had enough GROUNDS so they started shouting at CINDA   find my JUICE  yelled TO  find my hat HARD   the other they wanted hairbrushes HAPPENS  and HEY AND  HAIRSPRAYS they wanted hairbrushes hairpins and hairspray 
+>> Eval:                                  S                                   S               S             S               S                                        S            I   S    S                                                         
+
+

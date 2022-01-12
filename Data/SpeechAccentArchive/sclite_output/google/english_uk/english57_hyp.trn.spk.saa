@@ -1,0 +1,122 @@
+SCORING FOR SPEAKER: saa
+     of english_uk\english57_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =   15.9%   (  11)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  58)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  5 ==> buy
+   2:    1  ->  6 ==> six
+   3:    1  ->  can ==> chicken
+   4:    1  ->  for ==> with
+   5:    1  ->  frog ==> dog
+   6:    1  ->  from ==> without
+   7:    1  ->  her ==> a
+   8:    1  ->  her ==> metre
+   9:    1  ->  peas ==> please
+  10:    1  ->  snow ==> no
+  11:    1  ->  spoons ==> moons
+  12:    1  ->  store ==> or
+  13:    1  ->  the ==> promised
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  big
+   5:    1  ->  bob
+   6:    1  ->  her
+   7:    1  ->  meet
+   8:    1  ->  she
+   9:    1  ->  the
+  10:    1  ->  with
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  her
+   2:    1  ->  5
+   3:    1  ->  6
+   4:    1  ->  can
+   5:    1  ->  for
+   6:    1  ->  frog
+   7:    1  ->  from
+   8:    1  ->  peas
+   9:    1  ->  snow
+  10:    1  ->  spoons
+  11:    1  ->  store
+  12:    1  ->  the
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  buy
+   3:    1  ->  chicken
+   4:    1  ->  dog
+   5:    1  ->  metre
+   6:    1  ->  moons
+   7:    1  ->  no
+   8:    1  ->  or
+   9:    1  ->  please
+  10:    1  ->  promised
+  11:    1  ->  six
+  12:    1  ->  with
+  13:    1  ->  without
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

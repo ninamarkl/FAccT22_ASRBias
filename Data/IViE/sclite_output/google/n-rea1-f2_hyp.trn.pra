@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\n-rea1-f2_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-f2_01)
+Scores: (#C #S #D #I) 116 43 23 4
+REF:  once upon a time there was a girl called cinderella but everyone called * HER CINDERS cinders LIVED with HER   mother and HER two ******** STEPSISTERS called lily and rosa LILY AND     ROSA WERE very unfriendly and they were LAZY GIRLS THEY SPENT     ALL      THEIR time BUYING new clothes and going to parties POOR CINDERS HAD TO     WEAR   all THEIR old hand me downs and she had to do the cleaning one day a ROYAL messenger CAME TO ANNOUNCE A BALL         the ball WOULD be held at the royal palace in HONOUR OF THE QUEEN'S only son prince william LILY and rosa thought this was divine prince william was gorgeous and he was looking for a bride THEY DREAMED of wedding bells when the evening of the ball arrived **** CINDERS HAD to help HER SISTERS GET READY THEY   WERE in a bad mood THEY'D WANTED to buy some new GOWNS but THEIR MOTHER said THAT they had enough GOWNS so they STARTED SHOUTING AT  CINDERS FIND MY      JEWELS YELLED one find my HAT HOWLED THE     other they wanted **** 
+HYP:  once upon a time there was a girl called cinderella but everyone called A SIM DOES    cinders LIVE  with THEIR mother and A   two SEPARATE SISTER'S    called lily and rosa **** LILLIAN WAS  ALL  very unfriendly and they were **** ***** **** LAZYGIRLS DISTANCE OVER  time BY     new clothes and going to parties **** ******* *** PERSON THAT'S all THE   old hand me downs and she had to do the cleaning one day a ROW   messenger **** ** ******** * CONTEMPTIBLE the ball WILL  be held at the royal palace in ****** ** *** ******* only son prince william **** and rosa thought this was divine prince william was gorgeous and he was looking for a bride THE  DREAMS  of wedding bells when the evening of the ball arrived SEND US      HOW to help *** ******* *** ***** ASSIST YOU  in a bad mood DID    WANT   to buy some new GAMES but ***** THEY   said **** they had enough GAMES so they SHUT    ITS      END AS      FINE MYJOOLZ YOUR   OLD    one find my *** HEART  HEALTHY other they wanted HAIR 
+Eval:                                                                         I S   S               S          S                S       I        S                                D    S       S    S                                  D    D     D    S         S        S          S                                       D    D       D   S      S          S                                                                S               D    D  D        D S                     S                                    D      D  D   D                               D                                                                                                S    S                                                             I    S       S           D   D       D   D     S      S                  S      S                      S         D     S           D                    S             S       S        S   S       S    S       S      S                  D   S      S                         I    
+
+>> REF:  HAIRBRUSHES hair PRIN HAIRPINS and hairspray 
+>> HYP:  BRUSHES     hair CLIP INS      and hairspray 
+>> Eval: S                S    S                      
+
+

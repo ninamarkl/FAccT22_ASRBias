@@ -1,0 +1,7 @@
+<SYSTEM title=" amazon\arabic\arabic6_hyp.trn" ref_fname=" saa_ref.trn" hyp_fname=" amazon\arabic\arabic6_hyp.trn" creation_date="Wed May 26 07:57:36 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="72" sequence="0">
+C,"please","please":D,"call",:S,"stella","kostya":S,"ask","asked":C,"her","her":C,"to","to":C,"bring","bring":S,"these","this":C,"things","things":C,"with","with":C,"her","her":C,"from","from":C,"the","the":C,"store","store":C,"six","six":D,"spoons",:S,"of","points":S,"fresh","off":S,"snow","personal":S,"peas","base":S,"five","by":C,"thick","thick":C,"slabs","slabs":D,"of",:S,"blue","off":S,"cheese","guccis":S,"and","on":C,"maybe","maybe":C,"a","a":S,"snack","snake":C,"for","for":C,"her","her":C,"brother","brother":S,"bob","but":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":C,"and","and":C,"a","a":C,"big","big":C,"toy","toy":S,"frog","truck":C,"for","for":C,"the","the":C,"kids","kids":C,"she","she":C,"can","can":I,,"scope":I,,"this":S,"scoop","at":C,"these","these":C,"things","things":C,"into","into":C,"three","three":D,"red",:S,"bags","packs":S,"and","on":C,"we","we":C,"will","will":C,"go","go":C,"meet","meet":C,"her","her":I,,"with":C,"wednesday","wednesday":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

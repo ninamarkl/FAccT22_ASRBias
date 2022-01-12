@@ -1,0 +1,161 @@
+SCORING FOR SPEAKER: saa
+     of thai\thai1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   58.0%   (  40)
+
+Percent Correct           =   42.0%   (  29)
+
+Percent Substitution      =   39.1%   (  27)
+Percent Deletions         =   18.8%   (  13)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   42.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  56)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  these ==> this
+   2:    2  ->  things ==> thing
+   3:    1  ->  5 ==> sixbones
+   4:    1  ->  ask ==> piscis
+   5:    1  ->  bags ==> days
+   6:    1  ->  big ==> bit
+   7:    1  ->  blue ==> are
+   8:    1  ->  bob ==> but
+   9:    1  ->  bring ==> being
+  10:    1  ->  can ==> chickens
+  11:    1  ->  cheese ==> protease
+  12:    1  ->  for ==> neko
+  13:    1  ->  frog ==> for
+  14:    1  ->  her ==> mr
+  15:    1  ->  her ==> vulva
+  16:    1  ->  meet ==> call
+  17:    1  ->  of ==> ps-55
+  18:    1  ->  scoop ==> called
+  19:    1  ->  she ==> kiss
+  20:    1  ->  slabs ==> no
+  21:    1  ->  snack ==> at
+  22:    1  ->  snake ==> neck
+  23:    1  ->  thick ==> office
+  24:    1  ->  to ==> output
+  25:    1  ->  toy ==> tight
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  call
+   4:    1  ->  fresh
+   5:    1  ->  go
+   6:    1  ->  kids
+   7:    1  ->  of
+   8:    1  ->  peas
+   9:    1  ->  please
+  10:    1  ->  red
+  11:    1  ->  snow
+  12:    1  ->  spoons
+  13:    1  ->  stella
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  her
+   2:    2  ->  these
+   3:    2  ->  things
+   4:    1  ->  5
+   5:    1  ->  ask
+   6:    1  ->  bags
+   7:    1  ->  big
+   8:    1  ->  blue
+   9:    1  ->  bob
+  10:    1  ->  bring
+  11:    1  ->  can
+  12:    1  ->  cheese
+  13:    1  ->  for
+  14:    1  ->  frog
+  15:    1  ->  meet
+  16:    1  ->  of
+  17:    1  ->  scoop
+  18:    1  ->  she
+  19:    1  ->  slabs
+  20:    1  ->  snack
+  21:    1  ->  snake
+  22:    1  ->  thick
+  23:    1  ->  to
+  24:    1  ->  toy
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  thing
+   2:    2  ->  this
+   3:    1  ->  are
+   4:    1  ->  at
+   5:    1  ->  being
+   6:    1  ->  bit
+   7:    1  ->  but
+   8:    1  ->  call
+   9:    1  ->  called
+  10:    1  ->  chickens
+  11:    1  ->  days
+  12:    1  ->  for
+  13:    1  ->  kiss
+  14:    1  ->  mr
+  15:    1  ->  neck
+  16:    1  ->  neko
+  17:    1  ->  no
+  18:    1  ->  office
+  19:    1  ->  output
+  20:    1  ->  piscis
+  21:    1  ->  protease
+  22:    1  ->  ps-55
+  23:    1  ->  sixbones
+  24:    1  ->  tight
+  25:    1  ->  vulva
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,118 @@
+SCORING FOR SPEAKER: j-r
+     of amazon\j-rea1-f5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.3%   (  19)
+
+Percent Correct           =   91.3%   ( 168)
+
+Percent Substitution      =    7.1%   (  13)
+Percent Deletions         =    1.6%   (   3)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   89.7%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 184)
+Aligned words             =           ( 187)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a ==> while
+   2:    1  ->  cinder ==> cindy
+   3:    1  ->  cinders ==> centres
+   4:    1  ->  cinders ==> singers
+   5:    1  ->  divine ==> principle
+   6:    1  ->  hand ==> hands
+   7:    1  ->  rosa ==> are
+   8:    1  ->  royal ==> your
+   9:    1  ->  spent ==> spend
+  10:    1  ->  stepsisters ==> sisters
+  11:    1  ->  they'd ==> they
+  12:    1  ->  time ==> times
+  13:    1  ->  wear ==> well
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  define
+   2:    1  ->  rose
+   3:    1  ->  step
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  er
+   2:    1  ->  hand
+   3:    1  ->  they
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  cinders
+   2:    1  ->  a
+   3:    1  ->  cinder
+   4:    1  ->  divine
+   5:    1  ->  hand
+   6:    1  ->  rosa
+   7:    1  ->  royal
+   8:    1  ->  spent
+   9:    1  ->  stepsisters
+  10:    1  ->  they'd
+  11:    1  ->  time
+  12:    1  ->  wear
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  are
+   2:    1  ->  centres
+   3:    1  ->  cindy
+   4:    1  ->  hands
+   5:    1  ->  principle
+   6:    1  ->  singers
+   7:    1  ->  sisters
+   8:    1  ->  spend
+   9:    1  ->  they
+  10:    1  ->  times
+  11:    1  ->  well
+  12:    1  ->  while
+  13:    1  ->  your
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

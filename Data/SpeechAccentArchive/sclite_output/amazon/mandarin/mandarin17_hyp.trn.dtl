@@ -1,0 +1,117 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin17_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  also ==> wasn't
+   2:    1  ->  ask ==> asked
+   3:    1  ->  bags ==> backs
+   4:    1  ->  call ==> course
+   5:    1  ->  kids ==> case
+   6:    1  ->  need ==> in
+   7:    1  ->  of ==> off
+   8:    1  ->  peas ==> piece
+   9:    1  ->  please ==> previous
+  10:    1  ->  scoop ==> put
+  11:    1  ->  slabs ==> snappers
+  12:    1  ->  stella ==> then
+  13:    1  ->  thick ==> thtake
+  14:    1  ->  will ==> were
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  screw
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  her
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  also
+   2:    1  ->  ask
+   3:    1  ->  bags
+   4:    1  ->  call
+   5:    1  ->  kids
+   6:    1  ->  need
+   7:    1  ->  of
+   8:    1  ->  peas
+   9:    1  ->  please
+  10:    1  ->  scoop
+  11:    1  ->  slabs
+  12:    1  ->  stella
+  13:    1  ->  thick
+  14:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  asked
+   2:    1  ->  backs
+   3:    1  ->  case
+   4:    1  ->  course
+   5:    1  ->  in
+   6:    1  ->  off
+   7:    1  ->  piece
+   8:    1  ->  previous
+   9:    1  ->  put
+  10:    1  ->  snappers
+  11:    1  ->  then
+  12:    1  ->  thtake
+  13:    1  ->  wasn't
+  14:    1  ->  were
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

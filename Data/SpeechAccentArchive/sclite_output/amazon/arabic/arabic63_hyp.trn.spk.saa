@@ -1,0 +1,112 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic63_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  73)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  at ==> had
+   3:    1  ->  bob ==> so
+   4:    1  ->  for ==> off
+   5:    1  ->  kids ==> decades
+   6:    1  ->  slabs ==> slaps
+   7:    1  ->  snake ==> snack
+   8:    1  ->  spoons ==> points
+   9:    1  ->  stella ==> still
+  10:    1  ->  thick ==> fifty-six
+  11:    1  ->  wednesday ==> they
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  are
+   2:    1  ->  is
+   3:    1  ->  things
+   4:    1  ->  we
+   5:    1  ->  when
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  of
+   2:    1  ->  at
+   3:    1  ->  bob
+   4:    1  ->  for
+   5:    1  ->  kids
+   6:    1  ->  slabs
+   7:    1  ->  snake
+   8:    1  ->  spoons
+   9:    1  ->  stella
+  10:    1  ->  thick
+  11:    1  ->  wednesday
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    3  ->  off
+   2:    1  ->  decades
+   3:    1  ->  fifty-six
+   4:    1  ->  had
+   5:    1  ->  points
+   6:    1  ->  slaps
+   7:    1  ->  snack
+   8:    1  ->  so
+   9:    1  ->  still
+  10:    1  ->  they
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

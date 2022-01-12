@@ -1,0 +1,141 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin19_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   46.4%   (  32)
+
+Percent Correct           =   53.6%   (  37)
+
+Percent Substitution      =   30.4%   (  21)
+Percent Deletions         =   15.9%   (  11)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   53.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  58)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  5 ==> franks
+   3:    1  ->  a ==> it's
+   4:    1  ->  a ==> the
+   5:    1  ->  and ==> in
+   6:    1  ->  bags ==> back
+   7:    1  ->  can ==> chicken
+   8:    1  ->  for ==> park
+   9:    1  ->  from ==> one
+  10:    1  ->  her ==> metre
+  11:    1  ->  kids ==> a
+  12:    1  ->  of ==> a
+  13:    1  ->  peas ==> the
+  14:    1  ->  she ==> kid
+  15:    1  ->  slabs ==> lab
+  16:    1  ->  small ==> more
+  17:    1  ->  snack ==> neck
+  18:    1  ->  the ==> with
+  19:    1  ->  thick ==> 56
+  20:    1  ->  things ==> sing
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  fresh
+   4:    1  ->  frog
+   5:    1  ->  meet
+   6:    1  ->  of
+   7:    1  ->  please
+   8:    1  ->  snow
+   9:    1  ->  toy
+  10:    1  ->  we
+  11:    1  ->  will
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  a
+   2:    2  ->  these
+   3:    1  ->  5
+   4:    1  ->  and
+   5:    1  ->  bags
+   6:    1  ->  can
+   7:    1  ->  for
+   8:    1  ->  from
+   9:    1  ->  her
+  10:    1  ->  kids
+  11:    1  ->  of
+  12:    1  ->  peas
+  13:    1  ->  she
+  14:    1  ->  slabs
+  15:    1  ->  small
+  16:    1  ->  snack
+  17:    1  ->  the
+  18:    1  ->  thick
+  19:    1  ->  things
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  a
+   2:    2  ->  the
+   3:    2  ->  this
+   4:    1  ->  56
+   5:    1  ->  back
+   6:    1  ->  chicken
+   7:    1  ->  franks
+   8:    1  ->  in
+   9:    1  ->  it's
+  10:    1  ->  kid
+  11:    1  ->  lab
+  12:    1  ->  metre
+  13:    1  ->  more
+  14:    1  ->  neck
+  15:    1  ->  one
+  16:    1  ->  park
+  17:    1  ->  sing
+  18:    1  ->  with
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

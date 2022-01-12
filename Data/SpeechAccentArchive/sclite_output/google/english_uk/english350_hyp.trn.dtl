@@ -1,0 +1,92 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: english_uk\english350_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.5%   (  10)
+
+Percent Correct           =   85.5%   (  59)
+
+Percent Substitution      =    7.2%   (   5)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   85.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  bob ==> but
+   2:    1  ->  brother ==> natural
+   3:    1  ->  her ==> it's
+   4:    1  ->  her ==> metre
+   5:    1  ->  thick ==> 56
+     -------
+         5
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  for
+   4:    1  ->  meet
+   5:    1  ->  snack
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  her
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  thick
+     -------
+         5
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  56
+   2:    1  ->  but
+   3:    1  ->  it's
+   4:    1  ->  metre
+   5:    1  ->  natural
+     -------
+         5
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

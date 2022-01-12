@@ -1,0 +1,108 @@
+SCORING FOR SPEAKER: saa
+     of french\french4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  6 ==> six
+   2:    1  ->  a ==> the
+   3:    1  ->  peas ==> snoopy's
+   4:    1  ->  red ==> troid
+   5:    1  ->  spoons ==> moon
+   6:    1  ->  these ==> this
+   7:    1  ->  things ==> thing
+   8:    1  ->  things ==> think
+   9:    1  ->  we ==> you
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  is
+   2:    1  ->  my
+   3:    1  ->  plastic
+   4:    1  ->  prayers
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  3
+   2:    1  ->  snow
+   3:    1  ->  thick
+   4:    1  ->  wednesday
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  things
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  peas
+   5:    1  ->  red
+   6:    1  ->  spoons
+   7:    1  ->  these
+   8:    1  ->  we
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  moon
+   2:    1  ->  six
+   3:    1  ->  snoopy's
+   4:    1  ->  the
+   5:    1  ->  thing
+   6:    1  ->  think
+   7:    1  ->  this
+   8:    1  ->  troid
+   9:    1  ->  you
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

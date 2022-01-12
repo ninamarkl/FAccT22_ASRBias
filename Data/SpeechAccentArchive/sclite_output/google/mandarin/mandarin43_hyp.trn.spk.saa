@@ -1,0 +1,143 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin43_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   43.5%   (  30)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =   13.0%   (   9)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   56.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  a ==> us
+   2:    1  ->  bags ==> text
+   3:    1  ->  blue ==> oblow
+   4:    1  ->  bob ==> but
+   5:    1  ->  call ==> come
+   6:    1  ->  can ==> and
+   7:    1  ->  fresh ==> flesh
+   8:    1  ->  frog ==> rank
+   9:    1  ->  go ==> call
+  10:    1  ->  meet ==> me
+  11:    1  ->  plastic ==> make
+  12:    1  ->  she ==> shake
+  13:    1  ->  slabs ==> think
+  14:    1  ->  small ==> to
+  15:    1  ->  snack ==> snake
+  16:    1  ->  snake ==> nick
+  17:    1  ->  spoons ==> both
+  18:    1  ->  stella ==> sailing
+  19:    1  ->  thick ==> find
+  20:    1  ->  toy ==> top
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  slaves
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  the
+   2:    1  ->  5
+   3:    1  ->  her
+   4:    1  ->  store
+   5:    1  ->  these
+   6:    1  ->  we
+   7:    1  ->  wednesday
+   8:    1  ->  with
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  a
+   2:    1  ->  bags
+   3:    1  ->  blue
+   4:    1  ->  bob
+   5:    1  ->  call
+   6:    1  ->  can
+   7:    1  ->  fresh
+   8:    1  ->  frog
+   9:    1  ->  go
+  10:    1  ->  meet
+  11:    1  ->  plastic
+  12:    1  ->  she
+  13:    1  ->  slabs
+  14:    1  ->  small
+  15:    1  ->  snack
+  16:    1  ->  snake
+  17:    1  ->  spoons
+  18:    1  ->  stella
+  19:    1  ->  thick
+  20:    1  ->  toy
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  and
+   2:    1  ->  both
+   3:    1  ->  but
+   4:    1  ->  call
+   5:    1  ->  come
+   6:    1  ->  find
+   7:    1  ->  flesh
+   8:    1  ->  make
+   9:    1  ->  me
+  10:    1  ->  nick
+  11:    1  ->  oblow
+  12:    1  ->  rank
+  13:    1  ->  sailing
+  14:    1  ->  shake
+  15:    1  ->  snake
+  16:    1  ->  text
+  17:    1  ->  think
+  18:    1  ->  to
+  19:    1  ->  top
+  20:    1  ->  us
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

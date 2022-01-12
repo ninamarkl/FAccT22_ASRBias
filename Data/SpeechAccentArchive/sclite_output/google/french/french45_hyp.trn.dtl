@@ -1,0 +1,104 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: french\french45_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   14.5%   (  10)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  go ==> we'll
+   3:    1  ->  her ==> a
+   4:    1  ->  slabs ==> lamb
+   5:    1  ->  snow ==> no
+   6:    1  ->  spoons ==> pounds
+   7:    1  ->  thick ==> 56
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5
+   2:    1  ->  can
+   3:    1  ->  need
+   4:    1  ->  scoop
+   5:    1  ->  she
+   6:    1  ->  the
+   7:    1  ->  these
+   8:    1  ->  to
+   9:    1  ->  we
+  10:    1  ->  will
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and
+   2:    1  ->  go
+   3:    1  ->  her
+   4:    1  ->  slabs
+   5:    1  ->  snow
+   6:    1  ->  spoons
+   7:    1  ->  thick
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  56
+   2:    1  ->  a
+   3:    1  ->  in
+   4:    1  ->  lamb
+   5:    1  ->  no
+   6:    1  ->  pounds
+   7:    1  ->  we'll
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

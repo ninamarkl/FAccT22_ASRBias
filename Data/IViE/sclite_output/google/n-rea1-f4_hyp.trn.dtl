@@ -1,0 +1,221 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\n-rea1-f4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   38.7%   (  70)
+
+Percent Correct           =   66.3%   ( 120)
+
+Percent Substitution      =   26.5%   (  48)
+Percent Deletions         =    7.2%   (  13)
+Percent Insertions        =    5.0%   (   9)
+Percent Word Accuracy     =   61.3%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 177)
+Aligned words             =           ( 190)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  rosa ==> rosie
+   2:    1  ->  a ==> and
+   3:    1  ->  announce ==> intern
+   4:    1  ->  arrived ==> since
+   5:    1  ->  ball ==> out
+   6:    1  ->  ball ==> support
+   7:    1  ->  bells ==> fairs
+   8:    1  ->  buying ==> buy
+   9:    1  ->  came ==> message
+  10:    1  ->  cinders ==> as
+  11:    1  ->  cinders ==> i've
+  12:    1  ->  cinders ==> soon
+  13:    1  ->  cinders ==> us
+  14:    1  ->  dreamed ==> dream
+  15:    1  ->  find ==> onefe
+  16:    1  ->  girls ==> lazygirls
+  17:    1  ->  gowns ==> games
+  18:    1  ->  hairbrushes ==> hair
+  19:    1  ->  hairpins ==> pins
+  20:    1  ->  hand ==> turn
+  21:    1  ->  he ==> you
+  22:    1  ->  her ==> all
+  23:    1  ->  her ==> as
+  24:    1  ->  her ==> my
+  25:    1  ->  howled ==> of
+  26:    1  ->  jewels ==> a
+  27:    1  ->  lily ==> lilley
+  28:    1  ->  lived ==> live
+  29:    1  ->  messenger ==> my
+  30:    1  ->  mother ==> that
+  31:    1  ->  mother ==> they
+  32:    1  ->  my ==> foam
+  33:    1  ->  old ==> will
+  34:    1  ->  one ==> shield
+  35:    1  ->  poor ==> send
+  36:    1  ->  sisters ==> sister's
+  37:    1  ->  start ==> girls
+  38:    1  ->  the ==> another
+  39:    1  ->  their ==> then
+  40:    1  ->  their ==> they
+  41:    1  ->  they ==> he
+  42:    1  ->  they ==> the
+  43:    1  ->  to ==> jack
+  44:    1  ->  unfriendly ==> unfair
+  45:    1  ->  were ==> there
+  46:    1  ->  would ==> will
+  47:    1  ->  yelled ==> dual
+     -------
+        48
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  all
+   2:    1  ->  boiler
+   3:    1  ->  brushes
+   4:    1  ->  for
+   5:    1  ->  hair
+   6:    1  ->  is
+   7:    1  ->  of
+   8:    1  ->  send
+   9:    1  ->  them
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    2  ->  they
+   3:    1  ->  bride
+   4:    1  ->  find
+   5:    1  ->  gowns
+   6:    1  ->  honour
+   7:    1  ->  lazy
+   8:    1  ->  of
+   9:    1  ->  royal
+  10:    1  ->  so
+  11:    1  ->  the
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    4  ->  cinders
+   2:    3  ->  her
+   3:    2  ->  ball
+   4:    2  ->  mother
+   5:    2  ->  rosa
+   6:    2  ->  their
+   7:    2  ->  they
+   8:    1  ->  a
+   9:    1  ->  announce
+  10:    1  ->  arrived
+  11:    1  ->  bells
+  12:    1  ->  buying
+  13:    1  ->  came
+  14:    1  ->  dreamed
+  15:    1  ->  find
+  16:    1  ->  girls
+  17:    1  ->  gowns
+  18:    1  ->  hairbrushes
+  19:    1  ->  hairpins
+  20:    1  ->  hand
+  21:    1  ->  he
+  22:    1  ->  howled
+  23:    1  ->  jewels
+  24:    1  ->  lily
+  25:    1  ->  lived
+  26:    1  ->  messenger
+  27:    1  ->  my
+  28:    1  ->  old
+  29:    1  ->  one
+  30:    1  ->  poor
+  31:    1  ->  sisters
+  32:    1  ->  start
+  33:    1  ->  the
+  34:    1  ->  to
+  35:    1  ->  unfriendly
+  36:    1  ->  were
+  37:    1  ->  would
+  38:    1  ->  yelled
+     -------
+        48
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  as
+   2:    2  ->  my
+   3:    2  ->  rosie
+   4:    2  ->  they
+   5:    2  ->  will
+   6:    1  ->  a
+   7:    1  ->  all
+   8:    1  ->  and
+   9:    1  ->  another
+  10:    1  ->  buy
+  11:    1  ->  dream
+  12:    1  ->  dual
+  13:    1  ->  fairs
+  14:    1  ->  foam
+  15:    1  ->  games
+  16:    1  ->  girls
+  17:    1  ->  hair
+  18:    1  ->  he
+  19:    1  ->  i've
+  20:    1  ->  intern
+  21:    1  ->  jack
+  22:    1  ->  lazygirls
+  23:    1  ->  lilley
+  24:    1  ->  live
+  25:    1  ->  message
+  26:    1  ->  of
+  27:    1  ->  onefe
+  28:    1  ->  out
+  29:    1  ->  pins
+  30:    1  ->  send
+  31:    1  ->  shield
+  32:    1  ->  since
+  33:    1  ->  sister's
+  34:    1  ->  soon
+  35:    1  ->  support
+  36:    1  ->  that
+  37:    1  ->  the
+  38:    1  ->  then
+  39:    1  ->  there
+  40:    1  ->  turn
+  41:    1  ->  unfair
+  42:    1  ->  us
+  43:    1  ->  you
+     -------
+        48
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

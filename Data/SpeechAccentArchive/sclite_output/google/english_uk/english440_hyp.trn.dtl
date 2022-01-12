@@ -1,0 +1,101 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: english_uk\english440_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5 ==> please
+   2:    1  ->  bob ==> hob
+   3:    1  ->  brother ==> lewis
+   4:    1  ->  frog ==> flock
+   5:    1  ->  her ==> holly
+   6:    1  ->  scoop ==> skip
+   7:    1  ->  thick ==> 56
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  for
+   3:    1  ->  her
+   4:    1  ->  maybe
+   5:    1  ->  peas
+   6:    1  ->  snack
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  frog
+   5:    1  ->  her
+   6:    1  ->  scoop
+   7:    1  ->  thick
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  56
+   2:    1  ->  flock
+   3:    1  ->  hob
+   4:    1  ->  holly
+   5:    1  ->  lewis
+   6:    1  ->  please
+   7:    1  ->  skip
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

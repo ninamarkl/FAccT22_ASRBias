@@ -1,0 +1,101 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  blue ==> the
+   2:    1  ->  can ==> cave
+   3:    1  ->  for ==> from
+   4:    1  ->  frog ==> rug
+   5:    1  ->  scoop ==> scope
+   6:    1  ->  snack ==> snake
+   7:    1  ->  thick ==> 56
+   8:    1  ->  toy ==> victorian
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  5
+   2:    1  ->  big
+   3:    1  ->  kids
+   4:    1  ->  she
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  blue
+   2:    1  ->  can
+   3:    1  ->  for
+   4:    1  ->  frog
+   5:    1  ->  scoop
+   6:    1  ->  snack
+   7:    1  ->  thick
+   8:    1  ->  toy
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  56
+   2:    1  ->  cave
+   3:    1  ->  from
+   4:    1  ->  rug
+   5:    1  ->  scope
+   6:    1  ->  snake
+   7:    1  ->  the
+   8:    1  ->  victorian
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

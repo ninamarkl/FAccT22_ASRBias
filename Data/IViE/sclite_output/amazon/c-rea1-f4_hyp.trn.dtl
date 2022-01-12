@@ -1,0 +1,127 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\c-rea1-f4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.9%   (  25)
+
+Percent Correct           =   87.2%   ( 157)
+
+Percent Substitution      =   11.1%   (  20)
+Percent Deletions         =    1.7%   (   3)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   86.1%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 179)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  cinders ==> has
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> lillian
+   4:    1  ->  and ==> rose
+   5:    1  ->  ball ==> bull
+   6:    1  ->  ball ==> pool
+   7:    1  ->  cinders ==> singers
+   8:    1  ->  had ==> has
+   9:    1  ->  her ==> assist
+  10:    1  ->  howled ==> held
+  11:    1  ->  lily ==> lillian
+  12:    1  ->  lily ==> razor
+  13:    1  ->  poor ==> porcine
+  14:    1  ->  rosa ==> i
+  15:    1  ->  rosa ==> rose
+  16:    1  ->  sisters ==> us
+  17:    1  ->  stepsisters ==> sisters
+  18:    1  ->  they'd ==> they
+  19:    1  ->  wear ==> work
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  sin
+   2:    1  ->  step
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  pal
+   2:    1  ->  rosa
+   3:    1  ->  to
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  cinders
+   2:    2  ->  and
+   3:    2  ->  ball
+   4:    2  ->  lily
+   5:    2  ->  rosa
+   6:    1  ->  a
+   7:    1  ->  had
+   8:    1  ->  her
+   9:    1  ->  howled
+  10:    1  ->  poor
+  11:    1  ->  sisters
+  12:    1  ->  stepsisters
+  13:    1  ->  they'd
+  14:    1  ->  wear
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  has
+   2:    2  ->  lillian
+   3:    2  ->  rose
+   4:    1  ->  assist
+   5:    1  ->  bull
+   6:    1  ->  held
+   7:    1  ->  i
+   8:    1  ->  pool
+   9:    1  ->  porcine
+  10:    1  ->  razor
+  11:    1  ->  singers
+  12:    1  ->  sisters
+  13:    1  ->  the
+  14:    1  ->  they
+  15:    1  ->  us
+  16:    1  ->  work
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

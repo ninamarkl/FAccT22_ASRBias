@@ -1,0 +1,95 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.5%   (  10)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   85.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  and ==> in
+   3:    1  ->  slabs ==> labs
+   4:    1  ->  snack ==> not
+   5:    1  ->  spoons ==> pounds
+   6:    1  ->  thick ==> 56
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  5
+   2:    1  ->  and
+   3:    1  ->  will
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  slabs
+   4:    1  ->  snack
+   5:    1  ->  spoons
+   6:    1  ->  thick
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  56
+   2:    1  ->  in
+   3:    1  ->  it's
+   4:    1  ->  labs
+   5:    1  ->  not
+   6:    1  ->  pounds
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

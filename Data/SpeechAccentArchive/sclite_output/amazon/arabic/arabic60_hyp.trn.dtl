@@ -1,0 +1,114 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\arabic\arabic60_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  ask ==> as
+   3:    1  ->  bob ==> book
+   4:    1  ->  her ==> care
+   5:    1  ->  her ==> hair
+   6:    1  ->  her ==> here
+   7:    1  ->  of ==> off
+   8:    1  ->  of ==> ofthe
+   9:    1  ->  scoop ==> school
+  10:    1  ->  slabs ==> labs
+  11:    1  ->  snake ==> sneak
+  12:    1  ->  stella ==> tailor
+  13:    1  ->  thick ==> fifty-six
+  14:    1  ->  to ==> tto
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  his
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  five
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    3  ->  her
+   2:    2  ->  of
+   3:    1  ->  and
+   4:    1  ->  ask
+   5:    1  ->  bob
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  snake
+   9:    1  ->  stella
+  10:    1  ->  thick
+  11:    1  ->  to
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  as
+   2:    1  ->  book
+   3:    1  ->  care
+   4:    1  ->  fifty-six
+   5:    1  ->  hair
+   6:    1  ->  here
+   7:    1  ->  labs
+   8:    1  ->  off
+   9:    1  ->  ofthe
+  10:    1  ->  on
+  11:    1  ->  school
+  12:    1  ->  sneak
+  13:    1  ->  tailor
+  14:    1  ->  tto
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

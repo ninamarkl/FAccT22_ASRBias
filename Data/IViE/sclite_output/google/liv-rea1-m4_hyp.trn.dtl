@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\liv-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.7%   (  60)
+
+Percent Correct           =   69.3%   ( 131)
+
+Percent Substitution      =   16.9%   (  32)
+Percent Deletions         =   13.8%   (  26)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   68.3%
+
+
+Ref. words                =           ( 189)
+Hyp. words                =           ( 165)
+Aligned words             =           ( 191)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  would ==> will
+   2:    1  ->  a ==> you
+   3:    1  ->  arrived ==> polarized
+   4:    1  ->  ball ==> an
+   5:    1  ->  bride ==> look
+   6:    1  ->  buying ==> by
+   7:    1  ->  cinders ==> this
+   8:    1  ->  dreamed ==> daydream
+   9:    1  ->  gowns ==> cans
+  10:    1  ->  had ==> chat
+  11:    1  ->  hairbrushes ==> hair
+  12:    1  ->  hairpins ==> pins
+  13:    1  ->  her ==> are
+  14:    1  ->  her ==> their
+  15:    1  ->  honour ==> none
+  16:    1  ->  lily ==> lilley
+  17:    1  ->  lived ==> live
+  18:    1  ->  of ==> the
+  19:    1  ->  one ==> ydone
+  20:    1  ->  other ==> do
+  21:    1  ->  pal ==> palace
+  22:    1  ->  poor ==> forcing
+  23:    1  ->  rosa ==> rosie
+  24:    1  ->  so ==> have
+  25:    1  ->  the ==> answer
+  26:    1  ->  the ==> how
+  27:    1  ->  their ==> the
+  28:    1  ->  they ==> lazygirls
+  29:    1  ->  they ==> up
+  30:    1  ->  wear ==> wait
+  31:    1  ->  when ==> on
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  and
+   2:    2  ->  rosa
+   3:    1  ->  a
+   4:    1  ->  announce
+   5:    1  ->  at
+   6:    1  ->  ball
+   7:    1  ->  enough
+   8:    1  ->  find
+   9:    1  ->  for
+  10:    1  ->  girls
+  11:    1  ->  gowns
+  12:    1  ->  had
+  13:    1  ->  he
+  14:    1  ->  howled
+  15:    1  ->  in
+  16:    1  ->  jewels
+  17:    1  ->  lazy
+  18:    1  ->  lily
+  19:    1  ->  looking
+  20:    1  ->  my
+  21:    1  ->  she
+  22:    1  ->  thought
+  23:    1  ->  was
+  24:    1  ->  yelled
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  her
+   2:    2  ->  the
+   3:    2  ->  they
+   4:    2  ->  would
+   5:    1  ->  a
+   6:    1  ->  arrived
+   7:    1  ->  ball
+   8:    1  ->  bride
+   9:    1  ->  buying
+  10:    1  ->  cinders
+  11:    1  ->  dreamed
+  12:    1  ->  gowns
+  13:    1  ->  had
+  14:    1  ->  hairbrushes
+  15:    1  ->  hairpins
+  16:    1  ->  honour
+  17:    1  ->  lily
+  18:    1  ->  lived
+  19:    1  ->  of
+  20:    1  ->  one
+  21:    1  ->  other
+  22:    1  ->  pal
+  23:    1  ->  poor
+  24:    1  ->  rosa
+  25:    1  ->  so
+  26:    1  ->  their
+  27:    1  ->  wear
+  28:    1  ->  when
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  the
+   2:    2  ->  will
+   3:    1  ->  an
+   4:    1  ->  answer
+   5:    1  ->  are
+   6:    1  ->  by
+   7:    1  ->  cans
+   8:    1  ->  chat
+   9:    1  ->  daydream
+  10:    1  ->  do
+  11:    1  ->  forcing
+  12:    1  ->  hair
+  13:    1  ->  have
+  14:    1  ->  how
+  15:    1  ->  lazygirls
+  16:    1  ->  lilley
+  17:    1  ->  live
+  18:    1  ->  look
+  19:    1  ->  none
+  20:    1  ->  on
+  21:    1  ->  palace
+  22:    1  ->  pins
+  23:    1  ->  polarized
+  24:    1  ->  rosie
+  25:    1  ->  their
+  26:    1  ->  this
+  27:    1  ->  up
+  28:    1  ->  wait
+  29:    1  ->  ydone
+  30:    1  ->  you
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

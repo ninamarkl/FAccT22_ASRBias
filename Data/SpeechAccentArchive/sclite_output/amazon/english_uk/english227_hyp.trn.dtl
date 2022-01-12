@@ -1,0 +1,82 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\english_uk\english227_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.1%   (   7)
+
+Percent Correct           =   98.6%   (  68)
+
+Percent Substitution      =    1.4%   (   1)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    8.7%   (   6)
+Percent Word Accuracy     =   89.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  75)
+Aligned words             =           (  75)
+
+CONFUSION PAIRS                  Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  these ==> thes
+     -------
+         1
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  beautiful
+   2:    1  ->  for
+   3:    1  ->  much
+   4:    1  ->  thank
+   5:    1  ->  very
+   6:    1  ->  you
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  these
+     -------
+         1
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  thes
+     -------
+         1
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

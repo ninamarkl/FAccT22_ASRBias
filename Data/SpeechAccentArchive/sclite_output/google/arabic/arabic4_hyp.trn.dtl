@@ -1,0 +1,114 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  5 ==> nappies
+   2:    1  ->  a ==> is
+   3:    1  ->  a ==> this
+   4:    1  ->  and ==> as
+   5:    1  ->  frog ==> toys
+   6:    1  ->  her ==> here
+   7:    1  ->  slabs ==> lots
+   8:    1  ->  small ==> my
+   9:    1  ->  snack ==> not
+  10:    1  ->  spoons ==> pounds
+  11:    1  ->  thick ==> 56
+  12:    1  ->  will ==> we'll
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  we
+   2:    1  ->  also
+   3:    1  ->  need
+   4:    1  ->  peas
+   5:    1  ->  snow
+   6:    1  ->  toy
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    1  ->  5
+   3:    1  ->  and
+   4:    1  ->  frog
+   5:    1  ->  her
+   6:    1  ->  slabs
+   7:    1  ->  small
+   8:    1  ->  snack
+   9:    1  ->  spoons
+  10:    1  ->  thick
+  11:    1  ->  will
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  56
+   2:    1  ->  as
+   3:    1  ->  here
+   4:    1  ->  is
+   5:    1  ->  lots
+   6:    1  ->  my
+   7:    1  ->  nappies
+   8:    1  ->  not
+   9:    1  ->  pounds
+  10:    1  ->  this
+  11:    1  ->  toys
+  12:    1  ->  we'll
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

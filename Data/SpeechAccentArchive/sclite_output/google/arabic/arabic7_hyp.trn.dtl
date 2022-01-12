@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a ==> skin
+   2:    1  ->  and ==> snack
+   3:    1  ->  bags ==> bag
+   4:    1  ->  bob ==> but
+   5:    1  ->  call ==> contact
+   6:    1  ->  scoop ==> with
+   7:    1  ->  slabs ==> laughs
+   8:    1  ->  stella ==> our
+   9:    1  ->  thick ==> 56
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  cope
+   2:    1  ->  from
+   3:    1  ->  her
+   4:    1  ->  me
+   5:    1  ->  wednesday
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  5
+   2:    1  ->  maybe
+   3:    1  ->  snake
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  bags
+   4:    1  ->  bob
+   5:    1  ->  call
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  stella
+   9:    1  ->  thick
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  56
+   2:    1  ->  bag
+   3:    1  ->  but
+   4:    1  ->  contact
+   5:    1  ->  laughs
+   6:    1  ->  our
+   7:    1  ->  skin
+   8:    1  ->  snack
+   9:    1  ->  with
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

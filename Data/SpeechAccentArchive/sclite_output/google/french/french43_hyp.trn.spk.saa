@@ -1,0 +1,128 @@
+SCORING FOR SPEAKER: saa
+     of french\french43_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   60.9%   (  42)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =   18.8%   (  13)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  56)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5 ==> freshener
+   2:    1  ->  also ==> wilson
+   3:    1  ->  and ==> in
+   4:    1  ->  and ==> making
+   5:    1  ->  bags ==> bag
+   6:    1  ->  brother ==> bread
+   7:    1  ->  for ==> by
+   8:    1  ->  frog ==> tightrope
+   9:    1  ->  her ==> me
+  10:    1  ->  kids ==> kid
+  11:    1  ->  meet ==> give
+  12:    1  ->  scoop ==> skewed
+  13:    1  ->  she ==> he
+  14:    1  ->  thick ==> p56
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  for
+   4:    1  ->  fresh
+   5:    1  ->  go
+   6:    1  ->  her
+   7:    1  ->  maybe
+   8:    1  ->  peas
+   9:    1  ->  snack
+  10:    1  ->  snake
+  11:    1  ->  snow
+  12:    1  ->  toy
+  13:    1  ->  we
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and
+   2:    1  ->  5
+   3:    1  ->  also
+   4:    1  ->  bags
+   5:    1  ->  brother
+   6:    1  ->  for
+   7:    1  ->  frog
+   8:    1  ->  her
+   9:    1  ->  kids
+  10:    1  ->  meet
+  11:    1  ->  scoop
+  12:    1  ->  she
+  13:    1  ->  thick
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bag
+   2:    1  ->  bread
+   3:    1  ->  by
+   4:    1  ->  freshener
+   5:    1  ->  give
+   6:    1  ->  he
+   7:    1  ->  in
+   8:    1  ->  kid
+   9:    1  ->  making
+  10:    1  ->  me
+  11:    1  ->  p56
+  12:    1  ->  skewed
+  13:    1  ->  tightrope
+  14:    1  ->  wilson
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

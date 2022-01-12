@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\b-rea1-f1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.9%   (  16)
+
+Percent Correct           =   93.3%   ( 167)
+
+Percent Substitution      =    5.6%   (  10)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   91.1%
+
+
+Ref. words                =           ( 179)
+Hyp. words                =           ( 181)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and ==> lillian
+   2:    1  ->  announce ==> unite
+   3:    1  ->  called ==> caught
+   4:    1  ->  cinders ==> percenters
+   5:    1  ->  gowns ==> grounds
+   6:    1  ->  hairbrushes ==> her
+   7:    1  ->  hairpins ==> prince
+   8:    1  ->  hairspray ==> bring
+   9:    1  ->  howled ==> held
+  10:    1  ->  would ==> will
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  her
+   2:    1  ->  brushes
+   3:    1  ->  harsh
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  lily
+   2:    1  ->  poor
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and
+   2:    1  ->  announce
+   3:    1  ->  called
+   4:    1  ->  cinders
+   5:    1  ->  gowns
+   6:    1  ->  hairbrushes
+   7:    1  ->  hairpins
+   8:    1  ->  hairspray
+   9:    1  ->  howled
+  10:    1  ->  would
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  bring
+   2:    1  ->  caught
+   3:    1  ->  grounds
+   4:    1  ->  held
+   5:    1  ->  her
+   6:    1  ->  lillian
+   7:    1  ->  percenters
+   8:    1  ->  prince
+   9:    1  ->  unite
+  10:    1  ->  will
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

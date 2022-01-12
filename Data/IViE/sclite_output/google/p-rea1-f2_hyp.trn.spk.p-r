@@ -1,0 +1,245 @@
+SCORING FOR SPEAKER: p-r
+     of google\p-rea1-f2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.5%   (  85)
+
+Percent Correct           =   54.2%   (  97)
+
+Percent Substitution      =   30.7%   (  55)
+Percent Deletions         =   15.1%   (  27)
+Percent Insertions        =    1.7%   (   3)
+Percent Word Accuracy     =   52.5%
+
+
+Ref. words                =           ( 179)
+Hyp. words                =           ( 155)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (54)
+                                 With >=  1 occurrences (54)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  a ==> answer
+   3:    1  ->  a ==> monday
+   4:    1  ->  and ==> i'm
+   5:    1  ->  and ==> until
+   6:    1  ->  announce ==> an
+   7:    1  ->  arrived ==> to
+   8:    1  ->  at ==> chat
+   9:    1  ->  ball ==> drive
+  10:    1  ->  ball ==> paul
+  11:    1  ->  bride ==> bright
+  12:    1  ->  but ==> guns
+  13:    1  ->  cinders ==> eastenders
+  14:    1  ->  cinders ==> is
+  15:    1  ->  cinders ==> send
+  16:    1  ->  cinders ==> to
+  17:    1  ->  clothes ==> but
+  18:    1  ->  dreamed ==> dream
+  19:    1  ->  girls ==> lazygirls
+  20:    1  ->  had ==> it
+  21:    1  ->  hairbrushes ==> hair
+  22:    1  ->  hairpins ==> pins
+  23:    1  ->  her ==> seemed
+  24:    1  ->  howled ==> to
+  25:    1  ->  lily ==> caillou
+  26:    1  ->  lived ==> live
+  27:    1  ->  mother ==> the
+  28:    1  ->  mother ==> them
+  29:    1  ->  of ==> day
+  30:    1  ->  other ==> further
+  31:    1  ->  rosa ==> rosie
+  32:    1  ->  royal ==> around
+  33:    1  ->  shouting ==> status
+  34:    1  ->  sisters ==> sister's
+  35:    1  ->  so ==> funds
+  36:    1  ->  spent ==> been
+  37:    1  ->  started ==> the
+  38:    1  ->  stepsisters ==> has
+  39:    1  ->  the ==> have
+  40:    1  ->  their ==> within
+  41:    1  ->  they ==> for
+  42:    1  ->  they ==> it's
+  43:    1  ->  they ==> the
+  44:    1  ->  they'd ==> did
+  45:    1  ->  this ==> heartbeat
+  46:    1  ->  thought ==> vs
+  47:    1  ->  two ==> sepsis
+  48:    1  ->  unfriendly ==> friendly
+  49:    1  ->  was ==> he's
+  50:    1  ->  was ==> with
+  51:    1  ->  were ==> rosie
+  52:    1  ->  were ==> though
+  53:    1  ->  when ==> of
+  54:    1  ->  would ==> will
+     -------
+        55
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+   3:    1  ->  in
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  gowns
+   2:    2  ->  one
+   3:    2  ->  rosa
+   4:    1  ->  and
+   5:    1  ->  buying
+   6:    1  ->  cinders
+   7:    1  ->  day
+   8:    1  ->  had
+   9:    1  ->  he
+  10:    1  ->  help
+  11:    1  ->  her
+  12:    1  ->  jewels
+  13:    1  ->  lazy
+  14:    1  ->  lily
+  15:    1  ->  new
+  16:    1  ->  poor
+  17:    1  ->  prince
+  18:    1  ->  that
+  19:    1  ->  they
+  20:    1  ->  to
+  21:    1  ->  was
+  22:    1  ->  wear
+  23:    1  ->  william
+  24:    1  ->  yelled
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    4  ->  cinders
+   2:    3  ->  their
+   3:    3  ->  they
+   4:    2  ->  a
+   5:    2  ->  and
+   6:    2  ->  ball
+   7:    2  ->  mother
+   8:    2  ->  was
+   9:    2  ->  were
+  10:    1  ->  announce
+  11:    1  ->  arrived
+  12:    1  ->  at
+  13:    1  ->  bride
+  14:    1  ->  but
+  15:    1  ->  clothes
+  16:    1  ->  dreamed
+  17:    1  ->  girls
+  18:    1  ->  had
+  19:    1  ->  hairbrushes
+  20:    1  ->  hairpins
+  21:    1  ->  her
+  22:    1  ->  howled
+  23:    1  ->  lily
+  24:    1  ->  lived
+  25:    1  ->  of
+  26:    1  ->  other
+  27:    1  ->  rosa
+  28:    1  ->  royal
+  29:    1  ->  shouting
+  30:    1  ->  sisters
+  31:    1  ->  so
+  32:    1  ->  spent
+  33:    1  ->  started
+  34:    1  ->  stepsisters
+  35:    1  ->  the
+  36:    1  ->  they'd
+  37:    1  ->  this
+  38:    1  ->  thought
+  39:    1  ->  two
+  40:    1  ->  unfriendly
+  41:    1  ->  when
+  42:    1  ->  would
+     -------
+        55
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    5  ->  the
+   2:    3  ->  to
+   3:    2  ->  rosie
+   4:    1  ->  an
+   5:    1  ->  answer
+   6:    1  ->  around
+   7:    1  ->  been
+   8:    1  ->  bright
+   9:    1  ->  but
+  10:    1  ->  caillou
+  11:    1  ->  chat
+  12:    1  ->  day
+  13:    1  ->  did
+  14:    1  ->  dream
+  15:    1  ->  drive
+  16:    1  ->  eastenders
+  17:    1  ->  for
+  18:    1  ->  friendly
+  19:    1  ->  funds
+  20:    1  ->  further
+  21:    1  ->  guns
+  22:    1  ->  hair
+  23:    1  ->  has
+  24:    1  ->  have
+  25:    1  ->  he's
+  26:    1  ->  heartbeat
+  27:    1  ->  i'm
+  28:    1  ->  is
+  29:    1  ->  it
+  30:    1  ->  it's
+  31:    1  ->  lazygirls
+  32:    1  ->  live
+  33:    1  ->  monday
+  34:    1  ->  of
+  35:    1  ->  paul
+  36:    1  ->  pins
+  37:    1  ->  seemed
+  38:    1  ->  send
+  39:    1  ->  sepsis
+  40:    1  ->  sister's
+  41:    1  ->  status
+  42:    1  ->  them
+  43:    1  ->  though
+  44:    1  ->  until
+  45:    1  ->  vs
+  46:    1  ->  will
+  47:    1  ->  with
+  48:    1  ->  within
+     -------
+        55
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\b-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-m4_01)
+Scores: (#C #S #D #I) 122 38 25 1
+REF:  once upon a time there was a girl called cinderella but everyone called her CINDERS cinders LIVED LIVED lived with her mother and two stepsisters called LILY AND ROSA lily and ROSA WERE very unfriendly and THEY WERE  lazy girls THEY SPENT all THEIR time BUYING new clothes AND going to PARTIES parties POOR CINDERS     HAD to wear ALL THEIR    OLD  hand me downs AND she had to do THE CLEANING one day A ROYAL messenger came to ANNOUNCE a BALL THE BALL the ball WOULD be held at the royal palace in HONOUR OF      the queen's only son prince william LILY and rosa thought THIS this was *** DIVINE PRINCE WILLIAM was gorgeous and HE was looking for a bride THEY DREAMED of WEDDING BELLS when the evening of the BALL ARRIVED CINDERS HAD to help her sisters get ready they were IN A bad MOOD they wanted to buy some new GOWNS but their mother said that they had enough GOWNS so they started shouting at cinders find my JEWELS YELLED ONE FIND      my hat YELLED THE   other THEY wanted 
+HYP:  once upon a time there was a girl called cinderella but everyone called her SENDERS cinders ***** LEFT  lived with her mother and two stepsisters called **** *** **** lily and MOSA MOSA very unfriendly and **** NEVER lazy girls **** ***** all THE   time BY     new clothes *** going to POTTERS parties **** PERCENTAGES HOW to wear *** ALTHOUGH HOLD hand me downs *** she had to do *** THIS     one day * I'LL  messenger came to ******** a NOTE OF  ALL  the ball WILL  be held at the royal palace in ****** IRELAND the queen's only son prince william **** and rosa thought **** this was THE VERY   FIRST  VOLUME  was gorgeous and ** was looking for a bride THE  DREAMS  of MANY    BILLS when the evening of the **** BOWLING CENTRES HOW to help her sisters get ready they were ** * bad MATE they wanted to buy some new GAMES but their mother said that they had enough GUYS  so they started shouting at cinders find my ****** ****** *** GLFIFTEEN my hat ****** EARLY other I    wanted 
+Eval:                                                                             S               D     S                                                      D    D   D             S    S                        D    S                D    D         S          S                  D            S               D    S           S           D   S        S                  D                 D   S                D S                       D          S    S   S             S                                    D      S                                           D                     D             I   S      S      S                        D                          S    S          S       S                             D    S       S       S                                           D  D     S                                S                                                S                                                 D      D      D   S                D      S           S           
+
+>> REF:  HAIRBRUSHES HAIRPINS AND  hairspray 
+>> HYP:  HER         BRUSHES  HURT hairspray 
+>> Eval: S           S        S              
+
+

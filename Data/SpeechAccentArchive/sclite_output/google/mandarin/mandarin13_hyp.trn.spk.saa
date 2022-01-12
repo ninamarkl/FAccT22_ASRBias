@@ -1,0 +1,133 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin13_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  6 ==> six
+   2:    1  ->  a ==> bad
+   3:    1  ->  bring ==> brain
+   4:    1  ->  call ==> scouse
+   5:    1  ->  can ==> shake
+   6:    1  ->  frog ==> crab
+   7:    1  ->  her ==> a
+   8:    1  ->  please ==> play
+   9:    1  ->  scoop ==> escape
+  10:    1  ->  small ==> smell
+  11:    1  ->  spoons ==> points
+  12:    1  ->  stella ==> down
+  13:    1  ->  store ==> listowel
+  14:    1  ->  these ==> dead
+  15:    1  ->  thick ==> 56
+  16:    1  ->  we ==> when
+  17:    1  ->  will ==> i
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  also
+   3:    1  ->  bob
+   4:    1  ->  need
+   5:    1  ->  she
+   6:    1  ->  the
+   7:    1  ->  to
+   8:    1  ->  we
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  bring
+   4:    1  ->  call
+   5:    1  ->  can
+   6:    1  ->  frog
+   7:    1  ->  her
+   8:    1  ->  please
+   9:    1  ->  scoop
+  10:    1  ->  small
+  11:    1  ->  spoons
+  12:    1  ->  stella
+  13:    1  ->  store
+  14:    1  ->  these
+  15:    1  ->  thick
+  16:    1  ->  we
+  17:    1  ->  will
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  56
+   2:    1  ->  a
+   3:    1  ->  bad
+   4:    1  ->  brain
+   5:    1  ->  crab
+   6:    1  ->  dead
+   7:    1  ->  down
+   8:    1  ->  escape
+   9:    1  ->  i
+  10:    1  ->  listowel
+  11:    1  ->  play
+  12:    1  ->  points
+  13:    1  ->  scouse
+  14:    1  ->  shake
+  15:    1  ->  six
+  16:    1  ->  smell
+  17:    1  ->  when
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

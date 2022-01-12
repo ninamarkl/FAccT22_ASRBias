@@ -1,0 +1,132 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese30_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   43.5%   (  30)
+
+Percent Correct           =   56.5%   (  39)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   21.7%   (  15)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   56.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  54)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a ==> more
+   2:    1  ->  a ==> neighbours
+   3:    1  ->  and ==> in
+   4:    1  ->  bob ==> bone
+   5:    1  ->  frog ==> pram
+   6:    1  ->  her ==> spell
+   7:    1  ->  plastic ==> to
+   8:    1  ->  scoop ==> call
+   9:    1  ->  slabs ==> loads
+  10:    1  ->  small ==> clothes
+  11:    1  ->  snack ==> make
+  12:    1  ->  snake ==> make
+  13:    1  ->  station ==> 28th
+  14:    1  ->  thick ==> 656
+  15:    1  ->  to ==> could
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  ask
+   4:    1  ->  at
+   5:    1  ->  brother
+   6:    1  ->  fresh
+   7:    1  ->  maybe
+   8:    1  ->  of
+   9:    1  ->  peas
+  10:    1  ->  snow
+  11:    1  ->  spoons
+  12:    1  ->  stella
+  13:    1  ->  train
+  14:    1  ->  we
+  15:    1  ->  will
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  bob
+   4:    1  ->  frog
+   5:    1  ->  her
+   6:    1  ->  plastic
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  small
+  10:    1  ->  snack
+  11:    1  ->  snake
+  12:    1  ->  station
+  13:    1  ->  thick
+  14:    1  ->  to
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  make
+   2:    1  ->  28th
+   3:    1  ->  656
+   4:    1  ->  bone
+   5:    1  ->  call
+   6:    1  ->  clothes
+   7:    1  ->  could
+   8:    1  ->  in
+   9:    1  ->  loads
+  10:    1  ->  more
+  11:    1  ->  neighbours
+  12:    1  ->  pram
+  13:    1  ->  spell
+  14:    1  ->  to
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

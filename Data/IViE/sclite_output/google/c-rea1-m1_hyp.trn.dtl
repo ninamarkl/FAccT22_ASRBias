@@ -1,0 +1,191 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\c-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   35.4%   (  67)
+
+Percent Correct           =   65.6%   ( 124)
+
+Percent Substitution      =   16.9%   (  32)
+Percent Deletions         =   17.5%   (  33)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   64.6%
+
+
+Ref. words                =           ( 189)
+Hyp. words                =           ( 158)
+Aligned words             =           ( 191)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  lived ==> live
+   2:    1  ->  a ==> an
+   3:    1  ->  a ==> will
+   4:    1  ->  all ==> well
+   5:    1  ->  and ==> step
+   6:    1  ->  ball ==> ansible
+   7:    1  ->  buying ==> by
+   8:    1  ->  cinders ==> ace
+   9:    1  ->  cinders ==> enders
+  10:    1  ->  dreamed ==> dream
+  11:    1  ->  girls ==> lazygirls
+  12:    1  ->  hairspray ==> modules
+  13:    1  ->  her ==> their
+  14:    1  ->  lily ==> lilley
+  15:    1  ->  messenger ==> you
+  16:    1  ->  of ==> at
+  17:    1  ->  of ==> day
+  18:    1  ->  poor ==> for
+  19:    1  ->  rosa ==> rose
+  20:    1  ->  rosa ==> rosie
+  21:    1  ->  royal ==> message
+  22:    1  ->  sep ==> steps
+  23:    1  ->  sisters ==> sister's
+  24:    1  ->  spent ==> bed
+  25:    1  ->  their ==> the
+  26:    1  ->  their ==> they're
+  27:    1  ->  they ==> guns
+  28:    1  ->  they ==> that's
+  29:    1  ->  twostepsisters ==> sister's
+  30:    1  ->  were ==> there
+  31:    1  ->  would ==> board
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  i
+   2:    1  ->  to
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  they
+   2:    2  ->  my
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  announce
+   6:    1  ->  ball
+   7:    1  ->  bride
+   8:    1  ->  find
+   9:    1  ->  for
+  10:    1  ->  gowns
+  11:    1  ->  hairbrushes
+  12:    1  ->  hairpins
+  13:    1  ->  hat
+  14:    1  ->  he
+  15:    1  ->  her
+  16:    1  ->  howled
+  17:    1  ->  jewels
+  18:    1  ->  lazy
+  19:    1  ->  looking
+  20:    1  ->  one
+  21:    1  ->  other
+  22:    1  ->  sepsisters
+  23:    1  ->  so
+  24:    1  ->  that
+  25:    1  ->  the
+  26:    1  ->  to
+  27:    1  ->  wanted
+  28:    1  ->  was
+  29:    1  ->  wear
+  30:    1  ->  yelled
+     -------
+        33
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  a
+   2:    2  ->  cinders
+   3:    2  ->  lived
+   4:    2  ->  of
+   5:    2  ->  rosa
+   6:    2  ->  their
+   7:    2  ->  they
+   8:    1  ->  all
+   9:    1  ->  and
+  10:    1  ->  ball
+  11:    1  ->  buying
+  12:    1  ->  dreamed
+  13:    1  ->  girls
+  14:    1  ->  hairspray
+  15:    1  ->  her
+  16:    1  ->  lily
+  17:    1  ->  messenger
+  18:    1  ->  poor
+  19:    1  ->  royal
+  20:    1  ->  sep
+  21:    1  ->  sisters
+  22:    1  ->  spent
+  23:    1  ->  twostepsisters
+  24:    1  ->  were
+  25:    1  ->  would
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  live
+   2:    2  ->  sister's
+   3:    1  ->  ace
+   4:    1  ->  an
+   5:    1  ->  ansible
+   6:    1  ->  at
+   7:    1  ->  bed
+   8:    1  ->  board
+   9:    1  ->  by
+  10:    1  ->  day
+  11:    1  ->  dream
+  12:    1  ->  enders
+  13:    1  ->  for
+  14:    1  ->  guns
+  15:    1  ->  lazygirls
+  16:    1  ->  lilley
+  17:    1  ->  message
+  18:    1  ->  modules
+  19:    1  ->  rose
+  20:    1  ->  rosie
+  21:    1  ->  step
+  22:    1  ->  steps
+  23:    1  ->  that's
+  24:    1  ->  the
+  25:    1  ->  their
+  26:    1  ->  there
+  27:    1  ->  they're
+  28:    1  ->  well
+  29:    1  ->  will
+  30:    1  ->  you
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

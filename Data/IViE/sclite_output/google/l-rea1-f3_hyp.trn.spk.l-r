@@ -1,0 +1,210 @@
+SCORING FOR SPEAKER: l-r
+     of google\l-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.5%   (  63)
+
+Percent Correct           =   68.6%   ( 129)
+
+Percent Substitution      =   22.9%   (  43)
+Percent Deletions         =    8.5%   (  16)
+Percent Insertions        =    2.1%   (   4)
+Percent Word Accuracy     =   66.5%
+
+
+Ref. words                =           ( 188)
+Hyp. words                =           ( 176)
+Aligned words             =           ( 192)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    1  ->  a ==> they're
+   2:    1  ->  and ==> lillian
+   3:    1  ->  and ==> rose
+   4:    1  ->  arrived ==> polarized
+   5:    1  ->  at ==> get
+   6:    1  ->  buying ==> by
+   7:    1  ->  called ==> cold
+   8:    1  ->  cinders ==> just
+   9:    1  ->  day ==> when
+  10:    1  ->  downs ==> dance
+  11:    1  ->  dreamed ==> dream
+  12:    1  ->  everyone ==> from
+  13:    1  ->  girls ==> lazygirls
+  14:    1  ->  gowns ==> ground
+  15:    1  ->  gowns ==> guns
+  16:    1  ->  had ==> have
+  17:    1  ->  hairbrushes ==> hair
+  18:    1  ->  hairpins ==> prince
+  19:    1  ->  hand ==> time
+  20:    1  ->  her ==> has
+  21:    1  ->  jewels ==> jules
+  22:    1  ->  lily ==> rosie
+  23:    1  ->  lily ==> william
+  24:    1  ->  lived ==> live
+  25:    1  ->  me ==> we
+  26:    1  ->  mother ==> they
+  27:    1  ->  of ==> at
+  28:    1  ->  of ==> day
+  29:    1  ->  old ==> all
+  30:    1  ->  poor ==> putting
+  31:    1  ->  rosa ==> i
+  32:    1  ->  rosa ==> rose
+  33:    1  ->  shouting ==> to
+  34:    1  ->  sisters ==> sister's
+  35:    1  ->  so ==> that
+  36:    1  ->  started ==> starting
+  37:    1  ->  stepsisters ==> is
+  38:    1  ->  the ==> announcer
+  39:    1  ->  their ==> that
+  40:    1  ->  their ==> will
+  41:    1  ->  they ==> is
+  42:    1  ->  they'd ==> they
+  43:    1  ->  would ==> will
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+   3:    1  ->  steps
+   4:    1  ->  then
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  a
+   2:    2  ->  ball
+   3:    1  ->  announce
+   4:    1  ->  but
+   5:    1  ->  came
+   6:    1  ->  for
+   7:    1  ->  howled
+   8:    1  ->  lazy
+   9:    1  ->  looking
+  10:    1  ->  messenger
+  11:    1  ->  one
+  12:    1  ->  rosa
+  13:    1  ->  she
+  14:    1  ->  to
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  and
+   2:    2  ->  gowns
+   3:    2  ->  lily
+   4:    2  ->  of
+   5:    2  ->  rosa
+   6:    2  ->  their
+   7:    1  ->  a
+   8:    1  ->  arrived
+   9:    1  ->  at
+  10:    1  ->  buying
+  11:    1  ->  called
+  12:    1  ->  cinders
+  13:    1  ->  day
+  14:    1  ->  downs
+  15:    1  ->  dreamed
+  16:    1  ->  everyone
+  17:    1  ->  girls
+  18:    1  ->  had
+  19:    1  ->  hairbrushes
+  20:    1  ->  hairpins
+  21:    1  ->  hand
+  22:    1  ->  her
+  23:    1  ->  jewels
+  24:    1  ->  lived
+  25:    1  ->  me
+  26:    1  ->  mother
+  27:    1  ->  old
+  28:    1  ->  poor
+  29:    1  ->  shouting
+  30:    1  ->  sisters
+  31:    1  ->  so
+  32:    1  ->  started
+  33:    1  ->  stepsisters
+  34:    1  ->  the
+  35:    1  ->  they
+  36:    1  ->  they'd
+  37:    1  ->  would
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  is
+   2:    2  ->  rose
+   3:    2  ->  that
+   4:    2  ->  they
+   5:    2  ->  will
+   6:    1  ->  all
+   7:    1  ->  announcer
+   8:    1  ->  at
+   9:    1  ->  by
+  10:    1  ->  cold
+  11:    1  ->  dance
+  12:    1  ->  day
+  13:    1  ->  dream
+  14:    1  ->  from
+  15:    1  ->  get
+  16:    1  ->  ground
+  17:    1  ->  guns
+  18:    1  ->  hair
+  19:    1  ->  has
+  20:    1  ->  have
+  21:    1  ->  i
+  22:    1  ->  jules
+  23:    1  ->  just
+  24:    1  ->  lazygirls
+  25:    1  ->  lillian
+  26:    1  ->  live
+  27:    1  ->  polarized
+  28:    1  ->  prince
+  29:    1  ->  putting
+  30:    1  ->  rosie
+  31:    1  ->  sister's
+  32:    1  ->  starting
+  33:    1  ->  they're
+  34:    1  ->  time
+  35:    1  ->  to
+  36:    1  ->  we
+  37:    1  ->  when
+  38:    1  ->  william
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

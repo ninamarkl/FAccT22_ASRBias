@@ -1,0 +1,7 @@
+<SYSTEM title="portuguese\portuguese13_hyp.trn" ref_fname="saa_ref.trn" hyp_fname="portuguese\portuguese13_hyp.trn" creation_date="Fri May 21 12:31:07 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="69" sequence="0">
+C,"please","please":C,"call","call":C,"stella","stella":C,"ask","ask":D,"her",:D,"to",:D,"bring",:C,"these","these":C,"things","things":C,"with","with":C,"her","her":C,"from","from":C,"the","the":C,"store","store":S,"6","1800":S,"spoons","is":S,"of","a":C,"fresh","fresh":C,"snow","snow":C,"peas","peas":D,"5",:S,"thick","56":C,"slabs","slabs":S,"of","and":C,"blue","blue":C,"cheese","cheese":C,"and","and":C,"maybe","maybe":D,"a",:C,"snack","snack":C,"for","for":S,"her","a":C,"brother","brother":C,"bob","bob":D,"we",:D,"also",:D,"need",:S,"a","is":S,"small","more":C,"plastic","plastic":C,"snake","snake":D,"and",:S,"a","the":C,"big","big":D,"toy",:S,"frog","typefrag":C,"for","for":C,"the","the":C,"kids","kids":D,"she",:D,"can",:D,"scoop",:C,"these","these":C,"things","things":C,"into","into":C,"3","3":C,"red","red":C,"bags","bags":D,"and",:D,"we",:D,"will",:S,"go","with":S,"meet","logo":S,"her","metre":C,"wednesday","wednesday":D,"at",:C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

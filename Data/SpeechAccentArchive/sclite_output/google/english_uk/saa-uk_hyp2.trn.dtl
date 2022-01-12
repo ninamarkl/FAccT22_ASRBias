@@ -1,0 +1,559 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: C:\cygwin64\home\ninal\sctk\SCTK\trn\SAA\google\english_uk\trn\saa-uk_hyp2.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                          64
+ with errors                            100.0%   (  64)
+
+   with substitions                     100.0%   (  64)
+   with deletions                       100.0%   (  64)
+   with insertions                       34.4%   (  22)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.1%   (1065)
+
+Percent Correct           =   76.8%   (3390)
+
+Percent Substitution      =    9.2%   ( 406)
+Percent Deletions         =   14.0%   ( 620)
+Percent Insertions        =    0.9%   (  39)
+Percent Word Accuracy     =   75.9%
+
+
+Ref. words                =           (4416)
+Hyp. words                =           (3835)
+Aligned words             =           (4455)
+
+CONFUSION PAIRS                  Total                 (210)
+                                 With >=  1 occurrences (210)
+
+   1:   45  ->  thick ==> 56
+   2:   19  ->  her ==> a
+   3:   17  ->  will ==> we'll
+   4:   13  ->  scoop ==> skip
+   5:   11  ->  her ==> metre
+   6:   11  ->  spoons ==> pounds
+   7:    9  ->  bob ==> but
+   8:    9  ->  of ==> are
+   9:    6  ->  slabs ==> 56
+  10:    6  ->  snow ==> no
+  11:    5  ->  a ==> the
+  12:    5  ->  slabs ==> labs
+  13:    4  ->  and ==> in
+  14:    4  ->  frog ==> dog
+  15:    4  ->  meet ==> me
+  16:    4  ->  of ==> labs
+  17:    4  ->  slabs ==> loads
+  18:    3  ->  5 ==> freshener
+  19:    3  ->  5 ==> please
+  20:    3  ->  5 ==> snoopy's
+  21:    3  ->  can ==> chicken
+  22:    3  ->  frog ==> frogs
+  23:    3  ->  she ==> you
+  24:    3  ->  these ==> please
+  25:    2  ->  a ==> is
+  26:    2  ->  also ==> wilson
+  27:    2  ->  brother ==> a
+  28:    2  ->  brother ==> the
+  29:    2  ->  for ==> with
+  30:    2  ->  her ==> my
+  31:    2  ->  her ==> on
+  32:    2  ->  her ==> or
+  33:    2  ->  her ==> to
+  34:    2  ->  her ==> you
+  35:    2  ->  into ==> a
+  36:    2  ->  of ==> a
+  37:    2  ->  peas ==> freshener
+  38:    2  ->  red ==> 3-bed
+  39:    2  ->  slabs ==> lives
+  40:    2  ->  snack ==> 8
+  41:    2  ->  snow ==> freshener
+  42:    2  ->  spoons ==> £6
+  43:    2  ->  store ==> or
+  44:    2  ->  the ==> a
+  45:    2  ->  we ==> you
+  46:    2  ->  with ==> from
+  47:    2  ->  with ==> of
+  48:    1  ->  3 ==> a
+  49:    1  ->  3 ==> dupree
+  50:    1  ->  3 ==> free
+  51:    1  ->  3 ==> industry
+  52:    1  ->  3 ==> really
+  53:    1  ->  5 ==> buy
+  54:    1  ->  5 ==> fire
+  55:    1  ->  5 ==> lps
+  56:    1  ->  5 ==> nappies
+  57:    1  ->  5 ==> new
+  58:    1  ->  5 ==> piece
+  59:    1  ->  6 ==> six
+  60:    1  ->  a ==> in
+  61:    1  ->  a ==> wilson
+  62:    1  ->  a ==> with
+  63:    1  ->  also ==> all
+  64:    1  ->  also ==> it
+  65:    1  ->  also ==> send
+  66:    1  ->  also ==> you
+  67:    1  ->  also ==> your
+  68:    1  ->  and ==> are
+  69:    1  ->  and ==> bag
+  70:    1  ->  and ==> snakes
+  71:    1  ->  ask ==> asked
+  72:    1  ->  ask ==> estella
+  73:    1  ->  at ==> it's
+  74:    1  ->  at ==> next
+  75:    1  ->  bags ==> bag
+  76:    1  ->  bags ==> bugs
+  77:    1  ->  blue ==> flu
+  78:    1  ->  bob ==> bra
+  79:    1  ->  bob ==> hob
+  80:    1  ->  bob ==> kebab
+  81:    1  ->  bring ==> i've
+  82:    1  ->  brother ==> below
+  83:    1  ->  brother ==> birthday
+  84:    1  ->  brother ==> lewis
+  85:    1  ->  brother ==> natural
+  86:    1  ->  brother ==> other
+  87:    1  ->  for ==> before
+  88:    1  ->  for ==> freshener
+  89:    1  ->  for ==> of
+  90:    1  ->  for ==> or
+  91:    1  ->  frog ==> bag
+  92:    1  ->  frog ==> bit
+  93:    1  ->  frog ==> flock
+  94:    1  ->  frog ==> from
+  95:    1  ->  frog ==> hug
+  96:    1  ->  frog ==> toys
+  97:    1  ->  frog ==> troll
+  98:    1  ->  from ==> a
+  99:    1  ->  from ==> to
+ 100:    1  ->  from ==> without
+ 101:    1  ->  go ==> call
+ 102:    1  ->  go ==> don't
+ 103:    1  ->  go ==> give
+ 104:    1  ->  her ==> asda
+ 105:    1  ->  her ==> asked
+ 106:    1  ->  her ==> asking
+ 107:    1  ->  her ==> bag
+ 108:    1  ->  her ==> barrow
+ 109:    1  ->  her ==> fab
+ 110:    1  ->  her ==> for
+ 111:    1  ->  her ==> here
+ 112:    1  ->  her ==> holly
+ 113:    1  ->  her ==> it's
+ 114:    1  ->  her ==> mater
+ 115:    1  ->  her ==> meeting
+ 116:    1  ->  her ==> snap40
+ 117:    1  ->  her ==> up
+ 118:    1  ->  her ==> water
+ 119:    1  ->  her ==> with
+ 120:    1  ->  her ==> your
+ 121:    1  ->  into ==> and
+ 122:    1  ->  into ==> in
+ 123:    1  ->  into ==> it's
+ 124:    1  ->  into ==> the
+ 125:    1  ->  into ==> thing
+ 126:    1  ->  kids ==> beach
+ 127:    1  ->  maybe ==> baby
+ 128:    1  ->  meet ==> meeting
+ 129:    1  ->  meet ==> metre
+ 130:    1  ->  meet ==> the
+ 131:    1  ->  need ==> in
+ 132:    1  ->  need ==> is
+ 133:    1  ->  need ==> me
+ 134:    1  ->  need ==> name
+ 135:    1  ->  need ==> singing
+ 136:    1  ->  of ==> 1800
+ 137:    1  ->  of ==> 562
+ 138:    1  ->  of ==> after
+ 139:    1  ->  of ==> loves
+ 140:    1  ->  peas ==> 6-cylinder
+ 141:    1  ->  peas ==> breath
+ 142:    1  ->  peas ==> expensive
+ 143:    1  ->  peas ==> fish
+ 144:    1  ->  peas ==> fresheners
+ 145:    1  ->  peas ==> piece
+ 146:    1  ->  peas ==> please
+ 147:    1  ->  peas ==> preston
+ 148:    1  ->  peas ==> sophie's
+ 149:    1  ->  plastic ==> classic
+ 150:    1  ->  plastic ==> party
+ 151:    1  ->  red ==> three
+ 152:    1  ->  red ==> weird
+ 153:    1  ->  scoop ==> cook
+ 154:    1  ->  scoop ==> cooked
+ 155:    1  ->  scoop ==> screw
+ 156:    1  ->  scoop ==> speak
+ 157:    1  ->  scoop ==> you
+ 158:    1  ->  she ==> boys
+ 159:    1  ->  she ==> we
+ 160:    1  ->  slabs ==> clouds
+ 161:    1  ->  slabs ==> lands
+ 162:    1  ->  slabs ==> laps
+ 163:    1  ->  slabs ==> loves
+ 164:    1  ->  slabs ==> pics
+ 165:    1  ->  small ==> more
+ 166:    1  ->  snack ==> snaps
+ 167:    1  ->  snack ==> stack
+ 168:    1  ->  snack ==> the
+ 169:    1  ->  snake ==> safe
+ 170:    1  ->  snake ==> snack
+ 171:    1  ->  snow ==> fessional
+ 172:    1  ->  spoons ==> 16th
+ 173:    1  ->  spoons ==> 6-months
+ 174:    1  ->  spoons ==> experience
+ 175:    1  ->  spoons ==> moons
+ 176:    1  ->  spoons ==> planes
+ 177:    1  ->  spoons ==> star
+ 178:    1  ->  stella ==> sarah
+ 179:    1  ->  store ==> door
+ 180:    1  ->  the ==> and
+ 181:    1  ->  the ==> chemist
+ 182:    1  ->  the ==> promised
+ 183:    1  ->  the ==> to
+ 184:    1  ->  these ==> been
+ 185:    1  ->  these ==> me
+ 186:    1  ->  these ==> skip
+ 187:    1  ->  these ==> this
+ 188:    1  ->  these ==> your
+ 189:    1  ->  thick ==> 656
+ 190:    1  ->  thick ==> bs56
+ 191:    1  ->  thick ==> p56
+ 192:    1  ->  thick ==> personalities
+ 193:    1  ->  thick ==> please
+ 194:    1  ->  thick ==> pz26
+ 195:    1  ->  thick ==> ruislip
+ 196:    1  ->  thick ==> sticks
+ 197:    1  ->  things ==> is
+ 198:    1  ->  things ==> thinking
+ 199:    1  ->  things ==> this
+ 200:    1  ->  to ==> costello
+ 201:    1  ->  to ==> the
+ 202:    1  ->  toy ==> tight
+ 203:    1  ->  toy ==> toys
+ 204:    1  ->  train ==> and
+ 205:    1  ->  we ==> pot
+ 206:    1  ->  we ==> so
+ 207:    1  ->  we ==> they
+ 208:    1  ->  wednesday ==> wedding
+ 209:    1  ->  with ==> everything's
+ 210:    1  ->  with ==> look
+     -------
+       406
+
+
+
+INSERTIONS                       Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    7  ->  and
+   2:    4  ->  to
+   3:    3  ->  thank
+   4:    3  ->  you
+   5:    2  ->  for
+   6:    2  ->  front
+   7:    2  ->  in
+   8:    2  ->  much
+   9:    2  ->  the
+  10:    2  ->  very
+  11:    1  ->  can
+  12:    1  ->  go
+  13:    1  ->  head
+  14:    1  ->  on
+  15:    1  ->  room
+  16:    1  ->  six
+  17:    1  ->  small
+  18:    1  ->  snow
+  19:    1  ->  that
+  20:    1  ->  we
+     -------
+        39
+
+
+
+DELETIONS                        Total                 (54)
+                                 With >=  1 occurrences (54)
+
+   1:   51  ->  her
+   2:   47  ->  5
+   3:   42  ->  we
+   4:   36  ->  a
+   5:   23  ->  and
+   6:   21  ->  for
+   7:   19  ->  meet
+   8:   19  ->  the
+   9:   16  ->  fresh
+  10:   16  ->  scoop
+  11:   16  ->  she
+  12:   15  ->  need
+  13:   15  ->  snow
+  14:   14  ->  can
+  15:   14  ->  these
+  16:   13  ->  6
+  17:   13  ->  ask
+  18:   12  ->  to
+  19:   11  ->  bring
+  20:   11  ->  things
+  21:   10  ->  also
+  22:   10  ->  big
+  23:   10  ->  thick
+  24:    9  ->  maybe
+  25:    9  ->  toy
+  26:    8  ->  brother
+  27:    8  ->  go
+  28:    8  ->  peas
+  29:    8  ->  with
+  30:    7  ->  3
+  31:    7  ->  bob
+  32:    7  ->  of
+  33:    7  ->  snack
+  34:    7  ->  will
+  35:    6  ->  at
+  36:    6  ->  frog
+  37:    6  ->  from
+  38:    6  ->  small
+  39:    6  ->  spoons
+  40:    5  ->  bags
+  41:    5  ->  into
+  42:    5  ->  red
+  43:    5  ->  wednesday
+  44:    4  ->  plastic
+  45:    4  ->  snake
+  46:    4  ->  train
+  47:    3  ->  kids
+  48:    3  ->  slabs
+  49:    3  ->  stella
+  50:    3  ->  store
+  51:    2  ->  blue
+  52:    2  ->  cheese
+  53:    2  ->  station
+  54:    1  ->  call
+     -------
+       620
+
+
+
+SUBSTITUTIONS                    Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:   57  ->  her
+   2:   53  ->  thick
+   3:   22  ->  slabs
+   4:   19  ->  of
+   5:   19  ->  spoons
+   6:   18  ->  scoop
+   7:   17  ->  will
+   8:   15  ->  5
+   9:   14  ->  frog
+  10:   12  ->  bob
+  11:   11  ->  peas
+  12:   10  ->  a
+  13:    9  ->  brother
+  14:    9  ->  snow
+  15:    8  ->  these
+  16:    7  ->  also
+  17:    7  ->  and
+  18:    7  ->  into
+  19:    7  ->  meet
+  20:    6  ->  for
+  21:    6  ->  the
+  22:    6  ->  with
+  23:    5  ->  3
+  24:    5  ->  need
+  25:    5  ->  she
+  26:    5  ->  snack
+  27:    5  ->  we
+  28:    4  ->  red
+  29:    3  ->  can
+  30:    3  ->  from
+  31:    3  ->  go
+  32:    3  ->  store
+  33:    3  ->  things
+  34:    2  ->  ask
+  35:    2  ->  at
+  36:    2  ->  bags
+  37:    2  ->  plastic
+  38:    2  ->  snake
+  39:    2  ->  to
+  40:    2  ->  toy
+  41:    1  ->  6
+  42:    1  ->  blue
+  43:    1  ->  bring
+  44:    1  ->  kids
+  45:    1  ->  maybe
+  46:    1  ->  small
+  47:    1  ->  stella
+  48:    1  ->  train
+  49:    1  ->  wednesday
+     -------
+       406
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (153)
+                                 With >=  1 occurrences (153)
+
+   1:   51  ->  56
+   2:   29  ->  a
+   3:   17  ->  we'll
+   4:   14  ->  skip
+   5:   12  ->  metre
+   6:   11  ->  pounds
+   7:   11  ->  the
+   8:   10  ->  are
+   9:    9  ->  but
+  10:    9  ->  labs
+  11:    9  ->  you
+  12:    8  ->  freshener
+  13:    8  ->  please
+  14:    7  ->  in
+  15:    6  ->  me
+  16:    6  ->  no
+  17:    5  ->  or
+  18:    4  ->  bag
+  19:    4  ->  dog
+  20:    4  ->  is
+  21:    4  ->  loads
+  22:    4  ->  to
+  23:    4  ->  with
+  24:    3  ->  and
+  25:    3  ->  chicken
+  26:    3  ->  frogs
+  27:    3  ->  from
+  28:    3  ->  it's
+  29:    3  ->  of
+  30:    3  ->  snoopy's
+  31:    3  ->  wilson
+  32:    3  ->  your
+  33:    2  ->  3-bed
+  34:    2  ->  8
+  35:    2  ->  asked
+  36:    2  ->  lives
+  37:    2  ->  loves
+  38:    2  ->  meeting
+  39:    2  ->  my
+  40:    2  ->  on
+  41:    2  ->  piece
+  42:    2  ->  this
+  43:    2  ->  toys
+  44:    2  ->  £6
+  45:    1  ->  16th
+  46:    1  ->  1800
+  47:    1  ->  562
+  48:    1  ->  6-cylinder
+  49:    1  ->  6-months
+  50:    1  ->  656
+  51:    1  ->  after
+  52:    1  ->  all
+  53:    1  ->  asda
+  54:    1  ->  asking
+  55:    1  ->  baby
+  56:    1  ->  barrow
+  57:    1  ->  beach
+  58:    1  ->  been
+  59:    1  ->  before
+  60:    1  ->  below
+  61:    1  ->  birthday
+  62:    1  ->  bit
+  63:    1  ->  boys
+  64:    1  ->  bra
+  65:    1  ->  breath
+  66:    1  ->  bs56
+  67:    1  ->  bugs
+  68:    1  ->  buy
+  69:    1  ->  call
+  70:    1  ->  chemist
+  71:    1  ->  classic
+  72:    1  ->  clouds
+  73:    1  ->  cook
+  74:    1  ->  cooked
+  75:    1  ->  costello
+  76:    1  ->  don't
+  77:    1  ->  door
+  78:    1  ->  dupree
+  79:    1  ->  estella
+  80:    1  ->  everything's
+  81:    1  ->  expensive
+  82:    1  ->  experience
+  83:    1  ->  fab
+  84:    1  ->  fessional
+  85:    1  ->  fire
+  86:    1  ->  fish
+  87:    1  ->  flock
+  88:    1  ->  flu
+  89:    1  ->  for
+  90:    1  ->  free
+  91:    1  ->  fresheners
+  92:    1  ->  give
+  93:    1  ->  here
+  94:    1  ->  hob
+  95:    1  ->  holly
+  96:    1  ->  hug
+  97:    1  ->  i've
+  98:    1  ->  industry
+  99:    1  ->  it
+ 100:    1  ->  kebab
+ 101:    1  ->  lands
+ 102:    1  ->  laps
+ 103:    1  ->  lewis
+ 104:    1  ->  look
+ 105:    1  ->  lps
+ 106:    1  ->  mater
+ 107:    1  ->  moons
+ 108:    1  ->  more
+ 109:    1  ->  name
+ 110:    1  ->  nappies
+ 111:    1  ->  natural
+ 112:    1  ->  new
+ 113:    1  ->  next
+ 114:    1  ->  other
+ 115:    1  ->  p56
+ 116:    1  ->  party
+ 117:    1  ->  personalities
+ 118:    1  ->  pics
+ 119:    1  ->  planes
+ 120:    1  ->  pot
+ 121:    1  ->  preston
+ 122:    1  ->  promised
+ 123:    1  ->  pz26
+ 124:    1  ->  really
+ 125:    1  ->  ruislip
+ 126:    1  ->  safe
+ 127:    1  ->  sarah
+ 128:    1  ->  screw
+ 129:    1  ->  send
+ 130:    1  ->  singing
+ 131:    1  ->  six
+ 132:    1  ->  snack
+ 133:    1  ->  snakes
+ 134:    1  ->  snap40
+ 135:    1  ->  snaps
+ 136:    1  ->  so
+ 137:    1  ->  sophie's
+ 138:    1  ->  speak
+ 139:    1  ->  stack
+ 140:    1  ->  star
+ 141:    1  ->  sticks
+ 142:    1  ->  they
+ 143:    1  ->  thing
+ 144:    1  ->  thinking
+ 145:    1  ->  three
+ 146:    1  ->  tight
+ 147:    1  ->  troll
+ 148:    1  ->  up
+ 149:    1  ->  water
+ 150:    1  ->  we
+ 151:    1  ->  wedding
+ 152:    1  ->  weird
+ 153:    1  ->  without
+     -------
+       406
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

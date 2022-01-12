@@ -1,0 +1,101 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin37_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5 ==> snowpeak
+   2:    1  ->  peas ==> french
+   3:    1  ->  scoop ==> scope
+   4:    1  ->  snack ==> snake
+   5:    1  ->  spoons ==> sixbones
+   6:    1  ->  stella ==> stela
+   7:    1  ->  thick ==> southeast
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  big
+   4:    1  ->  fresh
+   5:    1  ->  her
+   6:    1  ->  snow
+   7:    1  ->  toy
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5
+   2:    1  ->  peas
+   3:    1  ->  scoop
+   4:    1  ->  snack
+   5:    1  ->  spoons
+   6:    1  ->  stella
+   7:    1  ->  thick
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  french
+   2:    1  ->  scope
+   3:    1  ->  sixbones
+   4:    1  ->  snake
+   5:    1  ->  snowpeak
+   6:    1  ->  southeast
+   7:    1  ->  stela
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

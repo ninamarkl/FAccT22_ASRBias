@@ -1,0 +1,194 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\b-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.6%   (  64)
+
+Percent Correct           =   65.9%   ( 122)
+
+Percent Substitution      =   20.5%   (  38)
+Percent Deletions         =   13.5%   (  25)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =   65.4%
+
+
+Ref. words                =           ( 185)
+Hyp. words                =           ( 161)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  had ==> how
+   2:    1  ->  and ==> hurt
+   3:    1  ->  arrived ==> bowling
+   4:    1  ->  ball ==> all
+   5:    1  ->  ball ==> note
+   6:    1  ->  bells ==> bills
+   7:    1  ->  buying ==> by
+   8:    1  ->  cinders ==> centres
+   9:    1  ->  cinders ==> percentages
+  10:    1  ->  cinders ==> senders
+  11:    1  ->  cleaning ==> this
+  12:    1  ->  divine ==> very
+  13:    1  ->  dreamed ==> dreams
+  14:    1  ->  find ==> glfifteen
+  15:    1  ->  gowns ==> games
+  16:    1  ->  gowns ==> guys
+  17:    1  ->  hairbrushes ==> her
+  18:    1  ->  hairpins ==> brushes
+  19:    1  ->  lived ==> left
+  20:    1  ->  mood ==> mate
+  21:    1  ->  of ==> ireland
+  22:    1  ->  old ==> hold
+  23:    1  ->  parties ==> potters
+  24:    1  ->  prince ==> first
+  25:    1  ->  rosa ==> mosa
+  26:    1  ->  royal ==> i'll
+  27:    1  ->  the ==> early
+  28:    1  ->  the ==> of
+  29:    1  ->  their ==> although
+  30:    1  ->  their ==> the
+  31:    1  ->  they ==> i
+  32:    1  ->  they ==> the
+  33:    1  ->  wedding ==> many
+  34:    1  ->  were ==> mosa
+  35:    1  ->  were ==> never
+  36:    1  ->  william ==> volume
+  37:    1  ->  would ==> will
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    3  ->  and
+   2:    2  ->  a
+   3:    2  ->  lily
+   4:    2  ->  they
+   5:    2  ->  yelled
+   6:    1  ->  all
+   7:    1  ->  announce
+   8:    1  ->  ball
+   9:    1  ->  he
+  10:    1  ->  honour
+  11:    1  ->  in
+  12:    1  ->  jewels
+  13:    1  ->  lived
+  14:    1  ->  one
+  15:    1  ->  poor
+  16:    1  ->  rosa
+  17:    1  ->  spent
+  18:    1  ->  the
+  19:    1  ->  this
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  cinders
+   2:    2  ->  ball
+   3:    2  ->  gowns
+   4:    2  ->  had
+   5:    2  ->  the
+   6:    2  ->  their
+   7:    2  ->  they
+   8:    2  ->  were
+   9:    1  ->  and
+  10:    1  ->  arrived
+  11:    1  ->  bells
+  12:    1  ->  buying
+  13:    1  ->  cleaning
+  14:    1  ->  divine
+  15:    1  ->  dreamed
+  16:    1  ->  find
+  17:    1  ->  hairbrushes
+  18:    1  ->  hairpins
+  19:    1  ->  lived
+  20:    1  ->  mood
+  21:    1  ->  of
+  22:    1  ->  old
+  23:    1  ->  parties
+  24:    1  ->  prince
+  25:    1  ->  rosa
+  26:    1  ->  royal
+  27:    1  ->  wedding
+  28:    1  ->  william
+  29:    1  ->  would
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  how
+   2:    2  ->  mosa
+   3:    2  ->  the
+   4:    1  ->  all
+   5:    1  ->  although
+   6:    1  ->  bills
+   7:    1  ->  bowling
+   8:    1  ->  brushes
+   9:    1  ->  by
+  10:    1  ->  centres
+  11:    1  ->  dreams
+  12:    1  ->  early
+  13:    1  ->  first
+  14:    1  ->  games
+  15:    1  ->  glfifteen
+  16:    1  ->  guys
+  17:    1  ->  her
+  18:    1  ->  hold
+  19:    1  ->  hurt
+  20:    1  ->  i
+  21:    1  ->  i'll
+  22:    1  ->  ireland
+  23:    1  ->  left
+  24:    1  ->  many
+  25:    1  ->  mate
+  26:    1  ->  never
+  27:    1  ->  note
+  28:    1  ->  of
+  29:    1  ->  percentages
+  30:    1  ->  potters
+  31:    1  ->  senders
+  32:    1  ->  this
+  33:    1  ->  very
+  34:    1  ->  volume
+  35:    1  ->  will
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

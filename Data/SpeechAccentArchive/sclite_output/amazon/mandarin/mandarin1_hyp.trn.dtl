@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  and ==> dh
+   2:    1  ->  ask ==> asked
+   3:    1  ->  at ==> add
+   4:    1  ->  bags ==> backs
+   5:    1  ->  call ==> course
+   6:    1  ->  for ==> from
+   7:    1  ->  fresh ==> reg
+   8:    1  ->  kids ==> ds
+   9:    1  ->  plastic ==> plastics
+  10:    1  ->  scoop ==> scope
+  11:    1  ->  snack ==> snake
+  12:    1  ->  snake ==> neck
+  13:    1  ->  these ==> the
+  14:    1  ->  toy ==> tour
+  15:    1  ->  wednesday ==> they
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  k
+   2:    1  ->  on
+   3:    1  ->  was
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  and
+   2:    1  ->  ask
+   3:    1  ->  at
+   4:    1  ->  bags
+   5:    1  ->  call
+   6:    1  ->  for
+   7:    1  ->  fresh
+   8:    1  ->  kids
+   9:    1  ->  plastic
+  10:    1  ->  scoop
+  11:    1  ->  snack
+  12:    1  ->  snake
+  13:    1  ->  these
+  14:    1  ->  toy
+  15:    1  ->  wednesday
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  add
+   2:    1  ->  asked
+   3:    1  ->  backs
+   4:    1  ->  course
+   5:    1  ->  dh
+   6:    1  ->  ds
+   7:    1  ->  from
+   8:    1  ->  neck
+   9:    1  ->  plastics
+  10:    1  ->  reg
+  11:    1  ->  scope
+  12:    1  ->  snake
+  13:    1  ->  the
+  14:    1  ->  they
+  15:    1  ->  tour
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

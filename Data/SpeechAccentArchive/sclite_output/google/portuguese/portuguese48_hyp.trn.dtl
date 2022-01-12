@@ -1,0 +1,128 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: portuguese\portuguese48_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  5 ==> he's
+   2:    1  ->  a ==> his
+   3:    1  ->  a ==> nearest
+   4:    1  ->  also ==> where's
+   5:    1  ->  and ==> in
+   6:    1  ->  frog ==> toys
+   7:    1  ->  maybe ==> made
+   8:    1  ->  need ==> the
+   9:    1  ->  peas ==> now
+  10:    1  ->  slabs ==> level
+  11:    1  ->  snack ==> neck
+  12:    1  ->  spoons ==> mils
+  13:    1  ->  station ==> playstation
+  14:    1  ->  these ==> saying
+  15:    1  ->  thick ==> 56
+  16:    1  ->  we ==> bra
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  the
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  snow
+   5:    1  ->  these
+   6:    1  ->  toy
+   7:    1  ->  train
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  a
+   2:    1  ->  5
+   3:    1  ->  also
+   4:    1  ->  and
+   5:    1  ->  frog
+   6:    1  ->  maybe
+   7:    1  ->  need
+   8:    1  ->  peas
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  spoons
+  12:    1  ->  station
+  13:    1  ->  these
+  14:    1  ->  thick
+  15:    1  ->  we
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  56
+   2:    1  ->  bra
+   3:    1  ->  he's
+   4:    1  ->  his
+   5:    1  ->  in
+   6:    1  ->  level
+   7:    1  ->  made
+   8:    1  ->  mils
+   9:    1  ->  nearest
+  10:    1  ->  neck
+  11:    1  ->  now
+  12:    1  ->  playstation
+  13:    1  ->  saying
+  14:    1  ->  the
+  15:    1  ->  toys
+  16:    1  ->  where's
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,164 @@
+SCORING FOR SPEAKER: saa
+     of thai\thai8_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   62.3%   (  43)
+
+Percent Correct           =   39.1%   (  27)
+
+Percent Substitution      =   36.2%   (  25)
+Percent Deletions         =   24.6%   (  17)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   37.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  53)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  5 ==> for
+   2:    1  ->  also ==> so
+   3:    1  ->  and ==> back
+   4:    1  ->  ask ==> asked
+   5:    1  ->  at ==> and
+   6:    1  ->  bags ==> left
+   7:    1  ->  blue ==> p56f
+   8:    1  ->  bob ==> but
+   9:    1  ->  brother ==> nothing
+  10:    1  ->  call ==> disgusted
+  11:    1  ->  cheese ==> abilities
+  12:    1  ->  frog ==> for
+  13:    1  ->  go ==> call
+  14:    1  ->  her ==> as
+  15:    1  ->  meet ==> me
+  16:    1  ->  of ==> personal
+  17:    1  ->  red ==> three
+  18:    1  ->  scoop ==> skip
+  19:    1  ->  slabs ==> 6.0
+  20:    1  ->  snake ==> snack
+  21:    1  ->  stella ==> i
+  22:    1  ->  these ==> bindi
+  23:    1  ->  these ==> this
+  24:    1  ->  thick ==> mr
+  25:    1  ->  toy ==> victoria
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  are
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a
+   2:    1  ->  3
+   3:    1  ->  6
+   4:    1  ->  big
+   5:    1  ->  bring
+   6:    1  ->  for
+   7:    1  ->  fresh
+   8:    1  ->  from
+   9:    1  ->  of
+  10:    1  ->  peas
+  11:    1  ->  please
+  12:    1  ->  snack
+  13:    1  ->  snow
+  14:    1  ->  spoons
+  15:    1  ->  store
+  16:    1  ->  the
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  also
+   4:    1  ->  and
+   5:    1  ->  ask
+   6:    1  ->  at
+   7:    1  ->  bags
+   8:    1  ->  blue
+   9:    1  ->  bob
+  10:    1  ->  brother
+  11:    1  ->  call
+  12:    1  ->  cheese
+  13:    1  ->  frog
+  14:    1  ->  go
+  15:    1  ->  her
+  16:    1  ->  meet
+  17:    1  ->  of
+  18:    1  ->  red
+  19:    1  ->  scoop
+  20:    1  ->  slabs
+  21:    1  ->  snake
+  22:    1  ->  stella
+  23:    1  ->  thick
+  24:    1  ->  toy
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  for
+   2:    1  ->  6.0
+   3:    1  ->  abilities
+   4:    1  ->  and
+   5:    1  ->  as
+   6:    1  ->  asked
+   7:    1  ->  back
+   8:    1  ->  bindi
+   9:    1  ->  but
+  10:    1  ->  call
+  11:    1  ->  disgusted
+  12:    1  ->  i
+  13:    1  ->  left
+  14:    1  ->  me
+  15:    1  ->  mr
+  16:    1  ->  nothing
+  17:    1  ->  p56f
+  18:    1  ->  personal
+  19:    1  ->  skip
+  20:    1  ->  snack
+  21:    1  ->  so
+  22:    1  ->  this
+  23:    1  ->  three
+  24:    1  ->  victoria
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

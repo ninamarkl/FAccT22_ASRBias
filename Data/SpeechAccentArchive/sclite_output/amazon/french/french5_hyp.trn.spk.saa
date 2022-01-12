@@ -1,0 +1,101 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    3  ->  and ==> on
+   2:    2  ->  of ==> off
+   3:    1  ->  a ==> it's
+   4:    1  ->  ask ==> asks
+   5:    1  ->  her ==> heard
+   6:    1  ->  snack ==> not
+   7:    1  ->  thick ==> fifty-six
+   8:    1  ->  with ==> we've
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  for
+   2:    1  ->  her
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  five
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    3  ->  and
+   2:    2  ->  of
+   3:    1  ->  a
+   4:    1  ->  ask
+   5:    1  ->  her
+   6:    1  ->  snack
+   7:    1  ->  thick
+   8:    1  ->  with
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    3  ->  on
+   2:    2  ->  off
+   3:    1  ->  asks
+   4:    1  ->  fifty-six
+   5:    1  ->  heard
+   6:    1  ->  it's
+   7:    1  ->  not
+   8:    1  ->  we've
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

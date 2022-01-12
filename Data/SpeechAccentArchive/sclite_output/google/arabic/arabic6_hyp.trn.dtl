@@ -1,0 +1,131 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   43.5%   (  30)
+
+Percent Correct           =   56.5%   (  39)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =   20.3%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   56.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  55)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  5 ==> bristol
+   3:    1  ->  bob ==> is
+   4:    1  ->  call ==> could
+   5:    1  ->  cheese ==> protease
+   6:    1  ->  frog ==> toys
+   7:    1  ->  her ==> help
+   8:    1  ->  peas ==> expensive
+   9:    1  ->  scoop ==> cope
+  10:    1  ->  slabs ==> lots
+  11:    1  ->  snow ==> so
+  12:    1  ->  stella ==> you
+  13:    1  ->  thick ==> bs6
+  14:    1  ->  things ==> distance
+  15:    1  ->  things ==> thing
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  bags
+   4:    1  ->  blue
+   5:    1  ->  brother
+   6:    1  ->  for
+   7:    1  ->  fresh
+   8:    1  ->  her
+   9:    1  ->  of
+  10:    1  ->  red
+  11:    1  ->  snack
+  12:    1  ->  spoons
+  13:    1  ->  store
+  14:    1  ->  toy
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  5
+   4:    1  ->  bob
+   5:    1  ->  call
+   6:    1  ->  cheese
+   7:    1  ->  frog
+   8:    1  ->  her
+   9:    1  ->  peas
+  10:    1  ->  scoop
+  11:    1  ->  slabs
+  12:    1  ->  snow
+  13:    1  ->  stella
+  14:    1  ->  thick
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  this
+   2:    1  ->  bristol
+   3:    1  ->  bs6
+   4:    1  ->  cope
+   5:    1  ->  could
+   6:    1  ->  distance
+   7:    1  ->  expensive
+   8:    1  ->  help
+   9:    1  ->  is
+  10:    1  ->  lots
+  11:    1  ->  protease
+  12:    1  ->  so
+  13:    1  ->  thing
+  14:    1  ->  toys
+  15:    1  ->  you
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

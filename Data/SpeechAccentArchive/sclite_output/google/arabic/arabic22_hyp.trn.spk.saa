@@ -1,0 +1,148 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic22_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   95.7%   (  66)
+
+Percent Correct           =    4.3%   (   3)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =   84.1%   (  58)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =    4.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  11)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and ==> because
+   2:    1  ->  bags ==> glasses
+   3:    1  ->  for ==> book
+   4:    1  ->  her ==> scarsdale
+   5:    1  ->  red ==> small
+   6:    1  ->  station ==> work
+   7:    1  ->  the ==> had
+   8:    1  ->  train ==> to
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    3  ->  a
+   2:    3  ->  her
+   3:    2  ->  and
+   4:    2  ->  of
+   5:    2  ->  these
+   6:    2  ->  things
+   7:    1  ->  3
+   8:    1  ->  5
+   9:    1  ->  6
+  10:    1  ->  also
+  11:    1  ->  ask
+  12:    1  ->  at
+  13:    1  ->  big
+  14:    1  ->  blue
+  15:    1  ->  bob
+  16:    1  ->  bring
+  17:    1  ->  call
+  18:    1  ->  can
+  19:    1  ->  cheese
+  20:    1  ->  for
+  21:    1  ->  fresh
+  22:    1  ->  frog
+  23:    1  ->  from
+  24:    1  ->  go
+  25:    1  ->  into
+  26:    1  ->  kids
+  27:    1  ->  maybe
+  28:    1  ->  meet
+  29:    1  ->  need
+  30:    1  ->  peas
+  31:    1  ->  plastic
+  32:    1  ->  please
+  33:    1  ->  scoop
+  34:    1  ->  she
+  35:    1  ->  slabs
+  36:    1  ->  small
+  37:    1  ->  snack
+  38:    1  ->  snake
+  39:    1  ->  snow
+  40:    1  ->  spoons
+  41:    1  ->  stella
+  42:    1  ->  store
+  43:    1  ->  the
+  44:    1  ->  thick
+  45:    1  ->  to
+  46:    1  ->  toy
+  47:    1  ->  we
+  48:    1  ->  wednesday
+  49:    1  ->  will
+  50:    1  ->  with
+     -------
+        58
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  bags
+   3:    1  ->  for
+   4:    1  ->  her
+   5:    1  ->  red
+   6:    1  ->  station
+   7:    1  ->  the
+   8:    1  ->  train
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  because
+   2:    1  ->  book
+   3:    1  ->  glasses
+   4:    1  ->  had
+   5:    1  ->  scarsdale
+   6:    1  ->  small
+   7:    1  ->  to
+   8:    1  ->  work
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

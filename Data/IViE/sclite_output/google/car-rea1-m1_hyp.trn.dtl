@@ -1,0 +1,193 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\car-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.7%   (  59)
+
+Percent Correct           =   69.4%   ( 129)
+
+Percent Substitution      =   21.5%   (  40)
+Percent Deletions         =    9.1%   (  17)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   68.3%
+
+
+Ref. words                =           ( 186)
+Hyp. words                =           ( 171)
+Aligned words             =           ( 188)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  gowns ==> guns
+   2:    1  ->  a ==> wendy
+   3:    1  ->  all ==> have
+   4:    1  ->  and ==> in
+   5:    1  ->  and ==> lillian
+   6:    1  ->  arrived ==> in
+   7:    1  ->  ball ==> arrives
+   8:    1  ->  ball ==> of
+   9:    1  ->  called ==> calls
+  10:    1  ->  cinders ==> does
+  11:    1  ->  cinders ==> extended
+  12:    1  ->  cinders ==> persons
+  13:    1  ->  dreamed ==> daydream
+  14:    1  ->  enough ==> nerf
+  15:    1  ->  find ==> tipped
+  16:    1  ->  gorgeous ==> he
+  17:    1  ->  had ==> have
+  18:    1  ->  hairpins ==> hurricanes
+  19:    1  ->  hehad ==> has
+  20:    1  ->  howled ==> how
+  21:    1  ->  jewels ==> modules
+  22:    1  ->  lily ==> cover
+  23:    1  ->  lily ==> lilley
+  24:    1  ->  lived ==> live
+  25:    1  ->  messenger ==> messengers
+  26:    1  ->  of ==> the
+  27:    1  ->  one ==> when
+  28:    1  ->  rosa ==> rose
+  29:    1  ->  rosa ==> rosie
+  30:    1  ->  spent ==> different
+  31:    1  ->  their ==> it
+  32:    1  ->  their ==> the
+  33:    1  ->  they ==> bright
+  34:    1  ->  they ==> girl
+  35:    1  ->  they ==> he
+  36:    1  ->  they ==> you
+  37:    1  ->  were ==> you
+  38:    1  ->  would ==> will
+  39:    1  ->  yelled ==> yard
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  boat
+   2:    1  ->  no
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a
+   2:    1  ->  at
+   3:    1  ->  bride
+   4:    1  ->  called
+   5:    1  ->  day
+   6:    1  ->  get
+   7:    1  ->  girls
+   8:    1  ->  her
+   9:    1  ->  my
+  10:    1  ->  one
+  11:    1  ->  poor
+  12:    1  ->  ready
+  13:    1  ->  sisters
+  14:    1  ->  they
+  15:    1  ->  to
+  16:    1  ->  wear
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  they
+   2:    3  ->  cinders
+   3:    2  ->  and
+   4:    2  ->  ball
+   5:    2  ->  gowns
+   6:    2  ->  lily
+   7:    2  ->  rosa
+   8:    2  ->  their
+   9:    1  ->  a
+  10:    1  ->  all
+  11:    1  ->  arrived
+  12:    1  ->  called
+  13:    1  ->  dreamed
+  14:    1  ->  enough
+  15:    1  ->  find
+  16:    1  ->  gorgeous
+  17:    1  ->  had
+  18:    1  ->  hairpins
+  19:    1  ->  hehad
+  20:    1  ->  howled
+  21:    1  ->  jewels
+  22:    1  ->  lived
+  23:    1  ->  messenger
+  24:    1  ->  of
+  25:    1  ->  one
+  26:    1  ->  spent
+  27:    1  ->  were
+  28:    1  ->  would
+  29:    1  ->  yelled
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  guns
+   2:    2  ->  have
+   3:    2  ->  he
+   4:    2  ->  in
+   5:    2  ->  the
+   6:    2  ->  you
+   7:    1  ->  arrives
+   8:    1  ->  bright
+   9:    1  ->  calls
+  10:    1  ->  cover
+  11:    1  ->  daydream
+  12:    1  ->  different
+  13:    1  ->  does
+  14:    1  ->  extended
+  15:    1  ->  girl
+  16:    1  ->  has
+  17:    1  ->  how
+  18:    1  ->  hurricanes
+  19:    1  ->  it
+  20:    1  ->  lilley
+  21:    1  ->  lillian
+  22:    1  ->  live
+  23:    1  ->  messengers
+  24:    1  ->  modules
+  25:    1  ->  nerf
+  26:    1  ->  of
+  27:    1  ->  persons
+  28:    1  ->  rose
+  29:    1  ->  rosie
+  30:    1  ->  tipped
+  31:    1  ->  wendy
+  32:    1  ->  when
+  33:    1  ->  will
+  34:    1  ->  yard
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

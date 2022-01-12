@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\german\german33_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 47 16 6 0
+REF:  please call stella ASK   her to bring these things with her from the store six spoons OF  FRESH snow PEAS FIVE THICK     SLABS OF    blue cheese AND maybe A snack for her brother bob WE  also NEED A    SMALL plastic snake and a big toy frog for the kids SHE CAN       SCOOP  THESE things INTO  three red bags and WE WILL  go meet HER  wednesday at the train station 
+HYP:  please call stella ASKED her to bring these things with her from the store six spoons OFF RARE  snow **** PACE FIFTY-SIX LAPS  OFTHE blue cheese *** maybe * snack for her brother bob YOU also **** JUST MORE  plastic snake and a big toy frog for the kids *** CHICKEN'S COOKED HIS   things UNTIL three red bags and ** WE'LL go meet HERE wednesday at the train station 
+Eval:                    S                                                                  S   S          D    S    S         S     S                 D         D                           S        D    S    S                                                   D   S         S      S            S                        D  S             S                                   
+
+

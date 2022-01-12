@@ -1,0 +1,149 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish61_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   65.2%   (  45)
+
+Percent Correct           =   34.8%   (  24)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =   36.2%   (  25)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   34.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  44)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  a ==> is
+   3:    1  ->  bring ==> read
+   4:    1  ->  can ==> can't
+   5:    1  ->  for ==> wii
+   6:    1  ->  frog ==> brothers
+   7:    1  ->  her ==> hair
+   8:    1  ->  her ==> him
+   9:    1  ->  kids ==> me
+  10:    1  ->  scoop ==> escape
+  11:    1  ->  slabs ==> life
+  12:    1  ->  snack ==> not
+  13:    1  ->  station ==> hurts
+  14:    1  ->  the ==> drive
+  15:    1  ->  the ==> option
+  16:    1  ->  thick ==> 5-ft
+  17:    1  ->  things ==> page
+  18:    1  ->  things ==> thing
+  19:    1  ->  train ==> back
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  we
+   4:    1  ->  5
+   5:    1  ->  also
+   6:    1  ->  at
+   7:    1  ->  bags
+   8:    1  ->  big
+   9:    1  ->  bob
+  10:    1  ->  brother
+  11:    1  ->  go
+  12:    1  ->  her
+  13:    1  ->  meet
+  14:    1  ->  need
+  15:    1  ->  plastic
+  16:    1  ->  red
+  17:    1  ->  small
+  18:    1  ->  snake
+  19:    1  ->  spoons
+  20:    1  ->  toy
+  21:    1  ->  wednesday
+  22:    1  ->  will
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  her
+   2:    2  ->  the
+   3:    2  ->  these
+   4:    2  ->  things
+   5:    1  ->  a
+   6:    1  ->  bring
+   7:    1  ->  can
+   8:    1  ->  for
+   9:    1  ->  frog
+  10:    1  ->  kids
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  snack
+  14:    1  ->  station
+  15:    1  ->  thick
+  16:    1  ->  train
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  this
+   2:    1  ->  5-ft
+   3:    1  ->  back
+   4:    1  ->  brothers
+   5:    1  ->  can't
+   6:    1  ->  drive
+   7:    1  ->  escape
+   8:    1  ->  hair
+   9:    1  ->  him
+  10:    1  ->  hurts
+  11:    1  ->  is
+  12:    1  ->  life
+  13:    1  ->  me
+  14:    1  ->  not
+  15:    1  ->  option
+  16:    1  ->  page
+  17:    1  ->  read
+  18:    1  ->  thing
+  19:    1  ->  wii
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

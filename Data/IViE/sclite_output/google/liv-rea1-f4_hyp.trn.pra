@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\liv-rea1-f4_hyp.trn
+
+Speakers: 
+    0:  liv
+
+Speaker sentences   0:  liv   #utts: 1
+id: (liv-rea1-f4_01)
+Scores: (#C #S #D #I) 150 34 10 3
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVED with her mother and two stepsisters called lily and ROSA  lily and ROSA  were very unfriendly and they WERE LAZY GIRLS     they spent all THEIR time BUYING new clothes and going to parties POOR CINDERS   had to WEAR all THEIR old hand me downs and she had to do the cleaning one day A   royal messenger came to announce A BALL THE THE B BALL    would be held AT the royal palace palace the ball WOULD be held IN the royal palace in ** HONOUR OF  THE  queen's only SON prince william LILY   and rosa thought this was divine prince william was gorgeous and he was looking for a bride THEY DREAMED of wedding bells when the evening OF the ball arrived *** CINDERS HAD to help her sisters get ready ready THEY WERE  in a bad mood THEY'D wanted to buy some new GOWNS but their mother said that they HAD    enough GOWNS so they started shouting at cinders find me my JEWELS YELLED one find me my HAT 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVE  with her mother and two stepsisters called lily and ROSIE lily and ROSIE were very unfriendly and they **** **** LAZYGIRLS they spent all THE   time BY     new clothes and going to parties FOR  CYLINDERS had to WAIT all THE   old hand me downs and she had to do the cleaning one day AND royal messenger came to announce * **** *** *** * SUPPORT would be held IN the royal palace palace the ball WILL  be held AT the royal palace in AN IN     AND HAVE queen's only *** prince william LILLEY and rosa thought this was divine prince william was gorgeous and he was looking for a bride A    DREAM   of wedding bells when the evening ** the ball arrived SHE KNOWS   HOW to help her sisters get ready ready PLAY RADIO in a bad mood THEY   wanted to buy some new GUNS  but their mother said that they HADN'T enough GUNS  so they started shouting at cinders find me my DUAL   OLD    one find me my *** 
+Eval:                                                                                             S                                                         S              S                                   D    D    S                        S          S                                       S    S                S        S                                                              S                                    D D    D   D   D S                     S                                   S             S                      I  S      S   S                 D                  S                                                                                                  S    S                                         D                   I   S       S                                       S    S                   S                             S                                     S             S                                                    S      S                     D   
+
+>> REF:  HOWLED    THE other they wanted **** HAIRBRUSHES hairpins and hairspray 
+>> HYP:  HOUSEHOLD TO  other they wanted HAIR BRUSHES     hairpins and hairspray 
+>> Eval: S         S                     I    S                                  
+
+

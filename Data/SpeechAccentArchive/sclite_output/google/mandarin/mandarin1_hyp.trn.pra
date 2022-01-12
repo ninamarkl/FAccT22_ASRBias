@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   mandarin\mandarin1_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 57 8 4 0
+REF:  please call stella ask her to bring these things with her from the store 6 spoons of fresh snow peas 5 THICK slabs of BLUE cheese and maybe a SNACK for her brother bob we also need a small plastic snake and a BIG TOY       FROG FOR  the KIDS SHE CAN  SCOOP these things into 3 red bags and we will go meet her wednesday at the train station 
+HYP:  please call stella ask her to bring these things with her from the store 6 spoons of fresh snow peas * 56    slabs of THE  cheese and maybe a SNAKE for her brother bob we also need a small plastic snake and a *** VICTORIAN RUG  FROM the **** *** CAVE SCOPE these things into 3 red bags and we will go meet her wednesday at the train station 
+Eval:                                                                                                      D S              S                       S                                                                  D   S         S    S        D    D   S    S                                                                                         
+
+

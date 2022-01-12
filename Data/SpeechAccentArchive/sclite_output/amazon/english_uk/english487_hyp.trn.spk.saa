@@ -1,0 +1,113 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\english_uk\english487_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bags ==> bloods
+   2:    1  ->  bob ==> habitable
+   3:    1  ->  frog ==> fold
+   4:    1  ->  from ==> on
+   5:    1  ->  her ==> and
+   6:    1  ->  her ==> it
+   7:    1  ->  her ==> oscar
+   8:    1  ->  scoop ==> skip
+   9:    1  ->  six ==> stool
+  10:    1  ->  spoons ==> £six
+  11:    1  ->  toy ==> twenty
+  12:    1  ->  wednesday ==> stay
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  have
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  ask
+   2:    1  ->  brother
+   3:    1  ->  her
+   4:    1  ->  store
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    3  ->  her
+   2:    1  ->  bags
+   3:    1  ->  bob
+   4:    1  ->  frog
+   5:    1  ->  from
+   6:    1  ->  scoop
+   7:    1  ->  six
+   8:    1  ->  spoons
+   9:    1  ->  toy
+  10:    1  ->  wednesday
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  and
+   2:    1  ->  bloods
+   3:    1  ->  fold
+   4:    1  ->  habitable
+   5:    1  ->  it
+   6:    1  ->  on
+   7:    1  ->  oscar
+   8:    1  ->  skip
+   9:    1  ->  stay
+  10:    1  ->  stool
+  11:    1  ->  twenty
+  12:    1  ->  £six
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

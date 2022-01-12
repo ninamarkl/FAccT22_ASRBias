@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\arabic\arabic41_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> on
+   3:    1  ->  and ==> watches
+   4:    1  ->  ask ==> asked
+   5:    1  ->  call ==> scylla
+   6:    1  ->  cheese ==> off
+   7:    1  ->  frog ==> it
+   8:    1  ->  her ==> his
+   9:    1  ->  her ==> your
+  10:    1  ->  meet ==> too
+  11:    1  ->  snake ==> snack
+  12:    1  ->  spoons ==> schools
+  13:    1  ->  stella ==> i
+  14:    1  ->  the ==> that
+  15:    1  ->  the ==> this
+  16:    1  ->  wednesday ==> day
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  before
+   2:    1  ->  for
+   3:    1  ->  go
+   4:    1  ->  me
+   5:    1  ->  to
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  blue
+   2:    1  ->  of
+   3:    1  ->  peas
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and
+   2:    2  ->  her
+   3:    2  ->  the
+   4:    1  ->  a
+   5:    1  ->  ask
+   6:    1  ->  call
+   7:    1  ->  cheese
+   8:    1  ->  frog
+   9:    1  ->  meet
+  10:    1  ->  snake
+  11:    1  ->  spoons
+  12:    1  ->  stella
+  13:    1  ->  wednesday
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  asked
+   2:    1  ->  day
+   3:    1  ->  his
+   4:    1  ->  i
+   5:    1  ->  it
+   6:    1  ->  off
+   7:    1  ->  on
+   8:    1  ->  schools
+   9:    1  ->  scylla
+  10:    1  ->  snack
+  11:    1  ->  that
+  12:    1  ->  the
+  13:    1  ->  this
+  14:    1  ->  too
+  15:    1  ->  watches
+  16:    1  ->  your
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

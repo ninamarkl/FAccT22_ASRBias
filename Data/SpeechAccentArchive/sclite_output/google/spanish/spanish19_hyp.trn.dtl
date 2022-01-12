@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish19_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =   14.5%   (  10)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  75)
+Aligned words             =           (  79)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  ask ==> has
+   3:    1  ->  blue ==> labs
+   4:    1  ->  bob ==> pop
+   5:    1  ->  cheese ==> plushies
+   6:    1  ->  her ==> go
+   7:    1  ->  meet ==> will
+   8:    1  ->  of ==> 56
+   9:    1  ->  of ==> with
+  10:    1  ->  scoop ==> up
+  11:    1  ->  spoons ==> points
+  12:    1  ->  things ==> thanks
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  big
+   4:    1  ->  from
+   5:    1  ->  kids
+   6:    1  ->  pick
+   7:    1  ->  the
+   8:    1  ->  toy
+   9:    1  ->  we
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  slabs
+   4:    1  ->  thick
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    1  ->  ask
+   4:    1  ->  blue
+   5:    1  ->  bob
+   6:    1  ->  cheese
+   7:    1  ->  her
+   8:    1  ->  meet
+   9:    1  ->  scoop
+  10:    1  ->  spoons
+  11:    1  ->  things
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  this
+   2:    1  ->  56
+   3:    1  ->  go
+   4:    1  ->  has
+   5:    1  ->  labs
+   6:    1  ->  plushies
+   7:    1  ->  points
+   8:    1  ->  pop
+   9:    1  ->  thanks
+  10:    1  ->  up
+  11:    1  ->  will
+  12:    1  ->  with
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

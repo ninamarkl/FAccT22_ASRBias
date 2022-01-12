@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\p-rea1-f3_hyp.trn
+
+Speakers: 
+    0:  p-r
+
+Speaker sentences   0:  p-r   #utts: 1
+id: (p-rea1-f3_01)
+Scores: (#C #S #D #I) 114 46 26 3
+REF:  once upon a time there was a girl called cinderella but everyone called HER CINDERS cinders LIVED with HER  MOTHER AND two stepsisters CALLED LILY AND ROSA LILY AND     ROSA  WERE   VERY  UNFRIENDLY and they were they were LAZY GIRLS they spent all THEIR time buying new clothes AND going to parties POOR   CINDERS had to wear all THEIR old hand me downs and she had to do the cleaning one day A royal messenger came to ANNOUNCE A         ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND ROSA THOUGHT THIS WAS DIVINE prince william was gorgeous and HE  was looking for a BRIDE  THEY DREAMED OF  wedding bells when THE evening OF   the ****** BALL ARRIVED CINDERS HAD to help HER SISTERS get ready THEY WERE IN A they were in A BAD mood THEY'D wanted to buy some new GOWNS but THEIR MOTHER SAID that they had enough GOWNS so they STARTED shouting at cinders FIND MY JEWELS YELLED      ONE      find MY HAT HOWLED the other THEY they 
+HYP:  once upon a time there was a girl called cinderella but everyone called ACE ENDERS  cinders LIVE  with THEM WITH   THE two stepsisters ****** **** *** **** CALL LILIANA GROZA DIDN'T RADIO FRIENDLY   and they were they were **** ***** they spent all THE   time buying new clothes ARE going to parties PERSON HAS     had to wear all THE   old hand me downs and she had to do the cleaning one day * royal messenger came to ******** ANNOUNCER ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** *** **** ******* **** *** ****** prince william was gorgeous and YOU was looking for a BRIGHT THE  DREAM   THE wedding bells when *** evening WITH the BOILER I'VE SEEN    AS      A   to help BUT STILL   get ready **** **** ** * they were in * THE mood THEY   wanted to buy some new CARS  but THEY  MUST   SAY  that they had enough COINS so they START   shouting at cinders **** ** ****** FIND-MODULE CHILDREN find ** ME  HOW    the other **** they 
+Eval:                                                                         S   S               S          S    S      S                   D      D    D   D    S    S       S     S      S     S                                  D    D                    S                             S                    S      S                       S                                                              D                         D        S                       S                                                                                  D    D   D    D       D    D   D                                      S                     S      S    S       S                      D           S        I      S    S       S       S           S   S                 D    D    D  D              D S        S                             S         S     S      S                         S             S                           D    D  D      S           S             D  S   S                D         
+
+>> REF:  wanted **** HAIRBRUSHES HAIRPINS and **** HAIRSPRAY 
+>> HYP:  wanted HAIR BRUSHES     HAPPENS  and HAIR SPRAYS    
+>> Eval:        I    S           S            I    S         
+
+

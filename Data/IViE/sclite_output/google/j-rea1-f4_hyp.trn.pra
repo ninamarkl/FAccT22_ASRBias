@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\j-rea1-f4_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-f4_01)
+Scores: (#C #S #D #I) 150 24 13 7
+REF:  once upon a time there was a girl called cinderella but everyone called HER cinders **** CINDERS lived with her mother and two stepsisters called lily and rose LILY AND  rose were very UNFRIENDLY and THEY WERE LAZY  GIRLS     they spent all THEIR time buying new clothes and going to parties POOR CINDERS had to wear THEIR all THEIR old hand me downs and she had to do the cleaning ONE DAY A ROYAL messenger came to ANNOUNCE a **** BALL  the BALL would be held at the royal palace in honour of the queen's only son prince william LILY   and rosa thought this was divine prince william was gorgeous and he was looking for a BRIDE they dreamed of of wedding bells when the EVE     when the evening of the BALL arrived CINDERS cinders had to help her SISTERS  get ready THEY WERE  in a bad mood THEY'D wanted to buy some new GOWNS but their mother said THAT they *** that they had enough GOWNS so they started shouting at cinders find my ***** JEWELS YELLED one find my hat HOWLED the other **** 
+HYP:  once upon a time there was a girl called cinderella but everyone called A   cinders SEND US      lived with her mother and two stepsisters called lily and rose **** LIAM rose were very UNFAIR     and **** **** THEIR LAZYGIRLS they spent all THE   time buying new clothes and going to parties PAUL SANDERS had to wear THAT  all THE   old hand me downs and she had to do the cleaning *** *** * TEN   messenger came to ******** a NUTS ABOUT the **** would be held at the royal palace in honour of the queen's only son prince william LILLEY and rosa thought this was divine prince william was gorgeous and he was looking for a BREAD they dreamed of of wedding bells when the EVENING when the evening of the BOOT arrived ******* cinders had to help her SISTER'S get ready **** THERE in a bad mood THEY   wanted to buy some new ***** but their mother said **** they HAD that they had enough CAN'T so they started shouting at cinders find my JULES THE    OLD    one find my hat ****** the other THEY 
+Eval:                                                                         S           I    S                                                                      D    S                   S              D    D    S     S                        S                                                  S    S                   S         S                                                      D   D   D S                       D          I    S         D                                                                                       S                                                                                            S                                               S                               S            D                               S                  D    S                   S                             D                           D         I                        S                                                 I     S      S                      D                I    
+
+>> REF:  **** they wanted **** HAIRBRUSHES hairpins and hairspray 
+>> HYP:  WERE they wanted HAIR BRUSHES     hairpins and hairspray 
+>> Eval: I                I    S                                  
+
+

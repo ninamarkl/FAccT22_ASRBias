@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\d-rea1-f2_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-f2_01)
+Scores: (#C #S #D #I) 137 38 14 5
+REF:  once upon a time there was a girl called cinderella but everyone called HER CINDERS    CINDER LIVES  cinders lived with her mother and *** two stepsisters CALLED LILY AND ROSA LILY AND  ROSA    WERE  very unfriendly and they WERE    LAZY girls they spent all of THEIR time buying new clothes and going to parties POOR cinders *** had to wear all all their old HAND me DOWNS she had she had to do all the cleaning one day A royal messenger came TO   ANNOUNCE A      BALL the BALL would be held AT THE royal palace in honour of the queen's only son PRINCE WILLIAM LILY AND     ROSA THOUGHT this was divine prince william was gorgeous and he was looking for a bride they DREAMED OF  wedding bells when the evening of the ball arrived cinders had to help HER SISTERS  get ready they were in a bad mood they WANTED to buy some new GOWNS but **** THEIR MOTHER said that they had enough GOWNS so they started shouting at cinders FIND ME     jewels YELLED ONE FIND   ME      find my HAT   HOWLED 
+HYP:  once upon a time there was a girl called cinderella but everyone called *** EASTENDERS CINDY  LEAVES cinders lived with her mother and HER two stepsisters ****** **** *** **** **** CALL LILIANA GROZA very unfriendly and they RELEASE THE  girls they spent all of THE   time buying new clothes and going to parties FOR  cinders HAD had to wear all all their old AND  me DANCE she had she had to do all the cleaning one day * royal messenger came INTO AN       ANSWER BAR  the BAR  would be held ** *** royal palace in honour of the queen's only son ****** ******* **** LILLIAN ROSE AT      this was divine prince william was gorgeous and he was looking for a bride they DREAM   DAY wedding bells when the evening of the ball arrived cinders had to help MY  SISTER'S get ready they were in a bad mood they NEED   to buy some new GAMES but THEN WHAT  THEY   said that they had enough CANS  so they started shouting at cinders **** FAMILY jewels ****** YET YELPED FIFTEEN find my HEART HELD   
+Eval:                                                                         D   S          S      S                                        I                   D      D    D   D    D    S    S       S                              S       S                            S                                                  S            I                                 S       S                                                    D                      S    S        S      S        S                  D  D                                                  D      D       D    S       S    S                                                                                       S       S                                                                          S   S                                               S                      S         I    S     S                                S                                         D    S             D      S   S      S               S     S      
+
+>> REF:  another HOWLED the other they wanted **** ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  another HOPE   the other they wanted HAIR BRUSHES HAIR        PINS     and hairspray 
+>> Eval:         S                            I    I       S           S                      
+
+

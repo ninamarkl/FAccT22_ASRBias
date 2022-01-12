@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: portuguese\portuguese5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  at ==> it's
+   3:    1  ->  can ==> chicken
+   4:    1  ->  frog ==> frogs
+   5:    1  ->  into ==> to
+   6:    1  ->  scoop ==> soup
+   7:    1  ->  snack ==> snake
+   8:    1  ->  spoons ==> pounds
+   9:    1  ->  these ==> this
+  10:    1  ->  these ==> with
+  11:    1  ->  thick ==> 56
+  12:    1  ->  toy ==> from
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  mean
+   2:    1  ->  stuff
+   3:    1  ->  with
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  she
+   4:    1  ->  the
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  these
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  can
+   5:    1  ->  frog
+   6:    1  ->  into
+   7:    1  ->  scoop
+   8:    1  ->  snack
+   9:    1  ->  spoons
+  10:    1  ->  thick
+  11:    1  ->  toy
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  56
+   2:    1  ->  chicken
+   3:    1  ->  frogs
+   4:    1  ->  from
+   5:    1  ->  it's
+   6:    1  ->  pounds
+   7:    1  ->  snake
+   8:    1  ->  soup
+   9:    1  ->  the
+  10:    1  ->  this
+  11:    1  ->  to
+  12:    1  ->  with
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

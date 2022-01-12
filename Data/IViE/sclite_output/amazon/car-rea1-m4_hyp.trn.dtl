@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\car-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.8%   (  22)
+
+Percent Correct           =   88.2%   ( 164)
+
+Percent Substitution      =    9.7%   (  18)
+Percent Deletions         =    2.2%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   88.2%
+
+
+Ref. words                =           ( 186)
+Hyp. words                =           ( 182)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  and ==> rose
+   2:    2  ->  lily ==> lillian
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> in
+   5:    1  ->  and ==> lillian
+   6:    1  ->  cinders ==> has
+   7:    1  ->  cinders ==> passengers
+   8:    1  ->  cinders ==> since
+   9:    1  ->  gowns ==> count
+  10:    1  ->  hairpins ==> happens
+  11:    1  ->  her ==> descended
+  12:    1  ->  howled ==> hold
+  13:    1  ->  rosa ==> a
+  14:    1  ->  rosa ==> who
+  15:    1  ->  their ==> the
+  16:    1  ->  they'd ==> they
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  er
+   2:    1  ->  lily
+   3:    1  ->  poor
+   4:    1  ->  that
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    4  ->  and
+   2:    3  ->  cinders
+   3:    2  ->  lily
+   4:    2  ->  rosa
+   5:    1  ->  a
+   6:    1  ->  gowns
+   7:    1  ->  hairpins
+   8:    1  ->  her
+   9:    1  ->  howled
+  10:    1  ->  their
+  11:    1  ->  they'd
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  lillian
+   2:    2  ->  rose
+   3:    2  ->  the
+   4:    1  ->  a
+   5:    1  ->  count
+   6:    1  ->  descended
+   7:    1  ->  happens
+   8:    1  ->  has
+   9:    1  ->  hold
+  10:    1  ->  in
+  11:    1  ->  passengers
+  12:    1  ->  since
+  13:    1  ->  they
+  14:    1  ->  who
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

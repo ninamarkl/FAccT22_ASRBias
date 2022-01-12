@@ -1,0 +1,93 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish18_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.1%   (   7)
+
+Percent Correct           =   91.3%   (  63)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   89.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  bags ==> backs
+   3:    1  ->  bob ==> buck
+   4:    1  ->  of ==> fred
+   5:    1  ->  spoons ==> off
+   6:    1  ->  the ==> this
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  teaspoons
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  bags
+   3:    1  ->  bob
+   4:    1  ->  of
+   5:    1  ->  spoons
+   6:    1  ->  the
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  backs
+   2:    1  ->  buck
+   3:    1  ->  fred
+   4:    1  ->  off
+   5:    1  ->  on
+   6:    1  ->  this
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

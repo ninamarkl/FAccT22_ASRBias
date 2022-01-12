@@ -1,0 +1,113 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: portuguese\portuguese11_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> is
+   2:    1  ->  and ==> in
+   3:    1  ->  at ==> is
+   4:    1  ->  bob ==> motherboard
+   5:    1  ->  can ==> chicken
+   6:    1  ->  scoop ==> coop
+   7:    1  ->  snack ==> nag
+   8:    1  ->  spoons ==> pounds
+   9:    1  ->  the ==> ada
+  10:    1  ->  thick ==> 56
+  11:    1  ->  wednesday ==> when
+  12:    1  ->  will ==> we'll
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  brother
+   3:    1  ->  her
+   4:    1  ->  she
+   5:    1  ->  we
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  at
+   4:    1  ->  bob
+   5:    1  ->  can
+   6:    1  ->  scoop
+   7:    1  ->  snack
+   8:    1  ->  spoons
+   9:    1  ->  the
+  10:    1  ->  thick
+  11:    1  ->  wednesday
+  12:    1  ->  will
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  is
+   2:    1  ->  56
+   3:    1  ->  ada
+   4:    1  ->  chicken
+   5:    1  ->  coop
+   6:    1  ->  in
+   7:    1  ->  motherboard
+   8:    1  ->  nag
+   9:    1  ->  pounds
+  10:    1  ->  we'll
+  11:    1  ->  when
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,127 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish23_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.7%   (  26)
+
+Percent Correct           =   62.3%   (  43)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   15.9%   (  11)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   62.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  58)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  3 ==> sweet
+   2:    1  ->  and ==> in
+   3:    1  ->  for ==> toe
+   4:    1  ->  her ==> a
+   5:    1  ->  her ==> metre
+   6:    1  ->  her ==> without
+   7:    1  ->  kids ==> it's
+   8:    1  ->  plastic ==> autistic
+   9:    1  ->  scoop ==> school
+  10:    1  ->  small ==> wilson
+  11:    1  ->  spoons ==> mils
+  12:    1  ->  the ==> frederick
+  13:    1  ->  these ==> this
+  14:    1  ->  to ==> you
+  15:    1  ->  will ==> we'll
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  we
+   2:    1  ->  a
+   3:    1  ->  also
+   4:    1  ->  frog
+   5:    1  ->  her
+   6:    1  ->  meet
+   7:    1  ->  need
+   8:    1  ->  thick
+   9:    1  ->  toy
+  10:    1  ->  with
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  her
+   2:    1  ->  3
+   3:    1  ->  and
+   4:    1  ->  for
+   5:    1  ->  kids
+   6:    1  ->  plastic
+   7:    1  ->  scoop
+   8:    1  ->  small
+   9:    1  ->  spoons
+  10:    1  ->  the
+  11:    1  ->  these
+  12:    1  ->  to
+  13:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a
+   2:    1  ->  autistic
+   3:    1  ->  frederick
+   4:    1  ->  in
+   5:    1  ->  it's
+   6:    1  ->  metre
+   7:    1  ->  mils
+   8:    1  ->  school
+   9:    1  ->  sweet
+  10:    1  ->  this
+  11:    1  ->  toe
+  12:    1  ->  we'll
+  13:    1  ->  wilson
+  14:    1  ->  without
+  15:    1  ->  you
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

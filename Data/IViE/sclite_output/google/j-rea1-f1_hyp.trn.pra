@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\j-rea1-f1_hyp.trn
+
+Speakers: 
+    0:  j-r
+
+Speaker sentences   0:  j-r   #utts: 1
+id: (j-rea1-f1_01)
+Scores: (#C #S #D #I) 130 41 12 2
+REF:  once upon a time there was a girl called cinderella but everybody CALLED HER  CINDERS    CINDERS  LIVED with her mother and *** **** TWO    STEPSISTERS STEPSISTERS called lily and rosa LILY AND     ROSA WERE very unfriendly and THEY WERE LAZY   GIRLS they spent all THEIR time BUYING new clothes and going to parties POOR cinders HAD TO WEAR all THEIR old hand me downs and she had to do the cleaning one day A ROYAL MESSENGER CAME TO  ANNOUNCE a ball the ball would be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought that this was divine prince william was gorgeous and he was looking for a bride they DREAMED OF A     of wedding BELLS when the evening of the ball ARRIVED cinders had to help HER SISTERS get ready they were in a bad mood THEY WANTED to buy some new GOWNS but THEIR mother said that they had enough GOWNS so they started SHOUTING at CINDERS FIND my jewellery YELLED ONE          find my hat HOWLED the other they wanted 
+HYP:  once upon a time there was a girl called cinderella but everybody ****** CALL DESCENDERS SENTENCE LIVE  with her mother and HIS STEP SISTER STEP        SISTER'S    called lily and rosa **** LILLIAN ROSE A    very unfriendly and **** **** BLAZER GOES  they spent all THE   time BY     new clothes and going to parties FOR  cinders *** ** AT   all THE   old hand me downs and she had to do the cleaning one day * ***** OR        TWO  AND THAT'S   a ball the ball would be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSE I    thought that this was divine prince william was gorgeous and he was looking for a bride they ******* ** DREAM of wedding VOWS  when the evening of the ball ARRIVE  cinders had to help US  TO      get ready they were in a bad mood I    WANT   to buy some new DANCE but THEY  mother said that they had enough GIRLS so they started SHOUTED  at ******* SEND my jewellery ****** ONE-YEAR-OLD find my hat HOW    the other they wanted 
+Eval:                                                                   D      S    S          S        S                         I   I    S      S           S                                D    S       S    S                        D    D    S      S                    S          S                                       S            D   D  S        S                                                              D D     S         S    S   S                                                                                                           S       S    S                                                                                                 D       D  S                S                                  S                           S   S                                         S    S                      S         S                                      S                     S           D       S                 D      S                        S                            
+
+>> REF:  HAIRBRUSHES HAIRPINS AND  hairspray 
+>> HYP:  HAIR        BRUSHES  HAIR hairspray 
+>> Eval: S           S        S              
+
+

@@ -1,0 +1,98 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\english_uk\english221_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  frog ==> toys
+   2:    1  ->  her ==> asked
+   3:    1  ->  she ==> we
+   4:    1  ->  spoons ==> £six
+   5:    1  ->  to ==> his
+   6:    1  ->  will ==> we'll
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  my
+   2:    1  ->  pleasure
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  ask
+   2:    1  ->  her
+   3:    1  ->  six
+   4:    1  ->  toy
+   5:    1  ->  we
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  frog
+   2:    1  ->  her
+   3:    1  ->  she
+   4:    1  ->  spoons
+   5:    1  ->  to
+   6:    1  ->  will
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  asked
+   2:    1  ->  his
+   3:    1  ->  toys
+   4:    1  ->  we
+   5:    1  ->  we'll
+   6:    1  ->  £six
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

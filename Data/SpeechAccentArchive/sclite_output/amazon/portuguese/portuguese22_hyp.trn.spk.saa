@@ -1,0 +1,124 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese22_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> in
+   4:    1  ->  ask ==> and
+   5:    1  ->  bob ==> book
+   6:    1  ->  cheese ==> is
+   7:    1  ->  her ==> horror
+   8:    1  ->  her ==> mitar
+   9:    1  ->  her ==> scared
+  10:    1  ->  kids ==> keys
+  11:    1  ->  peas ==> piece
+  12:    1  ->  scoop ==> school
+  13:    1  ->  she ==> you
+  14:    1  ->  slabs ==> flubs
+  15:    1  ->  snake ==> smack
+  16:    1  ->  thick ==> pic
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  she
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  her
+   2:    1  ->  meet
+   3:    1  ->  toy
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  her
+   2:    2  ->  of
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  ask
+   6:    1  ->  bob
+   7:    1  ->  cheese
+   8:    1  ->  kids
+   9:    1  ->  peas
+  10:    1  ->  scoop
+  11:    1  ->  she
+  12:    1  ->  slabs
+  13:    1  ->  snake
+  14:    1  ->  thick
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  off
+   2:    1  ->  and
+   3:    1  ->  book
+   4:    1  ->  flubs
+   5:    1  ->  horror
+   6:    1  ->  in
+   7:    1  ->  is
+   8:    1  ->  keys
+   9:    1  ->  mitar
+  10:    1  ->  pic
+  11:    1  ->  piece
+  12:    1  ->  scared
+  13:    1  ->  school
+  14:    1  ->  smack
+  15:    1  ->  the
+  16:    1  ->  you
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

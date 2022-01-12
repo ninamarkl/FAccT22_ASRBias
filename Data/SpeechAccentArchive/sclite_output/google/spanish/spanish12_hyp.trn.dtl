@@ -1,0 +1,161 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish12_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   56.5%   (  39)
+
+Percent Correct           =   43.5%   (  30)
+
+Percent Substitution      =   36.2%   (  25)
+Percent Deletions         =   20.3%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   43.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  55)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  3 ==> coop
+   2:    1  ->  at ==> westlife
+   3:    1  ->  bags ==> a23
+   4:    1  ->  brother ==> like
+   5:    1  ->  for ==> may
+   6:    1  ->  fresh ==> friends
+   7:    1  ->  frog ==> for
+   8:    1  ->  her ==> be
+   9:    1  ->  her ==> hear
+  10:    1  ->  into ==> chicken
+  11:    1  ->  need ==> only
+  12:    1  ->  of ==> or
+  13:    1  ->  peas ==> psl
+  14:    1  ->  red ==> testing
+  15:    1  ->  slabs ==> flower
+  16:    1  ->  snake ==> plate
+  17:    1  ->  snow ==> no
+  18:    1  ->  spoons ==> room
+  19:    1  ->  stella ==> 10
+  20:    1  ->  the ==> other
+  21:    1  ->  these ==> this
+  22:    1  ->  thick ==> fighting
+  23:    1  ->  things ==> kid
+  24:    1  ->  wednesday ==> there
+  25:    1  ->  with ==> we
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  blue
+   5:    1  ->  can
+   6:    1  ->  cheese
+   7:    1  ->  her
+   8:    1  ->  kids
+   9:    1  ->  maybe
+  10:    1  ->  meet
+  11:    1  ->  scoop
+  12:    1  ->  she
+  13:    1  ->  snack
+  14:    1  ->  these
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  her
+   2:    1  ->  3
+   3:    1  ->  at
+   4:    1  ->  bags
+   5:    1  ->  brother
+   6:    1  ->  for
+   7:    1  ->  fresh
+   8:    1  ->  frog
+   9:    1  ->  into
+  10:    1  ->  need
+  11:    1  ->  of
+  12:    1  ->  peas
+  13:    1  ->  red
+  14:    1  ->  slabs
+  15:    1  ->  snake
+  16:    1  ->  snow
+  17:    1  ->  spoons
+  18:    1  ->  stella
+  19:    1  ->  the
+  20:    1  ->  these
+  21:    1  ->  thick
+  22:    1  ->  things
+  23:    1  ->  wednesday
+  24:    1  ->  with
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  10
+   2:    1  ->  a23
+   3:    1  ->  be
+   4:    1  ->  chicken
+   5:    1  ->  coop
+   6:    1  ->  fighting
+   7:    1  ->  flower
+   8:    1  ->  for
+   9:    1  ->  friends
+  10:    1  ->  hear
+  11:    1  ->  kid
+  12:    1  ->  like
+  13:    1  ->  may
+  14:    1  ->  no
+  15:    1  ->  only
+  16:    1  ->  or
+  17:    1  ->  other
+  18:    1  ->  plate
+  19:    1  ->  psl
+  20:    1  ->  room
+  21:    1  ->  testing
+  22:    1  ->  there
+  23:    1  ->  this
+  24:    1  ->  we
+  25:    1  ->  westlife
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

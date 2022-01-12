@@ -1,0 +1,114 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\hindi\hindi2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bags ==> backs
+   2:    1  ->  five ==> peace
+   3:    1  ->  her ==> maynor
+   4:    1  ->  into ==> a
+   5:    1  ->  peas ==> no
+   6:    1  ->  red ==> read
+   7:    1  ->  snake ==> steak
+   8:    1  ->  snow ==> press
+   9:    1  ->  stella ==> fella
+  10:    1  ->  thick ==> fifty-six
+  11:    1  ->  three ==> tweet
+  12:    1  ->  will ==> we'll
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  in
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  fresh
+   2:    1  ->  meet
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  bags
+   2:    1  ->  five
+   3:    1  ->  her
+   4:    1  ->  into
+   5:    1  ->  peas
+   6:    1  ->  red
+   7:    1  ->  snake
+   8:    1  ->  snow
+   9:    1  ->  stella
+  10:    1  ->  thick
+  11:    1  ->  three
+  12:    1  ->  will
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  backs
+   3:    1  ->  fella
+   4:    1  ->  fifty-six
+   5:    1  ->  maynor
+   6:    1  ->  no
+   7:    1  ->  peace
+   8:    1  ->  press
+   9:    1  ->  read
+  10:    1  ->  steak
+  11:    1  ->  tweet
+  12:    1  ->  we'll
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

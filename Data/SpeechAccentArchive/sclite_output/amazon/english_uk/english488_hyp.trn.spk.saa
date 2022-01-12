@@ -1,0 +1,92 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\english_uk\english488_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.1%   (   7)
+
+Percent Correct           =   89.9%   (  62)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   89.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  a ==> the
+   3:    1  ->  ask ==> asked
+   4:    1  ->  bob ==> bulb
+   5:    1  ->  can ==> khun
+   6:    1  ->  snake ==> sneak
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  bob
+   5:    1  ->  can
+   6:    1  ->  snake
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  off
+   2:    1  ->  asked
+   3:    1  ->  bulb
+   4:    1  ->  khun
+   5:    1  ->  sneak
+   6:    1  ->  the
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

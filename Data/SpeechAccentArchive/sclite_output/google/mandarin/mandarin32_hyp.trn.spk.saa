@@ -1,0 +1,141 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin32_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   46.4%   (  32)
+
+Percent Correct           =   53.6%   (  37)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =   18.8%   (  13)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   53.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  56)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  6 ==> stores
+   2:    1  ->  a ==> and
+   3:    1  ->  a ==> in
+   4:    1  ->  also ==> will
+   5:    1  ->  and ==> leg
+   6:    1  ->  big ==> the
+   7:    1  ->  blue ==> collapsible
+   8:    1  ->  bring ==> sarah
+   9:    1  ->  can ==> chicken's
+  10:    1  ->  frog ==> flag
+  11:    1  ->  of ==> 56
+  12:    1  ->  scoop ==> group
+  13:    1  ->  she ==> keys
+  14:    1  ->  snake ==> my
+  15:    1  ->  spoons ==> 6moons
+  16:    1  ->  these ==> beeny's
+  17:    1  ->  these ==> the
+  18:    1  ->  things ==> saints
+  19:    1  ->  toy ==> vito
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  her
+   5:    1  ->  kids
+   6:    1  ->  plastic
+   7:    1  ->  slabs
+   8:    1  ->  small
+   9:    1  ->  stella
+  10:    1  ->  store
+  11:    1  ->  thick
+  12:    1  ->  to
+  13:    1  ->  we
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  a
+   2:    2  ->  these
+   3:    1  ->  6
+   4:    1  ->  also
+   5:    1  ->  and
+   6:    1  ->  big
+   7:    1  ->  blue
+   8:    1  ->  bring
+   9:    1  ->  can
+  10:    1  ->  frog
+  11:    1  ->  of
+  12:    1  ->  scoop
+  13:    1  ->  she
+  14:    1  ->  snake
+  15:    1  ->  spoons
+  16:    1  ->  things
+  17:    1  ->  toy
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  the
+   2:    1  ->  56
+   3:    1  ->  6moons
+   4:    1  ->  and
+   5:    1  ->  beeny's
+   6:    1  ->  chicken's
+   7:    1  ->  collapsible
+   8:    1  ->  flag
+   9:    1  ->  group
+  10:    1  ->  in
+  11:    1  ->  keys
+  12:    1  ->  leg
+  13:    1  ->  my
+  14:    1  ->  saints
+  15:    1  ->  sarah
+  16:    1  ->  stores
+  17:    1  ->  vito
+  18:    1  ->  will
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

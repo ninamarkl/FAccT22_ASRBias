@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin47_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  ask ==> asked
+   3:    1  ->  call ==> coast
+   4:    1  ->  can ==> can't
+   5:    1  ->  five ==> filed
+   6:    1  ->  peas ==> peace
+   7:    1  ->  scoop ==> spook
+   8:    1  ->  she ==> we
+   9:    1  ->  slabs ==> lives
+  10:    1  ->  snack ==> like
+  11:    1  ->  snow ==> no
+  12:    1  ->  spoons ==> spores
+  13:    1  ->  stella ==> della
+  14:    1  ->  these ==> that
+  15:    1  ->  these ==> the
+  16:    1  ->  thick ==> six
+  17:    1  ->  things ==> singhs
+  18:    1  ->  things ==> sings
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  a
+   4:    1  ->  ask
+   5:    1  ->  call
+   6:    1  ->  can
+   7:    1  ->  five
+   8:    1  ->  peas
+   9:    1  ->  scoop
+  10:    1  ->  she
+  11:    1  ->  slabs
+  12:    1  ->  snack
+  13:    1  ->  snow
+  14:    1  ->  spoons
+  15:    1  ->  stella
+  16:    1  ->  thick
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  asked
+   2:    1  ->  can't
+   3:    1  ->  coast
+   4:    1  ->  della
+   5:    1  ->  filed
+   6:    1  ->  it's
+   7:    1  ->  like
+   8:    1  ->  lives
+   9:    1  ->  no
+  10:    1  ->  peace
+  11:    1  ->  singhs
+  12:    1  ->  sings
+  13:    1  ->  six
+  14:    1  ->  spook
+  15:    1  ->  spores
+  16:    1  ->  that
+  17:    1  ->  the
+  18:    1  ->  we
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

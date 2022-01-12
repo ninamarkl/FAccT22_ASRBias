@@ -1,0 +1,128 @@
+SCORING FOR SPEAKER: saa
+     of french\french15_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   49.3%   (  34)
+
+Percent Correct           =   50.7%   (  35)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =   31.9%   (  22)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   50.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  47)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> i'm
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> laptop
+   4:    1  ->  blue ==> snoopy's
+   5:    1  ->  cheese ==> 56
+   6:    1  ->  her ==> recovered
+   7:    1  ->  her ==> that
+   8:    1  ->  maybe ==> richie's
+   9:    1  ->  need ==> bulb
+  10:    1  ->  of ==> 6.0
+  11:    1  ->  snack ==> stuck
+  12:    1  ->  these ==> this
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  her
+   2:    2  ->  we
+   3:    1  ->  5
+   4:    1  ->  6
+   5:    1  ->  also
+   6:    1  ->  ask
+   7:    1  ->  bob
+   8:    1  ->  can
+   9:    1  ->  fresh
+  10:    1  ->  go
+  11:    1  ->  meet
+  12:    1  ->  of
+  13:    1  ->  peas
+  14:    1  ->  scoop
+  15:    1  ->  she
+  16:    1  ->  slabs
+  17:    1  ->  snow
+  18:    1  ->  spoons
+  19:    1  ->  thick
+  20:    1  ->  will
+     -------
+        22
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  a
+   2:    2  ->  her
+   3:    1  ->  and
+   4:    1  ->  blue
+   5:    1  ->  cheese
+   6:    1  ->  maybe
+   7:    1  ->  need
+   8:    1  ->  of
+   9:    1  ->  snack
+  10:    1  ->  these
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  56
+   2:    1  ->  6.0
+   3:    1  ->  bulb
+   4:    1  ->  i'm
+   5:    1  ->  laptop
+   6:    1  ->  recovered
+   7:    1  ->  richie's
+   8:    1  ->  snoopy's
+   9:    1  ->  stuck
+  10:    1  ->  that
+  11:    1  ->  the
+  12:    1  ->  this
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

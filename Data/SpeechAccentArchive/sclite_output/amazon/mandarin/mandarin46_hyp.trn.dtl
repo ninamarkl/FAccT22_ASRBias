@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin46_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =   13.0%   (   9)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  77)
+Aligned words             =           (  78)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bob ==> plastic
+   2:    1  ->  call ==> course
+   3:    1  ->  can ==> goes
+   4:    1  ->  five ==> piece
+   5:    1  ->  into ==> tow
+   6:    1  ->  of ==> off
+   7:    1  ->  scoop ==> group
+   8:    1  ->  slabs ==> laps
+   9:    1  ->  spoons ==> balls
+  10:    1  ->  stella ==> teller
+  11:    1  ->  thick ==> fifty-six
+  12:    1  ->  we ==> maybe
+  13:    1  ->  wednesday ==> stay
+  14:    1  ->  will ==> we'll
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  also
+   3:    1  ->  book
+   4:    1  ->  can't
+   5:    1  ->  in
+   6:    1  ->  need
+   7:    1  ->  small
+   8:    1  ->  van
+   9:    1  ->  we
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  peas
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bob
+   2:    1  ->  call
+   3:    1  ->  can
+   4:    1  ->  five
+   5:    1  ->  into
+   6:    1  ->  of
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  spoons
+  10:    1  ->  stella
+  11:    1  ->  thick
+  12:    1  ->  we
+  13:    1  ->  wednesday
+  14:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  balls
+   2:    1  ->  course
+   3:    1  ->  fifty-six
+   4:    1  ->  goes
+   5:    1  ->  group
+   6:    1  ->  laps
+   7:    1  ->  maybe
+   8:    1  ->  off
+   9:    1  ->  piece
+  10:    1  ->  plastic
+  11:    1  ->  stay
+  12:    1  ->  teller
+  13:    1  ->  tow
+  14:    1  ->  we'll
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

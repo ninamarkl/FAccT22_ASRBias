@@ -1,0 +1,137 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french31_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  bags ==> airbags
+   2:    1  ->  call ==> please
+   3:    1  ->  can ==> gets
+   4:    1  ->  cheese ==> booties
+   5:    1  ->  for ==> not
+   6:    1  ->  frog ==> for
+   7:    1  ->  go ==> good
+   8:    1  ->  her ==> half
+   9:    1  ->  of ==> off
+  10:    1  ->  red ==> your
+  11:    1  ->  scoop ==> schooled
+  12:    1  ->  slabs ==> level
+  13:    1  ->  snack ==> it's
+  14:    1  ->  spoons ==> point
+  15:    1  ->  stella ==> costel
+  16:    1  ->  store ==> start
+  17:    1  ->  thick ==> ticks
+  18:    1  ->  three ==> to
+  19:    1  ->  toy ==> time
+  20:    1  ->  will ==> were
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  into
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  blue
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  bags
+   2:    1  ->  call
+   3:    1  ->  can
+   4:    1  ->  cheese
+   5:    1  ->  for
+   6:    1  ->  frog
+   7:    1  ->  go
+   8:    1  ->  her
+   9:    1  ->  of
+  10:    1  ->  red
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  snack
+  14:    1  ->  spoons
+  15:    1  ->  stella
+  16:    1  ->  store
+  17:    1  ->  thick
+  18:    1  ->  three
+  19:    1  ->  toy
+  20:    1  ->  will
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  airbags
+   2:    1  ->  booties
+   3:    1  ->  costel
+   4:    1  ->  for
+   5:    1  ->  gets
+   6:    1  ->  good
+   7:    1  ->  half
+   8:    1  ->  it's
+   9:    1  ->  level
+  10:    1  ->  not
+  11:    1  ->  off
+  12:    1  ->  please
+  13:    1  ->  point
+  14:    1  ->  schooled
+  15:    1  ->  start
+  16:    1  ->  ticks
+  17:    1  ->  time
+  18:    1  ->  to
+  19:    1  ->  were
+  20:    1  ->  your
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

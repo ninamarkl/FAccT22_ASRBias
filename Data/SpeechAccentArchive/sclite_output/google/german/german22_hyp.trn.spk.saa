@@ -1,0 +1,141 @@
+SCORING FOR SPEAKER: saa
+     of german\german22_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   43.5%   (  30)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =   14.5%   (  10)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   56.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  60)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  3 ==> three
+   2:    1  ->  5 ==> piece
+   3:    1  ->  6 ==> sixth
+   4:    1  ->  a ==> awesome
+   5:    1  ->  ask ==> stellar
+   6:    1  ->  call ==> police
+   7:    1  ->  frog ==> frogs
+   8:    1  ->  her ==> effort
+   9:    1  ->  her ==> sarah
+  10:    1  ->  need ==> the
+  11:    1  ->  red ==> bread
+  12:    1  ->  scoop ==> speak
+  13:    1  ->  small ==> unismart
+  14:    1  ->  snack ==> snake
+  15:    1  ->  spoons ==> forms
+  16:    1  ->  stella ==> car
+  17:    1  ->  these ==> this
+  18:    1  ->  thick ==> 56
+  19:    1  ->  with ==> for
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  also
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  her
+   5:    1  ->  peas
+   6:    1  ->  please
+   7:    1  ->  the
+   8:    1  ->  toy
+   9:    1  ->  we
+  10:    1  ->  wednesday
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  her
+   2:    1  ->  3
+   3:    1  ->  5
+   4:    1  ->  6
+   5:    1  ->  a
+   6:    1  ->  ask
+   7:    1  ->  call
+   8:    1  ->  frog
+   9:    1  ->  need
+  10:    1  ->  red
+  11:    1  ->  scoop
+  12:    1  ->  small
+  13:    1  ->  snack
+  14:    1  ->  spoons
+  15:    1  ->  stella
+  16:    1  ->  these
+  17:    1  ->  thick
+  18:    1  ->  with
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  56
+   2:    1  ->  awesome
+   3:    1  ->  bread
+   4:    1  ->  car
+   5:    1  ->  effort
+   6:    1  ->  for
+   7:    1  ->  forms
+   8:    1  ->  frogs
+   9:    1  ->  piece
+  10:    1  ->  police
+  11:    1  ->  sarah
+  12:    1  ->  sixth
+  13:    1  ->  snake
+  14:    1  ->  speak
+  15:    1  ->  stellar
+  16:    1  ->  the
+  17:    1  ->  this
+  18:    1  ->  three
+  19:    1  ->  unismart
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\b-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-m4_01)
+Scores: (#C #S #D #I) 137 43 5 4
+REF:  once upon a time there was a GIRL  called cinderella but everyone called her CINDERS CINDERS LIVED    LIVED lived with her mother and two **** STEPSISTERS called lily and rosa LILY AND     ROSA were very unfriendly and they were lazy GIRLS  they spent all their time BUYING new clothes and GOING TO   PARTIES  parties POOR CINDERS    HAD TO   WEAR all THEIR OLD  hand me downs and SHE HAD  to do the cleaning one day a royal messenger came to announce A   ball the BALL the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought THIS this was *** DIVINE prince william was gorgeous and he was looking for a bride they dreamed of WEDDING BELLS when the evening of the ball ARRIVED CINDERS HAD to help her sisters get ready they were in a bad mood they wanted to buy some new GOWNS but their mother said that they had enough GOWNS so they started SHOUTING AT  cinders FIND MY     jewels yelled one FIND MY     HAT YELLED the other they 
+HYP:  once upon a time there was a GUARD called cinderella but everyone called her ******* SENDERS SENATORS LEFT  lived with her mother and two STEP SISTERS     called lily and rosa **** LILLIAN ROSE were very unfriendly and they were lazy GUARDS they spent all their time BUY    new clothes and GO    INTO PARTNERS parties **** PERCENTERS HOW THEY WERE all THERE HOLD hand me downs and YOU HAVE to do the cleaning one day a royal messenger came to announce THE ball the BOIL the ball WILL  be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSE I    thought THAT this was THE VEIN   prince william was gorgeous and he was looking for a bride they dreamed of WINNING BILLS when the evening of the ball ARRAYED CENTRES HOW to help her sisters get ready they were in a bad mood they wanted to buy some new GUNS  but their mother said that they had enough GUNS  so they started SHARING  HIS cinders **** FAMILY jewels yelled one **** FAMILY HAD YEAH   the other they 
+Eval:                              S                                               D       S       S        S                                   I    S                                D    S       S                                            S                                S                      S     S    S                D    S          S   S    S        S     S                      S   S                                                                  S            S             S                                                                                  S       S    S            S             I   S                                                                                 S       S                                  S       S       S                                                                                     S                                                S                     S        S           D    S                        D    S      S   S                     
+
+>> REF:  wanted **** ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  wanted HARD BRUSHES HER         PINS     and hairspray 
+>> Eval:        I    I       S           S                      
+
+

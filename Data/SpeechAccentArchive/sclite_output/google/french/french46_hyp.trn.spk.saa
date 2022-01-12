@@ -1,0 +1,150 @@
+SCORING FOR SPEAKER: saa
+     of french\french46_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   60.9%   (  42)
+
+Percent Correct           =   39.1%   (  27)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =   33.3%   (  23)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   39.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  46)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  3 ==> thing
+   2:    1  ->  5 ==> please
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> advising
+   5:    1  ->  and ==> making
+   6:    1  ->  at ==> in
+   7:    1  ->  bags ==> prove
+   8:    1  ->  brother ==> brothers
+   9:    1  ->  fresh ==> the
+  10:    1  ->  go ==> could
+  11:    1  ->  her ==> or
+  12:    1  ->  of ==> 62
+  13:    1  ->  peas ==> now
+  14:    1  ->  red ==> to
+  15:    1  ->  slabs ==> lot
+  16:    1  ->  snake ==> presents
+  17:    1  ->  snow ==> first
+  18:    1  ->  thick ==> 56
+  19:    1  ->  things ==> this
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  for
+   2:    2  ->  these
+   3:    1  ->  6
+   4:    1  ->  also
+   5:    1  ->  ask
+   6:    1  ->  can
+   7:    1  ->  frog
+   8:    1  ->  her
+   9:    1  ->  into
+  10:    1  ->  kids
+  11:    1  ->  need
+  12:    1  ->  plastic
+  13:    1  ->  scoop
+  14:    1  ->  she
+  15:    1  ->  spoons
+  16:    1  ->  the
+  17:    1  ->  things
+  18:    1  ->  toy
+  19:    1  ->  we
+  20:    1  ->  wednesday
+  21:    1  ->  will
+     -------
+        23
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  and
+   2:    1  ->  3
+   3:    1  ->  5
+   4:    1  ->  a
+   5:    1  ->  at
+   6:    1  ->  bags
+   7:    1  ->  brother
+   8:    1  ->  fresh
+   9:    1  ->  go
+  10:    1  ->  her
+  11:    1  ->  of
+  12:    1  ->  peas
+  13:    1  ->  red
+  14:    1  ->  slabs
+  15:    1  ->  snake
+  16:    1  ->  snow
+  17:    1  ->  thick
+  18:    1  ->  things
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  the
+   2:    1  ->  56
+   3:    1  ->  62
+   4:    1  ->  advising
+   5:    1  ->  brothers
+   6:    1  ->  could
+   7:    1  ->  first
+   8:    1  ->  in
+   9:    1  ->  lot
+  10:    1  ->  making
+  11:    1  ->  now
+  12:    1  ->  or
+  13:    1  ->  please
+  14:    1  ->  presents
+  15:    1  ->  prove
+  16:    1  ->  thing
+  17:    1  ->  this
+  18:    1  ->  to
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

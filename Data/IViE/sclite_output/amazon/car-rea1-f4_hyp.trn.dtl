@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\car-rea1-f4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.4%   (  29)
+
+Percent Correct           =   86.7%   ( 163)
+
+Percent Substitution      =    9.6%   (  18)
+Percent Deletions         =    3.7%   (   7)
+Percent Insertions        =    2.1%   (   4)
+Percent Word Accuracy     =   84.6%
+
+
+Ref. words                =           ( 188)
+Hyp. words                =           ( 185)
+Aligned words             =           ( 192)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  and ==> lillian
+   2:    2  ->  their ==> the
+   3:    1  ->  a ==> an
+   4:    1  ->  ball ==> answerable
+   5:    1  ->  ball ==> bull
+   6:    1  ->  ball ==> was
+   7:    1  ->  buying ==> a
+   8:    1  ->  cinders ==> singers
+   9:    1  ->  going ==> go
+  10:    1  ->  howled ==> held
+  11:    1  ->  one ==> when
+  12:    1  ->  royal ==> real
+  13:    1  ->  this ==> he
+  14:    1  ->  to ==> into
+  15:    1  ->  would ==> to
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  and
+   2:    1  ->  bull
+   3:    1  ->  by
+   4:    1  ->  had
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    3  ->  lily
+   2:    1  ->  all
+   3:    1  ->  announce
+   4:    1  ->  oh
+   5:    1  ->  said
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  and
+   2:    3  ->  ball
+   3:    2  ->  their
+   4:    1  ->  a
+   5:    1  ->  buying
+   6:    1  ->  cinders
+   7:    1  ->  going
+   8:    1  ->  howled
+   9:    1  ->  one
+  10:    1  ->  royal
+  11:    1  ->  this
+  12:    1  ->  to
+  13:    1  ->  would
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  lillian
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  an
+   5:    1  ->  answerable
+   6:    1  ->  bull
+   7:    1  ->  go
+   8:    1  ->  he
+   9:    1  ->  held
+  10:    1  ->  into
+  11:    1  ->  real
+  12:    1  ->  singers
+  13:    1  ->  to
+  14:    1  ->  was
+  15:    1  ->  when
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

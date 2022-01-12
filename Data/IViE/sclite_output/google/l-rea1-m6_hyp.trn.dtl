@@ -1,0 +1,216 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\l-rea1-m6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   43.9%   (  79)
+
+Percent Correct           =   57.2%   ( 103)
+
+Percent Substitution      =   22.8%   (  41)
+Percent Deletions         =   20.0%   (  36)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   56.1%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 146)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  and ==> william
+   3:    1  ->  at ==> all
+   4:    1  ->  at ==> start
+   5:    1  ->  be ==> out
+   6:    1  ->  bells ==> dream
+   7:    1  ->  but ==> for
+   8:    1  ->  buying ==> by
+   9:    1  ->  cinders ==> enders
+  10:    1  ->  cinders ==> sins
+  11:    1  ->  find ==> ydfifteen
+  12:    1  ->  gowns ==> games
+  13:    1  ->  gowns ==> guns
+  14:    1  ->  had ==> shout
+  15:    1  ->  hairbrushes ==> hair
+  16:    1  ->  hairpins ==> pins
+  17:    1  ->  hand ==> how
+  18:    1  ->  hat ==> heart
+  19:    1  ->  held ==> of
+  20:    1  ->  her ==> ace
+  21:    1  ->  her ==> hotel
+  22:    1  ->  her ==> the
+  23:    1  ->  howled ==> help
+  24:    1  ->  lily ==> rosie
+  25:    1  ->  lived ==> left
+  26:    1  ->  me ==> many
+  27:    1  ->  one ==> modules
+  28:    1  ->  only ==> my
+  29:    1  ->  poor ==> for
+  30:    1  ->  rosa ==> rose
+  31:    1  ->  royal ==> around
+  32:    1  ->  sisters ==> persistence
+  33:    1  ->  spent ==> not
+  34:    1  ->  they ==> have
+  35:    1  ->  they ==> it's
+  36:    1  ->  they'd ==> they
+  37:    1  ->  wanted ==> want
+  38:    1  ->  were ==> a
+  39:    1  ->  were ==> there
+  40:    1  ->  would ==> an
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  ball
+   4:    2  ->  rosa
+   5:    2  ->  they
+   6:    2  ->  was
+   7:    1  ->  announce
+   8:    1  ->  bride
+   9:    1  ->  divine
+  10:    1  ->  dreamed
+  11:    1  ->  had
+  12:    1  ->  he
+  13:    1  ->  help
+  14:    1  ->  jewels
+  15:    1  ->  lily
+  16:    1  ->  my
+  17:    1  ->  of
+  18:    1  ->  prin
+  19:    1  ->  prince
+  20:    1  ->  she
+  21:    1  ->  shouting
+  22:    1  ->  started
+  23:    1  ->  that
+  24:    1  ->  the
+  25:    1  ->  this
+  26:    1  ->  thought
+  27:    1  ->  to
+  28:    1  ->  wedding
+  29:    1  ->  william
+  30:    1  ->  yelled
+     -------
+        36
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  her
+   2:    2  ->  at
+   3:    2  ->  cinders
+   4:    2  ->  gowns
+   5:    2  ->  their
+   6:    2  ->  they
+   7:    2  ->  were
+   8:    1  ->  and
+   9:    1  ->  be
+  10:    1  ->  bells
+  11:    1  ->  but
+  12:    1  ->  buying
+  13:    1  ->  find
+  14:    1  ->  had
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  hand
+  18:    1  ->  hat
+  19:    1  ->  held
+  20:    1  ->  howled
+  21:    1  ->  lily
+  22:    1  ->  lived
+  23:    1  ->  me
+  24:    1  ->  one
+  25:    1  ->  only
+  26:    1  ->  poor
+  27:    1  ->  rosa
+  28:    1  ->  royal
+  29:    1  ->  sisters
+  30:    1  ->  spent
+  31:    1  ->  they'd
+  32:    1  ->  wanted
+  33:    1  ->  would
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    3  ->  the
+   2:    2  ->  for
+   3:    1  ->  a
+   4:    1  ->  ace
+   5:    1  ->  all
+   6:    1  ->  an
+   7:    1  ->  around
+   8:    1  ->  by
+   9:    1  ->  dream
+  10:    1  ->  enders
+  11:    1  ->  games
+  12:    1  ->  guns
+  13:    1  ->  hair
+  14:    1  ->  have
+  15:    1  ->  heart
+  16:    1  ->  help
+  17:    1  ->  hotel
+  18:    1  ->  how
+  19:    1  ->  it's
+  20:    1  ->  left
+  21:    1  ->  many
+  22:    1  ->  modules
+  23:    1  ->  my
+  24:    1  ->  not
+  25:    1  ->  of
+  26:    1  ->  out
+  27:    1  ->  persistence
+  28:    1  ->  pins
+  29:    1  ->  rose
+  30:    1  ->  rosie
+  31:    1  ->  shout
+  32:    1  ->  sins
+  33:    1  ->  start
+  34:    1  ->  there
+  35:    1  ->  they
+  36:    1  ->  want
+  37:    1  ->  william
+  38:    1  ->  ydfifteen
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

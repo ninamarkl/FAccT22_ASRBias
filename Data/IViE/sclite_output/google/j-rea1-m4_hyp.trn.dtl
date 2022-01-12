@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\j-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.0%   (  57)
+
+Percent Correct           =   71.2%   ( 131)
+
+Percent Substitution      =   19.6%   (  36)
+Percent Deletions         =    9.2%   (  17)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   69.0%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 171)
+Aligned words             =           ( 188)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  a ==> payroll
+   2:    1  ->  all ==> been
+   3:    1  ->  and ==> a
+   4:    1  ->  and ==> liliana
+   5:    1  ->  cinders ==> is
+   6:    1  ->  cinders ==> this
+   7:    1  ->  cinders ==> us
+   8:    1  ->  downs ==> down
+   9:    1  ->  dreamed ==> drained
+  10:    1  ->  gowns ==> down
+  11:    1  ->  had ==> that
+  12:    1  ->  hairbrushes ==> brushes
+  13:    1  ->  hat ==> head
+  14:    1  ->  her ==> courses
+  15:    1  ->  howled ==> out
+  16:    1  ->  jewels ==> your
+  17:    1  ->  lily ==> was
+  18:    1  ->  lived ==> live
+  19:    1  ->  me ==> head
+  20:    1  ->  mother ==> mobile
+  21:    1  ->  my ==> modules
+  22:    1  ->  only ==> my
+  23:    1  ->  poor ==> person
+  24:    1  ->  ready ==> rid
+  25:    1  ->  rosa ==> divine
+  26:    1  ->  rosa ==> liliana
+  27:    1  ->  royal ==> your
+  28:    1  ->  sisters ==> assistance
+  29:    1  ->  spent ==> it's
+  30:    1  ->  their ==> bullet
+  31:    1  ->  their ==> the
+  32:    1  ->  they ==> lazygirls
+  33:    1  ->  time ==> i'm
+  34:    1  ->  were ==> groza
+  35:    1  ->  would ==> will
+  36:    1  ->  yelled ==> old
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  send
+   2:    1  ->  hair
+   3:    1  ->  this
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  lily
+   2:    2  ->  and
+   3:    1  ->  all
+   4:    1  ->  but
+   5:    1  ->  called
+   6:    1  ->  girls
+   7:    1  ->  hand
+   8:    1  ->  her
+   9:    1  ->  lazy
+  10:    1  ->  queen's
+  11:    1  ->  rosa
+  12:    1  ->  the
+  13:    1  ->  they
+  14:    1  ->  was
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  cinders
+   2:    2  ->  and
+   3:    2  ->  rosa
+   4:    2  ->  their
+   5:    1  ->  a
+   6:    1  ->  all
+   7:    1  ->  downs
+   8:    1  ->  dreamed
+   9:    1  ->  gowns
+  10:    1  ->  had
+  11:    1  ->  hairbrushes
+  12:    1  ->  hat
+  13:    1  ->  her
+  14:    1  ->  howled
+  15:    1  ->  jewels
+  16:    1  ->  lily
+  17:    1  ->  lived
+  18:    1  ->  me
+  19:    1  ->  mother
+  20:    1  ->  my
+  21:    1  ->  only
+  22:    1  ->  poor
+  23:    1  ->  ready
+  24:    1  ->  royal
+  25:    1  ->  sisters
+  26:    1  ->  spent
+  27:    1  ->  they
+  28:    1  ->  time
+  29:    1  ->  were
+  30:    1  ->  would
+  31:    1  ->  yelled
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  down
+   2:    2  ->  head
+   3:    2  ->  liliana
+   4:    2  ->  your
+   5:    1  ->  a
+   6:    1  ->  assistance
+   7:    1  ->  been
+   8:    1  ->  brushes
+   9:    1  ->  bullet
+  10:    1  ->  courses
+  11:    1  ->  divine
+  12:    1  ->  drained
+  13:    1  ->  groza
+  14:    1  ->  i'm
+  15:    1  ->  is
+  16:    1  ->  it's
+  17:    1  ->  lazygirls
+  18:    1  ->  live
+  19:    1  ->  mobile
+  20:    1  ->  modules
+  21:    1  ->  my
+  22:    1  ->  old
+  23:    1  ->  out
+  24:    1  ->  payroll
+  25:    1  ->  person
+  26:    1  ->  rid
+  27:    1  ->  that
+  28:    1  ->  the
+  29:    1  ->  this
+  30:    1  ->  us
+  31:    1  ->  was
+  32:    1  ->  will
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

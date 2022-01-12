@@ -1,0 +1,165 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish15_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   60.9%   (  42)
+
+Percent Correct           =   42.0%   (  29)
+
+Percent Substitution      =   40.6%   (  28)
+Percent Deletions         =   17.4%   (  12)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   39.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  her ==> hair
+   2:    1  ->  5 ==> please
+   3:    1  ->  a ==> is
+   4:    1  ->  a ==> this
+   5:    1  ->  also ==> are
+   6:    1  ->  and ==> so
+   7:    1  ->  at ==> are
+   8:    1  ->  bags ==> thing
+   9:    1  ->  cheese ==> brushes
+  10:    1  ->  fresh ==> pressure
+  11:    1  ->  frog ==> floor
+  12:    1  ->  go ==> be
+  13:    1  ->  meet ==> gummy
+  14:    1  ->  need ==> sunny
+  15:    1  ->  peas ==> now
+  16:    1  ->  red ==> this
+  17:    1  ->  slabs ==> lot
+  18:    1  ->  small ==> more
+  19:    1  ->  snack ==> not
+  20:    1  ->  snake ==> made
+  21:    1  ->  snow ==> is
+  22:    1  ->  spoons ==> pounds
+  23:    1  ->  stella ==> tailor
+  24:    1  ->  thick ==> 56
+  25:    1  ->  toy ==> victorian
+  26:    1  ->  we ==> three
+  27:    1  ->  wednesday ==> when
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  is
+   2:    1  ->  us
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  3
+   2:    1  ->  big
+   3:    1  ->  blue
+   4:    1  ->  bob
+   5:    1  ->  brother
+   6:    1  ->  can
+   7:    1  ->  her
+   8:    1  ->  into
+   9:    1  ->  scoop
+  10:    1  ->  she
+  11:    1  ->  these
+  12:    1  ->  things
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  a
+   2:    2  ->  her
+   3:    1  ->  5
+   4:    1  ->  also
+   5:    1  ->  and
+   6:    1  ->  at
+   7:    1  ->  bags
+   8:    1  ->  cheese
+   9:    1  ->  fresh
+  10:    1  ->  frog
+  11:    1  ->  go
+  12:    1  ->  meet
+  13:    1  ->  need
+  14:    1  ->  peas
+  15:    1  ->  red
+  16:    1  ->  slabs
+  17:    1  ->  small
+  18:    1  ->  snack
+  19:    1  ->  snake
+  20:    1  ->  snow
+  21:    1  ->  spoons
+  22:    1  ->  stella
+  23:    1  ->  thick
+  24:    1  ->  toy
+  25:    1  ->  we
+  26:    1  ->  wednesday
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  are
+   2:    2  ->  hair
+   3:    2  ->  is
+   4:    2  ->  this
+   5:    1  ->  56
+   6:    1  ->  be
+   7:    1  ->  brushes
+   8:    1  ->  floor
+   9:    1  ->  gummy
+  10:    1  ->  lot
+  11:    1  ->  made
+  12:    1  ->  more
+  13:    1  ->  not
+  14:    1  ->  now
+  15:    1  ->  please
+  16:    1  ->  pounds
+  17:    1  ->  pressure
+  18:    1  ->  so
+  19:    1  ->  sunny
+  20:    1  ->  tailor
+  21:    1  ->  thing
+  22:    1  ->  three
+  23:    1  ->  victorian
+  24:    1  ->  when
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

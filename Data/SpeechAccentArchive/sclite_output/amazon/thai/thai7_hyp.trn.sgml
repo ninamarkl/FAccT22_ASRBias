@@ -1,0 +1,7 @@
+<SYSTEM title=" amazon\thai\thai7_hyp.trn" ref_fname=" saa_ref.trn" hyp_fname=" amazon\thai\thai7_hyp.trn" creation_date="Tue May 25 15:16:49 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="71" sequence="0">
+C,"please","please":I,,"cost":S,"call","a":S,"stella","lot":S,"ask","asked":C,"her","her":C,"to","to":C,"bring","bring":S,"these","this":S,"things","thing":C,"with","with":C,"her","her":C,"from","from":C,"the","the":C,"store","store":C,"six","six":D,"spoons",:D,"of",:S,"fresh","point":S,"snow","off":S,"peas","less":S,"five","snoopy":S,"thick","fifty-six":S,"slabs","laps":S,"of","ofthe":C,"blue","blue":S,"cheese","she's":C,"and","and":C,"maybe","maybe":C,"a","a":C,"snack","snack":C,"for","for":C,"her","her":S,"brother","bladder":C,"bob","bob":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":C,"plastic","plastic":C,"snake","snake":C,"and","and":C,"a","a":C,"big","big":C,"toy","toy":I,,"flaw":S,"frog","for":C,"for","for":C,"the","the":C,"kids","kids":C,"she","she":C,"can","can":C,"scoop","scoop":S,"these","this":S,"things","thing":C,"into","into":C,"three","three":S,"red","lead":S,"bags","back":C,"and","and":C,"we","we":C,"will","will":C,"go","go":C,"meet","meet":C,"her","her":C,"wednesday","wednesday":C,"at","at":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

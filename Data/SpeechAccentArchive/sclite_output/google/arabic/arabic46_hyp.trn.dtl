@@ -1,0 +1,101 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic46_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  bob ==> but
+   2:    1  ->  can ==> can't
+   3:    1  ->  for ==> of
+   4:    1  ->  scoop ==> school
+   5:    1  ->  spoons ==> pounds
+   6:    1  ->  thick ==> 56
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  ask
+   2:    1  ->  bring
+   3:    1  ->  her
+   4:    1  ->  those
+   5:    1  ->  to
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  5
+   2:    1  ->  for
+   3:    1  ->  her
+   4:    1  ->  kids
+   5:    1  ->  the
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  bob
+   2:    1  ->  can
+   3:    1  ->  for
+   4:    1  ->  scoop
+   5:    1  ->  spoons
+   6:    1  ->  thick
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  56
+   2:    1  ->  but
+   3:    1  ->  can't
+   4:    1  ->  of
+   5:    1  ->  pounds
+   6:    1  ->  school
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,7 @@
+<SYSTEM title="french\french37_hyp.trn" ref_fname="saa_ref.trn" hyp_fname="french\french37_hyp.trn" creation_date="Fri May 21 11:38:18 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="69" sequence="0">
+C,"please","please":C,"call","call":C,"stella","stella":S,"ask","asked":S,"her","you":C,"to","to":C,"bring","bring":S,"these","this":C,"things","things":C,"with","with":C,"her","her":C,"from","from":C,"the","the":D,"store",:D,"6",:S,"spoons","story":C,"of","of":D,"fresh",:S,"snow","breasts":S,"peas","no":S,"5","please":S,"thick","fix":S,"slabs","loads":C,"of","of":C,"blue","blue":C,"cheese","cheese":C,"and","and":C,"maybe","maybe":D,"a",:D,"snack",:D,"for",:S,"her","sniper":C,"brother","brother":S,"bob","both":C,"we","we":C,"also","also":C,"need","need":C,"a","a":C,"small","small":D,"plastic",:S,"snake","6ne":S,"and","can":C,"a","a":C,"big","big":C,"toy","toy":D,"frog",:C,"for","for":D,"the",:C,"kids","kids":D,"she",:D,"can",:D,"scoop",:S,"these","this":C,"things","things":C,"into","into":C,"3","3":C,"red","red":C,"bags","bags":C,"and","and":D,"we",:S,"will","we'll":C,"go","go":D,"meet",:D,"her",:C,"wednesday","wednesday":S,"at","of":C,"the","the":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

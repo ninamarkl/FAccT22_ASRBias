@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\car-rea1-m2_hyp.trn
+
+Speakers: 
+    0:  car
+
+Speaker sentences   0:  car   #utts: 1
+id: (car-rea1-m2_01)
+Scores: (#C #S #D #I) 154 34 16 3
+REF:  once upon a time there was a girl called cinderella but everyone called HER CINDERS cinders lived with HER mother and two stepsisters called LILY AND ROSA lily and ROSA WERE  were very UNFRIENDLY and THEY WERE LAZY girls they spent all THEIR time BUYING new clothes and going to parties POOR cinders HAD  to wear all THEIR old hand me downs and she had to do the cleaning one day A royal messenger CAME to announce a ball the ball WOULD be held at the royal palace in honour of the queen's only SON  prince william LILY   and rosa thought this was SORRY lily and ROSE THOUGHT this was divine prince WILLIAM WAS       gorgeous and he was looking for a bride THEY DREAMED of wedding bells when the evening of the BALL   arrived ** **** CINDERS had to help her SISTERS  get ready THEY  were IN A   bad mood they wanted to buy SOME NEW GOWNS but THEIR mother said that they had enough GOWNS OH   they wanted to buy some new GOWNS BUT THEIR mother said THAT they had enough GOWNS so they started 
+HYP:  once upon a time there was a girl called cinderella but everyone called ACE ENDERS  cinders lived with A   mother and two stepsisters called **** *** **** lily and **** ROSIE were very FRIENDLY   and **** **** EASY girls they spent all THE   time BY     new clothes and going to parties FOR  cinders HAVE to wear all THE   old hand me downs and she had to do the cleaning one day * royal messenger **** to announce a ball the ball WILL  be held at the royal palace in honour of the queen's only SEND prince william LILLEY and rosa thought this was ***** lily and **** ******* this was divine prince ******* WILLIAM'S gorgeous and he was looking for a bride THE  DREAM   of wedding bells when the evening of the BONNET arrived TO SEND IT      had to help her SISTER'S get ready THERE were ** ANY bad mood they wanted to buy **** YOU GUNS  but THE   mother said that they had enough ***** GUNS they wanted to buy some new GUNS  FOR THE   mother said **** they had enough GUNS  so they started 
+Eval:                                                                         S   S                          S                                     D    D   D             D    S               S              D    D    S                         S          S                                       S            S                S                                                              D                 D                                S                                                               S                   S                                D              D    D                              D       S                                                 S    S                                                S              I  I    S                       S                  S          D  S                               D    S   S         S                                      D     S                                S     S   S                 D                    S                     
+
+>> REF:  shouting at cinders find my JEWELS YELLED one find my hat HOWLED the other they wanted **** HAIRBRUSHES hairpins and hairspray 
+>> HYP:  shouting at cinders find my JULES  OLD    one find my hat HOW    the other they wanted HAIR BRUSHES     hairpins and hairspray 
+>> Eval:                             S      S                      S                            I    S                                  
+
+

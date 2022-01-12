@@ -1,0 +1,133 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\portuguese\portuguese14_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a ==> neighbours
+   2:    1  ->  and ==> in
+   3:    1  ->  ask ==> asked
+   4:    1  ->  blue ==> off
+   5:    1  ->  cheese ==> guccis
+   6:    1  ->  her ==> where
+   7:    1  ->  of ==> labs
+   8:    1  ->  peas ==> piece
+   9:    1  ->  plastic ==> plus
+  10:    1  ->  red ==> had
+  11:    1  ->  slabs ==> fixed
+  12:    1  ->  snack ==> neck
+  13:    1  ->  spoons ==> points
+  14:    1  ->  stella ==> coastal
+  15:    1  ->  these ==> scope
+  16:    1  ->  three ==> free
+  17:    1  ->  wednesday ==> they
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  here
+   2:    1  ->  new
+   3:    1  ->  then
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  call
+   2:    1  ->  maybe
+   3:    1  ->  scoop
+   4:    1  ->  these
+   5:    1  ->  thick
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  blue
+   5:    1  ->  cheese
+   6:    1  ->  her
+   7:    1  ->  of
+   8:    1  ->  peas
+   9:    1  ->  plastic
+  10:    1  ->  red
+  11:    1  ->  slabs
+  12:    1  ->  snack
+  13:    1  ->  spoons
+  14:    1  ->  stella
+  15:    1  ->  these
+  16:    1  ->  three
+  17:    1  ->  wednesday
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  asked
+   2:    1  ->  coastal
+   3:    1  ->  fixed
+   4:    1  ->  free
+   5:    1  ->  guccis
+   6:    1  ->  had
+   7:    1  ->  in
+   8:    1  ->  labs
+   9:    1  ->  neck
+  10:    1  ->  neighbours
+  11:    1  ->  off
+  12:    1  ->  piece
+  13:    1  ->  plus
+  14:    1  ->  points
+  15:    1  ->  scope
+  16:    1  ->  they
+  17:    1  ->  where
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

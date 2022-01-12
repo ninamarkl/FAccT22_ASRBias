@@ -1,0 +1,113 @@
+SCORING FOR SPEAKER: saa
+     of french\french47_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.9%   (  31)
+
+Percent Correct           =   55.1%   (  38)
+
+Percent Substitution      =    7.2%   (   5)
+Percent Deletions         =   37.7%   (  26)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   55.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  43)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a ==> libya
+   2:    1  ->  of ==> 65
+   3:    1  ->  red ==> three-way
+   4:    1  ->  scoop ==> skip
+   5:    1  ->  these ==> this
+     -------
+         5
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  a
+   2:    2  ->  her
+   3:    1  ->  3
+   4:    1  ->  5
+   5:    1  ->  6
+   6:    1  ->  also
+   7:    1  ->  and
+   8:    1  ->  ask
+   9:    1  ->  big
+  10:    1  ->  bring
+  11:    1  ->  fresh
+  12:    1  ->  frog
+  13:    1  ->  maybe
+  14:    1  ->  need
+  15:    1  ->  of
+  16:    1  ->  peas
+  17:    1  ->  slabs
+  18:    1  ->  snow
+  19:    1  ->  spoons
+  20:    1  ->  these
+  21:    1  ->  thick
+  22:    1  ->  to
+  23:    1  ->  toy
+  24:    1  ->  we
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  of
+   3:    1  ->  red
+   4:    1  ->  scoop
+   5:    1  ->  these
+     -------
+         5
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  65
+   2:    1  ->  libya
+   3:    1  ->  skip
+   4:    1  ->  this
+   5:    1  ->  three-way
+     -------
+         5
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

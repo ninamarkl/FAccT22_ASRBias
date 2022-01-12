@@ -1,0 +1,111 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic36_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  5 ==> bs
+   3:    1  ->  6 ==> 6.6
+   4:    1  ->  her ==> it
+   5:    1  ->  scoop ==> school
+   6:    1  ->  snake ==> snack
+   7:    1  ->  spoons ==> g
+   8:    1  ->  thick ==> 5/4
+   9:    1  ->  toy ==> victorian
+  10:    1  ->  will ==> we'll
+  11:    1  ->  with ==> was
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  her
+   2:    1  ->  meet
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  big
+   2:    1  ->  peas
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  6
+   4:    1  ->  her
+   5:    1  ->  scoop
+   6:    1  ->  snake
+   7:    1  ->  spoons
+   8:    1  ->  thick
+   9:    1  ->  toy
+  10:    1  ->  will
+  11:    1  ->  with
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  this
+   2:    1  ->  5/4
+   3:    1  ->  6.6
+   4:    1  ->  bs
+   5:    1  ->  g
+   6:    1  ->  it
+   7:    1  ->  school
+   8:    1  ->  snack
+   9:    1  ->  victorian
+  10:    1  ->  was
+  11:    1  ->  we'll
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

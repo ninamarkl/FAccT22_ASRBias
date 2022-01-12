@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin57_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5 ==> lps
+   2:    1  ->  bags ==> max
+   3:    1  ->  brother ==> 402
+   4:    1  ->  for ==> your
+   5:    1  ->  her ==> snaps
+   6:    1  ->  into ==> your
+   7:    1  ->  red ==> rep
+   8:    1  ->  slabs ==> laps
+   9:    1  ->  these ==> dead
+  10:    1  ->  thick ==> 56
+  11:    1  ->  will ==> won't
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  in
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  fresh
+   3:    1  ->  peas
+   4:    1  ->  snack
+   5:    1  ->  snow
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5
+   2:    1  ->  bags
+   3:    1  ->  brother
+   4:    1  ->  for
+   5:    1  ->  her
+   6:    1  ->  into
+   7:    1  ->  red
+   8:    1  ->  slabs
+   9:    1  ->  these
+  10:    1  ->  thick
+  11:    1  ->  will
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  your
+   2:    1  ->  402
+   3:    1  ->  56
+   4:    1  ->  dead
+   5:    1  ->  laps
+   6:    1  ->  lps
+   7:    1  ->  max
+   8:    1  ->  rep
+   9:    1  ->  snaps
+  10:    1  ->  won't
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

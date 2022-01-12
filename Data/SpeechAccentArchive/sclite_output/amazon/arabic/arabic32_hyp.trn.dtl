@@ -1,0 +1,100 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\arabic\arabic32_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  five ==> fire
+   3:    1  ->  meet ==> made
+   4:    1  ->  of ==> off
+   5:    1  ->  scoop ==> screw
+   6:    1  ->  snack ==> snacks
+   7:    1  ->  thick ==> fixed
+   8:    1  ->  toy ==> of
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  snack
+   2:    1  ->  toe
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  a
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ask
+   2:    1  ->  five
+   3:    1  ->  meet
+   4:    1  ->  of
+   5:    1  ->  scoop
+   6:    1  ->  snack
+   7:    1  ->  thick
+   8:    1  ->  toy
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  asked
+   2:    1  ->  fire
+   3:    1  ->  fixed
+   4:    1  ->  made
+   5:    1  ->  of
+   6:    1  ->  off
+   7:    1  ->  screw
+   8:    1  ->  snacks
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

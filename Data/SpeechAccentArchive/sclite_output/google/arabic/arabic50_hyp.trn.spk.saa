@@ -1,0 +1,114 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic50_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =   10.1%   (   7)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  frog ==> from
+   3:    1  ->  scoop ==> cope
+   4:    1  ->  slabs ==> slaps
+   5:    1  ->  snack ==> snacks
+   6:    1  ->  snake ==> sinks
+   7:    1  ->  spoons ==> pounds
+   8:    1  ->  stella ==> estella
+   9:    1  ->  store ==> stop
+  10:    1  ->  the ==> this
+  11:    1  ->  thick ==> take
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  bob
+   2:    1  ->  go
+   3:    1  ->  peas
+   4:    1  ->  the
+   5:    1  ->  train
+   6:    1  ->  we
+   7:    1  ->  will
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  frog
+   3:    1  ->  scoop
+   4:    1  ->  slabs
+   5:    1  ->  snack
+   6:    1  ->  snake
+   7:    1  ->  spoons
+   8:    1  ->  stella
+   9:    1  ->  store
+  10:    1  ->  the
+  11:    1  ->  thick
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  cope
+   2:    1  ->  estella
+   3:    1  ->  from
+   4:    1  ->  pounds
+   5:    1  ->  sinks
+   6:    1  ->  slaps
+   7:    1  ->  snacks
+   8:    1  ->  stop
+   9:    1  ->  take
+  10:    1  ->  the
+  11:    1  ->  this
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

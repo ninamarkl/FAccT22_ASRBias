@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   thai\thai14_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 56 12 1 1
+REF:  please call stella ask her to bring these things with her FROM   the store 6 spoons of fresh SNOW peas 5 THICK SLABS OF  blue CHEESE and maybe a snack for her brother bob we also need a small PLASTIC  SNAKE and ** a big TOY  FROG for the KIDS she can scoop these things into 3 red bags and we will GO   meet her wednesday at the train station 
+HYP:  please call stella ask her to bring these things with her FORMED the store 6 spoons of fresh NO   peas * 56    SUB   ARE blue SHEATH and maybe a snack for her brother bob we also need a small PLASTICS NEXT  and M5 a big TOYS FOR  for the CASE she can scoop these things into 3 red bags and we will CALL meet her wednesday at the train station 
+Eval:                                                           S                                  S         D S     S     S        S                                                                 S        S         I        S    S            S                                                           S                                            
+
+

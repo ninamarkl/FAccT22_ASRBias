@@ -1,0 +1,127 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\arabic\arabic6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  and ==> on
+   2:    1  ->  ask ==> asked
+   3:    1  ->  bags ==> packs
+   4:    1  ->  blue ==> off
+   5:    1  ->  bob ==> but
+   6:    1  ->  cheese ==> guccis
+   7:    1  ->  five ==> by
+   8:    1  ->  fresh ==> off
+   9:    1  ->  frog ==> truck
+  10:    1  ->  of ==> points
+  11:    1  ->  peas ==> base
+  12:    1  ->  scoop ==> at
+  13:    1  ->  snack ==> snake
+  14:    1  ->  snow ==> personal
+  15:    1  ->  stella ==> kostya
+  16:    1  ->  these ==> this
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  scope
+   2:    1  ->  this
+   3:    1  ->  with
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  call
+   2:    1  ->  of
+   3:    1  ->  red
+   4:    1  ->  spoons
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  and
+   2:    1  ->  ask
+   3:    1  ->  bags
+   4:    1  ->  blue
+   5:    1  ->  bob
+   6:    1  ->  cheese
+   7:    1  ->  five
+   8:    1  ->  fresh
+   9:    1  ->  frog
+  10:    1  ->  of
+  11:    1  ->  peas
+  12:    1  ->  scoop
+  13:    1  ->  snack
+  14:    1  ->  snow
+  15:    1  ->  stella
+  16:    1  ->  these
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  off
+   2:    2  ->  on
+   3:    1  ->  asked
+   4:    1  ->  at
+   5:    1  ->  base
+   6:    1  ->  but
+   7:    1  ->  by
+   8:    1  ->  guccis
+   9:    1  ->  kostya
+  10:    1  ->  packs
+  11:    1  ->  personal
+  12:    1  ->  points
+  13:    1  ->  snake
+  14:    1  ->  this
+  15:    1  ->  truck
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

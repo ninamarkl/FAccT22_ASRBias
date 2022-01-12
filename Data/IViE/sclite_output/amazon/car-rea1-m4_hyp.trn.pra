@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\car-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  car
+
+Speaker sentences   0:  car   #utts: 1
+id: (car-rea1-m4_01)
+Scores: (#C #S #D #I) 164 18 4 0
+REF:  once upon a time there was a girl called cinderella but everyone called HER       CINDERS CINDERS lived with her mother and two stepsisters called LILY AND     rosa LILY    AND  ROSA were very unfriendly and they were lazy girls they spent all THEIR time buying new clothes and going to parties POOR CINDERS    had to wear all the old hand me downs and she had ER sorry and she had to do the cleaning one day a royal messenger came to announce A   ball the ball would be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought that this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new gowns but their mother had said THAT they had enough GOWNS so they started shouting at cinders find my jewels yelled one find my hat HOWLED the other they wanted hairbrushes 
+HYP:  once upon a time there was a girl called cinderella but everyone called DESCENDED SINCE   HAS     lived with her mother and two stepsisters called **** LILLIAN rosa LILLIAN ROSE WHO  were very unfriendly and they were lazy girls they spent all THE   time buying new clothes and going to parties **** PASSENGERS had to wear all the old hand me downs and she had ** sorry and she had to do the cleaning one day a royal messenger came to announce THE ball the ball would be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSE A    thought that this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a bad mood THEY   wanted to buy some new gowns but their mother had said **** they had enough COUNT so they started shouting at cinders find my jewels yelled one find my hat HOLD   the other they wanted hairbrushes 
+Eval:                                                                         S         S       S                                                        D    S            S       S    S                                                                 S                                                  D    S                                                            D                                                                                  S                                                                                                    S       S    S                                                                                                                                                                                                                                 S                                                             D                    S                                                                               S                                        
+
+>> REF:  HAIRPINS AND hairspray 
+>> HYP:  HAPPENS  IN  hairspray 
+>> Eval: S        S             
+
+

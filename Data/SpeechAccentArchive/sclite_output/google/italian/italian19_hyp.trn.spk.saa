@@ -1,0 +1,122 @@
+SCORING FOR SPEAKER: saa
+     of italian\italian19_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =   14.5%   (  10)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  3 ==> surrey
+   2:    1  ->  ask ==> sama
+   3:    1  ->  bob ==> but
+   4:    1  ->  her ==> oscar
+   5:    1  ->  her ==> our
+   6:    1  ->  into ==> in
+   7:    1  ->  of ==> loves
+   8:    1  ->  scoop ==> cook
+   9:    1  ->  slabs ==> bs56
+  10:    1  ->  spoons ==> sort
+  11:    1  ->  these ==> this
+  12:    1  ->  thick ==> freshener
+  13:    1  ->  things ==> thing
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  for
+   5:    1  ->  fresh
+   6:    1  ->  peas
+   7:    1  ->  snack
+   8:    1  ->  snow
+   9:    1  ->  stella
+  10:    1  ->  store
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  her
+   2:    1  ->  3
+   3:    1  ->  ask
+   4:    1  ->  bob
+   5:    1  ->  into
+   6:    1  ->  of
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  spoons
+  10:    1  ->  these
+  11:    1  ->  thick
+  12:    1  ->  things
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  bs56
+   2:    1  ->  but
+   3:    1  ->  cook
+   4:    1  ->  freshener
+   5:    1  ->  in
+   6:    1  ->  loves
+   7:    1  ->  oscar
+   8:    1  ->  our
+   9:    1  ->  sama
+  10:    1  ->  sort
+  11:    1  ->  surrey
+  12:    1  ->  thing
+  13:    1  ->  this
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

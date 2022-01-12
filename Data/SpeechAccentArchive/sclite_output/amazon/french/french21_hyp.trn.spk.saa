@@ -1,0 +1,120 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french21_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  at ==> that
+   2:    1  ->  bring ==> brings
+   3:    1  ->  fresh ==> french
+   4:    1  ->  frog ==> for
+   5:    1  ->  her ==> asked
+   6:    1  ->  her ==> our
+   7:    1  ->  scoop ==> school
+   8:    1  ->  slabs ==> slab
+   9:    1  ->  snack ==> snake
+  10:    1  ->  these ==> the
+  11:    1  ->  thick ==> ticks
+  12:    1  ->  three ==> free
+  13:    1  ->  to ==> auto
+  14:    1  ->  toy ==> tour
+  15:    1  ->  wednesday ==> is
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  when
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  ask
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  her
+   2:    1  ->  at
+   3:    1  ->  bring
+   4:    1  ->  fresh
+   5:    1  ->  frog
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  these
+  10:    1  ->  thick
+  11:    1  ->  three
+  12:    1  ->  to
+  13:    1  ->  toy
+  14:    1  ->  wednesday
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  asked
+   2:    1  ->  auto
+   3:    1  ->  brings
+   4:    1  ->  for
+   5:    1  ->  free
+   6:    1  ->  french
+   7:    1  ->  is
+   8:    1  ->  our
+   9:    1  ->  school
+  10:    1  ->  slab
+  11:    1  ->  snake
+  12:    1  ->  that
+  13:    1  ->  the
+  14:    1  ->  ticks
+  15:    1  ->  tour
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

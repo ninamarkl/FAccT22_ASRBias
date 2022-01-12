@@ -1,0 +1,102 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bob ==> but
+   2:    1  ->  go ==> to
+   3:    1  ->  kids ==> keys
+   4:    1  ->  slabs ==> syllabus
+   5:    1  ->  spoons ==> pounds
+   6:    1  ->  thick ==> 56
+   7:    1  ->  we ==> we're
+   8:    1  ->  will ==> going
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  for
+   2:    1  ->  her
+   3:    1  ->  then
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  5
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bob
+   2:    1  ->  go
+   3:    1  ->  kids
+   4:    1  ->  slabs
+   5:    1  ->  spoons
+   6:    1  ->  thick
+   7:    1  ->  we
+   8:    1  ->  will
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  56
+   2:    1  ->  but
+   3:    1  ->  going
+   4:    1  ->  keys
+   5:    1  ->  pounds
+   6:    1  ->  syllabus
+   7:    1  ->  to
+   8:    1  ->  we're
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

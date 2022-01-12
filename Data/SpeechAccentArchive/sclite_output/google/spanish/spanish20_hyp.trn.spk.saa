@@ -1,0 +1,125 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish20_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  61)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  and ==> in
+   3:    1  ->  bob ==> bow
+   4:    1  ->  fresh ==> fridges
+   5:    1  ->  her ==> here
+   6:    1  ->  her ==> herve
+   7:    1  ->  of ==> small
+   8:    1  ->  peas ==> please
+   9:    1  ->  snack ==> not
+  10:    1  ->  snow ==> know
+  11:    1  ->  spoons ==> city
+  12:    1  ->  stella ==> estella
+  13:    1  ->  these ==> keith
+  14:    1  ->  these ==> this
+  15:    1  ->  things ==> thing
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  6
+   2:    1  ->  can
+   3:    1  ->  kids
+   4:    1  ->  of
+   5:    1  ->  scoop
+   6:    1  ->  she
+   7:    1  ->  slabs
+   8:    1  ->  thick
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  her
+   2:    2  ->  these
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  bob
+   6:    1  ->  fresh
+   7:    1  ->  of
+   8:    1  ->  peas
+   9:    1  ->  snack
+  10:    1  ->  snow
+  11:    1  ->  spoons
+  12:    1  ->  stella
+  13:    1  ->  things
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  bow
+   2:    1  ->  city
+   3:    1  ->  estella
+   4:    1  ->  fridges
+   5:    1  ->  here
+   6:    1  ->  herve
+   7:    1  ->  in
+   8:    1  ->  it's
+   9:    1  ->  keith
+  10:    1  ->  know
+  11:    1  ->  not
+  12:    1  ->  please
+  13:    1  ->  small
+  14:    1  ->  thing
+  15:    1  ->  this
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

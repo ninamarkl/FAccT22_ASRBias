@@ -1,0 +1,124 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\portuguese\portuguese5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  73)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  ask ==> a
+   3:    1  ->  blue ==> off
+   4:    1  ->  call ==> tell
+   5:    1  ->  cheese ==> bush's
+   6:    1  ->  her ==> scare
+   7:    1  ->  into ==> to
+   8:    1  ->  of ==> off
+   9:    1  ->  snack ==> snake
+  10:    1  ->  spoons ==> points
+  11:    1  ->  stella ==> him
+  12:    1  ->  store ==> tour
+  13:    1  ->  the ==> her
+  14:    1  ->  the ==> this
+  15:    1  ->  these ==> the
+  16:    1  ->  toy ==> from
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  calls
+   2:    1  ->  he
+   3:    1  ->  storey
+   4:    1  ->  went
+   5:    1  ->  with
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  of
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  blue
+   5:    1  ->  call
+   6:    1  ->  cheese
+   7:    1  ->  her
+   8:    1  ->  into
+   9:    1  ->  of
+  10:    1  ->  snack
+  11:    1  ->  spoons
+  12:    1  ->  stella
+  13:    1  ->  store
+  14:    1  ->  these
+  15:    1  ->  toy
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  off
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  bush's
+   5:    1  ->  from
+   6:    1  ->  her
+   7:    1  ->  him
+   8:    1  ->  points
+   9:    1  ->  scare
+  10:    1  ->  snake
+  11:    1  ->  tell
+  12:    1  ->  this
+  13:    1  ->  to
+  14:    1  ->  tour
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

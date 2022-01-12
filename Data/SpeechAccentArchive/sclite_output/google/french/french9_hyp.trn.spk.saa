@@ -1,0 +1,115 @@
+SCORING FOR SPEAKER: saa
+     of french\french9_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  for ==> of
+   3:    1  ->  frog ==> front
+   4:    1  ->  her ==> a
+   5:    1  ->  scoop ==> skip
+   6:    1  ->  small ==> snow
+   7:    1  ->  snow ==> no
+   8:    1  ->  spoons ==> 6-months
+   9:    1  ->  these ==> his
+  10:    1  ->  thick ==> 56
+  11:    1  ->  toy ==> turn
+  12:    1  ->  will ==> we'll
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  we
+   2:    1  ->  5
+   3:    1  ->  6
+   4:    1  ->  also
+   5:    1  ->  need
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  for
+   3:    1  ->  frog
+   4:    1  ->  her
+   5:    1  ->  scoop
+   6:    1  ->  small
+   7:    1  ->  snow
+   8:    1  ->  spoons
+   9:    1  ->  these
+  10:    1  ->  thick
+  11:    1  ->  toy
+  12:    1  ->  will
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  56
+   2:    1  ->  6-months
+   3:    1  ->  a
+   4:    1  ->  front
+   5:    1  ->  his
+   6:    1  ->  no
+   7:    1  ->  of
+   8:    1  ->  skip
+   9:    1  ->  snow
+  10:    1  ->  the
+  11:    1  ->  turn
+  12:    1  ->  we'll
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

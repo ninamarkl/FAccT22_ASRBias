@@ -1,0 +1,112 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic26_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  74)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  of ==> off
+   2:    2  ->  these ==> those
+   3:    1  ->  ask ==> asked
+   4:    1  ->  bags ==> bag
+   5:    1  ->  peas ==> piece
+   6:    1  ->  scoop ==> school
+   7:    1  ->  slabs ==> slab
+   8:    1  ->  snake ==> snack
+   9:    1  ->  things ==> thing
+  10:    1  ->  toy ==> of
+  11:    1  ->  wednesday ==> the
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  for
+   2:    1  ->  her
+   3:    1  ->  once
+   4:    1  ->  the
+   5:    1  ->  toe
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    1  ->  ask
+   4:    1  ->  bags
+   5:    1  ->  peas
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  snake
+   9:    1  ->  things
+  10:    1  ->  toy
+  11:    1  ->  wednesday
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  off
+   2:    2  ->  those
+   3:    1  ->  asked
+   4:    1  ->  bag
+   5:    1  ->  of
+   6:    1  ->  piece
+   7:    1  ->  school
+   8:    1  ->  slab
+   9:    1  ->  snack
+  10:    1  ->  the
+  11:    1  ->  thing
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

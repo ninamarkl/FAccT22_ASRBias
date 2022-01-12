@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\english_uk\english85_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  and ==> sneaking
+   3:    1  ->  five ==> i
+   4:    1  ->  frog ==> out
+   5:    1  ->  peas ==> peace
+   6:    1  ->  scoop ==> skip
+   7:    1  ->  snow ==> no
+   8:    1  ->  stella ==> stellar
+   9:    1  ->  thick ==> think
+  10:    1  ->  we ==> we'll
+  11:    1  ->  wednesday ==> state
+  12:    1  ->  will ==> we'll
+  13:    1  ->  with ==> of
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  for
+   2:    1  ->  round
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  and
+   2:    1  ->  snake
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  and
+   2:    1  ->  five
+   3:    1  ->  frog
+   4:    1  ->  peas
+   5:    1  ->  scoop
+   6:    1  ->  snow
+   7:    1  ->  stella
+   8:    1  ->  thick
+   9:    1  ->  we
+  10:    1  ->  wednesday
+  11:    1  ->  will
+  12:    1  ->  with
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  we'll
+   2:    1  ->  i
+   3:    1  ->  no
+   4:    1  ->  of
+   5:    1  ->  on
+   6:    1  ->  out
+   7:    1  ->  peace
+   8:    1  ->  skip
+   9:    1  ->  sneaking
+  10:    1  ->  state
+  11:    1  ->  stellar
+  12:    1  ->  think
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

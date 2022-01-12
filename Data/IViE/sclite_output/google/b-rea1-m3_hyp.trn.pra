@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\b-rea1-m3_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-m3_01)
+Scores: (#C #S #D #I) 132 32 20 2
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVED with her mother and two stepsisters CALLED lily and ROSA  lily and ROSA  were very unfriendly AND THEY WERE LAZY GIRLS     they spent all THEIR TIME BUYING NEW      clothes and going to parties POOR   CINDERS had to wear all their old hand me DOWNS and she had to do the cleaning ONE DAY    A   royal messenger came to ANNOUNCE A BALL THE WALL the ball would be held at the royal palace in honour of the queen's only son prince william LILY LILY   and rosa thought this was divine prince william was gorgeous and he was LOOKING FOR   a BRIDE THEY DREAMED of wedding bells WHEN the evening of the ball arrived cinders had to help THE   sisters get ready THEY WERE  in a bad mood THEY'D wanted to buy some NEW GOWNS   but THEIR mother said they had that they had enough GOWNS SO THEY  STARTED shouting at cinders find my JEWELS YELLED ONE   find my HAT   HOWLED the other THEY wanted **** ******* 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders cinders LIVE  with her mother and two stepsisters ****** lily and ROSIE lily and ROSIE were very unfriendly *** **** **** **** LAZYGIRLS they spent all ***** **** OTHER  TIMEBANK clothes and going to parties PERSON JUST    had to wear all their old hand me DOWN  and she had to do the cleaning *** MONDAY ARE royal messenger came to ******** * AND  OUT OF   the ball would be held at the royal palace in honour of the queen's only son prince william **** LILLEY and rosa thought this was divine prince william was gorgeous and he was ******* TRIED a ***** **** DREAM   of wedding bells IN   the evening of the ball arrived cinders had to help THEIR sisters get ready **** THERE in a bad mood I      wanted to buy some *** REGARDS but YOUR  mother said they had that they had enough ***** ** COINS THE     shouting at cinders find my ****** ****** GLONE find my HEART HER    the other DAY  wanted HAIR BRUSHES 
+Eval:                                                                                             S                                         D               S              S                          D   D    D    D    S                        D     D    S      S                                     S      S                                         S                                    D   S      S                           D        D S    S   S                                                                                                D    S                                                                              D       S       D     D    S                        S                                                        S                       D    S                   S                         D   S           S                                               D     D  S     S                                   D      D      S             S     S                S           I    I       
+
+>> REF:  HAIRBRUSHES HAIRPINS and HAIRSPRAY 
+>> HYP:  HAIR        PINS     and HAIR      
+>> Eval: S           S            S         
+
+

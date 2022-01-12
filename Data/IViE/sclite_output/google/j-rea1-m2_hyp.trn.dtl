@@ -1,0 +1,173 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\j-rea1-m2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.8%   (  52)
+
+Percent Correct           =   75.8%   ( 147)
+
+Percent Substitution      =   15.5%   (  30)
+Percent Deletions         =    8.8%   (  17)
+Percent Insertions        =    2.6%   (   5)
+Percent Word Accuracy     =   73.2%
+
+
+Ref. words                =           ( 194)
+Hyp. words                =           ( 182)
+Aligned words             =           ( 199)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  gowns ==> account
+   2:    2  ->  leila ==> lila
+   3:    1  ->  arrived ==> a
+   4:    1  ->  at ==> that
+   5:    1  ->  ball ==> bought
+   6:    1  ->  bride ==> bread
+   7:    1  ->  cinder ==> cinderella
+   8:    1  ->  cinder ==> i
+   9:    1  ->  cinder ==> ravfour
+  10:    1  ->  cinder ==> since
+  11:    1  ->  cinders ==> cinder
+  12:    1  ->  er ==> still
+  13:    1  ->  evening ==> even
+  14:    1  ->  find ==> ydfifteen
+  15:    1  ->  girls ==> lazygirls
+  16:    1  ->  hairbrushes ==> brushes
+  17:    1  ->  he ==> his
+  18:    1  ->  her ==> that
+  19:    1  ->  leila ==> lena
+  20:    1  ->  me ==> handmade
+  21:    1  ->  of ==> at
+  22:    1  ->  one ==> jules
+  23:    1  ->  poor ==> for
+  24:    1  ->  sisters ==> sister
+  25:    1  ->  sorry ==> so
+  26:    1  ->  they ==> however
+  27:    1  ->  were ==> rosie
+  28:    1  ->  william ==> william's
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  hair
+   3:    1  ->  has
+   4:    1  ->  seen
+   5:    1  ->  that
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  er
+   4:    1  ->  hand
+   5:    1  ->  hat
+   6:    1  ->  howled
+   7:    1  ->  jewels
+   8:    1  ->  lazy
+   9:    1  ->  only
+  10:    1  ->  other
+  11:    1  ->  rosa
+  12:    1  ->  shouting
+  13:    1  ->  start
+  14:    1  ->  started
+  15:    1  ->  was
+  16:    1  ->  yelled
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  cinder
+   2:    3  ->  leila
+   3:    2  ->  gowns
+   4:    1  ->  arrived
+   5:    1  ->  at
+   6:    1  ->  ball
+   7:    1  ->  bride
+   8:    1  ->  cinders
+   9:    1  ->  er
+  10:    1  ->  evening
+  11:    1  ->  find
+  12:    1  ->  girls
+  13:    1  ->  hairbrushes
+  14:    1  ->  he
+  15:    1  ->  her
+  16:    1  ->  me
+  17:    1  ->  of
+  18:    1  ->  one
+  19:    1  ->  poor
+  20:    1  ->  sisters
+  21:    1  ->  sorry
+  22:    1  ->  they
+  23:    1  ->  were
+  24:    1  ->  william
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  account
+   2:    2  ->  lila
+   3:    2  ->  that
+   4:    1  ->  a
+   5:    1  ->  at
+   6:    1  ->  bought
+   7:    1  ->  bread
+   8:    1  ->  brushes
+   9:    1  ->  cinder
+  10:    1  ->  cinderella
+  11:    1  ->  even
+  12:    1  ->  for
+  13:    1  ->  handmade
+  14:    1  ->  his
+  15:    1  ->  however
+  16:    1  ->  i
+  17:    1  ->  jules
+  18:    1  ->  lazygirls
+  19:    1  ->  lena
+  20:    1  ->  ravfour
+  21:    1  ->  rosie
+  22:    1  ->  since
+  23:    1  ->  sister
+  24:    1  ->  so
+  25:    1  ->  still
+  26:    1  ->  william's
+  27:    1  ->  ydfifteen
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

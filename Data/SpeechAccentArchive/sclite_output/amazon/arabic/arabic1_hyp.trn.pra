@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\arabic\arabic1_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 51 17 1 2
+REF:  please call stella ASK HER  TO  bring THESE things with HER  from the store six SPOONS OF  fresh snow PEAS FIVE THICK     SLABS OF  blue cheese and maybe a SNACK for her brother BOB  we also need a small plastic snake and a big toy FROG  for the kids she can scoop THESE things into three red bags and we will go meet **** *** HER WEDNESDAY at the train station 
+HYP:  please call stella US  CARE TTO bring THIS  things with HERE from the store six SPOON  OFF fresh snow **** BEES FIFTY-SIX LIP   OFF blue cheese and maybe a SNAKE for her brother BACK we also need a small plastic snake and a big toy FRAUD for the kids she can scoop THIS  things into three red bags and we will go meet HERE ONE IS  THE       at the train station 
+Eval:                    S   S    S         S                 S                       S      S              D    S    S         S     S                           S                     S                                                     S                                S                                                    I    I   S   S                              
+
+

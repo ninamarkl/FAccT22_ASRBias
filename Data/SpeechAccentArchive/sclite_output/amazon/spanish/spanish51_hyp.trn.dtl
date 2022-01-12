@@ -1,0 +1,133 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish51_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.7%   (  26)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =   11.6%   (   8)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   62.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  62)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  ask ==> as
+   3:    1  ->  bags ==> backs
+   4:    1  ->  call ==> go
+   5:    1  ->  cheese ==> sheets
+   6:    1  ->  five ==> first
+   7:    1  ->  frog ==> for
+   8:    1  ->  her ==> were
+   9:    1  ->  of ==> fighting
+  10:    1  ->  peas ==> spooner
+  11:    1  ->  slabs ==> peace
+  12:    1  ->  snack ==> not
+  13:    1  ->  thick ==> no
+  14:    1  ->  things ==> distant
+  15:    1  ->  toy ==> tour
+  16:    1  ->  we ==> we'll
+  17:    1  ->  with ==> teams
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  where
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  fresh
+   2:    1  ->  of
+   3:    1  ->  plastic
+   4:    1  ->  snow
+   5:    1  ->  spoons
+   6:    1  ->  these
+   7:    1  ->  things
+   8:    1  ->  will
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a
+   2:    1  ->  ask
+   3:    1  ->  bags
+   4:    1  ->  call
+   5:    1  ->  cheese
+   6:    1  ->  five
+   7:    1  ->  frog
+   8:    1  ->  her
+   9:    1  ->  of
+  10:    1  ->  peas
+  11:    1  ->  slabs
+  12:    1  ->  snack
+  13:    1  ->  thick
+  14:    1  ->  things
+  15:    1  ->  toy
+  16:    1  ->  we
+  17:    1  ->  with
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  as
+   2:    1  ->  backs
+   3:    1  ->  distant
+   4:    1  ->  fighting
+   5:    1  ->  first
+   6:    1  ->  for
+   7:    1  ->  go
+   8:    1  ->  it's
+   9:    1  ->  no
+  10:    1  ->  not
+  11:    1  ->  peace
+  12:    1  ->  sheets
+  13:    1  ->  spooner
+  14:    1  ->  teams
+  15:    1  ->  tour
+  16:    1  ->  we'll
+  17:    1  ->  were
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

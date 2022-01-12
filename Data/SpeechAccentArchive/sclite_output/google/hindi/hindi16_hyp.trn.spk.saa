@@ -1,0 +1,125 @@
+SCORING FOR SPEAKER: saa
+     of hindi\hindi16_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   49.3%   (  34)
+
+Percent Correct           =   50.7%   (  35)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =   34.8%   (  24)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   50.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  45)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  at ==> metre
+   3:    1  ->  call ==> called
+   4:    1  ->  please ==> he's
+   5:    1  ->  slabs ==> laps
+   6:    1  ->  spoons ==> story
+   7:    1  ->  the ==> reading
+   8:    1  ->  thick ==> 56
+   9:    1  ->  toy ==> door
+  10:    1  ->  wednesday ==> evil
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  her
+   2:    2  ->  we
+   3:    1  ->  3
+   4:    1  ->  5
+   5:    1  ->  6
+   6:    1  ->  a
+   7:    1  ->  also
+   8:    1  ->  bob
+   9:    1  ->  brother
+  10:    1  ->  can
+  11:    1  ->  for
+  12:    1  ->  from
+  13:    1  ->  go
+  14:    1  ->  into
+  15:    1  ->  meet
+  16:    1  ->  need
+  17:    1  ->  red
+  18:    1  ->  scoop
+  19:    1  ->  she
+  20:    1  ->  store
+  21:    1  ->  will
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  at
+   3:    1  ->  call
+   4:    1  ->  please
+   5:    1  ->  slabs
+   6:    1  ->  spoons
+   7:    1  ->  the
+   8:    1  ->  thick
+   9:    1  ->  toy
+  10:    1  ->  wednesday
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  56
+   2:    1  ->  called
+   3:    1  ->  door
+   4:    1  ->  evil
+   5:    1  ->  he's
+   6:    1  ->  it's
+   7:    1  ->  laps
+   8:    1  ->  metre
+   9:    1  ->  reading
+  10:    1  ->  story
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

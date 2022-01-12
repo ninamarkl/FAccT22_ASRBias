@@ -1,0 +1,133 @@
+SCORING FOR SPEAKER: saa
+     of german\german34_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  5 ==> for
+   2:    1  ->  a ==> it's
+   3:    1  ->  ask ==> asked
+   4:    1  ->  bags ==> backs
+   5:    1  ->  bob ==> but
+   6:    1  ->  her ==> gomita
+   7:    1  ->  her ==> you
+   8:    1  ->  into ==> is
+   9:    1  ->  meet ==> without
+  10:    1  ->  peas ==> peace
+  11:    1  ->  scoop ==> this
+  12:    1  ->  slabs ==> lots
+  13:    1  ->  snack ==> not
+  14:    1  ->  snow ==> no
+  15:    1  ->  spoons ==> pounds
+  16:    1  ->  these ==> thinks
+  17:    1  ->  thick ==> takes
+  18:    1  ->  things ==> it
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  skip
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  go
+   3:    1  ->  her
+   4:    1  ->  we
+   5:    1  ->  will
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  her
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  ask
+   5:    1  ->  bags
+   6:    1  ->  bob
+   7:    1  ->  into
+   8:    1  ->  meet
+   9:    1  ->  peas
+  10:    1  ->  scoop
+  11:    1  ->  slabs
+  12:    1  ->  snack
+  13:    1  ->  snow
+  14:    1  ->  spoons
+  15:    1  ->  these
+  16:    1  ->  thick
+  17:    1  ->  things
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  asked
+   2:    1  ->  backs
+   3:    1  ->  but
+   4:    1  ->  for
+   5:    1  ->  gomita
+   6:    1  ->  is
+   7:    1  ->  it
+   8:    1  ->  it's
+   9:    1  ->  lots
+  10:    1  ->  no
+  11:    1  ->  not
+  12:    1  ->  peace
+  13:    1  ->  pounds
+  14:    1  ->  takes
+  15:    1  ->  thinks
+  16:    1  ->  this
+  17:    1  ->  without
+  18:    1  ->  you
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

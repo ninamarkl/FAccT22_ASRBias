@@ -1,0 +1,127 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\german\german4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bob ==> pop
+   3:    1  ->  can ==> sheikhoun
+   4:    1  ->  five ==> peace
+   5:    1  ->  her ==> a
+   6:    1  ->  her ==> you
+   7:    1  ->  meet ==> when
+   8:    1  ->  of ==> ofthe
+   9:    1  ->  peas ==> no
+  10:    1  ->  scoop ==> scoob
+  11:    1  ->  slabs ==> laps
+  12:    1  ->  snow ==> first
+  13:    1  ->  the ==> a
+  14:    1  ->  these ==> the
+  15:    1  ->  thick ==> fifty-six
+  16:    1  ->  wednesday ==> stay
+  17:    1  ->  will ==> we'll
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  metre
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  fresh
+   2:    1  ->  she
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  her
+   2:    1  ->  ask
+   3:    1  ->  bob
+   4:    1  ->  can
+   5:    1  ->  five
+   6:    1  ->  meet
+   7:    1  ->  of
+   8:    1  ->  peas
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  snow
+  12:    1  ->  the
+  13:    1  ->  these
+  14:    1  ->  thick
+  15:    1  ->  wednesday
+  16:    1  ->  will
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a
+   2:    1  ->  asked
+   3:    1  ->  fifty-six
+   4:    1  ->  first
+   5:    1  ->  laps
+   6:    1  ->  no
+   7:    1  ->  ofthe
+   8:    1  ->  peace
+   9:    1  ->  pop
+  10:    1  ->  scoob
+  11:    1  ->  sheikhoun
+  12:    1  ->  stay
+  13:    1  ->  the
+  14:    1  ->  we'll
+  15:    1  ->  when
+  16:    1  ->  you
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

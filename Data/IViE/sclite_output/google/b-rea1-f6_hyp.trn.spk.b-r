@@ -1,0 +1,201 @@
+SCORING FOR SPEAKER: b-r
+     of google\b-rea1-f6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   51.6%   (  94)
+
+Percent Correct           =   50.0%   (  91)
+
+Percent Substitution      =   14.3%   (  26)
+Percent Deletions         =   35.7%   (  65)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   48.4%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 120)
+Aligned words             =           ( 185)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  a ==> sarah
+   2:    1  ->  and ==> it's
+   3:    1  ->  cinders ==> polarized
+   4:    1  ->  cinders ==> sanders
+   5:    1  ->  cinders ==> windows
+   6:    1  ->  clothes ==> girl
+   7:    1  ->  gowns ==> account
+   8:    1  ->  had ==> they
+   9:    1  ->  hairbrushes ==> her
+  10:    1  ->  hairpins ==> pants
+  11:    1  ->  he ==> she
+  12:    1  ->  help ==> have
+  13:    1  ->  jewels ==> she
+  14:    1  ->  lived ==> live
+  15:    1  ->  me ==> hackney
+  16:    1  ->  new ==> my
+  17:    1  ->  rosa ==> rosie
+  18:    1  ->  their ==> the
+  19:    1  ->  they ==> it
+  20:    1  ->  they ==> karate
+  21:    1  ->  they'd ==> that
+  22:    1  ->  was ==> is
+  23:    1  ->  were ==> rosie
+  24:    1  ->  were ==> there
+  25:    1  ->  when ==> in
+  26:    1  ->  yelled ==> had
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  brushes
+   2:    1  ->  dual
+   3:    1  ->  her
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    3  ->  and
+   2:    3  ->  ball
+   3:    3  ->  the
+   4:    2  ->  a
+   5:    2  ->  all
+   6:    2  ->  lily
+   7:    2  ->  prince
+   8:    2  ->  rosa
+   9:    2  ->  their
+  10:    2  ->  william
+  11:    1  ->  announce
+  12:    1  ->  arrived
+  13:    1  ->  at
+  14:    1  ->  be
+  15:    1  ->  buy
+  16:    1  ->  buying
+  17:    1  ->  came
+  18:    1  ->  cinders
+  19:    1  ->  day
+  20:    1  ->  divine
+  21:    1  ->  find
+  22:    1  ->  get
+  23:    1  ->  girls
+  24:    1  ->  gowns
+  25:    1  ->  hand
+  26:    1  ->  hat
+  27:    1  ->  held
+  28:    1  ->  honour
+  29:    1  ->  howled
+  30:    1  ->  in
+  31:    1  ->  mother
+  32:    1  ->  my
+  33:    1  ->  new
+  34:    1  ->  of
+  35:    1  ->  one
+  36:    1  ->  only
+  37:    1  ->  palace
+  38:    1  ->  poor
+  39:    1  ->  queen's
+  40:    1  ->  ready
+  41:    1  ->  royal
+  42:    1  ->  some
+  43:    1  ->  son
+  44:    1  ->  spent
+  45:    1  ->  that
+  46:    1  ->  they
+  47:    1  ->  this
+  48:    1  ->  thought
+  49:    1  ->  time
+  50:    1  ->  to
+  51:    1  ->  was
+  52:    1  ->  would
+     -------
+        65
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  cinders
+   2:    2  ->  they
+   3:    2  ->  were
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  clothes
+   7:    1  ->  gowns
+   8:    1  ->  had
+   9:    1  ->  hairbrushes
+  10:    1  ->  hairpins
+  11:    1  ->  he
+  12:    1  ->  help
+  13:    1  ->  jewels
+  14:    1  ->  lived
+  15:    1  ->  me
+  16:    1  ->  new
+  17:    1  ->  rosa
+  18:    1  ->  their
+  19:    1  ->  they'd
+  20:    1  ->  was
+  21:    1  ->  when
+  22:    1  ->  yelled
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  rosie
+   2:    2  ->  she
+   3:    1  ->  account
+   4:    1  ->  girl
+   5:    1  ->  hackney
+   6:    1  ->  had
+   7:    1  ->  have
+   8:    1  ->  her
+   9:    1  ->  in
+  10:    1  ->  is
+  11:    1  ->  it
+  12:    1  ->  it's
+  13:    1  ->  karate
+  14:    1  ->  live
+  15:    1  ->  my
+  16:    1  ->  pants
+  17:    1  ->  polarized
+  18:    1  ->  sanders
+  19:    1  ->  sarah
+  20:    1  ->  that
+  21:    1  ->  the
+  22:    1  ->  there
+  23:    1  ->  they
+  24:    1  ->  windows
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

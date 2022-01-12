@@ -1,0 +1,107 @@
+SCORING FOR SPEAKER: saa
+     of french\french38_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  and ==> in
+   3:    1  ->  bob ==> but
+   4:    1  ->  can ==> get
+   5:    1  ->  scoop ==> scuba
+   6:    1  ->  she ==> to
+   7:    1  ->  snack ==> not
+   8:    1  ->  spoons ==> pounds
+   9:    1  ->  thick ==> 56
+  10:    1  ->  will ==> we'll
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  5
+   2:    1  ->  frog
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  bob
+   4:    1  ->  can
+   5:    1  ->  scoop
+   6:    1  ->  she
+   7:    1  ->  snack
+   8:    1  ->  spoons
+   9:    1  ->  thick
+  10:    1  ->  will
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  56
+   2:    1  ->  but
+   3:    1  ->  get
+   4:    1  ->  in
+   5:    1  ->  it's
+   6:    1  ->  not
+   7:    1  ->  pounds
+   8:    1  ->  scuba
+   9:    1  ->  to
+  10:    1  ->  we'll
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

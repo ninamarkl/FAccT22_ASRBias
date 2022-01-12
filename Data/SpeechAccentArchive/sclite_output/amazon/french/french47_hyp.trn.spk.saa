@@ -1,0 +1,126 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french47_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  big ==> bit
+   3:    1  ->  frog ==> for
+   4:    1  ->  of ==> are
+   5:    1  ->  peas ==> peace
+   6:    1  ->  red ==> where
+   7:    1  ->  snack ==> slight
+   8:    1  ->  snow ==> no
+   9:    1  ->  spoons ==> points
+  10:    1  ->  station ==> stations
+  11:    1  ->  stella ==> kasteler
+  12:    1  ->  the ==> in
+  13:    1  ->  these ==> this
+  14:    1  ->  thick ==> pic
+  15:    1  ->  toy ==> tight
+  16:    1  ->  train ==> between
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  are
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  at
+   2:    1  ->  call
+   3:    1  ->  her
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  ask
+   2:    1  ->  big
+   3:    1  ->  frog
+   4:    1  ->  of
+   5:    1  ->  peas
+   6:    1  ->  red
+   7:    1  ->  snack
+   8:    1  ->  snow
+   9:    1  ->  spoons
+  10:    1  ->  station
+  11:    1  ->  stella
+  12:    1  ->  the
+  13:    1  ->  these
+  14:    1  ->  thick
+  15:    1  ->  toy
+  16:    1  ->  train
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  are
+   2:    1  ->  asked
+   3:    1  ->  between
+   4:    1  ->  bit
+   5:    1  ->  for
+   6:    1  ->  in
+   7:    1  ->  kasteler
+   8:    1  ->  no
+   9:    1  ->  peace
+  10:    1  ->  pic
+  11:    1  ->  points
+  12:    1  ->  slight
+  13:    1  ->  stations
+  14:    1  ->  this
+  15:    1  ->  tight
+  16:    1  ->  where
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

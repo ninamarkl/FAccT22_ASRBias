@@ -1,0 +1,111 @@
+SCORING FOR SPEAKER: saa
+     of english_uk\english470_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =   21.7%   (  15)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  55)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and ==> bag
+   2:    1  ->  from ==> to
+   3:    1  ->  of ==> 562
+   4:    1  ->  scoop ==> skip
+   5:    1  ->  spoons ==> pounds
+   6:    1  ->  we ==> so
+   7:    1  ->  will ==> we'll
+   8:    1  ->  with ==> from
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  room
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  a
+   2:    2  ->  for
+   3:    1  ->  5
+   4:    1  ->  also
+   5:    1  ->  bags
+   6:    1  ->  her
+   7:    1  ->  need
+   8:    1  ->  plastic
+   9:    1  ->  slabs
+  10:    1  ->  small
+  11:    1  ->  thick
+  12:    1  ->  we
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  from
+   3:    1  ->  of
+   4:    1  ->  scoop
+   5:    1  ->  spoons
+   6:    1  ->  we
+   7:    1  ->  will
+   8:    1  ->  with
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  562
+   2:    1  ->  bag
+   3:    1  ->  from
+   4:    1  ->  pounds
+   5:    1  ->  skip
+   6:    1  ->  so
+   7:    1  ->  to
+   8:    1  ->  we'll
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

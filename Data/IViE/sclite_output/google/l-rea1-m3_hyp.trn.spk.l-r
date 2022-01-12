@@ -1,0 +1,198 @@
+SCORING FOR SPEAKER: l-r
+     of google\l-rea1-m3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   32.4%   (  59)
+
+Percent Correct           =   68.7%   ( 125)
+
+Percent Substitution      =   23.6%   (  43)
+Percent Deletions         =    7.7%   (  14)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   67.6%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 170)
+Aligned words             =           ( 184)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  had ==> have
+   2:    2  ->  rosa ==> rosie
+   3:    2  ->  their ==> the
+   4:    1  ->  at ==> of
+   5:    1  ->  be ==> the
+   6:    1  ->  buying ==> by
+   7:    1  ->  cinders ==> that
+   8:    1  ->  dreamed ==> dream
+   9:    1  ->  everyone ==> devon
+  10:    1  ->  girls ==> lazygirls
+  11:    1  ->  gowns ==> girls
+  12:    1  ->  hairbrushes ==> hair
+  13:    1  ->  hairpins ==> pins
+  14:    1  ->  hat ==> how
+  15:    1  ->  held ==> hell
+  16:    1  ->  her ==> his
+  17:    1  ->  her ==> their
+  18:    1  ->  howled ==> to
+  19:    1  ->  lazy ==> animal
+  20:    1  ->  lily ==> lilley
+  21:    1  ->  lived ==> live
+  22:    1  ->  of ==> day
+  23:    1  ->  old ==> on
+  24:    1  ->  one ==> eldwin
+  25:    1  ->  poor ==> porcelain
+  26:    1  ->  sisters ==> assistance
+  27:    1  ->  so ==> guns
+  28:    1  ->  started ==> start
+  29:    1  ->  the ==> a
+  30:    1  ->  the ==> do
+  31:    1  ->  their ==> although
+  32:    1  ->  they ==> the
+  33:    1  ->  they ==> to
+  34:    1  ->  they'd ==> that
+  35:    1  ->  wanted ==> wants
+  36:    1  ->  was ==> he's
+  37:    1  ->  were ==> there
+  38:    1  ->  were ==> unfair
+  39:    1  ->  would ==> of
+  40:    1  ->  yelled ==> tools
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  brushes
+   2:    1  ->  hair
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    2  ->  they
+   3:    1  ->  all
+   4:    1  ->  and
+   5:    1  ->  announce
+   6:    1  ->  ball
+   7:    1  ->  but
+   8:    1  ->  gowns
+   9:    1  ->  he
+  10:    1  ->  her
+  11:    1  ->  jewels
+  12:    1  ->  unfriendly
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  their
+   2:    2  ->  had
+   3:    2  ->  her
+   4:    2  ->  rosa
+   5:    2  ->  the
+   6:    2  ->  they
+   7:    2  ->  were
+   8:    1  ->  at
+   9:    1  ->  be
+  10:    1  ->  buying
+  11:    1  ->  cinders
+  12:    1  ->  dreamed
+  13:    1  ->  everyone
+  14:    1  ->  girls
+  15:    1  ->  gowns
+  16:    1  ->  hairbrushes
+  17:    1  ->  hairpins
+  18:    1  ->  hat
+  19:    1  ->  held
+  20:    1  ->  howled
+  21:    1  ->  lazy
+  22:    1  ->  lily
+  23:    1  ->  lived
+  24:    1  ->  of
+  25:    1  ->  old
+  26:    1  ->  one
+  27:    1  ->  poor
+  28:    1  ->  sisters
+  29:    1  ->  so
+  30:    1  ->  started
+  31:    1  ->  they'd
+  32:    1  ->  wanted
+  33:    1  ->  was
+  34:    1  ->  would
+  35:    1  ->  yelled
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    4  ->  the
+   2:    2  ->  have
+   3:    2  ->  of
+   4:    2  ->  rosie
+   5:    2  ->  that
+   6:    2  ->  to
+   7:    1  ->  a
+   8:    1  ->  although
+   9:    1  ->  animal
+  10:    1  ->  assistance
+  11:    1  ->  by
+  12:    1  ->  day
+  13:    1  ->  devon
+  14:    1  ->  do
+  15:    1  ->  dream
+  16:    1  ->  eldwin
+  17:    1  ->  girls
+  18:    1  ->  guns
+  19:    1  ->  hair
+  20:    1  ->  he's
+  21:    1  ->  hell
+  22:    1  ->  his
+  23:    1  ->  how
+  24:    1  ->  lazygirls
+  25:    1  ->  lilley
+  26:    1  ->  live
+  27:    1  ->  on
+  28:    1  ->  pins
+  29:    1  ->  porcelain
+  30:    1  ->  start
+  31:    1  ->  their
+  32:    1  ->  there
+  33:    1  ->  tools
+  34:    1  ->  unfair
+  35:    1  ->  wants
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

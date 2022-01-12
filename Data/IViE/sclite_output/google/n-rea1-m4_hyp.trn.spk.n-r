@@ -1,0 +1,171 @@
+SCORING FOR SPEAKER: n-r
+     of google\n-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   25.7%   (  46)
+
+Percent Correct           =   77.7%   ( 139)
+
+Percent Substitution      =   16.8%   (  30)
+Percent Deletions         =    5.6%   (  10)
+Percent Insertions        =    3.4%   (   6)
+Percent Word Accuracy     =   74.3%
+
+
+Ref. words                =           ( 179)
+Hyp. words                =           ( 175)
+Aligned words             =           ( 185)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  gowns ==> guns
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> i'm
+   4:    1  ->  announce ==> was
+   5:    1  ->  buying ==> by
+   6:    1  ->  cinders ==> plus
+   7:    1  ->  cinders ==> senders
+   8:    1  ->  cinders ==> simnas
+   9:    1  ->  dreamed ==> dream
+  10:    1  ->  had ==> have
+  11:    1  ->  had ==> sim
+  12:    1  ->  hairbrushes ==> hair
+  13:    1  ->  hairpins ==> pins
+  14:    1  ->  howled ==> heart
+  15:    1  ->  lived ==> lives
+  16:    1  ->  one ==> zlone
+  17:    1  ->  other ==> that
+  18:    1  ->  rosa ==> i
+  19:    1  ->  shouting ==> showing
+  20:    1  ->  sisters ==> sister's
+  21:    1  ->  the ==> hell
+  22:    1  ->  their ==> the
+  23:    1  ->  they ==> he
+  24:    1  ->  they'd ==> they
+  25:    1  ->  to ==> does
+  26:    1  ->  to ==> i
+  27:    1  ->  wear ==> hathaway
+  28:    1  ->  when ==> on
+  29:    1  ->  yelled ==> dual
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  braids
+   2:    1  ->  brushes
+   3:    1  ->  hair
+   4:    1  ->  in
+   5:    1  ->  rose
+   6:    1  ->  when
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and
+   2:    1  ->  bride
+   3:    1  ->  had
+   4:    1  ->  hat
+   5:    1  ->  jewels
+   6:    1  ->  lily
+   7:    1  ->  poor
+   8:    1  ->  that
+   9:    1  ->  they
+  10:    1  ->  to
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  cinders
+   2:    2  ->  gowns
+   3:    2  ->  had
+   4:    2  ->  to
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  announce
+   8:    1  ->  buying
+   9:    1  ->  dreamed
+  10:    1  ->  hairbrushes
+  11:    1  ->  hairpins
+  12:    1  ->  howled
+  13:    1  ->  lived
+  14:    1  ->  one
+  15:    1  ->  other
+  16:    1  ->  rosa
+  17:    1  ->  shouting
+  18:    1  ->  sisters
+  19:    1  ->  the
+  20:    1  ->  their
+  21:    1  ->  they
+  22:    1  ->  they'd
+  23:    1  ->  wear
+  24:    1  ->  when
+  25:    1  ->  yelled
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  guns
+   2:    2  ->  i
+   3:    2  ->  the
+   4:    1  ->  by
+   5:    1  ->  does
+   6:    1  ->  dream
+   7:    1  ->  dual
+   8:    1  ->  hair
+   9:    1  ->  hathaway
+  10:    1  ->  have
+  11:    1  ->  he
+  12:    1  ->  heart
+  13:    1  ->  hell
+  14:    1  ->  i'm
+  15:    1  ->  lives
+  16:    1  ->  on
+  17:    1  ->  pins
+  18:    1  ->  plus
+  19:    1  ->  senders
+  20:    1  ->  showing
+  21:    1  ->  sim
+  22:    1  ->  simnas
+  23:    1  ->  sister's
+  24:    1  ->  that
+  25:    1  ->  they
+  26:    1  ->  was
+  27:    1  ->  zlone
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

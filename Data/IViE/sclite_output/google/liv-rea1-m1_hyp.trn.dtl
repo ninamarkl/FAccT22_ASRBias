@@ -1,0 +1,239 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\liv-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.5%   (  91)
+
+Percent Correct           =   65.0%   ( 139)
+
+Percent Substitution      =   26.2%   (  56)
+Percent Deletions         =    8.9%   (  19)
+Percent Insertions        =    7.5%   (  16)
+Percent Word Accuracy     =   57.5%
+
+
+Ref. words                =           ( 214)
+Hyp. words                =           ( 211)
+Aligned words             =           ( 230)
+
+CONFUSION PAIRS                  Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    2  ->  a ==> the
+   2:    2  ->  cinders ==> since
+   3:    2  ->  cinders ==> this
+   4:    2  ->  had ==> have
+   5:    1  ->  a ==> cancel
+   6:    1  ->  a ==> will
+   7:    1  ->  and ==> lilian
+   8:    1  ->  and ==> rose
+   9:    1  ->  ball ==> that
+  10:    1  ->  bride ==> price
+  11:    1  ->  came ==> again
+  12:    1  ->  cinderella ==> leather
+  13:    1  ->  cinders ==> sender
+  14:    1  ->  dreamed ==> change
+  15:    1  ->  girls ==> lazygirls
+  16:    1  ->  hair ==> taste
+  17:    1  ->  hairbrushes ==> and
+  18:    1  ->  hairbrushes ==> hair
+  19:    1  ->  hairpins ==> hate
+  20:    1  ->  hairpins ==> pins
+  21:    1  ->  hairspray ==> please
+  22:    1  ->  hat ==> heart
+  23:    1  ->  her ==> since
+  24:    1  ->  her ==> the
+  25:    1  ->  her ==> their
+  26:    1  ->  howled ==> how
+  27:    1  ->  lily ==> lillian
+  28:    1  ->  lived ==> live
+  29:    1  ->  lives ==> live
+  30:    1  ->  messenger ==> you
+  31:    1  ->  mother ==> they
+  32:    1  ->  one ==> girlfriend
+  33:    1  ->  poor ==> posting
+  34:    1  ->  poot ==> posting
+  35:    1  ->  rosa ==> i
+  36:    1  ->  rosa ==> lillian
+  37:    1  ->  royal ==> message
+  38:    1  ->  she ==> hand-me-downs
+  39:    1  ->  sisters ==> sister's
+  40:    1  ->  stepsisters ==> sister
+  41:    1  ->  their ==> the
+  42:    1  ->  their ==> will
+  43:    1  ->  ther ==> their
+  44:    1  ->  they ==> guns
+  45:    1  ->  they'd ==> they
+  46:    1  ->  unfriendly ==> family
+  47:    1  ->  very ==> ovarian
+  48:    1  ->  was ==> leave
+  49:    1  ->  wear ==> there
+  50:    1  ->  were ==> rose
+  51:    1  ->  would ==> bowl
+  52:    1  ->  yelled ==> juice
+     -------
+        56
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  brushes
+   2:    2  ->  to
+   3:    1  ->  be
+   4:    1  ->  hair
+   5:    1  ->  hear
+   6:    1  ->  heavens
+   7:    1  ->  i
+   8:    1  ->  live
+   9:    1  ->  step
+  10:    1  ->  that
+  11:    1  ->  the
+  12:    1  ->  them
+  13:    1  ->  then
+  14:    1  ->  without
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  and
+   2:    2  ->  lily
+   3:    1  ->  announce
+   4:    1  ->  ball
+   5:    1  ->  downs
+   6:    1  ->  gowns
+   7:    1  ->  hand
+   8:    1  ->  he
+   9:    1  ->  jewels
+  10:    1  ->  lazy
+  11:    1  ->  me
+  12:    1  ->  old
+  13:    1  ->  prince
+  14:    1  ->  so
+  15:    1  ->  their
+  16:    1  ->  was
+  17:    1  ->  william
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    5  ->  cinders
+   2:    4  ->  a
+   3:    3  ->  her
+   4:    2  ->  and
+   5:    2  ->  had
+   6:    2  ->  hairbrushes
+   7:    2  ->  hairpins
+   8:    2  ->  rosa
+   9:    2  ->  their
+  10:    1  ->  ball
+  11:    1  ->  bride
+  12:    1  ->  came
+  13:    1  ->  cinderella
+  14:    1  ->  dreamed
+  15:    1  ->  girls
+  16:    1  ->  hair
+  17:    1  ->  hairspray
+  18:    1  ->  hat
+  19:    1  ->  howled
+  20:    1  ->  lily
+  21:    1  ->  lived
+  22:    1  ->  lives
+  23:    1  ->  messenger
+  24:    1  ->  mother
+  25:    1  ->  one
+  26:    1  ->  poor
+  27:    1  ->  poot
+  28:    1  ->  royal
+  29:    1  ->  she
+  30:    1  ->  sisters
+  31:    1  ->  stepsisters
+  32:    1  ->  ther
+  33:    1  ->  they
+  34:    1  ->  they'd
+  35:    1  ->  unfriendly
+  36:    1  ->  very
+  37:    1  ->  was
+  38:    1  ->  wear
+  39:    1  ->  were
+  40:    1  ->  would
+  41:    1  ->  yelled
+     -------
+        56
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    4  ->  the
+   2:    3  ->  since
+   3:    2  ->  have
+   4:    2  ->  lillian
+   5:    2  ->  live
+   6:    2  ->  posting
+   7:    2  ->  rose
+   8:    2  ->  their
+   9:    2  ->  they
+  10:    2  ->  this
+  11:    2  ->  will
+  12:    1  ->  again
+  13:    1  ->  and
+  14:    1  ->  bowl
+  15:    1  ->  cancel
+  16:    1  ->  change
+  17:    1  ->  family
+  18:    1  ->  girlfriend
+  19:    1  ->  guns
+  20:    1  ->  hair
+  21:    1  ->  hand-me-downs
+  22:    1  ->  hate
+  23:    1  ->  heart
+  24:    1  ->  how
+  25:    1  ->  i
+  26:    1  ->  juice
+  27:    1  ->  lazygirls
+  28:    1  ->  leather
+  29:    1  ->  leave
+  30:    1  ->  lilian
+  31:    1  ->  message
+  32:    1  ->  ovarian
+  33:    1  ->  pins
+  34:    1  ->  please
+  35:    1  ->  price
+  36:    1  ->  sender
+  37:    1  ->  sister
+  38:    1  ->  sister's
+  39:    1  ->  taste
+  40:    1  ->  that
+  41:    1  ->  there
+  42:    1  ->  you
+     -------
+        56
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

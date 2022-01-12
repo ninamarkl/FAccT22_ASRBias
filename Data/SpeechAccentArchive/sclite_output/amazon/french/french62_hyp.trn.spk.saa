@@ -1,0 +1,111 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french62_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  ask ==> as
+   2:    1  ->  bags ==> bugs
+   3:    1  ->  frog ==> fraud
+   4:    1  ->  her ==> how
+   5:    1  ->  into ==> tow
+   6:    1  ->  of ==> off
+   7:    1  ->  plastic ==> plastics
+   8:    1  ->  slabs ==> lives
+   9:    1  ->  snake ==> name
+  10:    1  ->  spoons ==> points
+  11:    1  ->  thick ==> takes
+  12:    1  ->  we ==> it
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  in
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  ask
+   2:    1  ->  bags
+   3:    1  ->  frog
+   4:    1  ->  her
+   5:    1  ->  into
+   6:    1  ->  of
+   7:    1  ->  plastic
+   8:    1  ->  slabs
+   9:    1  ->  snake
+  10:    1  ->  spoons
+  11:    1  ->  thick
+  12:    1  ->  we
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  as
+   2:    1  ->  bugs
+   3:    1  ->  fraud
+   4:    1  ->  how
+   5:    1  ->  it
+   6:    1  ->  lives
+   7:    1  ->  name
+   8:    1  ->  off
+   9:    1  ->  plastics
+  10:    1  ->  points
+  11:    1  ->  takes
+  12:    1  ->  tow
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

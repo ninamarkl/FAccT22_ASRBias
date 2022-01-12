@@ -1,0 +1,7 @@
+<SYSTEM title="hindi\hindi16_hyp.trn" ref_fname="saa_ref.trn" hyp_fname="hindi\hindi16_hyp.trn" creation_date="Fri May 21 11:47:13 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="69" sequence="0">
+S,"please","he's":S,"call","called":C,"stella","stella":C,"ask","ask":C,"her","her":C,"to","to":C,"bring","bring":C,"these","these":C,"things","things":C,"with","with":D,"her",:D,"from",:C,"the","the":D,"store",:D,"6",:S,"spoons","story":C,"of","of":C,"fresh","fresh":C,"snow","snow":C,"peas","peas":D,"5",:S,"thick","56":S,"slabs","laps":C,"of","of":C,"blue","blue":C,"cheese","cheese":C,"and","and":C,"maybe","maybe":S,"a","it's":C,"snack","snack":D,"for",:D,"her",:D,"brother",:D,"bob",:D,"we",:D,"also",:D,"need",:D,"a",:C,"small","small":C,"plastic","plastic":C,"snake","snake":C,"and","and":C,"a","a":C,"big","big":S,"toy","door":C,"frog","frog":C,"for","for":C,"the","the":C,"kids","kids":D,"she",:D,"can",:D,"scoop",:C,"these","these":C,"things","things":D,"into",:D,"3",:D,"red",:C,"bags","bags":C,"and","and":D,"we",:D,"will",:D,"go",:D,"meet",:D,"her",:S,"wednesday","evil":S,"at","metre":S,"the","reading":C,"train","train":C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

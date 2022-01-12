@@ -1,0 +1,140 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\arabic\arabic48_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   60.9%   (  42)
+
+Percent Substitution      =   34.8%   (  24)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  and ==> on
+   2:    2  ->  of ==> off
+   3:    1  ->  ask ==> a
+   4:    1  ->  at ==> as
+   5:    1  ->  bob ==> process
+   6:    1  ->  call ==> police
+   7:    1  ->  cheese ==> she's
+   8:    1  ->  five ==> peace
+   9:    1  ->  fresh ==> french
+  10:    1  ->  her ==> air
+  11:    1  ->  her ==> here
+  12:    1  ->  her ==> scare
+  13:    1  ->  meet ==> me
+  14:    1  ->  peas ==> no
+  15:    1  ->  scoop ==> sculpt
+  16:    1  ->  slabs ==> lap
+  17:    1  ->  snack ==> snap
+  18:    1  ->  snow ==> is
+  19:    1  ->  stella ==> costing
+  20:    1  ->  these ==> this
+  21:    1  ->  thick ==> fifty-six
+  22:    1  ->  things ==> thing
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  brother
+   2:    1  ->  please
+   3:    1  ->  red
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  her
+   2:    2  ->  and
+   3:    2  ->  of
+   4:    1  ->  ask
+   5:    1  ->  at
+   6:    1  ->  bob
+   7:    1  ->  call
+   8:    1  ->  cheese
+   9:    1  ->  five
+  10:    1  ->  fresh
+  11:    1  ->  meet
+  12:    1  ->  peas
+  13:    1  ->  scoop
+  14:    1  ->  slabs
+  15:    1  ->  snack
+  16:    1  ->  snow
+  17:    1  ->  stella
+  18:    1  ->  these
+  19:    1  ->  thick
+  20:    1  ->  things
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  off
+   2:    2  ->  on
+   3:    1  ->  a
+   4:    1  ->  air
+   5:    1  ->  as
+   6:    1  ->  costing
+   7:    1  ->  fifty-six
+   8:    1  ->  french
+   9:    1  ->  here
+  10:    1  ->  is
+  11:    1  ->  lap
+  12:    1  ->  me
+  13:    1  ->  no
+  14:    1  ->  peace
+  15:    1  ->  police
+  16:    1  ->  process
+  17:    1  ->  scare
+  18:    1  ->  sculpt
+  19:    1  ->  she's
+  20:    1  ->  snap
+  21:    1  ->  thing
+  22:    1  ->  this
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

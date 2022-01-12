@@ -1,0 +1,195 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\liv-rea1-f1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  60)
+
+Percent Correct           =   69.7%   ( 131)
+
+Percent Substitution      =   20.2%   (  38)
+Percent Deletions         =   10.1%   (  19)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           ( 188)
+Hyp. words                =           ( 172)
+Aligned words             =           ( 191)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  a ==> answer
+   3:    1  ->  and ==> in
+   4:    1  ->  and ==> rosie
+   5:    1  ->  and ==> william
+   6:    1  ->  announce ==> an
+   7:    1  ->  arrived ==> write
+   8:    1  ->  ball ==> bowler
+   9:    1  ->  buying ==> by
+  10:    1  ->  cinders ==> only
+  11:    1  ->  cinders ==> send
+  12:    1  ->  cinders ==> sins
+  13:    1  ->  cinders ==> start
+  14:    1  ->  find ==> ydfifteen
+  15:    1  ->  gowns ==> gums
+  16:    1  ->  gowns ==> guns
+  17:    1  ->  had ==> have
+  18:    1  ->  hairbrushes ==> brushes
+  19:    1  ->  hairpins ==> happens
+  20:    1  ->  hat ==> help
+  21:    1  ->  he ==> you
+  22:    1  ->  her ==> the
+  23:    1  ->  her ==> them
+  24:    1  ->  lived ==> his
+  25:    1  ->  mother ==> other
+  26:    1  ->  one ==> jules
+  27:    1  ->  poor ==> for
+  28:    1  ->  rosa ==> lillian
+  29:    1  ->  sisters ==> sister's
+  30:    1  ->  stepsisters ==> sister's
+  31:    1  ->  they'd ==> they
+  32:    1  ->  to ==> still
+  33:    1  ->  two ==> step
+  34:    1  ->  were ==> rose
+  35:    1  ->  were ==> there
+  36:    1  ->  with ==> little
+  37:    1  ->  would ==> will
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  hair
+   2:    1  ->  heart
+   3:    1  ->  to
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  lily
+   2:    1  ->  a
+   3:    1  ->  all
+   4:    1  ->  at
+   5:    1  ->  girls
+   6:    1  ->  had
+   7:    1  ->  hand
+   8:    1  ->  howled
+   9:    1  ->  jewels
+  10:    1  ->  poor
+  11:    1  ->  rosa
+  12:    1  ->  royal
+  13:    1  ->  shouting
+  14:    1  ->  started
+  15:    1  ->  their
+  16:    1  ->  they
+  17:    1  ->  thought
+  18:    1  ->  yelled
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  cinders
+   2:    3  ->  and
+   3:    2  ->  gowns
+   4:    2  ->  her
+   5:    2  ->  their
+   6:    2  ->  were
+   7:    1  ->  a
+   8:    1  ->  announce
+   9:    1  ->  arrived
+  10:    1  ->  ball
+  11:    1  ->  buying
+  12:    1  ->  find
+  13:    1  ->  had
+  14:    1  ->  hairbrushes
+  15:    1  ->  hairpins
+  16:    1  ->  hat
+  17:    1  ->  he
+  18:    1  ->  lived
+  19:    1  ->  mother
+  20:    1  ->  one
+  21:    1  ->  poor
+  22:    1  ->  rosa
+  23:    1  ->  sisters
+  24:    1  ->  stepsisters
+  25:    1  ->  they'd
+  26:    1  ->  to
+  27:    1  ->  two
+  28:    1  ->  with
+  29:    1  ->  would
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  the
+   2:    2  ->  sister's
+   3:    1  ->  an
+   4:    1  ->  answer
+   5:    1  ->  bowler
+   6:    1  ->  brushes
+   7:    1  ->  by
+   8:    1  ->  for
+   9:    1  ->  gums
+  10:    1  ->  guns
+  11:    1  ->  happens
+  12:    1  ->  have
+  13:    1  ->  help
+  14:    1  ->  his
+  15:    1  ->  in
+  16:    1  ->  jules
+  17:    1  ->  lillian
+  18:    1  ->  little
+  19:    1  ->  only
+  20:    1  ->  other
+  21:    1  ->  rose
+  22:    1  ->  rosie
+  23:    1  ->  send
+  24:    1  ->  sins
+  25:    1  ->  start
+  26:    1  ->  step
+  27:    1  ->  still
+  28:    1  ->  them
+  29:    1  ->  there
+  30:    1  ->  they
+  31:    1  ->  will
+  32:    1  ->  william
+  33:    1  ->  write
+  34:    1  ->  ydfifteen
+  35:    1  ->  you
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

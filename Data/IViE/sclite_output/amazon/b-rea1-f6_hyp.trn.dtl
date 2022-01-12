@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\b-rea1-f6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.7%   (  34)
+
+Percent Correct           =   83.0%   ( 151)
+
+Percent Substitution      =   13.2%   (  24)
+Percent Deletions         =    3.8%   (   7)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   81.3%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 178)
+Aligned words             =           ( 185)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  lily ==> elia
+   2:    1  ->  and ==> knows
+   3:    1  ->  and ==> lillian
+   4:    1  ->  arrived ==> i
+   5:    1  ->  bride ==> bright
+   6:    1  ->  cinders ==> centres
+   7:    1  ->  cinders ==> cindy
+   8:    1  ->  cinders ==> cindy's
+   9:    1  ->  cinders ==> percenters
+  10:    1  ->  cinders ==> sanders
+  11:    1  ->  gowns ==> grounds
+  12:    1  ->  gowns ==> kind
+  13:    1  ->  hairbrushes ==> her
+  14:    1  ->  hairpins ==> pins
+  15:    1  ->  hairspray ==> heartbreak
+  16:    1  ->  hat ==> heart
+  17:    1  ->  howled ==> hurt
+  18:    1  ->  jewels ==> jail
+  19:    1  ->  rosa ==> i
+  20:    1  ->  rosa ==> rose
+  21:    1  ->  they'd ==> it
+  22:    1  ->  when ==> in
+  23:    1  ->  yelled ==> jailed
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  brushes
+   2:    1  ->  her
+   3:    1  ->  or
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  all
+   3:    1  ->  and
+   4:    1  ->  lily
+   5:    1  ->  poor
+   6:    1  ->  that
+   7:    1  ->  they
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    5  ->  cinders
+   2:    2  ->  and
+   3:    2  ->  gowns
+   4:    2  ->  lily
+   5:    2  ->  rosa
+   6:    1  ->  arrived
+   7:    1  ->  bride
+   8:    1  ->  hairbrushes
+   9:    1  ->  hairpins
+  10:    1  ->  hairspray
+  11:    1  ->  hat
+  12:    1  ->  howled
+  13:    1  ->  jewels
+  14:    1  ->  they'd
+  15:    1  ->  when
+  16:    1  ->  yelled
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  elia
+   2:    2  ->  i
+   3:    1  ->  bright
+   4:    1  ->  centres
+   5:    1  ->  cindy
+   6:    1  ->  cindy's
+   7:    1  ->  grounds
+   8:    1  ->  heart
+   9:    1  ->  heartbreak
+  10:    1  ->  her
+  11:    1  ->  hurt
+  12:    1  ->  in
+  13:    1  ->  it
+  14:    1  ->  jail
+  15:    1  ->  jailed
+  16:    1  ->  kind
+  17:    1  ->  knows
+  18:    1  ->  lillian
+  19:    1  ->  percenters
+  20:    1  ->  pins
+  21:    1  ->  rose
+  22:    1  ->  sanders
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,98 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: english_uk\english417_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  her ==> a
+   2:    1  ->  her ==> your
+   3:    1  ->  of ==> 1800
+   4:    1  ->  of ==> labs
+   5:    1  ->  scoop ==> skip
+   6:    1  ->  slabs ==> 56
+   7:    1  ->  these ==> me
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  need
+   5:    1  ->  spoons
+   6:    1  ->  thick
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  her
+   2:    2  ->  of
+   3:    1  ->  scoop
+   4:    1  ->  slabs
+   5:    1  ->  these
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  1800
+   2:    1  ->  56
+   3:    1  ->  a
+   4:    1  ->  labs
+   5:    1  ->  me
+   6:    1  ->  skip
+   7:    1  ->  your
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

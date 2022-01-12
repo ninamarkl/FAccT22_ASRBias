@@ -1,0 +1,149 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\thai\thai4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.0%   (  29)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   34.8%   (  24)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   58.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  ask ==> feller
+   2:    1  ->  bags ==> best
+   3:    1  ->  blue ==> off
+   4:    1  ->  bob ==> but
+   5:    1  ->  call ==> these
+   6:    1  ->  cheese ==> guccis
+   7:    1  ->  five ==> peace
+   8:    1  ->  fresh ==> off
+   9:    1  ->  frog ==> fraud
+  10:    1  ->  her ==> anchor
+  11:    1  ->  kids ==> kiss
+  12:    1  ->  meet ==> commit
+  13:    1  ->  of ==> left
+  14:    1  ->  of ==> pulls
+  15:    1  ->  peas ==> no
+  16:    1  ->  plastic ==> prospects
+  17:    1  ->  red ==> less
+  18:    1  ->  slabs ==> it's
+  19:    1  ->  snack ==> snap
+  20:    1  ->  snake ==> neck
+  21:    1  ->  snow ==> rest
+  22:    1  ->  stella ==> calls
+  23:    1  ->  store ==> bristol
+  24:    1  ->  thick ==> fight
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  go
+   2:    1  ->  please
+   3:    1  ->  spoons
+   4:    1  ->  the
+   5:    1  ->  will
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  of
+   2:    1  ->  ask
+   3:    1  ->  bags
+   4:    1  ->  blue
+   5:    1  ->  bob
+   6:    1  ->  call
+   7:    1  ->  cheese
+   8:    1  ->  five
+   9:    1  ->  fresh
+  10:    1  ->  frog
+  11:    1  ->  her
+  12:    1  ->  kids
+  13:    1  ->  meet
+  14:    1  ->  peas
+  15:    1  ->  plastic
+  16:    1  ->  red
+  17:    1  ->  slabs
+  18:    1  ->  snack
+  19:    1  ->  snake
+  20:    1  ->  snow
+  21:    1  ->  stella
+  22:    1  ->  store
+  23:    1  ->  thick
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  off
+   2:    1  ->  anchor
+   3:    1  ->  best
+   4:    1  ->  bristol
+   5:    1  ->  but
+   6:    1  ->  calls
+   7:    1  ->  commit
+   8:    1  ->  feller
+   9:    1  ->  fight
+  10:    1  ->  fraud
+  11:    1  ->  guccis
+  12:    1  ->  it's
+  13:    1  ->  kiss
+  14:    1  ->  left
+  15:    1  ->  less
+  16:    1  ->  neck
+  17:    1  ->  no
+  18:    1  ->  peace
+  19:    1  ->  prospects
+  20:    1  ->  pulls
+  21:    1  ->  rest
+  22:    1  ->  snap
+  23:    1  ->  these
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

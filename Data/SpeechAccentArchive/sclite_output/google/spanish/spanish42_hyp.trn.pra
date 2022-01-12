@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   spanish\spanish42_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 34 27 8 0
+REF:  please call stella ASK    HER  to bring these things with her from the store 6  SPOONS of FRESH SNOW PEAS   5  THICK SLABS OF  BLUE CHEESE and maybe A SNACK FOR her brother bob we also need A   small plastic SNAKE and a BIG   TOY FROG   for the KIDS she CAN SCOOP THESE THINGS INTO 3    RED   BAGS  AND    we will go meet her wednesday AT THE TRAIN   STATION 
+HYP:  please call stella THAT'S HERE to bring these things with her from the store 6S PLUS   of ***** **** PHRASE IS NOT   PEACE FIX IS   LOVE   and maybe * ***** TO  her brother bob we also need THE small plastic SNACK and a BREAK TO  PRAGUE for the KEYS she *** ***** CAN'T COPE   WITH THIS THING THREE REDBOX we will go meet her wednesday ** *** CHINESE STAGE   
+Eval:                    S      S                                                  S  S         D     D    S      S  S     S     S   S    S                D D     S                                S                 S           S     S   S              S        D   D     S     S      S    S    S     S     S                                    D  D   S       S       
+
+

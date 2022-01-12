@@ -1,0 +1,122 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\italian\italian24_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  at ==> day
+   3:    1  ->  bob ==> book
+   4:    1  ->  call ==> coat
+   5:    1  ->  frog ==> toys
+   6:    1  ->  her ==> tow
+   7:    1  ->  meet ==> me
+   8:    1  ->  slabs ==> slaps
+   9:    1  ->  spoons ==> poems
+  10:    1  ->  stella ==> sela
+  11:    1  ->  the ==> after
+  12:    1  ->  these ==> this
+  13:    1  ->  thick ==> fifty-six
+  14:    1  ->  things ==> thing's
+  15:    1  ->  wednesday ==> what's
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  five
+   3:    1  ->  toy
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  ask
+   2:    1  ->  at
+   3:    1  ->  bob
+   4:    1  ->  call
+   5:    1  ->  frog
+   6:    1  ->  her
+   7:    1  ->  meet
+   8:    1  ->  slabs
+   9:    1  ->  spoons
+  10:    1  ->  stella
+  11:    1  ->  the
+  12:    1  ->  these
+  13:    1  ->  thick
+  14:    1  ->  things
+  15:    1  ->  wednesday
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  after
+   2:    1  ->  asked
+   3:    1  ->  book
+   4:    1  ->  coat
+   5:    1  ->  day
+   6:    1  ->  fifty-six
+   7:    1  ->  me
+   8:    1  ->  poems
+   9:    1  ->  sela
+  10:    1  ->  slaps
+  11:    1  ->  thing's
+  12:    1  ->  this
+  13:    1  ->  tow
+  14:    1  ->  toys
+  15:    1  ->  what's
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

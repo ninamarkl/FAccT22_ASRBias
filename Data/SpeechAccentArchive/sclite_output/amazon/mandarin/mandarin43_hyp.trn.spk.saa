@@ -1,0 +1,172 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin43_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   53.6%   (  37)
+
+Percent Correct           =   50.7%   (  35)
+
+Percent Substitution      =   46.4%   (  32)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   46.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  a ==> mountain
+   3:    1  ->  also ==> the
+   4:    1  ->  bags ==> decks
+   5:    1  ->  blue ==> blow
+   6:    1  ->  bob ==> answer
+   7:    1  ->  call ==> constant
+   8:    1  ->  can ==> ass
+   9:    1  ->  five ==> find
+  10:    1  ->  fresh ==> flush
+  11:    1  ->  frog ==> wrong
+  12:    1  ->  go ==> come
+  13:    1  ->  kids ==> kate
+  14:    1  ->  meet ==> in
+  15:    1  ->  need ==> first
+  16:    1  ->  plastic ==> steak
+  17:    1  ->  scoop ==> school
+  18:    1  ->  she ==> shake
+  19:    1  ->  six ==> sixth
+  20:    1  ->  slabs ==> left
+  21:    1  ->  small ==> plus
+  22:    1  ->  snack ==> ah
+  23:    1  ->  snake ==> knake
+  24:    1  ->  spoons ==> bugs
+  25:    1  ->  stella ==> aylin
+  26:    1  ->  these ==> dead
+  27:    1  ->  thick ==> things
+  28:    1  ->  to ==> toe
+  29:    1  ->  toy ==> toph
+  30:    1  ->  we ==> on
+  31:    1  ->  with ==> which
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  boat
+   2:    1  ->  snake
+   3:    1  ->  the
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  store
+   2:    1  ->  the
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  also
+   4:    1  ->  bags
+   5:    1  ->  blue
+   6:    1  ->  bob
+   7:    1  ->  call
+   8:    1  ->  can
+   9:    1  ->  five
+  10:    1  ->  fresh
+  11:    1  ->  frog
+  12:    1  ->  go
+  13:    1  ->  kids
+  14:    1  ->  meet
+  15:    1  ->  need
+  16:    1  ->  plastic
+  17:    1  ->  scoop
+  18:    1  ->  she
+  19:    1  ->  six
+  20:    1  ->  slabs
+  21:    1  ->  small
+  22:    1  ->  snack
+  23:    1  ->  snake
+  24:    1  ->  spoons
+  25:    1  ->  stella
+  26:    1  ->  these
+  27:    1  ->  thick
+  28:    1  ->  to
+  29:    1  ->  toy
+  30:    1  ->  we
+  31:    1  ->  with
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  off
+   2:    1  ->  ah
+   3:    1  ->  answer
+   4:    1  ->  ass
+   5:    1  ->  aylin
+   6:    1  ->  blow
+   7:    1  ->  bugs
+   8:    1  ->  come
+   9:    1  ->  constant
+  10:    1  ->  dead
+  11:    1  ->  decks
+  12:    1  ->  find
+  13:    1  ->  first
+  14:    1  ->  flush
+  15:    1  ->  in
+  16:    1  ->  kate
+  17:    1  ->  knake
+  18:    1  ->  left
+  19:    1  ->  mountain
+  20:    1  ->  on
+  21:    1  ->  plus
+  22:    1  ->  school
+  23:    1  ->  shake
+  24:    1  ->  sixth
+  25:    1  ->  steak
+  26:    1  ->  the
+  27:    1  ->  things
+  28:    1  ->  toe
+  29:    1  ->  toph
+  30:    1  ->  which
+  31:    1  ->  wrong
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

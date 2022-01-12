@@ -1,0 +1,154 @@
+SCORING FOR SPEAKER: c-r
+     of google\c-rea1-m5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.7%   (  40)
+
+Percent Correct           =   80.8%   ( 156)
+
+Percent Substitution      =   12.4%   (  24)
+Percent Deletions         =    6.7%   (  13)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   79.3%
+
+
+Ref. words                =           ( 193)
+Hyp. words                =           ( 183)
+Aligned words             =           ( 196)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  a ==> announcer
+   2:    1  ->  a ==> or
+   3:    1  ->  and ==> as
+   4:    1  ->  and ==> lillian
+   5:    1  ->  buying ==> by
+   6:    1  ->  cinders ==> centres
+   7:    1  ->  cleaning ==> clothes
+   8:    1  ->  dreamed ==> dream
+   9:    1  ->  girls ==> lazygirls
+  10:    1  ->  gowns ==> downs
+  11:    1  ->  gowns ==> girls
+  12:    1  ->  had ==> how
+  13:    1  ->  hairbrushes ==> brushes
+  14:    1  ->  honour ==> order
+  15:    1  ->  howled ==> how
+  16:    1  ->  jewels ==> the
+  17:    1  ->  lazy ==> their
+  18:    1  ->  lived ==> live
+  19:    1  ->  poor ==> for
+  20:    1  ->  royal ==> on
+  21:    1  ->  they ==> i
+  22:    1  ->  they'd ==> they
+  23:    1  ->  were ==> there
+  24:    1  ->  yelled ==> old
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  hair
+   2:    1  ->  jules
+   3:    1  ->  woods
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    3  ->  they
+   2:    2  ->  and
+   3:    2  ->  lily
+   4:    1  ->  announce
+   5:    1  ->  had
+   6:    1  ->  queen's
+   7:    1  ->  she
+   8:    1  ->  to
+   9:    1  ->  were
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  gowns
+   4:    1  ->  buying
+   5:    1  ->  cinders
+   6:    1  ->  cleaning
+   7:    1  ->  dreamed
+   8:    1  ->  girls
+   9:    1  ->  had
+  10:    1  ->  hairbrushes
+  11:    1  ->  honour
+  12:    1  ->  howled
+  13:    1  ->  jewels
+  14:    1  ->  lazy
+  15:    1  ->  lived
+  16:    1  ->  poor
+  17:    1  ->  royal
+  18:    1  ->  they
+  19:    1  ->  they'd
+  20:    1  ->  were
+  21:    1  ->  yelled
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  how
+   2:    1  ->  announcer
+   3:    1  ->  as
+   4:    1  ->  brushes
+   5:    1  ->  by
+   6:    1  ->  centres
+   7:    1  ->  clothes
+   8:    1  ->  downs
+   9:    1  ->  dream
+  10:    1  ->  for
+  11:    1  ->  girls
+  12:    1  ->  i
+  13:    1  ->  lazygirls
+  14:    1  ->  lillian
+  15:    1  ->  live
+  16:    1  ->  old
+  17:    1  ->  on
+  18:    1  ->  or
+  19:    1  ->  order
+  20:    1  ->  the
+  21:    1  ->  their
+  22:    1  ->  there
+  23:    1  ->  they
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

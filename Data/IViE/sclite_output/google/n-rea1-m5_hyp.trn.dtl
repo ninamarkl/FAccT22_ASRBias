@@ -1,0 +1,171 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\n-rea1-m5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   25.0%   (  47)
+
+Percent Correct           =   75.5%   ( 142)
+
+Percent Substitution      =   16.5%   (  31)
+Percent Deletions         =    8.0%   (  15)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =   75.0%
+
+
+Ref. words                =           ( 188)
+Hyp. words                =           ( 174)
+Aligned words             =           ( 189)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  rosa ==> rosie
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> rose
+   4:    1  ->  announce ==> in
+   5:    1  ->  arrived ==> polarized
+   6:    1  ->  buying ==> by
+   7:    1  ->  dreamed ==> daydreams
+   8:    1  ->  girls ==> it
+   9:    1  ->  gowns ==> downs
+  10:    1  ->  gowns ==> gangs
+  11:    1  ->  hairbrushes ==> brushes
+  12:    1  ->  hairbrushes ==> hemorrhages
+  13:    1  ->  hairpins ==> happens
+  14:    1  ->  hat ==> heart
+  15:    1  ->  help ==> helped
+  16:    1  ->  howled ==> out
+  17:    1  ->  lazy ==> is
+  18:    1  ->  lily ==> william
+  19:    1  ->  lived ==> left
+  20:    1  ->  one ==> cone
+  21:    1  ->  poor ==> for
+  22:    1  ->  rosa ==> up
+  23:    1  ->  sisters ==> sister's
+  24:    1  ->  son ==> grandson
+  25:    1  ->  their ==> the
+  26:    1  ->  they'd ==> they
+  27:    1  ->  thought ==> for
+  28:    1  ->  to ==> they
+  29:    1  ->  were ==> willy
+  30:    1  ->  yelled ==> juul
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  hair
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  to
+   2:    1  ->  all
+   3:    1  ->  an
+   4:    1  ->  ball
+   5:    1  ->  called
+   6:    1  ->  came
+   7:    1  ->  do
+   8:    1  ->  had
+   9:    1  ->  jewels
+  10:    1  ->  only
+  11:    1  ->  royal
+  12:    1  ->  they
+  13:    1  ->  was
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  rosa
+   2:    2  ->  gowns
+   3:    2  ->  hairbrushes
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  announce
+   7:    1  ->  arrived
+   8:    1  ->  buying
+   9:    1  ->  dreamed
+  10:    1  ->  girls
+  11:    1  ->  hairpins
+  12:    1  ->  hat
+  13:    1  ->  help
+  14:    1  ->  howled
+  15:    1  ->  lazy
+  16:    1  ->  lily
+  17:    1  ->  lived
+  18:    1  ->  one
+  19:    1  ->  poor
+  20:    1  ->  sisters
+  21:    1  ->  son
+  22:    1  ->  their
+  23:    1  ->  they'd
+  24:    1  ->  thought
+  25:    1  ->  to
+  26:    1  ->  were
+  27:    1  ->  yelled
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  for
+   2:    2  ->  rosie
+   3:    2  ->  the
+   4:    2  ->  they
+   5:    1  ->  brushes
+   6:    1  ->  by
+   7:    1  ->  cone
+   8:    1  ->  daydreams
+   9:    1  ->  downs
+  10:    1  ->  gangs
+  11:    1  ->  grandson
+  12:    1  ->  happens
+  13:    1  ->  heart
+  14:    1  ->  helped
+  15:    1  ->  hemorrhages
+  16:    1  ->  in
+  17:    1  ->  is
+  18:    1  ->  it
+  19:    1  ->  juul
+  20:    1  ->  left
+  21:    1  ->  out
+  22:    1  ->  polarized
+  23:    1  ->  rose
+  24:    1  ->  sister's
+  25:    1  ->  up
+  26:    1  ->  william
+  27:    1  ->  willy
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

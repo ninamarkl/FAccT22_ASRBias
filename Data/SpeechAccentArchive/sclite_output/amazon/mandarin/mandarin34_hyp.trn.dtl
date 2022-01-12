@@ -1,0 +1,135 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin34_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  a ==> it's
+   3:    1  ->  and ==> on
+   4:    1  ->  ask ==> because
+   5:    1  ->  bags ==> backs
+   6:    1  ->  bob ==> ball
+   7:    1  ->  fresh ==> crisis
+   8:    1  ->  frog ==> prague
+   9:    1  ->  her ==> oscar
+  10:    1  ->  kids ==> keys
+  11:    1  ->  meet ==> make
+  12:    1  ->  red ==> right
+  13:    1  ->  slabs ==> slaps
+  14:    1  ->  snack ==> like
+  15:    1  ->  snow ==> no
+  16:    1  ->  spoons ==> points
+  17:    1  ->  thick ==> take
+  18:    1  ->  wednesday ==> stay
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  to
+   2:    1  ->  want
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  call
+   2:    1  ->  five
+   3:    1  ->  her
+   4:    1  ->  please
+   5:    1  ->  stella
+   6:    1  ->  we
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  ask
+   5:    1  ->  bags
+   6:    1  ->  bob
+   7:    1  ->  fresh
+   8:    1  ->  frog
+   9:    1  ->  her
+  10:    1  ->  kids
+  11:    1  ->  meet
+  12:    1  ->  red
+  13:    1  ->  slabs
+  14:    1  ->  snack
+  15:    1  ->  snow
+  16:    1  ->  spoons
+  17:    1  ->  thick
+  18:    1  ->  wednesday
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  off
+   2:    1  ->  backs
+   3:    1  ->  ball
+   4:    1  ->  because
+   5:    1  ->  crisis
+   6:    1  ->  it's
+   7:    1  ->  keys
+   8:    1  ->  like
+   9:    1  ->  make
+  10:    1  ->  no
+  11:    1  ->  on
+  12:    1  ->  oscar
+  13:    1  ->  points
+  14:    1  ->  prague
+  15:    1  ->  right
+  16:    1  ->  slaps
+  17:    1  ->  stay
+  18:    1  ->  take
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,188 @@
+SCORING FOR SPEAKER: b-r
+     of amazon\b-rea1-m2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.2%   (  49)
+
+Percent Correct           =   76.7%   ( 138)
+
+Percent Substitution      =   20.6%   (  37)
+Percent Deletions         =    2.8%   (   5)
+Percent Insertions        =    3.9%   (   7)
+Percent Word Accuracy     =   72.8%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 182)
+Aligned words             =           ( 187)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  cinders ==> senators
+   2:    1  ->  a ==> of
+   3:    1  ->  and ==> lien
+   4:    1  ->  and ==> lillian
+   5:    1  ->  announce ==> out
+   6:    1  ->  arrived ==> egged
+   7:    1  ->  at ==> a
+   8:    1  ->  bad ==> pod
+   9:    1  ->  ball ==> all
+  10:    1  ->  called ==> call
+  11:    1  ->  cinders ==> percenters
+  12:    1  ->  cinders ==> sanders
+  13:    1  ->  downs ==> towns
+  14:    1  ->  find ==> found
+  15:    1  ->  gowns ==> guns
+  16:    1  ->  gowns ==> kinds
+  17:    1  ->  hairbrushes ==> her
+  18:    1  ->  hairpins ==> pins
+  19:    1  ->  hat ==> hold
+  20:    1  ->  her ==> their
+  21:    1  ->  howled ==> on
+  22:    1  ->  in ==> run
+  23:    1  ->  lily ==> laws
+  24:    1  ->  lily ==> the
+  25:    1  ->  lived ==> live
+  26:    1  ->  me ==> hama
+  27:    1  ->  rosa ==> rules
+  28:    1  ->  shouting ==> shedding
+  29:    1  ->  spent ==> spend
+  30:    1  ->  stepsisters ==> is
+  31:    1  ->  to ==> down
+  32:    1  ->  to ==> they
+  33:    1  ->  two ==> there
+  34:    1  ->  wear ==> were
+  35:    1  ->  were ==> over
+  36:    1  ->  would ==> will
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  are
+   2:    1  ->  as
+   3:    1  ->  brushes
+   4:    1  ->  heart
+   5:    1  ->  her
+   6:    1  ->  steps
+   7:    1  ->  three
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  hand
+   2:    1  ->  lily
+   3:    1  ->  poor
+   4:    1  ->  we
+   5:    1  ->  were
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    4  ->  cinders
+   2:    2  ->  and
+   3:    2  ->  gowns
+   4:    2  ->  lily
+   5:    2  ->  to
+   6:    1  ->  a
+   7:    1  ->  announce
+   8:    1  ->  arrived
+   9:    1  ->  at
+  10:    1  ->  bad
+  11:    1  ->  ball
+  12:    1  ->  called
+  13:    1  ->  downs
+  14:    1  ->  find
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  hat
+  18:    1  ->  her
+  19:    1  ->  howled
+  20:    1  ->  in
+  21:    1  ->  lived
+  22:    1  ->  me
+  23:    1  ->  rosa
+  24:    1  ->  shouting
+  25:    1  ->  spent
+  26:    1  ->  stepsisters
+  27:    1  ->  two
+  28:    1  ->  wear
+  29:    1  ->  were
+  30:    1  ->  would
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  senators
+   2:    1  ->  a
+   3:    1  ->  all
+   4:    1  ->  call
+   5:    1  ->  down
+   6:    1  ->  egged
+   7:    1  ->  found
+   8:    1  ->  guns
+   9:    1  ->  hama
+  10:    1  ->  her
+  11:    1  ->  hold
+  12:    1  ->  is
+  13:    1  ->  kinds
+  14:    1  ->  laws
+  15:    1  ->  lien
+  16:    1  ->  lillian
+  17:    1  ->  live
+  18:    1  ->  of
+  19:    1  ->  on
+  20:    1  ->  out
+  21:    1  ->  over
+  22:    1  ->  percenters
+  23:    1  ->  pins
+  24:    1  ->  pod
+  25:    1  ->  rules
+  26:    1  ->  run
+  27:    1  ->  sanders
+  28:    1  ->  shedding
+  29:    1  ->  spend
+  30:    1  ->  the
+  31:    1  ->  their
+  32:    1  ->  there
+  33:    1  ->  they
+  34:    1  ->  towns
+  35:    1  ->  were
+  36:    1  ->  will
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

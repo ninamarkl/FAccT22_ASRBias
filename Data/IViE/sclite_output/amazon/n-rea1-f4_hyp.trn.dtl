@@ -1,0 +1,142 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\n-rea1-f4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.1%   (  31)
+
+Percent Correct           =   85.1%   ( 154)
+
+Percent Substitution      =   12.2%   (  22)
+Percent Deletions         =    2.8%   (   5)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   82.9%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 180)
+Aligned words             =           ( 185)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> lillian
+   3:    1  ->  and ==> rose
+   4:    1  ->  at ==> send
+   5:    1  ->  bells ==> bears
+   6:    1  ->  bride ==> braid
+   7:    1  ->  cinders ==> passengers
+   8:    1  ->  cinders ==> singers
+   9:    1  ->  cinders ==> us
+  10:    1  ->  find ==> found
+  11:    1  ->  hairspray ==> spree
+  12:    1  ->  her ==> his
+  13:    1  ->  howled ==> held
+  14:    1  ->  in ==> ran
+  15:    1  ->  lily ==> lillian
+  16:    1  ->  messenger ==> mr
+  17:    1  ->  rosa ==> i
+  18:    1  ->  royal ==> around
+  19:    1  ->  start ==> this
+  20:    1  ->  they ==> the
+  21:    1  ->  they ==> through
+  22:    1  ->  yelled ==> shelled
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  hair
+   2:    1  ->  it
+   3:    1  ->  of
+   4:    1  ->  old
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  lily
+   3:    1  ->  poor
+   4:    1  ->  so
+   5:    1  ->  were
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  cinders
+   2:    2  ->  and
+   3:    2  ->  they
+   4:    1  ->  a
+   5:    1  ->  at
+   6:    1  ->  bells
+   7:    1  ->  bride
+   8:    1  ->  find
+   9:    1  ->  hairspray
+  10:    1  ->  her
+  11:    1  ->  howled
+  12:    1  ->  in
+  13:    1  ->  lily
+  14:    1  ->  messenger
+  15:    1  ->  rosa
+  16:    1  ->  royal
+  17:    1  ->  start
+  18:    1  ->  yelled
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  lillian
+   2:    2  ->  the
+   3:    1  ->  around
+   4:    1  ->  bears
+   5:    1  ->  braid
+   6:    1  ->  found
+   7:    1  ->  held
+   8:    1  ->  his
+   9:    1  ->  i
+  10:    1  ->  mr
+  11:    1  ->  passengers
+  12:    1  ->  ran
+  13:    1  ->  rose
+  14:    1  ->  send
+  15:    1  ->  shelled
+  16:    1  ->  singers
+  17:    1  ->  spree
+  18:    1  ->  this
+  19:    1  ->  through
+  20:    1  ->  us
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

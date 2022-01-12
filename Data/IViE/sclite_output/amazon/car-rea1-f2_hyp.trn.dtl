@@ -1,0 +1,152 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\car-rea1-f2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.9%   (  37)
+
+Percent Correct           =   83.7%   ( 164)
+
+Percent Substitution      =   13.3%   (  26)
+Percent Deletions         =    3.1%   (   6)
+Percent Insertions        =    2.6%   (   5)
+Percent Word Accuracy     =   81.1%
+
+
+Ref. words                =           ( 196)
+Hyp. words                =           ( 195)
+Aligned words             =           ( 201)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  and ==> lillian
+   2:    1  ->  a ==> answer
+   3:    1  ->  and ==> rose
+   4:    1  ->  announce ==> an
+   5:    1  ->  at ==> in
+   6:    1  ->  bec- ==> because
+   7:    1  ->  cinders ==> does
+   8:    1  ->  cleaning ==> in
+   9:    1  ->  define ==> funny
+  10:    1  ->  divine ==> defined
+  11:    1  ->  erm ==> um
+  12:    1  ->  gowns ==> guns
+  13:    1  ->  had ==> hadn't
+  14:    1  ->  had ==> shot
+  15:    1  ->  help ==> helped
+  16:    1  ->  her ==> sin
+  17:    1  ->  howled ==> hold
+  18:    1  ->  lily ==> lillian
+  19:    1  ->  messenger ==> master
+  20:    1  ->  rosa ==> i
+  21:    1  ->  rosa ==> rose
+  22:    1  ->  royal ==> real
+  23:    1  ->  this ==> it
+  24:    1  ->  unfriendly ==> friendly
+  25:    1  ->  were ==> went
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  clean
+   4:    1  ->  other
+   5:    1  ->  the
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  lily
+   2:    1  ->  do
+   3:    1  ->  old
+   4:    1  ->  she
+   5:    1  ->  to
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  and
+   2:    2  ->  had
+   3:    2  ->  rosa
+   4:    1  ->  a
+   5:    1  ->  announce
+   6:    1  ->  at
+   7:    1  ->  bec-
+   8:    1  ->  cinders
+   9:    1  ->  cleaning
+  10:    1  ->  define
+  11:    1  ->  divine
+  12:    1  ->  erm
+  13:    1  ->  gowns
+  14:    1  ->  help
+  15:    1  ->  her
+  16:    1  ->  howled
+  17:    1  ->  lily
+  18:    1  ->  messenger
+  19:    1  ->  royal
+  20:    1  ->  this
+  21:    1  ->  unfriendly
+  22:    1  ->  were
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  lillian
+   2:    2  ->  in
+   3:    2  ->  rose
+   4:    1  ->  an
+   5:    1  ->  answer
+   6:    1  ->  because
+   7:    1  ->  defined
+   8:    1  ->  does
+   9:    1  ->  friendly
+  10:    1  ->  funny
+  11:    1  ->  guns
+  12:    1  ->  hadn't
+  13:    1  ->  helped
+  14:    1  ->  hold
+  15:    1  ->  i
+  16:    1  ->  it
+  17:    1  ->  master
+  18:    1  ->  real
+  19:    1  ->  shot
+  20:    1  ->  sin
+  21:    1  ->  um
+  22:    1  ->  went
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

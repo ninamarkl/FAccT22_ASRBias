@@ -1,0 +1,120 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: english_uk\english108_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   37.7%   (  26)
+
+Percent Correct           =   62.3%   (  43)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =   20.3%   (  14)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   62.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  55)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a ==> wilson
+   2:    1  ->  and ==> in
+   3:    1  ->  brother ==> a
+   4:    1  ->  frog ==> frogs
+   5:    1  ->  her ==> metre
+   6:    1  ->  her ==> water
+   7:    1  ->  red ==> 3-bed
+   8:    1  ->  scoop ==> skip
+   9:    1  ->  spoons ==> pounds
+  10:    1  ->  thick ==> 56
+  11:    1  ->  will ==> we'll
+  12:    1  ->  with ==> everything's
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  her
+   2:    2  ->  we
+   3:    1  ->  3
+   4:    1  ->  5
+   5:    1  ->  also
+   6:    1  ->  bring
+   7:    1  ->  meet
+   8:    1  ->  need
+   9:    1  ->  the
+  10:    1  ->  these
+  11:    1  ->  things
+  12:    1  ->  to
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  her
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  brother
+   5:    1  ->  frog
+   6:    1  ->  red
+   7:    1  ->  scoop
+   8:    1  ->  spoons
+   9:    1  ->  thick
+  10:    1  ->  will
+  11:    1  ->  with
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  3-bed
+   2:    1  ->  56
+   3:    1  ->  a
+   4:    1  ->  everything's
+   5:    1  ->  frogs
+   6:    1  ->  in
+   7:    1  ->  metre
+   8:    1  ->  pounds
+   9:    1  ->  skip
+  10:    1  ->  water
+  11:    1  ->  we'll
+  12:    1  ->  wilson
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

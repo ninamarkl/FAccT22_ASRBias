@@ -1,0 +1,99 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic68_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =    8.7%   (   6)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  blue ==> laptop
+   2:    1  ->  bob ==> pub
+   3:    1  ->  cheese ==> bluetooth
+   4:    1  ->  of ==> 56
+   5:    1  ->  red ==> with
+   6:    1  ->  spoons ==> pounds
+     -------
+         6
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  brother
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  5
+   2:    1  ->  go
+   3:    1  ->  slabs
+   4:    1  ->  thick
+   5:    1  ->  we
+   6:    1  ->  will
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  blue
+   2:    1  ->  bob
+   3:    1  ->  cheese
+   4:    1  ->  of
+   5:    1  ->  red
+   6:    1  ->  spoons
+     -------
+         6
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  56
+   2:    1  ->  bluetooth
+   3:    1  ->  laptop
+   4:    1  ->  pounds
+   5:    1  ->  pub
+   6:    1  ->  with
+     -------
+         6
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

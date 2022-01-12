@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\b-rea1-f3_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-f3_01)
+Scores: (#C #S #D #I) 153 26 3 6
+REF:  once upon a time there was a GIRL  called cinderella but everyone called her cinders CINDERS LIVED with her mother and two stepsisters *** STEPSISTERS called lily and rosa LILY    AND  ROSA were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties POOR CINDERS    had to WEAR all their old hand me downs and she had to do all the cleaning one day a royal messenger CAME to announce A   ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY AND     rosa thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball ARRIVED CINDERS had to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but their mother said that they had enough GOWNS   so they started SHOUTING at CINDERS  FIND  my jewels yelled ONE find my hat HOWLED the other they wanted *** ******* *** ******* 
+HYP:  once upon a time there was a GUARD called cinderella but everyone called her cinders SANDERS LIVE  with her mother and two stepsisters TAP SISTERS     called lily and rosa LILLIAN ROSE UP   were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties **** PERCENTERS had to WORK all their old hand me downs and she had to do all the cleaning one day a royal messenger CAMP to announce THE ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william **** LILLIAN rosa thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball AROUND  SANDERS had to help her sisters get ready they were in a bad mood THEY   wanted to buy some new KINDS but their mother said that they had enough GROUNDS so they started TRADING  at STANDARD FOUND my jewels yelled *** find my hat TOLD   the other they wanted HER BRUSHES HER SPRINTS 
+Eval:                              S                                                       S       S                                         I   S                                S       S    S                                                                                                                    D    S                 S                                                                                             S                S                 S                                                                                  D    S                                                                                                                                                          S       S                                                                 S                             S                                                S                       S           S        S                      D               S                            I   I       I   I       
+
+>> REF:  HAIRBRUSHES HAIRPINS HAIRPINS and *** HAIRSPRAY 
+>> HYP:  AND         HER      PINS     and HER SPRAY     
+>> Eval: S           S        S            I   S         
+
+

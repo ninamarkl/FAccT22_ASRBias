@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\car-rea1-f1_hyp.trn
+
+Speakers: 
+    0:  car
+
+Speaker sentences   0:  car   #utts: 1
+id: (car-rea1-f1_01)
+Scores: (#C #S #D #I) 140 43 12 3
+REF:  CINDARELLA once upon a time there was a girl called cinderella but everyone called her cinders ***** CINDERS LIVED with HER   mother and two stepsisters CALLED LILY   and ROSA  lily and ROSA  were very ** UNFRIENDLY and they were LAZY GIRLS     they spent all THEIR time buying new clothes and going to parties POOR   CINDERS had to wear ALL THEIR OLD      HAND me DOWNS and she had to do the cleaning ONE DAY       A   royal messenger came to ANNOUNCE A     BALL    the ball would be held AT the royal palace in honour of the queen's only son prince william lily and ROSA THOUGHT THIS WAS   DIVINE prince william was gorgeous AND HE and he and he was looking for a BRIDE  they DREAMED of wedding bells when the evening of the ball ARRIVED CINDERS HAD  to HELP her sisters get ready they were in a bad mood THEY'D wanted to THEY'D wanted to buy some new gowns but THEIR mother said that they had enough BUT THEIR MOTHER SAID THAT THEY'D   had enough GOWNS so they started shouting at cinders 
+HYP:  CINDERELLA once upon a time there was a girl called cinderella but everyone called her cinders SINCE HIS     LIVE  with THEIR mother and two stepsisters CALL   LIZZIE and ROSIE lily and ROSIE were very IN FRIENDLY   and they were **** LAZYGIRLS they spent all THE   time buying new clothes and going to parties PERSON HAS     had to wear *** ***** ALTHOUGH TOLD me TOWNS and she had to do the cleaning *** WEDNESDAY ARE royal messenger came to ******** ANNAN SUPPORT the ball would be held ** the royal palace in honour of the queen's only son prince william lily and **** ******* **** ROSES DEFINE prince william was gorgeous *** ** and he and he was looking for a BRIGHT they DREAMS  of wedding bells when the evening of the ball RIDE    SYNS    HAVE to HAVE her sisters get ready they were in a bad mood THEY   wanted to THEY   wanted to buy some new gowns but THEY  mother said that they had enough *** THE   TIME   OF   THE  SATURDAY had enough DOWNS so they started shouting at cinders 
+Eval: S                                                                                              I     S       S          S                                S      S          S              S               I  S                        D    S                        S                                                  S      S                   D   D     S        S       S                                    D   S         S                           D        S     S                              D                                                                             D    D       D    S     S                                  D   D                                  S           S                                                     S       S       S       S                                                  S                S                                       S                                      D   S     S      S    S    S                   S                                         
+
+>> REF:  find my JEWELS YELLED ONE  find my hat HOWLED the other they wanted *** HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  find my JOOLS  HOUSE  WHEN find my hat HOLD   the other they wanted HER HAIR        PINS     and hairspray 
+>> Eval:         S      S      S                S                            I   S           S                      
+
+

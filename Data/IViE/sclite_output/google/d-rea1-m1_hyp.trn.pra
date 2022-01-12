@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\d-rea1-m1_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-m1_01)
+Scores: (#C #S #D #I) 108 47 52 4
+REF:  ONCE UPON A       TIME there was a girl called cinderella BUT EVERYONE CALLED HER CINDERS CINDERS LIVED with HER mother and two STEPSIN STEPSISTERS called lily and ROSA LILY  and ROSA  were VERY UNFRIENDLY AND THEY WERE  lazy girls THEY SPENT ALL THEIR TIME BUYING new clothes and going to parties POOR CINDERS HAD to wear all the old HAND ME DOWNS      all she had and she had to do *** the CLEANING AND SHE HAD TO    do *** the CLEANING ONE DAY A     royal messenger came to announce A BALL  the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY and ROSA THOUGHT THIS WAS DIVINE prince william WAS gorgeous and HE WAS  looking for a bride THEY DREAMED OF  wedding bells WHEN THE  evening OF THE BALL  arrived CINDERS HAD to help HER SISTERS   get ready THEY WERE  in a bad mood THEY'D WANTED to buy some new GOWNS but **** THEIR MOTHER said THAT they had enough GOWNS THEY'D WANTED TO BUY SOME  new GOWNS BUT THEIR mother said THAT they had had 
+HYP:  **** WHAT SPOTIFY IN   there was a girl called cinderella *** ******** ****** *** ******* ******* DRESS with THE mother and two STEPS   SISTER'S    called lily and **** ROSIE and ROSIE were **** ********** *** **** THERE lazy girls **** ***** *** THAT  I    BUY    new clothes and going to parties **** ******* *** to wear all the old **** ** HAMILTONES all she had and she had to do ALL the ******** *** *** *** TEENY do ALL the ******** *** *** TEENY royal messenger came to announce * ABOUT the ball ***** be held at the royal palace in honour of the queen's only son prince william **** and **** ******* **** *** ****** prince william IS  gorgeous and ** HE'S looking for a bride THE  DREAM   DAY wedding bells **** GOOD evening ** *** ABOUT arrived SINNERS HOW to help *** RESISTORS get ready **** THERE in a bad mood THAT   WANTS  to buy some new GAMES but THEY WERE  THEY   said **** they had enough ***** ****** ****** ** *** GAMES new GAMES FOR THE   mother said **** they had had 
+Eval: D    S    S       S                                       D   D        D      D   D       D       S          S                  S       S                           D    S         S          D    D          D   D    S                D    D     D   S     S    S                                       D    D       D                       D    D  S                                        I       D        D   D   D   S        I       D        D   D   S                                      D S              D                                                                                  D        D    D       D    D   D                     S                D  S                        S    S       S                 D    S            D  D   S             S       S           D   S                   D    S                   S      S                      S         I    S     S           D                    D     D      D      D  D   S         S     S   S                 D                 
+
+>> REF:  enough GOWNS so they started shouting at CINDERS FIND MY JEWELS YELLED  ONE         FIND      my HAT   HOWLED the other ***** THEY     WANTED HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  enough GAMES so they started shouting at ******* **** ** ****** CINEMAS FIND-MODULE DLFIFTEEN my HEART TELL   the other ORDER TERRIBLE SHE'S  HAIR        PINS     and hairspray 
+>> Eval:        S                                 D       D    D  D      S       S           S            S     S                I     S        S      S           S                      
+
+

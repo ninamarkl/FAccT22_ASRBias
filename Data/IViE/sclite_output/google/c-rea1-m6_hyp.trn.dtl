@@ -1,0 +1,202 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\c-rea1-m6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.5%   (  76)
+
+Percent Correct           =   58.7%   ( 105)
+
+Percent Substitution      =   17.9%   (  32)
+Percent Deletions         =   23.5%   (  42)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   57.5%
+
+
+Ref. words                =           ( 179)
+Hyp. words                =           ( 139)
+Aligned words             =           ( 181)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  a ==> counting
+   2:    1  ->  a ==> or
+   3:    1  ->  and ==> hand-me-downs
+   4:    1  ->  and ==> liliana
+   5:    1  ->  ball ==> ansible
+   6:    1  ->  bride ==> ride
+   7:    1  ->  buying ==> by
+   8:    1  ->  cinders ==> descenders
+   9:    1  ->  cinders ==> uncle
+  10:    1  ->  cinders ==> us
+  11:    1  ->  dreamed ==> dream
+  12:    1  ->  evening ==> belles
+  13:    1  ->  gowns ==> glasses
+  14:    1  ->  gowns ==> guns
+  15:    1  ->  hairbrushes ==> hair
+  16:    1  ->  hairpins ==> pins
+  17:    1  ->  he ==> you
+  18:    1  ->  her ==> my
+  19:    1  ->  her ==> their
+  20:    1  ->  lily ==> call
+  21:    1  ->  lived ==> live
+  22:    1  ->  of ==> day
+  23:    1  ->  poor ==> send
+  24:    1  ->  rosa ==> groza
+  25:    1  ->  rosa ==> rosie
+  26:    1  ->  royal ==> all
+  27:    1  ->  sisters ==> sister's
+  28:    1  ->  their ==> the
+  29:    1  ->  they ==> lazygirls
+  30:    1  ->  wanted ==> brushes
+  31:    1  ->  were ==> there
+  32:    1  ->  would ==> will
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  although
+   2:    1  ->  or
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  called
+   2:    2  ->  find
+   3:    2  ->  my
+   4:    2  ->  they
+   5:    1  ->  and
+   6:    1  ->  announce
+   7:    1  ->  bells
+   8:    1  ->  but
+   9:    1  ->  came
+  10:    1  ->  cinders
+  11:    1  ->  downs
+  12:    1  ->  everyone
+  13:    1  ->  girls
+  14:    1  ->  had
+  15:    1  ->  hand
+  16:    1  ->  hat
+  17:    1  ->  her
+  18:    1  ->  howled
+  19:    1  ->  jewels
+  20:    1  ->  lazy
+  21:    1  ->  lily
+  22:    1  ->  me
+  23:    1  ->  old
+  24:    1  ->  one
+  25:    1  ->  only
+  26:    1  ->  prince
+  27:    1  ->  queen's
+  28:    1  ->  rosa
+  29:    1  ->  son
+  30:    1  ->  that
+  31:    1  ->  the
+  32:    1  ->  their
+  33:    1  ->  they'd
+  34:    1  ->  to
+  35:    1  ->  wanted
+  36:    1  ->  when
+  37:    1  ->  william
+  38:    1  ->  yelled
+     -------
+        42
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  cinders
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  gowns
+   5:    2  ->  her
+   6:    2  ->  rosa
+   7:    1  ->  ball
+   8:    1  ->  bride
+   9:    1  ->  buying
+  10:    1  ->  dreamed
+  11:    1  ->  evening
+  12:    1  ->  hairbrushes
+  13:    1  ->  hairpins
+  14:    1  ->  he
+  15:    1  ->  lily
+  16:    1  ->  lived
+  17:    1  ->  of
+  18:    1  ->  poor
+  19:    1  ->  royal
+  20:    1  ->  sisters
+  21:    1  ->  their
+  22:    1  ->  they
+  23:    1  ->  wanted
+  24:    1  ->  were
+  25:    1  ->  would
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  all
+   2:    1  ->  ansible
+   3:    1  ->  belles
+   4:    1  ->  brushes
+   5:    1  ->  by
+   6:    1  ->  call
+   7:    1  ->  counting
+   8:    1  ->  day
+   9:    1  ->  descenders
+  10:    1  ->  dream
+  11:    1  ->  glasses
+  12:    1  ->  groza
+  13:    1  ->  guns
+  14:    1  ->  hair
+  15:    1  ->  hand-me-downs
+  16:    1  ->  lazygirls
+  17:    1  ->  liliana
+  18:    1  ->  live
+  19:    1  ->  my
+  20:    1  ->  or
+  21:    1  ->  pins
+  22:    1  ->  ride
+  23:    1  ->  rosie
+  24:    1  ->  send
+  25:    1  ->  sister's
+  26:    1  ->  the
+  27:    1  ->  their
+  28:    1  ->  there
+  29:    1  ->  uncle
+  30:    1  ->  us
+  31:    1  ->  will
+  32:    1  ->  you
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

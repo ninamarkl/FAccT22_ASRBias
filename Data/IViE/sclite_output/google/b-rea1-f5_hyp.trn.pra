@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\b-rea1-f5_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-f5_01)
+Scores: (#C #S #D #I) 68 37 73 2
+REF:  once upon a TIME THERE  WAS A   GIRL called cinderella BUT everyone CALLED HER CINDERS CINDERS LIVED   with her mother and two stepsisters CALLED LILY AND ROSA LILY AND    rosa WERE       UNFRIENDLY and they were LAZY GIRLS      they spent all THEIR time BUYING new clothes AND going to parties POOR CINDERS    had to wear all THEIR OLD HAND ME DOWNS         and she had to DO the cleaning one day A ROYAL MESSENGER CAME TO   ANNOUNCE A     BALL    THE BALL WOULD  be held at the royal palace IN HONOUR OF   the queen's ONLY son PRINCE WILLIAM LILY AND ROSA THOUGHT THIS WAS DIVINE prince william WAS GORGEOUS and HE WAS LOOKING FOR A bride THEY DREAMED OF wedding bells WHEN THE EVENING OF THE BALL ARRIVED CINDERS HAD TO HELP HER SISTERS GET READY THEY WERE IN A BAD MOOD they wanted to BUY some NEW GOWNS but THEIR MOTHER SAID THAT they had enough GOWNS SO   they started SHOUTING AT CINDERS FIND MY JEWELS   YELLED   ONE       FIND     my HAT   HOWLED the other they wanted *** ******* 
+HYP:  once upon a **** TENNER OF  THE CAR  called cinderella *** everyone ****** *** CALLS   THE     CHANCES with her mother and two stepsisters ****** **** *** **** CALL ELAINE rosa RESTAURANT RAMSAY     and they were **** LASIK-EYES they spent all ***** time BY     new clothes I'M going to parties **** PERCENTAGE had to wear all ***** *** **** ** HAND-ME-DOWNS and she had to ** the cleaning one day * ***** ********* **** I'LL MESSAGE  AGAIN TONIGHT SO  PAUL BARBER be held at the royal palace ** AND    ANNA the queen's **** son ****** ******* **** *** **** ******* **** *** ****** prince william *** ******** and ** *** ******* *** * bride **** ******* ** wedding bells **** *** ******* ** *** **** ******* ******* *** ** **** *** ******* *** ***** **** **** ** * *** AND  they wanted to PAY some *** ***** but ***** ****** **** **** they had enough ***** THEN they started ******** ** ******* **** ** CHATTING ATTENDED NIGERIANS ONE-ZERO my HEART AND    the other they wanted HER BRUSHES 
+Eval:             D    S      S   S   S                      D            D      D   S       S       S                                           D      D    D   D    S    S           S          S                        D    S                         D          S                  S                    D    S                          D     D   D    D  S                            D                       D D     D         D    S    S        S     S       S   S    S                                  D  S      S                D        D      D       D    D   D    D       D    D   D                     D   D            D  D   D       D   D       D    D       D                D    D   D       D  D   D    D       D       D   D  D    D   D       D   D     D    D    D  D D   S                   S        D   D         D     D      D    D                    D     S                 D        D  D       D    D  S        S        S         S           S     S                            I   I       
+
+>> REF:  HAIRBRUSHES HAIRPINS AND hairspray 
+>> HYP:  HER         FRIENDS  IN  hairspray 
+>> Eval: S           S        S             
+
+

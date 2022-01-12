@@ -1,0 +1,223 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\c-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.2%   (  82)
+
+Percent Correct           =   61.8%   ( 126)
+
+Percent Substitution      =   22.1%   (  45)
+Percent Deletions         =   16.2%   (  33)
+Percent Insertions        =    2.0%   (   4)
+Percent Word Accuracy     =   59.8%
+
+
+Ref. words                =           ( 204)
+Hyp. words                =           ( 175)
+Aligned words             =           ( 208)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  cinders ==> senders
+   2:    2  ->  gowns ==> downs
+   3:    1  ->  a ==> of
+   4:    1  ->  and ==> call
+   5:    1  ->  and ==> hand-me-downs
+   6:    1  ->  announce ==> ounce
+   7:    1  ->  ball ==> all
+   8:    1  ->  buying ==> by
+   9:    1  ->  called ==> call
+  10:    1  ->  cinders ==> just
+  11:    1  ->  cinders ==> sanders
+  12:    1  ->  cinders ==> send
+  13:    1  ->  divine ==> devine
+  14:    1  ->  downs ==> the
+  15:    1  ->  dreamed ==> dream
+  16:    1  ->  everyone ==> anyone
+  17:    1  ->  had ==> how
+  18:    1  ->  hairbrushes ==> brushes
+  19:    1  ->  he ==> she
+  20:    1  ->  her ==> the
+  21:    1  ->  her ==> to
+  22:    1  ->  howled ==> how
+  23:    1  ->  jewels ==> the
+  24:    1  ->  lived ==> it
+  25:    1  ->  lived ==> live
+  26:    1  ->  mood ==> assistance
+  27:    1  ->  of ==> day
+  28:    1  ->  once ==> what's
+  29:    1  ->  poor ==> paul
+  30:    1  ->  rosa ==> liliana
+  31:    1  ->  she ==> answer
+  32:    1  ->  step ==> two-step
+  33:    1  ->  their ==> the
+  34:    1  ->  they ==> i
+  35:    1  ->  they'd ==> that
+  36:    1  ->  wanted ==> wants
+  37:    1  ->  was ==> william's
+  38:    1  ->  wear ==> go
+  39:    1  ->  were ==> groza
+  40:    1  ->  when ==> in
+  41:    1  ->  with ==> for
+  42:    1  ->  would ==> bowl
+  43:    1  ->  yelled ==> old
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  an
+   2:    1  ->  hair
+   3:    1  ->  jules
+   4:    1  ->  very
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  lily
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  rosa
+   5:    1  ->  bad
+   6:    1  ->  ball
+   7:    1  ->  called
+   8:    1  ->  get
+   9:    1  ->  gowns
+  10:    1  ->  hand
+  11:    1  ->  her
+  12:    1  ->  in
+  13:    1  ->  me
+  14:    1  ->  old
+  15:    1  ->  ready
+  16:    1  ->  sep
+  17:    1  ->  sisters
+  18:    1  ->  so
+  19:    1  ->  that
+  20:    1  ->  their
+  21:    1  ->  they
+  22:    1  ->  they'd
+  23:    1  ->  this
+  24:    1  ->  thought
+  25:    1  ->  two
+  26:    1  ->  was
+  27:    1  ->  were
+  28:    1  ->  william
+     -------
+        33
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    5  ->  cinders
+   2:    2  ->  and
+   3:    2  ->  gowns
+   4:    2  ->  her
+   5:    2  ->  lived
+   6:    1  ->  a
+   7:    1  ->  announce
+   8:    1  ->  ball
+   9:    1  ->  buying
+  10:    1  ->  called
+  11:    1  ->  divine
+  12:    1  ->  downs
+  13:    1  ->  dreamed
+  14:    1  ->  everyone
+  15:    1  ->  had
+  16:    1  ->  hairbrushes
+  17:    1  ->  he
+  18:    1  ->  howled
+  19:    1  ->  jewels
+  20:    1  ->  mood
+  21:    1  ->  of
+  22:    1  ->  once
+  23:    1  ->  poor
+  24:    1  ->  rosa
+  25:    1  ->  she
+  26:    1  ->  step
+  27:    1  ->  their
+  28:    1  ->  they
+  29:    1  ->  they'd
+  30:    1  ->  wanted
+  31:    1  ->  was
+  32:    1  ->  wear
+  33:    1  ->  were
+  34:    1  ->  when
+  35:    1  ->  with
+  36:    1  ->  would
+  37:    1  ->  yelled
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    4  ->  the
+   2:    2  ->  call
+   3:    2  ->  downs
+   4:    2  ->  how
+   5:    2  ->  senders
+   6:    1  ->  all
+   7:    1  ->  answer
+   8:    1  ->  anyone
+   9:    1  ->  assistance
+  10:    1  ->  bowl
+  11:    1  ->  brushes
+  12:    1  ->  by
+  13:    1  ->  day
+  14:    1  ->  devine
+  15:    1  ->  dream
+  16:    1  ->  for
+  17:    1  ->  go
+  18:    1  ->  groza
+  19:    1  ->  hand-me-downs
+  20:    1  ->  i
+  21:    1  ->  in
+  22:    1  ->  it
+  23:    1  ->  just
+  24:    1  ->  liliana
+  25:    1  ->  live
+  26:    1  ->  of
+  27:    1  ->  old
+  28:    1  ->  ounce
+  29:    1  ->  paul
+  30:    1  ->  sanders
+  31:    1  ->  send
+  32:    1  ->  she
+  33:    1  ->  that
+  34:    1  ->  to
+  35:    1  ->  two-step
+  36:    1  ->  wants
+  37:    1  ->  what's
+  38:    1  ->  william's
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

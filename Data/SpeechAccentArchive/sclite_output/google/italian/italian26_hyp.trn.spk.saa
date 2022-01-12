@@ -1,0 +1,118 @@
+SCORING FOR SPEAKER: saa
+     of italian\italian26_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  a ==> his
+   3:    1  ->  a ==> the
+   4:    1  ->  also ==> wilson
+   5:    1  ->  frog ==> frogs
+   6:    1  ->  her ==> a
+   7:    1  ->  her ==> air
+   8:    1  ->  her ==> the
+   9:    1  ->  meet ==> me
+  10:    1  ->  red ==> 3rd
+  11:    1  ->  scoop ==> skip
+  12:    1  ->  slabs ==> loads
+  13:    1  ->  snack ==> neck
+  14:    1  ->  spoons ==> pounds
+  15:    1  ->  thick ==> 56
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  3
+   2:    1  ->  5
+   3:    1  ->  we
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  her
+   2:    2  ->  a
+   3:    2  ->  these
+   4:    1  ->  also
+   5:    1  ->  frog
+   6:    1  ->  meet
+   7:    1  ->  red
+   8:    1  ->  scoop
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  spoons
+  12:    1  ->  thick
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  the
+   2:    2  ->  this
+   3:    1  ->  3rd
+   4:    1  ->  56
+   5:    1  ->  a
+   6:    1  ->  air
+   7:    1  ->  frogs
+   8:    1  ->  his
+   9:    1  ->  loads
+  10:    1  ->  me
+  11:    1  ->  neck
+  12:    1  ->  pounds
+  13:    1  ->  skip
+  14:    1  ->  wilson
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

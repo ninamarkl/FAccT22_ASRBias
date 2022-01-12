@@ -1,0 +1,131 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: italian\italian31_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   69.6%   (  48)
+
+Percent Correct           =   30.4%   (  21)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =   59.4%   (  41)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   30.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  28)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5 ==> start
+   2:    1  ->  a ==> pub
+   3:    1  ->  and ==> in
+   4:    1  ->  of ==> are
+   5:    1  ->  slabs ==> lives
+   6:    1  ->  the ==> s
+   7:    1  ->  thick ==> 6056
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    3  ->  her
+   2:    2  ->  these
+   3:    2  ->  we
+   4:    1  ->  3
+   5:    1  ->  6
+   6:    1  ->  a
+   7:    1  ->  also
+   8:    1  ->  and
+   9:    1  ->  ask
+  10:    1  ->  at
+  11:    1  ->  bags
+  12:    1  ->  big
+  13:    1  ->  bob
+  14:    1  ->  bring
+  15:    1  ->  brother
+  16:    1  ->  can
+  17:    1  ->  for
+  18:    1  ->  fresh
+  19:    1  ->  go
+  20:    1  ->  into
+  21:    1  ->  maybe
+  22:    1  ->  meet
+  23:    1  ->  need
+  24:    1  ->  of
+  25:    1  ->  peas
+  26:    1  ->  red
+  27:    1  ->  scoop
+  28:    1  ->  she
+  29:    1  ->  snack
+  30:    1  ->  snow
+  31:    1  ->  spoons
+  32:    1  ->  store
+  33:    1  ->  things
+  34:    1  ->  to
+  35:    1  ->  toy
+  36:    1  ->  wednesday
+  37:    1  ->  will
+     -------
+        41
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  of
+   5:    1  ->  slabs
+   6:    1  ->  the
+   7:    1  ->  thick
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  6056
+   2:    1  ->  are
+   3:    1  ->  in
+   4:    1  ->  lives
+   5:    1  ->  pub
+   6:    1  ->  s
+   7:    1  ->  start
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

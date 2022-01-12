@@ -1,0 +1,131 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic22_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  and ==> on
+   3:    1  ->  and ==> um
+   4:    1  ->  ask ==> asked
+   5:    1  ->  bags ==> attacks
+   6:    1  ->  bob ==> book
+   7:    1  ->  call ==> he's
+   8:    1  ->  five ==> piece
+   9:    1  ->  fresh ==> course
+  10:    1  ->  frog ==> for
+  11:    1  ->  her ==> metre
+  12:    1  ->  of ==> off
+  13:    1  ->  peas ==> personal
+  14:    1  ->  slabs ==> lives
+  15:    1  ->  snack ==> not
+  16:    1  ->  snow ==> off
+  17:    1  ->  stella ==> constanta
+  18:    1  ->  thick ==> fifty-six
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  meet
+   2:    1  ->  of
+   3:    1  ->  please
+   4:    1  ->  red
+   5:    1  ->  spoons
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  bags
+   5:    1  ->  bob
+   6:    1  ->  call
+   7:    1  ->  five
+   8:    1  ->  fresh
+   9:    1  ->  frog
+  10:    1  ->  her
+  11:    1  ->  of
+  12:    1  ->  peas
+  13:    1  ->  slabs
+  14:    1  ->  snack
+  15:    1  ->  snow
+  16:    1  ->  stella
+  17:    1  ->  thick
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  off
+   2:    1  ->  asked
+   3:    1  ->  attacks
+   4:    1  ->  book
+   5:    1  ->  constanta
+   6:    1  ->  course
+   7:    1  ->  fifty-six
+   8:    1  ->  for
+   9:    1  ->  he's
+  10:    1  ->  it's
+  11:    1  ->  lives
+  12:    1  ->  metre
+  13:    1  ->  not
+  14:    1  ->  on
+  15:    1  ->  personal
+  16:    1  ->  piece
+  17:    1  ->  um
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,137 @@
+SCORING FOR SPEAKER: saa
+     of french\french39_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.8%   (  33)
+
+Percent Correct           =   52.2%   (  36)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =   24.6%   (  17)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   52.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  52)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  a ==> is
+   2:    1  ->  bob ==> but
+   3:    1  ->  call ==> go
+   4:    1  ->  frog ==> full
+   5:    1  ->  go ==> to
+   6:    1  ->  her ==> a
+   7:    1  ->  her ==> without
+   8:    1  ->  scoop ==> skip
+   9:    1  ->  snack ==> not
+  10:    1  ->  snake ==> nick
+  11:    1  ->  snow ==> no
+  12:    1  ->  spoons ==> £6
+  13:    1  ->  these ==> the
+  14:    1  ->  things ==> thing
+  15:    1  ->  toy ==> victor
+  16:    1  ->  train ==> and
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  her
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  ask
+   6:    1  ->  at
+   7:    1  ->  big
+   8:    1  ->  bring
+   9:    1  ->  maybe
+  10:    1  ->  the
+  11:    1  ->  these
+  12:    1  ->  thick
+  13:    1  ->  to
+  14:    1  ->  we
+  15:    1  ->  will
+  16:    1  ->  with
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  her
+   2:    1  ->  a
+   3:    1  ->  bob
+   4:    1  ->  call
+   5:    1  ->  frog
+   6:    1  ->  go
+   7:    1  ->  scoop
+   8:    1  ->  snack
+   9:    1  ->  snake
+  10:    1  ->  snow
+  11:    1  ->  spoons
+  12:    1  ->  these
+  13:    1  ->  things
+  14:    1  ->  toy
+  15:    1  ->  train
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  but
+   4:    1  ->  full
+   5:    1  ->  go
+   6:    1  ->  is
+   7:    1  ->  nick
+   8:    1  ->  no
+   9:    1  ->  not
+  10:    1  ->  skip
+  11:    1  ->  the
+  12:    1  ->  thing
+  13:    1  ->  to
+  14:    1  ->  victor
+  15:    1  ->  without
+  16:    1  ->  £6
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

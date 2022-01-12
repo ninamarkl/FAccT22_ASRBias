@@ -1,0 +1,117 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish33_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  and ==> on
+   3:    1  ->  cheese ==> she's
+   4:    1  ->  of ==> off
+   5:    1  ->  plastic ==> a
+   6:    1  ->  scoop ==> skip
+   7:    1  ->  slabs ==> laps
+   8:    1  ->  spoons ==> points
+   9:    1  ->  thick ==> fifty-six
+  10:    1  ->  toy ==> tree
+  11:    1  ->  we ==> readbacks
+  12:    1  ->  will ==> we'll
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  in
+   2:    1  ->  place
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  bags
+   3:    1  ->  five
+   4:    1  ->  red
+   5:    1  ->  the
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  these
+   2:    1  ->  and
+   3:    1  ->  cheese
+   4:    1  ->  of
+   5:    1  ->  plastic
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  spoons
+   9:    1  ->  thick
+  10:    1  ->  toy
+  11:    1  ->  we
+  12:    1  ->  will
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  this
+   2:    1  ->  a
+   3:    1  ->  fifty-six
+   4:    1  ->  laps
+   5:    1  ->  off
+   6:    1  ->  on
+   7:    1  ->  points
+   8:    1  ->  readbacks
+   9:    1  ->  she's
+  10:    1  ->  skip
+  11:    1  ->  tree
+  12:    1  ->  we'll
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

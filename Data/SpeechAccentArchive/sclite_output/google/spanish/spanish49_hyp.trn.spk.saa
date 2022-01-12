@@ -1,0 +1,127 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish49_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   14.5%   (  10)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  3 ==> just
+   2:    1  ->  5 ==> please
+   3:    1  ->  and ==> can
+   4:    1  ->  brother ==> the
+   5:    1  ->  can ==> to
+   6:    1  ->  her ==> asda
+   7:    1  ->  her ==> fuckabout
+   8:    1  ->  her ==> metre
+   9:    1  ->  of ==> are
+  10:    1  ->  peas ==> no
+  11:    1  ->  red ==> reread
+  12:    1  ->  scoop ==> get
+  13:    1  ->  slabs ==> labs
+  14:    1  ->  snow ==> fascist
+  15:    1  ->  thick ==> 56
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  also
+   3:    1  ->  ask
+   4:    1  ->  for
+   5:    1  ->  fresh
+   6:    1  ->  into
+   7:    1  ->  meet
+   8:    1  ->  need
+   9:    1  ->  she
+  10:    1  ->  we
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  her
+   2:    1  ->  3
+   3:    1  ->  5
+   4:    1  ->  and
+   5:    1  ->  brother
+   6:    1  ->  can
+   7:    1  ->  of
+   8:    1  ->  peas
+   9:    1  ->  red
+  10:    1  ->  scoop
+  11:    1  ->  slabs
+  12:    1  ->  snow
+  13:    1  ->  thick
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  56
+   2:    1  ->  are
+   3:    1  ->  asda
+   4:    1  ->  can
+   5:    1  ->  fascist
+   6:    1  ->  fuckabout
+   7:    1  ->  get
+   8:    1  ->  just
+   9:    1  ->  labs
+  10:    1  ->  metre
+  11:    1  ->  no
+  12:    1  ->  please
+  13:    1  ->  reread
+  14:    1  ->  the
+  15:    1  ->  to
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,108 @@
+SCORING FOR SPEAKER: saa
+     of english_uk\english448_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5 ==> fire
+   2:    1  ->  brother ==> below
+   3:    1  ->  frog ==> dog
+   4:    1  ->  of ==> are
+   5:    1  ->  plastic ==> party
+   6:    1  ->  scoop ==> skip
+   7:    1  ->  slabs ==> clouds
+   8:    1  ->  snow ==> fessional
+   9:    1  ->  these ==> your
+  10:    1  ->  thick ==> sticks
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  fresh
+   3:    1  ->  her
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5
+   2:    1  ->  brother
+   3:    1  ->  frog
+   4:    1  ->  of
+   5:    1  ->  plastic
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  snow
+   9:    1  ->  these
+  10:    1  ->  thick
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  are
+   2:    1  ->  below
+   3:    1  ->  clouds
+   4:    1  ->  dog
+   5:    1  ->  fessional
+   6:    1  ->  fire
+   7:    1  ->  party
+   8:    1  ->  skip
+   9:    1  ->  sticks
+  10:    1  ->  your
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

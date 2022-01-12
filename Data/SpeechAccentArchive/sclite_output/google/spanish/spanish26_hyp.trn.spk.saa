@@ -1,0 +1,116 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish26_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  5 ==> dick
+   2:    1  ->  a ==> is
+   3:    1  ->  bob ==> but
+   4:    1  ->  can ==> and
+   5:    1  ->  frog ==> from
+   6:    1  ->  go ==> have
+   7:    1  ->  her ==> hair
+   8:    1  ->  peas ==> fight
+   9:    1  ->  slabs ==> lots
+  10:    1  ->  snack ==> not
+  11:    1  ->  stella ==> estella
+  12:    1  ->  these ==> this
+  13:    1  ->  thick ==> is
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  paste
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  her
+   2:    1  ->  she
+   3:    1  ->  wednesday
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  bob
+   4:    1  ->  can
+   5:    1  ->  frog
+   6:    1  ->  go
+   7:    1  ->  her
+   8:    1  ->  peas
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  stella
+  12:    1  ->  these
+  13:    1  ->  thick
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  is
+   2:    1  ->  and
+   3:    1  ->  but
+   4:    1  ->  dick
+   5:    1  ->  estella
+   6:    1  ->  fight
+   7:    1  ->  from
+   8:    1  ->  hair
+   9:    1  ->  have
+  10:    1  ->  lots
+  11:    1  ->  not
+  12:    1  ->  this
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

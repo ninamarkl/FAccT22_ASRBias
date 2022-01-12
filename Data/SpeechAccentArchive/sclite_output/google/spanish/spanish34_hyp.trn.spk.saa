@@ -1,0 +1,127 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish34_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   62.3%   (  43)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   15.9%   (  11)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  at ==> had
+   3:    1  ->  for ==> not
+   4:    1  ->  frog ==> toys
+   5:    1  ->  her ==> my
+   6:    1  ->  into ==> for
+   7:    1  ->  meet ==> with
+   8:    1  ->  slabs ==> left
+   9:    1  ->  snack ==> it's
+  10:    1  ->  spoons ==> piece
+  11:    1  ->  the ==> a
+  12:    1  ->  thick ==> 56
+  13:    1  ->  things ==> thing
+  14:    1  ->  wednesday ==> they
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  once
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  a
+   2:    1  ->  5
+   3:    1  ->  also
+   4:    1  ->  can
+   5:    1  ->  need
+   6:    1  ->  scoop
+   7:    1  ->  she
+   8:    1  ->  small
+   9:    1  ->  toy
+  10:    1  ->  we
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  these
+   2:    1  ->  at
+   3:    1  ->  for
+   4:    1  ->  frog
+   5:    1  ->  her
+   6:    1  ->  into
+   7:    1  ->  meet
+   8:    1  ->  slabs
+   9:    1  ->  snack
+  10:    1  ->  spoons
+  11:    1  ->  the
+  12:    1  ->  thick
+  13:    1  ->  things
+  14:    1  ->  wednesday
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  this
+   2:    1  ->  56
+   3:    1  ->  a
+   4:    1  ->  for
+   5:    1  ->  had
+   6:    1  ->  it's
+   7:    1  ->  left
+   8:    1  ->  my
+   9:    1  ->  not
+  10:    1  ->  piece
+  11:    1  ->  they
+  12:    1  ->  thing
+  13:    1  ->  toys
+  14:    1  ->  with
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\n-rea1-m1_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-m1_01)
+Scores: (#C #S #D #I) 163 14 2 3
+REF:  once upon a time there was a girl called cinderella but everyone called her cinders CINDERS lived with her mother and two **** STEPSISTERS called lily and rosa lily and rosa were very unfriendly and they were lazy girls they SPENT all their time buying new clothes and going to parties POOR   CINDERS HAD  to wear all THEIR OLD  hand me downs and she had to do *** the cleaning one day a royal messenger came to announce a ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william lily and **** ROSA thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived CINDERS HAD to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new gowns but their mother said that they had enough gowns so they started shouting at CINDERS find my jewels yelled one find my HAT   HOWLED the other they wanted hairbrushes hairpins and hairspray 
+HYP:  once upon a time there was a girl called cinderella but everyone called her cinders CINDY'S lived with her mother and two STEP SISTERS     called lily and rosa lily and rosa were very unfriendly and they were lazy girls they SPEND all their time buying new clothes and going to parties PERSON DOES    HAVE to wear all THAT  WILL hand me downs and she had to do ALL the cleaning one day a royal messenger came to announce a ball the ball WILL  be held at the royal palace in honour of the queen's only son prince william lily and ROSE I    thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding bells when the evening of the ball arrived ******* *** to help her sisters get ready they were in a bad mood THEY   wanted to buy some new gowns but their mother said that they had enough gowns so they started shouting at CINDY'S find my jewels yelled one find my HEART HOW    the other they wanted hairbrushes hairpins and hairspray 
+Eval:                                                                                     S                                     I    S                                                                                                 S                                                            S      S       S                S     S                                    I                                                                           S                                                                                           I    S                                                                                                                                                          D       D                                                         S                                                                                                                S                                         S     S                                                               
+
+

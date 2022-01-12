@@ -1,0 +1,108 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin46_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =   10.1%   (   7)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  76)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5 ==> smokies
+   2:    1  ->  bob ==> plastic
+   3:    1  ->  frog ==> prob
+   4:    1  ->  her ==> 4k
+   5:    1  ->  spoons ==> sixbones
+   6:    1  ->  thick ==> 12
+   7:    1  ->  wednesday ==> birthday
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  also
+   3:    1  ->  but
+   4:    1  ->  go
+   5:    1  ->  need
+   6:    1  ->  small
+   7:    1  ->  we
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  6
+   2:    1  ->  bags
+   3:    1  ->  for
+   4:    1  ->  peas
+   5:    1  ->  red
+   6:    1  ->  snow
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  5
+   2:    1  ->  bob
+   3:    1  ->  frog
+   4:    1  ->  her
+   5:    1  ->  spoons
+   6:    1  ->  thick
+   7:    1  ->  wednesday
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  12
+   2:    1  ->  4k
+   3:    1  ->  birthday
+   4:    1  ->  plastic
+   5:    1  ->  prob
+   6:    1  ->  sixbones
+   7:    1  ->  smokies
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

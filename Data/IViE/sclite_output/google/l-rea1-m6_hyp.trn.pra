@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\l-rea1-m6_hyp.trn
+
+Speakers: 
+    0:  l-r
+
+Speaker sentences   0:  l-r   #utts: 1
+id: (l-rea1-m6_01)
+Scores: (#C #S #D #I) 103 41 36 2
+REF:  once upon a time there was a girl called cinderella but everyone called HER CINDERS cinders LIVED with HER mother and two stepsisters called lily and ROSA LILY  AND     ROSA were very unfriendly and THEY WERE lazy girls THEY SPENT all THEIR time BUYING new clothes and going to parties POOR CINDERS had to wear all their old HAND ME   downs and SHE HAD   to do the cleaning one day A ROYAL  messenger came to ANNOUNCE A BALL THE BALL WOULD BE  HELD AT  the royal palace in honour of the queen's ONLY son PRIN PRINCE WILLIAM LILY AND ROSA THOUGHT THIS WAS DIVINE prince william was gorgeous AND HE WAS looking for a BRIDE THEY DREAMED OF WEDDING BELLS when the evening of the ball arrived cinders HAD TO HELP HER   SISTERS     get ready THEY WERE  in a bad mood THEY'D WANTED to buy some new GOWNS BUT THEIR mother said THAT they had enough GOWNS so they STARTED SHOUTING AT    cinders find MY JEWELS YELLED ONE     FIND      my HAT   HOWLED the other they wanted **** ******* HAIRBRUSHES 
+HYP:  once upon a time there was a girl called cinderella but everyone called ACE ENDERS  cinders LEFT  with THE mother and two stepsisters called lily and **** ROSIE WILLIAM ROSE were very unfriendly and HAVE A    lazy girls IT'S NOT   all THE   time BY     new clothes and going to parties FOR  SINS    had to wear all their old HOW  MANY downs and *** SHOUT to do the cleaning one day * AROUND messenger came to ******** * **** *** **** AN    OUT OF   ALL the royal palace in honour of the queen's MY   son **** ****** ******* **** *** **** ******* **** *** ****** prince william was gorgeous *** ** *** looking for a ***** **** ******* ** ******* DREAM when the evening of the ball arrived cinders *** ** **** HOTEL PERSISTENCE get ready **** THERE in a bad mood THEY   WANT   to buy some new GAMES FOR THE   mother said **** they had enough GUNS  so they ******* ******** START cinders find ** ****** ****** MODULES YDFIFTEEN my HEART HELP   the other they wanted HAIR BRUSHES HAIR        
+Eval:                                                                         S   S               S          S                                              D    S     S       S                             S    S               S    S         S          S                                       S    S                                 S    S              D   S                                D S                        D        D D    D   D    S     S   S    S                                             S        D    D      D       D    D   D    D       D    D   D                                  D   D  D                 D     D    D       D  D       S                                                  D   D  D    S     S                     D    S                   S      S                      S     S   S                 D                    S             D       D        S                  D  D      D      S       S            S     S                            I    I       S           
+
+>> REF:  HAIRPINS and hairspray 
+>> HYP:  PINS     and hairspray 
+>> Eval: S                      
+
+

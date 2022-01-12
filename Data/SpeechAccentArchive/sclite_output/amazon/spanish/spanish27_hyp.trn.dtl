@@ -1,0 +1,122 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish27_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  and ==> on
+   2:    1  ->  a ==> us
+   3:    1  ->  bags ==> backs
+   4:    1  ->  bob ==> both
+   5:    1  ->  five ==> piece
+   6:    1  ->  fresh ==> bones
+   7:    1  ->  her ==> for
+   8:    1  ->  of ==> ofthe
+   9:    1  ->  peas ==> fresno
+  10:    1  ->  scoop ==> cook
+  11:    1  ->  slabs ==> laps
+  12:    1  ->  small ==> more
+  13:    1  ->  snow ==> off
+  14:    1  ->  thick ==> fifty-six
+  15:    1  ->  to ==> herto
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  a
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  her
+   2:    1  ->  of
+   3:    1  ->  spoons
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  and
+   2:    1  ->  a
+   3:    1  ->  bags
+   4:    1  ->  bob
+   5:    1  ->  five
+   6:    1  ->  fresh
+   7:    1  ->  her
+   8:    1  ->  of
+   9:    1  ->  peas
+  10:    1  ->  scoop
+  11:    1  ->  slabs
+  12:    1  ->  small
+  13:    1  ->  snow
+  14:    1  ->  thick
+  15:    1  ->  to
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  on
+   2:    1  ->  backs
+   3:    1  ->  bones
+   4:    1  ->  both
+   5:    1  ->  cook
+   6:    1  ->  fifty-six
+   7:    1  ->  for
+   8:    1  ->  fresno
+   9:    1  ->  herto
+  10:    1  ->  laps
+  11:    1  ->  more
+  12:    1  ->  off
+  13:    1  ->  ofthe
+  14:    1  ->  piece
+  15:    1  ->  us
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,105 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: portuguese\portuguese27_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5 ==> peace
+   2:    1  ->  a ==> the
+   3:    1  ->  peas ==> no
+   4:    1  ->  scoop ==> skip
+   5:    1  ->  snack ==> as
+   6:    1  ->  snow ==> is
+   7:    1  ->  spoons ==> pounds
+   8:    1  ->  these ==> this
+   9:    1  ->  thick ==> 56
+  10:    1  ->  will ==> we'll
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  we
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  peas
+   4:    1  ->  scoop
+   5:    1  ->  snack
+   6:    1  ->  snow
+   7:    1  ->  spoons
+   8:    1  ->  these
+   9:    1  ->  thick
+  10:    1  ->  will
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  56
+   2:    1  ->  as
+   3:    1  ->  is
+   4:    1  ->  no
+   5:    1  ->  peace
+   6:    1  ->  pounds
+   7:    1  ->  skip
+   8:    1  ->  the
+   9:    1  ->  this
+  10:    1  ->  we'll
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,98 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french53_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.5%   (  10)
+
+Percent Correct           =   87.0%   (  60)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   85.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  ask ==> as
+   2:    1  ->  bob ==> bub
+   3:    1  ->  call ==> stepped
+   4:    1  ->  her ==> carol
+   5:    1  ->  stella ==> up
+   6:    1  ->  toy ==> victory
+   7:    1  ->  we ==> way
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  curse
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  big
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  ask
+   2:    1  ->  bob
+   3:    1  ->  call
+   4:    1  ->  her
+   5:    1  ->  stella
+   6:    1  ->  toy
+   7:    1  ->  we
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  as
+   2:    1  ->  bub
+   3:    1  ->  carol
+   4:    1  ->  stepped
+   5:    1  ->  up
+   6:    1  ->  victory
+   7:    1  ->  way
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

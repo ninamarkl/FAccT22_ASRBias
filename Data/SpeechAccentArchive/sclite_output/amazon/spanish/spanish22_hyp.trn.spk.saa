@@ -1,0 +1,128 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish22_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   29.0%   (  20)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  and ==> on
+   2:    1  ->  a ==> i
+   3:    1  ->  a ==> on
+   4:    1  ->  ask ==> was
+   5:    1  ->  big ==> avec
+   6:    1  ->  five ==> left
+   7:    1  ->  fresh ==> no
+   8:    1  ->  frog ==> frogs
+   9:    1  ->  her ==> here
+  10:    1  ->  of ==> off
+  11:    1  ->  of ==> rests
+  12:    1  ->  peas ==> fifty-six
+  13:    1  ->  slabs ==> blew
+  14:    1  ->  snack ==> snuck
+  15:    1  ->  snow ==> peace
+  16:    1  ->  spoons ==> off
+  17:    1  ->  stella ==> estella
+  18:    1  ->  thick ==> off
+  19:    1  ->  toy ==> toi
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  teaspoons
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  of
+   4:    1  ->  ask
+   5:    1  ->  big
+   6:    1  ->  five
+   7:    1  ->  fresh
+   8:    1  ->  frog
+   9:    1  ->  her
+  10:    1  ->  peas
+  11:    1  ->  slabs
+  12:    1  ->  snack
+  13:    1  ->  snow
+  14:    1  ->  spoons
+  15:    1  ->  stella
+  16:    1  ->  thick
+  17:    1  ->  toy
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  off
+   2:    3  ->  on
+   3:    1  ->  avec
+   4:    1  ->  blew
+   5:    1  ->  estella
+   6:    1  ->  fifty-six
+   7:    1  ->  frogs
+   8:    1  ->  here
+   9:    1  ->  i
+  10:    1  ->  left
+  11:    1  ->  no
+  12:    1  ->  peace
+  13:    1  ->  rests
+  14:    1  ->  snuck
+  15:    1  ->  toi
+  16:    1  ->  was
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

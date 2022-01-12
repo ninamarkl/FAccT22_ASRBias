@@ -1,0 +1,106 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\italian\italian30_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  at ==> when
+   3:    1  ->  five ==> fresno
+   4:    1  ->  of ==> labs
+   5:    1  ->  peas ==> off
+   6:    1  ->  slabs ==> fifty-six
+   7:    1  ->  snow ==> polls
+   8:    1  ->  thick ==> piece
+   9:    1  ->  three ==> tree
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  to
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  fresh
+   2:    1  ->  of
+   3:    1  ->  spoons
+   4:    1  ->  wednesday
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  and
+   2:    1  ->  at
+   3:    1  ->  five
+   4:    1  ->  of
+   5:    1  ->  peas
+   6:    1  ->  slabs
+   7:    1  ->  snow
+   8:    1  ->  thick
+   9:    1  ->  three
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  fifty-six
+   2:    1  ->  fresno
+   3:    1  ->  labs
+   4:    1  ->  off
+   5:    1  ->  on
+   6:    1  ->  piece
+   7:    1  ->  polls
+   8:    1  ->  tree
+   9:    1  ->  when
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

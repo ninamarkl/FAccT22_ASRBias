@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish50_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  these ==> the
+   2:    1  ->  a ==> it's
+   3:    1  ->  ask ==> as
+   4:    1  ->  at ==> they
+   5:    1  ->  bags ==> backs
+   6:    1  ->  call ==> go
+   7:    1  ->  five ==> peace
+   8:    1  ->  of ==> was
+   9:    1  ->  peas ==> no
+  10:    1  ->  plastic ==> his
+  11:    1  ->  slabs ==> laugh
+  12:    1  ->  snack ==> not
+  13:    1  ->  snake ==> neck
+  14:    1  ->  the ==> are
+  15:    1  ->  thick ==> fifty-six
+  16:    1  ->  train ==> training
+  17:    1  ->  wednesday ==> once
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  plus
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  snow
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  these
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  at
+   5:    1  ->  bags
+   6:    1  ->  call
+   7:    1  ->  five
+   8:    1  ->  of
+   9:    1  ->  peas
+  10:    1  ->  plastic
+  11:    1  ->  slabs
+  12:    1  ->  snack
+  13:    1  ->  snake
+  14:    1  ->  the
+  15:    1  ->  thick
+  16:    1  ->  train
+  17:    1  ->  wednesday
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  the
+   2:    1  ->  are
+   3:    1  ->  as
+   4:    1  ->  backs
+   5:    1  ->  fifty-six
+   6:    1  ->  go
+   7:    1  ->  his
+   8:    1  ->  it's
+   9:    1  ->  laugh
+  10:    1  ->  neck
+  11:    1  ->  no
+  12:    1  ->  not
+  13:    1  ->  once
+  14:    1  ->  peace
+  15:    1  ->  they
+  16:    1  ->  training
+  17:    1  ->  was
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

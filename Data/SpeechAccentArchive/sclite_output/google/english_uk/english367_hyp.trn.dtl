@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: english_uk\english367_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   62.3%   (  43)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   15.9%   (  11)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  59)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  5 ==> snoopy's
+   2:    1  ->  a ==> the
+   3:    1  ->  also ==> wilson
+   4:    1  ->  brother ==> a
+   5:    1  ->  frog ==> dog
+   6:    1  ->  from ==> a
+   7:    1  ->  her ==> to
+   8:    1  ->  her ==> with
+   9:    1  ->  meet ==> me
+  10:    1  ->  need ==> in
+  11:    1  ->  peas ==> breath
+  12:    1  ->  store ==> or
+  13:    1  ->  the ==> chemist
+  14:    1  ->  thick ==> 56
+  15:    1  ->  will ==> we'll
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  head
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  her
+   2:    2  ->  we
+   3:    1  ->  bring
+   4:    1  ->  can
+   5:    1  ->  fresh
+   6:    1  ->  scoop
+   7:    1  ->  she
+   8:    1  ->  snow
+   9:    1  ->  to
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  her
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  also
+   5:    1  ->  brother
+   6:    1  ->  frog
+   7:    1  ->  from
+   8:    1  ->  meet
+   9:    1  ->  need
+  10:    1  ->  peas
+  11:    1  ->  store
+  12:    1  ->  the
+  13:    1  ->  thick
+  14:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  a
+   2:    1  ->  56
+   3:    1  ->  breath
+   4:    1  ->  chemist
+   5:    1  ->  dog
+   6:    1  ->  in
+   7:    1  ->  me
+   8:    1  ->  or
+   9:    1  ->  snoopy's
+  10:    1  ->  the
+  11:    1  ->  to
+  12:    1  ->  we'll
+  13:    1  ->  wilson
+  14:    1  ->  with
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

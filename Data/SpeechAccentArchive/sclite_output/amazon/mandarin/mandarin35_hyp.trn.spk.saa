@@ -1,0 +1,119 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin35_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a ==> us
+   2:    1  ->  call ==> cause
+   3:    1  ->  five ==> found
+   4:    1  ->  fresh ==> rush
+   5:    1  ->  kids ==> case
+   6:    1  ->  of ==> off
+   7:    1  ->  slabs ==> lifts
+   8:    1  ->  snack ==> neck
+   9:    1  ->  spoons ==> points
+  10:    1  ->  stella ==> della
+  11:    1  ->  thick ==> six
+  12:    1  ->  toy ==> talk
+  13:    1  ->  we ==> away
+  14:    1  ->  will ==> we'll
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  frog
+   2:    1  ->  her
+   3:    1  ->  with
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a
+   2:    1  ->  call
+   3:    1  ->  five
+   4:    1  ->  fresh
+   5:    1  ->  kids
+   6:    1  ->  of
+   7:    1  ->  slabs
+   8:    1  ->  snack
+   9:    1  ->  spoons
+  10:    1  ->  stella
+  11:    1  ->  thick
+  12:    1  ->  toy
+  13:    1  ->  we
+  14:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  away
+   2:    1  ->  case
+   3:    1  ->  cause
+   4:    1  ->  della
+   5:    1  ->  found
+   6:    1  ->  lifts
+   7:    1  ->  neck
+   8:    1  ->  off
+   9:    1  ->  points
+  10:    1  ->  rush
+  11:    1  ->  six
+  12:    1  ->  talk
+  13:    1  ->  us
+  14:    1  ->  we'll
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

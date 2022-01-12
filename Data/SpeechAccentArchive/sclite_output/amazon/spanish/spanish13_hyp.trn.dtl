@@ -1,0 +1,92 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish13_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   92.8%   (  64)
+
+Percent Substitution      =    5.8%   (   4)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    8.7%   (   6)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  74)
+Aligned words             =           (  75)
+
+CONFUSION PAIRS                  Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a ==> it's
+   2:    1  ->  at ==> on
+   3:    1  ->  bob ==> bub
+   4:    1  ->  snack ==> neck
+     -------
+         4
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  from
+   2:    1  ->  go
+   3:    1  ->  her
+   4:    1  ->  we
+   5:    1  ->  will
+   6:    1  ->  with
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  at
+   3:    1  ->  bob
+   4:    1  ->  snack
+     -------
+         4
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  bub
+   2:    1  ->  it's
+   3:    1  ->  neck
+   4:    1  ->  on
+     -------
+         4
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

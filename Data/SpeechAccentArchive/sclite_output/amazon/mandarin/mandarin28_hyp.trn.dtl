@@ -1,0 +1,119 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin28_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  ask ==> asked
+   3:    1  ->  bags ==> backs
+   4:    1  ->  call ==> corps
+   5:    1  ->  cheese ==> approaches
+   6:    1  ->  meet ==> me
+   7:    1  ->  peas ==> bees
+   8:    1  ->  please ==> police
+   9:    1  ->  red ==> rare
+  10:    1  ->  scoop ==> scope
+  11:    1  ->  slabs ==> slaps
+  12:    1  ->  stella ==> stellar
+  13:    1  ->  these ==> this
+  14:    1  ->  things ==> distance
+  15:    1  ->  things ==> thing's
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  blue
+   2:    1  ->  these
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  things
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  bags
+   5:    1  ->  call
+   6:    1  ->  cheese
+   7:    1  ->  meet
+   8:    1  ->  peas
+   9:    1  ->  please
+  10:    1  ->  red
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  stella
+  14:    1  ->  these
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  approaches
+   2:    1  ->  asked
+   3:    1  ->  backs
+   4:    1  ->  bees
+   5:    1  ->  corps
+   6:    1  ->  distance
+   7:    1  ->  in
+   8:    1  ->  me
+   9:    1  ->  police
+  10:    1  ->  rare
+  11:    1  ->  scope
+  12:    1  ->  slaps
+  13:    1  ->  stellar
+  14:    1  ->  thing's
+  15:    1  ->  this
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

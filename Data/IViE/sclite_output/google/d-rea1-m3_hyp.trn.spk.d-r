@@ -1,0 +1,177 @@
+SCORING FOR SPEAKER: d-r
+     of google\d-rea1-m3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   28.2%   (  51)
+
+Percent Correct           =   72.9%   ( 132)
+
+Percent Substitution      =   17.7%   (  32)
+Percent Deletions         =    9.4%   (  17)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   71.8%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 166)
+Aligned words             =           ( 183)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  cinders ==> sanders
+   2:    1  ->  and ==> lillian
+   3:    1  ->  arrived ==> arrive
+   4:    1  ->  ball ==> about
+   5:    1  ->  buying ==> by
+   6:    1  ->  called ==> whatever
+   7:    1  ->  cinders ==> centres
+   8:    1  ->  dreamed ==> dream
+   9:    1  ->  gowns ==> games
+  10:    1  ->  gowns ==> girls
+  11:    1  ->  hairbrushes ==> hair
+  12:    1  ->  hairpins ==> brushes
+  13:    1  ->  he ==> you
+  14:    1  ->  her ==> colours
+  15:    1  ->  howled ==> heart
+  16:    1  ->  jewels ==> the
+  17:    1  ->  lily ==> rosie
+  18:    1  ->  lived ==> live
+  19:    1  ->  my ==> modules
+  20:    1  ->  of ==> evenings
+  21:    1  ->  poor ==> for
+  22:    1  ->  rosa ==> rose
+  23:    1  ->  sisters ==> sister's
+  24:    1  ->  stepsisters ==> is
+  25:    1  ->  the ==> healthy
+  26:    1  ->  their ==> the
+  27:    1  ->  they'd ==> they
+  28:    1  ->  were ==> are
+  29:    1  ->  were ==> there
+  30:    1  ->  yelled ==> old
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  sister
+   2:    1  ->  step
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  a
+   2:    2  ->  rosa
+   3:    1  ->  and
+   4:    1  ->  but
+   5:    1  ->  divine
+   6:    1  ->  evening
+   7:    1  ->  everyone
+   8:    1  ->  hat
+   9:    1  ->  lily
+  10:    1  ->  prince
+  11:    1  ->  that
+  12:    1  ->  they
+  13:    1  ->  this
+  14:    1  ->  thought
+  15:    1  ->  was
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    4  ->  cinders
+   2:    2  ->  gowns
+   3:    2  ->  were
+   4:    1  ->  and
+   5:    1  ->  arrived
+   6:    1  ->  ball
+   7:    1  ->  buying
+   8:    1  ->  called
+   9:    1  ->  dreamed
+  10:    1  ->  hairbrushes
+  11:    1  ->  hairpins
+  12:    1  ->  he
+  13:    1  ->  her
+  14:    1  ->  howled
+  15:    1  ->  jewels
+  16:    1  ->  lily
+  17:    1  ->  lived
+  18:    1  ->  my
+  19:    1  ->  of
+  20:    1  ->  poor
+  21:    1  ->  rosa
+  22:    1  ->  sisters
+  23:    1  ->  stepsisters
+  24:    1  ->  the
+  25:    1  ->  their
+  26:    1  ->  they'd
+  27:    1  ->  yelled
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  sanders
+   2:    2  ->  the
+   3:    1  ->  about
+   4:    1  ->  are
+   5:    1  ->  arrive
+   6:    1  ->  brushes
+   7:    1  ->  by
+   8:    1  ->  centres
+   9:    1  ->  colours
+  10:    1  ->  dream
+  11:    1  ->  evenings
+  12:    1  ->  for
+  13:    1  ->  games
+  14:    1  ->  girls
+  15:    1  ->  hair
+  16:    1  ->  healthy
+  17:    1  ->  heart
+  18:    1  ->  is
+  19:    1  ->  lillian
+  20:    1  ->  live
+  21:    1  ->  modules
+  22:    1  ->  old
+  23:    1  ->  rose
+  24:    1  ->  rosie
+  25:    1  ->  sister's
+  26:    1  ->  there
+  27:    1  ->  they
+  28:    1  ->  whatever
+  29:    1  ->  you
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,103 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: italian\italian12_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   (  14)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5 ==> please
+   2:    1  ->  a ==> the
+   3:    1  ->  at ==> when's
+   4:    1  ->  frog ==> frogs
+   5:    1  ->  peas ==> milk
+   6:    1  ->  spoons ==> pounds
+   7:    1  ->  thick ==> 56
+   8:    1  ->  wednesday ==> metre
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  toy
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  bob
+   2:    1  ->  brother
+   3:    1  ->  her
+   4:    1  ->  meet
+   5:    1  ->  snow
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  frog
+   5:    1  ->  peas
+   6:    1  ->  spoons
+   7:    1  ->  thick
+   8:    1  ->  wednesday
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  56
+   2:    1  ->  frogs
+   3:    1  ->  metre
+   4:    1  ->  milk
+   5:    1  ->  please
+   6:    1  ->  pounds
+   7:    1  ->  the
+   8:    1  ->  when's
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

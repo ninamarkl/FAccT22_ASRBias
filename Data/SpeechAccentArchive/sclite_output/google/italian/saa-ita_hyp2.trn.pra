@@ -1,0 +1,209 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   italian\saa-ita_hyp2.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 33
+id: (saa_1)
+Scores: (#C #S #D #I) 48 14 7 2
+REF:  please call stella ASK HER    to bring these things with her from the store 6 SPOONS of fresh snow peas 5 THICK SLABS OF       blue cheese AND maybe a snack for HER brother BOB WE     ALSO need a small plastic snake AND a BIG TOY      frog for the kids she can SCOOP these things into 3 red bags and we will go ** *** MEET    HER     wednesday AT the TRAIN STATION 
+HYP:  please call stella *** ESCORT to bring these things with her from the store 6 TONS   of fresh snow peas * ***** 56    LAVENDER blue cheese IN  maybe a snack for A   brother *** CALLED PR2  need a small plastic snake IN  a *** VICTORIA frog for the kids she can SKIP  these things into 3 red bags and we will go TO THE WEATHER WEATHER wednesday ** the ***** 28TH    
+Eval:                    D   S                                                      S                         D D     S     S                    S                     S           D   S      S                               S     D   S                                  S                                                 I  I   S       S                 D      D     S       
+
+id: (saa_2)
+Scores: (#C #S #D #I) 54 9 6 0
+REF:  please call stella ask her to bring THESE THINGS WITH  HER        from the store 6 spoons of fresh SNOW peas 5 THICK SLABS of blue cheese and maybe a snack for HER brother bob we also NEED a small plastic snake and a big toy FROG for the kids she can scoop these things into 3 RED bags and we will go MEET HER    wednesday at the train station 
+HYP:  please call stella ask her to bring ***** THIS   THING SWEETHEART from the store 6 spoons of fresh NO   peas * 56    LAPS  of blue cheese and maybe a snack for *** brother bob we also **** a small plastic snake and a big toy PROP for the kids she can scoop these things into * 3RD bags and we will go **** MATTER wednesday at the train station 
+Eval:                                     D     S      S     S                                           S         D S     S                                          D                       D                                        S                                                 D S                       D    S                                     
+
+id: (saa_3)
+Scores: (#C #S #D #I) 56 8 5 1
+REF:  please call stella ask her to bring these things with her from the store 6 SPOONS of fresh SNOW PEAS 5      THICK slabs of blue cheese and maybe a snack for her BROTHER BOB we also need a small plastic snake and A   big *** toy FROG  for the kids she can scoop these things into 3 red bags and we will go MEET HER WEDNESDAY AT     the train station 
+HYP:  please call stella ask her to bring these things with her from the store 6 POUNDS of fresh **** MILK PLEASE 56    slabs of blue cheese and maybe a snack for her ******* *** we also need a small plastic snake and THE big TOY toy FROGS for the kids she can scoop these things into 3 red bags and we will go **** *** METRE     WHEN'S the train station 
+Eval:                                                                            S               D    S    S      S                                                    D       D                                          S       I       S                                                                            D    D   S         S                        
+
+id: (saa_4)
+Scores: (#C #S #D #I) 35 14 20 0
+REF:  please call stella ASK HER to bring these things with HER FROM THE STORE   6 SPOONS of fresh SNOW PEAS 5 THICK   SLABS OF   BLUE CHEESE   and maybe A SNACK FOR HER BROTHER BOB WE ALSO NEED A         small plastic snake AND a big TOY  frog for the kids SHE CAN SCOOP these things into 3 RED      bags AND WE will go meet her wednesday at the train station 
+HYP:  please call stella *** *** to bring these things with *** A    FAN DISTORT 6 POUNDS of fresh **** **** * NAPPIES 56    LIFE SO   BROOCHES and maybe * ***** *** *** ******* *** ** **** NEXT AVAILABLE small plastic snake IN  a big BLUE frog for the kids *** *** ***** these things into * FRILLARD bags *** ** will go meet her wednesday at the train station 
+Eval:                    D   D                              D   S    S   S         S               D    D    D S       S     S    S    S                  D D     D   D   D       D   D  D    S    S                             S         S                      D   D   D                       D S             D   D                                                  
+
+id: (saa_5)
+Scores: (#C #S #D #I) 46 18 5 1
+REF:  please call stella ask her to bring these things with HER   from the store 6 SPOONS of fresh snow PEAS 5   THICK SLABS of BLUE CHEESE AND    MAYBE A  SNACK for HER brother bob WE    also need a small plastic snake AND a big toy frog FOR THE KIDS she CAN   SCOOP THESE things into * 3 red bags and we will go MEET HER  wednesday at the train station 
+HYP:  please call stella ask her to bring these things with THEIR from the store 6 POUNDS of fresh snow **** PS5 6     LAPS  of **** LOW    CHAIRS IN    MY SNAKE for A   brother bob WE'RE also need a small plastic snake IN  a big toy frog *** *** BUT  she CAN'T COPE  WITH  things into A 3 red bags and we will go **** META wednesday at the train station 
+Eval:                                                       S                      S                    D    S   S     S        D    S      S      S     S  S         S               S                                     S                  D   D   S        S     S     S                 I                           D    S                                   
+
+id: (saa_6)
+Scores: (#C #S #D #I) 64 3 2 0
+REF:  please call stella ask her to bring THESE things with her from the store 6 SPOONS of fresh snow peas 5 THICK slabs of blue cheese and maybe a snack for her brother bob we also need a small plastic snake and a big toy frog for the kids she can scoop these things into 3 red bags and we will go MEET HER   wednesday at the train station 
+HYP:  please call stella ask her to bring THIS  things with her from the store 6 POUNDS of fresh snow peas 5 ***** slabs of blue cheese and maybe a snack for her brother bob we also need a small plastic snake and a big toy frog for the kids she can scoop these things into 3 red bags and we will go **** METRE wednesday at the train station 
+Eval:                                     S                                      S                           D                                                                                                                                                                                             D    S                                    
+
+id: (saa_7)
+Scores: (#C #S #D #I) 47 14 8 1
+REF:  please call stella ASK HER to bring THESE THINGS with her from the store 6 spoons of FRESH SNOW PEAS 5 THICK     SLABS  OF  blue cheese and maybe A  SNACK for her brother bob we also NEED A  SMALL PLASTIC SNAKE AND a big toy frog for the kids she can scoop **** THESE things into 3 red bags and we will go MEET HER   wednesday at the train station 
+HYP:  please call stella *** *** to bring THIS  THING  with her from the store 6 spoons of ***** **** **** * FRESHENER PLEASE 560 blue cheese and maybe IS NEXT  for her brother bob we also **** IS MORE  PLUSES  MAKE  ON  a big toy frog for the kids she can scoop DOES THIS  things into 3 red bags and we will go **** METRE wednesday at the train station 
+Eval:                    D   D            S     S                                          D     D    D    D S         S      S                         S  S                                 D    S  S     S       S     S                                             I    S                                           D    S                                    
+
+id: (saa_8)
+Scores: (#C #S #D #I) 46 17 6 2
+REF:  please call stella ask her to bring THESE THINGS WITH HER     from the store 6   SPOONS of fresh ** SNOW PEAS  5 THICK   SLABS of * blue cheese and maybe A  SNACK for her brother BOB we also need a small plastic snake AND a big toy frog for THE KIDS SHE CAN SCOOP THESE THINGS into 3 red bags and we will go MEET HER wednesday at the train station 
+HYP:  please call stella ask her to bring THIS  THING  SO   WITHOUT from the store SIX POINTS of fresh IS NO   PEACE 5 TICKETS LEFT  of A blue cheese and maybe IS NICE  for her brother BUT we also need a small plastic snake IN  a big toy frog for *** **** *** *** A     DICK  HEADS  into 3 red bags and we will go **** *** wednesday at the train station 
+Eval:                                     S     S      S    S                      S   S               I  S    S       S       S        I                       S  S                     S                                      S                      D   D    D   D   S     S     S                                     D    D                                  
+
+id: (saa_9)
+Scores: (#C #S #D #I) 39 19 11 0
+REF:  please CALL STELLA ASK HER TO     BRING THESE things with HER FROM THE STORE        6 SPOONS of FRESH SNOW PEAS   5   THICK slabs of blue cheese and maybe A   SNACK for HER brother BOB we also need a small plastic snake and A BIG TOY     FROG for the kids she can SCOOP THESE things into 3 red bags and we will go MEET HER wednesday AT the train station 
+HYP:  please **** ****** *** GO  STEADY RAIN  THIS  things with *** **** OUR THUNDERSTORE 6 POUNDS of ***** **** FRESNO PS5 6     slabs of blue cheese and maybe HIS KNACK for MY  brother BUT we also need a small plastic snake and * *** WEBSITE FOR  for the kids she can SCOOB THIS  things into 3 red bags and we will go **** ME  wednesday ** the train station 
+Eval:        D    D      D   S   S      S     S                 D   D    S   S              S         D     D    S      S   S                                    S   S         S           S                                          D D   S       S                         S     S                                           D    S             D                    
+
+id: (saa_10)
+Scores: (#C #S #D #I) 46 13 10 0
+REF:  please call STELLA ASK  HER   to bring THESE THINGS with HER from the STORE 6 SPOONS of FRESH SNOW PEAS 5 THICK     SLABS OF    blue cheese and maybe A SNACK FOR her brother BOB we also need a small plastic snake and a big toy frog for the kids she can SCOOP these things INTO 3      red bags and we will go meet her wednesday at the train station 
+HYP:  please call ****** SAMA OSCAR to bring THIS  THING  with OUR from the ***** * SORT   of ***** **** **** * FRESHENER BS56  LOVES blue cheese and maybe * ***** *** her brother BUT we also need a small plastic snake and a big toy frog for the kids she can COOK  these things IN   SURREY red bags and we will go meet her wednesday at the train station 
+Eval:             D      S    S              S     S           S            D     D S         D     D    D    D S         S     S                           D D     D               S                                                                              S                  S    S                                                                      
+
+id: (saa_11)
+Scores: (#C #S #D #I) 48 17 4 3
+REF:  please call stella ask her to bring **** ***** THESE things WITH her from the store 6     SPOONS of fresh SNOW PEAS 5     THICK SLABS of blue cheese AND maybe A  SNACK for her brother BOB    we also need a small plastic snake and a big toy frog for THE kids she can **** SCOOP these things into 3 RED   BAGS AND  we will go MEET HER wednesday at the train station 
+HYP:  please call stella ask her to bring THIS THING THIS  things TO   her from the store SIXTH FORMS  of fresh IS   NO   PEACE 56    LOTS  of blue cheese *** maybe AS NICK  for her brother BARBER we also need a small plastic snake and a big toy frog for A   kids she can COPE WITH  these things into * THREE BEDS THEN we will go **** *** wednesday at the train station 
+Eval:                                     I    I     S            S                       S     S               S    S    S     S     S                    D         S  S                     S                                                                S                I    S                       D S     S    S               D    D                                  
+
+id: (saa_12)
+Scores: (#C #S #D #I) 54 10 5 1
+REF:  please call stella ask her to bring THESE things with her from the store 6 SPOONS of fresh snow peas 5 THICK SLABS OF     blue cheese and maybe a snack for HER BROTHER BOB we also need a small plastic snake and a big toy FROG for the kids she can SCOOP THESE things **** INTO 3 red bags and WE WILL  go meet her wednesday at the train station 
+HYP:  please call stella ask her to bring THE   things with her from the store 6 SPOON  of fresh snow peas * ***** 56    LAPTOP blue cheese and maybe a snack for *** A       BRA we also need a small plastic snake and a big toy **** for the kids she can ASK   THIS  things SEEM TO   3 red bags and ** WE'LL go meet her wednesday at the train station 
+Eval:                                     S                                      S                         D D     S     S                                        D   S       S                                                    D                         S     S            I    S                   D  S                                                
+
+id: (saa_13)
+Scores: (#C #S #D #I) 57 7 5 0
+REF:  please call stella ask her to bring THESE THINGS WITH  HER        from the store 6 spoons of fresh snow peas 5 THICK slabs of blue cheese and maybe A SNACK for HER brother bob we also need a small plastic snake and A   big toy frog for the kids she can scoop these things into 3 red bags and we will go MEET HER   wednesday at the train station 
+HYP:  please call stella ask her to bring ***** THIS   THING SWEETHEART from the store 6 spoons of fresh snow peas * 56    slabs of blue cheese and maybe * ASNAC for *** brother bob we also need a small plastic snake and THE big toy frog for the kids she can scoop these things into 3 red bags and we will go **** METRE wednesday at the train station 
+Eval:                                     D     S      S     S                                                     D S                                    D S         D                                                      S                                                                                       D    S                                    
+
+id: (saa_14)
+Scores: (#C #S #D #I) 55 11 3 0
+REF:  please call stella ask her to bring these things with her from the store 6     SPOONS of FRESH SNOW     peas 5 THICK slabs of blue cheese and maybe a snack for her brother BOB we also need a small plastic snake and a big toy frog for the kids she can SCOOP THESE things into 3     RED   bags and we WILL GO   MEET  HER wednesday at the train station 
+HYP:  please call stella ask her to bring these things with her from the store SIXTH FORMS  of ***** PERSONAL peas 5 ***** slabs of blue cheese and maybe a snack for her brother BUT we also need a small plastic snake and a big toy frog for the kids she can SKIP  THIS  things into THREE BREAD bags and we **** WERE GOING OR  wednesday at the train station 
+Eval:                                                                          S     S         D     S               D                                                            S                                                                              S     S                 S     S                 D    S    S     S                                  
+
+id: (saa_15)
+Scores: (#C #S #D #I) 57 9 3 0
+REF:  please call stella ask her to bring these things with her from the store 6 SPOONS of fresh snow peas 5 THICK SLABS of blue cheese and maybe A    SNACK for her brother bob we also NEED a small plastic snake AND a big toy FROG  for the kids she can SCOOP these things into 3 red bags and we will go MEET HER    wednesday at the train station 
+HYP:  please call stella ask her to bring these things with her from the store 6 POUNDS of fresh snow peas * 56    LIVES of blue cheese and maybe IT'S NOT   for her brother bob we also **** a small plastic snake IN  a big toy FROGS for the kids she can SCREW these things into 3 red bags and we will go **** MIRROR wednesday at the train station 
+Eval:                                                                            S                         D S     S                              S    S                                 D                          S             S                          S                                                 D    S                                     
+
+id: (saa_16)
+Scores: (#C #S #D #I) 47 12 10 1
+REF:  please call stella ask her to bring THESE things with her from the store 6     SPOONS of fresh SNOW PEAS 5   THICK slabs of blue cheese and maybe a snack for her brother BOB we also need A SMALL plastic snake and A BIG TOY      frog for the kids SHE CAN SCOOP THESE things into 3 red bags and WE will **** GO MEET HER WEDNESDAY at the train station 
+HYP:  please call stella ask her to bring THOSE things with her from the store SIXTH FORMS  of fresh **** **** NOW PS256 slabs of blue cheese and maybe a snack for her brother BUT we also need * ***** plastic snake and * *** VICTORIA frog for the kids *** *** ***** THIS  things into 3 red bags and ** will GIVE ME TO   WET STAY      at the train station 
+Eval:                                     S                                    S     S               D    D    S   S                                                            S                D D                       D D   S                          D   D   D     S                                D       I    S  S    S   S                              
+
+id: (saa_17)
+Scores: (#C #S #D #I) 55 7 7 0
+REF:  please call stella ASK HER TO bring these things with her from the store 6     SPOONS of fresh snow peas 5 THICK SLABS OF  blue cheese and maybe a snack for her brother bob we also need a small PLASTIC snake AND A   big toy frog for the kids she can scoop these things into 3 red bags and we will go MEET HER   wednesday at the train station 
+HYP:  please call stella *** *** ** bring these things with her from the store SIXTH FORMS  of fresh snow peas * ***** 565   THE blue cheese and maybe a snack for her brother bob we also need a small ******* snake IN  THE big toy frog for the kids she can scoop these things into 3 red bags and we will go **** METRE wednesday at the train station 
+Eval:                    D   D   D                                             S     S                         D D     S     S                                                                          D             S   S                                                                                       D    S                                    
+
+id: (saa_18)
+Scores: (#C #S #D #I) 50 16 3 0
+REF:  please call stella ask her to bring THESE things with HER from the store 6 SPOONS of fresh snow peas 5 THICK SLABS of blue cheese and maybe A   SNACK for HER brother bob WE ALSO   need a small plastic snake and A   big toy FROG  for the kids she can SCOOP THESE things into 3 RED bags and we will go MEET HER wednesday at the train station 
+HYP:  please call stella ask her to bring THIS  things with AIR from the store 6 POUNDS of fresh snow peas * 56    LOADS of blue cheese and maybe HIS NECK  for A   brother bob ** WILSON need a small plastic snake and THE big toy FROGS for the kids she can SKIP  THIS  things into * 3RD bags and we will go ME   THE wednesday at the train station 
+Eval:                                     S                 S                    S                         D S     S                              S   S         S               D  S                                     S           S                          S     S                 D S                       S    S                                  
+
+id: (saa_19)
+Scores: (#C #S #D #I) 42 17 10 0
+REF:  please call stella ask her to bring THESE things with her from the store 6 SPOONS of fresh SNOW PEAS 5    THICK  SLABS   OF     blue cheese and maybe A SNACK FOR HER BROTHER BOB we also need A  SMALL PLASTIC SNAKE and a BIG TOY FROG for the kids she can SCOOP THESE things into 3 red bags and we WILL go MEET HER   WEDNESDAY at the train station 
+HYP:  please call stella ask her to bring THIS  things with her from the store 6 POLES  of fresh **** **** MILK PLEASE FIREFIX LEPSZE blue cheese and maybe * ***** *** *** ******* *** we also need AS MORE  CLASSES NAIK  and a BIT TOO FAR  for the kids she can SORT  THIS  things into 3 red bags and we **** go **** METRE WHEN      at the train station 
+Eval:                                     S                                      S               D    D    S    S      S       S                            D D     D   D   D       D                S  S     S       S           S   S   S                         S     S                                   D       D    S     S                              
+
+id: (saa_20)
+Scores: (#C #S #D #I) 48 16 5 0
+REF:  please call stella ask her to bring THESE THINGS with HER from the store 6 SPOONS OF FRESH SNOW PEAS      5      THICK SLABS OF blue cheese and maybe A   SNACK for HER brother BOB we also need a small plastic snake and a big toy frog for the kids she can SCOOP these things INTO  3 red bags and we will go MEET HER   wednesday at the train station 
+HYP:  please call stella ask her to bring THE   STAINS with AIR from the store * ****** ** ***** 6.0  FRESHENER PLEASE 56    LET'S GO blue cheese and maybe HIS NECK  for A   brother BUT we also need a small plastic snake and a big toy frog for the kids she can COOK  these things UNTIL 3 red bags and we will go **** METRE wednesday at the train station 
+Eval:                                     S     S           S                  D D      D  D     S    S         S      S     S     S                        S   S         S           S                                                                              S                  S                               D    S                                    
+
+id: (saa_21)
+Scores: (#C #S #D #I) 38 17 14 0
+REF:  please call stella ask her to bring THESE things with her from the store 6 SPOONS of FRESH SNOW PEAS 5        THICK slabs of blue cheese and maybe A SNACK FOR  HER   brother bob WE ALSO NEED A SMALL PLASTIC SNAKE AND a BIG TOY FROG  for the kids SHE CAN SCOOP THESE THINGS INTO 3  red bags and WE WILL   go meet her wednesday at the train station 
+HYP:  please call stella ask her to bring THIS  things with her from the store 6 TINS   of ***** **** FISH SNOOPY'S 56    slabs of blue cheese and maybe * ***** IT'S NECRO brother bob ** **** **** * ***** CLASSIC STEAK IN  a *** BIT TIGHT for the kids *** *** ***** THIS  THING  TO   DO red bags and ** LITTLE go meet her wednesday at the train station 
+Eval:                                     S                                      S         D     D    S    S        S                                    D D     S    S                 D  D    D    D D     S       S     S     D   S   S                  D   D   D     S     S      S    S               D  S                                                 
+
+id: (saa_22)
+Scores: (#C #S #D #I) 47 20 2 5
+REF:  please call stella ask her to bring these things WITH her from the STORE 6     SPOONS of FRESH  snow PEAS 5     THICK SLABS of blue cheese and maybe a snack for her brother bob **** WE   ALSO  NEED      A        SMALL PLASTIC SNAKE and a big toy frog for the KIDS SHE  CAN   SCOOP THESE things into 3 red bags and we will go meet her ***** ** **** **** WEDNESDAY at the train station 
+HYP:  please call stella ask her to bring these things WHEN her from the STORY SIXTH FORMS  of FRANCE snow **** PIECE 556   LOT   of blue cheese and maybe a snack for her brother bob DOLE SOME MUSIC HOUSEHOLD PLASTICS NOW   THE     SNACK and a big toy frog for the **** KEYS GROUP TO    USER  things into 3 red bags and we will go meet her WEEDS NA WITH THIS DAY       at the train station 
+Eval:                                                  S                 S     S     S         S           D    S     S     S                                                          I    S    S     S         S        S     S       S                                D    S    S     S     S                                                    I     I  I    I    S                              
+
+id: (saa_23)
+Scores: (#C #S #D #I) 52 9 8 0
+REF:  please call stella ask her to bring THESE things with her from the store 6 SPOONS of FRESH SNOW   peas 5 THICK SLABS OF   blue cheese and maybe a snack for her brother bob we also need a small plastic snake and a big toy frog for the kids SHE CAN SCOOP THESE things into 3 RED   BAGS     and WE  will GO  meet her wednesday at the train station 
+HYP:  please call stella ask her to bring THIS  things with her from the store * £6    of ***** FRESNO peas 5 ***** ***** LABS blue cheese and maybe a snack for her brother bob we also need a small plastic snake and a big toy frog for the kids *** *** ***** THIS  things into * THREE REDBACKS and YOU will GOT meet her wednesday at the train station 
+Eval:                                     S                                    D S         D     S             D     D     S                                                                                                                         D   D   D     S                 D S     S            S        S                                           
+
+id: (saa_24)
+Scores: (#C #S #D #I) 21 7 41 0
+REF:  please call stella ASK HER TO BRING THESE things with her from the STORE 6 SPOONS OF FRESH SNOW PEAS 5     THICK SLABS OF  blue cheese AND MAYBE A SNACK FOR HER BROTHER BOB WE ALSO NEED A   small plastic snake AND a BIG TOY frog for the kids SHE CAN SCOOP THESE THINGS INTO 3 RED BAGS and WE WILL GO MEET HER WEDNESDAY AT THE train station 
+HYP:  please call stella *** *** ** ***** ***** things with her from the ***** * ****** ** ***** **** **** START 6056  LIVES ARE blue cheese *** ***** * ***** *** *** ******* *** ** **** **** PUB small plastic snake IN  a *** *** frog for the kids *** *** ***** ***** ****** **** * *** **** and ** **** ** **** *** ********* ** S   train station 
+Eval:                    D   D   D  D     D                              D     D D      D  D     D    D    S     S     S     S               D   D     D D     D   D   D       D   D  D    D    S                       S     D   D                     D   D   D     D     D      D    D D   D        D  D    D  D    D   D         D  S                 
+
+id: (saa_25)
+Scores: (#C #S #D #I) 51 13 5 1
+REF:  please call stella ask her to bring THESE things WITH HER     from the store 6 SPOONS of fresh snow PEAS 5 THICK SLABS of blue cheese and maybe a snack for HER brother bob we also need a small PLASTIC snake and a big TOY frog for the kids SHE CAN     scoop THESE things into ***** 3        RED BAGS and we will go MEET her wednesday at the train station 
+HYP:  please call stella ask her to bring THOSE things **** WITHOUT from the store 6 POUNDS of fresh snow **** * P56   LAMBS of blue cheese and maybe a snack for A   brother bob we also need a small PLASTER snake and a big *** frog for the kids *** CHICKEN scoop THOSE things into THREE BROTHERS AND WILL and we will go ME   her wednesday at the train station 
+Eval:                                     S            D    S                        S                    D    D S     S                                          S                                    S                       D                     D   S             S                 I     S        S   S                   S                                       
+
+id: (saa_26)
+Scores: (#C #S #D #I) 33 15 21 2
+REF:  please call stella ask her to bring THESE THINGS WITH HER    from the store 6 SPOONS OF FRESH SNOW PEAS 5 THICK      SLABS  OF  blue cheese and maybe * A   SNACK FOR    HER BROTHER bob ***** we also need a small plastic SNAKE AND A  big TOY FROG  for the kids she can scoop these things into 3 RED BAGS AND WE WILL GO MEET her WEDNESDAY AT THE TRAIN STATION   
+HYP:  please call stella ask her to bring ***** ****** THIS STINKS from the store * ****** ** ***** **** **** * REFRESHING RUPEES 500 blue cheese and maybe I WAS LIKE  BEFORE I   GO      bob WHERE we also need a small plastic ***** END OF big *** FROGS for the kids she can scoop these things into 3 *** **** *** ** **** ** BAG  her ********* ** *** ***** FINISHING 
+Eval:                                     D     D      S    S                     D D      D  D     D    D    D S          S      S                         I S   S     S      S   S           I                                  D     S   S      D   S                                                    D   D    D   D  D    D  S        D         D  D   D     S         
+
+id: (saa_27)
+Scores: (#C #S #D #I) 52 12 5 0
+REF:  please call stella ask her to bring these things with her from THE  store 6 SPOONS   of fresh snow peas 5 THICK SLABS of blue cheese and maybe A    SNACK for her brother BOB WE  ALSO NEED A   small plastic snake AND a big toy frog for the kids she can scoop these things into 3 red bags and we WILL go MEET HER   wednesday at the train station 
+HYP:  please call stella ask her to bring these things with her from THIS store * 6-MONTHS of fresh snow peas * 56    LIVES of blue cheese and maybe IT'S NOT   for her brother *** BOP SHOW ME   THE small plastic snake IN  a big toy frog for the kids she can scoop these things into 3 red bags and we **** go **** METRE wednesday at the train station 
+Eval:                                                                S          D S                           D S     S                              S    S                     D   S   S    S    S                       S                                                                                 D       D    S                                    
+
+id: (saa_28)
+Scores: (#C #S #D #I) 35 19 15 0
+REF:  please call stella ASK HER   to bring THESE THINGS with her from the store 6 SPOONS OF FRESH SNOW     PEAS 5   THICK SLABS of blue cheese and maybe A SNACK FOR HER     brother bob WE ALSO NEED A SMALL PLASTIC SNAKE AND A      BIG  TOY   FROG   FOR  THE      KIDS       she can scoop these things into 3 RED   bags and we will go meet her wednesday at the train station 
+HYP:  please call stella *** ACTOR to bring THIS  TEAMS  with her from the store * ****** ** 16    SURPRISE NO   PS5 6     LAPS  of blue cheese and maybe * ***** IS  NETWORK brother bob ** **** **** * ***** ******* ***** *** WILSON THIS MONTH PLACES NEAR VICTORIA PROPERTIES she can scoop these things into * TRADE bags and we will go meet her wednesday at the train station 
+Eval:                    D   S              S     S                              D D      D  S     S        S    S   S     S                              D D     S   S                   D  D    D    D D     D       D     D   S      S    S     S      S    S        S                                          D S                                                                 
+
+id: (saa_29)
+Scores: (#C #S #D #I) 60 6 3 0
+REF:  please call stella ask her to bring THESE things with her from the store 6 SPOONS of fresh snow peas 5   thick slabs of blue cheese and maybe a snack for her brother bob WE also need a small plastic snake and a big toy FROG  for the kids she CAN SCOOP  these things into 3 red bags and we will go MEET HER   wednesday at the train station 
+HYP:  please call stella ask her to bring ***** things with her from the store 6 POUNDS of fresh snow peas FOR thick slabs of blue cheese and maybe a snack for her brother bob ** also need a small plastic snake and a big toy TRUCK for the kids she HAS COOKED these things into 3 red bags and we will go **** METRE wednesday at the train station 
+Eval:                                     D                                      S                         S                                                                    D                                                S                      S   S                                                  D    S                                    
+
+id: (saa_30)
+Scores: (#C #S #D #I) 47 14 8 0
+REF:  please call STELLA ask her to bring these things with HER   from the store 6 SPOONS of fresh snow peas 5 THICK SLABS OF BLUE CHEESE AND   MAYBE     A        SNACK for HER brother bob we also need a small PLASTIC snake and A   BIG    toy frog for the kids she can SCOOP THESE things into 3 red bags and we will go MEET HER   wednesday at THE train station 
+HYP:  please call STELA  ask her to bring these things with THEIR from the store 6 POUNDS of fresh snow peas * ***** ***** ** **** 56     LAPSO BLUETOOTH AMELIA'S NECK  for *** brother bob we also need a small ******* snake and THE BIGGER toy frog for the kids she can SKIP  THIS  things into 3 red bags and we will go **** METRE wednesday at A   train station 
+Eval:             S                                         S                      S                         D D     D     D  D    S      S     S         S        S         D                                    D                 S   S                                    S     S                                           D    S                  S                 
+
+id: (saa_31)
+Scores: (#C #S #D #I) 52 12 5 1
+REF:  please call stella ask her to bring these things with her from the store 6 SPOONS of fresh snow peas 5 THICK SLABS OF   blue cheese and maybe A SNACK FOR her brother bob WE ALSO NEED A      small plastic snake and a big toy FROG  for the kids she can SCOOP these things into 3 RED bags and we WILL  go ** MEET her wednesday at the train station 
+HYP:  please call stella ask her to bring these things with her from the store 6 POUNDS of fresh snow peas * 56    LAMPS WITH blue cheese and maybe * IT'S  NOT her brother bob ** **** **** WILSON small plastic snake and a big toy TRUCK for the kids she can COPE  these things into 3 LAD bags and we WOULD go AT ME   her wednesday at the train station 
+Eval:                                                                            S                         D S     S     S                          D S     S                   D  D    D    S                                        S                          S                         S               S        I  S                                       
+
+id: (saa_32)
+Scores: (#C #S #D #I) 60 5 4 0
+REF:  please call stella ask her to bring THESE things with her from the store 6 spoons of fresh snow peas 5 THICK SLABS OF  blue cheese and maybe a snack for her brother bob we also need a small plastic snake and a big toy frog for the kids she can SCOOP THESE THINGS INTO 3 red bags and we will go meet her wednesday at the train station 
+HYP:  please call stella ask her to bring ***** things with her from the store 6 spoons of fresh snow peas * ***** ***** 562 blue cheese and maybe a snack for her brother bob we also need a small plastic snake and a big toy frog for the kids she can COOK  THIS  SEEM   TO   3 red bags and we will go meet her wednesday at the train station 
+Eval:                                     D                                                                D D     D     S                                                                                                                                S     S     S      S                                                                      
+
+id: (saa_33)
+Scores: (#C #S #D #I) 45 19 5 0
+REF:  please call STELLA ask her to BRING these things with her from the store 6 SPOONS   of FRESH SNOW PEAS 5      THICK SLABS OF  blue CHEESE and maybe A  SNACK for HER   BROTHER BOB  we also need A  SMALL plastic SNAKE and a big toy FROG for the kids she can scoop these things into 3 RED  BAGS     and we will go meet her wednesday at the train station 
+HYP:  please call STEPH  ask her to TAKE  these things with her from the store * SIXBONES of ***** **** **** FRESNO BS56  LET   THE blue CHASE  and maybe IS NEXT  for HEARD OF      THAT we also need IS MORE  plastic NECK  and a big toy PROP for the kids she can scoop these things into * FREE REDBACKS and we will go meet her wednesday at the train station 
+Eval:             S                 S                                          D S           D     D    D    S      S     S     S        S                S  S         S     S       S                 S  S             S                   S                                                 D S    S                                                               
+
+

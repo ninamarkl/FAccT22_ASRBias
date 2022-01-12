@@ -1,0 +1,111 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\french\french55_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  ask ==> asked
+   2:    1  ->  bob ==> bomb
+   3:    1  ->  of ==> off
+   4:    1  ->  of ==> ofthe
+   5:    1  ->  peas ==> bees
+   6:    1  ->  slabs ==> labs
+   7:    1  ->  snow ==> no
+   8:    1  ->  spoons ==> points
+   9:    1  ->  these ==> this
+  10:    1  ->  thick ==> six
+  11:    1  ->  things ==> thing
+  12:    1  ->  wednesday ==> day
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  once
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  her
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  of
+   2:    1  ->  ask
+   3:    1  ->  bob
+   4:    1  ->  peas
+   5:    1  ->  slabs
+   6:    1  ->  snow
+   7:    1  ->  spoons
+   8:    1  ->  these
+   9:    1  ->  thick
+  10:    1  ->  things
+  11:    1  ->  wednesday
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  asked
+   2:    1  ->  bees
+   3:    1  ->  bomb
+   4:    1  ->  day
+   5:    1  ->  labs
+   6:    1  ->  no
+   7:    1  ->  off
+   8:    1  ->  ofthe
+   9:    1  ->  points
+  10:    1  ->  six
+  11:    1  ->  thing
+  12:    1  ->  this
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

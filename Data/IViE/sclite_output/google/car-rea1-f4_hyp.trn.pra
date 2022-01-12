@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\car-rea1-f4_hyp.trn
+
+Speakers: 
+    0:  car
+
+Speaker sentences   0:  car   #utts: 1
+id: (car-rea1-f4_01)
+Scores: (#C #S #D #I) 135 42 11 6
+REF:  cinderella once upon a time there was a girl called cinderella but everyone called HER cinders cinders LIVED with HER MOTHER  AND  TWO  STEPSISTERS called lily and ROSA  lily and ROSA WERE  VERY UNFRIENDLY and they were LAZY GIRLS     they spent all THEIR time ** BUYING new clothes and going to parties POOR   CINDERS had to wear all the old hand hand me downs and she had to do ALL the cleaning ONE  DAY  A   ROYAL messenger came to ANNOUNCE A  BALL    the ball *** WOULD be held at the royal palace in honour of the queen's son OH only SON prince william LILY   and rosa thought THIS was divine *** prince william was gorgeous and he was looking for a bride they DREAMED OF  wedding bells when the evening of the BALL arrived cinders HAD  to help her sisters get ready THEY WERE IN   a bad MOOD they wanted to buy some new GOWNS but THEIR MOTHER SAID  had THEIR mother said that they *** had enough GOWNS so they started shouting at cinders find my JEWELS YELLED ONE  find my hat HOWLED 
+HYP:  cinderella once upon a time there was a girl called cinderella but everyone called TO  cinders cinders LIVE  with *** ANOTHER INTO STEP SISTER'S    called lily and ROSIE lily and **** ROSIE WAS  EARLIER    and they were **** LAZYGIRLS they spent all THE   time BY A      new clothes and going to parties PERSON HAS     had to wear all the old hand hand me downs and she had to do *** the cleaning WHEN THEY ARE REAL  messenger came to ******** AN ANSIBLE the ball WAS TO    be held at the royal palace in honour of the queen's son ** only SIN prince william LILLEY and rosa thought HE   was divine AND prince william was gorgeous and he was looking for a bride they DREAM   DAY wedding bells when the evening of the BULL arrived cinders HAVE to help her sisters get ready **** SAY  WHEN a bad **** they wanted to buy some new GIRLS but ***** THEY   NEVER had THE   mother said that they HAD had enough GUMS  so they started shouting at cinders find my JOULES YARD   WHEN find my hat ****** 
+Eval:                                                                                    S                   S          D   S       S    S    S                           S              D    S     S    S                        D    S                        S          I  S                                       S      S                                                                    D                S    S    S   S                       D        S  S                I   S                                                              D       S                  S                       S               I                                                                   S       S                                         S                    S                                  D    S    S          D                                S         D     S      S         S                           I              S                                                 S      S      S                D      
+
+>> REF:  THE OTHER     they wanted **** ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  *** HEALTHIER they wanted HAIR BRUSHES HAIR        PINS     and hairspray 
+>> Eval: D   S                     I    I       S           S                      
+
+

@@ -1,0 +1,111 @@
+SCORING FOR SPEAKER: liv
+     of amazon\liv-rea1-f1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.0%   (  17)
+
+Percent Correct           =   92.0%   ( 173)
+
+Percent Substitution      =    6.9%   (  13)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   91.0%
+
+
+Ref. words                =           ( 188)
+Hyp. words                =           ( 188)
+Aligned words             =           ( 190)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  and ==> lillian
+   2:    1  ->  buying ==> buy
+   3:    1  ->  cinders ==> singers
+   4:    1  ->  hand ==> hamp
+   5:    1  ->  her ==> the
+   6:    1  ->  her ==> their
+   7:    1  ->  how ==> held
+   8:    1  ->  howled ==> held
+   9:    1  ->  rosa ==> rose
+  10:    1  ->  stepsisters ==> sisters
+  11:    1  ->  they'd ==> they
+  12:    1  ->  would ==> will
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  i
+   2:    1  ->  step
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  lily
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  and
+   2:    2  ->  her
+   3:    1  ->  buying
+   4:    1  ->  cinders
+   5:    1  ->  hand
+   6:    1  ->  how
+   7:    1  ->  howled
+   8:    1  ->  rosa
+   9:    1  ->  stepsisters
+  10:    1  ->  they'd
+  11:    1  ->  would
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  held
+   2:    2  ->  lillian
+   3:    1  ->  buy
+   4:    1  ->  hamp
+   5:    1  ->  rose
+   6:    1  ->  singers
+   7:    1  ->  sisters
+   8:    1  ->  the
+   9:    1  ->  their
+  10:    1  ->  they
+  11:    1  ->  will
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

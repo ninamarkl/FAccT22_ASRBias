@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin29_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   68.1%   (  47)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  these ==> the
+   2:    1  ->  and ==> on
+   3:    1  ->  and ==> readbacks
+   4:    1  ->  ask ==> asked
+   5:    1  ->  bring ==> breathe
+   6:    1  ->  call ==> cost
+   7:    1  ->  frog ==> front
+   8:    1  ->  her ==> without
+   9:    1  ->  please ==> police
+  10:    1  ->  scoop ==> skip
+  11:    1  ->  slabs ==> slab
+  12:    1  ->  spoons ==> moons
+  13:    1  ->  station ==> translation
+  14:    1  ->  stella ==> ella
+  15:    1  ->  things ==> thing
+  16:    1  ->  train ==> other
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  at
+   2:    1  ->  bags
+   3:    1  ->  red
+   4:    1  ->  the
+   5:    1  ->  with
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  and
+   2:    2  ->  these
+   3:    1  ->  ask
+   4:    1  ->  bring
+   5:    1  ->  call
+   6:    1  ->  frog
+   7:    1  ->  her
+   8:    1  ->  please
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  spoons
+  12:    1  ->  station
+  13:    1  ->  stella
+  14:    1  ->  things
+  15:    1  ->  train
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  the
+   2:    1  ->  asked
+   3:    1  ->  breathe
+   4:    1  ->  cost
+   5:    1  ->  ella
+   6:    1  ->  front
+   7:    1  ->  moons
+   8:    1  ->  on
+   9:    1  ->  other
+  10:    1  ->  police
+  11:    1  ->  readbacks
+  12:    1  ->  skip
+  13:    1  ->  slab
+  14:    1  ->  thing
+  15:    1  ->  translation
+  16:    1  ->  without
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

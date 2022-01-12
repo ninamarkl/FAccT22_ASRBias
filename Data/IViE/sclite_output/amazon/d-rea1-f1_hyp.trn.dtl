@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\d-rea1-f1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.6%   (  23)
+
+Percent Correct           =   89.1%   ( 163)
+
+Percent Substitution      =    8.7%   (  16)
+Percent Deletions         =    2.2%   (   4)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   87.4%
+
+
+Ref. words                =           ( 183)
+Hyp. words                =           ( 182)
+Aligned words             =           ( 186)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  cinders ==> singers
+   2:    2  ->  and ==> lillian
+   3:    1  ->  a ==> the
+   4:    1  ->  ball ==> wall
+   5:    1  ->  downs ==> dance
+   6:    1  ->  gowns ==> guns
+   7:    1  ->  howled ==> out
+   8:    1  ->  rosa ==> rose
+   9:    1  ->  sisters ==> to
+  10:    1  ->  stepsisters ==> sisters
+  11:    1  ->  te ==> step
+  12:    1  ->  they'd ==> they
+  13:    1  ->  yelled ==> other
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  sister's
+   2:    1  ->  the
+   3:    1  ->  to
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  lily
+   2:    1  ->  a
+   3:    1  ->  that
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  cinders
+   2:    2  ->  and
+   3:    1  ->  a
+   4:    1  ->  ball
+   5:    1  ->  downs
+   6:    1  ->  gowns
+   7:    1  ->  howled
+   8:    1  ->  rosa
+   9:    1  ->  sisters
+  10:    1  ->  stepsisters
+  11:    1  ->  te
+  12:    1  ->  they'd
+  13:    1  ->  yelled
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  singers
+   2:    2  ->  lillian
+   3:    1  ->  dance
+   4:    1  ->  guns
+   5:    1  ->  other
+   6:    1  ->  out
+   7:    1  ->  rose
+   8:    1  ->  sisters
+   9:    1  ->  step
+  10:    1  ->  the
+  11:    1  ->  they
+  12:    1  ->  to
+  13:    1  ->  wall
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

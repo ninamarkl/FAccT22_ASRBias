@@ -1,0 +1,131 @@
+SCORING FOR SPEAKER: saa
+     of italian\italian17_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  6 ==> six
+   2:    1  ->  a ==> is
+   3:    1  ->  and ==> in
+   4:    1  ->  bob ==> but
+   5:    1  ->  her ==> without
+   6:    1  ->  peas ==> peace
+   7:    1  ->  scoop ==> a
+   8:    1  ->  slabs ==> left
+   9:    1  ->  snack ==> nice
+  10:    1  ->  snow ==> no
+  11:    1  ->  spoons ==> points
+  12:    1  ->  these ==> dick
+  13:    1  ->  these ==> this
+  14:    1  ->  thick ==> tickets
+  15:    1  ->  things ==> heads
+  16:    1  ->  things ==> thing
+  17:    1  ->  with ==> so
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  is
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  can
+   2:    1  ->  her
+   3:    1  ->  kids
+   4:    1  ->  meet
+   5:    1  ->  she
+   6:    1  ->  the
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  6
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  bob
+   7:    1  ->  her
+   8:    1  ->  peas
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  snack
+  12:    1  ->  snow
+  13:    1  ->  spoons
+  14:    1  ->  thick
+  15:    1  ->  with
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a
+   2:    1  ->  but
+   3:    1  ->  dick
+   4:    1  ->  heads
+   5:    1  ->  in
+   6:    1  ->  is
+   7:    1  ->  left
+   8:    1  ->  nice
+   9:    1  ->  no
+  10:    1  ->  peace
+  11:    1  ->  points
+  12:    1  ->  six
+  13:    1  ->  so
+  14:    1  ->  thing
+  15:    1  ->  this
+  16:    1  ->  tickets
+  17:    1  ->  without
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

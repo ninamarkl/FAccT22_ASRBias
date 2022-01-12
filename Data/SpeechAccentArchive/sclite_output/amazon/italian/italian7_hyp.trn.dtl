@@ -1,0 +1,105 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\italian\italian7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  also ==> you
+   2:    1  ->  bags ==> nutbags
+   3:    1  ->  can ==> could
+   4:    1  ->  frog ==> front
+   5:    1  ->  her ==> a
+   6:    1  ->  need ==> in
+   7:    1  ->  of ==> off
+   8:    1  ->  spoons ==> pulls
+   9:    1  ->  we ==> see
+  10:    1  ->  will ==> would
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  we'll
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  red
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  also
+   2:    1  ->  bags
+   3:    1  ->  can
+   4:    1  ->  frog
+   5:    1  ->  her
+   6:    1  ->  need
+   7:    1  ->  of
+   8:    1  ->  spoons
+   9:    1  ->  we
+  10:    1  ->  will
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  could
+   3:    1  ->  front
+   4:    1  ->  in
+   5:    1  ->  nutbags
+   6:    1  ->  off
+   7:    1  ->  pulls
+   8:    1  ->  see
+   9:    1  ->  would
+  10:    1  ->  you
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,144 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish51_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   60.9%   (  42)
+
+Percent Correct           =   39.1%   (  27)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   39.1%   (  27)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   39.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  42)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  5 ==> no
+   2:    1  ->  a ==> is
+   3:    1  ->  ask ==> as
+   4:    1  ->  cheese ==> sheets
+   5:    1  ->  her ==> have
+   6:    1  ->  into ==> to
+   7:    1  ->  of ==> a
+   8:    1  ->  peas ==> first
+   9:    1  ->  slabs ==> fighting
+  10:    1  ->  snack ==> not
+  11:    1  ->  snow ==> 6-burner
+  12:    1  ->  these ==> that
+  13:    1  ->  thick ==> peace
+  14:    1  ->  things ==> wasn't
+  15:    1  ->  with ==> we
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    1  ->  6
+   4:    1  ->  also
+   5:    1  ->  big
+   6:    1  ->  bob
+   7:    1  ->  can
+   8:    1  ->  for
+   9:    1  ->  fresh
+  10:    1  ->  frog
+  11:    1  ->  her
+  12:    1  ->  kids
+  13:    1  ->  meet
+  14:    1  ->  need
+  15:    1  ->  of
+  16:    1  ->  plastic
+  17:    1  ->  scoop
+  18:    1  ->  she
+  19:    1  ->  small
+  20:    1  ->  snake
+  21:    1  ->  spoons
+  22:    1  ->  the
+  23:    1  ->  toy
+  24:    1  ->  we
+  25:    1  ->  will
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  ask
+   4:    1  ->  cheese
+   5:    1  ->  her
+   6:    1  ->  into
+   7:    1  ->  of
+   8:    1  ->  peas
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  snow
+  12:    1  ->  these
+  13:    1  ->  thick
+  14:    1  ->  things
+  15:    1  ->  with
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  6-burner
+   2:    1  ->  a
+   3:    1  ->  as
+   4:    1  ->  fighting
+   5:    1  ->  first
+   6:    1  ->  have
+   7:    1  ->  is
+   8:    1  ->  no
+   9:    1  ->  not
+  10:    1  ->  peace
+  11:    1  ->  sheets
+  12:    1  ->  that
+  13:    1  ->  to
+  14:    1  ->  wasn't
+  15:    1  ->  we
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,115 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin52_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    8.7%   (   6)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  63)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  5 ==> fritz
+   2:    1  ->  bob ==> but
+   3:    1  ->  frog ==> for
+   4:    1  ->  of ==> 560
+   5:    1  ->  scoop ==> stop
+   6:    1  ->  slabs ==> peace
+   7:    1  ->  snake ==> snack
+   8:    1  ->  spoons ==> £6
+   9:    1  ->  these ==> so
+  10:    1  ->  these ==> the
+  11:    1  ->  thick ==> no
+  12:    1  ->  things ==> scenes
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  6
+   2:    1  ->  a
+   3:    1  ->  big
+   4:    1  ->  fresh
+   5:    1  ->  peas
+   6:    1  ->  snow
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  bob
+   4:    1  ->  frog
+   5:    1  ->  of
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  snake
+   9:    1  ->  spoons
+  10:    1  ->  thick
+  11:    1  ->  things
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  560
+   2:    1  ->  but
+   3:    1  ->  for
+   4:    1  ->  fritz
+   5:    1  ->  no
+   6:    1  ->  peace
+   7:    1  ->  scenes
+   8:    1  ->  snack
+   9:    1  ->  so
+  10:    1  ->  stop
+  11:    1  ->  the
+  12:    1  ->  £6
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

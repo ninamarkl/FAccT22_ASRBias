@@ -1,0 +1,130 @@
+SCORING FOR SPEAKER: saa
+     of italian\italian14_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.8%   (  24)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   65.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  5 ==> ps5
+   2:    1  ->  a ==> my
+   3:    1  ->  and ==> chairs
+   4:    1  ->  and ==> in
+   5:    1  ->  can ==> can't
+   6:    1  ->  cheese ==> low
+   7:    1  ->  her ==> a
+   8:    1  ->  her ==> meta
+   9:    1  ->  her ==> their
+  10:    1  ->  kids ==> but
+  11:    1  ->  maybe ==> in
+  12:    1  ->  scoop ==> cope
+  13:    1  ->  slabs ==> laps
+  14:    1  ->  snack ==> snake
+  15:    1  ->  spoons ==> pounds
+  16:    1  ->  these ==> with
+  17:    1  ->  thick ==> 6
+  18:    1  ->  we ==> we're
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  a
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  blue
+   2:    1  ->  for
+   3:    1  ->  meet
+   4:    1  ->  peas
+   5:    1  ->  the
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  her
+   2:    2  ->  and
+   3:    1  ->  5
+   4:    1  ->  a
+   5:    1  ->  can
+   6:    1  ->  cheese
+   7:    1  ->  kids
+   8:    1  ->  maybe
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  snack
+  12:    1  ->  spoons
+  13:    1  ->  these
+  14:    1  ->  thick
+  15:    1  ->  we
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  in
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  but
+   5:    1  ->  can't
+   6:    1  ->  chairs
+   7:    1  ->  cope
+   8:    1  ->  laps
+   9:    1  ->  low
+  10:    1  ->  meta
+  11:    1  ->  my
+  12:    1  ->  pounds
+  13:    1  ->  ps5
+  14:    1  ->  snake
+  15:    1  ->  their
+  16:    1  ->  we're
+  17:    1  ->  with
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,124 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese31_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =   13.0%   (   9)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  60)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5 ==> please
+   2:    1  ->  a ==> baby's
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> in
+   5:    1  ->  can ==> chicken
+   6:    1  ->  her ==> my
+   7:    1  ->  peas ==> no
+   8:    1  ->  scoop ==> strip
+   9:    1  ->  slabs ==> loads
+  10:    1  ->  small ==> more
+  11:    1  ->  snack ==> neck
+  12:    1  ->  spoons ==> pounds
+  13:    1  ->  these ==> this
+  14:    1  ->  thick ==> 56
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  ask
+   3:    1  ->  her
+   4:    1  ->  maybe
+   5:    1  ->  she
+   6:    1  ->  snow
+   7:    1  ->  these
+   8:    1  ->  we
+   9:    1  ->  will
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  a
+   2:    1  ->  5
+   3:    1  ->  and
+   4:    1  ->  can
+   5:    1  ->  her
+   6:    1  ->  peas
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  small
+  10:    1  ->  snack
+  11:    1  ->  spoons
+  12:    1  ->  these
+  13:    1  ->  thick
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  56
+   2:    1  ->  baby's
+   3:    1  ->  chicken
+   4:    1  ->  in
+   5:    1  ->  loads
+   6:    1  ->  more
+   7:    1  ->  my
+   8:    1  ->  neck
+   9:    1  ->  no
+  10:    1  ->  please
+  11:    1  ->  pounds
+  12:    1  ->  strip
+  13:    1  ->  the
+  14:    1  ->  this
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

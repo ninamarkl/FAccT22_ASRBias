@@ -1,0 +1,141 @@
+SCORING FOR SPEAKER: l-r
+     of amazon\l-rea1-m6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.8%   (  32)
+
+Percent Correct           =   83.3%   ( 150)
+
+Percent Substitution      =   12.2%   (  22)
+Percent Deletions         =    4.4%   (   8)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   82.2%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 174)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  and ==> lillian
+   2:    1  ->  and ==> limb
+   3:    1  ->  and ==> rose
+   4:    1  ->  ball ==> bowl
+   5:    1  ->  buying ==> by
+   6:    1  ->  cinders ==> parsons
+   7:    1  ->  hairspray ==> break
+   8:    1  ->  hat ==> heart
+   9:    1  ->  help ==> hotel
+  10:    1  ->  her ==> per
+  11:    1  ->  her ==> the
+  12:    1  ->  howled ==> hold
+  13:    1  ->  lily ==> lillian
+  14:    1  ->  lily ==> the
+  15:    1  ->  only ==> his
+  16:    1  ->  queen's ==> and
+  17:    1  ->  rosa ==> i
+  18:    1  ->  rosa ==> rose
+  19:    1  ->  their ==> the
+  20:    1  ->  they'd ==> they
+  21:    1  ->  were ==> they're
+  22:    1  ->  would ==> will
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  house
+   2:    1  ->  queens
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  at
+   2:    1  ->  had
+   3:    1  ->  lily
+   4:    1  ->  poor
+   5:    1  ->  prin
+   6:    1  ->  that
+   7:    1  ->  they
+   8:    1  ->  to
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  and
+   2:    2  ->  her
+   3:    2  ->  lily
+   4:    2  ->  rosa
+   5:    1  ->  ball
+   6:    1  ->  buying
+   7:    1  ->  cinders
+   8:    1  ->  hairspray
+   9:    1  ->  hat
+  10:    1  ->  help
+  11:    1  ->  howled
+  12:    1  ->  only
+  13:    1  ->  queen's
+  14:    1  ->  their
+  15:    1  ->  they'd
+  16:    1  ->  were
+  17:    1  ->  would
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  the
+   2:    2  ->  lillian
+   3:    2  ->  rose
+   4:    1  ->  and
+   5:    1  ->  bowl
+   6:    1  ->  break
+   7:    1  ->  by
+   8:    1  ->  heart
+   9:    1  ->  his
+  10:    1  ->  hold
+  11:    1  ->  hotel
+  12:    1  ->  i
+  13:    1  ->  limb
+  14:    1  ->  parsons
+  15:    1  ->  per
+  16:    1  ->  they
+  17:    1  ->  they're
+  18:    1  ->  will
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

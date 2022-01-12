@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\d-rea1-m2_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-m2_01)
+Scores: (#C #S #D #I) 155 24 5 2
+REF:  once upon a time there was a go A girl called cinderella but everyone called her cinders cinders lived with her mother and two **** STEPSISTERS called lily and rosa LILY AND     rosa WERE  very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties POOR CINDERS had to wear all their old hand me downs and she had to do the cleaning one day a royal messenger came to announce A   ball the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought this was divine prince william was gorgeous and he was looking for a bride THEY DREAMED of wedding bells when the EVENING OF   the ball arrived CINDERS had to help her sisters get ready THEY WERE    in a bad mood **** THEY'D wanted to buy some new GOWNS   BUT  their mother said that THEY'D had that they had enough GOWNS so they started shouting AT  CINDERS find my JEWELS yelled ONE   find my hat HOWLED the other they wanted hairbrushes 
+HYP:  once upon a time there was a go * girl called cinderella but everyone called her cinders cinders lived with her mother and two STEP SISTERS     called lily and rosa **** LILLIAN rosa WE'RE very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties **** AND     had to wear all their old hand me downs and she had to do the cleaning one day a royal messenger came to announce THE ball the ball ***** be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSE I    thought this was divine prince william was gorgeous and he was looking for a bride THE  DREAMS  of wedding bells when the EVEN    WITH the ball arrived SANDERS had to help her sisters get ready **** THEY'RE in a bad mood THAT IT     wanted to buy some new GROUNDS WITH their mother said that THEY   had that they had enough GUNS  so they started shouting AND SANDERS find my JAILS  yelled WON'T find my hat HELD   the other they wanted hairbrushes 
+Eval:                                 D                                                                                              I    S                                D    S            S                                                                                                                D    S                                                                                                                         S                 D                                                                                  S       S    S                                                                                       S    S                                 S       S                     S                                         D    S                     I    S                             S       S                           S                               S                              S   S               S             S                 S                                        
+
+>> REF:  hairpins and hairspray 
+>> HYP:  hairpins and hairspray 
+>> Eval:                        
+
+

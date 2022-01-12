@@ -1,0 +1,108 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\french\french1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   85.5%   (  59)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  74)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  bob ==> book
+   2:    1  ->  her ==> his
+   3:    1  ->  of ==> no
+   4:    1  ->  slabs ==> slaves
+   5:    1  ->  spoons ==> first
+   6:    1  ->  store ==> star
+   7:    1  ->  thick ==> weeks
+   8:    1  ->  toy ==> talk
+   9:    1  ->  train ==> twin
+  10:    1  ->  wednesday ==> day
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  hers
+   2:    1  ->  meet
+   3:    1  ->  off
+   4:    1  ->  points
+   5:    1  ->  when
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  bob
+   2:    1  ->  her
+   3:    1  ->  of
+   4:    1  ->  slabs
+   5:    1  ->  spoons
+   6:    1  ->  store
+   7:    1  ->  thick
+   8:    1  ->  toy
+   9:    1  ->  train
+  10:    1  ->  wednesday
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  book
+   2:    1  ->  day
+   3:    1  ->  first
+   4:    1  ->  his
+   5:    1  ->  no
+   6:    1  ->  slaves
+   7:    1  ->  star
+   8:    1  ->  talk
+   9:    1  ->  twin
+  10:    1  ->  weeks
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

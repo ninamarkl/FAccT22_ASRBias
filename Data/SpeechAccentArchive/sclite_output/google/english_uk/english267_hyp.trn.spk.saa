@@ -1,0 +1,118 @@
+SCORING FOR SPEAKER: saa
+     of english_uk\english267_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.0%   (  29)
+
+Percent Correct           =   59.4%   (  41)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =   26.1%   (  18)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   58.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  52)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  for ==> or
+   2:    1  ->  her ==> a
+   3:    1  ->  her ==> metre
+   4:    1  ->  of ==> a
+   5:    1  ->  peas ==> sophie's
+   6:    1  ->  slabs ==> pics
+   7:    1  ->  snake ==> safe
+   8:    1  ->  spoons ==> £6
+   9:    1  ->  these ==> please
+  10:    1  ->  will ==> we'll
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  front
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  her
+   2:    2  ->  the
+   3:    2  ->  we
+   4:    1  ->  6
+   5:    1  ->  ask
+   6:    1  ->  bring
+   7:    1  ->  can
+   8:    1  ->  from
+   9:    1  ->  meet
+  10:    1  ->  scoop
+  11:    1  ->  she
+  12:    1  ->  snow
+  13:    1  ->  these
+  14:    1  ->  thick
+  15:    1  ->  to
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  her
+   2:    1  ->  for
+   3:    1  ->  of
+   4:    1  ->  peas
+   5:    1  ->  slabs
+   6:    1  ->  snake
+   7:    1  ->  spoons
+   8:    1  ->  these
+   9:    1  ->  will
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  a
+   2:    1  ->  metre
+   3:    1  ->  or
+   4:    1  ->  pics
+   5:    1  ->  please
+   6:    1  ->  safe
+   7:    1  ->  sophie's
+   8:    1  ->  we'll
+   9:    1  ->  £6
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

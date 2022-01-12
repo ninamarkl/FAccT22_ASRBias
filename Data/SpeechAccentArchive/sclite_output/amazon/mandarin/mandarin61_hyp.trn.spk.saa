@@ -1,0 +1,113 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin61_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  15)
+
+Percent Correct           =   79.7%   (  55)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  big ==> beat
+   3:    1  ->  bob ==> but
+   4:    1  ->  frog ==> faulk
+   5:    1  ->  meet ==> me
+   6:    1  ->  need ==> needed
+   7:    1  ->  of ==> off
+   8:    1  ->  red ==> breck
+   9:    1  ->  slabs ==> slaps
+  10:    1  ->  stella ==> castella
+  11:    1  ->  thick ==> fifty-six
+  12:    1  ->  train ==> chain
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  a
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  call
+   2:    1  ->  five
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  and
+   2:    1  ->  big
+   3:    1  ->  bob
+   4:    1  ->  frog
+   5:    1  ->  meet
+   6:    1  ->  need
+   7:    1  ->  of
+   8:    1  ->  red
+   9:    1  ->  slabs
+  10:    1  ->  stella
+  11:    1  ->  thick
+  12:    1  ->  train
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  beat
+   2:    1  ->  breck
+   3:    1  ->  but
+   4:    1  ->  castella
+   5:    1  ->  chain
+   6:    1  ->  faulk
+   7:    1  ->  fifty-six
+   8:    1  ->  me
+   9:    1  ->  needed
+  10:    1  ->  off
+  11:    1  ->  on
+  12:    1  ->  slaps
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

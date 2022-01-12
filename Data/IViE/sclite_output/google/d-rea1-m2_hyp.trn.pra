@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\d-rea1-m2_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-m2_01)
+Scores: (#C #S #D #I) 111 43 30 9
+REF:  once upon a time there was A GO a girl called cinderella but * ***** **** EVERYONE CALLED HER CINDERS CINDERS LIVED with her mother and two stepsisters called LILY AND    rosa LILY    AND  ROSA were very UNFRIENDLY AND THEY WERE lazy girls they spent all THEIR time BUYING new clothes and going to parties POOR CINDERS had to wear ALL THEIR OLD HAND ME      DOWNS         and she had to do the cleaning one day A royal messenger came to ANNOUNCE A BALL the BALL WOULD be held at the royal palace in honour of the queen's only son prince william LILY and ROSA THOUGHT THIS WAS DIVINE prince WILLIAM WAS       gorgeous and he was looking for a BRIDE THEY DREAMED OF  WEDDING BELLS    when the evening of the ball arrived CINDERS HAD    TO   help HER SISTERS get ready THEY WERE  in a bad mood **** THEY'D wanted to buy some new GOWNS BUT  their mother said that THEY'D HAD  that they had enough GOWNS   so they ***** ** STARTED SHOUTING AT   CINDERS FIND my ***** JEWELS YELLED one find my HAT 
+HYP:  once upon a time there was * ** a girl called cinderella but I PHONE CALL TO       SEND   IT  SEND    THIS    LIVE  with her mother and two stepsisters called **** LILIAN rosa LILLIAN ROSE OH   were very ********** *** **** **** lazy girls they spent all THE   time BY     new clothes and going to parties **** AND     had to wear *** ***** *** **** OVERALL HAND-ME-DOWNS and she had to do the cleaning one day * royal messenger came to ******** * KNOW the **** BOWL  be held at the royal palace in honour of the queen's only son prince william **** and **** ******* **** *** ****** prince ******* WILLIAM'S gorgeous and he was looking for a ***** **** BRIGHT  THE DREAM   WEDDINGS when the evening of the ball arrived ******* SAYING THAT help *** ASSIST  get ready **** THERE in a bad mood THAT I      wanted to buy some new GAMES WITH their mother said that ****** THEY that they had enough GETTING so they START TO CHAT    AND      SEND IT      ON   my JULES YEAH   THE    one find my *** 
+Eval:                            D D                               I I     I    S        S      S   S       S       S                                                D    S           S       S    S              D          D   D    D                              S          S                                       D    S                   D   D     D   D    S       S                                                    D                         D        D S        D    S                                                                                  D        D    D       D    D   D             D       S                                           D     D    S       S   S       S                                             D       S      S         D   S                 D    S                   I    S                             S     S                           D      S                         S               I     I  S       S        S    S       S       I     S      S                  D   
+
+>> REF:  HOWLED THE     OTHER they wanted **** ******* HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  HEART  HEALTHY ORDER they wanted HAIR BRUSHES HAIR        PINS     and hairspray 
+>> Eval: S      S       S                 I    I       S           S                      
+
+

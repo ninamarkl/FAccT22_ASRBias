@@ -1,0 +1,124 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin26_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   27.5%   (  19)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   72.5%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  at ==> and
+   2:    1  ->  bob ==> back
+   3:    1  ->  call ==> course
+   4:    1  ->  five ==> piece
+   5:    1  ->  fresh ==> which
+   6:    1  ->  frog ==> park
+   7:    1  ->  of ==> off
+   8:    1  ->  of ==> ofthe
+   9:    1  ->  please ==> police
+  10:    1  ->  slabs ==> laps
+  11:    1  ->  snack ==> slag
+  12:    1  ->  spoons ==> points
+  13:    1  ->  stella ==> data
+  14:    1  ->  thick ==> fifty-six
+  15:    1  ->  wednesday ==> they
+  16:    1  ->  will ==> were
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  when
+   2:    1  ->  will
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  peas
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  of
+   2:    1  ->  at
+   3:    1  ->  bob
+   4:    1  ->  call
+   5:    1  ->  five
+   6:    1  ->  fresh
+   7:    1  ->  frog
+   8:    1  ->  please
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  spoons
+  12:    1  ->  stella
+  13:    1  ->  thick
+  14:    1  ->  wednesday
+  15:    1  ->  will
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  and
+   2:    1  ->  back
+   3:    1  ->  course
+   4:    1  ->  data
+   5:    1  ->  fifty-six
+   6:    1  ->  laps
+   7:    1  ->  off
+   8:    1  ->  ofthe
+   9:    1  ->  park
+  10:    1  ->  piece
+  11:    1  ->  points
+  12:    1  ->  police
+  13:    1  ->  slag
+  14:    1  ->  they
+  15:    1  ->  were
+  16:    1  ->  which
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

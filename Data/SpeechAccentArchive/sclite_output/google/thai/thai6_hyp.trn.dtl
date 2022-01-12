@@ -1,0 +1,135 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: thai\thai6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   52.2%   (  36)
+
+Percent Correct           =   47.8%   (  33)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =   30.4%   (  21)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   47.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  48)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  blue ==> off
+   3:    1  ->  call ==> car
+   4:    1  ->  cheese ==> bullshits
+   5:    1  ->  fresh ==> fish
+   6:    1  ->  go ==> call
+   7:    1  ->  meet ==> me
+   8:    1  ->  of ==> 56
+   9:    1  ->  please ==> piece
+  10:    1  ->  red ==> three
+  11:    1  ->  scoop ==> cope
+  12:    1  ->  snake ==> bottle
+  13:    1  ->  spoons ==> phones
+  14:    1  ->  things ==> thing
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  a
+   2:    1  ->  3
+   3:    1  ->  5
+   4:    1  ->  also
+   5:    1  ->  ask
+   6:    1  ->  big
+   7:    1  ->  bob
+   8:    1  ->  bring
+   9:    1  ->  brother
+  10:    1  ->  for
+  11:    1  ->  frog
+  12:    1  ->  her
+  13:    1  ->  need
+  14:    1  ->  plastic
+  15:    1  ->  slabs
+  16:    1  ->  small
+  17:    1  ->  thick
+  18:    1  ->  to
+  19:    1  ->  toy
+  20:    1  ->  we
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  these
+   2:    1  ->  blue
+   3:    1  ->  call
+   4:    1  ->  cheese
+   5:    1  ->  fresh
+   6:    1  ->  go
+   7:    1  ->  meet
+   8:    1  ->  of
+   9:    1  ->  please
+  10:    1  ->  red
+  11:    1  ->  scoop
+  12:    1  ->  snake
+  13:    1  ->  spoons
+  14:    1  ->  things
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  this
+   2:    1  ->  56
+   3:    1  ->  bottle
+   4:    1  ->  bullshits
+   5:    1  ->  call
+   6:    1  ->  car
+   7:    1  ->  cope
+   8:    1  ->  fish
+   9:    1  ->  me
+  10:    1  ->  off
+  11:    1  ->  phones
+  12:    1  ->  piece
+  13:    1  ->  thing
+  14:    1  ->  three
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,113 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: arabic\arabic1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   73.9%   (  51)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  these ==> this
+   2:    1  ->  at ==> when
+   3:    1  ->  bob ==> but
+   4:    1  ->  her ==> care
+   5:    1  ->  her ==> hair
+   6:    1  ->  slabs ==> sleep
+   7:    1  ->  snack ==> snake
+   8:    1  ->  spoons ==> spoon
+   9:    1  ->  store ==> or
+  10:    1  ->  the ==> is
+  11:    1  ->  the ==> rest
+  12:    1  ->  thick ==> bs56
+  13:    1  ->  wednesday ==> here
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  5
+   2:    1  ->  frog
+   3:    1  ->  her
+   4:    1  ->  peas
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  her
+   2:    2  ->  the
+   3:    2  ->  these
+   4:    1  ->  at
+   5:    1  ->  bob
+   6:    1  ->  slabs
+   7:    1  ->  snack
+   8:    1  ->  spoons
+   9:    1  ->  store
+  10:    1  ->  thick
+  11:    1  ->  wednesday
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  this
+   2:    1  ->  bs56
+   3:    1  ->  but
+   4:    1  ->  care
+   5:    1  ->  hair
+   6:    1  ->  here
+   7:    1  ->  is
+   8:    1  ->  or
+   9:    1  ->  rest
+  10:    1  ->  sleep
+  11:    1  ->  snake
+  12:    1  ->  spoon
+  13:    1  ->  when
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.

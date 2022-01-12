@@ -1,0 +1,122 @@
+SCORING FOR SPEAKER: c-r
+     of amazon\c-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.6%   (  22)
+
+Percent Correct           =   89.9%   ( 170)
+
+Percent Substitution      =    7.4%   (  14)
+Percent Deletions         =    2.6%   (   5)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   88.4%
+
+
+Ref. words                =           ( 189)
+Hyp. words                =           ( 187)
+Aligned words             =           ( 192)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> lillian
+   3:    1  ->  and ==> rose
+   4:    1  ->  cinders ==> singers
+   5:    1  ->  howled ==> held
+   6:    1  ->  lily ==> lillian
+   7:    1  ->  rosa ==> i
+   8:    1  ->  sep ==> set
+   9:    1  ->  sepsisters ==> separatists
+  10:    1  ->  they ==> and
+  11:    1  ->  twostepsisters ==> stepsisters
+  12:    1  ->  were ==> they're
+  13:    1  ->  would ==> board
+  14:    1  ->  yelled ==> old
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  of
+   2:    1  ->  the
+   3:    1  ->  two
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  ball
+   2:    1  ->  lily
+   3:    1  ->  so
+   4:    1  ->  that
+   5:    1  ->  they
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  cinders
+   4:    1  ->  howled
+   5:    1  ->  lily
+   6:    1  ->  rosa
+   7:    1  ->  sep
+   8:    1  ->  sepsisters
+   9:    1  ->  they
+  10:    1  ->  twostepsisters
+  11:    1  ->  were
+  12:    1  ->  would
+  13:    1  ->  yelled
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  lillian
+   2:    1  ->  and
+   3:    1  ->  board
+   4:    1  ->  held
+   5:    1  ->  i
+   6:    1  ->  old
+   7:    1  ->  rose
+   8:    1  ->  separatists
+   9:    1  ->  set
+  10:    1  ->  singers
+  11:    1  ->  stepsisters
+  12:    1  ->  the
+  13:    1  ->  they're
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

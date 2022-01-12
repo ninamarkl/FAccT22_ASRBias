@@ -1,0 +1,124 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish19_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   39.1%   (  27)
+
+Percent Correct           =   76.8%   (  53)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =   15.9%   (  11)
+Percent Word Accuracy     =   60.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  78)
+Aligned words             =           (  80)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  ask ==> as
+   2:    1  ->  bags ==> go
+   3:    1  ->  call ==> go
+   4:    1  ->  cheese ==> she's
+   5:    1  ->  five ==> piece
+   6:    1  ->  meet ==> made
+   7:    1  ->  of ==> ofthe
+   8:    1  ->  of ==> with
+   9:    1  ->  slabs ==> laps
+  10:    1  ->  store ==> tour
+  11:    1  ->  the ==> this
+  12:    1  ->  these ==> sculpt
+  13:    1  ->  these ==> this
+  14:    1  ->  thick ==> fifty-six
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  backs
+   4:    1  ->  big
+   5:    1  ->  from
+   6:    1  ->  kids
+   7:    1  ->  the
+   8:    1  ->  toy
+   9:    1  ->  we
+  10:    1  ->  will
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  peas
+   2:    1  ->  scoop
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    1  ->  ask
+   4:    1  ->  bags
+   5:    1  ->  call
+   6:    1  ->  cheese
+   7:    1  ->  five
+   8:    1  ->  meet
+   9:    1  ->  slabs
+  10:    1  ->  store
+  11:    1  ->  the
+  12:    1  ->  thick
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  go
+   2:    2  ->  this
+   3:    1  ->  as
+   4:    1  ->  fifty-six
+   5:    1  ->  laps
+   6:    1  ->  made
+   7:    1  ->  ofthe
+   8:    1  ->  piece
+   9:    1  ->  sculpt
+  10:    1  ->  she's
+  11:    1  ->  tour
+  12:    1  ->  with
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

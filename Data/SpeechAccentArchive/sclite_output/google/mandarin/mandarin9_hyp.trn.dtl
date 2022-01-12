@@ -1,0 +1,146 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin9_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   68.1%   (  47)
+
+Percent Correct           =   31.9%   (  22)
+
+Percent Substitution      =   23.2%   (  16)
+Percent Deletions         =   44.9%   (  31)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   31.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  38)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  6 ==> of
+   2:    1  ->  also ==> i
+   3:    1  ->  blue ==> find
+   4:    1  ->  cheese ==> butchers
+   5:    1  ->  from ==> friends
+   6:    1  ->  of ==> friend
+   7:    1  ->  of ==> please
+   8:    1  ->  scoop ==> can't
+   9:    1  ->  snake ==> snap
+  10:    1  ->  spoons ==> a
+  11:    1  ->  the ==> a
+  12:    1  ->  the ==> west
+  13:    1  ->  these ==> school
+  14:    1  ->  things ==> listens
+  15:    1  ->  things ==> sings
+  16:    1  ->  we ==> but
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  a
+   2:    2  ->  her
+   3:    1  ->  3
+   4:    1  ->  5
+   5:    1  ->  and
+   6:    1  ->  ask
+   7:    1  ->  at
+   8:    1  ->  bags
+   9:    1  ->  big
+  10:    1  ->  bob
+  11:    1  ->  bring
+  12:    1  ->  can
+  13:    1  ->  for
+  14:    1  ->  frog
+  15:    1  ->  go
+  16:    1  ->  kids
+  17:    1  ->  maybe
+  18:    1  ->  meet
+  19:    1  ->  peas
+  20:    1  ->  red
+  21:    1  ->  slabs
+  22:    1  ->  the
+  23:    1  ->  these
+  24:    1  ->  thick
+  25:    1  ->  to
+  26:    1  ->  toy
+  27:    1  ->  we
+  28:    1  ->  wednesday
+  29:    1  ->  will
+     -------
+        31
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  of
+   2:    2  ->  the
+   3:    2  ->  things
+   4:    1  ->  6
+   5:    1  ->  also
+   6:    1  ->  blue
+   7:    1  ->  cheese
+   8:    1  ->  from
+   9:    1  ->  scoop
+  10:    1  ->  snake
+  11:    1  ->  spoons
+  12:    1  ->  these
+  13:    1  ->  we
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  a
+   2:    1  ->  but
+   3:    1  ->  butchers
+   4:    1  ->  can't
+   5:    1  ->  find
+   6:    1  ->  friend
+   7:    1  ->  friends
+   8:    1  ->  i
+   9:    1  ->  listens
+  10:    1  ->  of
+  11:    1  ->  please
+  12:    1  ->  school
+  13:    1  ->  sings
+  14:    1  ->  snap
+  15:    1  ->  west
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

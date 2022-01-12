@@ -1,0 +1,234 @@
+SCORING FOR SPEAKER: d-r
+     of google\d-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   49.8%   ( 103)
+
+Percent Correct           =   52.2%   ( 108)
+
+Percent Substitution      =   22.7%   (  47)
+Percent Deletions         =   25.1%   (  52)
+Percent Insertions        =    1.9%   (   4)
+Percent Word Accuracy     =   50.2%
+
+
+Ref. words                =           ( 207)
+Hyp. words                =           ( 159)
+Aligned words             =           ( 211)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  gowns ==> games
+   2:    2  ->  ball ==> about
+   3:    2  ->  were ==> there
+   4:    1  ->  a ==> spotify
+   5:    1  ->  a ==> teeny
+   6:    1  ->  but ==> for
+   7:    1  ->  buying ==> buy
+   8:    1  ->  cinders ==> sinners
+   9:    1  ->  downs ==> hamiltones
+  10:    1  ->  dreamed ==> dream
+  11:    1  ->  find ==> dlfifteen
+  12:    1  ->  had ==> how
+  13:    1  ->  hairbrushes ==> hair
+  14:    1  ->  hairpins ==> pins
+  15:    1  ->  hat ==> heart
+  16:    1  ->  her ==> the
+  17:    1  ->  howled ==> tell
+  18:    1  ->  lily ==> rosie
+  19:    1  ->  lived ==> dress
+  20:    1  ->  mother ==> they
+  21:    1  ->  of ==> day
+  22:    1  ->  one ==> find-module
+  23:    1  ->  rosa ==> rosie
+  24:    1  ->  sisters ==> resistors
+  25:    1  ->  some ==> games
+  26:    1  ->  stepsin ==> steps
+  27:    1  ->  stepsisters ==> sister's
+  28:    1  ->  the ==> good
+  29:    1  ->  their ==> that
+  30:    1  ->  their ==> the
+  31:    1  ->  their ==> were
+  32:    1  ->  they ==> terrible
+  33:    1  ->  they ==> the
+  34:    1  ->  they'd ==> that
+  35:    1  ->  time ==> i
+  36:    1  ->  time ==> in
+  37:    1  ->  to ==> teeny
+  38:    1  ->  upon ==> what
+  39:    1  ->  wanted ==> she's
+  40:    1  ->  wanted ==> wants
+  41:    1  ->  was ==> he's
+  42:    1  ->  was ==> is
+  43:    1  ->  yelled ==> cinemas
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  all
+   2:    1  ->  order
+   3:    1  ->  they
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    4  ->  cinders
+   2:    3  ->  they
+   3:    2  ->  and
+   4:    2  ->  cleaning
+   5:    2  ->  had
+   6:    2  ->  her
+   7:    2  ->  rosa
+   8:    2  ->  that
+   9:    1  ->  a
+  10:    1  ->  all
+  11:    1  ->  but
+  12:    1  ->  buy
+  13:    1  ->  called
+  14:    1  ->  day
+  15:    1  ->  divine
+  16:    1  ->  everyone
+  17:    1  ->  find
+  18:    1  ->  gowns
+  19:    1  ->  hand
+  20:    1  ->  he
+  21:    1  ->  jewels
+  22:    1  ->  lily
+  23:    1  ->  me
+  24:    1  ->  my
+  25:    1  ->  of
+  26:    1  ->  once
+  27:    1  ->  one
+  28:    1  ->  poor
+  29:    1  ->  she
+  30:    1  ->  spent
+  31:    1  ->  the
+  32:    1  ->  they'd
+  33:    1  ->  this
+  34:    1  ->  thought
+  35:    1  ->  to
+  36:    1  ->  unfriendly
+  37:    1  ->  very
+  38:    1  ->  wanted
+  39:    1  ->  was
+  40:    1  ->  when
+  41:    1  ->  would
+     -------
+        52
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    3  ->  gowns
+   2:    3  ->  their
+   3:    2  ->  a
+   4:    2  ->  ball
+   5:    2  ->  they
+   6:    2  ->  time
+   7:    2  ->  wanted
+   8:    2  ->  was
+   9:    2  ->  were
+  10:    1  ->  but
+  11:    1  ->  buying
+  12:    1  ->  cinders
+  13:    1  ->  downs
+  14:    1  ->  dreamed
+  15:    1  ->  find
+  16:    1  ->  had
+  17:    1  ->  hairbrushes
+  18:    1  ->  hairpins
+  19:    1  ->  hat
+  20:    1  ->  her
+  21:    1  ->  howled
+  22:    1  ->  lily
+  23:    1  ->  lived
+  24:    1  ->  mother
+  25:    1  ->  of
+  26:    1  ->  one
+  27:    1  ->  rosa
+  28:    1  ->  sisters
+  29:    1  ->  some
+  30:    1  ->  stepsin
+  31:    1  ->  stepsisters
+  32:    1  ->  the
+  33:    1  ->  they'd
+  34:    1  ->  to
+  35:    1  ->  upon
+  36:    1  ->  yelled
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    4  ->  games
+   2:    3  ->  the
+   3:    2  ->  about
+   4:    2  ->  rosie
+   5:    2  ->  teeny
+   6:    2  ->  that
+   7:    2  ->  there
+   8:    1  ->  buy
+   9:    1  ->  cinemas
+  10:    1  ->  day
+  11:    1  ->  dlfifteen
+  12:    1  ->  dream
+  13:    1  ->  dress
+  14:    1  ->  find-module
+  15:    1  ->  for
+  16:    1  ->  good
+  17:    1  ->  hair
+  18:    1  ->  hamiltones
+  19:    1  ->  he's
+  20:    1  ->  heart
+  21:    1  ->  how
+  22:    1  ->  i
+  23:    1  ->  in
+  24:    1  ->  is
+  25:    1  ->  pins
+  26:    1  ->  resistors
+  27:    1  ->  she's
+  28:    1  ->  sinners
+  29:    1  ->  sister's
+  30:    1  ->  spotify
+  31:    1  ->  steps
+  32:    1  ->  tell
+  33:    1  ->  terrible
+  34:    1  ->  they
+  35:    1  ->  wants
+  36:    1  ->  were
+  37:    1  ->  what
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

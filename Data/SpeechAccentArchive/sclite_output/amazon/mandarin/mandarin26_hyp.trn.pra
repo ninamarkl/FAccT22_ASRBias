@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\mandarin\mandarin26_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 52 16 1 2
+REF:  PLEASE CALL   STELLA ask her to bring these things with her from the store six SPOONS OF  FRESH snow PEAS FIVE  THICK     SLABS OF    blue cheese and maybe a SNACK for her brother BOB  we **** also need a small plastic snake and a big toy FROG for the kids she can scoop these things into three red bags and we WILL go meet her **** WEDNESDAY AT  the train station 
+HYP:  POLICE COURSE DATA   ask her to bring these things with her from the store six POINTS OFF WHICH snow **** PIECE FIFTY-SIX LAPS  OFTHE blue cheese and maybe a SLAG  for her brother BACK we WILL also need a small plastic snake and a big toy PARK for the kids she can scoop these things into three red bags and we WERE go meet her WHEN THEY      AND the train station 
+Eval: S      S      S                                                                S      S   S          D    S     S         S     S                             S                     S       I                                                  S                                                                       S                I    S         S                     
+
+

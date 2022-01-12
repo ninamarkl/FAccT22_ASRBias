@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:    amazon\thai\thai4_hyp.trn
+
+Speakers: 
+    0:  saa
+
+Speaker sentences   0:  saa   #utts: 1
+id: (saa_01)
+Scores: (#C #S #D #I) 40 24 5 0
+REF:  PLEASE CALL  STELLA ASK    HER    to bring these things with her from THE STORE   six SPOONS OF    FRESH SNOW PEAS FIVE  THICK SLABS OF   BLUE CHEESE and maybe a SNACK for her brother BOB we also need a small PLASTIC   SNAKE and a big toy FROG  for the KIDS she can scoop these things into three RED  BAGS and we WILL GO MEET   her wednesday at the train station 
+HYP:  ****** THESE CALLS  FELLER ANCHOR to bring these things with her from *** BRISTOL six ****** PULLS OFF   REST NO   PEACE FIGHT IT'S  LEFT OFF  GUCCIS and maybe a SNAP  for her brother BUT we also need a small PROSPECTS NECK  and a big toy FRAUD for the KISS she can scoop these things into three LESS BEST and we **** ** COMMIT her wednesday at the train station 
+Eval: D      S     S      S      S                                          D   S           D      S     S     S    S    S     S     S     S    S    S                  S                     S                        S         S                   S             S                                          S    S           D    D  S                                         
+
+

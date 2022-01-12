@@ -1,0 +1,128 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\thai\thai7_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   27.5%   (  19)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    2.9%   (   2)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  71)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  these ==> this
+   2:    2  ->  things ==> thing
+   3:    1  ->  ask ==> asked
+   4:    1  ->  bags ==> back
+   5:    1  ->  brother ==> bladder
+   6:    1  ->  call ==> a
+   7:    1  ->  cheese ==> she's
+   8:    1  ->  five ==> snoopy
+   9:    1  ->  fresh ==> point
+  10:    1  ->  frog ==> for
+  11:    1  ->  of ==> ofthe
+  12:    1  ->  peas ==> less
+  13:    1  ->  red ==> lead
+  14:    1  ->  slabs ==> laps
+  15:    1  ->  snow ==> off
+  16:    1  ->  stella ==> lot
+  17:    1  ->  thick ==> fifty-six
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  cost
+   2:    1  ->  flaw
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  of
+   2:    1  ->  spoons
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  these
+   2:    2  ->  things
+   3:    1  ->  ask
+   4:    1  ->  bags
+   5:    1  ->  brother
+   6:    1  ->  call
+   7:    1  ->  cheese
+   8:    1  ->  five
+   9:    1  ->  fresh
+  10:    1  ->  frog
+  11:    1  ->  of
+  12:    1  ->  peas
+  13:    1  ->  red
+  14:    1  ->  slabs
+  15:    1  ->  snow
+  16:    1  ->  stella
+  17:    1  ->  thick
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  thing
+   2:    2  ->  this
+   3:    1  ->  a
+   4:    1  ->  asked
+   5:    1  ->  back
+   6:    1  ->  bladder
+   7:    1  ->  fifty-six
+   8:    1  ->  for
+   9:    1  ->  laps
+  10:    1  ->  lead
+  11:    1  ->  less
+  12:    1  ->  lot
+  13:    1  ->  off
+  14:    1  ->  ofthe
+  15:    1  ->  point
+  16:    1  ->  she's
+  17:    1  ->  snoopy
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

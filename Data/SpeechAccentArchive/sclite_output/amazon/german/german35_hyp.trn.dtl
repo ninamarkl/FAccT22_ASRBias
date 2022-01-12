@@ -1,0 +1,76 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\german\german35_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    1.4%   (   1)
+
+Percent Correct           =   98.6%   (  68)
+
+Percent Substitution      =    1.4%   (   1)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   98.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  ask ==> asked
+     -------
+         1
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  ask
+     -------
+         1
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  asked
+     -------
+         1
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

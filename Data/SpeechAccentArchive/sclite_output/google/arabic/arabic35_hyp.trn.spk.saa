@@ -1,0 +1,118 @@
+SCORING FOR SPEAKER: saa
+     of arabic\arabic35_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   46.4%   (  32)
+
+Percent Correct           =   53.6%   (  37)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =   34.8%   (  24)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   53.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  45)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5 ==> ds5
+   2:    1  ->  6 ==> sixth
+   3:    1  ->  frog ==> kids
+   4:    1  ->  peas ==> personal
+   5:    1  ->  snack ==> sticks
+   6:    1  ->  spoons ==> forms
+   7:    1  ->  stella ==> stela
+   8:    1  ->  thick ==> 6
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  a
+   2:    3  ->  and
+   3:    1  ->  3
+   4:    1  ->  also
+   5:    1  ->  bags
+   6:    1  ->  big
+   7:    1  ->  bob
+   8:    1  ->  brother
+   9:    1  ->  fresh
+  10:    1  ->  her
+  11:    1  ->  into
+  12:    1  ->  maybe
+  13:    1  ->  need
+  14:    1  ->  plastic
+  15:    1  ->  red
+  16:    1  ->  small
+  17:    1  ->  snake
+  18:    1  ->  snow
+  19:    1  ->  toy
+  20:    1  ->  we
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  frog
+   4:    1  ->  peas
+   5:    1  ->  snack
+   6:    1  ->  spoons
+   7:    1  ->  stella
+   8:    1  ->  thick
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  6
+   2:    1  ->  ds5
+   3:    1  ->  forms
+   4:    1  ->  kids
+   5:    1  ->  personal
+   6:    1  ->  sixth
+   7:    1  ->  stela
+   8:    1  ->  sticks
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

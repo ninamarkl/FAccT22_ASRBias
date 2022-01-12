@@ -1,0 +1,160 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic69_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   50.7%   (  35)
+
+Percent Correct           =   50.7%   (  35)
+
+Percent Substitution      =   42.0%   (  29)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   49.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  and ==> on
+   2:    1  ->  ask ==> asked
+   3:    1  ->  at ==> is
+   4:    1  ->  bags ==> backs
+   5:    1  ->  blue ==> loves
+   6:    1  ->  brother ==> of
+   7:    1  ->  cheese ==> britches
+   8:    1  ->  five ==> personal
+   9:    1  ->  frog ==> for
+  10:    1  ->  her ==> far
+  11:    1  ->  into ==> thinks
+  12:    1  ->  need ==> made
+  13:    1  ->  of ==> six
+  14:    1  ->  peas ==> off
+  15:    1  ->  red ==> twenty-three
+  16:    1  ->  slabs ==> by
+  17:    1  ->  snake ==> snack
+  18:    1  ->  snow ==> pools
+  19:    1  ->  stella ==> stellar
+  20:    1  ->  these ==> me
+  21:    1  ->  these ==> scuba
+  22:    1  ->  thick ==> piece
+  23:    1  ->  things ==> lee
+  24:    1  ->  three ==> you
+  25:    1  ->  we ==> who
+  26:    1  ->  we ==> you
+  27:    1  ->  wednesday ==> when
+  28:    1  ->  with ==> is
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  blood
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  fresh
+   3:    1  ->  of
+   4:    1  ->  scoop
+   5:    1  ->  spoons
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  and
+   2:    2  ->  these
+   3:    2  ->  we
+   4:    1  ->  ask
+   5:    1  ->  at
+   6:    1  ->  bags
+   7:    1  ->  blue
+   8:    1  ->  brother
+   9:    1  ->  cheese
+  10:    1  ->  five
+  11:    1  ->  frog
+  12:    1  ->  her
+  13:    1  ->  into
+  14:    1  ->  need
+  15:    1  ->  of
+  16:    1  ->  peas
+  17:    1  ->  red
+  18:    1  ->  slabs
+  19:    1  ->  snake
+  20:    1  ->  snow
+  21:    1  ->  stella
+  22:    1  ->  thick
+  23:    1  ->  things
+  24:    1  ->  three
+  25:    1  ->  wednesday
+  26:    1  ->  with
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  is
+   2:    2  ->  on
+   3:    2  ->  you
+   4:    1  ->  asked
+   5:    1  ->  backs
+   6:    1  ->  britches
+   7:    1  ->  by
+   8:    1  ->  far
+   9:    1  ->  for
+  10:    1  ->  lee
+  11:    1  ->  loves
+  12:    1  ->  made
+  13:    1  ->  me
+  14:    1  ->  of
+  15:    1  ->  off
+  16:    1  ->  personal
+  17:    1  ->  piece
+  18:    1  ->  pools
+  19:    1  ->  scuba
+  20:    1  ->  six
+  21:    1  ->  snack
+  22:    1  ->  stellar
+  23:    1  ->  thinks
+  24:    1  ->  twenty-three
+  25:    1  ->  when
+  26:    1  ->  who
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

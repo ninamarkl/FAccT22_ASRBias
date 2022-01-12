@@ -1,0 +1,97 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french25_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.0%   (   9)
+
+Percent Correct           =   88.4%   (  61)
+
+Percent Substitution      =   10.1%   (   7)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   87.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  at ==> get
+   3:    1  ->  her ==> a
+   4:    1  ->  peas ==> peace
+   5:    1  ->  snow ==> no
+   6:    1  ->  stella ==> costello
+   7:    1  ->  wednesday ==> they
+     -------
+         7
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  once
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  call
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and
+   2:    1  ->  at
+   3:    1  ->  her
+   4:    1  ->  peas
+   5:    1  ->  snow
+   6:    1  ->  stella
+   7:    1  ->  wednesday
+     -------
+         7
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  costello
+   3:    1  ->  get
+   4:    1  ->  no
+   5:    1  ->  on
+   6:    1  ->  peace
+   7:    1  ->  they
+     -------
+         7
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

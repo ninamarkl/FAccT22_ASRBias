@@ -1,0 +1,161 @@
+SCORING FOR SPEAKER: p-r
+     of google\p-rea1-m4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.7%   (  40)
+
+Percent Correct           =   79.9%   ( 147)
+
+Percent Substitution      =   15.8%   (  29)
+Percent Deletions         =    4.3%   (   8)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   78.3%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 179)
+Aligned words             =           ( 187)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  cinders ==> singers
+   2:    2  ->  rosa ==> rosie
+   3:    1  ->  and ==> i'm
+   4:    1  ->  ball ==> world
+   5:    1  ->  but ==> for
+   6:    1  ->  called ==> call
+   7:    1  ->  cinders ==> does
+   8:    1  ->  gowns ==> guns
+   9:    1  ->  had ==> how
+  10:    1  ->  hairbrushes ==> hair
+  11:    1  ->  hairpins ==> pins
+  12:    1  ->  hairsprays ==> sprays
+  13:    1  ->  hand ==> all
+  14:    1  ->  honour ==> hannah
+  15:    1  ->  howled ==> heart
+  16:    1  ->  jewels ==> your
+  17:    1  ->  lily ==> lilley
+  18:    1  ->  my ==> myjoolz
+  19:    1  ->  old ==> and
+  20:    1  ->  old ==> own
+  21:    1  ->  other ==> they
+  22:    1  ->  poor ==> passing
+  23:    1  ->  said ==> stated
+  24:    1  ->  the ==> how
+  25:    1  ->  they'd ==> did
+  26:    1  ->  williams ==> william's
+  27:    1  ->  yelled ==> old
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  hair
+   2:    1  ->  brushes
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  a
+   2:    1  ->  announ
+   3:    1  ->  ball
+   4:    1  ->  cinders
+   5:    1  ->  divine
+   6:    1  ->  hat
+   7:    1  ->  mother
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  cinders
+   2:    2  ->  old
+   3:    2  ->  rosa
+   4:    1  ->  and
+   5:    1  ->  ball
+   6:    1  ->  but
+   7:    1  ->  called
+   8:    1  ->  gowns
+   9:    1  ->  had
+  10:    1  ->  hairbrushes
+  11:    1  ->  hairpins
+  12:    1  ->  hairsprays
+  13:    1  ->  hand
+  14:    1  ->  honour
+  15:    1  ->  howled
+  16:    1  ->  jewels
+  17:    1  ->  lily
+  18:    1  ->  my
+  19:    1  ->  other
+  20:    1  ->  poor
+  21:    1  ->  said
+  22:    1  ->  the
+  23:    1  ->  they'd
+  24:    1  ->  williams
+  25:    1  ->  yelled
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  how
+   2:    2  ->  rosie
+   3:    2  ->  singers
+   4:    1  ->  all
+   5:    1  ->  and
+   6:    1  ->  call
+   7:    1  ->  did
+   8:    1  ->  does
+   9:    1  ->  for
+  10:    1  ->  guns
+  11:    1  ->  hair
+  12:    1  ->  hannah
+  13:    1  ->  heart
+  14:    1  ->  i'm
+  15:    1  ->  lilley
+  16:    1  ->  myjoolz
+  17:    1  ->  old
+  18:    1  ->  own
+  19:    1  ->  passing
+  20:    1  ->  pins
+  21:    1  ->  sprays
+  22:    1  ->  stated
+  23:    1  ->  they
+  24:    1  ->  william's
+  25:    1  ->  world
+  26:    1  ->  your
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,162 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\p-rea1-m6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   22.7%   (  41)
+
+Percent Correct           =   81.8%   ( 148)
+
+Percent Substitution      =   16.0%   (  29)
+Percent Deletions         =    2.2%   (   4)
+Percent Insertions        =    4.4%   (   8)
+Percent Word Accuracy     =   77.3%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 185)
+Aligned words             =           ( 189)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  cinders ==> singers
+   2:    1  ->  and ==> her
+   3:    1  ->  at ==> saying
+   4:    1  ->  ball ==> about
+   5:    1  ->  cinders ==> there
+   6:    1  ->  cinders ==> this
+   7:    1  ->  divine ==> doing
+   8:    1  ->  gowns ==> count
+   9:    1  ->  gowns ==> counts
+  10:    1  ->  hairbrushes ==> happens
+  11:    1  ->  hairpins ==> on
+  12:    1  ->  hairspray ==> spray
+  13:    1  ->  hat ==> how
+  14:    1  ->  her ==> us
+  15:    1  ->  howled ==> all
+  16:    1  ->  me ==> handmade
+  17:    1  ->  new ==> knew
+  18:    1  ->  parties ==> party
+  19:    1  ->  poor ==> posting
+  20:    1  ->  rosa ==> it
+  21:    1  ->  son ==> allyson
+  22:    1  ->  stepsisters ==> sisters
+  23:    1  ->  their ==> the
+  24:    1  ->  their ==> they
+  25:    1  ->  they ==> you
+  26:    1  ->  they'd ==> had
+  27:    1  ->  yelled ==> yellow
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  brushes
+   3:    1  ->  heart
+   4:    1  ->  her
+   5:    1  ->  rose
+   6:    1  ->  step
+   7:    1  ->  the
+   8:    1  ->  they
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  hand
+   3:    1  ->  once
+   4:    1  ->  only
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    5  ->  cinders
+   2:    2  ->  gowns
+   3:    2  ->  their
+   4:    1  ->  and
+   5:    1  ->  at
+   6:    1  ->  ball
+   7:    1  ->  divine
+   8:    1  ->  hairbrushes
+   9:    1  ->  hairpins
+  10:    1  ->  hairspray
+  11:    1  ->  hat
+  12:    1  ->  her
+  13:    1  ->  howled
+  14:    1  ->  me
+  15:    1  ->  new
+  16:    1  ->  parties
+  17:    1  ->  poor
+  18:    1  ->  rosa
+  19:    1  ->  son
+  20:    1  ->  stepsisters
+  21:    1  ->  they
+  22:    1  ->  they'd
+  23:    1  ->  yelled
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  singers
+   2:    1  ->  about
+   3:    1  ->  all
+   4:    1  ->  allyson
+   5:    1  ->  count
+   6:    1  ->  counts
+   7:    1  ->  doing
+   8:    1  ->  had
+   9:    1  ->  handmade
+  10:    1  ->  happens
+  11:    1  ->  her
+  12:    1  ->  how
+  13:    1  ->  it
+  14:    1  ->  knew
+  15:    1  ->  on
+  16:    1  ->  party
+  17:    1  ->  posting
+  18:    1  ->  saying
+  19:    1  ->  sisters
+  20:    1  ->  spray
+  21:    1  ->  the
+  22:    1  ->  there
+  23:    1  ->  they
+  24:    1  ->  this
+  25:    1  ->  us
+  26:    1  ->  yellow
+  27:    1  ->  you
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

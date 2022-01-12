@@ -1,0 +1,139 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\italian\italian5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   66.7%   (  46)
+
+Percent Substitution      =   30.4%   (  21)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  a ==> does
+   2:    1  ->  also ==> he'll
+   3:    1  ->  can ==> has
+   4:    1  ->  cheese ==> tees
+   5:    1  ->  five ==> by
+   6:    1  ->  her ==> metre
+   7:    1  ->  need ==> certainly
+   8:    1  ->  of ==> off
+   9:    1  ->  peas ==> piece
+  10:    1  ->  red ==> rat
+  11:    1  ->  scoop ==> cooked
+  12:    1  ->  she ==> he
+  13:    1  ->  slabs ==> laps
+  14:    1  ->  small ==> mould
+  15:    1  ->  snow ==> nall
+  16:    1  ->  spoons ==> pulls
+  17:    1  ->  stella ==> still
+  18:    1  ->  these ==> this
+  19:    1  ->  thick ==> six
+  20:    1  ->  three ==> tree
+  21:    1  ->  toy ==> tie
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  meet
+   2:    1  ->  we
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  a
+   2:    1  ->  also
+   3:    1  ->  can
+   4:    1  ->  cheese
+   5:    1  ->  five
+   6:    1  ->  her
+   7:    1  ->  need
+   8:    1  ->  of
+   9:    1  ->  peas
+  10:    1  ->  red
+  11:    1  ->  scoop
+  12:    1  ->  she
+  13:    1  ->  slabs
+  14:    1  ->  small
+  15:    1  ->  snow
+  16:    1  ->  spoons
+  17:    1  ->  stella
+  18:    1  ->  these
+  19:    1  ->  thick
+  20:    1  ->  three
+  21:    1  ->  toy
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  by
+   2:    1  ->  certainly
+   3:    1  ->  cooked
+   4:    1  ->  does
+   5:    1  ->  has
+   6:    1  ->  he
+   7:    1  ->  he'll
+   8:    1  ->  laps
+   9:    1  ->  metre
+  10:    1  ->  mould
+  11:    1  ->  nall
+  12:    1  ->  off
+  13:    1  ->  piece
+  14:    1  ->  pulls
+  15:    1  ->  rat
+  16:    1  ->  six
+  17:    1  ->  still
+  18:    1  ->  tees
+  19:    1  ->  this
+  20:    1  ->  tie
+  21:    1  ->  tree
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

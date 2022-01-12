@@ -1,0 +1,81 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\english_uk\english206_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (   4)
+
+Percent Correct           =   95.7%   (  66)
+
+Percent Substitution      =    2.9%   (   2)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  red ==> rape
+   2:    1  ->  will ==> we'll
+     -------
+         2
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  from
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  we
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  red
+   2:    1  ->  will
+     -------
+         2
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  rape
+   2:    1  ->  we'll
+     -------
+         2
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

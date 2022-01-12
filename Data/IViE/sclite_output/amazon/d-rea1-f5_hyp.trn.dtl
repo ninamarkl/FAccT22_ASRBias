@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\d-rea1-f5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.4%   (  17)
+
+Percent Correct           =   91.7%   ( 165)
+
+Percent Substitution      =    7.8%   (  14)
+Percent Deletions         =    0.6%   (   1)
+Percent Insertions        =    1.1%   (   2)
+Percent Word Accuracy     =   90.6%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 181)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  gowns ==> gains
+   2:    1  ->  a ==> the
+   3:    1  ->  all ==> that
+   4:    1  ->  and ==> rose
+   5:    1  ->  cinders ==> singers
+   6:    1  ->  her ==> your
+   7:    1  ->  howled ==> held
+   8:    1  ->  lily ==> lillian
+   9:    1  ->  rosa ==> i
+  10:    1  ->  shouting ==> chatting
+  11:    1  ->  stepsisters ==> sisters
+  12:    1  ->  they'd ==> they
+  13:    1  ->  would ==> will
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  had
+   2:    1  ->  step
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  gowns
+   2:    1  ->  a
+   3:    1  ->  all
+   4:    1  ->  and
+   5:    1  ->  cinders
+   6:    1  ->  her
+   7:    1  ->  howled
+   8:    1  ->  lily
+   9:    1  ->  rosa
+  10:    1  ->  shouting
+  11:    1  ->  stepsisters
+  12:    1  ->  they'd
+  13:    1  ->  would
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  gains
+   2:    1  ->  chatting
+   3:    1  ->  held
+   4:    1  ->  i
+   5:    1  ->  lillian
+   6:    1  ->  rose
+   7:    1  ->  singers
+   8:    1  ->  sisters
+   9:    1  ->  that
+  10:    1  ->  the
+  11:    1  ->  they
+  12:    1  ->  will
+  13:    1  ->  your
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

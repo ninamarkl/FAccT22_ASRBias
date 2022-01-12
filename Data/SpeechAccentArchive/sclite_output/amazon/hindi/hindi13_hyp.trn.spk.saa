@@ -1,0 +1,149 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\hindi\hindi13_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.6%   (  28)
+
+Percent Correct           =   63.8%   (  44)
+
+Percent Substitution      =   36.2%   (  25)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   59.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  and ==> on
+   3:    1  ->  ask ==> asked
+   4:    1  ->  at ==> and
+   5:    1  ->  call ==> called
+   6:    1  ->  can ==> small
+   7:    1  ->  cheese ==> tees
+   8:    1  ->  five ==> fight
+   9:    1  ->  fresh ==> rest
+  10:    1  ->  her ==> his
+  11:    1  ->  into ==> tow
+  12:    1  ->  kids ==> seeking
+  13:    1  ->  please ==> he's
+  14:    1  ->  red ==> that
+  15:    1  ->  scoop ==> tea
+  16:    1  ->  she ==> a
+  17:    1  ->  slabs ==> slaps
+  18:    1  ->  spoons ==> points
+  19:    1  ->  store ==> studio
+  20:    1  ->  these ==> stains
+  21:    1  ->  thick ==> tick
+  22:    1  ->  things ==> in
+  23:    1  ->  we ==> they
+  24:    1  ->  wednesday ==> day
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  herb
+   2:    1  ->  in
+   3:    1  ->  kid
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  of
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  at
+   5:    1  ->  call
+   6:    1  ->  can
+   7:    1  ->  cheese
+   8:    1  ->  five
+   9:    1  ->  fresh
+  10:    1  ->  her
+  11:    1  ->  into
+  12:    1  ->  kids
+  13:    1  ->  please
+  14:    1  ->  red
+  15:    1  ->  scoop
+  16:    1  ->  she
+  17:    1  ->  slabs
+  18:    1  ->  spoons
+  19:    1  ->  store
+  20:    1  ->  these
+  21:    1  ->  thick
+  22:    1  ->  things
+  23:    1  ->  we
+  24:    1  ->  wednesday
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  off
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  asked
+   5:    1  ->  called
+   6:    1  ->  day
+   7:    1  ->  fight
+   8:    1  ->  he's
+   9:    1  ->  his
+  10:    1  ->  in
+  11:    1  ->  on
+  12:    1  ->  points
+  13:    1  ->  rest
+  14:    1  ->  seeking
+  15:    1  ->  slaps
+  16:    1  ->  small
+  17:    1  ->  stains
+  18:    1  ->  studio
+  19:    1  ->  tea
+  20:    1  ->  tees
+  21:    1  ->  that
+  22:    1  ->  they
+  23:    1  ->  tick
+  24:    1  ->  tow
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

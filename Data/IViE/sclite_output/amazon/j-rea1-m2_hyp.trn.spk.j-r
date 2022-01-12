@@ -1,0 +1,150 @@
+SCORING FOR SPEAKER: j-r
+     of amazon\j-rea1-m2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.6%   (  36)
+
+Percent Correct           =   84.0%   ( 163)
+
+Percent Substitution      =   11.9%   (  23)
+Percent Deletions         =    4.1%   (   8)
+Percent Insertions        =    2.6%   (   5)
+Percent Word Accuracy     =   81.4%
+
+
+Ref. words                =           ( 194)
+Hyp. words                =           ( 191)
+Aligned words             =           ( 199)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  leila ==> leela
+   2:    1  ->  ball ==> boom
+   3:    1  ->  buying ==> a
+   4:    1  ->  cinder ==> cinda
+   5:    1  ->  cinder ==> single
+   6:    1  ->  cinders ==> cinda
+   7:    1  ->  er ==> um
+   8:    1  ->  evening ==> even
+   9:    1  ->  gowns ==> guns
+  10:    1  ->  hairpins ==> happens
+  11:    1  ->  jewels ==> jews
+  12:    1  ->  leila ==> lena
+  13:    1  ->  me ==> handmade
+  14:    1  ->  other ==> how
+  15:    1  ->  queen's ==> queens
+  16:    1  ->  sisters ==> sister
+  17:    1  ->  sorry ==> so
+  18:    1  ->  spent ==> spend
+  19:    1  ->  stepsisters ==> sisters
+  20:    1  ->  the ==> went
+  21:    1  ->  william ==> william's
+  22:    1  ->  yelled ==> yard
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  by
+   3:    1  ->  ever
+   4:    1  ->  step
+   5:    1  ->  um
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  er
+   2:    1  ->  hand
+   3:    1  ->  hat
+   4:    1  ->  he
+   5:    1  ->  howled
+   6:    1  ->  started
+   7:    1  ->  the
+   8:    1  ->  when
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  leila
+   2:    2  ->  cinder
+   3:    1  ->  ball
+   4:    1  ->  buying
+   5:    1  ->  cinders
+   6:    1  ->  er
+   7:    1  ->  evening
+   8:    1  ->  gowns
+   9:    1  ->  hairpins
+  10:    1  ->  jewels
+  11:    1  ->  me
+  12:    1  ->  other
+  13:    1  ->  queen's
+  14:    1  ->  sisters
+  15:    1  ->  sorry
+  16:    1  ->  spent
+  17:    1  ->  stepsisters
+  18:    1  ->  the
+  19:    1  ->  william
+  20:    1  ->  yelled
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  cinda
+   2:    2  ->  leela
+   3:    1  ->  a
+   4:    1  ->  boom
+   5:    1  ->  even
+   6:    1  ->  guns
+   7:    1  ->  handmade
+   8:    1  ->  happens
+   9:    1  ->  how
+  10:    1  ->  jews
+  11:    1  ->  lena
+  12:    1  ->  queens
+  13:    1  ->  single
+  14:    1  ->  sister
+  15:    1  ->  sisters
+  16:    1  ->  so
+  17:    1  ->  spend
+  18:    1  ->  um
+  19:    1  ->  went
+  20:    1  ->  william's
+  21:    1  ->  yard
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

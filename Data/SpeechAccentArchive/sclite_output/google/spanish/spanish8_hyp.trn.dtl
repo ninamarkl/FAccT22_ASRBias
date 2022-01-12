@@ -1,0 +1,97 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish8_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.6%   (   8)
+
+Percent Correct           =   88.4%   (  61)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   88.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bob ==> but
+   2:    1  ->  kids ==> keys
+   3:    1  ->  peas ==> he's
+   4:    1  ->  slabs ==> lots
+   5:    1  ->  snow ==> now
+   6:    1  ->  spoons ==> pounds
+   7:    1  ->  these ==> this
+   8:    1  ->  thick ==> takes
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bob
+   2:    1  ->  kids
+   3:    1  ->  peas
+   4:    1  ->  slabs
+   5:    1  ->  snow
+   6:    1  ->  spoons
+   7:    1  ->  these
+   8:    1  ->  thick
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  but
+   2:    1  ->  he's
+   3:    1  ->  keys
+   4:    1  ->  lots
+   5:    1  ->  now
+   6:    1  ->  pounds
+   7:    1  ->  takes
+   8:    1  ->  this
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,106 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin20_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =   13.0%   (   9)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  60)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a ==> is
+   2:    1  ->  bob ==> bath
+   3:    1  ->  brother ==> another
+   4:    1  ->  frog ==> frogs
+   5:    1  ->  scoop ==> scope
+   6:    1  ->  slabs ==> glass
+   7:    1  ->  spoons ==> pounds
+   8:    1  ->  thick ==> 5-ft
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  her
+   2:    1  ->  5
+   3:    1  ->  ask
+   4:    1  ->  bring
+   5:    1  ->  plastic
+   6:    1  ->  small
+   7:    1  ->  these
+   8:    1  ->  to
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  bob
+   3:    1  ->  brother
+   4:    1  ->  frog
+   5:    1  ->  scoop
+   6:    1  ->  slabs
+   7:    1  ->  spoons
+   8:    1  ->  thick
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  5-ft
+   2:    1  ->  another
+   3:    1  ->  bath
+   4:    1  ->  frogs
+   5:    1  ->  glass
+   6:    1  ->  is
+   7:    1  ->  pounds
+   8:    1  ->  scope
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

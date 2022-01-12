@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\b-rea1-f1_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-f1_01)
+Scores: (#C #S #D #I) 75 24 80 4
+REF:  once upon a time there was a girl called cinderella but everyone called her CINDERS    CINDERS LIVED with her mother and *** two stepsisters called lily and ROSA  lily and ROSA were very unfriendly and they were lazy girls THEY SPENT ALL THEIR TIME BUYING NEW CLOTHES AND going to parties POOR CINDERS HAD TO WEAR ALL THEIR OLD HAND ME DOWNS AND SHE HAD TO DO THE CLEANING one day A royal messenger came to ANNOUNCE A BALL THE BALL WOULD BE HELD AT THE ROYAL PALACE IN     HONOUR of the queen's only son prince william LILY AND ROSA THOUGHT THIS    was divine PRINCE WILLIAM was gorgeous AND HE WAS LOOKING FOR A BRIDE THEY DREAMED OF WEDDING BELLS WHEN THE EVENING OF THE BALL ARRIVED CINDERS HAD TO HELP HER SISTERS get ready they WERE IN    A   bad mood THEY'D wanted to buy some new GOWNS  but THEIR mother said THAT THEY HAD    enough GOWNS so they started shouting AT CINDERS FIND MY JEWELS YELLED ONE FIND MY HAT        HOWLED the other they wanted *** ******* *** HAIRBRUSHES HAIRPINS 
+HYP:  once upon a time there was a girl called cinderella but everyone called her EASTENDERS LINDA'S LIVE  with her mother and HER two stepsisters called lily and ROSIE lily and THEY were very unfriendly and they were lazy girls **** ***** *** ***** **** ****** *** ******* *** going to parties **** ******* *** ** **** *** ***** *** **** ** ***** *** *** *** ** ** *** ******** one day * royal messenger came to ******** * **** *** **** ***** ** **** ** *** ***** ****** NINETY BOWL   of the queen's only son prince william **** *** WAS  THE     DARKEST was divine ****** ******* was gorgeous *** ** *** ******* *** * ***** **** ******* ** ******* ***** **** *** ******* ** *** **** ******* ******* *** ** **** *** JUST    get ready they **** WOULD NOT bad mood THEY   wanted to buy some new GROUND but THE   mother said **** **** THEY'D enough GANGS so they started shouting ** ******* **** ** ****** ****** *** **** ** EASTENDERS TELL   the other they wanted HER BRUSHES HER FRIENDS     IN       
+Eval:                                                                             S          S       S                         I                                   S              S                                                  D    D     D   D     D    D      D   D       D                    D    D       D   D  D    D   D     D   D    D  D     D   D   D   D  D  D   D                D                         D        D D    D   D    D     D  D    D  D   D     D      S      S                                             D    D   S    S       S                  D      D                    D   D  D   D       D   D D     D    D       D  D       D     D    D   D       D  D   D    D       D       D   D  D    D   S                      D    S     S            S                             S          S                 D    D    S             S                              D  D       D    D  D      D      D   D    D  S          S                            I   I       I   S           S        
+
+>> REF:  AND HAIRSPRAY 
+>> HYP:  HER SPRING    
+>> Eval: S   S         
+
+

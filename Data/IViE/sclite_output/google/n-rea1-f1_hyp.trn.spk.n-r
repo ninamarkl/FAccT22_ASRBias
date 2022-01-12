@@ -1,0 +1,207 @@
+SCORING FOR SPEAKER: n-r
+     of google\n-rea1-f1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.0%   (  60)
+
+Percent Correct           =   69.8%   ( 127)
+
+Percent Substitution      =   23.6%   (  43)
+Percent Deletions         =    6.6%   (  12)
+Percent Insertions        =    2.7%   (   5)
+Percent Word Accuracy     =   67.0%
+
+
+Ref. words                =           ( 182)
+Hyp. words                =           ( 175)
+Aligned words             =           ( 187)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  gowns ==> games
+   2:    1  ->  a ==> then
+   3:    1  ->  a ==> twelve-year
+   4:    1  ->  and ==> brushes
+   5:    1  ->  announce ==> and
+   6:    1  ->  ball ==> support
+   7:    1  ->  bells ==> vows
+   8:    1  ->  bride ==> braid
+   9:    1  ->  buy ==> want
+  10:    1  ->  cinders ==> has
+  11:    1  ->  cinders ==> sanders
+  12:    1  ->  cinders ==> us
+  13:    1  ->  dreamed ==> dreams
+  14:    1  ->  find ==> fomo
+  15:    1  ->  find ==> phone
+  16:    1  ->  girls ==> lazygirls
+  17:    1  ->  had ==> how
+  18:    1  ->  hairpins ==> hair
+  19:    1  ->  hat ==> to
+  20:    1  ->  howled ==> hold
+  21:    1  ->  jewels ==> you
+  22:    1  ->  lily ==> lilley
+  23:    1  ->  lived ==> live
+  24:    1  ->  my ==> jules
+  25:    1  ->  of ==> under
+  26:    1  ->  only ==> you
+  27:    1  ->  poor ==> person
+  28:    1  ->  rosa ==> i
+  29:    1  ->  royal ==> old
+  30:    1  ->  sisters ==> sister's
+  31:    1  ->  son ==> soon
+  32:    1  ->  spent ==> spend
+  33:    1  ->  their ==> that
+  34:    1  ->  their ==> the
+  35:    1  ->  they ==> the
+  36:    1  ->  they ==> theatre
+  37:    1  ->  time ==> i'm
+  38:    1  ->  to ==> in
+  39:    1  ->  to ==> you
+  40:    1  ->  was ==> princess
+  41:    1  ->  would ==> boiler
+  42:    1  ->  yelled ==> had
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  goes
+   2:    1  ->  hair
+   3:    1  ->  send
+   4:    1  ->  when
+   5:    1  ->  you
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  ball
+   2:    1  ->  day
+   3:    1  ->  hairbrushes
+   4:    1  ->  honour
+   5:    1  ->  lazy
+   6:    1  ->  one
+   7:    1  ->  prince
+   8:    1  ->  rosa
+   9:    1  ->  they'd
+  10:    1  ->  wanted
+  11:    1  ->  were
+  12:    1  ->  william
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  cinders
+   2:    2  ->  a
+   3:    2  ->  find
+   4:    2  ->  gowns
+   5:    2  ->  their
+   6:    2  ->  they
+   7:    2  ->  to
+   8:    1  ->  and
+   9:    1  ->  announce
+  10:    1  ->  ball
+  11:    1  ->  bells
+  12:    1  ->  bride
+  13:    1  ->  buy
+  14:    1  ->  dreamed
+  15:    1  ->  girls
+  16:    1  ->  had
+  17:    1  ->  hairpins
+  18:    1  ->  hat
+  19:    1  ->  howled
+  20:    1  ->  jewels
+  21:    1  ->  lily
+  22:    1  ->  lived
+  23:    1  ->  my
+  24:    1  ->  of
+  25:    1  ->  only
+  26:    1  ->  poor
+  27:    1  ->  rosa
+  28:    1  ->  royal
+  29:    1  ->  sisters
+  30:    1  ->  son
+  31:    1  ->  spent
+  32:    1  ->  time
+  33:    1  ->  was
+  34:    1  ->  would
+  35:    1  ->  yelled
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  you
+   2:    2  ->  games
+   3:    2  ->  the
+   4:    1  ->  and
+   5:    1  ->  boiler
+   6:    1  ->  braid
+   7:    1  ->  brushes
+   8:    1  ->  dreams
+   9:    1  ->  fomo
+  10:    1  ->  had
+  11:    1  ->  hair
+  12:    1  ->  has
+  13:    1  ->  hold
+  14:    1  ->  how
+  15:    1  ->  i
+  16:    1  ->  i'm
+  17:    1  ->  in
+  18:    1  ->  jules
+  19:    1  ->  lazygirls
+  20:    1  ->  lilley
+  21:    1  ->  live
+  22:    1  ->  old
+  23:    1  ->  person
+  24:    1  ->  phone
+  25:    1  ->  princess
+  26:    1  ->  sanders
+  27:    1  ->  sister's
+  28:    1  ->  soon
+  29:    1  ->  spend
+  30:    1  ->  support
+  31:    1  ->  that
+  32:    1  ->  theatre
+  33:    1  ->  then
+  34:    1  ->  to
+  35:    1  ->  twelve-year
+  36:    1  ->  under
+  37:    1  ->  us
+  38:    1  ->  vows
+  39:    1  ->  want
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

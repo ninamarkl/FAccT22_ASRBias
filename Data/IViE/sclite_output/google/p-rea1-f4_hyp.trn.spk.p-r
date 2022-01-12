@@ -1,0 +1,221 @@
+SCORING FOR SPEAKER: p-r
+     of google\p-rea1-f4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.6%   (  73)
+
+Percent Correct           =   62.2%   ( 112)
+
+Percent Substitution      =   28.3%   (  51)
+Percent Deletions         =    9.4%   (  17)
+Percent Insertions        =    2.8%   (   5)
+Percent Word Accuracy     =   59.4%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 168)
+Aligned words             =           ( 185)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  a ==> monday
+   3:    1  ->  a ==> of
+   4:    1  ->  and ==> i'm
+   5:    1  ->  and ==> lillian
+   6:    1  ->  and ==> loads
+   7:    1  ->  and ==> the
+   8:    1  ->  and ==> was
+   9:    1  ->  announce ==> enhance
+  10:    1  ->  arrived ==> polarized
+  11:    1  ->  at ==> in
+  12:    1  ->  bad ==> about
+  13:    1  ->  ball ==> all
+  14:    1  ->  bells ==> bills
+  15:    1  ->  buying ==> by
+  16:    1  ->  cinders ==> does
+  17:    1  ->  cinders ==> fasteners
+  18:    1  ->  divine ==> designed
+  19:    1  ->  evening ==> meaning
+  20:    1  ->  girls ==> goes
+  21:    1  ->  gowns ==> clothes
+  22:    1  ->  gowns ==> guns
+  23:    1  ->  hairbrushes ==> her
+  24:    1  ->  hairpins ==> pains
+  25:    1  ->  hat ==> whole
+  26:    1  ->  her ==> hotel
+  27:    1  ->  her ==> the
+  28:    1  ->  howled ==> of
+  29:    1  ->  lazy ==> he
+  30:    1  ->  lily ==> billionaire
+  31:    1  ->  lily ==> call
+  32:    1  ->  lily ==> using
+  33:    1  ->  mood ==> road
+  34:    1  ->  rosa ==> a
+  35:    1  ->  rosa ==> of
+  36:    1  ->  rosa ==> rose
+  37:    1  ->  royal ==> around
+  38:    1  ->  shouting ==> chestnuts
+  39:    1  ->  sisters ==> persistent
+  40:    1  ->  so ==> for
+  41:    1  ->  spent ==> spend
+  42:    1  ->  they ==> the
+  43:    1  ->  they ==> there
+  44:    1  ->  they ==> to
+  45:    1  ->  they'd ==> they
+  46:    1  ->  wedding ==> reading
+  47:    1  ->  were ==> a
+  48:    1  ->  were ==> there
+  49:    1  ->  were ==> will
+  50:    1  ->  william ==> william's
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  boys
+   2:    1  ->  heart
+   3:    1  ->  her
+   4:    1  ->  to
+   5:    1  ->  under
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  ball
+   2:    2  ->  one
+   3:    1  ->  a
+   4:    1  ->  called
+   5:    1  ->  day
+   6:    1  ->  had
+   7:    1  ->  help
+   8:    1  ->  jewels
+   9:    1  ->  poor
+  10:    1  ->  the
+  11:    1  ->  they
+  12:    1  ->  to
+  13:    1  ->  wear
+  14:    1  ->  would
+  15:    1  ->  yelled
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    5  ->  and
+   2:    3  ->  lily
+   3:    3  ->  rosa
+   4:    3  ->  they
+   5:    3  ->  were
+   6:    2  ->  a
+   7:    2  ->  cinders
+   8:    2  ->  gowns
+   9:    2  ->  her
+  10:    2  ->  their
+  11:    1  ->  announce
+  12:    1  ->  arrived
+  13:    1  ->  at
+  14:    1  ->  bad
+  15:    1  ->  ball
+  16:    1  ->  bells
+  17:    1  ->  buying
+  18:    1  ->  divine
+  19:    1  ->  evening
+  20:    1  ->  girls
+  21:    1  ->  hairbrushes
+  22:    1  ->  hairpins
+  23:    1  ->  hat
+  24:    1  ->  howled
+  25:    1  ->  lazy
+  26:    1  ->  mood
+  27:    1  ->  royal
+  28:    1  ->  shouting
+  29:    1  ->  sisters
+  30:    1  ->  so
+  31:    1  ->  spent
+  32:    1  ->  they'd
+  33:    1  ->  wedding
+  34:    1  ->  william
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    5  ->  the
+   2:    3  ->  of
+   3:    2  ->  a
+   4:    2  ->  there
+   5:    1  ->  about
+   6:    1  ->  all
+   7:    1  ->  around
+   8:    1  ->  billionaire
+   9:    1  ->  bills
+  10:    1  ->  by
+  11:    1  ->  call
+  12:    1  ->  chestnuts
+  13:    1  ->  clothes
+  14:    1  ->  designed
+  15:    1  ->  does
+  16:    1  ->  enhance
+  17:    1  ->  fasteners
+  18:    1  ->  for
+  19:    1  ->  goes
+  20:    1  ->  guns
+  21:    1  ->  he
+  22:    1  ->  her
+  23:    1  ->  hotel
+  24:    1  ->  i'm
+  25:    1  ->  in
+  26:    1  ->  lillian
+  27:    1  ->  loads
+  28:    1  ->  meaning
+  29:    1  ->  monday
+  30:    1  ->  pains
+  31:    1  ->  persistent
+  32:    1  ->  polarized
+  33:    1  ->  reading
+  34:    1  ->  road
+  35:    1  ->  rose
+  36:    1  ->  spend
+  37:    1  ->  they
+  38:    1  ->  to
+  39:    1  ->  using
+  40:    1  ->  was
+  41:    1  ->  whole
+  42:    1  ->  will
+  43:    1  ->  william's
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

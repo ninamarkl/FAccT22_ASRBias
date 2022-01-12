@@ -1,0 +1,229 @@
+SCORING FOR SPEAKER: p-r
+     of google\p-rea1-m3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   55.1%   ( 103)
+
+Percent Correct           =   44.9%   (  84)
+
+Percent Substitution      =   22.5%   (  42)
+Percent Deletions         =   32.6%   (  61)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   44.9%
+
+
+Ref. words                =           ( 187)
+Hyp. words                =           ( 126)
+Aligned words             =           ( 187)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  their ==> the
+   2:    1  ->  a ==> of
+   3:    1  ->  and ==> call
+   4:    1  ->  and ==> i'm
+   5:    1  ->  and ==> in
+   6:    1  ->  announce ==> out
+   7:    1  ->  ball ==> all
+   8:    1  ->  called ==> kevin
+   9:    1  ->  cinders ==> lucinda's
+  10:    1  ->  cinders ==> to
+  11:    1  ->  dreamed ==> dream
+  12:    1  ->  girls ==> lazygirls
+  13:    1  ->  gowns ==> guns
+  14:    1  ->  gowns ==> newgrounds
+  15:    1  ->  had ==> bull
+  16:    1  ->  had ==> shut
+  17:    1  ->  hairbrushes ==> head
+  18:    1  ->  hairpins ==> pains
+  19:    1  ->  her ==> call
+  20:    1  ->  her ==> the
+  21:    1  ->  howled ==> how
+  22:    1  ->  lived ==> live
+  23:    1  ->  of ==> day
+  24:    1  ->  only ==> queensbury
+  25:    1  ->  rosa ==> liliana
+  26:    1  ->  she ==> shut
+  27:    1  ->  sisters ==> to
+  28:    1  ->  spent ==> been
+  29:    1  ->  they ==> it
+  30:    1  ->  they ==> it's
+  31:    1  ->  they ==> the
+  32:    1  ->  to ==> ride
+  33:    1  ->  unfriendly ==> friendly
+  34:    1  ->  wanted ==> his
+  35:    1  ->  was ==> devine
+  36:    1  ->  was ==> he's
+  37:    1  ->  wear ==> where
+  38:    1  ->  were ==> groza
+  39:    1  ->  were ==> there
+  40:    1  ->  when ==> in
+  41:    1  ->  would ==> should
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    4  ->  to
+   2:    3  ->  lily
+   3:    2  ->  and
+   4:    2  ->  cinders
+   5:    2  ->  had
+   6:    2  ->  new
+   7:    2  ->  one
+   8:    2  ->  queen's
+   9:    2  ->  rosa
+  10:    2  ->  they
+  11:    1  ->  a
+  12:    1  ->  arrived
+  13:    1  ->  at
+  14:    1  ->  ball
+  15:    1  ->  be
+  16:    1  ->  but
+  17:    1  ->  buy
+  18:    1  ->  buying
+  19:    1  ->  called
+  20:    1  ->  came
+  21:    1  ->  clothes
+  22:    1  ->  day
+  23:    1  ->  divine
+  24:    1  ->  everyone
+  25:    1  ->  he
+  26:    1  ->  her
+  27:    1  ->  honour
+  28:    1  ->  in
+  29:    1  ->  jewels
+  30:    1  ->  lazy
+  31:    1  ->  messenger
+  32:    1  ->  mother
+  33:    1  ->  of
+  34:    1  ->  poor
+  35:    1  ->  prince
+  36:    1  ->  royal
+  37:    1  ->  she
+  38:    1  ->  shouting
+  39:    1  ->  some
+  40:    1  ->  the
+  41:    1  ->  their
+  42:    1  ->  they'd
+  43:    1  ->  this
+  44:    1  ->  thought
+  45:    1  ->  wanted
+  46:    1  ->  was
+  47:    1  ->  william
+  48:    1  ->  yelled
+     -------
+        61
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  and
+   2:    3  ->  they
+   3:    2  ->  cinders
+   4:    2  ->  gowns
+   5:    2  ->  had
+   6:    2  ->  her
+   7:    2  ->  their
+   8:    2  ->  was
+   9:    2  ->  were
+  10:    1  ->  a
+  11:    1  ->  announce
+  12:    1  ->  ball
+  13:    1  ->  called
+  14:    1  ->  dreamed
+  15:    1  ->  girls
+  16:    1  ->  hairbrushes
+  17:    1  ->  hairpins
+  18:    1  ->  howled
+  19:    1  ->  lived
+  20:    1  ->  of
+  21:    1  ->  only
+  22:    1  ->  rosa
+  23:    1  ->  she
+  24:    1  ->  sisters
+  25:    1  ->  spent
+  26:    1  ->  to
+  27:    1  ->  unfriendly
+  28:    1  ->  wanted
+  29:    1  ->  wear
+  30:    1  ->  when
+  31:    1  ->  would
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    4  ->  the
+   2:    2  ->  call
+   3:    2  ->  in
+   4:    2  ->  shut
+   5:    2  ->  to
+   6:    1  ->  all
+   7:    1  ->  been
+   8:    1  ->  bull
+   9:    1  ->  day
+  10:    1  ->  devine
+  11:    1  ->  dream
+  12:    1  ->  friendly
+  13:    1  ->  groza
+  14:    1  ->  guns
+  15:    1  ->  he's
+  16:    1  ->  head
+  17:    1  ->  his
+  18:    1  ->  how
+  19:    1  ->  i'm
+  20:    1  ->  it
+  21:    1  ->  it's
+  22:    1  ->  kevin
+  23:    1  ->  lazygirls
+  24:    1  ->  liliana
+  25:    1  ->  live
+  26:    1  ->  lucinda's
+  27:    1  ->  newgrounds
+  28:    1  ->  of
+  29:    1  ->  out
+  30:    1  ->  pains
+  31:    1  ->  queensbury
+  32:    1  ->  ride
+  33:    1  ->  should
+  34:    1  ->  there
+  35:    1  ->  where
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

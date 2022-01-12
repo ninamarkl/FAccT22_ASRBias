@@ -1,0 +1,7 @@
+<SYSTEM title="portuguese\portuguese22_hyp.trn" ref_fname="saa_ref.trn" hyp_fname="portuguese\portuguese22_hyp.trn" creation_date="Fri May 21 12:31:08 2021" format="2.4" frag_corr="FALSE" opt_del="FALSE" weight_ali="FALSE" weight_filename="">
+<SPEAKER id="saa">
+<PATH id="(saa_01)" word_cnt="69" sequence="0">
+C,"please","please":C,"call","call":C,"stella","stella":D,"ask",:D,"her",:D,"to",:D,"bring",:D,"these",:D,"things",:D,"with",:D,"her",:C,"from","from":C,"the","the":C,"store","store":C,"6","6":S,"spoons","pounds":C,"of","of":C,"fresh","fresh":D,"snow",:S,"peas","sophie's":C,"5","5":D,"thick",:S,"slabs","people":S,"of","from":C,"blue","blue":D,"cheese",:D,"and",:D,"maybe",:D,"a",:S,"snack","shears":C,"for","for":D,"her",:D,"brother",:D,"bob",:D,"we",:D,"also",:D,"need",:D,"a",:D,"small",:D,"plastic",:D,"snake",:D,"and",:D,"a",:S,"big","snack":S,"toy","in":S,"frog","france":C,"for","for":C,"the","the":D,"kids",:D,"she",:S,"can","keys":S,"scoop","school":C,"these","these":C,"things","things":C,"into","into":C,"3","3":C,"red","red":C,"bags","bags":D,"and",:D,"we",:D,"will",:D,"go",:D,"meet",:D,"her",:D,"wednesday",:D,"at",:D,"the",:D,"train",:C,"station","station"
+</PATH>
+</SPEAKER>
+</SYSTEM>

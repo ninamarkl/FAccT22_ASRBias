@@ -1,0 +1,121 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese12_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  20)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  5 ==> peace
+   2:    1  ->  6 ==> six
+   3:    1  ->  a ==> it's
+   4:    1  ->  a ==> the
+   5:    1  ->  bob ==> but
+   6:    1  ->  frog ==> frogs
+   7:    1  ->  her ==> ascot
+   8:    1  ->  her ==> metre
+   9:    1  ->  her ==> without
+  10:    1  ->  peas ==> no
+  11:    1  ->  scoop ==> skip
+  12:    1  ->  slabs ==> legs
+  13:    1  ->  snack ==> not
+  14:    1  ->  spoons ==> points
+  15:    1  ->  thick ==> 56
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  ask
+   2:    1  ->  meet
+   3:    1  ->  snow
+   4:    1  ->  the
+   5:    1  ->  with
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  her
+   2:    2  ->  a
+   3:    1  ->  5
+   4:    1  ->  6
+   5:    1  ->  bob
+   6:    1  ->  frog
+   7:    1  ->  peas
+   8:    1  ->  scoop
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  spoons
+  12:    1  ->  thick
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  56
+   2:    1  ->  ascot
+   3:    1  ->  but
+   4:    1  ->  frogs
+   5:    1  ->  it's
+   6:    1  ->  legs
+   7:    1  ->  metre
+   8:    1  ->  no
+   9:    1  ->  not
+  10:    1  ->  peace
+  11:    1  ->  points
+  12:    1  ->  six
+  13:    1  ->  skip
+  14:    1  ->  the
+  15:    1  ->  without
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\b-rea1-f6_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-f6_01)
+Scores: (#C #S #D #I) 151 24 7 3
+REF:  once upon a time there was a girl called cinderella but everyone called her CINDERS CINDERS lived with her mother and two stepsisters called LILY and rosa LILY AND     ROSA were very unfriendly and they were lazy girls THEY spent all their time buying new clothes and going to parties POOR CINDERS    had to wear all their old hand me downs and she had to do ALL the cleaning one day a royal messenger came to announce a ball the ball would be held at the royal palace in honour of the queen's only son prince william LILY AND   ROSA thought this was divine prince william was gorgeous AND he was looking for A BRIDE  they dreamed of the wedding bells WHEN the evening of the ball ** ARRIVED CINDERS had to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new GOWNS   but their mother had said THAT they had enough GOWNS so they started shouting at CINDERS find my JEWELS YELLED one find my HAT   HOWLED the other they wanted *** ******* HAIRBRUSHES HAIRPINS and HAIRSPRAY  
+HYP:  once upon a time there was a girl called cinderella but everyone called her CINDY   CINDY'S lived with her mother and two stepsisters called ELIA and rosa **** LILLIAN ROSE were very unfriendly and they were lazy girls **** spent all their time buying new clothes and going to parties **** PERCENTERS had to wear all their old hand me downs and she had to do *** the cleaning one day a royal messenger came to announce a ball the ball would be held at the royal palace in honour of the queen's only son prince william ELIA KNOWS I    thought this was divine prince william was gorgeous *** he was looking for * BRIGHT they dreamed of the wedding bells IN   the evening of the ball OR I       CENTRES had to help her sisters get ready they were in a bad mood IT     wanted to buy some new GROUNDS but their mother had said **** they had enough KIND  so they started shouting at SANDERS find my JAIL   JAILED one find my HEART HURT   the other they wanted HER BRUSHES HER         PINS     and HEARTBREAK 
+Eval:                                                                             S       S                                                        S             D    S       S                                                  D                                                                 D    S                                                                    D                                                                                                                                                              S    S     S                                                        D                      D S                                        S                            I  S       S                                                                 S                             S                                 D                    S                                 S               S      S                  S     S                            I   I       S           S            S          
+
+

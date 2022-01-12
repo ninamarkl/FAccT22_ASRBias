@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin60_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    8.7%   (   6)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  75)
+Aligned words             =           (  75)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  of ==> the
+   2:    1  ->  bags ==> axe
+   3:    1  ->  bob ==> ball
+   4:    1  ->  call ==> course
+   5:    1  ->  five ==> fifty-six
+   6:    1  ->  peas ==> piece
+   7:    1  ->  red ==> rep
+   8:    1  ->  slabs ==> off
+   9:    1  ->  spoons ==> off
+  10:    1  ->  stella ==> della
+  11:    1  ->  the ==> a
+  12:    1  ->  these ==> the
+  13:    1  ->  these ==> thes
+  14:    1  ->  thick ==> snaps
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  from
+   3:    1  ->  spawn
+   4:    1  ->  storeys
+   5:    1  ->  the
+   6:    1  ->  to
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    1  ->  bags
+   4:    1  ->  bob
+   5:    1  ->  call
+   6:    1  ->  five
+   7:    1  ->  peas
+   8:    1  ->  red
+   9:    1  ->  slabs
+  10:    1  ->  spoons
+  11:    1  ->  stella
+  12:    1  ->  the
+  13:    1  ->  thick
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  the
+   2:    2  ->  off
+   3:    1  ->  a
+   4:    1  ->  axe
+   5:    1  ->  ball
+   6:    1  ->  course
+   7:    1  ->  della
+   8:    1  ->  fifty-six
+   9:    1  ->  piece
+  10:    1  ->  rep
+  11:    1  ->  snaps
+  12:    1  ->  thes
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

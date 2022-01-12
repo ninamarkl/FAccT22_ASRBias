@@ -1,0 +1,82 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: english_uk\english368_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.2%   (   5)
+
+Percent Correct           =   94.2%   (  65)
+
+Percent Substitution      =    2.9%   (   2)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   92.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  snack ==> 8
+   2:    1  ->  thick ==> 56
+     -------
+         2
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  5
+   2:    1  ->  a
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  snack
+   2:    1  ->  thick
+     -------
+         2
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  56
+   2:    1  ->  8
+     -------
+         2
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

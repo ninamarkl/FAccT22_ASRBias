@@ -1,0 +1,107 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\german\german8_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   (  12)
+
+Percent Correct           =   82.6%   (  57)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  and ==> on
+   3:    1  ->  ask ==> asked
+   4:    1  ->  bob ==> but
+   5:    1  ->  five ==> piece
+   6:    1  ->  frog ==> truck
+   7:    1  ->  her ==> a
+   8:    1  ->  please ==> police
+   9:    1  ->  red ==> rat
+  10:    1  ->  slabs ==> laps
+  11:    1  ->  thick ==> fifty-six
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  peas
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and
+   2:    1  ->  ask
+   3:    1  ->  bob
+   4:    1  ->  five
+   5:    1  ->  frog
+   6:    1  ->  her
+   7:    1  ->  please
+   8:    1  ->  red
+   9:    1  ->  slabs
+  10:    1  ->  thick
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  asked
+   3:    1  ->  but
+   4:    1  ->  fifty-six
+   5:    1  ->  in
+   6:    1  ->  laps
+   7:    1  ->  on
+   8:    1  ->  piece
+   9:    1  ->  police
+  10:    1  ->  rat
+  11:    1  ->  truck
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

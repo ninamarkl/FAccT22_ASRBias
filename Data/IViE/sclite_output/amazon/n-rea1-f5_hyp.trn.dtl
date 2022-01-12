@@ -1,0 +1,150 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\n-rea1-f5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.3%   (  33)
+
+Percent Correct           =   82.2%   ( 148)
+
+Percent Substitution      =   16.7%   (  30)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    0.6%   (   1)
+Percent Word Accuracy     =   81.7%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 179)
+Aligned words             =           ( 181)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  and ==> was
+   2:    2  ->  lily ==> lillian
+   3:    2  ->  their ==> the
+   4:    1  ->  a ==> of
+   5:    1  ->  a ==> to
+   6:    1  ->  announce ==> known
+   7:    1  ->  buy ==> by
+   8:    1  ->  came ==> can't
+   9:    1  ->  cinders ==> sinners
+  10:    1  ->  cinders ==> soon
+  11:    1  ->  gowns ==> games
+  12:    1  ->  gowns ==> guns
+  13:    1  ->  had ==> as
+  14:    1  ->  has ==> help
+  15:    1  ->  helped ==> this
+  16:    1  ->  honour ==> one
+  17:    1  ->  howled ==> of
+  18:    1  ->  in ==> and
+  19:    1  ->  lived ==> live
+  20:    1  ->  new ==> your
+  21:    1  ->  rosa ==> i
+  22:    1  ->  rosa ==> they
+  23:    1  ->  royal ==> our
+  24:    1  ->  the ==> one
+  25:    1  ->  they'd ==> they
+  26:    1  ->  to ==> no
+  27:    1  ->  would ==> will
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  out
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  to
+   2:    1  ->  when
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  cinders
+   4:    2  ->  gowns
+   5:    2  ->  lily
+   6:    2  ->  rosa
+   7:    2  ->  their
+   8:    1  ->  announce
+   9:    1  ->  buy
+  10:    1  ->  came
+  11:    1  ->  had
+  12:    1  ->  has
+  13:    1  ->  helped
+  14:    1  ->  honour
+  15:    1  ->  howled
+  16:    1  ->  in
+  17:    1  ->  lived
+  18:    1  ->  new
+  19:    1  ->  royal
+  20:    1  ->  the
+  21:    1  ->  they'd
+  22:    1  ->  to
+  23:    1  ->  would
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  lillian
+   2:    2  ->  of
+   3:    2  ->  one
+   4:    2  ->  the
+   5:    2  ->  they
+   6:    2  ->  was
+   7:    1  ->  and
+   8:    1  ->  as
+   9:    1  ->  by
+  10:    1  ->  can't
+  11:    1  ->  games
+  12:    1  ->  guns
+  13:    1  ->  help
+  14:    1  ->  i
+  15:    1  ->  known
+  16:    1  ->  live
+  17:    1  ->  no
+  18:    1  ->  our
+  19:    1  ->  sinners
+  20:    1  ->  soon
+  21:    1  ->  this
+  22:    1  ->  to
+  23:    1  ->  will
+  24:    1  ->  your
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

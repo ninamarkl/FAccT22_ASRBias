@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\car-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  car
+
+Speaker sentences   0:  car   #utts: 1
+id: (car-rea1-m4_01)
+Scores: (#C #S #D #I) 140 31 15 4
+REF:  once upon a time there was a girl called cinderella but everyone called HER cinders ***** CINDERS lived with her mother and two stepsisters called lily and ROSA LILY AND   ROSA  were very UNFRIENDLY and they WERE LAZY GIRLS they spent all THEIR time BUYING new clothes and going to parties POOR CINDERS had to wear all the old hand me downs and she had ER sorry and she had to ** DO    the CLEANING ONE DAY A     royal messenger came to ANNOUNCE a ****** BALL the ball would be held at the royal palace in HONOUR of THE queen's only son prince william LILY and rosa thought THAT this was divine PRINCE WILLIAM WAS      gorgeous and HE  was looking for a BRIDE  they DREAMED of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new GOWNS but THEIR MOTHER had said THAT they had enough GOWNS SO THEY started shouting at cinders find my JEWELS YELLED    ONE    find my HAT  HOWLED the other they wanted 
+HYP:  once upon a time there was a girl called cinderella but everyone called THE cinders SINCE HE'S    lived with her mother and two stepsisters called lily and **** **** ROSIE ROSIE were very FRIENDLY   and they WILL GET  US    they spent all THE   time BY     new clothes and going to parties FOR  CENTRES had to wear all the old hand me downs and she had ** sorry and she had to BE DOING the ******** *** *** WENDY royal messenger came to ******** a NUMPTY BUT  the ball would be held at the royal palace in ORDER  of *** queen's only son prince william **** and rosa thought **** this was divine ****** GRACE   WILLIAMS gorgeous and SHE was looking for a BRIGHT they DREAMS  of wedding bells when the evening of the ball arrived cinders had to help her sisters get ready they were in a bad mood THEY   wanted to buy some new DOWNS but THEY  NEVER  had said **** they had enough ***** ** GUNS started shouting at cinders find my ****** JEWELLERS WELWYN find my HATS HOW    the other they wanted 
+Eval:                                                                         S           I     S                                                                 D    D    S     S               S                   S    S    S                    S          S                                       S    S                                                         D                       I  S         D        D   D   S                             D          I      S                                                  S         D                                   D                     D                    D      S       S                     S                     S           S                                                                                                                               S                             S         S     S               D                    D     D  S                                        D      S         S              S    S                            
+
+>> REF:  **** HAIRBRUSHES hairpins and hairspray 
+>> HYP:  HAIR BRUSHES     hairpins and hairspray 
+>> Eval: I    S                                  
+
+

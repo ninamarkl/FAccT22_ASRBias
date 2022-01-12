@@ -1,0 +1,132 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish64_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   31.9%   (  22)
+
+Percent Correct           =   69.6%   (  48)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   68.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  67)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  bags ==> back
+   3:    1  ->  bob ==> but
+   4:    1  ->  call ==> course
+   5:    1  ->  five ==> piece
+   6:    1  ->  fresh ==> wards
+   7:    1  ->  frog ==> truck
+   8:    1  ->  into ==> tow
+   9:    1  ->  of ==> ofthe
+  10:    1  ->  peas ==> personal
+  11:    1  ->  slabs ==> laps
+  12:    1  ->  snow ==> off
+  13:    1  ->  stella ==> then
+  14:    1  ->  store ==> or
+  15:    1  ->  the ==> this
+  16:    1  ->  thick ==> fifty-six
+  17:    1  ->  to ==> toe
+  18:    1  ->  toy ==> type
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  in
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  and
+   2:    1  ->  of
+   3:    1  ->  spoons
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  and
+   2:    1  ->  bags
+   3:    1  ->  bob
+   4:    1  ->  call
+   5:    1  ->  five
+   6:    1  ->  fresh
+   7:    1  ->  frog
+   8:    1  ->  into
+   9:    1  ->  of
+  10:    1  ->  peas
+  11:    1  ->  slabs
+  12:    1  ->  snow
+  13:    1  ->  stella
+  14:    1  ->  store
+  15:    1  ->  the
+  16:    1  ->  thick
+  17:    1  ->  to
+  18:    1  ->  toy
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  back
+   2:    1  ->  but
+   3:    1  ->  course
+   4:    1  ->  fifty-six
+   5:    1  ->  laps
+   6:    1  ->  off
+   7:    1  ->  ofthe
+   8:    1  ->  on
+   9:    1  ->  or
+  10:    1  ->  personal
+  11:    1  ->  piece
+  12:    1  ->  then
+  13:    1  ->  this
+  14:    1  ->  toe
+  15:    1  ->  tow
+  16:    1  ->  truck
+  17:    1  ->  type
+  18:    1  ->  wards
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

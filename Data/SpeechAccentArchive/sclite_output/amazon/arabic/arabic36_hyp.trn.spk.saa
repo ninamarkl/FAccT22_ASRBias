@@ -1,0 +1,105 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\arabic\arabic36_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.2%   (  16)
+
+Percent Correct           =   84.1%   (  58)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   76.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  her ==> here
+   3:    1  ->  into ==> tow
+   4:    1  ->  peas ==> bees
+   5:    1  ->  snake ==> snack
+   6:    1  ->  spoons ==> bones
+   7:    1  ->  these ==> this
+   8:    1  ->  to ==> herto
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  in
+   2:    1  ->  meet
+   3:    1  ->  points
+   4:    1  ->  six
+   5:    1  ->  this
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  her
+   2:    1  ->  red
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  of
+   2:    1  ->  her
+   3:    1  ->  into
+   4:    1  ->  peas
+   5:    1  ->  snake
+   6:    1  ->  spoons
+   7:    1  ->  these
+   8:    1  ->  to
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  off
+   2:    1  ->  bees
+   3:    1  ->  bones
+   4:    1  ->  here
+   5:    1  ->  herto
+   6:    1  ->  snack
+   7:    1  ->  this
+   8:    1  ->  tow
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

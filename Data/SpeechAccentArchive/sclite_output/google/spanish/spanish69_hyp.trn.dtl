@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: spanish\spanish69_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   72.5%   (  50)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  5 ==> ps5
+   2:    1  ->  a ==> it's
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> in
+   5:    1  ->  frog ==> frogs
+   6:    1  ->  need ==> but
+   7:    1  ->  peas ==> new
+   8:    1  ->  scoop ==> forgive
+   9:    1  ->  slabs ==> oz
+  10:    1  ->  small ==> nearest
+  11:    1  ->  snack ==> not
+  12:    1  ->  spoons ==> pounds
+  13:    1  ->  stella ==> sara
+  14:    1  ->  thick ==> 6
+  15:    1  ->  wednesday ==> day
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  her
+   2:    1  ->  one
+   3:    1  ->  up
+   4:    1  ->  with
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  also
+   2:    1  ->  bob
+   3:    1  ->  snow
+   4:    1  ->  we
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  a
+   2:    1  ->  5
+   3:    1  ->  and
+   4:    1  ->  frog
+   5:    1  ->  need
+   6:    1  ->  peas
+   7:    1  ->  scoop
+   8:    1  ->  slabs
+   9:    1  ->  small
+  10:    1  ->  snack
+  11:    1  ->  spoons
+  12:    1  ->  stella
+  13:    1  ->  thick
+  14:    1  ->  wednesday
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  6
+   2:    1  ->  but
+   3:    1  ->  day
+   4:    1  ->  forgive
+   5:    1  ->  frogs
+   6:    1  ->  in
+   7:    1  ->  it's
+   8:    1  ->  nearest
+   9:    1  ->  new
+  10:    1  ->  not
+  11:    1  ->  oz
+  12:    1  ->  pounds
+  13:    1  ->  ps5
+  14:    1  ->  sara
+  15:    1  ->  the
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

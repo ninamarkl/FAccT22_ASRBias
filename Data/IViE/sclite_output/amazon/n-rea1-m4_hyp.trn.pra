@@ -1,0 +1,17 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\n-rea1-m4_hyp.trn
+
+Speakers: 
+    0:  n-r
+
+Speaker sentences   0:  n-r   #utts: 1
+id: (n-rea1-m4_01)
+Scores: (#C #S #D #I) 157 20 2 4
+REF:  once upon a time there was a girl called cinderella but everyone called her CINDERS cinders lived with her mother and two **** STEPSISTERS called lily and rosa lily and rosa were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties **** POOR CINDERS HAD  to wear all their old hand me downs and she had to do the cleaning one day a royal messenger came TO ANNOUNCE  A   ball the ball would be held at the royal palace in honour of the queen's only son prince william LILY    AND  ROSA thought this was divine prince william was gorgeous and he was looking for a BRIDE THEY dreamed of wedding bells when the evening of the ball arrived cinders had TO HELP   her sisters get ready they were in a bad mood **** THEY'D wanted to buy some new gowns but their mother said that they had enough gowns so they started SHOUTING at cinders find my jewels yelled one find my HAT HOWLED THE  OTHER they wanted hairbrushes **** HAIRPINS and hairspray 
+HYP:  once upon a time there was a girl called cinderella but everyone called her SINNERS cinders lived with her mother and two STEP SISTERS     called lily and rosa lily and rosa were very unfriendly and they were lazy girls they spent all their time buying new clothes and going to parties PLUS IN   DOES    HAVE to wear all their old hand me downs and she had to do the cleaning one day a royal messenger came NO ANNOUNCED THE ball the ball would be held at the royal palace in honour of the queen's only son prince william LILLIAN ROSE I    thought this was divine prince william was gorgeous and he was looking for a BRAID HE   dreamed of wedding bells when the evening of the ball arrived cinders had ** HELPED her sisters get ready they were in a bad mood THEY HAD    wanted to buy some new gowns but their mother said that they had enough gowns so they started SHOOTING at cinders find my jewels yelled one find my *** HUT    HELD OVER  they wanted hairbrushes HAIR PINS     and hairspray 
+Eval:                                                                             S                                             I    S                                                                                                                                                              I    S    S       S                                                                                                      S  S         S                                                                                                    S       S    S                                                                                 S     S                                                                              D  S                                                    I    S                                                                                                    S                                                     D   S      S    S                             I    S                      
+
+

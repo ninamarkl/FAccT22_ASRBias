@@ -1,0 +1,154 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\spanish\spanish10_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   47.8%   (  33)
+
+Percent Correct           =   59.4%   (  41)
+
+Percent Substitution      =   36.2%   (  25)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    7.2%   (   5)
+Percent Word Accuracy     =   52.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  74)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  ask ==> has
+   3:    1  ->  at ==> on
+   4:    1  ->  call ==> political
+   5:    1  ->  can ==> scope
+   6:    1  ->  five ==> thing
+   7:    1  ->  fresh ==> no
+   8:    1  ->  frog ==> fraud
+   9:    1  ->  her ==> heard
+  10:    1  ->  into ==> tow
+  11:    1  ->  kids ==> checking
+  12:    1  ->  of ==> french
+  13:    1  ->  of ==> off
+  14:    1  ->  peas ==> funny
+  15:    1  ->  scoop ==> dear
+  16:    1  ->  she ==> a
+  17:    1  ->  slabs ==> love's
+  18:    1  ->  snow ==> peace
+  19:    1  ->  station ==> stature
+  20:    1  ->  stella ==> still
+  21:    1  ->  these ==> sing
+  22:    1  ->  thick ==> is
+  23:    1  ->  things ==> in
+  24:    1  ->  three ==> trade
+  25:    1  ->  wednesday ==> today
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  in
+   3:    1  ->  kills
+   4:    1  ->  on
+   5:    1  ->  weather
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  please
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  of
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  at
+   5:    1  ->  call
+   6:    1  ->  can
+   7:    1  ->  five
+   8:    1  ->  fresh
+   9:    1  ->  frog
+  10:    1  ->  her
+  11:    1  ->  into
+  12:    1  ->  kids
+  13:    1  ->  peas
+  14:    1  ->  scoop
+  15:    1  ->  she
+  16:    1  ->  slabs
+  17:    1  ->  snow
+  18:    1  ->  station
+  19:    1  ->  stella
+  20:    1  ->  these
+  21:    1  ->  thick
+  22:    1  ->  things
+  23:    1  ->  three
+  24:    1  ->  wednesday
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  in
+   2:    1  ->  a
+   3:    1  ->  checking
+   4:    1  ->  dear
+   5:    1  ->  fraud
+   6:    1  ->  french
+   7:    1  ->  funny
+   8:    1  ->  has
+   9:    1  ->  heard
+  10:    1  ->  is
+  11:    1  ->  love's
+  12:    1  ->  no
+  13:    1  ->  off
+  14:    1  ->  on
+  15:    1  ->  peace
+  16:    1  ->  political
+  17:    1  ->  scope
+  18:    1  ->  sing
+  19:    1  ->  stature
+  20:    1  ->  still
+  21:    1  ->  thing
+  22:    1  ->  today
+  23:    1  ->  tow
+  24:    1  ->  trade
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   google\b-rea1-m1_hyp.trn
+
+Speakers: 
+    0:  b-r
+
+Speaker sentences   0:  b-r   #utts: 1
+id: (b-rea1-m1_01)
+Scores: (#C #S #D #I) 123 40 17 5
+REF:  once upon a time there was a girl called cinderella but everyone called her **** ** **** CINDERS CINDERS LIVED with her mother and two stepsisters CALLED LILY AND ROSA lily and ROSA  WERE  very unfriendly and THEY WERE  lazy girls they spent all THEIR time buying new clothes AND going to PARTIES POOR   CINDERS had to wear ALL THEIR OLD HAND     ME     DOWNS and she had to do the cleaning one day A ROYAL messenger came to announce A  BALL the ball WOULD be held at the royal palace in honour of the queen's only son prince william LILY   and rosa thought this was DIVINE PRINCE   WILLIAM was gorgeous and HE was looking for a BRIDE they DREAMED OF  wedding bells when the evening of the BALL   ARRIVED cinders HAD to help her sisters get ready they were in a bad mood THEY'D WANTED TO  buy some new GOWNS but their mother said THAT they had had enough GOWNS so they STARTED SHOUTING AT       CINDERS  find my JEWELS YELLED ONE find my HAT HOWLED THE   OTHER they wanted *** ******* 
+HYP:  once upon a time there was a girl called cinderella but everyone called her SEND IT SEND HER     TO      LIVE  with her mother and two stepsisters ****** **** *** CALL lily and ROSIE ROSIE very unfriendly and **** NEVER lazy girls they spent all THE   time buying new clothes I'M going to POLISH  PERSON THAT    had to wear *** ***** *** ALTHOUGH HANDED OUT   and she had to do the cleaning one day * OR    messenger came to announce OF ALL  the ball WILL  be held at the royal palace in honour of the queen's only son prince william LILLEY and rosa thought this was DEFINE TRANSFER IT      was gorgeous and IT was looking for a BREAD they DREAM   DAY wedding bells when the evening of the BOILER AT      cinders HOW to help her sisters get ready they were in a bad mood ****** OF     THE buy some new GAMES but their mother said **** they had had enough ***** so they ******* ARE      SHEDDING ASCENDED find my ****** ****** *** find my *** ****** HEART HOLY  they wanted HER BRUSHES 
+Eval:                                                                             I    I  I    S       S       S                                         D      D    D   S             S     S                         D    S                               S                             S            S       S      S                   D   D     D   S        S      S                                            D S                                S  S             S                                                                                  S                                S      S        S                        S                    S          S       S                                         S      S               S                                                         D      S      S                S                           D                        D             D       S        S        S                D      D      D           D   D      S     S                 I   I       
+
+>> REF:  HAIRBRUSHES HAIRPINS and hairspray 
+>> HYP:  HER         PENS     and hairspray 
+>> Eval: S           S                      
+
+

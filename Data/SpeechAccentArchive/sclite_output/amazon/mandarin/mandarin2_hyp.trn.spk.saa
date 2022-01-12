@@ -1,0 +1,115 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin2_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   26.1%   (  18)
+
+Percent Correct           =   78.3%   (  54)
+
+Percent Substitution      =   18.8%   (  13)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   73.9%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  70)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  of ==> off
+   2:    1  ->  bags ==> backs
+   3:    1  ->  call ==> cause
+   4:    1  ->  can ==> cans
+   5:    1  ->  five ==> peens
+   6:    1  ->  scoop ==> coop
+   7:    1  ->  slabs ==> levels
+   8:    1  ->  spoons ==> points
+   9:    1  ->  stella ==> della
+  10:    1  ->  thick ==> fifty-six
+  11:    1  ->  train ==> chance
+  12:    1  ->  will ==> we'll
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  for
+   2:    1  ->  her
+   3:    1  ->  the
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  peas
+   2:    1  ->  we
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  of
+   2:    1  ->  bags
+   3:    1  ->  call
+   4:    1  ->  can
+   5:    1  ->  five
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  spoons
+   9:    1  ->  stella
+  10:    1  ->  thick
+  11:    1  ->  train
+  12:    1  ->  will
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  off
+   2:    1  ->  backs
+   3:    1  ->  cans
+   4:    1  ->  cause
+   5:    1  ->  chance
+   6:    1  ->  coop
+   7:    1  ->  della
+   8:    1  ->  fifty-six
+   9:    1  ->  levels
+  10:    1  ->  peens
+  11:    1  ->  points
+  12:    1  ->  we'll
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,124 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\thai\thai15_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   (  21)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   21.7%   (  15)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    5.8%   (   4)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  71)
+Aligned words             =           (  73)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  ask ==> asked
+   3:    1  ->  big ==> bit
+   4:    1  ->  cheese ==> she's
+   5:    1  ->  go ==> kill
+   6:    1  ->  meet ==> me
+   7:    1  ->  of ==> off
+   8:    1  ->  of ==> ofthe
+   9:    1  ->  scoop ==> school
+  10:    1  ->  slabs ==> labs
+  11:    1  ->  snack ==> us
+  12:    1  ->  spoons ==> payments
+  13:    1  ->  thick ==> things
+  14:    1  ->  three ==> to
+  15:    1  ->  wednesday ==> day
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  it's
+   3:    1  ->  tree
+   4:    1  ->  when
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  the
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  of
+   2:    1  ->  and
+   3:    1  ->  ask
+   4:    1  ->  big
+   5:    1  ->  cheese
+   6:    1  ->  go
+   7:    1  ->  meet
+   8:    1  ->  scoop
+   9:    1  ->  slabs
+  10:    1  ->  snack
+  11:    1  ->  spoons
+  12:    1  ->  thick
+  13:    1  ->  three
+  14:    1  ->  wednesday
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  asked
+   2:    1  ->  bit
+   3:    1  ->  day
+   4:    1  ->  kill
+   5:    1  ->  labs
+   6:    1  ->  me
+   7:    1  ->  off
+   8:    1  ->  ofthe
+   9:    1  ->  on
+  10:    1  ->  payments
+  11:    1  ->  school
+  12:    1  ->  she's
+  13:    1  ->  things
+  14:    1  ->  to
+  15:    1  ->  us
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

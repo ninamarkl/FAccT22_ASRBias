@@ -1,0 +1,119 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\french\french44_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bags ==> best
+   2:    1  ->  blue ==> off
+   3:    1  ->  cheese ==> trees
+   4:    1  ->  fresh ==> first
+   5:    1  ->  frog ==> frame
+   6:    1  ->  her ==> as
+   7:    1  ->  of ==> love
+   8:    1  ->  peas ==> pace
+   9:    1  ->  scoop ==> school
+  10:    1  ->  slabs ==> takes
+  11:    1  ->  snow ==> new
+  12:    1  ->  these ==> the
+  13:    1  ->  to ==> currently
+  14:    1  ->  toy ==> picture
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  ask
+   2:    1  ->  big
+   3:    1  ->  thick
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  bags
+   2:    1  ->  blue
+   3:    1  ->  cheese
+   4:    1  ->  fresh
+   5:    1  ->  frog
+   6:    1  ->  her
+   7:    1  ->  of
+   8:    1  ->  peas
+   9:    1  ->  scoop
+  10:    1  ->  slabs
+  11:    1  ->  snow
+  12:    1  ->  these
+  13:    1  ->  to
+  14:    1  ->  toy
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  as
+   2:    1  ->  best
+   3:    1  ->  currently
+   4:    1  ->  first
+   5:    1  ->  frame
+   6:    1  ->  love
+   7:    1  ->  new
+   8:    1  ->  off
+   9:    1  ->  pace
+  10:    1  ->  picture
+  11:    1  ->  school
+  12:    1  ->  takes
+  13:    1  ->  the
+  14:    1  ->  trees
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

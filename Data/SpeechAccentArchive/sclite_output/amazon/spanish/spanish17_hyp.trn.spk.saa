@@ -1,0 +1,100 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\spanish\spanish17_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   (  11)
+
+Percent Correct           =   88.4%   (  61)
+
+Percent Substitution      =   11.6%   (   8)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  72)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ask ==> as
+   2:    1  ->  of ==> off
+   3:    1  ->  peas ==> peace
+   4:    1  ->  six ==> sixes
+   5:    1  ->  slabs ==> lots
+   6:    1  ->  snow ==> no
+   7:    1  ->  spoons ==> pulls
+   8:    1  ->  thick ==> tickets
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  is
+   2:    1  ->  it
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ask
+   2:    1  ->  of
+   3:    1  ->  peas
+   4:    1  ->  six
+   5:    1  ->  slabs
+   6:    1  ->  snow
+   7:    1  ->  spoons
+   8:    1  ->  thick
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  as
+   2:    1  ->  lots
+   3:    1  ->  no
+   4:    1  ->  off
+   5:    1  ->  peace
+   6:    1  ->  pulls
+   7:    1  ->  sixes
+   8:    1  ->  tickets
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

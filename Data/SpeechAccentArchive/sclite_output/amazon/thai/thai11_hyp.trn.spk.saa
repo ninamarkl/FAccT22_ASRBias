@@ -1,0 +1,162 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\thai\thai11_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   52.2%   (  36)
+
+Percent Correct           =   58.0%   (  40)
+
+Percent Substitution      =   40.6%   (  28)
+Percent Deletions         =    1.4%   (   1)
+Percent Insertions        =   10.1%   (   7)
+Percent Word Accuracy     =   47.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  75)
+Aligned words             =           (  76)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  things ==> thing
+   2:    1  ->  ask ==> as
+   3:    1  ->  bags ==> bag
+   4:    1  ->  bob ==> robot
+   5:    1  ->  brother ==> that
+   6:    1  ->  call ==> the
+   7:    1  ->  frog ==> fraud
+   8:    1  ->  her ==> hurt
+   9:    1  ->  kids ==> kid
+  10:    1  ->  of ==> off
+  11:    1  ->  of ==> or
+  12:    1  ->  peas ==> he
+  13:    1  ->  please ==> at
+  14:    1  ->  scoop ==> up
+  15:    1  ->  slabs ==> lap
+  16:    1  ->  snake ==> cynic
+  17:    1  ->  spoons ==> upon
+  18:    1  ->  station ==> dissipation
+  19:    1  ->  stella ==> line
+  20:    1  ->  store ==> satar
+  21:    1  ->  these ==> this
+  22:    1  ->  thick ==> a
+  23:    1  ->  to ==> will
+  24:    1  ->  toy ==> bigtime
+  25:    1  ->  train ==> tallinn
+  26:    1  ->  wednesday ==> they
+  27:    1  ->  will ==> win
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  but
+   2:    1  ->  calls
+   3:    1  ->  police
+   4:    1  ->  so
+   5:    1  ->  suck
+   6:    1  ->  takes
+   7:    1  ->  winds
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  big
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  of
+   2:    2  ->  things
+   3:    1  ->  ask
+   4:    1  ->  bags
+   5:    1  ->  bob
+   6:    1  ->  brother
+   7:    1  ->  call
+   8:    1  ->  frog
+   9:    1  ->  her
+  10:    1  ->  kids
+  11:    1  ->  peas
+  12:    1  ->  please
+  13:    1  ->  scoop
+  14:    1  ->  slabs
+  15:    1  ->  snake
+  16:    1  ->  spoons
+  17:    1  ->  station
+  18:    1  ->  stella
+  19:    1  ->  store
+  20:    1  ->  these
+  21:    1  ->  thick
+  22:    1  ->  to
+  23:    1  ->  toy
+  24:    1  ->  train
+  25:    1  ->  wednesday
+  26:    1  ->  will
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  thing
+   2:    1  ->  a
+   3:    1  ->  as
+   4:    1  ->  at
+   5:    1  ->  bag
+   6:    1  ->  bigtime
+   7:    1  ->  cynic
+   8:    1  ->  dissipation
+   9:    1  ->  fraud
+  10:    1  ->  he
+  11:    1  ->  hurt
+  12:    1  ->  kid
+  13:    1  ->  lap
+  14:    1  ->  line
+  15:    1  ->  off
+  16:    1  ->  or
+  17:    1  ->  robot
+  18:    1  ->  satar
+  19:    1  ->  tallinn
+  20:    1  ->  that
+  21:    1  ->  the
+  22:    1  ->  they
+  23:    1  ->  this
+  24:    1  ->  up
+  25:    1  ->  upon
+  26:    1  ->  will
+  27:    1  ->  win
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,131 @@
+SCORING FOR SPEAKER: saa
+     of spanish\spanish70_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.3%   (  23)
+
+Percent Correct           =   71.0%   (  49)
+
+Percent Substitution      =   24.6%   (  17)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    4.3%   (   3)
+Percent Word Accuracy     =   66.7%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  69)
+Aligned words             =           (  72)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  3 ==> three
+   2:    1  ->  5 ==> please
+   3:    1  ->  a ==> it's
+   4:    1  ->  ask ==> has
+   5:    1  ->  bags ==> backs
+   6:    1  ->  bob ==> but
+   7:    1  ->  frog ==> flat
+   8:    1  ->  her ==> had
+   9:    1  ->  peas ==> fresno
+  10:    1  ->  red ==> right
+  11:    1  ->  scoop ==> skip
+  12:    1  ->  slabs ==> lots
+  13:    1  ->  snack ==> not
+  14:    1  ->  spoons ==> 6-months
+  15:    1  ->  these ==> this
+  16:    1  ->  thick ==> 56
+  17:    1  ->  toy ==> tower
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  go
+   2:    1  ->  to
+   3:    1  ->  we'll
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  6
+   2:    1  ->  fresh
+   3:    1  ->  snow
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  3
+   2:    1  ->  5
+   3:    1  ->  a
+   4:    1  ->  ask
+   5:    1  ->  bags
+   6:    1  ->  bob
+   7:    1  ->  frog
+   8:    1  ->  her
+   9:    1  ->  peas
+  10:    1  ->  red
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  snack
+  14:    1  ->  spoons
+  15:    1  ->  these
+  16:    1  ->  thick
+  17:    1  ->  toy
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  56
+   2:    1  ->  6-months
+   3:    1  ->  backs
+   4:    1  ->  but
+   5:    1  ->  flat
+   6:    1  ->  fresno
+   7:    1  ->  had
+   8:    1  ->  has
+   9:    1  ->  it's
+  10:    1  ->  lots
+  11:    1  ->  not
+  12:    1  ->  please
+  13:    1  ->  right
+  14:    1  ->  skip
+  15:    1  ->  this
+  16:    1  ->  three
+  17:    1  ->  tower
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

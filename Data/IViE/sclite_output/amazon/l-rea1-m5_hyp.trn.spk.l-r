@@ -1,0 +1,135 @@
+SCORING FOR SPEAKER: l-r
+     of amazon\l-rea1-m5_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.7%   (  24)
+
+Percent Correct           =   87.8%   ( 166)
+
+Percent Substitution      =   10.6%   (  20)
+Percent Deletions         =    1.6%   (   3)
+Percent Insertions        =    0.5%   (   1)
+Percent Word Accuracy     =   87.3%
+
+
+Ref. words                =           ( 189)
+Hyp. words                =           ( 187)
+Aligned words             =           ( 190)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> rose
+   3:    1  ->  buying ==> buy
+   4:    1  ->  cinders ==> sends
+   5:    1  ->  cinders ==> since
+   6:    1  ->  girls ==> gills
+   7:    1  ->  gowns ==> counts
+   8:    1  ->  had ==> her
+   9:    1  ->  her ==> the
+  10:    1  ->  how ==> hold
+  11:    1  ->  howled ==> hold
+  12:    1  ->  lily ==> lillian
+  13:    1  ->  lived ==> left
+  14:    1  ->  poor ==> paul
+  15:    1  ->  rosa ==> i
+  16:    1  ->  royal ==> raw
+  17:    1  ->  spent ==> spend
+  18:    1  ->  stepsisters ==> sisters
+  19:    1  ->  they'd ==> they
+  20:    1  ->  would ==> will
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  step
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  every
+   2:    1  ->  how
+   3:    1  ->  other
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  cinders
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  buying
+   5:    1  ->  girls
+   6:    1  ->  gowns
+   7:    1  ->  had
+   8:    1  ->  her
+   9:    1  ->  how
+  10:    1  ->  howled
+  11:    1  ->  lily
+  12:    1  ->  lived
+  13:    1  ->  poor
+  14:    1  ->  rosa
+  15:    1  ->  royal
+  16:    1  ->  spent
+  17:    1  ->  stepsisters
+  18:    1  ->  they'd
+  19:    1  ->  would
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  hold
+   2:    2  ->  the
+   3:    1  ->  buy
+   4:    1  ->  counts
+   5:    1  ->  gills
+   6:    1  ->  her
+   7:    1  ->  i
+   8:    1  ->  left
+   9:    1  ->  lillian
+  10:    1  ->  paul
+  11:    1  ->  raw
+  12:    1  ->  rose
+  13:    1  ->  sends
+  14:    1  ->  since
+  15:    1  ->  sisters
+  16:    1  ->  spend
+  17:    1  ->  they
+  18:    1  ->  will
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

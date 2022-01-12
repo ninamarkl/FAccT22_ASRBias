@@ -1,0 +1,130 @@
+SCORING FOR SPEAKER: saa
+     of french\french50_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   44.9%   (  31)
+
+Percent Correct           =   55.1%   (  38)
+
+Percent Substitution      =   20.3%   (  14)
+Percent Deletions         =   24.6%   (  17)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   55.1%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  52)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  5 ==> phone
+   2:    1  ->  ask ==> asked
+   3:    1  ->  bags ==> bars
+   4:    1  ->  blue ==> the
+   5:    1  ->  cheese ==> brushes
+   6:    1  ->  frog ==> phone
+   7:    1  ->  her ==> you
+   8:    1  ->  kids ==> keys
+   9:    1  ->  of ==> slough
+  10:    1  ->  red ==> by
+  11:    1  ->  slabs ==> 0655
+  12:    1  ->  these ==> gets
+  13:    1  ->  these ==> those
+  14:    1  ->  thick ==> just
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  the
+   2:    1  ->  6
+   3:    1  ->  at
+   4:    1  ->  bob
+   5:    1  ->  brother
+   6:    1  ->  can
+   7:    1  ->  fresh
+   8:    1  ->  from
+   9:    1  ->  her
+  10:    1  ->  of
+  11:    1  ->  peas
+  12:    1  ->  scoop
+  13:    1  ->  snow
+  14:    1  ->  spoons
+  15:    1  ->  store
+  16:    1  ->  toy
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  these
+   2:    1  ->  5
+   3:    1  ->  ask
+   4:    1  ->  bags
+   5:    1  ->  blue
+   6:    1  ->  cheese
+   7:    1  ->  frog
+   8:    1  ->  her
+   9:    1  ->  kids
+  10:    1  ->  of
+  11:    1  ->  red
+  12:    1  ->  slabs
+  13:    1  ->  thick
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  phone
+   2:    1  ->  0655
+   3:    1  ->  asked
+   4:    1  ->  bars
+   5:    1  ->  brushes
+   6:    1  ->  by
+   7:    1  ->  gets
+   8:    1  ->  just
+   9:    1  ->  keys
+  10:    1  ->  slough
+  11:    1  ->  the
+  12:    1  ->  those
+  13:    1  ->  you
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,144 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\thai\thai13_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.0%   (  29)
+
+Percent Correct           =   59.4%   (  41)
+
+Percent Substitution      =   34.8%   (  24)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   58.0%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  these ==> this
+   2:    2  ->  things ==> thing
+   3:    1  ->  and ==> in
+   4:    1  ->  ask ==> priskos
+   5:    1  ->  bags ==> back
+   6:    1  ->  blue ==> broach
+   7:    1  ->  can ==> can't
+   8:    1  ->  cheese ==> it
+   9:    1  ->  fresh ==> off
+  10:    1  ->  frog ==> from
+  11:    1  ->  her ==> teyla
+  12:    1  ->  of ==> a
+  13:    1  ->  of ==> spoon
+  14:    1  ->  peas ==> snoopy
+  15:    1  ->  red ==> right
+  16:    1  ->  scoop ==> school
+  17:    1  ->  she ==> you
+  18:    1  ->  slabs ==> slap
+  19:    1  ->  snow ==> rissman
+  20:    1  ->  thick ==> stick
+  21:    1  ->  three ==> tree
+  22:    1  ->  to ==> eggar
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  a
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  call
+   2:    1  ->  please
+   3:    1  ->  spoons
+   4:    1  ->  stella
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    2  ->  things
+   4:    1  ->  and
+   5:    1  ->  ask
+   6:    1  ->  bags
+   7:    1  ->  blue
+   8:    1  ->  can
+   9:    1  ->  cheese
+  10:    1  ->  fresh
+  11:    1  ->  frog
+  12:    1  ->  her
+  13:    1  ->  peas
+  14:    1  ->  red
+  15:    1  ->  scoop
+  16:    1  ->  she
+  17:    1  ->  slabs
+  18:    1  ->  snow
+  19:    1  ->  thick
+  20:    1  ->  three
+  21:    1  ->  to
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  thing
+   2:    2  ->  this
+   3:    1  ->  a
+   4:    1  ->  back
+   5:    1  ->  broach
+   6:    1  ->  can't
+   7:    1  ->  eggar
+   8:    1  ->  from
+   9:    1  ->  in
+  10:    1  ->  it
+  11:    1  ->  off
+  12:    1  ->  priskos
+  13:    1  ->  right
+  14:    1  ->  rissman
+  15:    1  ->  school
+  16:    1  ->  slap
+  17:    1  ->  snoopy
+  18:    1  ->  spoon
+  19:    1  ->  stick
+  20:    1  ->  teyla
+  21:    1  ->  tree
+  22:    1  ->  you
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

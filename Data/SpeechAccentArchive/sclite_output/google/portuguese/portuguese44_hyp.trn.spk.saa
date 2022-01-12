@@ -1,0 +1,131 @@
+SCORING FOR SPEAKER: saa
+     of portuguese\portuguese44_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   53.6%   (  37)
+
+Percent Correct           =   46.4%   (  32)
+
+Percent Substitution      =   15.9%   (  11)
+Percent Deletions         =   37.7%   (  26)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   46.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  43)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5 ==> please
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> in
+   4:    1  ->  big ==> beach
+   5:    1  ->  bring ==> stour
+   6:    1  ->  frog ==> france
+   7:    1  ->  peas ==> pressure
+   8:    1  ->  slabs ==> levels
+   9:    1  ->  spoons ==> pounds
+  10:    1  ->  thick ==> 56
+  11:    1  ->  toy ==> by
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  a
+   2:    2  ->  her
+   3:    1  ->  3
+   4:    1  ->  also
+   5:    1  ->  ask
+   6:    1  ->  bob
+   7:    1  ->  brother
+   8:    1  ->  can
+   9:    1  ->  for
+  10:    1  ->  fresh
+  11:    1  ->  into
+  12:    1  ->  maybe
+  13:    1  ->  need
+  14:    1  ->  red
+  15:    1  ->  scoop
+  16:    1  ->  she
+  17:    1  ->  small
+  18:    1  ->  snack
+  19:    1  ->  snow
+  20:    1  ->  stella
+  21:    1  ->  these
+  22:    1  ->  things
+  23:    1  ->  to
+  24:    1  ->  we
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  5
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  big
+   5:    1  ->  bring
+   6:    1  ->  frog
+   7:    1  ->  peas
+   8:    1  ->  slabs
+   9:    1  ->  spoons
+  10:    1  ->  thick
+  11:    1  ->  toy
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  56
+   2:    1  ->  beach
+   3:    1  ->  by
+   4:    1  ->  france
+   5:    1  ->  in
+   6:    1  ->  levels
+   7:    1  ->  please
+   8:    1  ->  pounds
+   9:    1  ->  pressure
+  10:    1  ->  stour
+  11:    1  ->  the
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

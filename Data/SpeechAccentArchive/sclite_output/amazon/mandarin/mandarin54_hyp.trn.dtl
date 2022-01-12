@@ -1,0 +1,106 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM:  amazon\mandarin\mandarin54_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   14.5%   (  10)
+Percent Deletions         =    4.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  66)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  bags ==> backs
+   3:    1  ->  blue ==> off
+   4:    1  ->  cheese ==> guccis
+   5:    1  ->  of ==> laps
+   6:    1  ->  slabs ==> fifty-six
+   7:    1  ->  snake ==> snack
+   8:    1  ->  spoons ==> points
+   9:    1  ->  stella ==> costello
+  10:    1  ->  thick ==> piece
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  call
+   2:    1  ->  five
+   3:    1  ->  peas
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  bags
+   3:    1  ->  blue
+   4:    1  ->  cheese
+   5:    1  ->  of
+   6:    1  ->  slabs
+   7:    1  ->  snake
+   8:    1  ->  spoons
+   9:    1  ->  stella
+  10:    1  ->  thick
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  backs
+   2:    1  ->  costello
+   3:    1  ->  fifty-six
+   4:    1  ->  guccis
+   5:    1  ->  laps
+   6:    1  ->  off
+   7:    1  ->  piece
+   8:    1  ->  points
+   9:    1  ->  snack
+  10:    1  ->  the
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

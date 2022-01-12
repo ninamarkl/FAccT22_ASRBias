@@ -1,0 +1,113 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: french\french55_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.6%   (  17)
+
+Percent Correct           =   75.4%   (  52)
+
+Percent Substitution      =   17.4%   (  12)
+Percent Deletions         =    7.2%   (   5)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   75.4%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  64)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  5 ==> freshener
+   2:    1  ->  6 ==> six
+   3:    1  ->  bob ==> but
+   4:    1  ->  cheese ==> lucia
+   5:    1  ->  her ==> a
+   6:    1  ->  her ==> or
+   7:    1  ->  scoop ==> schools
+   8:    1  ->  slabs ==> labs
+   9:    1  ->  spoons ==> points
+  10:    1  ->  these ==> this
+  11:    1  ->  thick ==> bs56
+  12:    1  ->  things ==> thing
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  blue
+   3:    1  ->  fresh
+   4:    1  ->  peas
+   5:    1  ->  snow
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  her
+   2:    1  ->  5
+   3:    1  ->  6
+   4:    1  ->  bob
+   5:    1  ->  cheese
+   6:    1  ->  scoop
+   7:    1  ->  slabs
+   8:    1  ->  spoons
+   9:    1  ->  these
+  10:    1  ->  thick
+  11:    1  ->  things
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  bs56
+   3:    1  ->  but
+   4:    1  ->  freshener
+   5:    1  ->  labs
+   6:    1  ->  lucia
+   7:    1  ->  or
+   8:    1  ->  points
+   9:    1  ->  schools
+  10:    1  ->  six
+  11:    1  ->  thing
+  12:    1  ->  this
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

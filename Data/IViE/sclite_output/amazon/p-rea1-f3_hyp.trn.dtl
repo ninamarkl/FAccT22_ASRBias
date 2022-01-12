@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\p-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.5%   (  40)
+
+Percent Correct           =   80.6%   ( 150)
+
+Percent Substitution      =   17.2%   (  32)
+Percent Deletions         =    2.2%   (   4)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   78.5%
+
+
+Ref. words                =           ( 186)
+Hyp. words                =           ( 186)
+Aligned words             =           ( 190)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  their ==> the
+   2:    2  ->  and ==> lillian
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> in
+   5:    1  ->  and ==> the
+   6:    1  ->  at ==> in
+   7:    1  ->  cinders ==> is
+   8:    1  ->  cinders ==> sinners
+   9:    1  ->  cinders ==> this
+  10:    1  ->  gowns ==> cards
+  11:    1  ->  gowns ==> counts
+  12:    1  ->  had ==> that
+  13:    1  ->  hairpins ==> happens
+  14:    1  ->  hairspray ==> sprays
+  15:    1  ->  hat ==> out
+  16:    1  ->  her ==> him
+  17:    1  ->  her ==> us
+  18:    1  ->  howled ==> how
+  19:    1  ->  jewels ==> jewish
+  20:    1  ->  lily ==> living
+  21:    1  ->  mother ==> with
+  22:    1  ->  sisters ==> still
+  23:    1  ->  spent ==> spend
+  24:    1  ->  stepsisters ==> sisters
+  25:    1  ->  they ==> the
+  26:    1  ->  they'd ==> they
+  27:    1  ->  unfriendly ==> friendly
+  28:    1  ->  wanted ==> wounded
+  29:    1  ->  would ==> will
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  as
+   2:    1  ->  hair
+   3:    1  ->  scene
+   4:    1  ->  step
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  lily
+   2:    1  ->  my
+   3:    1  ->  they
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  and
+   2:    3  ->  cinders
+   3:    3  ->  their
+   4:    2  ->  gowns
+   5:    2  ->  her
+   6:    1  ->  a
+   7:    1  ->  at
+   8:    1  ->  had
+   9:    1  ->  hairpins
+  10:    1  ->  hairspray
+  11:    1  ->  hat
+  12:    1  ->  howled
+  13:    1  ->  jewels
+  14:    1  ->  lily
+  15:    1  ->  mother
+  16:    1  ->  sisters
+  17:    1  ->  spent
+  18:    1  ->  stepsisters
+  19:    1  ->  they
+  20:    1  ->  they'd
+  21:    1  ->  unfriendly
+  22:    1  ->  wanted
+  23:    1  ->  would
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    6  ->  the
+   2:    2  ->  in
+   3:    2  ->  lillian
+   4:    1  ->  cards
+   5:    1  ->  counts
+   6:    1  ->  friendly
+   7:    1  ->  happens
+   8:    1  ->  him
+   9:    1  ->  how
+  10:    1  ->  is
+  11:    1  ->  jewish
+  12:    1  ->  living
+  13:    1  ->  out
+  14:    1  ->  sinners
+  15:    1  ->  sisters
+  16:    1  ->  spend
+  17:    1  ->  sprays
+  18:    1  ->  still
+  19:    1  ->  that
+  20:    1  ->  they
+  21:    1  ->  this
+  22:    1  ->  us
+  23:    1  ->  will
+  24:    1  ->  with
+  25:    1  ->  wounded
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

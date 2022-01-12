@@ -1,0 +1,164 @@
+SCORING FOR SPEAKER: b-r
+     of amazon\b-rea1-m6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.7%   (  38)
+
+Percent Correct           =   82.1%   ( 151)
+
+Percent Substitution      =   16.8%   (  31)
+Percent Deletions         =    1.1%   (   2)
+Percent Insertions        =    2.7%   (   5)
+Percent Word Accuracy     =   79.3%
+
+
+Ref. words                =           ( 184)
+Hyp. words                =           ( 187)
+Aligned words             =           ( 189)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  cinders ==> centres
+   2:    2  ->  cinders ==> senders
+   3:    2  ->  gowns ==> games
+   4:    1  ->  a ==> the
+   5:    1  ->  and ==> lillian
+   6:    1  ->  arrived ==> aid
+   7:    1  ->  bells ==> bills
+   8:    1  ->  bride ==> braid
+   9:    1  ->  called ==> calls
+  10:    1  ->  divine ==> vein
+  11:    1  ->  find ==> fan
+  12:    1  ->  go ==> dog
+  13:    1  ->  hairbrushes ==> her
+  14:    1  ->  hairpins ==> pens
+  15:    1  ->  hat ==> heart
+  16:    1  ->  howled ==> heard
+  17:    1  ->  lily ==> italy
+  18:    1  ->  mother ==> mueller
+  19:    1  ->  prince ==> france
+  20:    1  ->  rosa ==> i
+  21:    1  ->  shouting ==> shooting
+  22:    1  ->  their ==> they're
+  23:    1  ->  they'd ==> they
+  24:    1  ->  to ==> he
+  25:    1  ->  wear ==> were
+  26:    1  ->  wedding ==> wearing
+  27:    1  ->  were ==> we're
+  28:    1  ->  would ==> will
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  brushes
+   2:    1  ->  her
+   3:    1  ->  or
+   4:    1  ->  russia
+   5:    1  ->  the
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  all
+   2:    1  ->  lily
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    4  ->  cinders
+   2:    2  ->  gowns
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  arrived
+   6:    1  ->  bells
+   7:    1  ->  bride
+   8:    1  ->  called
+   9:    1  ->  divine
+  10:    1  ->  find
+  11:    1  ->  go
+  12:    1  ->  hairbrushes
+  13:    1  ->  hairpins
+  14:    1  ->  hat
+  15:    1  ->  howled
+  16:    1  ->  lily
+  17:    1  ->  mother
+  18:    1  ->  prince
+  19:    1  ->  rosa
+  20:    1  ->  shouting
+  21:    1  ->  their
+  22:    1  ->  they'd
+  23:    1  ->  to
+  24:    1  ->  wear
+  25:    1  ->  wedding
+  26:    1  ->  were
+  27:    1  ->  would
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  centres
+   2:    2  ->  games
+   3:    2  ->  senders
+   4:    1  ->  aid
+   5:    1  ->  bills
+   6:    1  ->  braid
+   7:    1  ->  calls
+   8:    1  ->  dog
+   9:    1  ->  fan
+  10:    1  ->  france
+  11:    1  ->  he
+  12:    1  ->  heard
+  13:    1  ->  heart
+  14:    1  ->  her
+  15:    1  ->  i
+  16:    1  ->  italy
+  17:    1  ->  lillian
+  18:    1  ->  mueller
+  19:    1  ->  pens
+  20:    1  ->  shooting
+  21:    1  ->  the
+  22:    1  ->  they
+  23:    1  ->  they're
+  24:    1  ->  vein
+  25:    1  ->  we're
+  26:    1  ->  wearing
+  27:    1  ->  were
+  28:    1  ->  will
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,104 @@
+SCORING FOR SPEAKER: saa
+     of mandarin\mandarin47_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   (  13)
+
+Percent Correct           =   81.2%   (  56)
+
+Percent Substitution      =   13.0%   (   9)
+Percent Deletions         =    5.8%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  65)
+Aligned words             =           (  69)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  of ==> lives
+   2:    1  ->  scoop ==> book
+   3:    1  ->  she ==> we
+   4:    1  ->  slabs ==> fix
+   5:    1  ->  snack ==> snake
+   6:    1  ->  spoons ==> pounds
+   7:    1  ->  these ==> that
+   8:    1  ->  these ==> the
+   9:    1  ->  things ==> sings
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  5
+   2:    1  ->  also
+   3:    1  ->  thick
+   4:    1  ->  we
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  these
+   2:    1  ->  of
+   3:    1  ->  scoop
+   4:    1  ->  she
+   5:    1  ->  slabs
+   6:    1  ->  snack
+   7:    1  ->  spoons
+   8:    1  ->  things
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  book
+   2:    1  ->  fix
+   3:    1  ->  lives
+   4:    1  ->  pounds
+   5:    1  ->  sings
+   6:    1  ->  snake
+   7:    1  ->  that
+   8:    1  ->  the
+   9:    1  ->  we
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

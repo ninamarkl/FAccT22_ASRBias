@@ -1,0 +1,203 @@
+SCORING FOR SPEAKER: c-r
+     of google\c-rea1-f3_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   42.7%   (  76)
+
+Percent Correct           =   59.6%   ( 106)
+
+Percent Substitution      =   19.1%   (  34)
+Percent Deletions         =   21.3%   (  38)
+Percent Insertions        =    2.2%   (   4)
+Percent Word Accuracy     =   57.3%
+
+
+Ref. words                =           ( 178)
+Hyp. words                =           ( 144)
+Aligned words             =           ( 182)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  and ==> call
+   3:    1  ->  arrived ==> boredom
+   4:    1  ->  ball ==> all
+   5:    1  ->  buying ==> by
+   6:    1  ->  cinders ==> a
+   7:    1  ->  cinders ==> has
+   8:    1  ->  cinders ==> syndicate
+   9:    1  ->  gowns ==> cans
+  10:    1  ->  gowns ==> times
+  11:    1  ->  hairbrushes ==> her
+  12:    1  ->  hairpins ==> hair
+  13:    1  ->  hairspray ==> spray
+  14:    1  ->  her ==> their
+  15:    1  ->  howled ==> how
+  16:    1  ->  lived ==> live
+  17:    1  ->  of ==> evenings
+  18:    1  ->  one ==> modules
+  19:    1  ->  rosa ==> liliana
+  20:    1  ->  royal ==> real
+  21:    1  ->  sisters ==> to
+  22:    1  ->  so ==> she's
+  23:    1  ->  started ==> a
+  24:    1  ->  their ==> although
+  25:    1  ->  they ==> had
+  26:    1  ->  they'd ==> it
+  27:    1  ->  wanted ==> brushes
+  28:    1  ->  was ==> is
+  29:    1  ->  was ==> william's
+  30:    1  ->  was ==> you
+  31:    1  ->  were ==> groza
+  32:    1  ->  were ==> there
+  33:    1  ->  when ==> in
+  34:    1  ->  would ==> bowl
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  and
+   2:    1  ->  hair
+   3:    1  ->  lazygirls
+   4:    1  ->  would
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  lily
+   2:    3  ->  they
+   3:    2  ->  all
+   4:    2  ->  and
+   5:    2  ->  ball
+   6:    2  ->  her
+   7:    1  ->  a
+   8:    1  ->  called
+   9:    1  ->  cinders
+  10:    1  ->  do
+  11:    1  ->  evening
+  12:    1  ->  girls
+  13:    1  ->  had
+  14:    1  ->  he
+  15:    1  ->  honour
+  16:    1  ->  in
+  17:    1  ->  jewels
+  18:    1  ->  lazy
+  19:    1  ->  my
+  20:    1  ->  of
+  21:    1  ->  poor
+  22:    1  ->  rosa
+  23:    1  ->  she
+  24:    1  ->  spent
+  25:    1  ->  that
+  26:    1  ->  the
+  27:    1  ->  to
+  28:    1  ->  were
+  29:    1  ->  william
+  30:    1  ->  yelled
+     -------
+        38
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  cinders
+   2:    3  ->  was
+   3:    2  ->  gowns
+   4:    2  ->  were
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  arrived
+   8:    1  ->  ball
+   9:    1  ->  buying
+  10:    1  ->  hairbrushes
+  11:    1  ->  hairpins
+  12:    1  ->  hairspray
+  13:    1  ->  her
+  14:    1  ->  howled
+  15:    1  ->  lived
+  16:    1  ->  of
+  17:    1  ->  one
+  18:    1  ->  rosa
+  19:    1  ->  royal
+  20:    1  ->  sisters
+  21:    1  ->  so
+  22:    1  ->  started
+  23:    1  ->  their
+  24:    1  ->  they
+  25:    1  ->  they'd
+  26:    1  ->  wanted
+  27:    1  ->  when
+  28:    1  ->  would
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  a
+   2:    1  ->  all
+   3:    1  ->  although
+   4:    1  ->  boredom
+   5:    1  ->  bowl
+   6:    1  ->  brushes
+   7:    1  ->  by
+   8:    1  ->  call
+   9:    1  ->  cans
+  10:    1  ->  evenings
+  11:    1  ->  groza
+  12:    1  ->  had
+  13:    1  ->  hair
+  14:    1  ->  has
+  15:    1  ->  her
+  16:    1  ->  how
+  17:    1  ->  in
+  18:    1  ->  is
+  19:    1  ->  it
+  20:    1  ->  liliana
+  21:    1  ->  live
+  22:    1  ->  modules
+  23:    1  ->  of
+  24:    1  ->  real
+  25:    1  ->  she's
+  26:    1  ->  spray
+  27:    1  ->  syndicate
+  28:    1  ->  their
+  29:    1  ->  there
+  30:    1  ->  times
+  31:    1  ->  to
+  32:    1  ->  william's
+  33:    1  ->  you
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

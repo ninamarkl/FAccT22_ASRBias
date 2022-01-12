@@ -1,0 +1,185 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google\p-rea1-m1_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   (  56)
+
+Percent Correct           =   72.5%   ( 140)
+
+Percent Substitution      =   17.1%   (  33)
+Percent Deletions         =   10.4%   (  20)
+Percent Insertions        =    1.6%   (   3)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           ( 193)
+Hyp. words                =           ( 176)
+Aligned words             =           ( 196)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  they ==> the
+   2:    1  ->  a ==> announcer
+   3:    1  ->  all ==> older
+   4:    1  ->  and ==> i'm
+   5:    1  ->  ball ==> support
+   6:    1  ->  cinders ==> cds
+   7:    1  ->  dreamed ==> dream
+   8:    1  ->  girl ==> good
+   9:    1  ->  girls ==> lazygirls
+  10:    1  ->  gowns ==> coins
+  11:    1  ->  gowns ==> crimes
+  12:    1  ->  had ==> have
+  13:    1  ->  had ==> how
+  14:    1  ->  hat ==> heart
+  15:    1  ->  howled ==> how
+  16:    1  ->  jewels ==> joules
+  17:    1  ->  lazy ==> david
+  18:    1  ->  lily ==> me
+  19:    1  ->  new ==> timebyme
+  20:    1  ->  new ==> you
+  21:    1  ->  of ==> day
+  22:    1  ->  other ==> that
+  23:    1  ->  pr ==> happens
+  24:    1  ->  rosa ==> i
+  25:    1  ->  rosa ==> rosie
+  26:    1  ->  the ==> do
+  27:    1  ->  the ==> or
+  28:    1  ->  their ==> than
+  29:    1  ->  they'd ==> did
+  30:    1  ->  were ==> rosie
+  31:    1  ->  when ==> of
+  32:    1  ->  yelled ==> yellow
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  brushes
+   2:    1  ->  rose
+   3:    1  ->  them
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  a
+   2:    1  ->  all
+   3:    1  ->  and
+   4:    1  ->  announce
+   5:    1  ->  buying
+   6:    1  ->  cinders
+   7:    1  ->  enough
+   8:    1  ->  gen
+   9:    1  ->  hairbrushes
+  10:    1  ->  hairpins
+  11:    1  ->  hand
+  12:    1  ->  of
+  13:    1  ->  poor
+  14:    1  ->  rosa
+  15:    1  ->  that
+  16:    1  ->  the
+  17:    1  ->  they
+  18:    1  ->  time
+  19:    1  ->  were
+  20:    1  ->  when
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  gowns
+   2:    2  ->  had
+   3:    2  ->  new
+   4:    2  ->  rosa
+   5:    2  ->  the
+   6:    2  ->  they
+   7:    1  ->  a
+   8:    1  ->  all
+   9:    1  ->  and
+  10:    1  ->  ball
+  11:    1  ->  cinders
+  12:    1  ->  dreamed
+  13:    1  ->  girl
+  14:    1  ->  girls
+  15:    1  ->  hat
+  16:    1  ->  howled
+  17:    1  ->  jewels
+  18:    1  ->  lazy
+  19:    1  ->  lily
+  20:    1  ->  of
+  21:    1  ->  other
+  22:    1  ->  pr
+  23:    1  ->  their
+  24:    1  ->  they'd
+  25:    1  ->  were
+  26:    1  ->  when
+  27:    1  ->  yelled
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  how
+   2:    2  ->  rosie
+   3:    2  ->  the
+   4:    1  ->  announcer
+   5:    1  ->  cds
+   6:    1  ->  coins
+   7:    1  ->  crimes
+   8:    1  ->  david
+   9:    1  ->  day
+  10:    1  ->  did
+  11:    1  ->  do
+  12:    1  ->  dream
+  13:    1  ->  good
+  14:    1  ->  happens
+  15:    1  ->  have
+  16:    1  ->  heart
+  17:    1  ->  i
+  18:    1  ->  i'm
+  19:    1  ->  joules
+  20:    1  ->  lazygirls
+  21:    1  ->  me
+  22:    1  ->  of
+  23:    1  ->  older
+  24:    1  ->  or
+  25:    1  ->  support
+  26:    1  ->  than
+  27:    1  ->  that
+  28:    1  ->  timebyme
+  29:    1  ->  yellow
+  30:    1  ->  you
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

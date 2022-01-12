@@ -1,0 +1,151 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: mandarin\mandarin8_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   66.7%   (  46)
+
+Percent Correct           =   34.8%   (  24)
+
+Percent Substitution      =   26.1%   (  18)
+Percent Deletions         =   39.1%   (  27)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   33.3%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  43)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  5 ==> first
+   2:    1  ->  6 ==> six
+   3:    1  ->  a ==> your
+   4:    1  ->  at ==> a
+   5:    1  ->  her ==> sainsbury's
+   6:    1  ->  of ==> so
+   7:    1  ->  plastic ==> smoketastic
+   8:    1  ->  scoop ==> a
+   9:    1  ->  slabs ==> left
+  10:    1  ->  small ==> oscillator
+  11:    1  ->  spoons ==> points
+  12:    1  ->  stella ==> stana
+  13:    1  ->  store ==> restore
+  14:    1  ->  the ==> street
+  15:    1  ->  these ==> kiss
+  16:    1  ->  thick ==> thing's
+  17:    1  ->  things ==> this
+  18:    1  ->  toy ==> victoria
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  variable
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  her
+   2:    2  ->  the
+   3:    2  ->  we
+   4:    1  ->  3
+   5:    1  ->  also
+   6:    1  ->  and
+   7:    1  ->  bags
+   8:    1  ->  big
+   9:    1  ->  bob
+  10:    1  ->  bring
+  11:    1  ->  brother
+  12:    1  ->  can
+  13:    1  ->  go
+  14:    1  ->  kids
+  15:    1  ->  maybe
+  16:    1  ->  meet
+  17:    1  ->  need
+  18:    1  ->  red
+  19:    1  ->  she
+  20:    1  ->  these
+  21:    1  ->  things
+  22:    1  ->  wednesday
+  23:    1  ->  will
+  24:    1  ->  with
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  5
+   2:    1  ->  6
+   3:    1  ->  a
+   4:    1  ->  at
+   5:    1  ->  her
+   6:    1  ->  of
+   7:    1  ->  plastic
+   8:    1  ->  scoop
+   9:    1  ->  slabs
+  10:    1  ->  small
+  11:    1  ->  spoons
+  12:    1  ->  stella
+  13:    1  ->  store
+  14:    1  ->  the
+  15:    1  ->  these
+  16:    1  ->  thick
+  17:    1  ->  things
+  18:    1  ->  toy
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  a
+   2:    1  ->  first
+   3:    1  ->  kiss
+   4:    1  ->  left
+   5:    1  ->  oscillator
+   6:    1  ->  points
+   7:    1  ->  restore
+   8:    1  ->  sainsbury's
+   9:    1  ->  six
+  10:    1  ->  smoketastic
+  11:    1  ->  so
+  12:    1  ->  stana
+  13:    1  ->  street
+  14:    1  ->  thing's
+  15:    1  ->  this
+  16:    1  ->  victoria
+  17:    1  ->  your
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

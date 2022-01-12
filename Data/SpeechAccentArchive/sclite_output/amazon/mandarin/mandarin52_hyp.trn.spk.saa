@@ -1,0 +1,140 @@
+SCORING FOR SPEAKER: saa
+     of  amazon\mandarin\mandarin52_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   36.2%   (  25)
+
+Percent Correct           =   65.2%   (  45)
+
+Percent Substitution      =   31.9%   (  22)
+Percent Deletions         =    2.9%   (   2)
+Percent Insertions        =    1.4%   (   1)
+Percent Word Accuracy     =   63.8%
+
+
+Ref. words                =           (  69)
+Hyp. words                =           (  68)
+Aligned words             =           (  70)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  bags ==> backs
+   2:    1  ->  blue ==> off
+   3:    1  ->  call ==> cows
+   4:    1  ->  cheese ==> brooches
+   5:    1  ->  fresh ==> rich
+   6:    1  ->  frog ==> folk
+   7:    1  ->  of ==> off
+   8:    1  ->  of ==> slaps
+   9:    1  ->  please ==> priest
+  10:    1  ->  red ==> read
+  11:    1  ->  scoop ==> scope
+  12:    1  ->  slabs ==> fifty-six
+  13:    1  ->  snake ==> snack
+  14:    1  ->  spoons ==> points
+  15:    1  ->  stella ==> della
+  16:    1  ->  store ==> straw
+  17:    1  ->  the ==> a
+  18:    1  ->  these ==> so
+  19:    1  ->  these ==> the
+  20:    1  ->  thick ==> piece
+  21:    1  ->  things ==> scenes
+  22:    1  ->  train ==> chance
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  just
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  five
+   2:    1  ->  peas
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  of
+   2:    2  ->  these
+   3:    1  ->  bags
+   4:    1  ->  blue
+   5:    1  ->  call
+   6:    1  ->  cheese
+   7:    1  ->  fresh
+   8:    1  ->  frog
+   9:    1  ->  please
+  10:    1  ->  red
+  11:    1  ->  scoop
+  12:    1  ->  slabs
+  13:    1  ->  snake
+  14:    1  ->  spoons
+  15:    1  ->  stella
+  16:    1  ->  store
+  17:    1  ->  the
+  18:    1  ->  thick
+  19:    1  ->  things
+  20:    1  ->  train
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  off
+   2:    1  ->  a
+   3:    1  ->  backs
+   4:    1  ->  brooches
+   5:    1  ->  chance
+   6:    1  ->  cows
+   7:    1  ->  della
+   8:    1  ->  fifty-six
+   9:    1  ->  folk
+  10:    1  ->  piece
+  11:    1  ->  points
+  12:    1  ->  priest
+  13:    1  ->  read
+  14:    1  ->  rich
+  15:    1  ->  scenes
+  16:    1  ->  scope
+  17:    1  ->  slaps
+  18:    1  ->  snack
+  19:    1  ->  so
+  20:    1  ->  straw
+  21:    1  ->  the
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

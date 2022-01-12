@@ -1,0 +1,21 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   amazon\d-rea1-m1_hyp.trn
+
+Speakers: 
+    0:  d-r
+
+Speaker sentences   0:  d-r   #utts: 1
+id: (d-rea1-m1_01)
+Scores: (#C #S #D #I) 176 25 6 7
+REF:  once upon a time there was a girl called cinderella but everyone called her *** CINDERS CINDERS lived with her mother and two ***** *** *** STEPSIN stepsisters called lily and rosa LILY  and ROSA were very unfriendly AND they were lazy girls they spent all their time BUYING new clothes and going to parties POOR CINDERS   HAD  to wear all the old hand me downs all she had and she HAD TO    DO  the cleaning and she had to do *** the cleaning one day a royal messenger came to announce a ball the BALL WOULD BE held at the royal palace in honour of the queen's only **** SON prince william LILY    AND  ROSA thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding BELLS when the evening of the ball arrived CINDERS had to help her sisters get ready they were in a bad mood THEY'D wanted to buy some new gowns but their mother said THAT they *** had enough gowns THEY'D wanted to buy some new gowns but THEIR mother said THAT they had had 
+HYP:  once upon a time there was a girl called cinderella but everyone called her SIN DRESS   SENIORS lived with her mother and two STEPS AND ITS TEST    stepsisters called lily and rosa LYDIA and ROSE were very unfriendly *** they were lazy girls they spent all their time BUY    new clothes and going to parties **** PRISONERS HAVE to wear all the old hand me downs all she had and she *** THREW ALL the cleaning and she had to do ALL the cleaning one day a royal messenger came to announce a ball the **** BALD  WE held at the royal palace in honour of the queen's only SORT OF  prince william LILLIAN ROSE I    thought this was divine prince william was gorgeous and he was looking for a bride they dreamed of wedding BILLS when the evening of the ball arrived SINGERS had to help her sisters get ready they were in a bad mood THEY   wanted to buy some new gowns but their mother said **** they HAD had enough gowns THEY   wanted to buy some new gowns but THE   mother said **** they had had 
+Eval:                                                                             I   S       S                                     I     I   I   S                                        S         S                         D                                                  S                                       D    S         S                                                          D   S     S                                  I                                                                      D    S     S                                                         I    S                  S       S    S                                                                                                               S                                          S                                                                 S                                                         D         I                    S                                       S                 D                 
+
+>> REF:  enough gowns so they started shouting at cinders find my jewels YELLED ONE   find my hat HOWLED the other they WANTED  hairbrushes hairpins and hairspray 
+>> HYP:  enough gowns so they started shouting at cinders find my jewels HELD   WOULD find my hat HELD   the other they ORDERED hairbrushes hairpins and hairspray 
+>> Eval:                                                                 S      S                 S                     S                                          
+
+

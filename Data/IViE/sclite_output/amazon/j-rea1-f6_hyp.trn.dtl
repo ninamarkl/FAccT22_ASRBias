@@ -1,0 +1,118 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: amazon\j-rea1-f6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.0%   (  18)
+
+Percent Correct           =   90.6%   ( 163)
+
+Percent Substitution      =    7.8%   (  14)
+Percent Deletions         =    1.7%   (   3)
+Percent Insertions        =    0.6%   (   1)
+Percent Word Accuracy     =   90.0%
+
+
+Ref. words                =           ( 180)
+Hyp. words                =           ( 178)
+Aligned words             =           ( 181)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  and ==> in
+   2:    1  ->  and ==> lee
+   3:    1  ->  arrived ==> arrives
+   4:    1  ->  ball ==> wall
+   5:    1  ->  buying ==> buy
+   6:    1  ->  downs ==> down
+   7:    1  ->  gowns ==> guns
+   8:    1  ->  hairpins ==> happens
+   9:    1  ->  howled ==> how
+  10:    1  ->  poor ==> post
+  11:    1  ->  rosa ==> arosa
+  12:    1  ->  spent ==> spend
+  13:    1  ->  would ==> will
+  14:    1  ->  yelled ==> old
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  lily
+   2:    1  ->  sep
+   3:    1  ->  the
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and
+   2:    1  ->  arrived
+   3:    1  ->  ball
+   4:    1  ->  buying
+   5:    1  ->  downs
+   6:    1  ->  gowns
+   7:    1  ->  hairpins
+   8:    1  ->  howled
+   9:    1  ->  poor
+  10:    1  ->  rosa
+  11:    1  ->  spent
+  12:    1  ->  would
+  13:    1  ->  yelled
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  arosa
+   2:    1  ->  arrives
+   3:    1  ->  buy
+   4:    1  ->  down
+   5:    1  ->  guns
+   6:    1  ->  happens
+   7:    1  ->  how
+   8:    1  ->  in
+   9:    1  ->  lee
+  10:    1  ->  old
+  11:    1  ->  post
+  12:    1  ->  spend
+  13:    1  ->  wall
+  14:    1  ->  will
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

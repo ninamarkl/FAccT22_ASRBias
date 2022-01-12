@@ -1,0 +1,104 @@
+SCORING FOR SPEAKER: d-r
+     of amazon\d-rea1-f4_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.8%   (  16)
+
+Percent Correct           =   92.8%   ( 168)
+
+Percent Substitution      =    5.0%   (   9)
+Percent Deletions         =    2.2%   (   4)
+Percent Insertions        =    1.7%   (   3)
+Percent Word Accuracy     =   91.2%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 180)
+Aligned words             =           ( 184)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  and ==> lillian
+   2:    1  ->  a ==> the
+   3:    1  ->  announce ==> end
+   4:    1  ->  at ==> in
+   5:    1  ->  cinders ==> singers
+   6:    1  ->  gowns ==> grounds
+   7:    1  ->  howled ==> held
+   8:    1  ->  stepsisters ==> sisters
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  an
+   2:    1  ->  step
+   3:    1  ->  yelled
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  lily
+   2:    1  ->  that
+   3:    1  ->  yelled
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  announce
+   4:    1  ->  at
+   5:    1  ->  cinders
+   6:    1  ->  gowns
+   7:    1  ->  howled
+   8:    1  ->  stepsisters
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  lillian
+   2:    1  ->  end
+   3:    1  ->  grounds
+   4:    1  ->  held
+   5:    1  ->  in
+   6:    1  ->  singers
+   7:    1  ->  sisters
+   8:    1  ->  the
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

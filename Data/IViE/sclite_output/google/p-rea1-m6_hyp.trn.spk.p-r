@@ -1,0 +1,203 @@
+SCORING FOR SPEAKER: p-r
+     of google\p-rea1-m6_hyp.trn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitions                     100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   34.3%   (  62)
+
+Percent Correct           =   69.1%   ( 125)
+
+Percent Substitution      =   24.3%   (  44)
+Percent Deletions         =    6.6%   (  12)
+Percent Insertions        =    3.3%   (   6)
+Percent Word Accuracy     =   65.7%
+
+
+Ref. words                =           ( 181)
+Hyp. words                =           ( 175)
+Aligned words             =           ( 187)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  cinders ==> singers
+   2:    2  ->  rosa ==> rosie
+   3:    2  ->  their ==> the
+   4:    1  ->  a ==> i'm
+   5:    1  ->  and ==> indian
+   6:    1  ->  ball ==> about
+   7:    1  ->  ball ==> wall
+   8:    1  ->  cinders ==> cd's
+   9:    1  ->  cinders ==> this
+  10:    1  ->  divine ==> genuine
+  11:    1  ->  dreamed ==> dream
+  12:    1  ->  girls ==> lazygirls
+  13:    1  ->  gowns ==> account
+  14:    1  ->  gowns ==> can't
+  15:    1  ->  had ==> how
+  16:    1  ->  hairbrushes ==> it
+  17:    1  ->  hairpins ==> happens
+  18:    1  ->  her ==> my
+  19:    1  ->  her ==> their
+  20:    1  ->  jewels ==> jewellery
+  21:    1  ->  lived ==> live
+  22:    1  ->  messenger ==> you
+  23:    1  ->  of ==> day
+  24:    1  ->  of ==> on
+  25:    1  ->  one ==> loan
+  26:    1  ->  other ==> holder
+  27:    1  ->  parties ==> party
+  28:    1  ->  poor ==> posting
+  29:    1  ->  rosa ==> rosewood
+  30:    1  ->  royal ==> messing
+  31:    1  ->  sisters ==> sister's
+  32:    1  ->  the ==> heart
+  33:    1  ->  they ==> a
+  34:    1  ->  they ==> she
+  35:    1  ->  they'd ==> and
+  36:    1  ->  unfriendly ==> friendly
+  37:    1  ->  very ==> a
+  38:    1  ->  wanted ==> twelve
+  39:    1  ->  was ==> you
+  40:    1  ->  were ==> on
+  41:    1  ->  yelled ==> and
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  brush
+   3:    1  ->  eight
+   4:    1  ->  hair
+   5:    1  ->  hundred
+   6:    1  ->  the
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  cinders
+   3:    1  ->  hat
+   4:    1  ->  he
+   5:    1  ->  honour
+   6:    1  ->  howled
+   7:    1  ->  lazy
+   8:    1  ->  lily
+   9:    1  ->  of
+  10:    1  ->  that
+  11:    1  ->  they
+  12:    1  ->  were
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    4  ->  cinders
+   2:    3  ->  rosa
+   3:    2  ->  ball
+   4:    2  ->  gowns
+   5:    2  ->  her
+   6:    2  ->  of
+   7:    2  ->  their
+   8:    2  ->  they
+   9:    1  ->  a
+  10:    1  ->  and
+  11:    1  ->  divine
+  12:    1  ->  dreamed
+  13:    1  ->  girls
+  14:    1  ->  had
+  15:    1  ->  hairbrushes
+  16:    1  ->  hairpins
+  17:    1  ->  jewels
+  18:    1  ->  lived
+  19:    1  ->  messenger
+  20:    1  ->  one
+  21:    1  ->  other
+  22:    1  ->  parties
+  23:    1  ->  poor
+  24:    1  ->  royal
+  25:    1  ->  sisters
+  26:    1  ->  the
+  27:    1  ->  they'd
+  28:    1  ->  unfriendly
+  29:    1  ->  very
+  30:    1  ->  wanted
+  31:    1  ->  was
+  32:    1  ->  were
+  33:    1  ->  yelled
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  on
+   4:    2  ->  rosie
+   5:    2  ->  singers
+   6:    2  ->  the
+   7:    2  ->  you
+   8:    1  ->  about
+   9:    1  ->  account
+  10:    1  ->  can't
+  11:    1  ->  cd's
+  12:    1  ->  day
+  13:    1  ->  dream
+  14:    1  ->  friendly
+  15:    1  ->  genuine
+  16:    1  ->  happens
+  17:    1  ->  heart
+  18:    1  ->  holder
+  19:    1  ->  how
+  20:    1  ->  i'm
+  21:    1  ->  indian
+  22:    1  ->  it
+  23:    1  ->  jewellery
+  24:    1  ->  lazygirls
+  25:    1  ->  live
+  26:    1  ->  loan
+  27:    1  ->  messing
+  28:    1  ->  my
+  29:    1  ->  party
+  30:    1  ->  posting
+  31:    1  ->  rosewood
+  32:    1  ->  she
+  33:    1  ->  sister's
+  34:    1  ->  their
+  35:    1  ->  this
+  36:    1  ->  twelve
+  37:    1  ->  wall
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+
