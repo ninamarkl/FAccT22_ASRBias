@@ -43,8 +43,9 @@ library(cowplot)
 
 Set path to folder: 
 
+
 ```{r, eval=FALSE}
-data_path <- 
+data_path <-
 ```
 
 # Get and prep data: 
@@ -541,7 +542,15 @@ saa_stella_long%>%
   geom_point()+ 
   scale_fill_colorblind()
 ```
+The speechrate effect observed for SAA on Amazon appears to be caused by the higher WER for exceptionally slow speakers (who may well be disfluent): 
 
+```{r}
+saa_stella_wide%>%
+  ggplot(aes(SPS_z, WER_Amazon))+ 
+  geom_point()+ 
+  geom_smooth()+ 
+  scale_fill_colorblind()
+```
 In IViE this seems to be an issue for Google but not for Amazon
 
 ```{r}
@@ -582,8 +591,16 @@ Age only varies for SAA, all IViE speakers are 16.
 
 ```{r}
 saa_stella_long%>%
-  ggplot(aes(age, WER, color = system))+ 
+  ggplot(aes(WER, age, color = system))+ 
   geom_point()
+```
+For Google, this is significant but it's also not a very clearly linear relationship: 
+
+```{r}
+saa_stella_wide%>%
+  ggplot(aes(age, WER_Google))+ 
+  geom_point()+ 
+  geom_smooth()
 ```
 
 ## L1/variety:
@@ -1112,8 +1129,8 @@ g2$layout$t[panels] <- g2$layout$t[panels] - 1
 g2$layout$b[panels] <- g2$layout$b[panels] - 1
 
 new_strips <- gtable_select(g2, panels | strips | stript)
-grid.newpage()
-grid.draw(new_strips)
+#grid.newpage()
+#grid.draw(new_strips)
 
 gtable_stack <- function(g1, g2){
   g1$grobs <- c(g1$grobs, g2$grobs)
@@ -1123,8 +1140,8 @@ gtable_stack <- function(g1, g2){
 }
 ## ideally you'd remove the old strips, for now they're just covered
 new_plot <- gtable_stack(g1, new_strips)
-grid.newpage()
-grid.draw(new_plot)
+#grid.newpage()
+#grid.draw(new_plot)
 
 ggsave("amazon_ivie_gender_horizontal.svg", new_plot, width = 6, height = 8)
 ```
@@ -1188,8 +1205,8 @@ g2$layout$t[panels] <- g2$layout$t[panels] - 1
 g2$layout$b[panels] <- g2$layout$b[panels] - 1
 
 new_strips <- gtable_select(g2, panels | strips | stript)
-grid.newpage()
-grid.draw(new_strips)
+#grid.newpage()
+#grid.draw(new_strips)
 
 gtable_stack <- function(g1, g2){
   g1$grobs <- c(g1$grobs, g2$grobs)
@@ -1199,8 +1216,8 @@ gtable_stack <- function(g1, g2){
 }
 ## ideally you'd remove the old strips, for now they're just covered
 new_plot2 <- gtable_stack(g1, new_strips)
-grid.newpage()
-grid.draw(new_plot2)
+#grid.newpage()
+#grid.draw(new_plot2)
 
 #ggsave("amazon_ivie_gender_horizontal2.svg", new_plot, width = 6, height = 8)
 ```
@@ -1252,8 +1269,8 @@ g2$layout$t[panels] <- g2$layout$t[panels] - 1
 g2$layout$b[panels] <- g2$layout$b[panels] - 1
 
 new_strips <- gtable_select(g2, panels | strips | stript)
-grid.newpage()
-grid.draw(new_strips)
+#grid.newpage()
+#grid.draw(new_strips)
 
 gtable_stack <- function(g1, g2){
   g1$grobs <- c(g1$grobs, g2$grobs)
@@ -1263,8 +1280,8 @@ gtable_stack <- function(g1, g2){
 }
 ## ideally you'd remove the old strips, for now they're just covered
 new_plot2 <- gtable_stack(g1, new_strips)
-grid.newpage()
-grid.draw(new_plot)
+#grid.newpage()
+#grid.draw(new_plot)
 
 #ggsave("amazon_ivie_gender_horizontal2.svg", new_plot, width = 6, height = 8)
 ```
@@ -1309,8 +1326,8 @@ g2$layout$t[panels] <- g2$layout$t[panels] - 1
 g2$layout$b[panels] <- g2$layout$b[panels] - 1
 
 new_strips <- gtable_select(g2, panels | strips | stript)
-grid.newpage()
-grid.draw(new_strips)
+#grid.newpage()
+##grid.draw(new_strips)
 
 gtable_stack <- function(g1, g2){
   g1$grobs <- c(g1$grobs, g2$grobs)
@@ -1320,8 +1337,8 @@ gtable_stack <- function(g1, g2){
 }
 ## ideally you'd remove the old strips, for now they're just covered
 new_plot <- gtable_stack(g1, new_strips)
-grid.newpage()
-grid.draw(new_plot)
+#grid.newpage()
+#rid.draw(new_plot)
 
 #ggsave("google_ivie_gender.svg", plot = new_plot,  width = 6, height = 8)
 ```
